@@ -5,12 +5,12 @@
 - Conflat A (needs coding)
 - Conflat B (needs coding)
 - Class 59 (code liveries and add to lang file)
-- Coronation Coaches
 - GWR Great Bear and Hall class rework
 - Class 56
 - Class 69
-- Made eyecandy, debug,  and departmental vehicles unattractive to AI
 - GWR Dean 25ft 4 Compartment Second Class (SY), Diagram S1/LA9N, Built 1871, seats 32
+- BRT Whisky CovHop (PAV) - Only variant code needed
+- Metropolitan Class G 
 
 # v2.13
 - Added LNER J70
@@ -22,13 +22,18 @@
 - Added Class 68 + Mk3 rake
 - Added Class 93
 - Added Class 99
-- Added LNER Gresley 61 Ft 6 TK teak coach
-- Added LNER Gresley 61 Ft 6 BCK teak coach
+- Added LNER Gresley 61ft6 TK teak coach
+- Added LNER Gresley 61ft6 BCK teak coach
 - Added LNER Gresley 61ft6 TPO travelling post office
 - Added LNER Gresley 61ft6 BG mail coach
 - Added GCR Robinson 50 ft mahogany coach (2 variants)
+- Added GWR Mink G goods van
 - Added BR VGA and VKA goods vans
-- Adjusted EyeCandy engine to hopefully discourage AI use
+- Added BR JIA "Polybulk" Covered Hopper
+- Added BRT PAA Covered Hopper
+- Added LNER Coronation Train Set, and individual articulated coaches
+- Added SR Bulleid Q1
+- Made eyecandy, debug, and departmental vehicles unattractive to AI (hopefully)
 - Reworked Southern Region CC Class (OG BR Class 70)
 - Added a pile of liveries for Class 66
 - Added some LNER Black 5 and Jubilee liveries
@@ -37,12 +42,15 @@
 - Added Harry Needle Orange livery for Class 37
 - Added Freightliner Orange livery for Class 70
 - Improved steam train naming conventions and consistency
+- Fixed Class 47 and 68 push pull code preventing them from reversing at all
 - Fixed some animated pixels on HST rear power car
 - Fixed some tram capacities
 - Fixed Tram parameter switch
 - Fixed Debug Mode and Simple Mode not removing some vehicles
 - Fixed Class 88 stats and introduction date
 - Fixed Class 08 having steam icon
+- Fixed misaligned tender on the BR Standard Class 9F
+- Fixed 32px reversing template being misaligned
 - Disabled Great Bear and Hall pending rework
 
 # v2.12 (2024-08-08)
