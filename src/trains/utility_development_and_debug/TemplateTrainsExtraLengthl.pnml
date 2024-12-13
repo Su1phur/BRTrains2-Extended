@@ -1,0 +1,67 @@
+spriteset(spriteset_Utility48px_Purchase, "gfx/Template/48px.png") {
+	template_purchase(0, 0)
+}
+spriteset(spriteset_Utility48px, "gfx/Template/48px.png") {
+	template_train48px(0, 13)
+}
+
+switch(FEAT_TRAINS, SELF, switch_Utility48px_graphics, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: spriteset_Utility48px;
+	2: spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, switch_length_Utility48px, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 4;
+	2: 4;
+}
+
+switch(FEAT_TRAINS, SELF, switch_articulated_Utility48px, extra_callback_info1) {
+	1: return item_UtilityTrain48px;
+	2: return item_UtilityTrain48px;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+item (FEAT_TRAINS, item_UtilityTrain48px, 611) {
+	property {
+		variant_group:					header_Debug;
+		name: 							string(STR_NAME_Utility48px);
+		climates_available: 			ALL_CLIMATES;
+		introduction_date:				date(1700,1,1);
+		model_life:						VEHICLE_NEVER_EXPIRES;
+		retire_early:					1;
+		vehicle_life:					254;
+		reliability_decay:				10;
+		refittable_cargo_classes:		0;
+		cargo_allow_refit:				[GOOD, FOOD];
+		loading_speed:					3;
+		cost_factor:					1;
+		running_cost_factor:			1;
+		sprite_id:						SPRITE_ID_NEW_TRAIN;
+		speed:							50 mph;		
+		refit_cost:						0;
+		track_type:						RAIL;
+		ai_special_flag:				AI_FLAG_CARGO;
+		power:							5000 hp;
+		running_cost_base:				RUNNING_COST_STEAM;
+		dual_headed:					0;
+		default_cargo_type:				GOOD;
+		cargo_capacity:					1;
+		weight:							1 ton;
+		engine_class:					ENGINE_CLASS_STEAM;
+		tractive_effort_coefficient:	1;
+		air_drag_coefficient:			0.1;
+		length:							8;
+        misc_flags:						bitmask(TRAIN_FLAG_SPRITE_STACK);	
+	}
+	graphics {	
+		can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
+		cargo_capacity:						return 0;
+		additional_text:					return(string(STR_DESC_Utility));
+		default: 							switch_Utility48px_graphics;    
+		purchase:							spriteset_Utility48px_Purchase;
+        length: switch_length_Utility48px;	
+        articulated_part: switch_articulated_Utility48px;
+	}
+}

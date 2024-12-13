@@ -1,7 +1,7 @@
 ﻿##grflangid 0x01
 
 # GRF name and description
-STR_GRF_NAME							:British Rail UK Set (BRTrains v2)
+STR_GRF_NAME							:British Rail UK Set - Extra Length (BRTrains v2 - XL)
 STR_GRF_DESC							:A development of the BRTrains set (based on BROS) and Modern UK Train Set (MUTS).{}{}{WHITE}The British Rail Set (BRTrains v2){COPYRIGHT}2020 {LTBLUE}Audigex{WHITE}{}MUTS {COPYRIGHT}2020 {LTBLUE}KubaP {WHITE}& {GREEN}AlmostCthulhu{WHITE}{}BRTrains (v1) {COPYRIGHT}2015+ {LTBLUE}Leander {WHITE}& {GREEN}BROS Artists{}{}{WHITE}License: {LTBLUE}GPL v2
 
 # Concat without spaces etc
@@ -201,6 +201,7 @@ STR_NAME_Utility28px                    :DEBUG UNIT 28px alignment/test unit
 STR_NAME_Utility32px                    :DEBUG UNIT 32px alignment/test unit
 STR_NAME_Utility28pxOLD                 :DEBUG UNIT 28px alignment/test unit (OLD TEMPLATE)
 STR_NAME_Utility32pxOLD                 :DEBUG UNIT 32px alignment/test unit (OLD TEMPLATE)
+STR_NAME_Utility48px                    :DEBUG UNIT 48px alignment/test unit
 STR_DESC_Utility                        :This unit is used to debug alignment and scale issues with the set, and is only visible with the Developer Mode parameter enabled. It is not intended for gameplay use
 
 STR_NAME_EyeCandy                       :Invisible Locomotive (Eyecandy)
