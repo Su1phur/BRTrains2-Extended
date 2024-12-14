@@ -149,14 +149,14 @@ template template_empty (x,y) { // GETS
 
 template template_train48px(x,y){
     // left_x, upper_y, width, height, offset_x, offset_y
-    [x,     y,  8,  33, -3,  -19,      NOANIM] //n
-    [x+9,   y,  28, 22, -15,  -14,      NOANIM] //ne
-    [x+38,  y,  49, 13, -15,  -9,      NOANIM] //e
-    [x+88,  y,  28, 22, -5,  -11,      NOANIM] //se
-    [x+117, y,  8,  33, -3,  -12,      NOANIM] //s
-    [x+126, y,  28, 22, -15,  -14,      NOANIM] //sw
-    [x+155, y,  49, 13, -20,  -9,      NOANIM] //w
-    [x+205, y,  28, 22, -5,  -11,      NOANIM] //nw
+    [x,     y,  8,  33, -3,  -20,      NOANIM] //n
+    [x+9,   y,  30, 23, -13,  -16,      NOANIM] //ne
+    [x+40,  y,  49, 13, -20,  -9,      NOANIM] //e
+    [x+90,  y,  30, 23, -5,  -12,      NOANIM] //se
+    [x+121, y,  8,  33, -3,  -19,      NOANIM] //s
+    [x+130, y,  30, 23, -21,  -12,      NOANIM] //sw
+    [x+161, y,  49, 13, -31,  -9,      NOANIM] //w
+    [x+211, y,  30, 23, -13,  -15,      NOANIM] //nw
 }
 
 //////////////////////////////////////////////////////////////////////////////

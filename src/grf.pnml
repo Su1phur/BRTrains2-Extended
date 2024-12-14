@@ -1,7 +1,7 @@
 // GRF definition block
 grf {
-	grfid: "brx2"; // BRTrains v2, based on BRTrains, BROS, and the Modern UK Trains set (addon to BRTrains)
-	name: string(STR_GRF_NAME);
+    grfid: "brx2"; // BRTrains v2, based on BRTrains, BROS, and the Modern UK Trains set (addon to BRTrains)
+    name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESC);
 	// Remove the "2." from the "real" version, eg v2.8 becomes 9
 	// 12 (2.12) released BaNaNaS 	2024-08-08T02:30:23
