@@ -10,6 +10,9 @@ conf.ps1
 *.cache
 *.cacheindex
 
+#Storing gfx here instead of in WIP folder for laziness
+*.xcf
+
 # Test files
 *test*
 
