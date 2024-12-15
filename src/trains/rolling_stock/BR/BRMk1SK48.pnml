@@ -62,7 +62,7 @@ item (FEAT_TRAINS, item_BRMk1SK48, 719) {
         cost_factor:	                    return(GetAdjustedCost(49));
 
         default: 							switch_BRMk1SK48_graphics;
-
+		
         purchase:							spriteset_BRMk1SK48_Purchase;
 
         length:                             switch_length_BRMk1SK48;
