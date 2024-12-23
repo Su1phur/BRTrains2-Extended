@@ -1,9 +1,15 @@
 spriteset(spriteset_Utility48px_Purchase, "gfx/Template/48px.png") {
 	template_purchase(0, 0)
 }
-spriteset(spriteset_Utility48px, "gfx/Template/48px.png") {
-	template_train48px(0, 13)
-}
+
+spriteset(spriteset_Utility48px, "gfx/Template/48px.png") 
+	{ template_train48px(0, 13) }
+
+alternative_sprites(spriteset_Utility48px, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Template/48px_1x_32.png", "gfx/Template/48px_1x_32_mask.png")
+	{ template_train48px(0, 13) }
+
+alternative_sprites (spriteset_Utility48px, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Template/48px_2x_32.png", "gfx/Template/48px_2x_32_mask.png")
+	{ template_train48px_2x(0, 28) }
 
 switch(FEAT_TRAINS, SELF, switch_Utility48px_graphics, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
@@ -25,7 +31,8 @@ switch(FEAT_TRAINS, SELF, switch_articulated_Utility48px, extra_callback_info1) 
 
 item (FEAT_TRAINS, item_UtilityTrain48px, 611) {
 	property {
-		variant_group:					header_Debug;
+		// common properties
+		// variant_group:					header_Debug;
 		name: 							string(STR_NAME_Utility48px);
 		climates_available: 			ALL_CLIMATES;
 		introduction_date:				date(1700,1,1);
@@ -37,14 +44,16 @@ item (FEAT_TRAINS, item_UtilityTrain48px, 611) {
 		cargo_allow_refit:				[GOOD, FOOD];
 		loading_speed:					3;
 		cost_factor:					1;
+		running_cost_base:				RUNNING_COST_STEAM;
 		running_cost_factor:			1;
+
+		//Train specific properties
 		sprite_id:						SPRITE_ID_NEW_TRAIN;
 		speed:							50 mph;		
 		refit_cost:						0;
 		track_type:						RAIL;
 		ai_special_flag:				AI_FLAG_CARGO;
 		power:							5000 hp;
-		running_cost_base:				RUNNING_COST_STEAM;
 		dual_headed:					0;
 		default_cargo_type:				GOOD;
 		cargo_capacity:					1;
@@ -56,12 +65,14 @@ item (FEAT_TRAINS, item_UtilityTrain48px, 611) {
         misc_flags:						bitmask(TRAIN_FLAG_SPRITE_STACK);	
 	}
 	graphics {	
-		can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
-		cargo_capacity:						return 0;
-		additional_text:					return(string(STR_DESC_Utility));
-		default: 							switch_Utility48px_graphics;    
-		purchase:							spriteset_Utility48px_Purchase;
-        length: switch_length_Utility48px;	
-        articulated_part: switch_articulated_Utility48px;
+		additional_text:				return(string(STR_DESC_Utility));
+        articulated_part: 				switch_articulated_Utility48px;
+
+		can_attach_wagon:				CB_RESULT_ATTACH_ALLOW;
+		cargo_capacity:					return 0;
+
+		default: 						switch_Utility48px_graphics;    
+		purchase:						spriteset_Utility48px_Purchase;
+        length: 						switch_length_Utility48px;	
 	}
 }
