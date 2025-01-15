@@ -1,8 +1,8 @@
-spriteset(spriteset_BRMk1SK48_Purchase, "gfx/Rolling Stock/Mk1/BR_Mk1_SK_48px.png") {
+spriteset(spriteset_BRMk1SK48_Purchase, "gfx/Rolling Stock/Mk1/SK_48px/BR_Mk1_SK_48px.png") {
 	template_purchase(0, 0)
 }
 
-spriteset(spriteset_BRMk1SK48_BRCrimCream, "gfx/Rolling Stock/Mk1/BR_Mk1_SK_48px.png") {
+spriteset(spriteset_BRMk1SK48_BRCrimCream, "gfx/Rolling Stock/Mk1/SK_48px/BR_Mk1_SK_48px.png") {
 	template_train48px(0, 13)
 }
 
