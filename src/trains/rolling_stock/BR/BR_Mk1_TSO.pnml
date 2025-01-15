@@ -1,0 +1,123 @@
+spriteset(spriteset_BR_Mk1_TSO_BRMaroon, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_8bpp.png")
+	{ template_128trains_1x(0,0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_mask.png")
+		{ template_128trains_1x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
+	"gfx_vox/Ccoaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_2x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_2x_mask.png")
+		{ template_128trains_2x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
+	"gfx_vox/Ccoaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_4x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_4x_mask.png")
+		{ template_128trains_4x(0, 0) }
+
+
+spriteset (spriteset_BR_Mk1_TSO_BRMaroon_Loading, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_1x_8bpp.png")
+	{ template_128trains_1x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_1x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_1x_mask.png")
+		{ template_128trains_1x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_2x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_2x_mask.png")
+		{ template_128trains_2x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_4x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_4x_mask.png")
+		{ template_128trains_4x(0, 0) }
+
+
+
+spritegroup spritegroup_BR_Mk1_TSO_BRMaroon_Loading
+	{ 	loaded: [spriteset_empty];
+		loading: [spriteset_BR_Mk1_TSO_BRMaroon_Loading]; }
+
+
+switch(FEAT_TRAINS, SELF, switch_loadstack_BR_Mk1_TSO_BRMaroon,
+[ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100),
+	getbits(extra_callback_info1, 8, 8) ] )
+	{ 	0: spriteset_BR_Mk1_TSO_BRMaroon;
+		1: spritegroup_BR_Mk1_TSO_BRMaroon_Loading; }
+
+
+spriteset(spriteset_BR_Mk1_TSO_purchase, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_8bpp.png")
+	{ template_purchase(0,0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TSO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_mask.png")
+		{ template_purchase(0, 0) }
+
+switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_48, cargo_subtype) {
+    0: switch_loadstack_BR_Mk1_TSO_BRMaroon;
+}
+
+switch(FEAT_TRAINS, SELF, switch_BR_Mk1_TSO_48_graphics, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_BR_Mk1_TSO_48;
+	2: spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TSO_48, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 4;
+	2: 4;
+}
+
+switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO_48, extra_callback_info1) {
+	1: return item_BR_Mk1_TSO;
+	2: return item_BR_Mk1_TSO;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+item (FEAT_TRAINS, item_BR_Mk1_TSO, 720) { # D93/94 BR Mk1 TSO
+    property {
+		name: 							string(STR_NAME_BRMk1TSO);
+		climates_available: 			ALL_CLIMATES;
+		introduction_date:				date(1952,4,21);
+		model_life:						100;
+		cargo_allow_refit:				[PASS, TOUR];
+		loading_speed:					10;
+		cost_factor:					49;
+		running_cost_factor:			17;
+		power:							0;
+		sprite_id:						SPRITE_ID_NEW_TRAIN;
+		refit_cost:						0;
+		running_cost_base:				RUNNING_COST_STEAM;
+		default_cargo_type:				PASS;
+		cargo_capacity:					48;
+		weight:							32 ton;
+		length:							8;
+		bitmask_vehicle_info:			0;
+		cargo_age_period:				185;
+        misc_flags:						bitmask(TRAIN_FLAG_SPRITE_STACK);	
+	}
+	graphics {
+        additional_text:					return(string(str_purchase_coach,string(str_BRMk1SK_liveries)));
+        articulated_part:                   switch_articulated_BR_Mk1_TSO_48;
+
+        can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
+        cargo_capacity:                     return(64 * param_pax);
+        cargo_subtype_text:					sw_BRMk1_cargo_subtype_text;
+        colour_mapping: 					return PALETTE_CC_FIRST;
+        cost_factor:	                    return(GetAdjustedCost(49));
+
+        default: 							switch_BR_Mk1_TSO_48_graphics;
+		
+        purchase:							spriteset_BR_Mk1_TSO_purchase;
+
+        length:                             switch_length_BR_Mk1_TSO_48;
+
+        running_cost_factor:                return(GetAdjustedCost(17));
+
+    }
+}
