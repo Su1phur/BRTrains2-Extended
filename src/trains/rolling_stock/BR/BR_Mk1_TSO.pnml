@@ -1,78 +1,82 @@
-spriteset(spriteset_BR_Mk1_TSO_BRMaroon, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_8bpp.png")
+# basic sprites
+# BR Maroon
+spriteset(spriteset_BR_Mk1_TSO_BR_Maroon, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_8bpp.png")
 	{ template_128trains_1x(0,0) }
 
-	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_mask.png")
+	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_mask.png")
 		{ template_128trains_1x(0, 0) }
 
-	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
-	"gfx_vox/Ccoaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_2x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_2x_mask.png")
+	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
+	"gfx_vox/Ccoaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_2x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_2x_mask.png")
 		{ template_128trains_2x(0, 0) }
 
-	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
-	"gfx_vox/Ccoaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_4x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_4x_mask.png")
+	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
+	"gfx_vox/Ccoaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_4x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_4x_mask.png")
 		{ template_128trains_4x(0, 0) }
 
-
-spriteset (spriteset_BR_Mk1_TSO_BRMaroon_Loading, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_1x_8bpp.png")
+spriteset (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_1x_8bpp.png")
 	{ template_128trains_1x(0, 0) }
 
-	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_1x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_1x_mask.png")
+	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_1x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_1x_mask.png")
 		{ template_128trains_1x(0, 0) }
 
-	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_2x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_2x_mask.png")
+	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_2x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_2x_mask.png")
 		{ template_128trains_2x(0, 0) }
 
-	alternative_sprites (spriteset_BR_Mk1_TSO_BRMaroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_4x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_Loading_4x_mask.png")
+	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_4x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_4x_mask.png")
 		{ template_128trains_4x(0, 0) }
 
-
-
-spritegroup spritegroup_BR_Mk1_TSO_BRMaroon_Loading
+spritegroup spritegroup_BR_Mk1_TSO_BR_Maroon_Loading
 	{ 	loaded: [spriteset_empty];
-		loading: [spriteset_BR_Mk1_TSO_BRMaroon_Loading]; }
+		loading: [spriteset_BR_Mk1_TSO_BR_Maroon_Loading]; }
 
 
-switch(FEAT_TRAINS, SELF, switch_loadstack_BR_Mk1_TSO_BRMaroon,
+# loading sprite stacking switch
+switch(FEAT_TRAINS, SELF, switch_loadstack_BR_Mk1_TSO_BR_Maroon,
 [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100),
 	getbits(extra_callback_info1, 8, 8) ] )
-	{ 	0: spriteset_BR_Mk1_TSO_BRMaroon;
-		1: spritegroup_BR_Mk1_TSO_BRMaroon_Loading; }
+	{ 	0: spriteset_BR_Mk1_TSO_BR_Maroon;
+		1: spritegroup_BR_Mk1_TSO_BR_Maroon_Loading; }
 
-
-spriteset(spriteset_BR_Mk1_TSO_purchase, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_8bpp.png")
+# purchase sprite switch
+spriteset(spriteset_BR_Mk1_TSO_purchase, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_8bpp.png")
 	{ template_purchase(0,0) }
 
 	alternative_sprites (spriteset_BR_Mk1_TSO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_32bpp.png",
-	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BRMaroon_1x_mask.png")
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_32bpp.png",
+	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_mask.png")
 		{ template_purchase(0, 0) }
 
+# livery switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_48, cargo_subtype) {
-    0: switch_loadstack_BR_Mk1_TSO_BRMaroon;
+    0: switch_loadstack_BR_Mk1_TSO_BR_Maroon;
 }
 
+# graphics switch
 switch(FEAT_TRAINS, SELF, switch_BR_Mk1_TSO_48_graphics, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
 	1: return sw_BR_Mk1_TSO_48;
 	2: spriteset_empty;
 }
 
+# length switch
 switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TSO_48, position_in_articulated_veh % 3) {
 	0: 4;
 	1: 4;
 	2: 4;
 }
 
+# articulation switch
 switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO_48, extra_callback_info1) {
 	1: return item_BR_Mk1_TSO;
 	2: return item_BR_Mk1_TSO;
