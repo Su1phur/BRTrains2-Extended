@@ -50,16 +50,22 @@ switch(FEAT_TRAINS, SELF, switch_loadstack_BR_Mk1_TSO_BR_Maroon,
 
 # purchase sprite switch
 spriteset(spriteset_BR_Mk1_TSO_purchase, "gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_8bpp.png")
-	{ template_purchase(0,0) }
+	{ template_purchase_GETS(0,0) }
 
 	alternative_sprites (spriteset_BR_Mk1_TSO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_32bpp.png",
 	"gfx_vox/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_mask.png")
-		{ template_purchase(0, 0) }
+		{ template_purchase_GETS(0, 0) }
 
 # livery switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_48, cargo_subtype) {
     0: switch_loadstack_BR_Mk1_TSO_BR_Maroon;
+}
+
+# livery name switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_48_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRMaroon);
+       return CB_RESULT_NO_TEXT;
 }
 
 # graphics switch
