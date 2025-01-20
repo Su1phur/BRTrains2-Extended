@@ -1,23 +1,24 @@
 // basic sprites
 // BR Blue, small yellow panels
-spriteset(spriteset_BR52_BRBlue_small_yellow, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
-    { template_128trains_1x{0,0} }
+spriteset (spriteset_BR52_BRBlue_small_yellow, "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png") {
+	template_128trains_1x(0,0)
+}
 
-    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
-        { template_128trains_1x{0,0} }
+    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
+        { template_128trains_1x(0, 0) }
 
-    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_2x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_2x_mask.png")
-        { template_128trains_2x{0,0} }
+    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_2x_32bpp.png", "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_2x_mask.png")
+        { template_128trains_2x(0, 0) }
 
-    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_4x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_4x_mask.png")
-        { template_128trains_4x{0,0} }
+    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_4x_32bpp.png", "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_4x_mask.png")
+        { template_128trains_4x(0, 0) }
 
 // purchase sprite switch
-spriteset(spriteset_BR52_48_purchase, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_48_purchase, "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
     { template_purchase_GETS(0,0) }
 
-    alternative_sprites (spriteset_BR52_48_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
-        { template_purchase_GETS{0,0} }
+    alternative_sprites (spriteset_BR52_48_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx_vox/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
+        { template_purchase_GETS(0, 0) }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR52_48, cargo_subtype) {
