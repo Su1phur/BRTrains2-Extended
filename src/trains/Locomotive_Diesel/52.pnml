@@ -15,10 +15,10 @@ spriteset (spriteset_BR52_BRBlue_small_yellow, "gfx/Locomotive_Diesel/BR52_Weste
 
 // purchase sprite switch
 spriteset(spriteset_BR52_purchase, "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
-    { template_purchase_GETS(0,0) }
+    { template_purchase(0,0) }
 
     alternative_sprites (spriteset_BR52_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
-        { template_purchase_GETS(0, 0) }
+        { template_purchase(0, 0) }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR52, cargo_subtype) {

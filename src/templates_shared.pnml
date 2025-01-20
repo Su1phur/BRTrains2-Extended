@@ -13,7 +13,7 @@ template template_mu_purchase(x,y){
     [ ]
 }
 
-template template_purchase(x,y){
+template template_shared_purchase(x,y){
     //xpos, ypos,   width,  height, xoffset, yoffset,   Flags
     [x,     y,      87,     12,     -25,   -8,          NOANIM|NOWHITE]
 }
