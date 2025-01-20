@@ -1,52 +1,58 @@
-# basic sprites
-# BR Blue, small yellow panels
-spriteset(spriteset_BR52_BRBlue_small_yellow, "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
+// basic sprites
+// BR Blue, small yellow panels
+spriteset(spriteset_BR52_BRBlue_small_yellow, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
     { template_128trains_1x{0,0} }
 
-    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png",
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
+    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
         { template_128trains_1x{0,0} }
 
-    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP,
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_2x_32bpp.png",
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_2x_mask.png")
-        { template_128trains_1x{0,0} }
+    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_2x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_2x_mask.png")
+        { template_128trains_2x{0,0} }
 
-    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_4x_32bpp.png",
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_4x_mask.png")
-        { template_128trains_1x{0,0} }
+    alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_4x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_4x_mask.png")
+        { template_128trains_4x{0,0} }
 
-# purchase sprite switch
-spriteset(spriteset_BR52_48_purchase, "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
+// purchase sprite switch
+spriteset(spriteset_BR52_48_purchase, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png")
     { template_purchase_GETS(0,0) }
 
-    alternative_sprites (spriteset_BR52_48_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png",
-    "gfx_vox/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
+    alternative_sprites (spriteset_BR52_48_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
         { template_purchase_GETS{0,0} }
 
-# livery switch
-switch(FEAT_TRAINS, SELF, sw_BR52_48, cargo_subtype) {
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR52_48, cargo_subtype) {
     0: spriteset_BR52_BRBlue_small_yellow;
 }
 
-# livery name switch
+// livery name switch
 switch(FEAT_TRAINS, SELF, sw_BR52_48_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlue);
        return CB_RESULT_NO_TEXT;
 }
 
-# length switch
-switch(FEAT_TRAINS, SELF, switch_length_BR52_48, position_in_articulated_veh % 3) {
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR52_48, position_in_vehid_chain % 3) {
 	0: 4;
 	1: 4;
 	2: 4;
 }
 
-# articulation switch
-switch(FEAT_TRAINS, SELF, switch_articulated_BR52_48, extra_callback_info1) {
+// fx disable switch
+switch(FEAT_TRAINS, SELF, sw_FX_BR52_48, position_in_vehid_chain % 3) {
+	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+	1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+		return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR52_48, position_in_vehid_chain % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR52_48;
+	2: spriteset_empty;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR52_48, extra_callback_info1) {
 	1: return item_BR52_48;
 	2: return item_BR52_48;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -54,6 +60,7 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR52_48, extra_callback_info1) {
 
 item (FEAT_TRAINS, item_BR52_48, 721) {
 	property {
+		// common properties
 		name: 							string(STR_NAME_BR52);
 		climates_available: 			ALL_CLIMATES;
 		introduction_date:				date(1961,1,1);
@@ -62,40 +69,53 @@ item (FEAT_TRAINS, item_BR52_48, 721) {
 		vehicle_life:					50;
 		reliability_decay:				6;
 		refittable_cargo_classes:		0;
-		cargo_allow_refit:				[GOOD, FOOD];
+		cargo_allow_refit:				[PASS];
 		loading_speed:					3;
 		cost_factor:					41;
 		running_cost_factor:			43;
+		
+		// specific properties
 		sprite_id:						SPRITE_ID_NEW_TRAIN;
 		speed:							90 mph;
 		refit_cost:						0;
 		track_type:						RAIL;
 		ai_special_flag:				AI_FLAG_CARGO;
-		power:							1350 hp;
+		power:							2700 hp;
 		running_cost_base:				RUNNING_COST_DIESEL;
 		dual_headed:					0;
 		default_cargo_type:				GOOD;
 		cargo_capacity:					1;
 		weight:							108 ton;
 		engine_class:					ENGINE_CLASS_DIESEL;
+		visual_effect_and_powered:		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
 		tractive_effort_coefficient:	0.355;
 		air_drag_coefficient:			0.05;
 		length:							8;
 		effect_spawn_model_and_powered:	EFFECT_SPAWN_MODEL_DIESEL;
 		extra_weight_per_wagon:			0;
 		bitmask_vehicle_info:			0;
-        misc_flags:						bitmask(TRAIN_FLAG_SPRITE_STACK);	
 	}
 
 	graphics {
-        additional_text:					return(string(str_purchase_loco_with_liveries,string(str_purchase_type_diesel),string(str_BR52_usage),string(str_BR52_eos),string(str_BR52_liveries)));
-        can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
+        additional_text:					return(	string(str_purchase_loco_with_liveries,
+													string(str_purchase_type_diesel),
+													string(str_BR52_usage),
+													string(str_BR52_eos),
+													string(str_BR52_liveries)));
+        
+		can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
         cargo_capacity:						return 0;
         cargo_subtype_text:					sw_BR52_48_cargo_subtype_text;
-        default: 							sw_BR52_48;
-        purchase:							spriteset_BR52_48_purchase;
-        colour_mapping: 					return PALETTE_CC_FIRST;
+		colour_mapping: 					return PALETTE_CC_FIRST;
         create_effect:						diesel_create_visual_effect;
+        
+		default: 							sw_graphics_BR52_48;
+		purchase:							spriteset_BR52_48_purchase;
+        
+		length:								sw_length_BR52_48;
+		articulated_part:					sw_articulated_BR52_48;
+		visual_effect_and_powered:			sw_FX_BR52_48;
+
         sound_effect:						sw_deltic_sound;
         cost_factor:	                    return(GetAdjustedCost(38));
         running_cost_factor:                return(GetAdjustedCost(37));

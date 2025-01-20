@@ -14,6 +14,6 @@ alternative_sprites (spriteset_empty, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Em
 //32bpp 2x zoom
     {template_empty(0, 0)}				
 			
-// alternative_sprites (spriteset_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Empty/empty_pallette_4x_32bpp.png", "gfx/Empty/empty_pallette_4x_mask.png")
-// //32bpp 4x zoom
-// 				{template_empty(0, 0)}
+alternative_sprites (spriteset_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Empty/empty_pallette_4x_32bpp.png", "gfx/Empty/empty_pallette_4x_mask.png")
+//32bpp 4x zoom
+ 	{template_empty(0, 0)}
