@@ -52,7 +52,6 @@ spriteset(spriteset_BR380_DMSO_ScotRail_REV, "gfx/EMU/BR380_Desiro/BR380_Desiro_
     alternative_sprites(spriteset_BR380_DMSO_ScotRail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_4x_mask.png")
     { template_148trains_REV_4x(0,0) }
 
-
 // Pantograph Trailer Standard Open, Reversed
 spriteset(spriteset_BR380_PTSO_ScotRail_REV, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_8bpp.png")
     { template_148trains_REV_1x(0,0) }
@@ -79,6 +78,21 @@ spriteset(spriteset_BR380_TSO_ScotRail_REV, "gfx/EMU/BR380_Desiro/BR380_Desiro_T
     alternative_sprites(spriteset_BR380_TSO_ScotRail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_4x_mask.png")
     { template_148trains_REV_4x(0,0) }
 
+
+// Loading
+spriteset(spriteset_BR380_Loading, "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+
 // purchase sprite
 spriteset(spriteset_BR380_purchase, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_8bpp.png")
     { template_purchase(0,0) }
@@ -86,41 +100,77 @@ spriteset(spriteset_BR380_purchase, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_Scot
     alternative_sprites(spriteset_BR380_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_mask.png")
     { template_purchase(0,0) }
 
+
 // loading switches
+spritegroup spritegroup_BR380_ScotRail_loading {
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR380_Loading];
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR380_ScotRail_DMSO, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR380_DMSO_ScotRail;
+    1: spritegroup_BR380_ScotRail_loading;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR380_ScotRail_PTSO, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR380_PTSO_ScotRail;
+    1: spritegroup_BR380_ScotRail_loading;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR380_ScotRail_TSO, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR380_TSO_ScotRail;
+    1: spritegroup_BR380_ScotRail_loading;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR380_ScotRail_DMSO_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR380_DMSO_ScotRail_REV;
+    1: spritegroup_BR380_ScotRail_loading;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR380_ScotRail_PTSO_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR380_PTSO_ScotRail_REV;
+    1: spritegroup_BR380_ScotRail_loading;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR380_ScotRail_TSO_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR380_TSO_ScotRail_REV;
+    1: spritegroup_BR380_ScotRail_loading;
+}
 
 
 // reversing switches
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_PTSO_ScotRail, vehicle_is_reversed) {
-    0: spriteset_BR380_PTSO_ScotRail;
-        spriteset_BR380_PTSO_ScotRail_REV;
+    0: sw_loadstack_BR380_ScotRail_PTSO;
+        sw_loadstack_BR380_ScotRail_PTSO_REV;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_1_PTSO_ScotRail, vehicle_is_reversed) {
-    0: spriteset_BR380_PTSO_ScotRail;
-        spriteset_BR380_TSO_ScotRail_REV;
+    0: sw_loadstack_BR380_ScotRail_PTSO;
+        sw_loadstack_BR380_ScotRail_TSO_REV;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_1_TSO_ScotRail, vehicle_is_reversed) {
-    0: spriteset_BR380_TSO_ScotRail;
-        spriteset_BR380_PTSO_ScotRail_REV;
+    0: sw_loadstack_BR380_ScotRail_TSO;
+        sw_loadstack_BR380_ScotRail_PTSO_REV;
 }
+
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR380_0_ScotRail, position_in_vehid_chain % 9){
     0: spriteset_empty;
-    1: return spriteset_BR380_DMSO_ScotRail;
+    1: return sw_loadstack_BR380_ScotRail_DMSO;
     2: spriteset_empty;
     3: spriteset_empty;
     4: return sw_reverse_BR380_PTSO_ScotRail;
     5: spriteset_empty;
     6: spriteset_empty;
-    7: return spriteset_BR380_DMSO_ScotRail_REV;
+    7: return sw_loadstack_BR380_ScotRail_DMSO_REV;
     8: spriteset_empty;
 }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR380_1_ScotRail, position_in_vehid_chain % 12){
     0: spriteset_empty;
-    1: return spriteset_BR380_DMSO_ScotRail;
+    1: return sw_loadstack_BR380_ScotRail_DMSO;
     2: spriteset_empty;
     3: spriteset_empty;
     4: return sw_reverse_BR380_1_PTSO_ScotRail;
@@ -129,9 +179,10 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR380_1_ScotRail, position_in_vehid_chain 
     7: return sw_reverse_BR380_1_TSO_ScotRail;
     8: spriteset_empty;
     9: spriteset_empty;
-    10: return spriteset_BR380_DMSO_ScotRail_REV;
+    10: return sw_loadstack_BR380_ScotRail_DMSO_REV;
     11: spriteset_empty;
 }
+
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR380_0, cargo_subtype) {
@@ -142,20 +193,13 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR380_1, cargo_subtype) {
     0: sw_graphics_BR380_1_ScotRail;
 }
 
+
 // livery name switch
 switch(FEAT_TRAINS, SELF, sw_BR380_cargo_subtype_text, cargo_subtype) {
     0: return string(str_ScotRailSaltire);
         return CB_RESULT_NO_TEXT;
 }
 
-// weight switch, metric tonnes
-// switch(FEAT_TRAINS, SELF, sw_weight_BR_380_0, position_in_vehid_chain % 9) {
-//     0:      132.8;
-// }
-
-// switch(FEAT_TRAINS, SELF, sw_weight_BR_380_1, position_in_vehid_chain % 12) {
-//     0:      167.5
-// }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR380_0, position_in_vehid_chain % 9) {
@@ -187,11 +231,15 @@ switch(FEAT_TRAINS, SELF, sw_length_BR380_1, position_in_vehid_chain % 12) {
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR380_0, position_in_vehid_chain % 9) {
-    0: 191;
+    0: 183;
+    1..8: 1;
+    // total 191
 }
 
 switch(FEAT_TRAINS, SELF, sw_capacity_BR380_1, position_in_vehid_chain % 12) {
-    0: 265;
+    0: 254;
+    1..11: 1;
+    // total 265
 }
 
 // fx disable switch
@@ -241,7 +289,7 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
         name:                           string(STR_NAME_BR380_0);
         // variant_group:                  ; // unit ID or item
         // extra_flags:                    ;
-        climates_available:              ALL_CLIMATES;
+        climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010,08,01);
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
@@ -261,7 +309,7 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
         refit_cost:                     0;
         track_type:                     ELRL;
         power:                          2000 kW;
-        weight:                         40 ton;
+        weight:                         132.8 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         dual_headed:                    0;
         tractive_effort_coefficient:    0.3;
@@ -276,9 +324,8 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
 
         // internal code
         length:                         sw_length_BR380_0;
-        // weight:                         sw_weight_BR_380_0;
         articulated_part:               sw_articulated_BR380_0;
-        purchase_cargo_capacity:        sw_capacity_BR380_0;
+        purchase_cargo_capacity:        191;
         cargo_capacity:                 sw_capacity_BR380_0;
         cost_factor:                    return(GetAdjustedCost(30));
         running_cost_factor:            return(GetAdjustedCost(30));
@@ -301,7 +348,7 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
         name:                           string(STR_NAME_BR380_1);
         variant_group:                  ITEM_BR380_0; // unit ID or item
         extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
-        climates_available:              ALL_CLIMATES;
+        climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010,08,01);
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
@@ -321,7 +368,7 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
         refit_cost:                     0;
         track_type:                     ELRL;
         power:                          2000 kW;
-        weight:                         40 ton;
+        weight:                         167.5 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         dual_headed:                    0;
         tractive_effort_coefficient:    0.3;
@@ -336,7 +383,6 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
 
         // internal code
         length:                         sw_length_BR380_1;
-        //weight:                         sw_weight_BR_380_1;
         articulated_part:               sw_articulated_BR380_1;
         purchase_cargo_capacity:        sw_capacity_BR380_1;
         cargo_capacity:                 sw_capacity_BR380_1;
