@@ -1,5 +1,5 @@
 spriteset(spriteset_BRMk1SK48_Purchase, "gfx/Coaches/BR_Mk1_SK/BR_Mk1_SK_48px.png") {
-	template_purchase(0, 0)
+	template_shared_purchase(0, 0)
 }
 
 spriteset(spriteset_BRMk1SK48_BRCrimCream, "gfx/Coaches/BR_Mk1_SK/BR_Mk1_SK_48px.png") {

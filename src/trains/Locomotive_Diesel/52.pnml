@@ -1,8 +1,7 @@
 // basic sprites
 // BR Blue, small yellow panels
-spriteset (spriteset_BR52_BRBlue_small_yellow, "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png") {
-	template_128trains_1x(0,0)
-}
+spriteset (spriteset_BR52_BRBlue_small_yellow, "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_8bpp.png") 
+	{ template_128trains_1x(0,0) }
 
     alternative_sprites (spriteset_BR52_BRBlue_small_yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_32bpp.png", "gfx/Locomotive_Diesel/BR52_Western/BR52_Western_BRBlue_Small_Yellow_1x_mask.png")
         { template_128trains_1x(0, 0) }

@@ -1,8 +1,8 @@
 ﻿##grflangid 0x01
 
 # GRF name and description
-STR_GRF_NAME							:British Rail UK Set - Extra Length (BRTrains v2 - XL)
-STR_GRF_DESC							:A development of the BRTrains set (based on BROS) and Modern UK Train Set (MUTS).{}{}{WHITE}The British Rail Set (BRTrains v2){COPYRIGHT}2020 {LTBLUE}Audigex{WHITE}{}MUTS {COPYRIGHT}2020 {LTBLUE}KubaP {WHITE}& {GREEN}AlmostCthulhu{WHITE}{}BRTrains (v1) {COPYRIGHT}2015+ {LTBLUE}Leander {WHITE}& {GREEN}BROS Artists{}{}{WHITE}License: {LTBLUE}GPL v2
+STR_GRF_NAME	:British Rail Extended Train Set (BRETS)
+STR_GRF_DESC    :{GOLD}British Rail Extended Train Set{}{BLACK}An extended length, 4x zoom, real livery train set.{}{}{GOLD}Developer: {LTBLUE}Su1phur{}{BLACK}Special Thanks to:{GOLD}Timberwolf{BLACK},{}{GOLD}GarlicBread42 and The GETS Team{BLACK},{}{GOLD}Audigex and The BRTrainsV2 Team{BLACK},{}{GOLD}andythenorth, Simozzz, Emperor Jake, 2TallTyler{BLACK} and the whole {RED}Discord{BLACK}-community.
 
 # Concat without spaces etc
 STR_CONCAT_2	:{STRING}{STRING}
@@ -1152,6 +1152,12 @@ STR_NAME_BR374					:BR Class 374 "Velaro" (16-car)
 str_BR374_usage					:International Passenger
 str_BR374_eos					:---
 str_BR374_liveries				:Eurostar
+
+STR_NAME_BR380_0                :BR Class 380/0 "Desiro" (3-car)
+STR_NAME_BR380_1                :BR Class 380/1 "Desiro" (4-car)
+str_BR380_usage                 :Passenger
+str_BR380_eos                   :---
+str_BR380_liveries              :ScotRail Saltire
 
 STR_NAME_BR411					:BR Class 411 "4-CEP"
 str_BR411_usage					:Passenger

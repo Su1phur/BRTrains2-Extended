@@ -1,0 +1,207 @@
+// All the possible code you would ever need/want for a unit!
+// for spritesets and switches,
+//      copy and paste, then find and replace all "_UNIT" with your intended unit name, filling in the needed information
+// for the unit definition, 
+//      copy and paste, comment out/uncomment, filling in the needed information
+
+// basic sprites
+spriteset(spriteset_UNIT, "")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "", "")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "", "")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "", "")
+    { template_trains_4x(0,0) }
+
+
+// purchase sprite
+spriteset(spriteset_UNIT_purchase, "")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_UNIT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "", "")
+    { template_purchase(0,0) }
+
+
+// loading sprite
+spritegroup spritegroup_UNIT_Loading
+    {   loaded: [spriteset_empty];
+        loading: [spriteset_UNIT_Loading]; }
+
+switch(FEAT_TRAINS, SELF, switch_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_UNIT;
+    1: spritegroup_UNIT_Loading;
+}
+
+// FX effects
+
+switch(FEAT_TRAINS, SELF, switch_FX_UNIT_Diesel, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+    
+switch(FEAT_TRAINS, SELF, switch_FX_UNIT_Electric, position_in_vehid_chain % 3) { // front catenary
+    0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_FX_UNIT_Electric, position_in_vehid_chain % 3) { // middle catenary
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);	
+}
+
+switch(FEAT_TRAINS, SELF, switch_FX_UNIT_Electric, position_in_vehid_chain % 3) { // rear catenary
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_FX_UNIT_Steam, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+
+// animation sprite stacking
+switch (FEAT_TRAINS, SELF, switch_animation_UNIT, motion_counter % 4) {
+    0: spriteset_UNIT_anim1;
+    1: spriteset_UNIT_anim2;
+    2: spriteset_UNIT_anim3;
+    3: spriteset_UNIT_anim4;
+}
+
+switch(FEAT_TRAINS, SELF, switch_spritestack_UNIT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_UNIT;
+    1: return switch_animation_UNIT;
+}
+
+
+// dual mode switches
+switch(FEAT_TRAINS, SELF, switch_spritestack_UNIT_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_UNIT_purchase;
+    1: spriteset_UNIT_panto_down_purchase;
+}	
+							
+switch(FEAT_TRAINS,PARENT,switch_panto_UNIT, tile_powers_railtype("ELRL")){
+    1: return spriteset_UNIT_panto_up;
+        return spriteset_UNIT_panto_down;}	
+        
+switch(FEAT_TRAINS,PARENT,switch_power_UNIT, tile_powers_railtype("ELRL")){
+    1: ;
+        ;}																
+
+switch(FEAT_TRAINS, SELF, switch_spritestack_UNIT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_UNIT;
+    1: return switch_panto_UNIT;}
+
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_UNIT, cargo_subtype) {
+    0: switch_loadstack;
+    1: spriteset
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_UNIT_cargo_subtype_text, cargo_subtype){
+	0:	return string();
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, switch_UNIT_graphics, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_UNIT;
+	2: spriteset_empty;
+}
+
+
+// weight switch, metric tonnes
+switch(FEAT_TRAINS, SELF, switch_weight_UNIT, position_in_articulated_veh % 3) {
+    0: ;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, switch_length_UNIT, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 4;
+	2: 4;
+}
+
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, switch_articulated_UNIT, extra_callback_info1) {
+	1: return item_UNIT;
+	2: return item_UNIT;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// unit definition
+item (FEAT_TRAINS, item_UNIT, ) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_UNIT);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    ;
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(yyyy,MM,dd); // 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        // cargo_allow_refit:              [PASS, TOUR];
+        // cargo_allow_refit:              [MAIL, GOOD, VALU];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        // running_cost_base:			    RUNNING_COST_STEAM;						
+        // running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        // track_type:                     ELEC;
+        // track_type:                     ; // custom track type defined
+        power:                          hp;
+        weight:                         ton;
+        // engine_class:                   ENGINE_CLASS_ELECTRIC;
+        // engine_class:                   ENGINE_CLASS_STEAM;
+        // engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        tractive_effort_coefficient:    0.3;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        switch_UNIT_graphics;
+        visual_effect_and_powered:      switch_FX_UNIT_Diesel;
+        // visual_effect_and_powered:      switch_FX_UNIT_Electric;
+        // visual_effect_and_powered:      switch_FX_UNIT_Steam;
+        purchase:                       spriteset_UNIT_purchase;
+        // purchase:                       switch_spritestack_UNIT_purchase; // For dual mode units
+
+        // internal code
+        length:                         switch_length_UNIT;
+        articulated_part:               switch_articulated_UNIT;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        // cargo_capacity:                 return ( * param_pax); // set cargo_capacity above as the same number
+        cost_factor:                    return(GetAdjustedCost());
+        running_cost_factor:            return(GetAdjustedCost());
+        cargo_subtype_text:             sw_UNIT_cargo_subtype_text; 
+        // power:                          switch_power_UNIT;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return();
+    }
+}

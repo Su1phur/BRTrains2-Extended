@@ -1,0 +1,356 @@
+// basic sprites
+// ScotRail Saltire
+// Driving Motor Standard Open
+spriteset(spriteset_BR380_DMSO_ScotRail, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_DMSO_ScotRail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_DMSO_ScotRail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_DMSO_ScotRail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// Pantograph Trailer Standard Open
+spriteset(spriteset_BR380_PTSO_ScotRail, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_PTSO_ScotRail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_PTSO_ScotRail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_PTSO_ScotRail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// Trailer Standard Open
+spriteset(spriteset_BR380_TSO_ScotRail, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_TSO_ScotRail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_TSO_ScotRail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_TSO_ScotRail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// Driving Motor Standard Open, Reversed
+spriteset(spriteset_BR380_DMSO_ScotRail_REV, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_8bpp.png")
+    { template_148trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_DMSO_ScotRail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_mask.png")
+    { template_148trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_DMSO_ScotRail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_2x_mask.png")
+    { template_148trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_DMSO_ScotRail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_4x_mask.png")
+    { template_148trains_REV_4x(0,0) }
+
+
+// Pantograph Trailer Standard Open, Reversed
+spriteset(spriteset_BR380_PTSO_ScotRail_REV, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_8bpp.png")
+    { template_148trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_PTSO_ScotRail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_1x_mask.png")
+    { template_148trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_PTSO_ScotRail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_2x_mask.png")
+    { template_148trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_PTSO_ScotRail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_PTSO_ScotRail_4x_mask.png")
+    { template_148trains_REV_4x(0,0) }
+
+// Trailer Standard Open, Reversed
+spriteset(spriteset_BR380_TSO_ScotRail_REV, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_1x_8bpp.png")
+    { template_148trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_TSO_ScotRail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_1x_mask.png")
+    { template_148trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR380_TSO_ScotRail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_2x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_2x_mask.png")
+    { template_148trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR380_TSO_ScotRail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_4x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_TSO_ScotRail_4x_mask.png")
+    { template_148trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR380_purchase, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR380_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_32bpp.png", "gfx/EMU/BR380_Desiro/BR380_Desiro_DMSO_ScotRail_1x_mask.png")
+    { template_purchase(0,0) }
+
+// loading switches
+
+
+// reversing switches
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_PTSO_ScotRail, vehicle_is_reversed) {
+    0: spriteset_BR380_PTSO_ScotRail;
+        spriteset_BR380_PTSO_ScotRail_REV;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_1_PTSO_ScotRail, vehicle_is_reversed) {
+    0: spriteset_BR380_PTSO_ScotRail;
+        spriteset_BR380_TSO_ScotRail_REV;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_1_TSO_ScotRail, vehicle_is_reversed) {
+    0: spriteset_BR380_TSO_ScotRail;
+        spriteset_BR380_PTSO_ScotRail_REV;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR380_0_ScotRail, position_in_vehid_chain % 9){
+    0: spriteset_empty;
+    1: return spriteset_BR380_DMSO_ScotRail;
+    2: spriteset_empty;
+    3: spriteset_empty;
+    4: return sw_reverse_BR380_PTSO_ScotRail;
+    5: spriteset_empty;
+    6: spriteset_empty;
+    7: return spriteset_BR380_DMSO_ScotRail_REV;
+    8: spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR380_1_ScotRail, position_in_vehid_chain % 12){
+    0: spriteset_empty;
+    1: return spriteset_BR380_DMSO_ScotRail;
+    2: spriteset_empty;
+    3: spriteset_empty;
+    4: return sw_reverse_BR380_1_PTSO_ScotRail;
+    5: spriteset_empty;
+    6: spriteset_empty;
+    7: return sw_reverse_BR380_1_TSO_ScotRail;
+    8: spriteset_empty;
+    9: spriteset_empty;
+    10: return spriteset_BR380_DMSO_ScotRail_REV;
+    11: spriteset_empty;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR380_0, cargo_subtype) {
+    0: sw_graphics_BR380_0_ScotRail;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR380_1, cargo_subtype) {
+    0: sw_graphics_BR380_1_ScotRail;
+}
+
+// livery name switch
+switch(FEAT_TRAINS, SELF, sw_BR380_cargo_subtype_text, cargo_subtype) {
+    0: return string(str_ScotRailSaltire);
+        return CB_RESULT_NO_TEXT;
+}
+
+// weight switch, metric tonnes
+// switch(FEAT_TRAINS, SELF, sw_weight_BR_380_0, position_in_vehid_chain % 9) {
+//     0:      132.8;
+// }
+
+// switch(FEAT_TRAINS, SELF, sw_weight_BR_380_1, position_in_vehid_chain % 12) {
+//     0:      167.5
+// }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR380_0, position_in_vehid_chain % 9) {
+    0: 4;
+    1: 6;
+    2: 4;
+    3: 4;
+    4: 6;
+    5: 4;
+    6: 4;
+    7: 6;
+    8: 4;
+}
+
+switch(FEAT_TRAINS, SELF, sw_length_BR380_1, position_in_vehid_chain % 12) {
+    0: 4;
+    1: 6;
+    2: 4;
+    3: 4;
+    4: 6;
+    5: 4;
+    6: 4;
+    7: 6;
+    8: 4;
+    9: 4;
+    10: 6;
+    11: 4;
+}
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR380_0, position_in_vehid_chain % 9) {
+    0: 191;
+}
+
+switch(FEAT_TRAINS, SELF, sw_capacity_BR380_1, position_in_vehid_chain % 12) {
+    0: 265;
+}
+
+// fx disable switch
+switch(FEAT_TRAINS, SELF, sw_FX_BR380_0, position_in_vehid_chain % 9) {
+    0..2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    4: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);	
+    5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    6..8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, sw_FX_BR380_1_NONREV, position_in_vehid_chain % 9) {
+    0..5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    7: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);	
+    8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    9..11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, sw_FX_BR380_1_REV, position_in_vehid_chain % 9) {
+    0..2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    4: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);	
+    5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    6..11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, PARENT, sw_FX_BR380_1, vehicle_is_reversed) {
+    0: sw_FX_BR380_1_NONREV;
+        sw_FX_BR380_1_REV;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR380_0, extra_callback_info1) {
+    1..8: return ITEM_BR380_0;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_articulated_BR380_1, extra_callback_info1) {
+    1..11: return ITEM_BR380_1;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR380_0);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    ;
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(2010,08,01);
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        cargo_allow_refit:              [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;				
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          2000 kW;
+        weight:                         40 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        tractive_effort_coefficient:    0.3;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR380_0;
+        visual_effect_and_powered:      sw_FX_BR380_0;
+        purchase:                       spriteset_BR380_purchase;
+
+        // internal code
+        length:                         sw_length_BR380_0;
+        // weight:                         sw_weight_BR_380_0;
+        articulated_part:               sw_articulated_BR380_0;
+        purchase_cargo_capacity:        sw_capacity_BR380_0;
+        cargo_capacity:                 sw_capacity_BR380_0;
+        cost_factor:                    return(GetAdjustedCost(30));
+        running_cost_factor:            return(GetAdjustedCost(30));
+        cargo_subtype_text:             sw_BR380_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(string(str_purchase_loco_with_liveries,
+                                            string(str_purchase_type_emu),
+                                            string(str_BR380_usage),
+                                            string(str_BR380_eos),
+                                            string(str_BR380_liveries))
+                                        );
+    }
+}
+
+item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR380_1);
+        variant_group:                  ITEM_BR380_0; // unit ID or item
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(2010,08,01);
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        cargo_allow_refit:              [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;				
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          2000 kW;
+        weight:                         40 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        tractive_effort_coefficient:    0.3;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR380_1;
+        visual_effect_and_powered:      sw_FX_BR380_1;
+        purchase:                       spriteset_BR380_purchase;
+
+        // internal code
+        length:                         sw_length_BR380_1;
+        //weight:                         sw_weight_BR_380_1;
+        articulated_part:               sw_articulated_BR380_1;
+        purchase_cargo_capacity:        sw_capacity_BR380_1;
+        cargo_capacity:                 sw_capacity_BR380_1;
+        cost_factor:                    return(GetAdjustedCost(30));
+        running_cost_factor:            return(GetAdjustedCost(30));
+        cargo_subtype_text:             sw_BR380_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(string(str_purchase_loco_with_liveries,
+                                            string(str_purchase_type_emu),
+                                            string(str_BR380_usage),
+                                            string(str_BR380_eos),
+                                            string(str_BR380_liveries))
+                                        );
+    }
+}
