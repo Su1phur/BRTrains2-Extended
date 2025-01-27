@@ -27,9 +27,10 @@ spriteset(spriteset_UNIT_purchase, "")
 
 
 // loading sprite
-spritegroup spritegroup_UNIT_Loading
-    {   loaded: [spriteset_empty];
-        loading: [spriteset_UNIT_Loading]; }
+spritegroup spritegroup_UNIT_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_UNIT_Loading];
+}
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT;
@@ -62,7 +63,8 @@ switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Electric, position_in_vehid_chain % 3) { //
 
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Steam, position_in_vehid_chain % 3) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
-    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
 
 
 // animation sprite stacking
@@ -87,15 +89,18 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT_purchase, [STORE_TEMP((getbits(ext
 							
 switch(FEAT_TRAINS,PARENT,sw_panto_UNIT, tile_powers_railtype("ELRL")){
     1: return spriteset_UNIT_panto_up;
-        return spriteset_UNIT_panto_down;}	
+        return spriteset_UNIT_panto_down;
+}	
         
 switch(FEAT_TRAINS,PARENT,sw_power_UNIT, tile_powers_railtype("ELRL")){
     1: ;
-        ;}																
+        ;
+}																
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_UNIT;
-    1: return sw_panto_UNIT;}
+    1: return sw_panto_UNIT;
+}
 
 
 // livery switch
@@ -129,8 +134,8 @@ switch(FEAT_TRAINS, SELF, sw_length_UNIT, position_in_articulated_veh % 3) {
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_UNIT, position_in_vehid_chain % 3) {
-    0: ; // all the capacity - (vehid chain number)
-    1..2: 1;
+    0: * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
     // total
 }
 
@@ -150,7 +155,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // variant_group:                  ; // unit ID or item
         // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
         climates_available:              ALL_CLIMATES;
-        introduction_date:              date(yyyy,MM,dd); // 
+        introduction_date:              date(yyyy,MM,dd); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
@@ -178,6 +183,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // engine_class:                   ENGINE_CLASS_STEAM;
         // engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
+        air_drag_coefficient:           0.05;
         tractive_effort_coefficient:    0.3;
         length:                         8;
     }
@@ -196,7 +202,8 @@ item (FEAT_TRAINS, item_UNIT, ) {
         articulated_part:               sw_articulated_UNIT;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        // cargo_capacity:                 return ( * param_pax); // set cargo_capacity above as the same number
+        // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
+        // cargo_capacity:                 sw_capacity_UNIT;
         cost_factor:                    return(GetAdjustedCost());
         running_cost_factor:            return(GetAdjustedCost());
         cargo_subtype_text:             sw_UNIT_cargo_subtype_text; 

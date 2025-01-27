@@ -355,9 +355,9 @@ STR_DSC_BR805_5CAR                    :Type: {RED}Diesel{BLACK}-{BLUE}Electric {
 STR_DSC_BR807_7CAR                    :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Avanti West Coast, Hitachi
 STR_DSC_BR810_5CAR                    :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}East Midland Railway, Hitachi
 
-str_purchase_loco_with_liveries	:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Withdrawal: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
-str_purchase_loco				:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Withdrawal: {GOLD}{STRING}{}{BLACK}
-str_purchase_steam_liveries		:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Withdrawal: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
+str_purchase_loco_with_liveries	:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
+str_purchase_loco				:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}
+str_purchase_steam_liveries		:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
 str_purchase_coach				:{BLACK}Liveries: {GOLD}{STRING}{BLACK}
 
 str_purchase_type_diesel		:{RED}Diesel locomotive

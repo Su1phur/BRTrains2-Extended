@@ -1,9 +1,39 @@
-Size            MU car length       Locomotive car length
-32px 8/8        24m+                 ~21m+ (Class 55/66/68)
-28px 7/8        ~20-21m              ~18-20m (Class 37/86)
-24px 6/8        ~18m                 ~16-17m (Class 23)
-20px 5/8        ~15m                 ~15m (Class 20)
-16px 4/8        ~12m                 ~12m
-12px 3/8        ~9m                  ~9m (Class 08)
-8px  2/8        ~6m                  ~6m
-4px  1/8        ~3m                  ~3m
+Size            	Voxels	Length
+64px 16/8 (4+8+4)	255vx	83.7 ft / 25.5 m
+60px 15/8 (4+7+4)	246vx	80.7 ft / 24.6 m
+56px 14/8 (4+6+4)	230vx 	75.5 ft / 23.0 m
+52px 13/8 (4+5+4) 	214vx	70.2 ft / 21.4 m
+48px 12/8 (4+4+4)	198vx 	65   ft / 19.8 m
+44px 11/8 (4+3+4)	180vx	59.1 ft / 18.0 m
+40px 10/8 (4+2+4)	164vx  	53.8 ft / 16.4 m
+36px 9/8  (3+3+3)	148vx   48.5 ft / 14.8 m
+32px 8/8        	132vx	43.3 ft / 13.2 m
+28px 7/8        	114vx	37.4 ft / 11.4 m
+24px 6/8        	98vx	32.2 ft / 9.8  m
+20px 5/8        	82vx	27   ft / 8.2  m
+16px 4/8        	66vx	21.7 ft / 6.6  m
+12px 3/8        	50vx	16.4 ft / 5    m
+8px  2/8        	32vx	11.2 ft / 3.2  m
+4px  1/8 		18vx	5.9  ft / 1.8m
+
+Gauge: Outermost vx of the wheel is 36vx, if the unit requires the wheel exaggerated. Else, use 22vx  
+Length: 1vx = ~10cm. 
+Maximum height: 40vx, to a hard maximum of 42vx. 62 vx for units with pantographing (20-22 vx for pantographs). (40vx = 12ft10in)
+Maximum width: 30vx, to a hard maximum of 32vx. Outermost 2 vx used for decorating. (30vx = 9ft3in, 16vx ~ 1435mm)
+
+Unit IDs: Follow the rules here.
+
+Units with TOPS Class:
+BR Class 08 > 0800
+BR Class 47 > 4700
+BR Class 47/1 > 4710
+BR Class 380 > 3800
+BR Class 380/1 > 3801
+BR Class 370 > There is a Class 37/0 > Increment 1 on the last digit > 3701
+
+Units without TOPS Class:
+LMS Black 5 (BR Number range 44658-45499) > There isn't a Class 44/6 > 4460
+BR Standard Class 7 (BR Number range 70000-70054) > There is a Class 70/0 > Increment 1 on the last digit > 7001
+
+Passenger Coaches:
+Allocate a block of 10 (may be increased if variants demand so)

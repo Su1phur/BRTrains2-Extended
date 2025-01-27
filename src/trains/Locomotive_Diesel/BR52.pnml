@@ -88,7 +88,7 @@ item (FEAT_TRAINS, item_BR52, 721) {
 		weight:							108 ton;
 		engine_class:					ENGINE_CLASS_DIESEL;
 		visual_effect_and_powered:		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
-		tractive_effort_coefficient:	0.355;
+		tractive_effort_coefficient:	0.27;
 		air_drag_coefficient:			0.05;
 		length:							8;
 		effect_spawn_model_and_powered:	EFFECT_SPAWN_MODEL_DIESEL;
@@ -100,7 +100,6 @@ item (FEAT_TRAINS, item_BR52, 721) {
         additional_text:					return(	string(str_purchase_loco_with_liveries,
 													string(str_purchase_type_diesel),
 													string(str_BR52_usage),
-													string(str_BR52_eos),
 													string(str_BR52_liveries)));
         
 		can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
@@ -117,7 +116,7 @@ item (FEAT_TRAINS, item_BR52, 721) {
 		visual_effect_and_powered:			sw_FX_BR52;
 
         sound_effect:						sw_deltic_sound;
-        cost_factor:	                    return(GetAdjustedCost(38));
-        running_cost_factor:                return(GetAdjustedCost(37));
+        cost_factor:	                    return(GetAdjustedCost(36));
+        running_cost_factor:                return(GetAdjustedCost(36));
     }
 }

@@ -41,32 +41,39 @@ spriteset(spriteset_BR_Mk1_TSO_purchase, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_M
 		{ template_purchase(0, 0) }
 
 // livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_TSO_48, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_TSO, cargo_subtype) {
     0: switch_loadstack_BR_Mk1_TSO_BR_Maroon;
 }
 
 // livery name refit switch
-switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_48_cargo_subtype_text, cargo_subtype){
+switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRMaroon);
        return CB_RESULT_NO_TEXT;
 }
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, switch_BR_Mk1_TSO_48_graphics, position_in_articulated_veh % 3) {
+switch(FEAT_TRAINS, SELF, switch_BR_Mk1_TSO_graphics, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-	1: return sw_livery_BR_Mk1_TSO_48;
+	1: return sw_livery_BR_Mk1_TSO;
 	2: spriteset_empty;
 }
 
 // length switch
-switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TSO_48, position_in_articulated_veh % 3) {
+switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TSO, position_in_articulated_veh % 3) {
 	0: 4;
 	1: 4;
 	2: 4;
 }
 
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk1_TSO, position_in_vehid_chain % 3) {
+    0: 62 * param_pax; // all the capacity - (vehid chain number - 1)
+    1..2: 1 * param_pax;
+    // total 64
+}
+
 // articulation switch
-switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO_48, extra_callback_info1) {
+switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO, extra_callback_info1) {
 	1: return item_BR_Mk1_TSO;
 	2: return item_BR_Mk1_TSO;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -74,48 +81,51 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO_48, extra_callback_info1
 
 item (FEAT_TRAINS, item_BR_Mk1_TSO, 720) { // Diagram 93/94 BR Mk1 TSO
     property {
-		name: 							string(STR_NAME_BRMk1TSO);
-		// variant_group:				;
-		climates_available: 			ALL_CLIMATES;
+		// common properties
+        name:                           string(STR_NAME_BRMk1TSO);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
 		introduction_date:				date(1952,4,21);
-		model_life:						100;
-		// vehicle_life:					;
-		// retire_early:					;
-		// reliability_decay:			;
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
 		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
-		cargo_allow_refit:				[PASS, TOUR];
-		loading_speed:					10;
-		cost_factor:					49;
-		running_cost_base:				RUNNING_COST_STEAM;
-		running_cost_factor:			17;
-
-		sprite_id:						SPRITE_ID_NEW_TRAIN;
-        misc_flags:						bitmask(TRAIN_FLAG_SPRITE_STACK);
-		speed:							100 mph;	
-		refit_cost:						0;
-		track_type:						RAIL;
-		weight:							32 ton;
-		dual_headed:					0;
-		default_cargo_type:				PASS;
-		cargo_capacity:					64;
-		length:							8;
-		bitmask_vehicle_info:			0;
+        cargo_allow_refit:              [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+		
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         10 ton;
+        length:                         8;
 	}
 	graphics {
-        default: 							switch_BR_Mk1_TSO_48_graphics;
-        purchase:							spriteset_BR_Mk1_TSO_purchase;
+        // graphics
+        default:                        switch_BR_Mk1_TSO_graphics;
+        purchase:                       spriteset_BR_Mk1_TSO_purchase;
+        // purchase:                       sw_spritestack_UNIT_purchase; // For dual mode units
 
-        additional_text:					return(string(str_purchase_coach,string(str_BRMk1SK_liveries)));
+        // internal code
+        length:                         switch_length_BR_Mk1_TSO;
+        articulated_part:               switch_articulated_BR_Mk1_TSO;
+        purchase_cargo_capacity:        return (21 * param_pax);
+        cargo_capacity:                 sw_capacity_BR_Mk1_TSO;
+        cost_factor:                    return(GetAdjustedCost(49));
+        running_cost_factor:            return(GetAdjustedCost(17));
+        cargo_subtype_text:             sw_BR_Mk1_TSO_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
 
-        length:                             switch_length_BR_Mk1_TSO_48;
-        articulated_part:                   switch_articulated_BR_Mk1_TSO_48;
-
-        cargo_capacity:                     return(64 * param_pax);
-        cargo_subtype_text:					sw_BR_Mk1_TSO_48_cargo_subtype_text;
-        colour_mapping: 					return PALETTE_CC_FIRST;
-
-        cost_factor:	                    return(GetAdjustedCost(49));
-        running_cost_factor:                return(GetAdjustedCost(17));
-
+        // purchase menu text
+        additional_text:                return(	string(str_purchase_coach,
+												string(str_BRMk1SK_liveries)));
     }
 }

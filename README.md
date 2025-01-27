@@ -3,6 +3,16 @@ A UK Train Set addon (newGRF) for OpenTTD, featuring UK rail (train and tram) ro
 
 This is an 4x zoom, 32bpp, extra-long train set, designed with a focus on real-world consists and liveries first, and aim to be able to recreate the UK rail network in game. 
 
+### Main Goals
+- Extra length, 4x zoom, 32bpp train set with comprehensive unit selection across the ages (1850-modern day) (early versions may not support the entire age)
+- Speed options (operation VS potential/achieved speeds)
+- Unit bonuses (Passengers in express vehicles pay more)
+- Coupling restrictions options (Brake vans, MU working)
+
+#### Potentially...
+- 2CC Unit variants
+- Customizable multiple unit consists
+
 ### Credits (In no particular order)
 
 ### Developers
