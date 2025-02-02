@@ -1,21 +1,21 @@
 // basic sprites
-spriteset(spriteset_LMS_Stanier_Class_5_Lined_Black, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_8bpp.png")
+spriteset(spriteset_LMS_Stanier_Class_5_Lined_Black, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_LMS_Stanier_Class_5_purchase, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_8bpp.png")
+spriteset(spriteset_LMS_Stanier_Class_5_purchase, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Stanier_Class_5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_mask.png")
     { template_purchase(0,0) }
 
 // FX effects
