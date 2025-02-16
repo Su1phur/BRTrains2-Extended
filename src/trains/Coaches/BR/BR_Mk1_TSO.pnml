@@ -105,19 +105,19 @@ item (FEAT_TRAINS, item_BR_Mk1_TSO, 720) { // Diagram 93/94 BR Mk1 TSO
         speed:                          100 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        weight:                         10 ton;
+        weight:                         36 ton;
         length:                         8;
 	}
+    
 	graphics {
         // graphics
         default:                        switch_BR_Mk1_TSO_graphics;
         purchase:                       spriteset_BR_Mk1_TSO_purchase;
-        // purchase:                       sw_spritestack_UNIT_purchase; // For dual mode units
 
         // internal code
         length:                         switch_length_BR_Mk1_TSO;
         articulated_part:               switch_articulated_BR_Mk1_TSO;
-        purchase_cargo_capacity:        return (21 * param_pax);
+        purchase_cargo_capacity:        return (21 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_TSO;
         cost_factor:                    return(GetAdjustedCost(49));
         running_cost_factor:            return(GetAdjustedCost(17));

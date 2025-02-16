@@ -26,7 +26,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR52, cargo_subtype) {
 
 // livery name switch
 switch(FEAT_TRAINS, SELF, sw_BR52_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_BRBlue);
+	0:	return string(str_BRBluePanel);
        return CB_RESULT_NO_TEXT;
 }
 
@@ -69,7 +69,7 @@ item (FEAT_TRAINS, item_BR52, 721) {
 		vehicle_life:					50;
 		reliability_decay:				6;
 		refittable_cargo_classes:		0;
-		cargo_allow_refit:				[PASS];
+		cargo_allow_refit:				[PASS, GOOD];
 		loading_speed:					3;
 		cost_factor:					41;
 		running_cost_factor:			43;

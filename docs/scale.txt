@@ -16,10 +16,10 @@ Size            	Voxels	Length
 8px  2/8        	32vx	11.2 ft / 3.2  m
 4px  1/8 		18vx	5.9  ft / 1.8m
 
-Gauge: Outermost vx of the wheel is 36vx, if the unit requires the wheel exaggerated. Else, use 22vx  
-Length: 1vx = ~10cm. 
-Maximum height: 40vx, to a hard maximum of 42vx. 62 vx for units with pantographing (20-22 vx for pantographs). (40vx = 12ft10in)
-Maximum width: 30vx, to a hard maximum of 32vx. Outermost 2 vx used for decorating. (30vx = 9ft3in, 16vx ~ 1435mm)
+Length: 1vx = ~10cm. Refer to chart above
+Gauge: Outermost vx of the wheel is 32vx, if the unit requires the wheel exaggerated. Else, use 22vx  
+Maximum height: 46vx, to a hard maximum of 48vx. 68 vx for units with pantographing (20-22 vx for pantographs). (1vx ~ 8.3cm)
+Maximum width: 38vx, to a hard maximum of 40vx. Outermost 2 vx used for decorating. 
 
 Unit IDs: Follow the rules here.
 
@@ -30,6 +30,13 @@ BR Class 47/1 > 4710
 BR Class 380 > 3800
 BR Class 380/1 > 3801
 BR Class 370 > There is a Class 37/0 > Increment 1 on the last digit > 3701
+BR Class 371 > There is no Class 37/1 > 3710
+BR Class 375 > There is a Class 37/5 > Increment 1 on the last digit > 3751
+
+Digit priority:
+1st & 2nd: Use exact
+3rd: Prioritise oldest unit
+4th: Overlap numbers
 
 Units without TOPS Class:
 LMS Black 5 (BR Number range 44658-45499) > There isn't a Class 44/6 > 4460
