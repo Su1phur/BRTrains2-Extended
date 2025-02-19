@@ -23,6 +23,28 @@ This is an 4x zoom, 32bpp, extra-long train set, designed with a focus on real-w
 - GarlicBread42 and the GETS Team, for their assistance, knowledge and models.
 - Audigex and the BRTrainsV2 Team, for without their inspiration and support this set would not have started.
 
+### To Build
+Building from the source should be mostly automated using the `build.py` script, but it has a few requirements:
+  - Python 3.8+
+  - `nml` Python package (available through `pip`)
+  
+To build the grf completely, just run the following command in your terminal:
+```bash
+python build.py --compile brtrainsv2XL
+```
+This should first compile the `.nml` file, then compile that through to a `.grf` file using `nml`.  Install in the same manner
+as previously described, copying the generated `.grf` file into `OpenTTD/newGRF`.
+
+Note, this method still requires the `nml` python package to be installed.
+
+To build the grf, and initiate the game with the compiled `.grf`, run:
+```bash
+python build.py --compile brtrainsv2XL --run 
+```
+This moves the compiled `.grf` to your `Documents/OpenTTD/newgrf`, then looks for and executes `C:/Program Files/OpenTTD/openttd.exe"`.
+
+You may be prompted to provide a path to any `openttd.exe`, if one is not located. After being provided, the configured path will be stored in `build/build.json`. Subsequent executions will be pathed to said stored `openttd.exe`.
+
 ### License
 This project is licensed under the GPLv2 license
 See [LICENSE](./LICENSE) for license details
