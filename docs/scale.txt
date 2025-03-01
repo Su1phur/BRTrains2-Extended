@@ -14,7 +14,7 @@ Size            	Voxels	Length
 16px 4/8        	66vx	21.7 ft / 6.6  m
 12px 3/8        	50vx	16.4 ft / 5    m
 8px  2/8        	32vx	11.2 ft / 3.2  m
-4px  1/8 		18vx	5.9  ft / 1.8m
+4px  1/8 		    18vx	5.9  ft / 1.8m
 
 Length: 1vx = ~10cm. Refer to chart above
 Gauge: Outermost vx of the wheel is 32vx, if the unit requires the wheel exaggerated. Else, use 22vx  
