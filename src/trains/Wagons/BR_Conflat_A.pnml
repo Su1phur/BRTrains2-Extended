@@ -1,0 +1,90 @@
+// basic sprites
+spriteset(spriteset_BR_Conflat_A_BR_Bauxite, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_2x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_4x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_4x_mask.png")
+    { template_trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Conflat_A_purchase, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_A_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_mask.png")
+    { template_purchase(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Conflat_A, cargo_subtype) {
+    0: sw_loadstack;
+    1: spriteset_BR_Conflat_A_BR_Bauxite;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_subtype_text, cargo_subtype){
+	0:	return string();
+       return CB_RESULT_NO_TEXT;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Conflat_A, 500) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Conflat_A);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(1950,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        // cargo_allow_refit:              [PASS, TOUR];
+        // cargo_allow_refit:              [MAIL, GOOD, VALU];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        // running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         6 ton;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.3;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Conflat_A;
+        // default:                        sw_livery_BR_Conflat_A;
+        purchase:                       spriteset_BR_Conflat_A_purchase;
+        
+        // internal code
+        length:                         sw_length_BR_Conflat_A;
+        articulated_part:               sw_articulated_BR_Conflat_A;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
+        // cargo_capacity:                 sw_capacity_BR_Conflat_A;
+        cost_factor:                    return(GetAdjustedCost());
+        running_cost_factor:            return(GetAdjustedCost());
+        cargo_subtype_text:             sw_BR_Conflat_A_cargo_subtype_text; 
+        // power:                          sw_power_BR_Conflat_A;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return();
+    }
+}

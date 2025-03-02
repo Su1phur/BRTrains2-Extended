@@ -19,6 +19,7 @@ Size            	Voxels	Length
 Length: 1vx = ~10cm. Refer to chart above
 Gauge: Outermost vx of the wheel is 32vx, if the unit requires the wheel exaggerated. Else, use 22vx  
 Maximum height: 46vx, to a hard maximum of 48vx. 68 vx for units with pantographing (20-22 vx for pantographs). (1vx ~ 8.3cm)
+Buffer center: 13vx. (3 ft 6 in ~ 107cm ~ 13vx)
 Maximum width: 38vx, to a hard maximum of 40vx. Outermost 2 vx used for decorating. 
 
 Unit IDs: Follow the rules here.
