@@ -1382,6 +1382,14 @@ str_GWR_Mink_G_usage            :Goods, Misc. Cargo
 str_GWR_Mink_G_eos              :--
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 
+STR_NAME_BR_CONFLAT_A           :BR Container Flat "Conflat A" Wagon
+str_BR_Conflat_A_usage          :Goods, Misc. Cargo
+str_BR_Conflat_A_liveries       :BR Bauxite
+
+STR_NAME_BR_CONFLAT_P           :BR Container Flat "Conflat P" Wagon
+str_BR_Conflat_P_usage          :Goods, Misc. Cargo
+str_BR_Conflat_P_liveries       :BR Bauxite
+
 STR_NAME_BRHHA					:BR HHA Wagon
 str_BRHHA_usage					:Bulk Cargos
 str_BRHHA_eos					:---

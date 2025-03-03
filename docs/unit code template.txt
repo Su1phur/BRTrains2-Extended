@@ -66,6 +66,11 @@ spriteset(spriteset_UNIT_livery, "PATH_UNIT_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_4x_32bpp.png", "PATH_UNIT_4x_mask.png")
     { template_trains_4x(0,0) }
 
+// cargo spritegroup
+spritegroup spritegroup_UNIT {
+    loaded: [spriteset_empty, spriteset_UNIT_livery];
+    loading: [spriteset_empty, spriteset_UNIT_livery];
+}
 
 // purchase sprite
 spriteset(spriteset_UNIT_purchase, "PATH_UNIT_1x_8bpp.png")
@@ -173,6 +178,12 @@ switch(FEAT_TRAINS, SELF, sw_graphics_UNIT, position_in_articulated_veh % 3) {
 	2: spriteset_empty;
 }
 
+// container switch
+switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT_CONTAINER, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_UNIT;
+    1: sw_graphics_UNIT;
+    2: sw_livery_UNIT;
+}
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_UNIT, position_in_articulated_veh % 3) {
@@ -204,14 +215,18 @@ item (FEAT_TRAINS, item_UNIT, ) {
         name:                           string(STR_NAME_UNIT);
         // variant_group:                  ; // unit ID or item
         // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
-        climates_available:              ALL_CLIMATES;
+        climates_available:             ALL_CLIMATES;
         introduction_date:              date(yyyy,MM,dd); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
         reliability_decay: 				20;
-        // cargo_allow_refit:              [PASS, TOUR];
-        // cargo_allow_refit:              [MAIL, GOOD, VALU];
+        
+		// refittable_cargo_classes:		bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_allow_refit:               [MAIL, GOOD, VALU];
+        // cargo_disallow_refit:            [];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
         loading_speed:					5;

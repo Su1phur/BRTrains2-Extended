@@ -30,32 +30,64 @@ switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_subtype_text, cargo_subtype){
        return CB_RESULT_NO_TEXT;
 }
 
+// container switches
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_BR_Container_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_Conflat_A;
+    1: random_BR_Container_BD;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_BR_Container_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_Conflat_A;
+    1: random_BR_Container_A;
+}
+
+random_switch(FEAT_TRAINS, SELF, sw_random_Cont_decider_BR_Conflat_A, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    independent: random_BR_container_A;
+    independent: random_BR_container_BD;
+
+    1: sw_loadstack_BR_Conflat_A_BR_Container_BD;
+    1: sw_loadstack_BR_Conflat_A_BR_Container_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_type, cargo_type_in_veh) {
+    FISH: return random_BR_Container_Cold_Centered;
+    FOOD: return random_BR_Container_Cold_Centered;
+    FRUT: return random_BR_Container_Cold_Centered;
+    FRVG: return random_BR_Container_Cold_Centered;
+    MILK: return random_BR_Container_Cold_Centered;
+
+    random_BR_Container_Any_Centered;
+}
+
+
 // unit definition
-item (FEAT_TRAINS, item_BR_Conflat_A, 500) {
+item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton container flat 
     property {
         // common properties
         name:                           string(STR_NAME_BR_Conflat_A);
         // variant_group:                  ; // unit ID or item
         // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
-        climates_available:              ALL_CLIMATES;
+        climates_available:             ALL_CLIMATES;
         introduction_date:              date(1950,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
         reliability_decay: 				20;
+		refittable_cargo_classes:		bitmask(CC_PIECE_GOODS, CC_REFRIGERATED, CC_NON_POURABLE);	
+        non_refittable_cargo_classes:   bitmask(CC_BULK);
         // cargo_allow_refit:              [PASS, TOUR];
         // cargo_allow_refit:              [MAIL, GOOD, VALU];
-        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 1;
+        cargo_disallow_refit:           [LVST, WATR, BEER, BOOM, IRON, VEHI]
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 13;
         loading_speed:					5;
-        cost_factor: 					108;
-        running_cost_base:			    RUNNING_COST_STEAM;						
-        // running_cost_base:				RUNNING_COST_DIESEL;				
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_DIESEL;				
         running_cost_factor: 			90;
 
         //specific properties
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        speed:                          mph;
+        speed:                          50 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
         weight:                         6 ton;
@@ -67,24 +99,22 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 500) {
 
     graphics {
         // graphics
-        default:                        sw_graphics_BR_Conflat_A;
-        // default:                        sw_livery_BR_Conflat_A;
+        default:                        sw_BR_Conflat_A_cargo_type;
         purchase:                       spriteset_BR_Conflat_A_purchase;
         
         // internal code
-        length:                         sw_length_BR_Conflat_A;
-        articulated_part:               sw_articulated_BR_Conflat_A;
-        purchase_cargo_capacity:        0;
+        purchase_cargo_capacity:        13;
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_BR_Conflat_A;
         cost_factor:                    return(GetAdjustedCost());
         running_cost_factor:            return(GetAdjustedCost());
         cargo_subtype_text:             sw_BR_Conflat_A_cargo_subtype_text; 
-        // power:                          sw_power_BR_Conflat_A;
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return();
+        additional_text:                return(string(str_purchase_coach,
+                                            string(str_BR_Conflat_A_liveries))
+                                        );
     }
 }
