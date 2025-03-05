@@ -1,62 +1,53 @@
 // basic sprites
-spriteset(spriteset_BR_Conflat_A_BR_Bauxite, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_8bpp.png")
-    { template_trains_1x(0,0) }
+spriteset(spriteset_BR_Conflat_A_BR_Bauxite, "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_mask.png")
-    { template_trains_1x(0,0) }
+    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_1x_mask.png")
+    { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_2x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_2x_mask.png")
-    { template_trains_2x(0,0) }
+    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_2x_mask.png")
+    { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_4x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_4x_mask.png")
-    { template_trains_4x(0,0) }
+    alternative_sprites(spriteset_BR_Conflat_A_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_4x_mask.png")
+    { template_48trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_Conflat_A_purchase, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_8bpp.png")
+spriteset(spriteset_BR_Conflat_A_purchase, "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_Conflat_A_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_32bpp.png", "gfx/Wagons/BR_Conflat_A_BR_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_BR_Conflat_A_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_A\BR_Conflat_A_BR_Bauxite_1x_mask.png")
     { template_purchase(0,0) }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Conflat_A, cargo_subtype) {
-    0: sw_loadstack;
-    1: spriteset_BR_Conflat_A_BR_Bauxite;
+    0: spriteset_BR_Conflat_A_BR_Bauxite;
 }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_subtype_text, cargo_subtype){
-	0:	return string();
+	0:	return string(str_BRBauxite);
        return CB_RESULT_NO_TEXT;
 }
 
 // container switches
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_BR_Container_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_Any_Centered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_Conflat_A;
-    1: random_BR_Container_BD;
+    1: random_BR_Container_Any_Centered;
 }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_BR_Container_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_Cold_Centered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_Conflat_A;
-    1: random_BR_Container_A;
-}
-
-random_switch(FEAT_TRAINS, SELF, sw_random_Cont_decider_BR_Conflat_A, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
-    independent: random_BR_container_A;
-    independent: random_BR_container_BD;
-
-    1: sw_loadstack_BR_Conflat_A_BR_Container_BD;
-    1: sw_loadstack_BR_Conflat_A_BR_Container_A;
+    1: random_BR_Container_Cold_Centered;
 }
 
 switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_type, cargo_type_in_veh) {
-    FISH: return random_BR_Container_Cold_Centered;
-    FOOD: return random_BR_Container_Cold_Centered;
-    FRUT: return random_BR_Container_Cold_Centered;
-    FRVG: return random_BR_Container_Cold_Centered;
-    MILK: return random_BR_Container_Cold_Centered;
+    FISH: return sw_loadstack_BR_Conflat_A_Cold_Centered;
+    FOOD: return sw_loadstack_BR_Conflat_A_Cold_Centered;
+    FRUT: return sw_loadstack_BR_Conflat_A_Cold_Centered;
+    FRVG: return sw_loadstack_BR_Conflat_A_Cold_Centered;
+    MILK: return sw_loadstack_BR_Conflat_A_Cold_Centered;
 
-    random_BR_Container_Any_Centered;
+    sw_loadstack_BR_Conflat_A_Any_Centered;
 }
 
 
@@ -64,7 +55,7 @@ switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_type, cargo_type_in_veh) {
 item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton container flat 
     property {
         // common properties
-        name:                           string(STR_NAME_BR_Conflat_A);
+        name:                           string(STR_NAME_BR_CONFLAT_A);
         // variant_group:                  ; // unit ID or item
         // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
         climates_available:             ALL_CLIMATES;
@@ -75,9 +66,7 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton containe
         reliability_decay: 				20;
 		refittable_cargo_classes:		bitmask(CC_PIECE_GOODS, CC_REFRIGERATED, CC_NON_POURABLE);	
         non_refittable_cargo_classes:   bitmask(CC_BULK);
-        // cargo_allow_refit:              [PASS, TOUR];
-        // cargo_allow_refit:              [MAIL, GOOD, VALU];
-        cargo_disallow_refit:           [LVST, WATR, BEER, BOOM, IRON, VEHI]
+        cargo_disallow_refit:           [LVST, WATR, BEER, IRON, VEHI];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 13;
         loading_speed:					5;
@@ -107,8 +96,8 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton containe
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_BR_Conflat_A;
-        cost_factor:                    return(GetAdjustedCost());
-        running_cost_factor:            return(GetAdjustedCost());
+        cost_factor:                    return(GetAdjustedCost(30));
+        running_cost_factor:            return(GetAdjustedCost(17));
         cargo_subtype_text:             sw_BR_Conflat_A_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

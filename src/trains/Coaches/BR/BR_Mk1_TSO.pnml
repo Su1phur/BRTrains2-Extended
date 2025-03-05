@@ -79,7 +79,7 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO, extra_callback_info1) {
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, item_BR_Mk1_TSO, 720) { // Diagram 93/94 BR Mk1 TSO
+item (FEAT_TRAINS, item_BR_Mk1_TSO, 733) { // Diagram 93/94 BR Mk1 TSO
     property {
 		// common properties
         name:                           string(STR_NAME_BRMk1TSO);
@@ -119,7 +119,7 @@ item (FEAT_TRAINS, item_BR_Mk1_TSO, 720) { // Diagram 93/94 BR Mk1 TSO
         articulated_part:               switch_articulated_BR_Mk1_TSO;
         purchase_cargo_capacity:        return (21 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_TSO;
-        cost_factor:                    return(GetAdjustedCost(49));
+        cost_factor:                    return(GetAdjustedCost(48));
         running_cost_factor:            return(GetAdjustedCost(17));
         cargo_subtype_text:             sw_BR_Mk1_TSO_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
