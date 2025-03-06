@@ -20,6 +20,26 @@ spritegroup spritegroup_BR_Container_A_Maroon_Centered {
     loading: [spriteset_empty, spriteset_BR_Container_A_Maroon_Centered];
 }
 
+// BR Container - Type "A" - Side
+// basic sprites
+spriteset(spriteset_BR_Container_A_Maroon_Side, "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_A_Maroon_Side, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_1x_32bpp.png", "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_A_Maroon_Side, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_2x_32bpp.png", "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_A_Maroon_Side, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_4x_32bpp.png", "gfx\Cargo\BR_Container_A\BR_Container_A_Maroon_Side_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// cargo spritegroup
+spritegroup spritegroup_BR_Container_A_Maroon_Side {
+    loaded: [spriteset_empty, spriteset_BR_Container_A_Maroon_Side];
+    loading: [spriteset_empty, spriteset_BR_Container_A_Maroon_Side];
+}
+
 // BR Container - Type "AF" - Centered
 
 // basic sprites
@@ -98,6 +118,10 @@ random_switch(FEAT_TRAINS, SELF, random_BR_Container_Any_Centered, bitmask(TRIGG
 
 random_switch(FEAT_TRAINS, SELF, random_BR_Container_Cold_Centered, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
     1: spritegroup_BR_Container_AF_D2DBlue_Centered;
+}
+
+random_switch(FEAT_TRAINS, SELF, random_BR_Container_A_Side, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    1: spritegroup_BR_Container_A_Maroon_Side;
 }
 
 random_switch(FEAT_TRAINS, SELF, random_BR_Container_BD_Side, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {

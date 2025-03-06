@@ -66,6 +66,18 @@ spriteset(spriteset_UNIT_livery, "PATH_UNIT_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_4x_32bpp.png", "PATH_UNIT_4x_mask.png")
     { template_trains_4x(0,0) }
 
+spriteset(spriteset_UNIT_livery_REV, "PATH_UNIT_1x_8bpp.png")
+    { template_trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_livery_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_1x_32bpp.png", "PATH_UNIT_1x_mask.png")
+    { template_trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_livery_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_2x_32bpp.png", "PATH_UNIT_2x_mask.png")
+    { template_trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_livery_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_4x_32bpp.png", "PATH_UNIT_4x_mask.png")
+    { template_trains_REV_4x(0,0) }
+
 // cargo spritegroup
 spritegroup spritegroup_UNIT {
     loaded: [spriteset_empty, spriteset_UNIT_livery];
@@ -162,6 +174,7 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT, [STORE_TEMP((getbits(extra_callba
 switch(FEAT_TRAINS, SELF, sw_livery_UNIT, cargo_subtype) {
     0: sw_loadstack;
     1: spriteset
+    2: spriteset
 }
 
 // livery name refit switch
@@ -175,6 +188,7 @@ switch(FEAT_TRAINS, SELF, sw_UNIT_cargo_subtype_text, cargo_subtype){
 switch(FEAT_TRAINS, SELF, sw_graphics_UNIT, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
 	1: return sw_livery_UNIT;
+    1: return sw_reverse_UNIT;
 	2: spriteset_empty;
 }
 
