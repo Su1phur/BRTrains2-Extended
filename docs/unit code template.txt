@@ -242,6 +242,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;

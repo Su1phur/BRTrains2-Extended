@@ -1455,7 +1455,6 @@ STR_NAME_BRMk1CK				:BR Mark 1 Coach (Composite Corridor)
 str_BRMk1CK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
 STR_NAME_BRMk1SK				:BR Mark 1 Coach (Standard Corridor)
-STR_NAME_BRMk1SK_48             :BR Mark 1 Extra Length Coach (Standard Corridor) 
 str_BRMk1SK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
 STR_NAME_BRMk1BSO				:BR Mark 1 Coach (Brake Standard Open)
@@ -1524,7 +1523,7 @@ STR_NAME_BRMk3DMB				:BR Mark 3 Driving Motor Brake
 str_BRMk3DMB_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
 
 STR_NAME_BRMk3Sleeper			:BR Mark 3 Sleeper Coach
-str_BRMk3Sleeper_liveries			:BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
+str_BRMk3Sleeper_liveries	    :BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
 
 STR_NAME_BRMk3DVT				:BR Mark 3 Driving Van Trailer
 str_BRMk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Anglia, Transport for Wales, Virgin "Pretendolino", Arriva Wales, Network Rail
@@ -1554,8 +1553,8 @@ STR_NAME_BRMk5_Header			:BR Mark 5 Coaches
 STR_NAME_BRMk5DVT				:BR Mark 5a Driving Van Trailer
 str_BRMk5DVT_liveries			:Transpennine Express
 
-STR_NAME_BRMk5a				:BR Mark 5a Coach
-str_BRMk5a_liveries			:Transpennine Express
+STR_NAME_BRMk5a				    :BR Mark 5a Coach
+str_BRMk5a_liveries			    :Transpennine Express
 
 STR_NAME_BRMk5Sleeper			:BR Mark 5 Sleeper Coach
 str_BRMk5Sleeper_liveries		:Caledonian Sleaper

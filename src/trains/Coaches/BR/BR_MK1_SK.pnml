@@ -1,22 +1,22 @@
-spriteset(spriteset_BRMk1SK48_Purchase, "gfx/Coaches/BR_Mk1_SK/BR_Mk1_SK_48px.png") {
+spriteset(spriteset_BR_MK1_SK_Purchase, "gfx/Coaches/BR_Mk1_SK/BR_Mk1_SK_48px.png") {
 	template_shared_purchase(0, 0)
 }
 
-spriteset(spriteset_BRMk1SK48_BRCrimCream, "gfx/Coaches/BR_Mk1_SK/BR_Mk1_SK_48px.png") {
+spriteset(spriteset_BR_MK1_SK_BRCrimCream, "gfx/Coaches/BR_Mk1_SK/BR_Mk1_SK_48px.png") {
 	template_train48px(0, 13)
 }
 
-switch(FEAT_TRAINS, SELF, sw_BRMk1SK48, cargo_subtype) {
-    0: spriteset_BRMk1SK48_BRCrimCream;
+switch(FEAT_TRAINS, SELF, sw_BR_MK1_SK, cargo_subtype) {
+    0: spriteset_BR_MK1_SK_BRCrimCream;
 }
 
-switch(FEAT_TRAINS, SELF, switch_BRMk1SK48_graphics, position_in_articulated_veh % 3) {
+switch(FEAT_TRAINS, SELF, switch_BR_MK1_SK_graphics, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-	1: return sw_BRMk1SK48;
+	1: return sw_BR_MK1_SK;
 	2: spriteset_empty;
 }
 
-switch(FEAT_TRAINS, SELF, switch_length_BRMk1SK48, position_in_articulated_veh % 3) {
+switch(FEAT_TRAINS, SELF, switch_length_BR_MK1_SK, position_in_articulated_veh % 3) {
 	0: 4;
 	1: 4;
 	2: 4;
@@ -26,19 +26,20 @@ switch(FEAT_TRAINS,SELF,sw_BRMk1_cargo_subtype_text,cargo_subtype){
     0: return string(str_BRCarmCream);
 }
 
-switch(FEAT_TRAINS, SELF, switch_articulated_BRMk1SK48, extra_callback_info1) {
-	1: return item_BRMk1SK48;
-	2: return item_BRMk1SK48;
+switch(FEAT_TRAINS, SELF, switch_articulated_BR_MK1_SK, extra_callback_info1) {
+	1: return item_BR_MK1_SK;
+	2: return item_BR_MK1_SK;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, item_BRMk1SK48, 719) {
+item (FEAT_TRAINS, item_BR_MK1_SK, 724) {
     property {
 		//variant_group:					header_BRMk1;
-		name: 							string(STR_NAME_BRMk1SK_48);
+		name: 							string(STR_NAME_BRMk1SK);
 		climates_available: 			ALL_CLIMATES;
-		introduction_date:				date(1963,4,21);
+		introduction_date:				date(1951,01,01);
 		model_life:						100;
+		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 		cargo_allow_refit:				[PASS, TOUR];
 		loading_speed:					10;
 		cost_factor:					49;
@@ -57,7 +58,7 @@ item (FEAT_TRAINS, item_BRMk1SK48, 719) {
 	}
 	graphics {
         additional_text:					return(string(str_purchase_coach,string(str_BRMk1SK_liveries)));
-        articulated_part:                   switch_articulated_BRMk1SK48;
+        articulated_part:                   switch_articulated_BR_MK1_SK;
 
         can_attach_wagon:					CB_RESULT_ATTACH_ALLOW;
         cargo_capacity:                     return(48 * param_pax);
@@ -65,11 +66,11 @@ item (FEAT_TRAINS, item_BRMk1SK48, 719) {
         colour_mapping: 					return PALETTE_CC_FIRST;
         cost_factor:	                    return(GetAdjustedCost(49));
 
-        default: 							switch_BRMk1SK48_graphics;
+        default: 							switch_BR_MK1_SK_graphics;
 		
-        purchase:							spriteset_BRMk1SK48_Purchase;
+        purchase:							spriteset_BR_MK1_SK_Purchase;
 
-        length:                             switch_length_BRMk1SK48;
+        length:                             switch_length_BR_MK1_SK;
 
         running_cost_factor:                return(GetAdjustedCost(17));
 

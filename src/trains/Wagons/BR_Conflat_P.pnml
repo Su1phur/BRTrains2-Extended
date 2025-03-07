@@ -1,0 +1,116 @@
+// basic sprites
+spriteset(spriteset_BR_Conflat_P_BR_Bauxite, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_BR_Conflat_P_BR_Bauxite_REV, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
+    { template_98trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
+    { template_98trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_mask.png")
+    { template_98trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_mask.png")
+    { template_98trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Conflat_P_purchase, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Conflat_P_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
+    { template_purchase(0,0) }
+
+// container stacking switch
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_P_Container_A_direction, direction) {
+    DIRECTION_SOUTHEAST: random_BR_Container_A_Side;
+    DIRECTION_SOUTH: random_BR_Container_A_Side;
+    DIRECTION_SOUTHWEST: random_BR_Container_A_Side;
+}
+
+random_switch(FEAT_TRAINS, SELF, sw_random_BR_Container_decider, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    indepedent: random_BR_Container_BD_Side;
+    indepedent: random_BR_Container_A_Side;
+    1: random_BR_Container_BD_Side;
+    1: sw_loadstack_BR_Conflat_P_Container_A_direction;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Conflat_P, cargo_subtype) {
+    0: spriteset_BR_Conflat_P_BR_Bauxite;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Conflat_P_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRBauxite);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Conflat_P) {
+	0: return sw_livery_BR_Conflat_P;
+    1: return sw_random_BR_Container_decider;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Conflat_P, 502) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_CONFLAT_P);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1959,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:		bitmask(CC_PIECE_GOODS, CC_NON_POURABLE);	
+        non_refittable_cargo_classes:   bitmask(CC_BULK);
+        cargo_disallow_refit:           [LVST, WATR, IRON, VEHI];
+        // cargo_allow_refit:               [MAIL, GOOD, VALU];
+        // cargo_disallow_refit:            [];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 20;
+        loading_speed:					5;
+        cost_factor: 					108;	
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          65 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         8 ton;
+        dual_headed:                    0;
+        length:                         6;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Conflat_P;
+        purchase:                       spriteset_BR_Conflat_P_purchase;
+
+        // internal code
+        cost_factor:                    return(GetAdjustedCost());
+        running_cost_factor:            return(GetAdjustedCost());
+        cargo_subtype_text:             sw_BR_Conflat_P_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(string(str_purchase_coach,
+                                            string(str_BR_Conflat_P_liveries))
+                                        );
+    }
+}

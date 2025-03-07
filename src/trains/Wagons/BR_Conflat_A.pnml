@@ -92,8 +92,8 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton containe
         purchase:                       spriteset_BR_Conflat_A_purchase;
         
         // internal code
-        purchase_cargo_capacity:        13;
-        cargo_capacity:                 return 0;
+        // purchase_cargo_capacity:        13;
+        // cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_BR_Conflat_A;
         cost_factor:                    return(GetAdjustedCost(30));
