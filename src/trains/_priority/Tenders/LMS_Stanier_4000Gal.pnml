@@ -1,18 +1,48 @@
 // LMS Stanier Standard 4,000 Imp.Gal Tender
 // basic sprites
-spriteset(spriteset_Stanier_4000gal_LMS_Black, "gfx/Tender/Stanier_4000gal_LMS_Black_1x_8bpp.png")
+spriteset(spriteset_Stanier_4000gal_LMS_Black, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_Stanier_4000gal_LMS_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/Stanier_4000gal_LMS_Black_1x_32bpp.png", "gfx/Tender/Stanier_4000gal_LMS_Black_1x_mask.png")
+    alternative_sprites(spriteset_Stanier_4000gal_LMS_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_1x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_Stanier_4000gal_LMS_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/Stanier_4000gal_LMS_Black_2x_32bpp.png", "gfx/Tender/Stanier_4000gal_LMS_Black_2x_mask.png")
+    alternative_sprites(spriteset_Stanier_4000gal_LMS_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_2x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_Stanier_4000gal_LMS_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/Stanier_4000gal_LMS_Black_4x_32bpp.png", "gfx/Tender/Stanier_4000gal_LMS_Black_4x_mask.png")
+    alternative_sprites(spriteset_Stanier_4000gal_LMS_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_4x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_LMS_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_Stanier_4000gal_BR_Early_Emblem, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Stanier_4000gal_BR_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_1x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Stanier_4000gal_BR_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_2x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Stanier_4000gal_BR_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_4x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Early_Emblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_Stanier_4000gal_BR_Late_Crest, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Stanier_4000gal_BR_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_1x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Stanier_4000gal_BR_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_2x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Stanier_4000gal_BR_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_4x_32bpp.png", "gfx\Tender\Stanier_4000gal\Stanier_4000gal_BR_Late_Crest_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Class_5, cargo_subtype) {
     0: spriteset_Stanier_4000gal_LMS_Black;
+    1: spriteset_Stanier_4000gal_BR_Early_Emblem;
+    2: spriteset_Stanier_4000gal_BR_Late_Crest;
+    3: spriteset_Stanier_4000gal_BR_Early_Emblem;
+    4: spriteset_Stanier_4000gal_BR_Late_Crest;
 }
