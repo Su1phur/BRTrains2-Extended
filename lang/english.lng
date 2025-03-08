@@ -465,8 +465,9 @@ str_LNERA3_usage				    :Express Passenger
 str_LNERA3_eos					    :1928-1966
 str_LNERA3_liveries				    :LNER Green, LNER Wartime Black, BR Apple Green, BR Brunswick Green
 
-STR_NAME_LNERP2					    :LNER Gresley Class P2 2-8-2
-STR_NAME_LNERP2_Streamlined		    :LNER Gresley Class P2 2-8-2 (Streamlined)
+STR_NAME_LNERP2					    :LNER Gresley Class P2
+STR_NAME_LNERP2_Caprotti            :LNER Gresley Class P2 (Caprotti)
+STR_NAME_LNERP2_Streamlined		    :LNER Gresley Class P2 (Streamlined)
 str_LNERP2_usage				    :Express Passenger
 str_LNERP2_eos					    :1934-1944
 str_LNERP2_liveries				    :LNER Green, LNER Wartime Black
@@ -481,7 +482,10 @@ str_LMSJubilee_usage		        :Express Passenger
 str_LMSJubilee_eos				    :1934-1967
 str_LMSJubilee_liveries			    :LMS Crimson, LMS Wartime Black, BR Transitional Black, BR Black, BR Brunswick Green, BR Blue
 
-STR_NAME_LMSBlack5				    :LMS Stanier Class 5MT 4-6-0 "Black Five"
+STR_NAME_LMSBlack5       	        :LMS Stanier Class 5 "Black Five"
+STR_NAME_LMSBlack5_Domed            :LMS Stanier Class 5 "Black Five" (Domed)
+STR_NAME_LMSBlack5_Domeless         :LMS Stanier Class 5 "Black Five" (Domeless)
+STR_NAME_LMSBlack5_For      	    :LMS Stanier Class 5 "Black Five" (Forward Top Feed)
 str_LMSBlack5_usage		            :Mixed Traffic
 str_LMSBlack5_eos				    :1934-1968
 str_LMSBlack5_liveries			    :LMS Black, BR Transitional Black, BR Black

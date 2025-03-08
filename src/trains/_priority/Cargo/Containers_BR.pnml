@@ -112,8 +112,8 @@ random_switch(FEAT_TRAINS, SELF, random_BR_Container_BD_Centered, bitmask(TRIGGE
 }
 
 random_switch(FEAT_TRAINS, SELF, random_BR_Container_Any_Centered, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
-    1: spritegroup_BR_Container_A_Maroon_Centered;
-    1: spritegroup_BR_Container_BD_Maroon_Centered;
+    1: random_BR_Container_A_Centered;
+    1: random_BR_Container_BD_Centered;
 }
 
 random_switch(FEAT_TRAINS, SELF, random_BR_Container_Cold_Centered, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {

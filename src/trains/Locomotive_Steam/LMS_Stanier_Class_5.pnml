@@ -1,123 +1,228 @@
 // anim_sprites
-spriteset(spriteset_LMS_Stanier_Class_5_anim1, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_8bpp.png")
+spriteset(spriteset_LMS_Black_5_anim1, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_LMS_Stanier_Class_5_anim2, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_1x_8bpp.png")
+spriteset(spriteset_LMS_Black_5_anim2, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_2_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_LMS_Stanier_Class_5_anim3, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_1x_8bpp.png")
+spriteset(spriteset_LMS_Black_5_anim3, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_3_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_LMS_Stanier_Class_5_anim4, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_1x_8bpp.png")
+spriteset(spriteset_LMS_Black_5_anim4, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_4_4x_mask.png")
     { template_78trains_4x(0,0) }
+
+// purchase stack
+spriteset(spriteset_LMS_Black_5_purchase_anim, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_purchase_anim, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Anim_1_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+// Domed Boiler
+spriteset(spriteset_LMS_Black_5_Domed, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Domed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Domed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Domed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// purchase stack
+spriteset(spriteset_LMS_Black_5_purchase_Domed, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_purchase_Domed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domed_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+// Domeless Boiler
+spriteset(spriteset_LMS_Black_5_Domeless, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Domeless, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Domeless, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Domeless, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// purchase stack
+spriteset(spriteset_LMS_Black_5_purchase_Domeless, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_purchase_Domeless, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Domeless_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_LMS_Black_5_Forward_Top_Feed, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Forward_Top_Feed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Forward_Top_Feed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_Forward_Top_Feed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// purchase stack
+spriteset(spriteset_LMS_Black_5_purchase_Forward_Top_Feed, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LMS_Black_5_purchase_Forward_Top_Feed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Forward_Top_Feed_1x_mask.png")
+    { template_purchase(0,0) }
 
 
 // basic sprites
 // LMS Lined Black
-spriteset(spriteset_LMS_Stanier_Class_5_Lined_Black, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_8bpp.png")
+spriteset(spriteset_LMS_Black_5_Lined_Black, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_LMS_Stanier_Class_5_purchase, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_8bpp.png")
+spriteset(spriteset_LMS_Black_5_purchase, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LMS_Stanier_Class_5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Black_5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Black_5\LMS_Black_5_Lined_Black_1x_mask.png")
     { template_purchase(0,0) }
 
 // FX effects
-switch(FEAT_TRAINS, SELF, sw_FX_LMS_Stanier_Class_5_Steam, position_in_vehid_chain % 2) {
+switch(FEAT_TRAINS, SELF, sw_FX_LMS_Black_5_Steam, position_in_vehid_chain % 2) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
     return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
 
 // livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_LMS_Stanier_Class_5, cargo_subtype) {
-    0: spriteset_LMS_Stanier_Class_5_Lined_Black;
+switch(FEAT_TRAINS, SELF, sw_livery_LMS_Black_5, cargo_subtype) {
+    0: spriteset_LMS_Black_5_Lined_Black;
 }
 
 // livery name refit switch
-switch(FEAT_TRAINS, SELF, sw_LMS_Stanier_Class_5_cargo_subtype_text, cargo_subtype){
+switch(FEAT_TRAINS, SELF, sw_LMS_Black_5_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LMSBlack);
        return CB_RESULT_NO_TEXT;
 }
 
 // animation sprite stacking
-switch (FEAT_TRAINS, SELF, sw_animation_LMS_Stanier_Class_5, motion_counter % 4) {
-    0: spriteset_LMS_Stanier_Class_5_anim1;
-    1: spriteset_LMS_Stanier_Class_5_anim2;
-    2: spriteset_LMS_Stanier_Class_5_anim3;
-    3: spriteset_LMS_Stanier_Class_5_anim4;
+switch (FEAT_TRAINS, SELF, sw_animation_LMS_Black_5, motion_counter % 4) {
+    0: spriteset_LMS_Black_5_anim1;
+    1: spriteset_LMS_Black_5_anim2;
+    2: spriteset_LMS_Black_5_anim3;
+    3: spriteset_LMS_Black_5_anim4;
 }
 
-switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Stanier_Class_5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-    0: sw_livery_LMS_Stanier_Class_5;
-    1: return sw_animation_LMS_Stanier_Class_5;
+switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_Domed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_LMS_Black_5;
+    1: spriteset_LMS_Black_5_Domed;
+    2: return sw_animation_LMS_Black_5;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_Domeless, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_LMS_Black_5;
+    1: spriteset_LMS_Black_5_Domeless;
+    2: return sw_animation_LMS_Black_5;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_Forward_Top_Feed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_LMS_Black_5;
+    1: spriteset_LMS_Black_5_Forward_Top_Feed;
+    2: return sw_animation_LMS_Black_5;
+}
+
+// purchase sprite stacking
+switch (FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_purchase_Domed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LMS_Black_5_purchase;
+    1: spriteset_LMS_Black_5_purchase_anim;
+    2: spriteset_LMS_Black_5_purchase_Domed;
+}
+
+// random switch
+switch(FEAT_TRAINS, SELF, random_choose_LMS_Black_5, switch_alternative_var_random_bits(1, 3)) {
+    0: sw_spritestack_LMS_Black_5_Domed;
+    1: sw_spritestack_LMS_Black_5_Domeless;
+    2: sw_spritestack_LMS_Black_5_Forward_Top_Feed;
+    3: sw_spritestack_LMS_Black_5_Domed; // Domed is more likely than the others
+        sw_spritestack_LMS_Black_5_Domed;
 }
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, sw_LMS_Stanier_Class_5_graphics, position_in_articulated_veh % 2) {
-	0: sw_spritestack_LMS_Stanier_Class_5;
-	1: sw_livery_Stanier_4000gal;
+switch(FEAT_TRAINS, SELF, sw_graphics_random_LMS_Black_5, position_in_articulated_veh % 2) {
+	0: return random_choose_LMS_Black_5;
+	1: sw_livery_Stanier_4000gal_Class_5;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LMS_Black_5_Domed, position_in_articulated_veh % 2) {
+	0: sw_spritestack_LMS_Black_5_Domed;
+	1: sw_livery_Stanier_4000gal_Class_5;
 }
 
 // length switch
-switch(FEAT_TRAINS, SELF, sw_length_LMS_Stanier_Class_5, position_in_articulated_veh % 2) {
+switch(FEAT_TRAINS, SELF, sw_length_LMS_Black_5, position_in_articulated_veh % 2) {
 	0: 7;
 	1: 5;
 }
 
 // articulation switch
-switch(FEAT_TRAINS, SELF, sw_articulated_LMS_Stanier_Class_5, extra_callback_info1) {
-	1: return item_LMS_Stanier_Class_5;
+switch(FEAT_TRAINS, SELF, sw_articulated_LMS_Black_5, extra_callback_info1) {
+	1: return item_LMS_Black_5;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, item_LMS_Stanier_Class_5, 4460) { // BR Number range 44658-45499 
+
+item (FEAT_TRAINS, item_LMS_Black_5, 4461) { // BR Number range 44658-45499 
     property {
         // common properties
         name:                           string(STR_NAME_LMSBlack5);
@@ -153,18 +258,234 @@ item (FEAT_TRAINS, item_LMS_Stanier_Class_5, 4460) { // BR Number range 44658-45
 
     graphics {
         // graphics
-        default:                        sw_LMS_Stanier_Class_5_graphics;
-        visual_effect_and_powered:      sw_FX_LMS_Stanier_Class_5_Steam;
-        purchase:                       spriteset_LMS_Stanier_Class_5_purchase;
+        default:                        sw_graphics_random_LMS_Black_5;
+        visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
+        purchase:                       sw_spritestack_LMS_Black_5_purchase_Domed;
         
         // internal code
-        length:                         sw_length_LMS_Stanier_Class_5;
-        articulated_part:               sw_articulated_LMS_Stanier_Class_5;
+        length:                         sw_length_LMS_Black_5;
+        articulated_part:               sw_articulated_LMS_Black_5;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(24));
-        running_cost_factor:            return(GetAdjustedCost(24));
-        cargo_subtype_text:             sw_LMS_Stanier_Class_5_cargo_subtype_text; 
+        cost_factor:                    return(GetAdjustedCost(37));
+        running_cost_factor:            return(GetAdjustedCost(35));
+        cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(     string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_LMSBlack5_usage),
+                                                    string(str_LMSBlack5_liveries)));
+    }
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_LMS_Black_5_Domed, extra_callback_info1) {
+    1: return item_LMS_Black_5_Domed;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+item (FEAT_TRAINS, item_LMS_Black_5_Domed, 4462) { // BR Number range 44658-45499 
+    property {
+        // common properties
+        name:                           string(STR_NAME_LMSBlack5_Domed);
+        variant_group:                  item_LMS_Black_5; // unit ID or item
+        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(1934,2,1); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+		cargo_allow_refit:				[PASS, GOOD];
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          85 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1500 hp;
+        weight:                         130 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.1;
+        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_LMS_Black_5_Domed;
+        visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
+        purchase:                       sw_spritestack_LMS_Black_5_purchase_Domed;
+        
+        // internal code
+        length:                         sw_length_LMS_Black_5;
+        articulated_part:               sw_articulated_LMS_Black_5_Domed;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(37));
+        running_cost_factor:            return(GetAdjustedCost(35));
+        cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(     string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_LMSBlack5_usage),
+                                                    string(str_LMSBlack5_liveries)));
+    }
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LMS_Black_5_Domeless, position_in_articulated_veh % 2) {
+	0: sw_spritestack_LMS_Black_5_Domeless;
+	1: sw_livery_Stanier_4000gal_Class_5;
+}
+
+// purchase sprite stacking
+switch (FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_purchase_Domeless, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LMS_Black_5_purchase;
+    1: spriteset_LMS_Black_5_purchase_anim;
+    2: spriteset_LMS_Black_5_purchase_Domeless;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_LMS_Black_5_Domeless, extra_callback_info1) {
+    1: return item_LMS_Black_5_Domeless;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+item (FEAT_TRAINS, item_LMS_Black_5_Domeless, 4463) { // BR Number range 44658-45499 
+    property {
+        // common properties
+        name:                           string(STR_NAME_LMSBlack5_Domeless);
+        variant_group:                  item_LMS_Black_5; // unit ID or item
+        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(1934,2,1); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+		cargo_allow_refit:				[PASS, GOOD];
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          85 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1500 hp;
+        weight:                         130 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.1;
+        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_LMS_Black_5_Domeless;
+        visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
+        purchase:                       sw_spritestack_LMS_Black_5_purchase_Domeless;
+        
+        // internal code
+        length:                         sw_length_LMS_Black_5;
+        articulated_part:               sw_articulated_LMS_Black_5_Domeless;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(37));
+        running_cost_factor:            return(GetAdjustedCost(35));
+        cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(     string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_LMSBlack5_usage),
+                                                    string(str_LMSBlack5_liveries)));
+    }
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LMS_Black_5_Forward_Top_Feed, position_in_articulated_veh % 2) {
+	0: sw_spritestack_LMS_Black_5_Forward_Top_Feed;
+	1: sw_livery_Stanier_4000gal_Class_5;
+}
+
+// purchase sprite stacking
+switch (FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_purchase_Forward_Top_Feed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LMS_Black_5_purchase;
+    1: spriteset_LMS_Black_5_purchase_anim;
+    2: spriteset_LMS_Black_5_purchase_Domeless;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_LMS_Black_5_Forward_Top_Feed, extra_callback_info1) {
+    1: return item_LMS_Black_5_Forward_Top_Feed;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+item (FEAT_TRAINS, item_LMS_Black_5_Forward_Top_Feed, 4464) { // BR Number range 44658-45499 
+    property {
+        // common properties
+        name:                           string(STR_NAME_LMSBlack5_For);
+        variant_group:                  item_LMS_Black_5; // unit ID or item
+        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(1934,2,1); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+		cargo_allow_refit:				[PASS, GOOD];
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          85 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1500 hp;
+        weight:                         130 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.1;
+        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_LMS_Black_5_Forward_Top_Feed;
+        visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
+        purchase:                       sw_spritestack_LMS_Black_5_purchase_Forward_Top_Feed;
+        
+        // internal code
+        length:                         sw_length_LMS_Black_5;
+        articulated_part:               sw_articulated_LMS_Black_5_Forward_Top_Feed;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(37));
+        running_cost_factor:            return(GetAdjustedCost(35));
+        cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text

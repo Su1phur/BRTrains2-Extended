@@ -1,27 +1,27 @@
 // basic sprites
 spriteset(spriteset_BR_Conflat_P_BR_Bauxite, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
-    { template_98trains_1x(0,0) }
+    { template_68trains_1x(0,0) }
 
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
-    { template_98trains_1x(0,0) }
+    { template_68trains_1x(0,0) }
 
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_mask.png")
-    { template_98trains_2x(0,0) }
+    { template_68trains_2x(0,0) }
 
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_mask.png")
-    { template_98trains_4x(0,0) }
+    { template_68trains_4x(0,0) }
 
 spriteset(spriteset_BR_Conflat_P_BR_Bauxite_REV, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
-    { template_98trains_REV_1x(0,0) }
+    { template_68trains_REV_1x(0,0) }
 
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
-    { template_98trains_REV_1x(0,0) }
+    { template_68trains_REV_1x(0,0) }
 
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_mask.png")
-    { template_98trains_REV_2x(0,0) }
+    { template_68trains_REV_2x(0,0) }
 
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_mask.png")
-    { template_98trains_REV_4x(0,0) }
+    { template_68trains_REV_4x(0,0) }
 
 // purchase sprite
 spriteset(spriteset_BR_Conflat_P_purchase, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
@@ -38,8 +38,6 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_P_Container_A_direction, direc
 }
 
 random_switch(FEAT_TRAINS, SELF, sw_random_BR_Container_decider, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
-    indepedent: random_BR_Container_BD_Side;
-    indepedent: random_BR_Container_A_Side;
     1: random_BR_Container_BD_Side;
     1: sw_loadstack_BR_Conflat_P_Container_A_direction;
 }
@@ -56,7 +54,7 @@ switch(FEAT_TRAINS, SELF, sw_BR_Conflat_P_cargo_subtype_text, cargo_subtype){
 }
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, sw_graphics_BR_Conflat_P) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Conflat_P, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 	0: return sw_livery_BR_Conflat_P;
     1: return sw_random_BR_Container_decider;
 }
@@ -103,8 +101,8 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 502) {
         purchase:                       spriteset_BR_Conflat_P_purchase;
 
         // internal code
-        cost_factor:                    return(GetAdjustedCost());
-        running_cost_factor:            return(GetAdjustedCost());
+        cost_factor:                    return(GetAdjustedCost(49));
+        running_cost_factor:            return(GetAdjustedCost(17));
         cargo_subtype_text:             sw_BR_Conflat_P_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

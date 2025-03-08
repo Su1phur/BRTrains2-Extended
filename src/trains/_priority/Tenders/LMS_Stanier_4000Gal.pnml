@@ -13,6 +13,6 @@ spriteset(spriteset_Stanier_4000gal_LMS_Black, "gfx/Tender/Stanier_4000gal_LMS_B
     { template_58trains_4x(0,0) }
 
 // livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Class_5, cargo_subtype) {
     0: spriteset_Stanier_4000gal_LMS_Black;
 }

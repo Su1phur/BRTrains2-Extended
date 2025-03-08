@@ -1,5 +1,2 @@
 sort(FEAT_TRAINS, [
-  item_BR52,
-  item_BRMk1SK48,
-  item_BR_Mk1_TSO,
  ]);
