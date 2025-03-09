@@ -85,7 +85,7 @@ switch(FEAT_TRAINS, PARENT, sw_reverse_BR66, vehicle_is_reversed) {
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_BR66_graphics, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-	1: return sw_reverse_BR66;
+	1: return sw_livery_BR66;
 	2: spriteset_empty;
 }
 
@@ -111,7 +111,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR66, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR66, 6600) {
+item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
     property {
         // common properties
         name:                           string(STR_NAME_BR66);
@@ -151,6 +151,8 @@ item (FEAT_TRAINS, item_BR66, 6600) {
         visual_effect_and_powered:      sw_FX_BR66_Diesel;
         purchase:                       spriteset_BR66_purchase;
         
+		sound_effect:					sw_deltic_sound;
+
         // internal code
         length:                         sw_length_BR66;
         articulated_part:               sw_articulated_BR66;
