@@ -454,6 +454,10 @@ str_GWRHall_usage		   		    :Express Passenger
 str_GWRHall_eos				        :1946
 str_GWRHall_liveries			    :GWR Green, Hogwarts Express
 
+STR_NAME_GWR_5600                   :GWR 5600 Class "Welsh Tank"
+str_GWR_5600_usage                  :Mixed Traffic
+str_GWR_5600_liveries               :GWR Green, GWR Black, BR Green, BR Black
+
 STR_NAME_LNERV2					    :LNER Gresley Class V2 2-6-2
 str_LNERV2_usage				    :Fast Freight, Passenger, Express Passenger
 str_LNERV2_eos					    :1936-1966
@@ -1758,6 +1762,8 @@ str_BR2ToneGrey                 : (BR - 2 Tone Grey)
 str_BRAppleGreen                : (BR - Apple Green)
 str_BRBauxite                   : (BR - Bauxite)
 str_BRBlack						: (BR - Black)
+str_BRBlack_Early               : (BR - Black, Early Emblem)
+str_BRBlack_Late                : (BR - Black, Late Crest)
 str_BRBlue						: (BR - Blue)
 str_BRBlueAlt					: (BR - Blue, Alternate)
 str_BRBlueWrap					: (BR - Blue, Wraparound)
@@ -1771,6 +1777,8 @@ str_BRCarmCream					: (BR - Carmine and Cream)
 str_BRChocCream					: (BR - Chocolate and Cream)
 str_BRDesertSand                : (BR - Desert Sand)
 str_BRGreen						: (BR - Green)
+str_BRGreen_Early               : (BR - Green, Early Emblem)
+str_BRGreen_Late                : (BR - Green, Late Crest)
 str_BRGreenCentre				: (BR - Green, Centre Headcode)
 str_BRGreenSplit				: (BR - Green, Split Box)
 str_BRGreenYellow				: (BR - Green, Yellow Front)
@@ -1900,8 +1908,8 @@ str_gtrp						: (Govia Thameslink - Pink)
 str_GTRPride					: (Govia Thameslink - Pride)
 str_Gulf                        : (Gulf)
 str_GNRGreen					: (GNR - Green)
-str_GWRGreen					: (GWR - Green)
-str_GWRGreenChrome				: (GWR - Green & Chrome)
+str_GWRGreen                    : (GWR - Green)
+str_GWRGreenChrome				: (GWR - Chrome Green)
 str_GWRPride                    : (GWR - Pride)
 str_GWRGreenUn					: (GWR - Green Unbranded)
 str_HansonHall                  : (Hanson & Hall)

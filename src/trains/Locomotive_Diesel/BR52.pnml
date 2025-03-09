@@ -144,13 +144,6 @@ switch(FEAT_TRAINS, SELF, sw_length_BR52, position_in_vehid_chain % 3) {
 	2: 4;
 }
 
-// fx disable switch
-switch(FEAT_TRAINS, SELF, sw_FX_BR52, position_in_vehid_chain % 3) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
-	1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
-		return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
-
 switch(FEAT_TRAINS, SELF, random_choose_BR52, switch_alternative_var_random_bits(1, 1)) {
 	0: sw_spritestack_BR52_Crimson_Nameplate;
 	1: sw_spritestack_BR52_Black_Nameplate;

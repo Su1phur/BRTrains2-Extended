@@ -151,7 +151,7 @@ item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
         visual_effect_and_powered:      sw_FX_BR66_Diesel;
         purchase:                       spriteset_BR66_purchase;
         
-		sound_effect:					sw_deltic_sound;
+		sound_effect:					sw_66_sound;
 
         // internal code
         length:                         sw_length_BR66;
