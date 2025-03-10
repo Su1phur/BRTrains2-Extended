@@ -1,0 +1,186 @@
+// basic sprites
+spriteset(spriteset_Gresley_8ft6in_Bogie, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_8bpp.png")
+    { template_38trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_mask.png")
+    { template_38trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_mask.png")
+    { template_38trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_mask.png")
+    { template_38trains_4x(0,0) }
+
+spriteset(spriteset_Gresley_8ft6in_Bogie_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_8bpp.png")
+    { template_38trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_mask.png")
+    { template_38trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_mask.png")
+    { template_38trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_mask.png")
+    { template_38trains_REV_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_Twin_BT, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_mask.png")
+    { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_mask.png")
+    { template_108trains_4x(0,0) }
+
+spriteset(spriteset_LNER_Twin_BT_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_mask.png")
+    { template_108trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_mask.png")
+    { template_108trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_LNER_BT_T_purchase, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LNER_BT_T_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_Twin_T8_BR_Maroon, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_1x_mask.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_2x_mask.png")
+    { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_4x_mask.png")
+    { template_108trains_4x(0,0) }
+
+spriteset(spriteset_LNER_Twin_T8_BR_Maroon_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_1x_8bpp.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_BR_Maroon_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_1x_mask.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_BR_Maroon_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_2x_mask.png")
+    { template_108trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_BR_Maroon_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_BR_Maroon_4x_mask.png")
+    { template_108trains_REV_4x(0,0) }
+
+// reversing switches
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T, position_in_vehid_chain % 6) {
+	0: spriteset_empty;
+	1: spriteset_LNER_Twin_BT;
+	2: spriteset_empty;
+    3: spriteset_empty;
+    4: spriteset_LNER_Twin_T8_BR_Maroon;
+    5: spriteset_empty;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_LNER_BT_T, cargo_subtype) {
+    0: sw_graphics_LNER_BT_T;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_LNER_BT_T_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRMaroon);
+       return CB_RESULT_NO_TEXT;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_LNER_BT_T, position_in_articulated_veh % 6) {
+	0: 4;
+	1: 2;
+	2: 4;
+    3: 4;
+    4: 2;
+    5: 4;
+}
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_LNER_BT_T, position_in_vehid_chain % 6) {
+    0: 135 * param_pax; // all the capacity - (vehid chain number)
+    1..5: 1 * param_pax;
+    // total 140
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_LNER_BT_T, extra_callback_info1) {
+	1: return item_LNER_BT_T;
+	2: return item_LNER_BT_T;
+    3: return item_LNER_BT_T;
+    4: return item_LNER_BT_T;
+    5: return item_LNER_BT_T;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_LNER_BT_T, 802) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_LNER_BT_T);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1940,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        cargo_allow_refit:               [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;					
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         47 ton;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_LNER_BT_T;
+        purchase:                       spriteset_LNER_BT_T_purchase;
+        
+        // internal code
+        length:                         sw_length_LNER_BT_T;
+        articulated_part:               sw_articulated_LNER_BT_T;
+        purchase_cargo_capacity:        return ( 20 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_LNER_BT_T;
+        cost_factor:                    return(GetAdjustedCost(30));
+        running_cost_factor:            return(GetAdjustedCost(30));
+        cargo_subtype_text:             sw_LNER_BT_T_cargo_subtype_text; 
+        // power:                          sw_power_LNER_BT_T;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(	string(str_purchase_coach,
+												string(str_LNER_BT_T_liveries)));
+    }
+}
