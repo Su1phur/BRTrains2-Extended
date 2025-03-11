@@ -171,10 +171,10 @@ item (FEAT_TRAINS, item_LNER_BT_T, 802) {
         // internal code
         length:                         sw_length_LNER_BT_T;
         articulated_part:               sw_articulated_LNER_BT_T;
-        purchase_cargo_capacity:        return ( 20 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_LNER_BT_T;
-        cost_factor:                    return(GetAdjustedCost(30));
-        running_cost_factor:            return(GetAdjustedCost(30));
+        cost_factor:                    return(GetAdjustedCost(63));
+        running_cost_factor:            return(GetAdjustedCost(16));
         cargo_subtype_text:             sw_LNER_BT_T_cargo_subtype_text; 
         // power:                          sw_power_LNER_BT_T;
         colour_mapping:                 return PALETTE_CC_FIRST;
