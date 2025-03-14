@@ -123,7 +123,7 @@ item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
         vehicle_life: 					40;
         retire_early: 					-10;							
         reliability_decay: 				20;
-        cargo_allow_refit:              [GOOD];
+        cargo_allow_refit:              [PASS, GOOD];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
         loading_speed:					5;

@@ -1496,6 +1496,8 @@ STR_NAME_BRMk1RMB				:BR Mark 1 Coach (Restaurant Buffet)
 str_BRMk1RMB_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
 STR_NAME_BRMk2_Header			:BR Mark 2 Coaches
+
+STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (A-C Tourist Standard Open)
 STR_NAME_BRMk2_DBSO				:BR Mark 2 Driving Coach (Driving Brake Standard Class)
 STR_NAME_BRMk2_Early_SO			:BR Mark 2 Coach (A-C Standard Class)
 STR_NAME_BRMk2_Early_FO			:BR Mark 2 Coach (A-C First Class)
