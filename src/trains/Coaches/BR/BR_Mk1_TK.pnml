@@ -1,0 +1,177 @@
+// basic sprites
+// BR Maroon
+spriteset(spriteset_BR_Mk1_TK_BR_Maroon, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_8bpp.png")
+	{ template_128trains_1x(0,0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_mask.png")
+		{ template_128trains_1x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_2x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_2x_mask.png")
+		{ template_128trains_2x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_4x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_4x_mask.png")
+		{ template_128trains_4x(0, 0) }
+
+spriteset (spriteset_BR_Mk1_TK_BR_Maroon_Loading, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_1x_8bpp.png")
+	{ template_128trains_1x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_BR_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_1x_mask.png")
+		{ template_128trains_1x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_BR_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_2x_mask.png")
+		{ template_128trains_2x(0, 0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_BR_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_4x_mask.png")
+		{ template_128trains_4x(0, 0) }
+
+spritegroup spritegroup_BR_Mk1_TK_BR_Maroon_Loading
+	{ 	loaded: [spriteset_empty];
+		loading: [spriteset_BR_Mk1_TK_BR_Maroon_Loading]; }
+
+// basic sprites
+spriteset(spriteset_BR_Mk1_TK_BR_BnC, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk1_TK_BR_BnC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_1x_32bpp.png", "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk1_TK_BR_BnC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_2x_32bpp.png", "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk1_TK_BR_BnC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_4x_32bpp.png", "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+spriteset(spriteset_BR_Mk1_TK_BR_BnC_Loading, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk1_TK_BR_BnC_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk1_TK_BR_BnC_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk1_TK_BR_BnC_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk1_TK\BR_Mk1_TK_BR_BnC_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// cargo spritegroup
+spritegroup spritegroup_BR_Mk1_TK_BR_BnC_Loading {
+    loaded: [spriteset_empty, ];
+    loading: [spriteset_BR_Mk1_TK_BR_BnC, ];
+}
+
+
+// loading sprite stacking switch
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk1_TK_BR_Maroon, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] )
+	{ 	0: spriteset_BR_Mk1_TK_BR_Maroon;
+		1: spritegroup_BR_Mk1_TK_BR_Maroon_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk1_TK_BR_BnC, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk1_TK_BR_BnC;
+    1: spritegroup_BR_Mk1_TK_BR_BnC_Loading;
+}
+
+// purchase sprite switch
+spriteset(spriteset_BR_Mk1_TK_purchase, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_8bpp.png")
+	{ template_purchase(0,0) }
+
+	alternative_sprites (spriteset_BR_Mk1_TK_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_mask.png")
+		{ template_purchase(0, 0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_TK, cargo_subtype) {
+    0: sw_loadstack_BR_Mk1_TK_BR_Maroon;
+    1: sw_loadstack_BR_Mk1_TK_BR_BnC;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TK_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRMaroon);
+    1:  return string(str_BRCarmCream);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, switch_BR_Mk1_TK_graphics, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR_Mk1_TK;
+	2: spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TK, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 4;
+	2: 4;
+}
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk1_TK, position_in_vehid_chain % 3) {
+    0: 62 * param_pax; // all the capacity - (vehid chain number - 1)
+    1..2: 1 * param_pax;
+    // total 64
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TK, extra_callback_info1) {
+	1: return item_BR_Mk1_TK;
+	2: return item_BR_Mk1_TK;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// year name switch
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk1_TK_name, current_year) {
+    1952..1956: string(STR_NAME_BRMk1TK);
+    string(STR_NAME_BRMk1SK);
+}
+
+item (FEAT_TRAINS, item_BR_Mk1_TK, 716) { // Diagram 146/147 BR Mk1 TK/SK
+    property {
+		// common properties
+        name:                           string(STR_NAME_BRMk1TK);
+        variant_group:                  BR_Mk1_Header; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+		introduction_date:				date(1951,01,01);
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+        cargo_allow_refit:              [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+		
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         36 ton;
+        length:                         8;
+	}
+    
+	graphics {
+        // graphics
+        default:                        switch_BR_Mk1_TK_graphics;
+        purchase:                       spriteset_BR_Mk1_TK_purchase;
+
+        // internal code
+        name:                           sw_BR_Mk1_TK_name;
+        length:                         switch_length_BR_Mk1_TK;
+        articulated_part:               switch_articulated_BR_Mk1_TK;
+        purchase_cargo_capacity:        return (21 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR_Mk1_TK;
+        cost_factor:                    return(GetAdjustedCost(48));
+        running_cost_factor:            return(GetAdjustedCost(17));
+        cargo_subtype_text:             sw_BR_Mk1_TK_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(	string(str_purchase_coach,
+												string(str_BRMk1SK_liveries)));
+    }
+}

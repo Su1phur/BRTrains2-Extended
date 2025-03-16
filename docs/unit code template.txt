@@ -66,6 +66,18 @@ spriteset(spriteset_UNIT_livery, "PATH_UNIT_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_4x_32bpp.png", "PATH_UNIT_4x_mask.png")
     { template_trains_4x(0,0) }
 
+spriteset(spriteset_UNIT_livery_Loading, "PATH_UNIT_Loading_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_livery_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_Loading_1x_32bpp.png", "PATH_UNIT_Loading_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_livery_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_Loading_2x_32bpp.png", "PATH_UNIT_Loading_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_livery_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_Loading_4x_32bpp.png", "PATH_UNIT_Loading_4x_mask.png")
+    { template_trains_4x(0,0) }
+
 spriteset(spriteset_UNIT_livery_REV, "PATH_UNIT_1x_8bpp.png")
     { template_trains_REV_1x(0,0) }
 

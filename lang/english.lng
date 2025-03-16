@@ -1468,6 +1468,7 @@ str_BRMk1FK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachi
 STR_NAME_BRMk1CK				:BR Mark 1 Coach (Composite Corridor)
 str_BRMk1CK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
+STR_NAME_BRMk1TK                :BR Mark 1 Coach (Third Corridor)
 STR_NAME_BRMk1SK				:BR Mark 1 Coach (Standard Corridor)
 str_BRMk1SK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 

@@ -1,69 +1,4 @@
-// basic sprites
-// BR Maroon
-spriteset(spriteset_BR_Mk1_TSO_BR_Maroon, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_8bpp.png")
-	{ template_128trains_1x(0,0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_mask.png")
-		{ template_128trains_1x(0, 0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_2x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_2x_mask.png")
-		{ template_128trains_2x(0, 0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_4x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_4x_mask.png")
-		{ template_128trains_4x(0, 0) }
-
-spriteset (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_1x_8bpp.png")
-	{ template_128trains_1x(0, 0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_1x_mask.png")
-		{ template_128trains_1x(0, 0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_2x_mask.png")
-		{ template_128trains_2x(0, 0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_BR_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_Loading_4x_mask.png")
-		{ template_128trains_4x(0, 0) }
-
-spritegroup spritegroup_BR_Mk1_TSO_BR_Maroon_Loading
-	{ 	loaded: [spriteset_empty];
-		loading: [spriteset_BR_Mk1_TSO_BR_Maroon_Loading]; }
-
-// loading sprite stacking switch
-switch(FEAT_TRAINS, SELF, switch_loadstack_BR_Mk1_TSO_BR_Maroon, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] )
-	{ 	0: spriteset_BR_Mk1_TSO_BR_Maroon;
-		1: spritegroup_BR_Mk1_TSO_BR_Maroon_Loading; }
-
-// purchase sprite switch
-spriteset(spriteset_BR_Mk1_TSO_purchase, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_8bpp.png")
-	{ template_purchase(0,0) }
-
-	alternative_sprites (spriteset_BR_Mk1_TSO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Maroon_1x_mask.png")
-		{ template_purchase(0, 0) }
-
-// livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_TSO, cargo_subtype) {
-    0: switch_loadstack_BR_Mk1_TSO_BR_Maroon;
-}
-
-// livery name refit switch
-switch(FEAT_TRAINS, SELF, sw_BR_Mk1_TSO_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_BRMaroon);
-       return CB_RESULT_NO_TEXT;
-}
-
-// graphics switch
-switch(FEAT_TRAINS, SELF, switch_BR_Mk1_TSO_graphics, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
-	1: return sw_livery_BR_Mk1_TSO;
-	2: spriteset_empty;
-}
-
-// length switch
-switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TSO, position_in_articulated_veh % 3) {
-	0: 4;
-	1: 4;
-	2: 4;
-}
+// no sprites, externally identical to Mk1 SO
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk1_TSO, position_in_vehid_chain % 3) {
@@ -79,14 +14,14 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_TSO, extra_callback_info1) {
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, item_BR_Mk1_TSO, 735) { // Diagram 93/94 BR Mk1 TSO
+item (FEAT_TRAINS, item_BR_Mk1_TSO, 723) { // Diagram 93 BR Mk1 TSO
     property {
 		// common properties
         name:                           string(STR_NAME_BRMk1TSO);
-        // variant_group:                  ; // unit ID or item
+        variant_group:                  BR_Mk1_Header; // unit ID or item
         // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
         climates_available:              ALL_CLIMATES;
-		introduction_date:				date(1952,4,21);
+		introduction_date:				date(1953,01,01);
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
