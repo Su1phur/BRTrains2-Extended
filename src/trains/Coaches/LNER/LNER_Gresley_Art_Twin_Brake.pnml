@@ -176,7 +176,6 @@ item (FEAT_TRAINS, item_LNER_BT_T, 802) {
         cost_factor:                    return(GetAdjustedCost(63));
         running_cost_factor:            return(GetAdjustedCost(16));
         cargo_subtype_text:             sw_LNER_BT_T_cargo_subtype_text; 
-        // power:                          sw_power_LNER_BT_T;
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text

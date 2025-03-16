@@ -249,7 +249,8 @@ item (FEAT_TRAINS, item_UNIT, ) {
         retire_early: 					-10;							
         reliability_decay: 				20;
         
-		// refittable_cargo_classes:		bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
@@ -305,6 +306,17 @@ item (FEAT_TRAINS, item_UNIT, ) {
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return();
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_diesel),
+                                                    string(str_UNIT_usage),
+                                                    string(str_UNIT_liveries)));
+
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_UNIT_usage),
+                                                    string(str_UNIT_liveries)));
+
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_UNIT_liveries)));
     }
 }

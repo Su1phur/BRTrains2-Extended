@@ -1,0 +1,191 @@
+// basic sprites
+spriteset(spriteset_BR153_BR_Regional_Railways, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+spriteset(spriteset_BR153_BR_Regional_Railways_Loading, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_2x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR153_purchase, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR153_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_mask.png")
+    { template_purchase(0,0) }
+
+// // loading sprite
+spritegroup spritegroup_BR153_BR_Regional_Railways_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR153_BR_Regional_Railways_Loading];
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_BR_Regional_Railways, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR153_BR_Regional_Railways;
+    1: spritegroup_BR153_BR_Regional_Railways_Loading;
+}
+
+// basic sprites
+spriteset(spriteset_BR153_TfW, "gfx\DMU\BR153\BR153_TfW_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_1x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_2x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_4x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+spriteset(spriteset_BR153_TfW_Loading, "gfx\DMU\BR153\BR153_TfW_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_Loading_1x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_Loading_2x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR153_TfW_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR153_TfW_Loading];
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_TfW, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR153_TfW;
+    1: spritegroup_BR153_TfW_Loading;
+}
+
+// FX effects
+
+switch(FEAT_TRAINS, SELF, sw_FX_BR153_Diesel, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR153, cargo_subtype) {
+    0: sw_loadstack_BR153_BR_Regional_Railways;
+    1: sw_loadstack_BR153_TfW;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR153_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_Regional);
+    1:  return string(str_TfW);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR153, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR153;
+	2: spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR153, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 6;
+	2: 4;
+}
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR153, position_in_vehid_chain % 3) {
+    0: 70 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total 72
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR153, extra_callback_info1) {
+	1: return item_BR153;
+	2: return item_BR153;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR153);
+        // variant_group:                  ; // unit ID or item
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1987,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        cargo_allow_refit:              [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          75 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          285 hp;
+        weight:                         41 ton;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.11;
+        tractive_effort_coefficient:    0.05;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR153;
+        // default:                        sw_livery_BR153;
+        visual_effect_and_powered:      sw_FX_BR153_Diesel;
+        purchase:                       spriteset_BR153_purchase;
+        // purchase:                       sw_spritestack_BR153_purchase; // For dual mode units
+
+        // internal code
+        length:                         sw_length_BR153;
+        articulated_part:               sw_articulated_BR153;
+        purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR153;
+        cost_factor:                    return(GetAdjustedCost(22));
+        running_cost_factor:            return(GetAdjustedCost(9));
+        cargo_subtype_text:             sw_BR153_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(	string(str_purchase_loco_with_liveries,
+													string(str_purchase_type_diesel),
+													string(str_BR153_usage),
+													string(str_BR153_liveries)));
+    }
+}
