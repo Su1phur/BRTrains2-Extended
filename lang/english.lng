@@ -1396,7 +1396,8 @@ str_GWR_Mink_G_usage            :Goods, Misc. Cargo
 str_GWR_Mink_G_eos              :--
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 
-STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
+STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon (Early)
+STR_NAME_BR_MCV_Late            :BR MCO/MCV 16t Steel Mineral Wagon (Late)
 str_BR_MCV_liveries             :BR Grey
 
 STR_NAME_BR_CONFLAT_A           :BR Container Flat "Conflat A" Wagon
