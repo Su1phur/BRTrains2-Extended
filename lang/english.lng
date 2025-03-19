@@ -1396,6 +1396,9 @@ str_GWR_Mink_G_usage            :Goods, Misc. Cargo
 str_GWR_Mink_G_eos              :--
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 
+STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
+str_BR_MCV_liveries             :BR Grey
+
 STR_NAME_BR_CONFLAT_A           :BR Container Flat "Conflat A" Wagon
 str_BR_Conflat_A_usage          :Goods, Misc. Cargo
 str_BR_Conflat_A_liveries       :BR Bauxite
@@ -1789,7 +1792,7 @@ str_BRGreenCentre				: (BR - Green, Centre Headcode)
 str_BRGreenSplit				: (BR - Green, Split Box)
 str_BRGreenYellow				: (BR - Green, Yellow Front)
 str_BRGreenPanel				: (BR - Green, Yellow Panel)
-str_BRGrey						: (BR - General Grey)
+str_BRGrey						: (BR - Grey)
 str_BRGreyBlue					: (BR - Grey and Blue)
 str_BRLion                      : (BR - Black & Lion)
 str_BRLLogo				        : (BR Large Logo)

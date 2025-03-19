@@ -1,0 +1,189 @@
+// basic sprites
+spriteset(spriteset_BR_MCV_Early_BR_Grey, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Early_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Early_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_2x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Early_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_4x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_MCV_Late_BR_Grey, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_2x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_4x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+
+// purchase sprite
+spriteset(spriteset_BR_MCV_Early_purchase, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Early_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_MCV_Late_purchase, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// load levels
+spriteset(spriteset_BR_MCV_load_0, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_2x_8bpp.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_4x_8bpp.png")
+    { template_48trains_4x(0,0) }
+
+
+spriteset(spriteset_BR_MCV_load_25, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_2x_8bpp.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_4x_8bpp.png")
+    { template_48trains_4x(0,0) }
+
+
+spriteset(spriteset_BR_MCV_load_50, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_50_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_50_2x_8bpp.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_50_4x_8bpp.png")
+    { template_48trains_4x(0,0) }
+
+
+spriteset(spriteset_BR_MCV_load_75, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_75_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_75_2x_8bpp.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_75_4x_8bpp.png")
+    { template_48trains_4x(0,0) }
+
+
+spriteset(spriteset_BR_MCV_load_100, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_100_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_100_2x_8bpp.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_100_4x_8bpp.png")
+    { template_48trains_4x(0,0) }
+
+spritegroup spritegroup_BR_MCV_Load {
+    loaded: [spriteset_BR_MCV_load_0, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
+    loading: [spriteset_BR_MCV_load_0, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
+}
+
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_MCV_Early, cargo_subtype) {
+    0: spriteset_BR_MCV_Early_BR_Grey;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR_MCV_Late, cargo_subtype) {
+    0: spriteset_BR_MCV_Late_BR_Grey;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV_Early, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_BR_MCV_Early;
+    1: spritegroup_BR_MCV_Load;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV_Late, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_BR_MCV_Late;
+    1: spritegroup_BR_MCV_Load;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_MCV_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRGrey);
+       return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, random_choose_BR_MCV, switch_alternative_var_random_bits(1, 3)) {
+    0: sw_loadstack_BR_MCV_Early;
+    1: sw_loadstack_BR_MCV_Late;
+    2: sw_loadstack_BR_MCV_Late;
+        sw_loadstack_BR_MCV_Late;
+}
+
+switch(FEAT_TRAINS, SELF, switch_BR_MCV_build_year, build_year) {
+    1944..1949: sw_loadstack_BR_MCV_Early;
+                random_choose_BR_MCV;
+}
+
+switch(FEAT_TRAINS, SELF, switch_BR_MCV_purchase_year, current_year) {
+    1944..1949: spriteset_BR_MCV_Early_purchase;
+                spriteset_BR_MCV_Late_purchase;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_MCV, 201) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_MCV);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1944,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_BULK);
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_disallow_refit:            [];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 16;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          30 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         8;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        switch_BR_MCV_build_year;
+        purchase:                       switch_BR_MCV_purchase_year;
+        
+        // internal code
+        cost_factor:                    return(GetAdjustedCost(47));
+        running_cost_factor:            return(GetAdjustedCost(16));
+        cargo_subtype_text:             sw_BR_MCV_cargo_subtype_text; 
+        colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_MCV_liveries)));
+    }
+}

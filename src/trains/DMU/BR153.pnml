@@ -23,6 +23,12 @@ spriteset(spriteset_BR153_BR_Regional_Railways_Loading, "gfx\DMU\BR153\BR153_BR_
     alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
+// loading sprite
+spritegroup spritegroup_BR153_BR_Regional_Railways_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR153_BR_Regional_Railways_Loading];
+}
+
 // purchase sprite
 spriteset(spriteset_BR153_purchase, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_8bpp.png")
     { template_purchase(0,0) }
@@ -30,15 +36,45 @@ spriteset(spriteset_BR153_purchase, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x
     alternative_sprites(spriteset_BR153_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_mask.png")
     { template_purchase(0,0) }
 
-// // loading sprite
-spritegroup spritegroup_BR153_BR_Regional_Railways_Loading {  
-    loaded: [spriteset_empty];
-    loading: [spriteset_BR153_BR_Regional_Railways_Loading];
-}
-
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_BR_Regional_Railways, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR153_BR_Regional_Railways;
     1: spritegroup_BR153_BR_Regional_Railways_Loading;
+}
+
+// basic sprites
+spriteset(spriteset_BR153_Arriva_Trains_Wales, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_1x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_2x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_4x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+spriteset(spriteset_BR153_Arriva_Trains_Wales_Loading, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_1x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_2x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR153_Arriva_Trains_Wales_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR153_Arriva_Trains_Wales_Loading];
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_Arriva_Trains_Wales, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR153_Arriva_Trains_Wales;
+    1: spritegroup_BR153_Arriva_Trains_Wales_Loading;
 }
 
 // basic sprites
@@ -88,13 +124,15 @@ switch(FEAT_TRAINS, SELF, sw_FX_BR153_Diesel, position_in_vehid_chain % 3) {
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR153, cargo_subtype) {
     0: sw_loadstack_BR153_BR_Regional_Railways;
-    1: sw_loadstack_BR153_TfW;
+    1: sw_loadstack_BR153_Arriva_Trains_Wales;
+    2: sw_loadstack_BR153_TfW;
 }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR153_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_Regional);
-    1:  return string(str_TfW);
+    1:  return string(str_ArrivaWales);
+    2:  return string(str_TfW);
        return CB_RESULT_NO_TEXT;
 }
 

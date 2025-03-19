@@ -53,6 +53,77 @@ spriteset(spriteset_UNIT_Anim4, "PATH_UNIT_Anim_4_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_Anim_4_4x_32bpp.png", "PATH_UNIT_Anim_4_4x_mask.png")
     { template_trains_4x(0,0) }
 
+
+// load levels
+spriteset(spriteset_UNIT_load_0, "PATH_UNIT_load_0_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_load_0_1x_32bpp.png", "PATH_UNIT_load_0_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_load_0_2x_32bpp.png", "PATH_UNIT_load_0_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_load_0_4x_32bpp.png", "PATH_UNIT_load_0_4x_mask.png")
+    { template_trains_4x(0,0) }
+
+
+spriteset(spriteset_UNIT_load_25, "PATH_UNIT_load_25_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_load_25_1x_32bpp.png", "PATH_UNIT_load_25_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_load_25_2x_32bpp.png", "PATH_UNIT_load_25_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_load_25_4x_32bpp.png", "PATH_UNIT_load_25_4x_mask.png")
+    { template_trains_4x(0,0) }
+
+
+spriteset(spriteset_UNIT_load_50, "PATH_UNIT_load_50_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_load_50_1x_32bpp.png", "PATH_UNIT_load_50_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_load_50_2x_32bpp.png", "PATH_UNIT_load_50_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_load_50_4x_32bpp.png", "PATH_UNIT_load_50_4x_mask.png")
+    { template_trains_4x(0,0) }
+
+
+spriteset(spriteset_UNIT_load_75, "PATH_UNIT_load_75_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_load_75_1x_32bpp.png", "PATH_UNIT_load_75_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_load_75_2x_32bpp.png", "PATH_UNIT_load_75_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_load_75_4x_32bpp.png", "PATH_UNIT_load_75_4x_mask.png")
+    { template_trains_4x(0,0) }
+
+
+spriteset(spriteset_UNIT_load_100, "PATH_UNIT_load_100_load_25_1x_8bpp.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH_UNIT_load_100_1x_32bpp.png", "PATH_UNIT_load_100_1x_mask.png")
+    { template_trains_1x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH_UNIT_load_100_2x_32bpp.png", "PATH_UNIT_load_100_2x_mask.png")
+    { template_trains_2x(0,0) }
+
+    alternative_sprites(spriteset_UNIT_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH_UNIT_load_100_4x_32bpp.png", "PATH_UNIT_load_100_4x_mask.png")
+    { template_trains_4x(0,0) }
+
+spritegroup spritegroup_UNIT_Load {
+    loaded: [spriteset_UNIT_load_0, spriteset_UNIT_load_25, spriteset_UNIT_load_50, spriteset_UNIT_load_75, spriteset_UNIT_load_100];
+    loading: [spriteset_UNIT_load_0, spriteset_UNIT_load_25, spriteset_UNIT_load_50, spriteset_UNIT_load_75, spriteset_UNIT_load_100];
+}
+
 // basic sprites
 spriteset(spriteset_UNIT_livery, "PATH_UNIT_1x_8bpp.png")
     { template_trains_1x(0,0) }
@@ -113,6 +184,7 @@ spritegroup spritegroup_UNIT_Loading {
 switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT;
     1: spritegroup_UNIT_Loading;
+    1: spritegroup_UNIT_Load;
 }
 
 // FX effects
@@ -304,6 +376,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         cargo_subtype_text:             sw_UNIT_cargo_subtype_text; 
         // power:                          sw_power_UNIT;
         colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
