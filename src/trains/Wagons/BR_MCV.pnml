@@ -75,8 +75,8 @@ spritegroup spritegroup_BR_MCV_Load {
 }
 
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV_Early, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR_MCV_Early_BR_Grey;
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV_Early, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: return spriteset_BR_MCV_Early_BR_Grey;
     1: spritegroup_BR_MCV_Load;
 }
 
@@ -85,10 +85,10 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR_MCV_Early, cargo_subtype) {
     0: sw_loadstack_BR_MCV_Early;
 }
 
-// switch(FEAT_TRAINS, SELF, sw_BR_MCV_cargo_subtype_text, cargo_subtype_text) {
-//     0:  return string(str_BRGrey);
-//         return CB_RESULT_NO_TEXT;
-// }
+switch(FEAT_TRAINS, SELF, sw_BR_MCV_cargo_subtype_text, cargo_subtype) {
+    0:  return string(str_BRGrey);
+        return CB_RESULT_NO_TEXT;
+}
 
 // unit definition
 item (FEAT_TRAINS, item_BR_MCV, 201) {
@@ -109,6 +109,7 @@ item (FEAT_TRAINS, item_BR_MCV, 201) {
         // non_refittable_cargo_classes:    bitmask();
         // cargo_disallow_refit:            [];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        default_cargo_type:				COAL;
         cargo_capacity:                 16;
         loading_speed:					5;
         cost_factor: 					108;
@@ -120,19 +121,19 @@ item (FEAT_TRAINS, item_BR_MCV, 201) {
         speed:                          30 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        default_cargo_type:				COAL;
-        weight:                         8;
+        weight:                         8 ton;
         length:                         4;
     }
 
     graphics {
         // graphics
-        default:                        sw_loadstack_BR_MCV_Early;
+        default:                        sw_livery_BR_MCV_Early;
         purchase:                       spriteset_BR_MCV_Early_purchase;
         
         // internal code
         cost_factor:                    return(GetAdjustedCost(47));
         running_cost_factor:            return(GetAdjustedCost(16));
+        cargo_subtype_text:             sw_BR_MCV_cargo_subtype_text;
         colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text

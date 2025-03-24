@@ -201,6 +201,14 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_Black_5, cargo_subtype) {
     4: spriteset_LMS_Black_5_BR_Plain_Black;
 }
 
+switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Class_5, cargo_subtype) {
+    0: spriteset_Stanier_4000gal_LMS_Black;
+    1: spriteset_Stanier_4000gal_BR_Early_Emblem;
+    2: spriteset_Stanier_4000gal_BR_Late_Crest;
+    3: spriteset_Stanier_4000gal_BR_Early_Emblem;
+    4: spriteset_Stanier_4000gal_BR_Late_Crest;
+}
+
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LMS_Black_5_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LMSBlack);

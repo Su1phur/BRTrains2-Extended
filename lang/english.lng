@@ -995,23 +995,30 @@ str_BR43_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Midland M
 # str_BR43_eos					:---
 # str_BR43_liveries				:Cross Country, Grand Central, Grand Central Lined
 
-STR_NAME_BR302					:BR Class 302 "AM-2" (4-car)
+STR_NAME_BR302					:BR Class 302 "AM2" (4-car)
 str_BR302_usage					:Commuter Passenger
 str_BR302_eos					:1999
 str_BR302_liveries				:BR Green, BR Blue, BR Blue Grey, Network SouthEast
 
-STR_NAME_BR305_1				:BR Class 305/1 "AM-5" (3-car)
+STR_NAME_BR305_1				:BR Class 305/1 "AM5" (3-car)
 str_BR305_1_usage				:Commuter Passenger
 str_BR305_1_eos					:2000
 str_BR305_1_liveries			:BR Green, BR Blue, BR Blue Grey, Network SouthEast, Regional Railways - Ex-NSE, Regional Railways, GMPTE
 
-STR_NAME_BR305_2				:BR Class 305/2 "AM-5" (4-car)
+STR_NAME_BR305_2				:BR Class 305/2 "AM5" (4-car)
 str_BR305_2_usage				:Commuter Passenger
 str_BR305_2_eos					:2000
 str_BR305_2_liveries			:BR Green, BR Blue, BR Blue Grey, Network SouthEast, Regional Railways - Ex-NSE, Regional Railways, GMPTE
 
+STR_NAME_BR309                  :BR Class 309 "AM9/Clacton Express"
+STR_NAME_BR309_1                :BR Class 309/1 "AM9/Clacton Express"
+STR_NAME_BR309_2                :BR Class 309/2 "AM9/Clacton Express"
+STR_NAME_BR309_3                :BR Class 309/3 "AM9/Clacton Express"
+str_BR309_usage                 :Express Passenger
+str_BR309_liveries              :BR Maroon, BR Blue/Grey, Network SouthEast
+
 STR_NAME_BR310				    :BR Class 310
-STR_NAME_BR310_0				:BR Class 310/0 "AM-10" (4-Car)
+STR_NAME_BR310_0				:BR Class 310/0 "AM10" (4-Car)
 STR_NAME_BR310_1				:BR Class 310/1 (3-Car)
 str_BR310_usage				    :Commuter Passenger
 str_BR310_eos					:---
