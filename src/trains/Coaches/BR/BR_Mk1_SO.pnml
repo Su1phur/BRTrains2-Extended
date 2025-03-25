@@ -135,7 +135,7 @@ spritegroup spritegroup_BR_Mk1_TSO_BR_Blue_Loading_REV {
 }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk1_TSO_BR_Blue_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR_Mk1_TSO_BR_Blue;
+    0: spriteset_BR_Mk1_TSO_BR_Blue_REV;
     1: spritegroup_BR_Mk1_TSO_BR_Blue_Loading_REV;
 }
 

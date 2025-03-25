@@ -1010,10 +1010,10 @@ str_BR305_2_usage				:Commuter Passenger
 str_BR305_2_eos					:2000
 str_BR305_2_liveries			:BR Green, BR Blue, BR Blue Grey, Network SouthEast, Regional Railways - Ex-NSE, Regional Railways, GMPTE
 
-STR_NAME_BR309                  :BR Class 309 "AM9/Clacton Express"
-STR_NAME_BR309_1                :BR Class 309/1 "AM9/Clacton Express"
-STR_NAME_BR309_2                :BR Class 309/2 "AM9/Clacton Express"
-STR_NAME_BR309_3                :BR Class 309/3 "AM9/Clacton Express"
+STR_NAME_BR309                  :BR Class 309 "AM9/Clacton Express" (10-car)
+STR_NAME_BR309_1                :BR Class 309/1 "AM9/Clacton Express" (2-car)
+STR_NAME_BR309_2                :BR Class 309/2 "AM9/Clacton Express" (4-car, with Griddle Car)
+STR_NAME_BR309_3                :BR Class 309/3 "AM9/Clacton Express" (4-car)
 str_BR309_usage                 :Express Passenger
 str_BR309_liveries              :BR Maroon, BR Blue/Grey, Network SouthEast
 
