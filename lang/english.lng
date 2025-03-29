@@ -449,6 +449,10 @@ str_GWRCastle_usage			   		:Express Passenger
 str_GWRCastle_eos					:1923-1965
 str_GWRCastle_liveries				:GWR Green
 
+STR_NAME_GWR_4300                   :GWR 4300 Class
+str_GWR_4300_usage                  :Mixed Traffic
+str_GWR_4300_liveries               :GWR Green
+
 STR_NAME_GWRHall				    :GWR Collett 4900 Class 4-6-0 "Hall"
 str_GWRHall_usage		   		    :Express Passenger
 str_GWRHall_eos				        :1946

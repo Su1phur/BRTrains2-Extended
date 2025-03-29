@@ -309,7 +309,7 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
         refit_cost:                     0;
         track_type:                     ELRL;
         power:                          2000 kW;
-        weight:                         132.8 ton;
+        weight:                         133 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         dual_headed:                    0;
         air_drag_coefficient:           0.06;
@@ -368,7 +368,7 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
         refit_cost:                     0;
         track_type:                     ELRL;
         power:                          2000 kW;
-        weight:                         167.5 ton;
+        weight:                         168 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         dual_headed:                    0;
         air_drag_coefficient:           0.06;

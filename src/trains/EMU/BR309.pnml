@@ -295,34 +295,34 @@ switch(FEAT_TRAINS, SELF, sw_BR309_cargo_subtype_text, cargo_subtype){
 }
 
 // reversing switches
-switch(FEAT_TRAINS, SELF, sw_reverse_BR309_BDTS_TSO_BR_Blue, vehicle_is_reversed) {
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_BDTS_TSO_BR_Blue, vehicle_is_reversed) {
     0: sw_loadstack_BR309_BDTS_BR_Blue_REV;
         sw_loadstack_BR_Mk1_TSO_BR_Blue;
 }
 
-switch(FEAT_TRAINS, SELF, sw_reverse_BR309_TSO_BDTS_BR_Blue, vehicle_is_reversed) {
-    0: sw_loadstack_BR_Mk1_TSO_BR_Blue;
-        sw_loadstack_BR309_BDTS_BR_Blue_REV;
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_TSO_BDTS_BR_Blue, vehicle_is_reversed) {
+    0: sw_loadstack_BR_Mk1_TSO_BR_Blue_REV;
+        sw_loadstack_BR309_BDTS_BR_Blue;
 }
 
-switch(FEAT_TRAINS, SELF, sw_reverse_BR309_DMsOC_MBSK_BR_Blue, vehicle_is_reversed) {
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_DMsOC_MBSK_BR_Blue, vehicle_is_reversed) {
     0: sw_loadstack_BR309_DMsOC_BR_Blue;
         sw_loadstack_BR309_MBSK_BR_Blue_REV;
 }
 
-switch(FEAT_TRAINS, SELF, sw_reverse_BR309_MBSK_DmsOC_BR_Blue, vehicle_is_reversed) {
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_MBSK_DmsOC_BR_Blue, vehicle_is_reversed) {
     0: sw_loadstack_BR309_MBSK_BR_Blue;
         sw_loadstack_BR309_DMsOC_BR_Blue_REV;
 }
 
-switch(FEAT_TRAINS, SELF, sw_reverse_BR309_TRB_DMsOC_BR_Blue, vehicle_is_reversed) {
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_TRB_DMsOC_BR_Blue, vehicle_is_reversed) {
     0: sw_loadstack_BR309_TRB_BR_Blue;
         sw_loadstack_BR309_DMsOC_BR_Blue_REV;
 }
 
-switch(FEAT_TRAINS, SELF, sw_reverse_BR309_DMsOC_TRB_BR_Blue, vehicle_is_reversed) {
+switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_DMsOC_TRB_BR_Blue, vehicle_is_reversed) {
     0: sw_loadstack_BR309_DMsOC_BR_Blue_REV;
-        sw_loadstack_BR309_TRB_BR_Blue;
+        sw_loadstack_BR309_TRB_BR_Blue_REV;
 }
 
 switch(FEAT_TRAINS, SELF, sw_FX_BR309_Electric, position_in_vehid_chain % 30) { // middle catenary
