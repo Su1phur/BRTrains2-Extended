@@ -317,7 +317,7 @@ switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_MBSK_DmsOC_BR_Blue, vehicle_is_reve
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_TRB_DMsOC_BR_Blue, vehicle_is_reversed) {
     0: sw_loadstack_BR309_TRB_BR_Blue;
-        sw_loadstack_BR309_DMsOC_BR_Blue_REV;
+        sw_loadstack_BR309_DMsOC_BR_Blue;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR309_DMsOC_TRB_BR_Blue, vehicle_is_reversed) {

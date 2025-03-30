@@ -1,3 +1,59 @@
+// Anim_sprites
+spriteset(spriteset_GWR_4300_Anim1, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+spriteset(spriteset_GWR_4300_Anim2, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_2_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+spriteset(spriteset_GWR_4300_Anim3, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_3_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+spriteset(spriteset_GWR_4300_Anim4, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_4_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_GWR_4300_Anim_purchase, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_Anim_1_1x_mask.png")
+    { template_purchase(0,0) }
+
 // basic sprites
 spriteset(spriteset_GWR_4300_GWR_Chrome_Green, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Chrome_Green_1x_8bpp.png")
     { template_68trains_1x(0,0) }
@@ -32,9 +88,28 @@ switch(FEAT_TRAINS, SELF, sw_livery_GWR_3500gal_4300, cargo_subtype) {
     0: spriteset_GWR_3500gal_GWR_Lined_Green;
 }
 
+// Animation sprite stacking
+switch (FEAT_TRAINS, SELF, sw_Animation_GWR_4300, motion_counter % 4) {
+    0: spriteset_GWR_4300_Anim1;
+    1: spriteset_GWR_4300_Anim2;
+    2: spriteset_GWR_4300_Anim3;
+    3: spriteset_GWR_4300_Anim4;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_4300, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_GWR_4300;
+    1: return sw_Animation_GWR_4300;
+}
+
+// purchase sprite stacking
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_4300_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES: 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GWR_4300_purchase;
+    1: spriteset_GWR_4300_Anim_purchase;
+}
+
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_GWR_4300, position_in_articulated_veh % 2) {
-	0: sw_livery_GWR_4300;
+	0: sw_spritestack_GWR_4300;
 	1: sw_livery_GWR_3500gal_4300;
 }
 
@@ -99,8 +174,7 @@ item (FEAT_TRAINS, item_GWR_4300, 430) {
         default:                        sw_graphics_GWR_4300;
         // default:                        sw_livery_GWR_4300;
         visual_effect_and_powered:      sw_FX_GWR_4300_Steam;
-        purchase:                       spriteset_GWR_4300_purchase;
-        // purchase:                       sw_spritestack_GWR_4300_purchase; // For dual mode units
+        purchase:                       sw_spritestack_GWR_4300_purchase; // For dual mode units
 
         // internal code
         length:                         sw_length_GWR_4300;
