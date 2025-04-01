@@ -3,10 +3,21 @@ from sys import argv
 from argparse import ArgumentParser
 from importlib import util
 
+RED = "\033[91m"
+YELLOW = "\033[93m" 
+RESET = "\033[0m"   
+
+KeyFiles = {
+    "grf.pnml": "\"grf.pnml\" not found. It should be in \"src\" and contain the grf block.",
+    "railtypes.pnml": "\"railtypes.pnml\" not found. It should be in \"src\" and contain the railtypetable block.",
+    "sounds.pnml": "\"sounds.pnml\" not found.  Assuming no sounds are required",
+    "templates_shared.pnml": "\"templates_shared.pnml\" not found.  Assuming no templates are required",
+    "templates_trains.pnml": "\"templates_trains.pnml\" not found.  Assuming no templates are required",
+    "templates_trams.pnml": "\"templates_trams.pnml\" not found.  Assuming no templates are required",
+}
 
 def check_project_structure(src_directory: Path, gfx_directory: Path,
                             lang_directory: Path):
-
     has_lang_dir = True
 
     # Check that the project is properly structured
@@ -17,38 +28,16 @@ def check_project_structure(src_directory: Path, gfx_directory: Path,
         print("\"gfx\" directory not found.  Aborting")
         return (False, -1)
     if not lang_directory.exists():
-        print(
-            "\"lang\" directory not found.  Assuming hard-coded strings (this is not best practice)"
-        )
+        print("\"lang\" directory not found.  Assuming hard-coded strings (this is not best practice)")
         has_lang_dir = False
 
-    # Find the grf, railtypes, and templates files
-    if not src_directory.joinpath("grf.pnml").exists():
-        print(
-            "\"grf.pnml\" not found.  It should be in \"src\" and contain the grf block"
-        )
-        return (False, -1)
-    if not src_directory.joinpath("railtypes.pnml").exists():
-        print(
-            "\"railtypes.pnml\" not found.  It should be in \"src\" and contain the railtypetable block"
-        )
-        return (False, -1)
-    if not src_directory.joinpath("sound.pnml").exists():
-        print(
-            "\"sounds.pnml\" not found.  Assuming no sounds are required"
-        )
-    if not src_directory.joinpath("templates_shared.pnml").exists():
-        print(
-            "\"templates_shared.pnml\" not found.  Assuming no templates are required"
-        )
-    if not src_directory.joinpath("templates_trains.pnml").exists():
-        print(
-            "\"templates_trains.pnml\" not found.  Assuming no templates are required"
-        )
-    if not src_directory.joinpath("templates_trams.pnml").exists():
-        print(
-            "\"templates_trams.pnml\" not found.  Assuming no templates are required"
-        )
+    for file, error in KeyFiles.items():
+        if not src_directory.joinpath(file).exists():
+            if file == "grf.pnml" or file == "railtypes.pnml":
+                print(f"{RED}CRITICAL: {error}{RESET}")
+                return (False, -1)
+            else:
+                print(f"{YELLOW}WARNING: {error}{RESET}")
 
     print("Project structure is correct\n")
     return (has_lang_dir, 0)
@@ -256,12 +245,8 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
         return -1
 
     # Add the special files to the internal nml file
-    nml_file = copy_file(src_directory.joinpath("grf.pnml"), nml_file)
-    nml_file = copy_file(src_directory.joinpath("railtypes.pnml"), nml_file)
-    nml_file = copy_file(src_directory.joinpath("sounds.pnml"), nml_file)
-    nml_file = copy_file(src_directory.joinpath("templates_shared.pnml"), nml_file)
-    nml_file = copy_file(src_directory.joinpath("templates_trains.pnml"), nml_file)
-    nml_file = copy_file(src_directory.joinpath("templates_trams.pnml"), nml_file)
+    for files in KeyFiles.keys():
+        nml_file = copy_file(src_directory.joinpath(files), nml_file)
 
     # Get a list of all the pnml files in src
     file_list = find_pnml_files(src_directory)
@@ -300,7 +285,7 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     # Read the other pushpull files
     for file in sorted(pushpull_files):
         if file.stem.startswith("PushPull"):
-            continue;
+            continue
         print("Reading pushpull file '%s'" % (file.stem + file.suffix))
         nml_file = copy_file(file, nml_file)
 
