@@ -2,19 +2,20 @@ from pathlib import Path
 from sys import argv
 from argparse import ArgumentParser
 from importlib import util
+from collections import OrderedDict # Use OrderedDict to enforce order
 
 RED = "\033[91m"
 YELLOW = "\033[93m" 
 RESET = "\033[0m"   
 
-KeyFiles = {
-    "grf.pnml": "\"grf.pnml\" not found. It should be in \"src\" and contain the grf block.",
-    "railtypes.pnml": "\"railtypes.pnml\" not found. It should be in \"src\" and contain the railtypetable block.",
-    "sounds.pnml": "\"sounds.pnml\" not found.  Assuming no sounds are required",
-    "templates_shared.pnml": "\"templates_shared.pnml\" not found.  Assuming no templates are required",
-    "templates_trains.pnml": "\"templates_trains.pnml\" not found.  Assuming no templates are required",
-    "templates_trams.pnml": "\"templates_trams.pnml\" not found.  Assuming no templates are required",
-}
+KeyFiles = OrderedDict( [
+    ("grf.pnml", "\"grf.pnml\" not found. It should be in \"src\" and contain the grf block."),
+    ("railtypes.pnml", "\"railtypes.pnml\" not found. It should be in \"src\" and contain the railtypetable block."),
+    ("sounds.pnml", "\"sounds.pnml\" not found.  Assuming no sounds are required"),
+    ("templates_shared.pnml", "\"templates_shared.pnml\" not found.  Assuming no templates are required"),
+    ("templates_trains.pnml", "\"templates_trains.pnml\" not found.  Assuming no templates are required"),
+    ("templates_trams.pnml", "\"templates_trams.pnml\" not found.  Assuming no templates are required"),
+] )
 
 def check_project_structure(src_directory: Path, gfx_directory: Path,
                             lang_directory: Path):
@@ -31,6 +32,7 @@ def check_project_structure(src_directory: Path, gfx_directory: Path,
         print("\"lang\" directory not found.  Assuming hard-coded strings (this is not best practice)")
         has_lang_dir = False
 
+    # iterate over KeyFiles, and ensure they exist
     for file, error in KeyFiles.items():
         if not src_directory.joinpath(file).exists():
             if file == "grf.pnml" or file == "railtypes.pnml":
@@ -56,27 +58,6 @@ def copy_file(filepath: Path, nml_file: str):
             nml_file += line
     nml_file += "\n\n"
     return nml_file
-
-
-def find_pnml_files(src_directory: Path):
-    print("Finding pnml files in %s" % src_directory)
-    file_list = dict()
-    # Iterate through all files in src_directory recursively, finding any that end in .pnml
-    for path in src_directory.rglob("*.pnml"):
-        # Don't add the special ones
-        if path.stem in ["railtypes", "grf", "sounds", "templates_shared", "templates_trains", "templates_trams"]:
-            continue
-
-        if path.parent.stem not in file_list.keys():
-            file_list[path.parent.stem] = list()
-        file_list[path.parent.stem].append(path)
-
-    # List found files
-    for directory in file_list.keys():
-        print("Found in directory [%s]:" % directory)
-        print([str(file.stem + file.suffix) for file in file_list[directory]])
-
-    return file_list
 
 
 def write_file(filename: str, nml_file: str):
@@ -238,9 +219,7 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     has_lang_dir = False
 
     # Check if the project is set up properly and we have a lang directory
-    (has_lang_dir,
-     error_code) = check_project_structure(src_directory, gfx_directory,
-                                           lang_directory)
+    (has_lang_dir, error_code) = check_project_structure(src_directory, gfx_directory, lang_directory)
     if error_code != 0:
         return -1
 
@@ -249,60 +228,42 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
         nml_file = copy_file(src_directory.joinpath(files), nml_file)
 
     # Get a list of all the pnml files in src
-    file_list = find_pnml_files(src_directory)
-    print("Finished finding pnml files\n")
-    pushpull_files = list()
-    priority_files = list()
-    pnml_files = list()
-    append_files = list()
-    # Priority folders: Read all the files in folders that begin with "_" into the internal nml
-    for directory in file_list:
-        # Group pushpull files
-        if directory.startswith("PushPull"): 
-            pushpull_files += file_list[directory]
-            continue
+    file_list = dict()
+    pnml_files = OrderedDict( [ ("Top level", list()), ("Priority", list()), ("Normal", list()), ("Append", list()) ] )
+    
+    for file in src_directory.rglob("*.pnml"):
+        relative_path = file.relative_to(src_directory)
 
-        # Grab priority files that need to be run first
-        if directory.startswith("_"):
-            priority_files += file_list[directory]
-            continue
+        if file.parent not in file_list.keys():
+            file_list[file.parent] = list()
 
-        # Grab "append" files (that go at the end)
-        if directory == "append":
-            append_files += file_list[directory]
-            continue
-        
-        # Everything else
+        if (file.stem + file.suffix) not in KeyFiles.keys():
+            file_list[file.parent].append(file)
+
+        # sort and add the pnml files to their correct location
+        if len(relative_path.parts) == 1:
+            if ((file.stem + file.suffix) not in KeyFiles.keys()): # filter out the KeyFiles
+                pnml_files["Top level"].append(file)
+        elif "priority" in relative_path.parts:
+            pnml_files["Priority"].append(file)
+        elif "append" in relative_path.parts:
+            pnml_files["Append"].append(file)
         else:
-                pnml_files += file_list[directory]             
+            pnml_files["Normal"].append(file)
+    
+    f = lambda a: "src" if a == src_directory else "/".join(directory.parts[1:])
+    for directory in file_list.keys():
+        print(f"Found in directory [{f(directory)}]:")
+        print([str(file.stem + file.suffix) for file in file_list[directory]])
 
-    # Special pushpull file first
-    for file in sorted(pushpull_files):
-        if file.stem.startswith("PushPull"):
-            print("Found PushPull.pnml special item")
+    print("Finished finding pnml files\n")
+
+    # iterate over all pnml files in the dictionary, and append it to the nml file
+    for key, file_list in pnml_files.items():
+        print(f"Starting to read {key} files")
+        for file in sorted(file_list):
+            print(f"Reading {key} file: {file.stem + file.suffix}")
             nml_file = copy_file(file, nml_file)
-
-    # Read the other pushpull files
-    for file in sorted(pushpull_files):
-        if file.stem.startswith("PushPull"):
-            continue
-        print("Reading pushpull file '%s'" % (file.stem + file.suffix))
-        nml_file = copy_file(file, nml_file)
-
-    # Read the priority files
-    for file in sorted(priority_files):
-        print("Reading priority file '%s'" % (file.stem + file.suffix))
-        nml_file = copy_file(file, nml_file)
-
-    # Read the regular files
-    for file in sorted(pnml_files):
-        # print("Reading '%s'" % (file.stem + file.suffix))
-        nml_file = copy_file(file, nml_file)
-
-    # Read the append files (mostly switches to disable units)
-    for file in sorted(append_files):
-        # print("Reading '%s'" % (file.stem + file.suffix))
-        nml_file = copy_file(file, nml_file)
 
     print("Copied all files to internal buffer\n")
 
@@ -314,7 +275,7 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     # If we're compiling or running the game
     if b_compile_grf or b_run_game:
         # Try to compile the GRF
-        error = compile_grf(has_lang_dir, grf_name, lang_dir)
+        error = compile_grf(has_lang_dir, grf_name, lang_directory)
         if error == -2:
             return -2
         elif b_run_game == False:
