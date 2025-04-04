@@ -5,52 +5,52 @@
 //      copy and paste, comment out/uncomment, filling in the needed information
 
 // Anim_sprites
-spriteset(spriteset_UNIT_Anim1, "PATH\UNIT_livery_Anim_1_1x_8bpp.png")
+spriteset(spriteset_UNIT_livery_Anim1, "PATH\UNIT_livery_Anim_1_1x_8bpp.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_1x_32bpp.png", "PATH\UNIT_livery_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_1x_32bpp.png", "PATH\UNIT_livery_Anim_1_1x_mask.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_2x_32bpp.png", "PATH\UNIT_livery_Anim_1_2x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_2x_32bpp.png", "PATH\UNIT_livery_Anim_1_2x_mask.png")
     { template_trains_2x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_4x_32bpp.png", "PATH\UNIT_livery_Anim_1_4x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_4x_32bpp.png", "PATH\UNIT_livery_Anim_1_4x_mask.png")
     { template_trains_4x(0,0) }
 
-spriteset(spriteset_UNIT_Anim2, "PATH\UNIT_livery_Anim_2_1x_8bpp.png")
+spriteset(spriteset_UNIT_livery_Anim2, "PATH\UNIT_livery_Anim_2_1x_8bpp.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_2_1x_32bpp.png", "PATH\UNIT_livery_Anim_2_1x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_2_1x_32bpp.png", "PATH\UNIT_livery_Anim_2_1x_mask.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_2_2x_32bpp.png", "PATH\UNIT_livery_Anim_2_2x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_2_2x_32bpp.png", "PATH\UNIT_livery_Anim_2_2x_mask.png")
     { template_trains_2x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_2_4x_32bpp.png", "PATH\UNIT_livery_Anim_2_4x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_2_4x_32bpp.png", "PATH\UNIT_livery_Anim_2_4x_mask.png")
     { template_trains_4x(0,0) }
 
-spriteset(spriteset_UNIT_Anim3, "PATH\UNIT_livery_Anim_3_1x_8bpp.png")
+spriteset(spriteset_UNIT_livery_Anim3, "PATH\UNIT_livery_Anim_3_1x_8bpp.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_3_1x_32bpp.png", "PATH\UNIT_livery_Anim_3_1x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_3_1x_32bpp.png", "PATH\UNIT_livery_Anim_3_1x_mask.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_3_2x_32bpp.png", "PATH\UNIT_livery_Anim_3_2x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_3_2x_32bpp.png", "PATH\UNIT_livery_Anim_3_2x_mask.png")
     { template_trains_2x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_3_4x_32bpp.png", "PATH\UNIT_livery_Anim_3_4x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_3_4x_32bpp.png", "PATH\UNIT_livery_Anim_3_4x_mask.png")
     { template_trains_4x(0,0) }
 
-spriteset(spriteset_UNIT_Anim4, "PATH\UNIT_livery_Anim_4_1x_8bpp.png")
+spriteset(spriteset_UNIT_livery_Anim4, "PATH\UNIT_livery_Anim_4_1x_8bpp.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_1x_32bpp.png", "PATH\UNIT_livery_Anim_4_1x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_1x_32bpp.png", "PATH\UNIT_livery_Anim_4_1x_mask.png")
     { template_trains_1x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_2x_32bpp.png", "PATH\UNIT_livery_Anim_4_2x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_2x_32bpp.png", "PATH\UNIT_livery_Anim_4_2x_mask.png")
     { template_trains_2x(0,0) }
 
-    alternative_sprites(spriteset_UNIT_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_4x_32bpp.png", "PATH\UNIT_livery_Anim_4_4x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_4x_32bpp.png", "PATH\UNIT_livery_Anim_4_4x_mask.png")
     { template_trains_4x(0,0) }
 
 
@@ -236,10 +236,10 @@ switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Steam, position_in_vehid_chain % 3) {
 
 // Animation sprite stacking
 switch (FEAT_TRAINS, SELF, sw_Animation_UNIT, motion_counter % 4) {
-    0: spriteset_UNIT_Anim1;
-    1: spriteset_UNIT_Anim2;
-    2: spriteset_UNIT_Anim3;
-    3: spriteset_UNIT_Anim4;
+    0: spriteset_UNIT_livery_Anim1;
+    1: spriteset_UNIT_livery_Anim2;
+    2: spriteset_UNIT_livery_Anim3;
+    3: spriteset_UNIT_livery_Anim4;
 }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {

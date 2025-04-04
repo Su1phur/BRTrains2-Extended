@@ -542,7 +542,6 @@ str_BluePullman_liveries		:Blue Pullman, Blue Pullman (Warning Panels), BR Grey 
 
 STR_NAME_BR08					:BR Class 08 "Gronk"
 str_BR08_usage					:Shunting
-str_BR08_eos					:---
 str_BR08_liveries				:BR Black, BR Green, BR Blue, EWS Red and Gold, Network Rail Yellow, Unusual Purple, InterCity Swallow, BR General Grey
 
 STR_NAME_BR13					:BR Class 13 "Shunter"

@@ -378,7 +378,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR309, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_capacity_BR309, position_in_vehid_chain % 30) {
     0: 471 * param_pax; // all the capacity - (vehid chain number)
     1..29: 1 * param_pax;
-    // total
+    // total 500
 }
 
 // length switch
@@ -496,7 +496,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR309_1, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_capacity_BR309_1, position_in_vehid_chain % 6) {
     0: 103 * param_pax; // all the capacity - (vehid chain number)
     1..5: 1 * param_pax;
-    // total
+    // total 108
 }
 
 switch(FEAT_TRAINS, SELF, sw_articulated_BR309_1, extra_callback_info1) {
@@ -623,7 +623,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR309_2, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_capacity_BR309_2, position_in_vehid_chain % 12) {
     0: 169 * param_pax; // all the capacity - (vehid chain number)
     1..11: 1 * param_pax;
-    // total
+    // total 180
 }
 
 switch(FEAT_TRAINS, SELF, sw_articulated_BR309_2, extra_callback_info1) {
@@ -726,7 +726,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR309_3, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_capacity_BR309_3, position_in_vehid_chain % 12) {
     0: 201 * param_pax; // all the capacity - (vehid chain number)
     1..11: 1 * param_pax;
-    // total
+    // total 212
 }
 
 // articulation switch
