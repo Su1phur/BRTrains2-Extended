@@ -110,6 +110,7 @@ str_var_Grainflow               :Grainflow
 str_var_Advertisement           :with Advertisement
 str_var_Early_Emblem            :Early Emblem
 str_var_Late_Crest              :Late Crest
+str_var_Random                  :Random
 
 # Variant group headers
 STR_LU_Subsurface_Header        :London Underground sub-surface units
@@ -1406,9 +1407,11 @@ str_GWR_Mink_G_usage            :Goods, Misc. Cargo
 str_GWR_Mink_G_eos              :--
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 
-STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon (Early)
-STR_NAME_BR_MCV_Late            :BR MCO/MCV 16t Steel Mineral Wagon (Late)
+STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
 str_BR_MCV_liveries             :BR Grey
+
+STR_NAME_WD_50t_Warflat         :WD 50t Flat Wagon 'Warflat'
+str_WD_50t_Warflat_liveries     :WD Olive Green
 
 STR_NAME_BR_CONFLAT_A           :BR Container Flat "Conflat A" Wagon
 str_BR_Conflat_A_usage          :Goods, Misc. Cargo
@@ -1805,6 +1808,8 @@ str_BRGreenYellow				: (BR - Green, Yellow Front)
 str_BRGreenPanel				: (BR - Green, Yellow Panel)
 str_BRGrey						: (BR - Grey)
 str_BRGreyBlue					: (BR - Grey and Blue)
+str_BRGreyEarly                 : (BR - Grey, Early)
+str_BRGreyLate                  : (BR - Grey, Late)
 str_BRLion                      : (BR - Black & Lion)
 str_BRLLogo				        : (BR Large Logo)
 str_BRLLogoAlt  				: (BR Large Logo - Alternate)
@@ -1822,9 +1827,8 @@ str_BRResearch                  : (BR - Research Department)
 str_BRRefurb                    : (BR - Refurbished)
 str_BRTransitionalRed           : (BR - Transitional Red)
 str_BRTest						: (BR - Track Test Train)
+str_BRWartime					: (BR - Wartime Black)
 str_BristolElectricProto        : (Bristol Electric - Prototype)
-str_Brown                       : (Brown)
-str_Brunswick					: (BR - Brunswick Green)
 str_BSS							: (British Steel)
 str_C2C							: (C2C)
 str_C2CBlue						: (C2C - Blue)
@@ -1842,7 +1846,6 @@ str_ColasRail					: (Colas Rail)
 str_Connex						: (Connex)
 str_Continental_Airlines		: (Continental Airlines)
 str_Corus						: (Corus)
-str_Crimson						: (BR - Crimson Lake)
 str_DBSchenker					: (DB Schenker)
 str_DBSCompany					: (DBSchenker - Company Train)
 str_DBSteel                     : (DB - Steel on Steel)
@@ -1930,6 +1933,7 @@ str_gtrp						: (Govia Thameslink - Pink)
 str_GTRPride					: (Govia Thameslink - Pride)
 str_Gulf                        : (Gulf)
 str_GNRGreen					: (GNR - Green)
+str_GNRTeak                     : (GNR - Teak)
 str_GWRGreen                    : (GWR - Green)
 str_GWRGreenChrome				: (GWR - Chrome Green)
 str_GWRPride                    : (GWR - Pride)
@@ -1954,7 +1958,7 @@ str_LNERCorridorTender			: (LNER - Green Corridor Tender)
 str_LNERGreen					: (LNER - Green)
 str_LNERAppleGreen		        : (LNER - Apple Green)
 str_LNERBlack					: (LNER - Black)
-str_LNERTeak					: (GNR/LNER - Teak)
+str_LNERTeak					: (LNER - Teak)
 str_LNERFauxTeak                : (LNER - "Teak")
 str_LNWR					    : (London Northwestern Railway)
 str_LNWRBlack					: (LNWR - Black)
@@ -2088,7 +2092,6 @@ str_SWR				            : (South Western Railway)
 str_SWRPride		            : (South Western Railway - Pride)
 str_Teak                        : (Teak)
 str_Tesco                       : (Tesco)
-str_TescoEyeCandy               : (Tesco - Always show container)
 str_TfL							: (TfL Rail)
 str_TfLTrams					: (TfL London Trams)
 str_TfW         			    : (Transport For Wales)
@@ -2112,10 +2115,10 @@ str_WAGNPro						: (WAGN - Promotional Livery)
 str_WAGNWh						: (WAGN - White)
 str_WAGNYg						: (WAGN - Yellow & Green)
 str_WalesWest					: (Wales and West)
-str_Wartime						: (BR - Wartime Black)
-str_WDGrey                      : (War Department Grey)
-str_WDKhaki                     : (War Department Khaki Drab)
-str_WDGreen                     : (War Department Bronze Green)
+str_WDGrey                      : (War Department - Grey)
+str_WDKhaki                     : (War Department - Khaki Drab)
+str_WDOliveGreen                : (War Department - Olive Green
+str_WDBronzeGreen               : (War Department - Bronze Green)
 str_Wessex						: (Wessex Trains)
 str_WessexCornwall				: (Wessex Trains - Cornwall and Devon Ad.)
 str_WessexGinster				: (Wessex Trains - Ginsters)

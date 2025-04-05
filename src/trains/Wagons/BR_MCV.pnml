@@ -19,6 +19,40 @@ spriteset(spriteset_BR_MCV_Early_purchase, "gfx\Wagons\BR_16t_Steel_Mineral_Wago
     alternative_sprites(spriteset_BR_MCV_Early_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
+// basic sprites
+// BR Grey
+spriteset(spriteset_BR_MCV_Late_BR_Grey, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_2x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_4x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_MCV_Late_purchase, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_MCV_Late_BR_Bauxite, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MCV_Late_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
 // load levels
 spriteset(spriteset_BR_MCV_load_0, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_1x_8bpp.png")
     { template_48trains_1x(0,0) }
@@ -75,19 +109,40 @@ spritegroup spritegroup_BR_MCV_Load {
 }
 
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV_Early, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-    0: return spriteset_BR_MCV_Early_BR_Grey;
-    1: spritegroup_BR_MCV_Load;
+switch(FEAT_TRAINS, SELF, random_choose_BR_MCV, switch_alternative_var_random_bits(1, 5)) {
+    0: spriteset_BR_MCV_Early_BR_Grey;
+    1: spriteset_BR_MCV_Late_BR_Grey;
+    2: spriteset_BR_MCV_Late_BR_Grey;
+    3: spriteset_BR_MCV_Late_BR_Bauxite;
+    4: spriteset_BR_MCV_Late_BR_Bauxite;
+    5: spriteset_BR_MCV_Late_BR_Bauxite;
+        spriteset_BR_MCV_Late_BR_Grey;
 }
 
 // livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_BR_MCV_Early, cargo_subtype) {
-    0: sw_loadstack_BR_MCV_Early;
+switch(FEAT_TRAINS, SELF, sw_livery_BR_MCV, cargo_subtype) {
+    0: random_choose_BR_MCV;
+    1: spriteset_BR_MCV_Early_BR_Grey;
+    2: spriteset_BR_MCV_Late_BR_Grey;
+    3: spriteset_BR_MCV_Late_BR_Bauxite;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: return sw_livery_BR_MCV;
+    1: spritegroup_BR_MCV_Load;
 }
 
 switch(FEAT_TRAINS, SELF, sw_BR_MCV_cargo_subtype_text, cargo_subtype) {
-    0:  return string(str_BRGrey);
+    0:  return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(str_BRGreyEarly);
+    2:  return string(str_BRGreyLate);
+    3:  return string(str_BRBauxite);
         return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, switch_BR_MCV_purchase_year, current_year) {
+    1944..1949: spriteset_BR_MCV_Early_purchase;
+                spriteset_BR_MCV_Late_purchase;
 }
 
 // unit definition
@@ -127,8 +182,8 @@ item (FEAT_TRAINS, item_BR_MCV, 201) {
 
     graphics {
         // graphics
-        default:                        sw_livery_BR_MCV_Early;
-        purchase:                       spriteset_BR_MCV_Early_purchase;
+        default:                        sw_loadstack_BR_MCV;
+        purchase:                       switch_BR_MCV_purchase_year;
         
         // internal code
         cost_factor:                    return(GetAdjustedCost(47));

@@ -1,0 +1,96 @@
+// basic sprites
+spriteset(spriteset_WD_50t_Warflat_WD_Olive_Green, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+
+// purchase sprite
+spriteset(spriteset_WD_50t_Warflat_purchase, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_WD_50t_Warflat_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_mask.png")
+    { template_purchase(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_WD_50t_Warflat, cargo_subtype) {
+    0: spriteset_WD_50t_Warflat_WD_Olive_Green;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_WD_50t_Warflat_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_WDOliveGreen);
+       return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_WD_50t_Warflat, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_WD_50t_Warflat;
+    // 1: spritegroup_WD_50t_Warflat_Load;
+    1: spriteset_empty;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_WD_50t_Warflat, 203) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_WD_50t_Warflat);
+        // variant_group:                  ; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1940,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        refittable_cargo_classes:       bitmask(CC_OVERSIZED, CC_PIECE_GOODS);	
+        non_refittable_cargo_classes:   bitmask(CC_POTABLE, CC_REFRIGERATED);
+        // cargo_allow_refit:              [PASS, TOUR];
+        // cargo_allow_refit:              [VBOD, VENG, VPTS, ];
+        cargo_disallow_refit:           [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 50;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         18 ton;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_loadstack_WD_50t_Warflat;
+        purchase:                       spriteset_WD_50t_Warflat_purchase;
+        // purchase:                       sw_spritestack_WD_50t_Warflat_purchase; // For dual mode units
+
+        // internal code
+        // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
+        // cargo_capacity:                 sw_capacity_WD_50t_Warflat;
+        cost_factor:                    return(GetAdjustedCost(46));
+        running_cost_factor:            return(GetAdjustedCost(16));
+        cargo_subtype_text:             sw_WD_50t_Warflat_cargo_subtype_text; 
+        // power:                          sw_power_WD_50t_Warflat;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_WD_50t_Warflat_liveries)));
+    }
+}
