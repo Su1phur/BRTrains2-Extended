@@ -1,0 +1,165 @@
+// 1-plank section
+
+// basic sprites
+spriteset(spriteset_RCH_1907_1_Plank_Grey, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_RCH_1907_1_Plank_Bauxite, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_RCH_1907_1_Plank_purchase, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_1_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// 3-plank section
+
+// basic sprites
+spriteset(spriteset_RCH_1907_3_Plank_Grey, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_RCH_1907_3_Plank_Bauxite, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_4x_mask.png")
+    { template_48trains_4x(0,0) }
+    
+// purchase sprite
+spriteset(spriteset_RCH_1907_3_Plank_purchase, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_3_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// 5-plank section
+
+// basic sprites
+spriteset(spriteset_RCH_1907_5_Plank_Grey, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_RCH_1907_5_Plank_Bauxite, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_4x_mask.png")
+    { template_48trains_4x(0,0) }
+    
+// purchase sprite
+spriteset(spriteset_RCH_1907_5_Plank_purchase, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_5_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// 7-plank section
+
+// basic sprites
+spriteset(spriteset_RCH_1907_7_Plank_Grey, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_RCH_1907_7_Plank_Bauxite, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_4x_mask.png")
+    { template_48trains_4x(0,0) }
+    
+// purchase sprite
+spriteset(spriteset_RCH_1907_7_Plank_purchase, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_RCH_1907_7_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// randomizers
+
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_7_Plank, switch_alternative_var_random_bits(1, 1)) {
+    0: spriteset_RCH_1907_7_Plank_Grey;
+    1: spriteset_RCH_1907_7_Plank_Bauxite;
+    spriteset_RCH_1907_7_Plank_Grey;
+}
+
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_5_Plank, switch_alternative_var_random_bits(1, 1)) {
+    0: spriteset_RCH_1907_5_Plank_Grey;
+    1: spriteset_RCH_1907_5_Plank_Bauxite;
+    spriteset_RCH_1907_5_Plank_Grey;
+}
+
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_3_Plank, switch_alternative_var_random_bits(1, 1)) {
+    0: spriteset_RCH_1907_3_Plank_Grey;
+    1: spriteset_RCH_1907_3_Plank_Bauxite;
+    spriteset_RCH_1907_3_Plank_Grey;
+}
+
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_1_Plank, switch_alternative_var_random_bits(1, 1)) {
+    0: spriteset_RCH_1907_1_Plank_Grey;
+    1: spriteset_RCH_1907_1_Plank_Bauxite;
+    spriteset_RCH_1907_1_Plank_Grey;
+}

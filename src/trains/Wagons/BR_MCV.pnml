@@ -53,69 +53,15 @@ spriteset(spriteset_BR_MCV_Late_BR_Bauxite, "gfx\Wagons\BR_16t_Steel_Mineral_Wag
     alternative_sprites(spriteset_BR_MCV_Late_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Late_BR_Bauxite_4x_mask.png")
     { template_48trains_4x(0,0) }
 
-// load levels
-spriteset(spriteset_BR_MCV_load_0, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MCV_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_2x_8bpp.png")
-    { template_48trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_4x_8bpp.png")
-    { template_48trains_4x(0,0) }
-
-
-spriteset(spriteset_BR_MCV_load_25, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_2x_8bpp.png")
-    { template_48trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_4x_8bpp.png")
-    { template_48trains_4x(0,0) }
-
-
-spriteset(spriteset_BR_MCV_load_50, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_50_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_50_2x_8bpp.png")
-    { template_48trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_50_4x_8bpp.png")
-    { template_48trains_4x(0,0) }
-
-
-spriteset(spriteset_BR_MCV_load_75, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_75_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_75_2x_8bpp.png")
-    { template_48trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_75_4x_8bpp.png")
-    { template_48trains_4x(0,0) }
-
-
-spriteset(spriteset_BR_MCV_load_100, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_100_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_100_2x_8bpp.png")
-    { template_48trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_100_4x_8bpp.png")
-    { template_48trains_4x(0,0) }
-
-spritegroup spritegroup_BR_MCV_Load {
-    loaded: [spriteset_BR_MCV_load_0, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
-    loading: [spriteset_BR_MCV_load_0, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
-}
-
-
-switch(FEAT_TRAINS, SELF, random_choose_BR_MCV, switch_alternative_var_random_bits(1, 5)) {
+switch(FEAT_TRAINS, SELF, random_choose_BR_MCV, switch_alternative_var_random_bits(1, 6)) {
     0: spriteset_BR_MCV_Early_BR_Grey;
     1: spriteset_BR_MCV_Late_BR_Grey;
     2: spriteset_BR_MCV_Late_BR_Grey;
     3: spriteset_BR_MCV_Late_BR_Bauxite;
     4: spriteset_BR_MCV_Late_BR_Bauxite;
     5: spriteset_BR_MCV_Late_BR_Bauxite;
+    6: spriteset_BR_MCV_Late_BR_Bauxite;
         spriteset_BR_MCV_Late_BR_Grey;
 }
 

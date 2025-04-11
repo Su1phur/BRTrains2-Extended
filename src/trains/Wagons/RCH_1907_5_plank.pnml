@@ -1,0 +1,76 @@
+// cargo spritegroup
+spritegroup spritegroup_RCH_1907_5_Plank {
+    loaded: [spriteset_empty, spriteset_RCH_1907_5_Plank_Grey];
+    loading: [spriteset_empty, spriteset_RCH_1907_5_Plank_Grey];
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_RCH_1907_5_Plank, cargo_subtype) {
+    0: random_choose_RCH_1907_5_Plank;
+    1: spriteset_RCH_1907_5_Plank_Grey;
+    2: spriteset_RCH_1907_5_Plank_Bauxite;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_5_Plank_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Grey));
+    2:  return string(STR_LIVERY_SHORT, string(str_col_Bauxite));
+       return CB_RESULT_NO_TEXT;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_RCH_1907_5_Plank, 7) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_RCH_1907_5_Plank);
+        variant_group:                  item_RCH_1907_Mixed; // unit ID or item
+        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1907,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_allow_refit:               [MAIL, GOOD, VALU];
+        cargo_disallow_refit:           [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 12;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          30 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          0 hp;
+        weight:                         7 ton;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_RCH_1907_5_Plank;
+        purchase:                       spriteset_RCH_1907_5_Plank_purchase;
+        
+        // internal code
+        cost_factor:                    return(GetAdjustedCost(38));
+        running_cost_factor:            return(GetAdjustedCost(15));
+        cargo_subtype_text:             sw_RCH_1907_5_Plank_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_RCH_1907_liveries)));
+    }
+}

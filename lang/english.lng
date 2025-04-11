@@ -113,31 +113,8 @@ str_var_Late_Crest              :Late Crest
 str_var_Random                  :Random
 
 # Variant group headers
-STR_LU_Subsurface_Header        :London Underground sub-surface units
-STR_LU_Deeplevel_Header         :London Underground deep level units
-STR_Steam_Header                :British Rail Steam Locomotives
-STR_Diesel_Header               :British Rail Diesel Locomotives
-STR_Electric_Header             :British Rail Electric Locomotives
-STR_AL1to7_Header               :British Rail Class 80-87 "AC Electric"
-STR_Pacer_Header                :British Rail Class 140-144 "Pacer"
-STR_Sprinter_Header             :British Rail Class 150-156 "Sprinter"
-STR_ExpressSprinter_Header      :British Rail Class 158-159 "Express Sprinter"
-STR_Turbo_Header                :British Rail Class 165-166 "Turbo"
-STR_Turbostar_Header            :British Rail Class 168-172 "Turbostar"/"Clubman"
-STR_Voyager_Header              :British Rail Class 220-222 "Voyager"/"Meridian"
-STR_DesiroCity_Header           :British Rail "Desiro City" family
-STR_Aventra_Header              :British Rail "Aventra" family
-STR_Electrostar_Header          :British Rail "Electrostar" family
-STR_APT_Header                  :British Rail "Advanced Passenger Train"
-STR_DTrain_Header               :British Rail "D Train" family
-STR_Flirt_Header                :British Rail "Flirt" family
-STR_Eurostar_Header             :British Rail "Eurostar"/TGV
-STR_IEP_Header                  :British Rail "Intercity Express Program"
-STR_Departmental_Header         :National Rail Maintenance Vehicles
-STR_Civity_Header               :British Rail "Civity" family
 STR_Debug_Header                :BRTrains DEBUG units (see description)
 STR_Debug_AdditionalText        :Units for BRTrains debugging - Not intended for gameplay{}Disable these using the BRTrains "Developer Mode" parameter
-STR_CoveredVan_Header           :British Rail VGA/VKA Covered Vans
 
 # Parameters 
 STR_PARAM_MAX_SPEED             :Max Speed
@@ -678,14 +655,11 @@ str_BR58_liveries				:Railfreight (2 Tone Grey, 3 Tone Grey, 3 Tone Grey Coal Se
 STR_NAME_BR59_01				:BR Class 59/0/1 "Super Shed"
 STR_NAME_BR59_2					:BR Class 59/2 "Super Shed"
 str_BR59_usage					:Mixed Freight
-str_BR59_01_eos					:1986-Present
 str_BR59_01_liveries			:---
-str_BR59_2_eos					:1994-Present
 str_BR59_2_liveries				:---
 
 STR_NAME_BR60					:BR Class 60 "Tug"
 str_BR60_usage					:Mixed Freight
-str_BR60_eos					:---
 str_BR60_liveries				:Railfreight Grey, Mainline, Loadhaul Grey, Loadhaul, British Steel, Corus, EWS, GWR, Colas Rail
 
 STR_NAME_BR66					:BR Class 66 "Shed"
@@ -1379,32 +1353,33 @@ str_BR800_liveries				:Hitachi, GWR
 
 STR_NAME_FurnessGoodsVan		:Furness Railway Goods Van
 str_FurnessGoodsVan_usage		:Goods, Misc. Cargo
-str_FurnessGoodsVan_eos			:---
 str_FurnessGoodsVan_liveries	:Grey, Brown
+
+STR_NAME_RCH_1907_Mixed         :RCH 1907 Spec Wagons
+STR_NAME_RCH_1907_7_Plank       :RCH 1907 Spec 7-plank Open Wagon
+STR_NAME_RCH_1907_5_Plank       :RCH 1907 Spec 5-plank Open Wagon
+STR_NAME_RCH_1907_3_Plank       :RCH 1907 Spec 3-plank Open Wagon
+STR_NAME_RCH_1907_1_Plank       :RCH 1907 Spec 1-plank Wagon
+str_RCH_1907_liveries           :Grey, Bauxite
 
 STR_NAME_FurnessTankWagon		:Furness Railway Rectangular Tanker Wagon
 str_FurnessTankWagon_usage		:Liquids
-str_FurnessTankWagon_eos		:---
 str_FurnessTankWagon_liveries	:Grey
 
 STR_NAME_Furness20TonHopper		:Furness Railway 20 Ton Hopper
 str_Furness20TonHopper_usage	:Bulk
-str_Furness20TonHopper_eos		:---
 str_Furness20TonHopper_liveries	:Grey
 
 STR_NAME_FurnessLumberWagon		:Furness Railway Small Lumber Wagon
 str_FurnessLumberWagon_usage	:Wood
-str_FurnessLumberWagon_eos		:---
 str_FurnessLumberWagon_liveries	:Green
 
 STR_NAME_RS_SWB_Hopper			:LNER Standard Medium Hopper
 str_RS_SWB_Hopper_usage			:Bulk Cargos
-str_RS_SWB_Hopper_eos			:---
 str_RS_SWB_Hopper_liveries		:Grey, Brown
 
 STR_NAME_GWR_Mink_G             :GWR "Mink G" Goods Van
 str_GWR_Mink_G_usage            :Goods, Misc. Cargo
-str_GWR_Mink_G_eos              :--
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 
 STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
