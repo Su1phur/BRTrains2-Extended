@@ -1,10 +1,57 @@
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_classes, cargo_classes) {
+    bitmask(CC_PIECE_GOODS) : return random_choose_RCH_1907_1_Plank_Boxes;
+    bitmask(CC_REFRIGERATED) : return spritegroup_1_Plank_Barrels;
+    bitmask(CC_LIQUID) : return spritegroup_1_Plank_Tanks;
+        return random_choose_RCH_1907_1_Plank_Boxes;
+}
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_type, cargo_type_in_veh) {
+    STAL: return spritegroup_1_Plank_Bars;
+    ALUM: return spritegroup_1_Plank_Bars;
+    STCB: return spritegroup_1_Plank_Bars;
+    STST: return spritegroup_1_Plank_Bars;
+    STSH: return spritegroup_1_Plank_Bars;
+
+    POWR: return random_choose_RCH_1907_1_Plank_Boxes;
+    VENG: return random_choose_RCH_1907_1_Plank_Boxes;
+    VPTS: return random_choose_RCH_1907_1_Plank_Boxes;
+    GOOD: return random_choose_RCH_1907_1_Plank_Boxes;
+    GLAS: return random_choose_RCH_1907_1_Plank_Boxes;
+
+    ENSP: return spritegroup_1_Plank_Eng_Supplies_1920;
+    FMSP: return sw_1_Plank_Farm_Supplies_current_year;
+
+    STWR: return random_choose_RCH_1907_1_Plank_Wires;
+
+    STEL: return spritegroup_1_Plank_Rails;
+    STSE: return spritegroup_1_Plank_Rails;
+
+    PIPE: return spritegroup_1_Plank_Pipes;
+
+    BDMT: return spritegroup_1_Plank_Timber;
+    WDPR: return spritegroup_1_Plank_Timber;
+
+    WOOD: return spritegroup_1_Plank_Logs;
+
+    MNSP: return random_choose_RCH_1907_1_Plank_Boxes;
+    MPTS: return random_choose_RCH_1907_1_Plank_Boxes;
+    PAPR: return random_choose_RCH_1907_1_Plank_Boxes;
+
+        sw_RCH_1907_1_Plank_cargo_classes;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_random_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: random_choose_RCH_1907_1_Plank;
+    1: sw_RCH_1907_1_Plank_cargo_type;
+}
+
 switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed, switch_alternative_var_random_bits(1, 5)) {
     0: random_choose_RCH_1907_3_Plank;
     1: random_choose_RCH_1907_5_Plank;
     2: random_choose_RCH_1907_7_Plank;
     3: random_choose_RCH_1907_7_Plank;
     4: random_choose_RCH_1907_5_Plank;
-    5: random_choose_RCH_1907_1_Plank;
+    5: sw_loadstack_RCH_1907_random_1_Plank_Cargo;
     random_choose_RCH_1907_5_Plank;
 }
 
