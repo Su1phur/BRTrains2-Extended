@@ -12,18 +12,6 @@ spriteset(spriteset_BR66_DB_Schenker, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenk
     alternative_sprites(spriteset_BR66_DB_Schenker, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_4x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-spriteset(spriteset_BR66_DB_Schenker_REV, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_1x_8bpp.png")
-    { template_138trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR66_DB_Schenker_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_1x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_1x_mask.png")
-    { template_138trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR66_DB_Schenker_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_2x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_2x_mask.png")
-    { template_138trains_REV_2x(0,0) }
-
-    alternative_sprites(spriteset_BR66_DB_Schenker_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_4x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_4x_mask.png")
-    { template_138trains_REV_4x(0,0) }
-
 // Freightliner
 spriteset(spriteset_BR66_Freightliner, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_8bpp.png")
     { template_138trains_1x(0,0) }
@@ -37,23 +25,37 @@ spriteset(spriteset_BR66_Freightliner, "gfx\Locomotive_Diesel\BR66\BR66_Freightl
     alternative_sprites(spriteset_BR66_Freightliner, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_4x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-spriteset(spriteset_BR66_Freightliner_REV, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_8bpp.png")
-    { template_138trains_REV_1x(0,0) }
+// basic sprites
+spriteset(spriteset_BR66_EWS, "gfx\Locomotive_Diesel\BR66\BR66_EWS_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR66_Freightliner_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_mask.png")
-    { template_138trains_REV_1x(0,0) }
+    alternative_sprites(spriteset_BR66_EWS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_EWS_1x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_EWS_1x_mask.png")
+    { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR66_Freightliner_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_2x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_2x_mask.png")
-    { template_138trains_REV_2x(0,0) }
+    alternative_sprites(spriteset_BR66_EWS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_EWS_2x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_EWS_2x_mask.png")
+    { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR66_Freightliner_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_4x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_4x_mask.png")
-    { template_138trains_REV_4x(0,0) }
+    alternative_sprites(spriteset_BR66_EWS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_EWS_4x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_EWS_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR66_GBRf, "gfx\Locomotive_Diesel\BR66\BR66_GBRf_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR66_GBRf, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_GBRf_1x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_GBRf_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR66_GBRf, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_GBRf_2x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_GBRf_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR66_GBRf, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_GBRf_4x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_GBRf_4x_mask.png")
+    { template_138trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR66_purchase, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_1x_8bpp.png")
+spriteset(spriteset_BR66_purchase, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR66_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_1x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_DB_Schenker_1x_mask.png")
+    alternative_sprites(spriteset_BR66_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_32bpp.png", "gfx\Locomotive_Diesel\BR66\BR66_Freightliner_1x_mask.png")
     { template_purchase(0,0) }
 
 // FX effects
@@ -66,20 +68,10 @@ switch(FEAT_TRAINS, SELF, sw_FX_BR66_Diesel, position_in_vehid_chain % 3) {
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR66, cargo_subtype) {
-    0: spriteset_BR66_DB_Schenker;
-    1: spriteset_BR66_Freightliner;
-}
-
-switch(FEAT_TRAINS, SELF, sw_livery_BR66_REV, cargo_subtype) {
-    0: spriteset_BR66_DB_Schenker_REV;
-    1: spriteset_BR66_Freightliner_REV;
-
-}
-
-// reversing switches
-switch(FEAT_TRAINS, PARENT, sw_reverse_BR66, vehicle_is_reversed) {
-    0: sw_livery_BR66;
-        sw_livery_BR66_REV;
+    0: spriteset_BR66_Freightliner;
+    1: spriteset_BR66_EWS;
+    2: spriteset_BR66_GBRf;
+    3: spriteset_BR66_DB_Schenker;
 }
 
 // graphics switch
@@ -91,8 +83,10 @@ switch(FEAT_TRAINS, SELF, sw_BR66_graphics, position_in_articulated_veh % 3) {
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR66_cargo_subtype_text, cargo_subtype){
-	0:  return string(str_DBSchenker);
-    1:  return string(str_FreightlinerGreen);
+	0:  return string(str_FreightlinerGreen);
+    1:  return string(str_EWSRed);
+    2:  return string(str_GBRfBlue);
+    3:  return string(str_DBSchenker);
         return CB_RESULT_NO_TEXT;
 }
 
@@ -140,7 +134,7 @@ item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
         weight:                         130 ton;
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
-        air_drag_coefficient:           0.07;
+        air_drag_coefficient:           0.11;
         tractive_effort_coefficient:    0.31;
         length:                         8;
     }
