@@ -396,8 +396,8 @@ item (FEAT_TRAINS, item_BR309, 3090) {
     property {
         // common properties
         name:                           string(STR_NAME_BR309);
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
-        climates_available:             ALL_CLIMATES;
+        extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		climates_available:             ALL_CLIMATES;
         introduction_date:              date(1962,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;

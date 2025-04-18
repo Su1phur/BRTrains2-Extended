@@ -1,0 +1,235 @@
+// basic sprites
+spriteset(spriteset_BR37_BRGreen_LateCrest, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_LateCrest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_LateCrest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_LateCrest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR37_BRGreen_YellowFront, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowFront_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR37_BRGreen_YellowPanel, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_YellowPanel_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR37_BRGreen_CentreHeadcode, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_CentreHeadcode, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_CentreHeadcode, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_CentreHeadcode, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_CentreHeadcode_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR37_BRGreen_purchase, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRGreen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRGreen_LateCrest_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR37_BRBlue_CentreHeadcode, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_CentreHeadcode, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_CentreHeadcode, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_CentreHeadcode, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+
+// basic sprites
+spriteset(spriteset_BR37_BRBlue_SplitBox, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_SplitBox, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_SplitBox, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_SplitBox, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_SplitBox_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+
+// purchase sprite
+spriteset(spriteset_BR37_BRBlue_purchase, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_CentreHeadcode_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR37_BRBlue_LargeLogo, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// purchase sprites
+spriteset(spriteset_BR37_BRBlue_LargeLogo_purchase, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR37_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BRBlue_LargeLogo_1x_mask.png")
+    { template_purchase(0,0) }
+
+// FX effects
+
+switch(FEAT_TRAINS, SELF, sw_FX_BR37_Diesel, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, PARENT, sw_BR37_purchase_sprite, current_year) {
+    1952..1965: spriteset_BR37_BRGreen_purchase;
+    1965..1982: spriteset_BR37_BRBlue_purchase;
+    1983..1993: spriteset_BR37_BRBlue_LargeLogo_purchase;
+        spriteset_BR37_BRBlue_LargeLogo_purchase;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR37, cargo_subtype) {
+    0: spriteset_BR37_BRGreen_LateCrest;
+    1: spriteset_BR37_BRGreen_YellowPanel;
+    2: spriteset_BR37_BRGreen_YellowFront;
+    3: spriteset_BR37_BRGreen_CentreHeadcode;
+    4: spriteset_BR37_BRBlue_SplitBox;
+    5: spriteset_BR37_BRBlue_CentreHeadcode;
+    6: spriteset_BR37_BRBlue_LargeLogo;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR37_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRGreen_Late);
+    1:  return string(str_BRGreenPanel);
+    2:  return string(str_BRGreenFront);
+    3:  return string(str_BRGreenCentre);
+    4:  return string(str_BRBlueSplit);
+    5:  return string(str_BRBlueCentre);
+    6:  return string(str_BRLLogo);
+       return CB_RESULT_NO_TEXT;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR37, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 4;
+	2: 4;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR37, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR37;
+	2: spriteset_empty;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR37, extra_callback_info1) {
+	1: return item_BR37;
+	2: return item_BR37;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR37, 3700) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR37);
+        // variant_group:                  ; // unit ID or item
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1960,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          90 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1750 hp;
+        weight:                         102 ton;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.09;
+        tractive_effort_coefficient:    0.24;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR37;
+        visual_effect_and_powered:      sw_FX_BR37_Diesel;
+        purchase:                       sw_BR37_purchase_sprite;
+        
+        // internal code
+        length:                         sw_length_BR37;
+        articulated_part:               sw_articulated_BR37;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(32));
+        running_cost_factor:            return(GetAdjustedCost(24));
+        cargo_subtype_text:             sw_BR37_cargo_subtype_text; 
+        // power:                          sw_power_BR37;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_diesel),
+                                                    string(str_BR37_usage),
+                                                    string(str_BR37_liveries)));
+    }
+}

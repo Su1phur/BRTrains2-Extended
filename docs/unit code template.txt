@@ -341,6 +341,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_allow_refit:               [PASS, GOOD];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);

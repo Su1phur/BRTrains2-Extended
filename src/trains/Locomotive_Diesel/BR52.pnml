@@ -33,23 +33,23 @@ spriteset(spriteset_BR52_Black_Nameplate, "gfx/Locomotive_Diesel/BR52_Western/BR
 
 // basic sprites
 // BR Green
-spriteset(spriteset_BR52_BRGreen, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_BRGreen, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_2x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_4x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR52_BRGreen_purchase, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_BRGreen_purchase, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGreen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGreen_Small_Yellow_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGreen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGreen_Small_Yellow_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprites
@@ -68,77 +68,77 @@ spriteset (spriteset_BR52_BRBlue_Small_Yellow, "gfx/Locomotive_Diesel/BR52_Weste
 
 // basic sprites
 // BR Blue, full yellow front
-spriteset(spriteset_BR52_BRBlue_Full_Yellow, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_BRBlue_Full_Yellow, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRBlue_Full_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRBlue_Full_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRBlue_Full_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_2x_mask.png")
+    alternative_sprites(spriteset_BR52_BRBlue_Full_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRBlue_Full_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_4x_mask.png")
+    alternative_sprites(spriteset_BR52_BRBlue_Full_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprites
 // BR Golden Ochre
-spriteset(spriteset_BR52_BRGolden_Ochre, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_1x_8bpp.png")
+spriteset(spriteset_BR52_BRGolden_Ochre, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGolden_Ochre, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGolden_Ochre, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGolden_Ochre, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_2x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGolden_Ochre, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRGolden_Ochre, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRGolden_Ochre_4x_mask.png")
+    alternative_sprites(spriteset_BR52_BRGolden_Ochre, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRGolden_Ochre_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprites
 // BR Desert Sands
-spriteset(spriteset_BR52_BRDesert_Sands, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_1x_8bpp.png")
+spriteset(spriteset_BR52_BRDesert_Sands, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRDesert_Sands, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRDesert_Sands, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRDesert_Sands, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_2x_mask.png")
+    alternative_sprites(spriteset_BR52_BRDesert_Sands, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR52_BRDesert_Sands, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRDesert_Sands_4x_mask.png")
+    alternative_sprites(spriteset_BR52_BRDesert_Sands, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRDesert_Sands_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR52_Western_BRMaroon_Full_Yellow, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_BRMaroon_Full_Yellow, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_Western_BRMaroon_Full_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRMaroon_Full_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_Western_BRMaroon_Full_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_2x_mask.png")
+    alternative_sprites(spriteset_BR52_BRMaroon_Full_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR52_Western_BRMaroon_Full_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Full_Yellow_4x_mask.png")
+    alternative_sprites(spriteset_BR52_BRMaroon_Full_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Full_Yellow_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR52_Western_BRMaroon_Small_Yellow, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_BRMaroon_Small_Yellow, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_Western_BRMaroon_Small_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_1x_mask.png")
+    alternative_sprites(spriteset_BR52_BRMaroon_Small_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR52_Western_BRMaroon_Small_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_2x_mask.png")
+    alternative_sprites(spriteset_BR52_BRMaroon_Small_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR52_Western_BRMaroon_Small_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRMaroon_Small_Yellow_4x_mask.png")
+    alternative_sprites(spriteset_BR52_BRMaroon_Small_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRMaroon_Small_Yellow_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // purchase sprite switch
-spriteset(spriteset_BR52_BRBlue_purchase, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR52_BRBlue_purchase, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites (spriteset_BR52_BRBlue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52_Western\BR52_Western_BRBlue_Full_Yellow_1x_mask.png")
+    alternative_sprites (spriteset_BR52_BRBlue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR52\BR52_Western_BRBlue_Full_Yellow_1x_mask.png")
         { template_purchase(0, 0) }
 
 // FX effects
@@ -156,8 +156,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR52, cargo_subtype) {
 	2: spriteset_BR52_BRBlue_Full_Yellow;
     3: spriteset_BR52_BRGolden_Ochre;
     4: spriteset_BR52_BRDesert_Sands;
-    5: spriteset_BR52_Western_BRMaroon_Small_Yellow;
-    6: spriteset_BR52_Western_BRMaroon_Full_Yellow;
+    5: spriteset_BR52_BRMaroon_Small_Yellow;
+    6: spriteset_BR52_BRMaroon_Full_Yellow;
 }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_BR52_Crimson_Nameplate, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
@@ -174,7 +174,7 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_BR52_Black_Nameplate, [STORE_TEMP((getb
 switch(FEAT_TRAINS, SELF, sw_BR52_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBluePanel);
 	1: 	return string(str_BRGreenPanel);
-	2:  return string(str_BRBlueYellow);
+	2:  return string(str_BRBlueFront);
     3:  return string(str_BROchre);
     4:  return string(str_BRDesertSand);
     5:  return string(str_BRMaroonPanel);
