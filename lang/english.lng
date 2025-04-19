@@ -1444,118 +1444,103 @@ STR_NAME_LNER_CorSet_OT_OT      :LNER Coronation Articulated Coach (OT + OT)
 
 STR_LNER_CorSet_liveries        :LNER Coronation Garter Blue, BR Carmine and Cream
 
-STR_NAME_BRMk1_Header			:BR Mark 1 Coaches
-STR_NAME_BRMk1FO				:BR Mark 1 Coach (First Open)
-str_BRMk1FO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_Header			:BR Mark 1 Coaches
 
-STR_NAME_BRMk1SO				:BR Mark 1 Coach (Standard Open)
-str_BRMk1SO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_FO				:BR Mark 1 Coach (First Open)
+str_BR_Mk1_FO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1TSO				:BR Mark 1 Coach (Tourist Standard Open)
-str_BRMk1TSO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_SO				:BR Mark 1 Coach (Standard Open)
+str_BR_Mk1_SO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1FK				:BR Mark 1 Coach (First Corridor)
-str_BRMk1FK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_TSO				:BR Mark 1 Coach (Tourist Standard Open)
+str_BR_Mk1_TSO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1CK				:BR Mark 1 Coach (Composite Corridor)
-str_BRMk1CK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_FK				:BR Mark 1 Coach (First Corridor)
+str_BR_Mk1_FK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1TK                :BR Mark 1 Coach (Third Corridor)
-STR_NAME_BRMk1SK				:BR Mark 1 Coach (Standard Corridor)
-str_BRMk1SK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_CK				:BR Mark 1 Coach (Composite Corridor)
+str_BR_Mk1_CK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1BSO				:BR Mark 1 Coach (Brake Standard Open)
-str_BRMk1BSO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_TK                :BR Mark 1 Coach (Third Corridor)
+STR_NAME_BR_Mk1_SK				:BR Mark 1 Coach (Standard Corridor)
+str_BR_Mk1_SK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1BSOT				:BR Mark 1 Coach (Brake Standard Open Mini-Buffet)
-str_BRMk1BSOT_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BSO				:BR Mark 1 Coach (Brake Standard Open)
+str_BR_Mk1_BSO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1BFK				:BR Mark 1 Coach (Brake First Corridor)
-str_BRMk1BFK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BSOT				:BR Mark 1 Coach (Brake Standard Open Mini-Buffet)
+str_BR_Mk1_BSOT_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1BCK				:BR Mark 1 Coach (Brake Composite Corridor)
-str_BRMk1BCK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BFK				:BR Mark 1 Coach (Brake First Corridor)
+str_BR_Mk1_BFK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1BSK				:BR Mark 1 Coach (Brake Standard Corridor)
-str_BRMk1BSK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BCK				:BR Mark 1 Coach (Brake Composite Corridor)
+str_BR_Mk1_BCK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1BG				:BR Mark 1 Coach (Brake Gangwayed)
-str_BRMk1BG_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BSK				:BR Mark 1 Coach (Brake Standard Corridor)
+str_BR_Mk1_BSK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1RK				:BR Mark 1 Coach (Restaurant Kitchen)
-str_BRMk1RK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BG				:BR Mark 1 Coach (Brake Gangwayed)
+str_BR_Mk1_BG_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk1RMB				:BR Mark 1 Coach (Restaurant Buffet)
-str_BRMk1RMB_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_RK				:BR Mark 1 Coach (Restaurant Kitchen)
+str_BR_Mk1_RK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BRMk2_Header			:BR Mark 2 Coaches
+STR_NAME_BR_Mk1_RMB				:BR Mark 1 Coach (Restaurant Buffet)
+str_BR_Mk1_RMB_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+
+STR_NAME_BR_Mk2_Header			:BR Mark 2 Coaches
 
 STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (A-C Tourist Standard Open)
-STR_NAME_BRMk2_DBSO				:BR Mark 2 Driving Coach (Driving Brake Standard Class)
-STR_NAME_BRMk2_Early_SO			:BR Mark 2 Coach (A-C Standard Class)
-STR_NAME_BRMk2_Early_FO			:BR Mark 2 Coach (A-C First Class)
-STR_NAME_BRMk2_Late_SO			:BR Mark 2 Coach (D-F Standard Class) 
-STR_NAME_BRMk2_Late_FO			:BR Mark 2 Coach (D-F First Class)
-STR_NAME_BRMk2_BSO				:BR Mark 2 Guard (Brake Standard Class)
-STR_NAME_BRMk2_BFO				:BR Mark 2 Guard Coach (Brake First Class)
-STR_NAME_BRMk2_Buffet			:BR Mark 2 Buffet Coach (First Class)
-STR_NAME_BRMk2_Pullaman			:BR Mark 2 Pullman Coach (First Class)
-STR_NAME_BRMk2_Sleeper			:BR Mark 2 Sleeper Coach
+STR_NAME_BR_Mk2_DBSO				:BR Mark 2 Driving Coach (Driving Brake Standard Class)
+STR_NAME_BR_Mk2_Early_SO			:BR Mark 2 Coach (A-C Standard Class)
+STR_NAME_BR_Mk2_Early_FO			:BR Mark 2 Coach (A-C First Class)
+STR_NAME_BR_Mk2_Late_SO			:BR Mark 2 Coach (D-F Standard Class) 
+STR_NAME_BR_Mk2_Late_FO			:BR Mark 2 Coach (D-F First Class)
+STR_NAME_BR_Mk2_BSO				:BR Mark 2 Guard (Brake Standard Class)
+STR_NAME_BR_Mk2_BFO				:BR Mark 2 Guard Coach (Brake First Class)
+STR_NAME_BR_Mk2_Buffet			:BR Mark 2 Buffet Coach (First Class)
+STR_NAME_BR_Mk2_Pullaman			:BR Mark 2 Pullman Coach (First Class)
+STR_NAME_BR_Mk2_Sleeper			:BR Mark 2 Sleeper Coach
 
-str_BRMk2_Early_liveries		:BR Blue & Grey, Network SouthEast, Regional Railways, ScotRail, West Coast Railway Company
-str_BRMk2_Late_liveries			:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
-str_BRMk2_BFO_liveries			:BR Blue & Grey, InterCity, ScotRail, DRS
-str_BRMk2_Buffet_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
+str_BR_Mk2_Early_liveries		:BR Blue & Grey, Network SouthEast, Regional Railways, ScotRail, West Coast Railway Company
+str_BR_Mk2_Late_liveries			:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
+str_BR_Mk2_BFO_liveries			:BR Blue & Grey, InterCity, ScotRail, DRS
+str_BR_Mk2_Buffet_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
 
 
-STR_NAME_BRMk3_Header			:BR Mark 3 Coaches
+STR_NAME_BR_Mk3_Header			:BR Mark 3 Coaches (HST Only)
+STR_NAME_BR_Mk3a_Header          :BR Mark 3a Coaches (Locomotive-hauled)
 
-STR_NAME_BRMk3TF				:BR Mark 3 Coach (Trailer First)
-str_BRMk3TF_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
+STR_NAME_BR_Mk3_TF				:BR Mark 3 Coach (Trailer First)
+STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (Trailer Second)
+STR_NAME_BR_Mk3_TGS				:BR Mark 3 Coach (Trailer Guard Second)
+STR_NAME_BR_Mk3_TRSB			:BR Mark 3 Coach (Trailer Buffet)
+STR_NAME_BR_Mk3_TRUB			:BR Mark 3 Coach (Trailer Buffet)
+STR_NAME_BR_Mk3_TRUK			:BR Mark 3 Coach (Trailer Kitchen)
+STR_NAME_BR_Mk3_DMB				:BR Mark 3 Driving Motor Brake
 
-STR_NAME_BRMk3TS				:BR Mark 3 Coach (Trailer Second)
-str_BRMk3TS_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
+STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (Tourist Standard Open)
 
-STR_NAME_BRMk3TGS				:BR Mark 3 Coach (Trailer Guard Second)
-str_BRMk3TGS_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
+STR_NAME_BR_Mk3Sleeper			:BR Mark 3 Sleeper Coach
+str_BR_Mk3Sleeper_liveries	    :BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
 
-STR_NAME_BRMk3TRSB				:BR Mark 3 Coach (Trailer Buffet)
-str_BRMk3TRSB_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
+STR_NAME_BR_Mk3DVT				:BR Mark 3 Driving Van Trailer
+str_BR_Mk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Anglia, Transport for Wales, Virgin "Pretendolino", Arriva Wales, Network Rail
 
-STR_NAME_BRMk3TRUB				:BR Mark 3 Coach (Trailer Buffet)
-str_BRMk3TRUB_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
-
-STR_NAME_BRMk3TRUK				:BR Mark 3 Coach (Trailer Kitchen)
-str_BRMk3TRUK_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
-
-STR_NAME_BRMk3DMB				:BR Mark 3 Driving Motor Brake
-str_BRMk3DMB_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
-
-STR_NAME_BRMk3Sleeper			:BR Mark 3 Sleeper Coach
-str_BRMk3Sleeper_liveries	    :BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
-
-STR_NAME_BRMk3DVT				:BR Mark 3 Driving Van Trailer
-str_BRMk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Anglia, Transport for Wales, Virgin "Pretendolino", Arriva Wales, Network Rail
+str_BR_Mk3_liveries			    :BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
+str_BR_Mk3a_liveries			:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, Cross Country, Grand Central, Grand Central Lined, First Great Western, Great North Eastern Railway
 
 STR_NAME_BRMk4_Header			:BR Mark 4 Coaches
 
 STR_NAME_BRMk4FO				:BR Mark 4 Coach (First Open)
-str_BRMk4FO_liveries			:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
-
 STR_NAME_BRMk4TSO				:BR Mark 4 Coach (Trailer Standard Open)
-str_BRMk4TSO_liveries			:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
-
 STR_NAME_BRMk4TSOE				:BR Mark 4 Coach (Trailer Standard Open End)
-str_BRMk4TSOE_liveries			:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
-
 STR_NAME_BRMk4TSOD				:BR Mark 4 Coach (Trailer Standard Open Disabled)
-str_BRMk4TSOD_liveries			:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
-
 STR_NAME_BRMk4RFM				:BR Mark 4 Coach (Trailer Restaurant First)
-str_BRMk4RFM_liveries			:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
-
 STR_NAME_BRMk4DVT				:BR Mark 4 Driving Van Trailer
-str_BRMk4DVT_liveries			:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
+
+str_BR_Mk4_liveries			    :InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
 
 STR_NAME_BRMk5_Header			:BR Mark 5 Coaches
 
@@ -1760,13 +1745,14 @@ str_BR2ToneGrey                 : (BR - 2 Tone Grey)
 str_BRAppleGreen                : (BR - Apple Green)
 str_BRBauxite                   : (BR - Bauxite)
 str_BRBlack						: (BR - Black)
+str_BRLion                      : (BR - Black & Lion)
 str_BRBlack_Early               : (BR - Black, Early Emblem)
 str_BRBlack_Late                : (BR - Black, Late Crest)
 str_BRBlue						: (BR - Blue)
 str_BRBlueAlt					: (BR - Blue, Alternate)
 str_BRBlueWrap					: (BR - Blue, Wraparound)
 str_BRBlueHeadlight				: (BR - Blue with Headlight)
-str_BRBlueGrey					: (BR - Blue Grey)
+str_BRBlueGrey					: (BR - Blue and Grey)
 str_BRBlueCentre				: (BR - Blue, Centre Headcode)
 str_BRBlueSplit					: (BR - Blue, Split Box)
 str_BRBlueFront				    : (BR - Blue, Yellow Front)
@@ -1785,11 +1771,14 @@ str_BRGrey						: (BR - Grey)
 str_BRGreyBlue					: (BR - Grey and Blue)
 str_BRGreyEarly                 : (BR - Grey, Early)
 str_BRGreyLate                  : (BR - Grey, Late)
-str_BRLion                      : (BR - Black & Lion)
+str_BRInterCity					: (InterCity)
+str_BRInterCityExecutive		: (InterCity Executive)
+str_BRInterCitySwallow			: (InterCity Swallow)
 str_BRLLogo				        : (BR Large Logo)
 str_BRLLogoAlt  				: (BR Large Logo - Alternate)
 str_BRLLogoCentre				: (BR Large Logo - Centre Headcode)
 str_BRLLogoSplit				: (BR Large Logo - Split Box)
+str_BRScotRail                  : (BR - ScotRail)
 str_BRMalachite					: (BR - Malachite Green)
 str_BRMaroon					: (BR - Maroon)
 str_BRMaroonFront               : (BR - Maroon, Yellow Front)
@@ -1921,9 +1910,6 @@ str_HitachiWhite				: (Hitachi - White)
 str_HeathrowExpressPurple       : (Heathrow Express - Grey and Purple)
 str_HogwartsExpress             : (Hogwarts Express)
 str_HT							: (Hull Trains)
-str_InterCity					: (InterCity)
-str_InterCityExecutive			: (InterCity Executive)
-str_InterCitySwallow			: (InterCity Swallow)
 str_Kestrel                     : (Kestrel Prototype - Yellow and Black)
 str_LaPoste					    : (La Poste)
 str_LMSBlack                    : (LMS - Black)

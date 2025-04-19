@@ -192,7 +192,7 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_SO, extra_callback_info1) {
 item (FEAT_TRAINS, item_BR_Mk1_SO, 722) { // Diagram 94 BR Mk1 SO
     property {
 		// common properties
-        name:                           string(STR_NAME_BRMk1SO);
+        name:                           string(STR_NAME_BR_Mk1_SO);
         variant_group:                  BR_Mk1_Header; // unit ID or item
         // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
         climates_available:              ALL_CLIMATES;
@@ -236,6 +236,6 @@ item (FEAT_TRAINS, item_BR_Mk1_SO, 722) { // Diagram 94 BR Mk1 SO
 
         // purchase menu text
         additional_text:                return(	string(str_purchase_coach,
-												string(str_BRMk1SK_liveries)));
+												string(str_BR_Mk1_SK_liveries)));
     }
 }
