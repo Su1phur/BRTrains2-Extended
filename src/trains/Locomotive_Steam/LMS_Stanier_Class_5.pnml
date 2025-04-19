@@ -187,10 +187,7 @@ spriteset(spriteset_LMS_Black_5_purchase, "gfx\Locomotive_Steam\LMS_Black_5\LMS_
     { template_purchase(0,0) }
 
 // FX effects
-switch(FEAT_TRAINS, SELF, sw_FX_LMS_Black_5_Steam, position_in_vehid_chain % 2) {
-    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
-    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
+// Defined in LMS_Jubilee.pnml
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LMS_Black_5, cargo_subtype) {
@@ -220,13 +217,7 @@ switch(FEAT_TRAINS, SELF, sw_LMS_Black_5_cargo_subtype_text, cargo_subtype){
 }
 
 // animation sprite stacking
-switch (FEAT_TRAINS, SELF, sw_animation_LMS_Black_5, motion_counter % 4) {
-    0: spriteset_LMS_Black_5_anim1;
-    1: spriteset_LMS_Black_5_anim2;
-    2: spriteset_LMS_Black_5_anim3;
-    3: spriteset_LMS_Black_5_anim4;
-}
-
+// animation switch defined in LMS_Jubilee.pnml
 switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Black_5_Domed, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_LMS_Black_5;
     1: spriteset_LMS_Black_5_Domed;

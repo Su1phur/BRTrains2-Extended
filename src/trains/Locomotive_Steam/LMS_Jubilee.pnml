@@ -1,0 +1,219 @@
+// basic sprites
+spriteset(spriteset_LMS_Jubilee_LMS_Lined_Black, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Lined_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LMS_Jubilee_LMS_Crimson, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Crimson, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Crimson, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Crimson, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+spriteset(spriteset_LMS_Jubilee_LMS_Crimson_purchase, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_LMS_Crimson_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_LMS_Crimson_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_LMS_Jubilee_BR_Plain_Black, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Plain_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LMS_Jubilee_BR_Lined_Black, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Lined_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LMS_Jubilee_BR_Green, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+spriteset(spriteset_LMS_Jubilee_BR_Green_Purchase, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_Green_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_mask.png")
+    { template_purchase(0,0) }
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_LMS_Black_5_Steam, position_in_vehid_chain % 2) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_LMS_Jubilee, cargo_subtype) {
+    0: spriteset_LMS_Jubilee_LMS_Crimson;
+    1: spriteset_LMS_Jubilee_LMS_Lined_Black;
+    2: spriteset_LMS_Jubilee_BR_Lined_Black;
+    3: spriteset_LMS_Jubilee_BR_Lined_Black;
+    4: spriteset_LMS_Jubilee_BR_Plain_Black;
+    5: spriteset_LMS_Jubilee_BR_Plain_Black;
+    6: spriteset_LMS_Jubilee_BR_Green;
+    7: spriteset_LMS_Jubilee_BR_Green;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Jubilee, cargo_subtype) {
+    0: spriteset_Stanier_4000gal_LMS_Crimson;
+    1: spriteset_Stanier_4000gal_LMS_Black;
+    2: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
+    3: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
+    4: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
+    5: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
+    6: spriteset_Stanier_4000gal_BR_Green_Early_Emblem;
+    7: spriteset_Stanier_4000gal_BR_Green_Late_Crest;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_LMS_Jubilee_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_LMSRed);
+    1:  return string(str_LMSBlack);
+    2:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Lined_Black), string(str_var_Early_Emblem));
+    3:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Lined_Black), string(str_var_Late_Crest));
+    4:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Plain_Black), string(str_var_Early_Emblem));
+    5:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Plain_Black), string(str_var_Late_Crest));
+    6:  return string(str_BRGreen_Early);
+    7:  return string(str_BRGreen_Late);
+        return CB_RESULT_NO_TEXT;
+}
+
+// purchase sprite stacking
+switch(FEAT_TRAINS, PARENT, sw_LMS_Jubilee_purchase_sprite, current_year) {
+    1934..1948: spriteset_LMS_Jubilee_LMS_Crimson_purchase;
+        spriteset_LMS_Jubilee_BR_Green_Purchase;
+}
+
+switch (FEAT_TRAINS, SELF, sw_spritestack_LMS_Jubilee_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_LMS_Jubilee_purchase_sprite;
+    1: spriteset_LMS_Black_5_purchase_anim;
+}
+
+// animation sprite stacking
+switch (FEAT_TRAINS, SELF, sw_animation_LMS_Black_5, motion_counter % 4) {
+    0: spriteset_LMS_Black_5_anim1;
+    1: spriteset_LMS_Black_5_anim2;
+    2: spriteset_LMS_Black_5_anim3;
+    3: spriteset_LMS_Black_5_anim4;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Jubilee, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_LMS_Jubilee;
+    1: return sw_animation_LMS_Black_5;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LMS_Jubilee, position_in_articulated_veh % 2) {
+	0: sw_spritestack_LMS_Jubilee;
+	1: sw_livery_Stanier_4000gal_Jubilee;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_LMS_Jubilee, position_in_articulated_veh % 2) {
+	0: 7;
+	1: 5;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_LMS_Jubilee, extra_callback_info1) {
+	1: return item_LMS_Jubilee;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
+    property {
+        // common properties
+        name:                           string(STR_NAME_LMS_Jubilee);
+        // variant_group:                  ; // unit ID or item
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+        climates_available:              ALL_CLIMATES;
+        introduction_date:              date(1934,2,1); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+		cargo_allow_refit:				[PASS, GOOD];
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          90 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1720 hp;
+        weight:                         136 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.09;
+        tractive_effort_coefficient:    0.09;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_LMS_Jubilee;
+        visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
+        purchase:                       sw_spritestack_LMS_Jubilee_purchase;
+        
+        // internal code
+        length:                         sw_length_LMS_Jubilee;
+        articulated_part:               sw_articulated_LMS_Jubilee;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(39));
+        running_cost_factor:            return(GetAdjustedCost(27));
+        cargo_subtype_text:             sw_LMS_Jubilee_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return(     string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_LMS_Jubilee_usage),
+                                                    string(str_LMS_Jubilee_liveries)));
+    }
+}

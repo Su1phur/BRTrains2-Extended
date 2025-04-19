@@ -467,10 +467,9 @@ str_LMSBigBertha_usage		        :Banking
 str_LMSBigBertha_eos			    :1919-1956
 str_LMSBigBertha_liveries		    :MR Maroon
 
-STR_NAME_LMSJubilee				    :LMS Stanier Jubilee Class 4-6-0
-str_LMSJubilee_usage		        :Express Passenger
-str_LMSJubilee_eos				    :1934-1967
-str_LMSJubilee_liveries			    :LMS Crimson, LMS Wartime Black, BR Transitional Black, BR Black, BR Brunswick Green, BR Blue
+STR_NAME_LMS_Jubilee				:LMS Stanier Jubilee Class 4-6-0
+str_LMS_Jubilee_usage		        :Express Passenger
+str_LMS_Jubilee_liveries			:LMS Crimson, LMS Black, BR Transitional Black, BR Black, BR Brunswick Green, BR Blue
 
 STR_NAME_LMSBlack5       	        :LMS Stanier Class 5 "Black Five"
 STR_NAME_LMSBlack5_Domed            :LMS Stanier Class 5 "Black Five" (Domed)
@@ -479,7 +478,6 @@ STR_NAME_LMSBlack5_For      	    :LMS Stanier Class 5 "Black Five" (Forward Top 
 STR_NAME_LMSBlack5_Named            :LMS Stanier Class 5 "Black Five" (Named)
 STR_NAME_LMSBlack5_Cap              :LMS Stanier Class 5 "Black Five" (Caprotti)
 str_LMSBlack5_usage		            :Mixed Traffic
-str_LMSBlack5_eos				    :1934-1968
 str_LMSBlack5_liveries			    :LMS Black, BR Plain Black, BR Lined Black
 
 STR_NAME_LMS8F                      :LMS Stanier Class 8F 2-8-0
@@ -1913,7 +1911,7 @@ str_HT							: (Hull Trains)
 str_Kestrel                     : (Kestrel Prototype - Yellow and Black)
 str_LaPoste					    : (La Poste)
 str_LMSBlack                    : (LMS - Black)
-str_LMSRed                      : (LMS - Red)
+str_LMSRed                      : (LMS - Crimson)
 str_LNER                        : (LNER - Red/White)
 str_LNERCorridorTender			: (LNER - Green Corridor Tender)
 str_LNERGreen					: (LNER - Green)
