@@ -67,6 +67,58 @@ spriteset(spriteset_GWR_4300_GWR_Chrome_Green, "gfx\Locomotive_Steam\GWR_4300\GW
     alternative_sprites(spriteset_GWR_4300_GWR_Chrome_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Chrome_Green_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Chrome_Green_4x_mask.png")
     { template_68trains_4x(0,0) }
 
+// basic sprites
+spriteset(spriteset_GWR_4300_GWR_Green, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Green_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GWR_4300_GWR_Black, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Black_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GWR_4300_BR_Lined_Black, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_BR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_BR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_BR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_BR_Lined_Black_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GWR_4300_ROD_Khaki, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_ROD_Khaki, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_ROD_Khaki, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_4300_ROD_Khaki, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_4300\GWR_4300_ROD_Khaki_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
 // purchase sprite
 spriteset(spriteset_GWR_4300_purchase, "gfx\Locomotive_Steam\GWR_4300\GWR_4300_GWR_Chrome_Green_1x_8bpp.png")
     { template_purchase(0,0) }
@@ -82,10 +134,24 @@ switch(FEAT_TRAINS, SELF, sw_FX_GWR_4300_Steam, position_in_vehid_chain % 3) {
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_GWR_4300, cargo_subtype) {
     0: spriteset_GWR_4300_GWR_Chrome_Green;
+    1: spriteset_GWR_4300_GWR_Green;
+    2: spriteset_GWR_4300_GWR_Black;
+    3: spriteset_GWR_4300_BR_Lined_Black;
+    4: spriteset_GWR_4300_BR_Lined_Black;
+    5: spriteset_GWR_4300_GWR_Green;
+    6: spriteset_GWR_4300_GWR_Green;
+    7: spriteset_GWR_4300_ROD_Khaki;
 }
 
 switch(FEAT_TRAINS, SELF, sw_livery_GWR_3500gal_4300, cargo_subtype) {
     0: spriteset_GWR_3500gal_GWR_Lined_Green;
+    1: spriteset_GWR_3500gal_GWR_Green;
+    2: spriteset_GWR_3500gal_GWR_Black;
+    3: spriteset_GWR_3500gal_BRBlack_Early_Emblem;
+    4: spriteset_GWR_3500gal_BRBlack_Late_Crest;
+    5: spriteset_GWR_3500gal_BRGreen_Early_Emblem;
+    6: spriteset_GWR_3500gal_BRGreen_Late_Crest;
+    7: spriteset_GWR_3500gal_ROD_Khaki;
 }
 
 // Animation sprite stacking
@@ -116,6 +182,13 @@ switch(FEAT_TRAINS, SELF, sw_graphics_GWR_4300, position_in_articulated_veh % 2)
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_4300_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_GWRGreenChrome);
+    1:  return string(str_GWRGreen);
+    2:  return string(str_GWRBlack);
+    3:  return string(str_BRBlack_Early);
+    4:  return string(str_BRBlack_Late);
+    5:  return string(str_BRGreen_Early);
+    6:  return string(str_BRGreen_Late);
+    7:  return string(str_ROD);
        return CB_RESULT_NO_TEXT;
 }
 
