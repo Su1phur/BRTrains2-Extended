@@ -194,7 +194,7 @@ item (FEAT_TRAINS, item_BR_Mk1_SO, 722) { // Diagram 94 BR Mk1 SO
 		// common properties
         name:                           string(STR_NAME_BR_Mk1_SO);
         variant_group:                  BR_Mk1_Header; // unit ID or item
-        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+
         climates_available:              ALL_CLIMATES;
 		introduction_date:				date(1954,01,01);
         model_life:                     VEHICLE_NEVER_EXPIRES;

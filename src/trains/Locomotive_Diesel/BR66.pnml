@@ -140,7 +140,7 @@ item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
         // common properties
         name:                           string(STR_NAME_BR66);
         // variant_group:                  ; // unit ID or item
-        // extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+
         climates_available:              ALL_CLIMATES;
         introduction_date:              date(1998,04,21); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
