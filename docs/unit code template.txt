@@ -53,6 +53,18 @@ spriteset(spriteset_UNIT_livery_Anim4, "PATH\UNIT_livery_Anim_4_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_livery_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_4_4x_32bpp.png", "PATH\UNIT_livery_Anim_4_4x_mask.png")
     { template_trains_4x(0,0) }
 
+spriteset(spriteset_UNIT_Anim_purchase, "PATH\UNIT_livery_Anim_1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_UNIT_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Anim_1_1x_32bpp.png", "PATH\UNIT_livery_Anim_1_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch (FEAT_TRAINS, SELF, sw_Animation_UNIT, motion_counter % 4) {
+    0: spriteset_UNIT_livery_Anim1;
+    1: spriteset_UNIT_livery_Anim2;
+    2: spriteset_UNIT_livery_Anim3;
+    3: spriteset_UNIT_livery_Anim4;
+}
 
 // load levels
 spriteset(spriteset_UNIT_load_0, "PATH\UNIT_livery_load_0_1x_8bpp.png")
@@ -190,6 +202,12 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT_livery, [ STORE_TEMP((getbits(extra_
     1: spritegroup_UNIT_livery_Loading;
 }
 
+switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_UNIT;
+    1: spritegroup_UNIT_Loading;
+    1: spritegroup_UNIT_Load;
+}
+
 // purchase sprite
 spriteset(spriteset_UNIT_purchase, "PATH\UNIT_livery_1x_8bpp.png")
     { template_purchase(0,0) }
@@ -197,7 +215,7 @@ spriteset(spriteset_UNIT_purchase, "PATH\UNIT_livery_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_1x_32bpp.png", "PATH\UNIT_livery_1x_mask.png")
     { template_purchase(0,0) }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT;
     1: spritegroup_UNIT_Loading;
     1: spritegroup_UNIT_Load;
@@ -235,12 +253,6 @@ switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Steam, position_in_vehid_chain % 3) {
 
 
 // Animation sprite stacking
-switch (FEAT_TRAINS, SELF, sw_Animation_UNIT, motion_counter % 4) {
-    0: spriteset_UNIT_livery_Anim1;
-    1: spriteset_UNIT_livery_Anim2;
-    2: spriteset_UNIT_livery_Anim3;
-    3: spriteset_UNIT_livery_Anim4;
-}
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_UNIT;

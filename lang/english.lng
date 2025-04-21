@@ -445,15 +445,12 @@ str_LNERV2_usage				    :Fast Freight, Passenger, Express Passenger
 str_LNERV2_eos					    :1936-1966
 str_LNERV2_liveries				    :LNER Green
 
-STR_NAME_GNRA1					    :GNR Gresley Class A1 4-6-2 
-str_GNRA1_usage					    :Express Passenger
-str_GNRA1_eos					    :1922-1949
-str_GNRA1_liveries				    :GNR Green, LNER Green
-
-STR_NAME_LNERA3					    :LNER Gresley Class A3 4-6-2
-str_LNERA3_usage				    :Express Passenger
-str_LNERA3_eos					    :1928-1966
-str_LNERA3_liveries				    :LNER Green, LNER Wartime Black, BR Apple Green, BR Brunswick Green
+STR_NAME_LNER_A1                    :LNER Gresley Class A1
+STR_NAME_LNER_A3					:LNER Gresley Class A3
+STR_NAME_LNER_A3_PD                 :LNER Gresley Class A3 (Peppercorn-style Smoke Deflectors)
+STR_NAME_LNER_A3_WD                 :LNER Gresley Class A3 (Wagner-style Smoke Deflectors)
+str_LNER_A1_A3_usage				:Express Passenger
+str_LNER_A1_A3_liveries				:LNER Green, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
 
 STR_NAME_LNERP2					    :LNER Gresley Class P2
 STR_NAME_LNERP2_Caprotti            :LNER Gresley Class P2 (Caprotti)
@@ -1758,6 +1755,7 @@ str_BRBluePanel                 : (BR - Blue, Yellow Panel)
 str_BRCarmCream					: (BR - Carmine and Cream)
 str_BRChocCream					: (BR - Chocolate and Cream)
 str_BRDesertSand                : (BR - Desert Sands)
+str_BRExpressBlue               : (BR - Express Passenger Blue)
 str_BRGreen						: (BR - Green)
 str_BRGreen_Early               : (BR - Green, Early Emblem)
 str_BRGreen_Late                : (BR - Green, Late Crest)
@@ -1918,6 +1916,7 @@ str_LNERCorridorTender			: (LNER - Green Corridor Tender)
 str_LNERGreen					: (LNER - Green)
 str_LNERAppleGreen		        : (LNER - Apple Green)
 str_LNERBlack					: (LNER - Black)
+str_LNERWartimeBlack            : (LNER - Wartime Black)
 str_LNERTeak					: (LNER - Teak)
 str_LNERFauxTeak                : (LNER - "Teak")
 str_LNWR					    : (London Northwestern Railway)
