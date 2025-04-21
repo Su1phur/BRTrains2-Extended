@@ -61,7 +61,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk2_TSO, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_Mk2_TSO, 746) { // Diagram 87/88 BR Mk2z TSO
+item (FEAT_TRAINS, item_BR_Mk2_TSO, 752) { // Diagram 87/88 BR Mk2z TSO
     property {
         // common properties
         name:                           string(STR_NAME_BR_Mk2_TSO);

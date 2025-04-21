@@ -219,7 +219,7 @@ item (FEAT_TRAINS, item_LNER_A3, 6002) {
         speed:                          100 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1720 hp;
+        power:                          1755 hp;
         weight:                         157 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -239,7 +239,7 @@ item (FEAT_TRAINS, item_LNER_A3, 6002) {
         articulated_part:               sw_articulated_LNER_A3;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
+        cost_factor:                    return(GetAdjustedCost(38));
         running_cost_factor:            return(GetAdjustedCost(31));
         cargo_subtype_text:             sw_LNER_A1_A3_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
@@ -345,7 +345,7 @@ item (FEAT_TRAINS, item_LNER_A3_PD, 6003) {
         speed:                          100 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1720 hp;
+        power:                          1755 hp;
         weight:                         157 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -365,7 +365,7 @@ item (FEAT_TRAINS, item_LNER_A3_PD, 6003) {
         articulated_part:               sw_articulated_LNER_A3_PD;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
+        cost_factor:                    return(GetAdjustedCost(38));
         running_cost_factor:            return(GetAdjustedCost(31));
         cargo_subtype_text:             sw_LNER_A1_A3_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
@@ -471,7 +471,7 @@ item (FEAT_TRAINS, item_LNER_A3_WD, 6006) {
         speed:                          100 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1720 hp;
+        power:                          1755 hp;
         weight:                         157 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -491,7 +491,7 @@ item (FEAT_TRAINS, item_LNER_A3_WD, 6006) {
         articulated_part:               sw_articulated_LNER_A3_WD;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
+        cost_factor:                    return(GetAdjustedCost(38));
         running_cost_factor:            return(GetAdjustedCost(31));
         cargo_subtype_text:             sw_LNER_A1_A3_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;

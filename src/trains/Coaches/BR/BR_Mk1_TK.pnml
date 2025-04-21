@@ -222,7 +222,7 @@ switch(FEAT_TRAINS, PARENT, sw_BR_Mk1_TK_name, current_year) {
     string(STR_NAME_BR_Mk1_SK);
 }
 
-item (FEAT_TRAINS, item_BR_Mk1_TK, 716) { // Diagram 146/147 BR Mk1 TK/SK
+item (FEAT_TRAINS, item_BR_Mk1_TK, 721) { // Diagram 146/147 BR Mk1 TK/SK
     property {
 		// common properties
         name:                           string(STR_NAME_BR_Mk1_TK);

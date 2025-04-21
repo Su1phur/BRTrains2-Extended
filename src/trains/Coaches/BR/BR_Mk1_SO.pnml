@@ -189,7 +189,7 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_SO, extra_callback_info1) {
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, item_BR_Mk1_SO, 722) { // Diagram 94 BR Mk1 SO
+item (FEAT_TRAINS, item_BR_Mk1_SO, 726) { // Diagram 94 BR Mk1 SO
     property {
 		// common properties
         name:                           string(STR_NAME_BR_Mk1_SO);
