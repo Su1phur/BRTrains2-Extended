@@ -464,7 +464,8 @@ str_LMSBigBertha_usage		        :Banking
 str_LMSBigBertha_eos			    :1919-1956
 str_LMSBigBertha_liveries		    :MR Maroon
 
-STR_NAME_LMS_Jubilee				:LMS Stanier Jubilee Class 4-6-0
+STR_NAME_LMS_Jubilee				:LMS Jubilee Class
+STR_NAME_LMS_Rebuilt_Jubilee        :LMS Rebuilt Jubilee Class
 str_LMS_Jubilee_usage		        :Express Passenger
 str_LMS_Jubilee_liveries			:LMS Crimson, LMS Black, BR Transitional Black, BR Black, BR Brunswick Green, BR Blue
 
