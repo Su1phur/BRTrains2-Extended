@@ -270,6 +270,6 @@ item (FEAT_TRAINS, item_BR_Mk1_TK, 721) { // Diagram 146/147 BR Mk1 TK/SK
 
         // purchase menu text
         additional_text:                return(	string(str_purchase_coach,
-												string(str_BR_Mk1_SK_liveries)));
+												string(str_BR_Mk1_liveries)));
     }
 }

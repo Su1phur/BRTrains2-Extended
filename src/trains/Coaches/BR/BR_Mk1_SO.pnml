@@ -179,7 +179,7 @@ switch(FEAT_TRAINS, SELF, switch_length_BR_Mk1_TSO, position_in_articulated_veh 
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk1_SO, position_in_vehid_chain % 3) {
     0: 46 * param_pax; // all the capacity - (vehid chain number - 1)
     1..2: 1 * param_pax;
-    // total 64
+    // total 48
 }
 
 // articulation switch
@@ -189,7 +189,7 @@ switch(FEAT_TRAINS, SELF, switch_articulated_BR_Mk1_SO, extra_callback_info1) {
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, item_BR_Mk1_SO, 726) { // Diagram 94 BR Mk1 SO
+item (FEAT_TRAINS, item_BR_Mk1_SO, 739) { // Diagram 94 BR Mk1 SO
     property {
 		// common properties
         name:                           string(STR_NAME_BR_Mk1_SO);
@@ -236,6 +236,6 @@ item (FEAT_TRAINS, item_BR_Mk1_SO, 726) { // Diagram 94 BR Mk1 SO
 
         // purchase menu text
         additional_text:                return(	string(str_purchase_coach,
-												string(str_BR_Mk1_SK_liveries)));
+												string(str_BR_Mk1_liveries)));
     }
 }

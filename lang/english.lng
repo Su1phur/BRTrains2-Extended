@@ -1442,71 +1442,67 @@ STR_LNER_CorSet_liveries        :LNER Coronation Garter Blue, BR Carmine and Cre
 
 STR_NAME_BR_Mk1_Header			:BR Mark 1 Coaches
 
-STR_NAME_BR_Mk1_FO				:BR Mark 1 Coach (First Open)
-str_BR_Mk1_FO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_SO				:BR Mark 1 Coach (Standard Open)
-str_BR_Mk1_SO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_TSO				:BR Mark 1 Coach (Tourist Standard Open)
-str_BR_Mk1_TSO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_FK				:BR Mark 1 Coach (First Corridor)
-str_BR_Mk1_FK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_BCK				:BR Mark 1 Coach (Brake Composite Corridor)
+STR_NAME_BR_Mk1_BFK				:BR Mark 1 Coach (Brake First Corridor)
+STR_NAME_BR_Mk1_BG				:BR Mark 1 Coach (Brake Gangwayed)
+STR_NAME_BR_Mk1_BSK				:BR Mark 1 Coach (Brake Standard Corridor)
+STR_NAME_BR_Mk1_BSO				:BR Mark 1 Coach (Brake Standard Open)
+STR_NAME_BR_Mk1_BSOT			:BR Mark 1 Coach (Brake Standard Open Trolley)
 
 STR_NAME_BR_Mk1_CK				:BR Mark 1 Coach (Composite Corridor)
-str_BR_Mk1_CK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_FK				:BR Mark 1 Coach (First Corridor)
+STR_NAME_BR_Mk1_FO				:BR Mark 1 Coach (First Open)
 
-STR_NAME_BR_Mk1_TK                :BR Mark 1 Coach (Third Corridor)
-STR_NAME_BR_Mk1_SK				:BR Mark 1 Coach (Standard Corridor)
-str_BR_Mk1_SK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_BSO				:BR Mark 1 Coach (Brake Standard Open)
-str_BR_Mk1_BSO_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_BSOT				:BR Mark 1 Coach (Brake Standard Open Mini-Buffet)
-str_BR_Mk1_BSOT_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_BFK				:BR Mark 1 Coach (Brake First Corridor)
-str_BR_Mk1_BFK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_BCK				:BR Mark 1 Coach (Brake Composite Corridor)
-str_BR_Mk1_BCK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_BSK				:BR Mark 1 Coach (Brake Standard Corridor)
-str_BR_Mk1_BSK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk1_BG				:BR Mark 1 Coach (Brake Gangwayed)
-str_BR_Mk1_BG_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
+STR_NAME_BR_Mk1_RB              :BR Mark 1 Coach (Restaurant Buffet)
+STR_NAME_BR_Mk1_RBK             :BR Mark 1 Coach (Restaurant Buffet Kitchen)
+STR_NAME_BR_Mk1_RF              :BR Mark 1 Coach (Restaurant First)
+STR_NAME_BR_Mk1_RFK             :BR Mark 1 Coach (Restaurant First Kitchen)
+STR_NAME_BR_Mk1_RFO             :BR Mark 1 Coach (Restaurant First Open)
+STR_NAME_BR_Mk1_RMB				:BR Mark 1 Coach (Restaurant Min. Buffet)
+STR_NAME_BR_Mk1_RT              :BR Mark 1 Coach (Restaurant Third)
+STR_NAME_BR_Mk1_RU              :BR Mark 1 Coach (Restaurant Unclassified)
 STR_NAME_BR_Mk1_RK				:BR Mark 1 Coach (Restaurant Kitchen)
-str_BR_Mk1_RK_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
-STR_NAME_BR_Mk1_RMB				:BR Mark 1 Coach (Restaurant Buffet)
-str_BR_Mk1_RMB_liveries			:BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+STR_NAME_BR_Mk1_SK				:BR Mark 1 Coach (Standard Corridor)
+STR_NAME_BR_Mk1_TK              :BR Mark 1 Coach (Third Corridor)
+STR_NAME_BR_Mk1_SLC             :BR Mark 1 Coach (Sleeper Composite)
+STR_NAME_BR_Mk1_SLE             :BR Mark 1 Coach (Sleeper, Either Class)
+STR_NAME_BR_Mk1_SLEP            :BR Mark 1 Coach (Sleeper, Either Class with Pantry)
+STR_NAME_BR_Mk1_SLSTP           :BR Mark 1 Coach (Sleeper Second, Twin Berth with Pantry)
+STR_NAME_BR_Mk1_SLF             :BR Mark 1 Coach (Sleeper First)
+
+STR_NAME_BR_Mk1_SO				:BR Mark 1 Coach (Standard Open)
+STR_NAME_BR_Mk1_TSO				:BR Mark 1 Coach (Tourist Standard Open)
+
+str_BR_Mk1_liveries			    :BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
 
 STR_NAME_BR_Mk2_Header			:BR Mark 2 Coaches
 
-STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (A-C Tourist Standard Open)
-STR_NAME_BR_Mk2_DBSO				:BR Mark 2 Driving Coach (Driving Brake Standard Class)
-STR_NAME_BR_Mk2_Early_SO			:BR Mark 2 Coach (A-C Standard Class)
-STR_NAME_BR_Mk2_Early_FO			:BR Mark 2 Coach (A-C First Class)
-STR_NAME_BR_Mk2_Late_SO			:BR Mark 2 Coach (D-F Standard Class) 
-STR_NAME_BR_Mk2_Late_FO			:BR Mark 2 Coach (D-F First Class)
-STR_NAME_BR_Mk2_BSO				:BR Mark 2 Guard (Brake Standard Class)
-STR_NAME_BR_Mk2_BFO				:BR Mark 2 Guard Coach (Brake First Class)
+STR_NAME_BR_Mk2_BFK             :BR Mark 2 Coach (Brake First Corridor)    
+STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (Tourist Standard Open)
+STR_NAME_BR_Mk2_SO		        :BR Mark 2 Coach (Standard Class)
+STR_NAME_BR_Mk2_FO		        :BR Mark 2 Coach (First Class)
+
+STR_NAME_BR_Mk2L_Header         :BR Mark 2 Late Coaches
+
+STR_NAME_BR_Mk2L_BSO			:BR Mark 2 Late Coach (Brake Standard Open)
+STR_NAME_BR_Mk2L_BFK			:BR Mark 2 Late Coach (Brake First Corridor)
+STR_NAME_BR_Mk2L_DBSO			:BR Mark 2 Driving Coach (Driving Brake Standard Open)
+STR_NAME_BR_Mk2L_FK             :BR Mark 2 Late Coach (First Corridor)
+STR_NAME_BR_Mk2L_FO			    :BR Mark 2 Late Coach (First Open)
+STR_NAME_BR_Mk2L_TSO			:BR Mark 2 Late Coach (Tourist Standard Open) 
+
 STR_NAME_BR_Mk2_Buffet			:BR Mark 2 Buffet Coach (First Class)
-STR_NAME_BR_Mk2_Pullaman			:BR Mark 2 Pullman Coach (First Class)
-STR_NAME_BR_Mk2_Sleeper			:BR Mark 2 Sleeper Coach
+STR_NAME_BR_Mk2_Pullman		    :BR Mark 2 Pullman Coach (First Class)
 
 str_BR_Mk2_Early_liveries		:BR Blue & Grey, Network SouthEast, Regional Railways, ScotRail, West Coast Railway Company
-str_BR_Mk2_Late_liveries			:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
+str_BR_Mk2_Late_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
 str_BR_Mk2_BFO_liveries			:BR Blue & Grey, InterCity, ScotRail, DRS
 str_BR_Mk2_Buffet_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, Arriva New, DRS, Virgin, First Great Western "Fag Packet", West Coast Railway Company
 
 
 STR_NAME_BR_Mk3_Header			:BR Mark 3 Coaches (HST Only)
-STR_NAME_BR_Mk3a_Header          :BR Mark 3a Coaches (Locomotive-hauled)
+STR_NAME_BR_Mk3a_Header         :BR Mark 3a Coaches (Locomotive-hauled)
 
 STR_NAME_BR_Mk3_TF				:BR Mark 3 Coach (Trailer First)
 STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (Trailer Second)
@@ -1551,53 +1547,24 @@ str_BRMk5Sleeper_liveries		:Caledonian Sleaper
 
 STR_NAME_RMTPO					:Royal Mail Travelling Post Office
 str_RMTPO_usage					:Express Mail
-str_RMTPO_eos					:---
 str_RMTPO_liveries				:Freightliner
 
 STR_NAME_390_MF					:BR Class 390 Motor First
-str_390_MF_liveries				:Virgin Trains
-
 STR_NAME_390_TS					:BR Class 390 Trailer Standard
-str_390_TS_liveries				:Virgin Trains
-
 STR_NAME_390_PTF				:BR Class 390 Motor Pantograph Trailer First
-str_390_PTF_liveries			:Virgin Trains
-
 STR_NAME_390_PTSRMB				:BR Class 390 Motor Pantograph Trailer Standard Restaurant
-str_390_PTSRMB_liveries			:Virgin Trains
-
 STR_NAME_390_MS					:BR Class 390 Motor Standard
-str_390_MS_liveries				:Virgin Trains
-
 STR_NAME_390_MSD				:BR Class 390 Motor Standard Disabled
-str_390_MSD_liveries			:Virgin Trains
-
 STR_NAME_390_MFD				:BR Class 390 Motor First Disabled
-str_390_MFD_liveries			:Virgin Trains
-
 STR_NAME_390_DMSO				:BR Class 390 Driving Motor Standard Open
-str_BR390_DMSO_liveries			:Virgin Trains
 
 STR_NAME_370_TF					:BR Class 370 Trailer First
-str_370_TF_liveries				:InterCity
-
 STR_NAME_370_TS					:BR Class 370 Trailer Standard
-str_370_TS_liveries				:InterCity
-
 STR_NAME_370_TBF				:BR Class 370 Trailer Brake First
-str_370_TBF_liveries			:InterCity
-
 STR_NAME_370_TRSB				:BR Class 370 Trailer Restaurant Standard Buffet
-str_370_TRSB_liveries			:InterCity
-
 STR_NAME_370_TU					:BR Class 370 Trailer Unclassified
-str_370_TU_liveries				:InterCity
-
 STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
-str_370_NDM_liveries			:InterCity
-
 STR_NAME_370_DTS				:BR Class 370 Driving Trailer Standard
-str_BR370_DTS_liveries			:InterCity
 
 STR_NAME_LMS_StanierP3_50BG 		:LMS Stanier Period 3 50 ft BG Coach
 str_LMS_StanierP3_50BG_liveries		:LMS Red
