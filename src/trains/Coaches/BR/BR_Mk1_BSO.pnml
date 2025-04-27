@@ -84,21 +84,20 @@ switch(FEAT_TRAINS, SELF, random_choose_reverse_BR_Mk1_BSO_BR_Maroon, switch_alt
 
 // reverse switch
 switch(FEAT_TRAINS, SELF, sw_check_reverse_BR_Mk1_BSO_BR_Maroon, position_in_consist_from_end) {
-    0: sw_loadstack_BR_Mk1_BSO_BR_Maroon_REV;
+    1: sw_loadstack_BR_Mk1_BSO_BR_Maroon_REV;
         return random_choose_reverse_BR_Mk1_BSO_BR_Maroon;
 }
 
 // position switch
 switch(FEAT_TRAINS, SELF, sw_check_position_BR_Mk1_BSO_BR_Maroon, position_in_consist) {
-    1: sw_loadstack_BR_Mk1_BSO_BR_Maroon;
-    2: sw_loadstack_BR_Mk1_BSO_BR_Maroon;
+    // switch(FEAT_TRAINS, SELF, sw_check_position_BR_Mk1_BSO_BR_Maroon, [STORE_TEMP(0x41, 0x10E), STORE_TEMP(-1, 0x10F), var[0x61, 8, 0x0000FF00, 0x41]]) {
+    1..7: sw_loadstack_BR_Mk1_BSO_BR_Maroon; // if vehicle is double headed
         return sw_check_reverse_BR_Mk1_BSO_BR_Maroon;
 }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_BSO, cargo_subtype) {
     0: sw_check_position_BR_Mk1_BSO_BR_Maroon;
-    // 0: sw_loadstack_BR_Mk1_BSO_BR_Maroon;
 }
 
 // livery name refit switch
@@ -178,7 +177,7 @@ item (FEAT_TRAINS, item_BR_Mk1_BSO, 707) { // DIagram 183, 184 BR Mk1 BSO
         // internal code
         length:                         sw_length_BR_Mk1_BSO;
         articulated_part:               sw_articulated_BR_Mk1_BSO;
-        purchase_cargo_capacity:        return (13 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return (19 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_BSO;
         cost_factor:                    return(GetAdjustedCost(49));
         running_cost_factor:            return(GetAdjustedCost(17));

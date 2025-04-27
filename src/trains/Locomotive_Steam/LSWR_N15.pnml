@@ -1,0 +1,272 @@
+// Anim_sprites
+spriteset(spriteset_LSWR_N15_Anim1, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_LSWR_N15_Anim2, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_2_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_LSWR_N15_Anim3, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_3_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_LSWR_N15_Anim4, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_4_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_LSWR_N15_Anim_purchase, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_Anim_1_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch (FEAT_TRAINS, SELF, sw_Animation_LSWR_N15, motion_counter % 4) {
+    0: spriteset_LSWR_N15_Anim1;
+    1: spriteset_LSWR_N15_Anim2;
+    2: spriteset_LSWR_N15_Anim3;
+    3: spriteset_LSWR_N15_Anim4;
+}
+
+// basic sprites
+spriteset(spriteset_LSWR_N15_BR_Green, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_BR_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LSWR_N15_LSWR_Green, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_LSWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_LSWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_LSWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LSWR_N15_SR_Malachite_Green, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Malachite_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Malachite_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Malachite_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Malachite_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LSWR_N15_SR_Olive_Green, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Olive_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Olive_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Olive_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Olive_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LSWR_N15_SR_Wartime_Black, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_SR_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_SR_Wartime_Black_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+
+// purchase sprite
+spriteset(spriteset_LSWR_N15_purchase, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LSWR_N15_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LSWR_N15\LSWR_N15_LSWR_Green_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LSWR_N15_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_LSWR_N15_purchase;
+    1: spriteset_LSWR_N15_Anim_purchase;
+}
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_LSWR_N15_Steam, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_LSWR_N15, cargo_subtype) {
+    0: spriteset_LSWR_N15_LSWR_Green;
+    1: spriteset_LSWR_N15_SR_Olive_Green;
+    2: spriteset_LSWR_N15_SR_Wartime_Black;
+    3: spriteset_LSWR_N15_SR_Malachite_Green;
+    4: spriteset_LSWR_N15_BR_Green;
+    5: spriteset_LSWR_N15_BR_Green;
+}
+
+
+switch(FEAT_TRAINS, SELF, sw_livery_LSWR_N15_5000Gal, cargo_subtype) {
+    0: spriteset_LSWR_5000gal_LSWR_Green;
+    1: spriteset_LSWR_5000gal_SR_Olive_Green;
+    2: spriteset_LSWR_5000gal_SR_Wartime_Black;
+    3: spriteset_LSWR_5000gal_SR_Malachite_Green;
+    4: spriteset_LSWR_5000gal_BR_Green_Early_Emblem;
+    5: spriteset_LSWR_5000gal_BR_Green_Late_Crest;
+}
+
+// Animation sprite stacking
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LSWR_N15, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_LSWR_N15;
+    1: return sw_Animation_LSWR_N15;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_LSWR_N15_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_LSWRSageGreen);
+    1:  return string(str_SROlive);
+    2:  return string(str_SRWartimeBlack);
+    3:  return string(str_SRMalachite);
+    4:  return string(str_BRGreen_Early);
+    5:  return string(str_BRGreen_Late);
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LSWR_N15, position_in_articulated_veh % 2) {
+	0: return sw_spritestack_LSWR_N15;
+	1: return sw_livery_LSWR_N15_5000Gal;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_LSWR_N15, position_in_articulated_veh % 2) {
+	0: 8;
+	1: 5;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_LSWR_N15, extra_callback_info1) {
+	1: return item_LSWR_N15;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// year name switch
+switch(FEAT_TRAINS, PARENT, sw_LSWR_N15_name, current_year) {
+    1918..1923: string(STR_NAME_LSWR_N15);
+    string(STR_NAME_LSWR_N15_SR);
+}
+
+// unit definition
+item (FEAT_TRAINS, item_LSWR_N15, 3072) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_LSWR_N15);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1918,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          90 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1475 hp;
+        weight:                         140 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.10;
+        tractive_effort_coefficient:    0.08;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_LSWR_N15;
+        visual_effect_and_powered:      sw_FX_LSWR_N15_Steam;
+        purchase:                       spriteset_LSWR_N15_purchase;
+        
+        // internal code
+        name:                           sw_LSWR_N15_name;
+        length:                         sw_length_LSWR_N15;
+        articulated_part:               sw_articulated_LSWR_N15;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(34));
+        running_cost_factor:            return(GetAdjustedCost(27));
+        cargo_subtype_text:             sw_LSWR_N15_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_LSWR_N15_usage),
+                                                    string(str_LSWR_N15_liveries)));
+    }
+}

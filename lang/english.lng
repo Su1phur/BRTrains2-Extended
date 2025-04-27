@@ -467,7 +467,7 @@ str_LMSBigBertha_liveries		    :MR Maroon
 STR_NAME_LMS_Jubilee				:LMS Jubilee Class
 STR_NAME_LMS_Rebuilt_Jubilee        :LMS Rebuilt Jubilee Class
 str_LMS_Jubilee_usage		        :Express Passenger
-str_LMS_Jubilee_liveries			:LMS Crimson, LMS Black, BR Transitional Black, BR Black, BR Brunswick Green, BR Blue
+str_LMS_Jubilee_liveries			:LMS Crimson, LMS Black, BR Transitional Black, BR Black, BR Brunswick Green, Express Passenger BR Blue
 
 STR_NAME_LMSBlack5       	        :LMS Stanier Class 5 "Black Five"
 STR_NAME_LMSBlack5_Domed            :LMS Stanier Class 5 "Black Five" (Domed)
@@ -479,9 +479,14 @@ str_LMSBlack5_usage		            :Mixed Traffic
 str_LMSBlack5_liveries			    :LMS Black, BR Plain Black, BR Lined Black
 
 STR_NAME_LMS8F                      :LMS Stanier Class 8F 2-8-0
-str_LMS8F_usage                     :Heavy Freight
-str_LMS8F_eos                       :1935-1968
-str_LMS8F_liveries                  :LMS BLack, BR Transitional Black, BR Black, WD Grey
+str_LMS_8F_usage                    :Heavy Freight
+str_LMS_8F_liveries                 :LMS BLack, BR Transitional Black, BR Black, WD Grey
+
+STR_NAME_LSWR_N15                   :LSWR N15 Class
+STR_NAME_LSWR_N15_SR                :LSWR N15 CLass "Urie Arthurs"
+STR_NAME_SR_N15                     :SR King Arthur Class "Eastleigh Arthurs/Scotch Arthurs"
+str_LSWR_N15_usage                  :Express Passenger
+str_LSWR_N15_liveries               :LSWR Green, SR Olive Green, SR Wartime Black, SR Malachite Green, BR Brunswick Green
 
 STR_NAME_SRQ1                       :SR Bulleid Q1 Class 0-6-0
 str_SRQ1_usage                      :Freight
@@ -2003,6 +2008,9 @@ str_Southeastern_yellow			: (Southeastern - Yellow)
 str_Southeastern_yellow_stripe	: (Southeastern - Yellow with Stripe)
 str_Southern					: (Southern)
 str_SRBlack                     : (Southern Railway - Black)
+str_SROlive                     : (Southern Railway - Olive Green)
+str_SRMalachite                 : (Southern Railway - Malachite Green)
+str_SRWartimeBlack              : (Southern Railway - Wartime Black)
 str_Stagecoach                  : (Stagecoach)
 str_StagecoachWhite             : (Stagecoach - White)
 str_StagecoachBlue              : (Stagecoach - Blue)
