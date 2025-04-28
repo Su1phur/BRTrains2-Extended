@@ -1,58 +1,114 @@
+// // basic sprites
+// spriteset(spriteset_Gresley_8ft6in_Bogie, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_8bpp.png")
+//     { template_38trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_mask.png")
+//     { template_38trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_mask.png")
+//     { template_38trains_2x(0,0) }
+
+//     alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_mask.png")
+//     { template_38trains_4x(0,0) }
+
+// spriteset(spriteset_Gresley_8ft6in_Bogie_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_8bpp.png")
+//     { template_38trains_REV_1x(0,0) }
+
+//     alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_mask.png")
+//     { template_38trains_REV_1x(0,0) }
+
+//     alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_mask.png")
+//     { template_38trains_REV_2x(0,0) }
+
+//     alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_mask.png")
+//     { template_38trains_REV_4x(0,0) }
 // basic sprites
-spriteset(spriteset_Gresley_8ft6in_Bogie, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_8bpp.png")
-    { template_38trains_1x(0,0) }
-
-    alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_mask.png")
-    { template_38trains_1x(0,0) }
-
-    alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_mask.png")
-    { template_38trains_2x(0,0) }
-
-    alternative_sprites(spriteset_Gresley_8ft6in_Bogie, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_mask.png")
-    { template_38trains_4x(0,0) }
-
-spriteset(spriteset_Gresley_8ft6in_Bogie_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_8bpp.png")
-    { template_38trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_1x_mask.png")
-    { template_38trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_2x_mask.png")
-    { template_38trains_REV_2x(0,0) }
-
-    alternative_sprites(spriteset_Gresley_8ft6in_Bogie_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_8ft6in_Bogie_4x_mask.png")
-    { template_38trains_REV_4x(0,0) }
-
-// basic sprites
-spriteset(spriteset_LNER_Twin_BT, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+spriteset(spriteset_LNER_Twin_BT6_LNER_Teak, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Twin_BT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Twin_BT6_LNER_Teak, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_mask.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Twin_BT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Twin_BT6_LNER_Teak, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_2x_mask.png")
     { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Twin_BT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Twin_BT6_LNER_Teak, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_4x_mask.png")
     { template_108trains_4x(0,0) }
 
-spriteset(spriteset_LNER_Twin_BT_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+spriteset(spriteset_LNER_Twin_BT6_LNER_Teak_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_8bpp.png")
     { template_108trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Twin_BT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Twin_BT6_LNER_Teak_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_mask.png")
     { template_108trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Twin_BT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Twin_BT6_LNER_Teak_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_2x_mask.png")
     { template_108trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Twin_BT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Twin_BT6_LNER_Teak_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_4x_mask.png")
     { template_108trains_REV_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_LNER_BT_T_purchase, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+spriteset(spriteset_LNER_BT_T_LNER_Teak_purchase, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_BT_T_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    alternative_sprites(spriteset_LNER_BT_T_LNER_Teak_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_LNER_Teak_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_Twin_T8_LNER_Teak, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_LNER_Teak, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_1x_mask.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_LNER_Teak, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_2x_mask.png")
+    { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_LNER_Teak, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_4x_mask.png")
+    { template_108trains_4x(0,0) }
+
+spriteset(spriteset_LNER_Twin_T8_LNER_Teak_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_1x_8bpp.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_LNER_Teak_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_1x_mask.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_LNER_Teak_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_2x_mask.png")
+    { template_108trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_T8_LNER_Teak_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_T_LNER_Teak_4x_mask.png")
+    { template_108trains_REV_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_Twin_BT6_BR_Maroon, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT6_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT6_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_mask.png")
+    { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT6_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_mask.png")
+    { template_108trains_4x(0,0) }
+
+spriteset(spriteset_LNER_Twin_BT6_BR_Maroon_REV, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT6_BR_Maroon_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
+    { template_108trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT6_BR_Maroon_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_2x_mask.png")
+    { template_108trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_Twin_BT6_BR_Maroon_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_4x_mask.png")
+    { template_108trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_LNER_BT_T_BR_Maroon_purchase, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LNER_BT_T_BR_Maroon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_32bpp.png", "gfx\Coaches\LNER_Gresley_Twin_Art\LNER_Gresley_Twin_BT_BR_Maroon_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprites
@@ -83,24 +139,75 @@ spriteset(spriteset_LNER_Twin_T8_BR_Maroon_REV, "gfx\Coaches\LNER_Gresley_Twin_A
 // reversing switches
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T, position_in_vehid_chain % 6) {
+switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_BR_Maroon, position_in_vehid_chain % 6) {
 	0: spriteset_empty;
-	1: spriteset_LNER_Twin_BT;
+	1: spriteset_LNER_Twin_BT6_BR_Maroon;
 	2: spriteset_empty;
     3: spriteset_empty;
     4: spriteset_LNER_Twin_T8_BR_Maroon;
     5: spriteset_empty;
 }
 
+switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_BR_Maroon_REV, position_in_vehid_chain % 6) {
+	0: spriteset_empty;
+	1: spriteset_LNER_Twin_T8_BR_Maroon_REV;
+	2: spriteset_empty;
+    3: spriteset_empty;
+    4: spriteset_LNER_Twin_BT6_BR_Maroon_REV;
+    5: spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_LNER_Teak, position_in_vehid_chain % 6) {
+	0: spriteset_empty;
+	1: spriteset_LNER_Twin_BT6_LNER_Teak;
+	2: spriteset_empty;
+    3: spriteset_empty;
+    4: spriteset_LNER_Twin_T8_LNER_Teak;
+    5: spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_LNER_Teak_REV, position_in_vehid_chain % 6) {
+	0: spriteset_empty;
+	1: spriteset_LNER_Twin_T8_LNER_Teak_REV;
+	2: spriteset_empty;
+    3: spriteset_empty;
+    4: spriteset_LNER_Twin_BT6_LNER_Teak_REV;
+    5: spriteset_empty;
+}
+
+// random switch
+switch(FEAT_TRAINS, SELF, random_choose_reverse_LNER_BT_T_BR_Maroon, switch_alternative_var_random_bits(1, 2)) {
+    0: sw_graphics_LNER_BT_T_BR_Maroon;
+    1: sw_graphics_LNER_BT_T_BR_Maroon_REV;
+    2: sw_graphics_LNER_BT_T_BR_Maroon_REV;
+        sw_graphics_LNER_BT_T_BR_Maroon;
+}
+
+// random switch
+switch(FEAT_TRAINS, SELF, random_choose_reverse_LNER_BT_T_LNER_Teak, switch_alternative_var_random_bits(1, 2)) {
+    0: sw_graphics_LNER_BT_T_LNER_Teak;
+    1: sw_graphics_LNER_BT_T_LNER_Teak_REV;
+    2: sw_graphics_LNER_BT_T_LNER_Teak_REV;
+        sw_graphics_LNER_BT_T_LNER_Teak;
+}
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_BT_T, cargo_subtype) {
-    0: sw_graphics_LNER_BT_T;
+    0: random_choose_reverse_LNER_BT_T_LNER_Teak;
+    1: random_choose_reverse_LNER_BT_T_BR_Maroon;
 }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LNER_BT_T_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_BRMaroon);
+	0:	return string(str_LNERTeak);
+    1:  return string(str_BRMaroon);
        return CB_RESULT_NO_TEXT;
+}
+
+// purchase sprite stacking
+switch(FEAT_TRAINS, PARENT, sw_LNER_BT_T_purchase_sprite, current_year) {
+    1934..1948: spriteset_LNER_BT_T_LNER_Teak_purchase;
+        spriteset_LNER_BT_T_BR_Maroon_purchase;
 }
 
 // length switch
@@ -131,7 +238,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_LNER_BT_T, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_LNER_BT_T, 802) {
+item (FEAT_TRAINS, item_LNER_BT_T, 901) {
     property {
         // common properties
         name:                           string(STR_NAME_LNER_BT_T);
@@ -165,7 +272,7 @@ item (FEAT_TRAINS, item_LNER_BT_T, 802) {
     graphics {
         // graphics
         default:                        sw_livery_LNER_BT_T;
-        purchase:                       spriteset_LNER_BT_T_purchase;
+        purchase:                       sw_LNER_BT_T_purchase_sprite;
         
         // internal code
         length:                         sw_length_LNER_BT_T;
