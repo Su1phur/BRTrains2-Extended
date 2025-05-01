@@ -1,4 +1,3 @@
-
 // basic sprites
 spriteset(spriteset_BR_Mk3_TS_BR_Blue, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Blue_1x_8bpp.png")
     { template_148trains_1x(0,0) }
@@ -86,16 +85,100 @@ spriteset(spriteset_BR_Mk3_TS_BR_Intercity_purchase, "gfx\Coaches\BR_Mk3_TS\BR_M
     alternative_sprites(spriteset_BR_Mk3_TS_BR_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Intercity_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Intercity_1x_mask.png")
     { template_purchase(0,0) }
 
+
+// basic sprites
+spriteset(spriteset_BR_Mk3_TS_GNER, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_GNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_GNER;
+    1: spritegroup_BR_Mk3_GNER_Loading;
+}
+
+// basic sprites
+spriteset(spriteset_BR_Mk3_TS_Midland_Mainline, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Midland_Mainline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Midland_Mainline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Midland_Mainline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Midland_Mainline, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_Midland_Mainline;
+    1: spritegroup_BR_Mk3_Midland_Mainline_Loading;
+}
+
+// basic sprites
+spriteset(spriteset_BR_Mk3_TS_GWT, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GWT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GWT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GWT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+spriteset(spriteset_BR_Mk3_TS_GWT_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GWT_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GWT_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GWT_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_TS_GWT_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_TS_GWT_Loading];
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_GWT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_GWT;
+    1: spritegroup_BR_Mk3_TS_GWT_Loading;
+}
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3_TS, cargo_subtype) {
     0: sw_loadstack_BR_Mk3_TS_BR_Blue;
     1: sw_loadstack_BR_Mk3_TS_BR_Intercity;
+    2: sw_loadstack_BR_Mk3_TS_GNER;
+    3: sw_loadstack_BR_Mk3_TS_Midland_Mainline;
+    4: sw_loadstack_BR_Mk3_TS_GWT;
 }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk3_TS_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlueGrey);
     1:  return string(str_BRInterCity);
+    2:  return string(str_GNER);
+    3:  return string(str_MMLTealTang);
+    4:  return string(str_GWT);
        return CB_RESULT_NO_TEXT;
 }
 
@@ -136,11 +219,11 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk3_TS, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_Mk3_TS, 766) {
+item (FEAT_TRAINS, item_BR_Mk3_TS, 821) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_Mk3_TS);
-        // variant_group:                  ; // unit ID or item
+        variant_group:                  BR_Mk3_Header; // unit ID or item
 		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1975,01,01); 

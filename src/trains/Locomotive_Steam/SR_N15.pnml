@@ -152,7 +152,7 @@ item (FEAT_TRAINS, item_SR_N15, 3040) {
         // graphics
         default:                        sw_graphics_SR_N15;
         visual_effect_and_powered:      sw_FX_LSWR_N15_Steam;
-        purchase:                       spriteset_SR_N15_purchase;
+        purchase:                       sw_spritestack_SR_N15_purchase;
         
         // internal code
         length:                         sw_length_LSWR_N15;

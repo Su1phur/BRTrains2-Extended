@@ -212,7 +212,7 @@ item (FEAT_TRAINS, item_LSWR_N15, 3072) {
     property {
         // common properties
         name:                           string(STR_NAME_LSWR_N15);
-        // variant_group:                  ; // unit ID or item
+        // variant_group:                  item_SR_N15; // unit ID or item
 		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1918,01,01); 
@@ -250,7 +250,7 @@ item (FEAT_TRAINS, item_LSWR_N15, 3072) {
         // graphics
         default:                        sw_graphics_LSWR_N15;
         visual_effect_and_powered:      sw_FX_LSWR_N15_Steam;
-        purchase:                       spriteset_LSWR_N15_purchase;
+        purchase:                       sw_spritestack_LSWR_N15_purchase;
         
         // internal code
         name:                           sw_LSWR_N15_name;

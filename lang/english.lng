@@ -429,7 +429,7 @@ str_GWRCastle_liveries				:GWR Green
 
 STR_NAME_GWR_4300                   :GWR 4300 Class
 str_GWR_4300_usage                  :Mixed Traffic
-str_GWR_4300_liveries               :GWR Green
+str_GWR_4300_liveries               :GWR Green, GWR Black, BR Green, BR Black, ROD Khaki
 
 STR_NAME_GWRHall				    :GWR Collett 4900 Class 4-6-0 "Hall"
 str_GWRHall_usage		   		    :Express Passenger
@@ -1872,6 +1872,7 @@ str_GWRGreen                    : (GWR - Green)
 str_GWRGreenChrome				: (GWR - Chrome Green)
 str_GWRPride                    : (GWR - Pride)
 str_GWRGreenUn					: (GWR - Green Unbranded)
+str_GWT                         : (Great Western Trains)
 str_HansonHall                  : (Hanson & Hall)
 str_HarryNeedle					: (Harry Needle Railroad)
 str_Heidelberg                  : (Heidelberg)
