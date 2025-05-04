@@ -1420,6 +1420,9 @@ str_BRContainer_usage			:Misc. Cargo
 str_BRContainer_eos				:---
 str_BRContainer_liveries		:Maersk, Tesco, Random
 
+STR_NAME_BR_FEA                 :BR FEA Container Flat Wagon
+str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
+
 STR_NAME_BRT_CovHop             :BRT PAA Covered Hopper
 STR_NAME_BRT_Whisky_CovHop      :BRT PAV Covered Hopper "Whisky CovHop"
 str_BRT_CovHop_usage            :Bulk Cargos

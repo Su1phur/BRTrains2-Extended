@@ -186,16 +186,14 @@ spriteset(spriteset_UNIT_livery_Loading_REV, "PATH\UNIT_livery_Loading_1x_8bpp.p
     { template_trains_REV_4x(0,0) }
 
 // cargo spritegroup
-spritegroup spritegroup_UNIT {
+spritegroup spritegroup_UNIT_livery {
     loaded: [spriteset_empty, spriteset_UNIT_livery];
-    loading: [spriteset_empty, spriteset_UNIT_livery];
-}
+    loading: [spriteset_empty, spriteset_UNIT_livery];}
 
 // loading sprite
 spritegroup spritegroup_UNIT_livery_Loading {  
     loaded: [spriteset_empty];
-    loading: [spriteset_UNIT_livery_Loading];
-}
+    loading: [spriteset_UNIT_livery_Loading];}
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT_livery, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT_livery;
@@ -209,10 +207,10 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callbac
 }
 
 // purchase sprite
-spriteset(spriteset_UNIT_purchase, "PATH\UNIT_livery_1x_8bpp.png")
+spriteset(spriteset_UNIT_livery_purchase, "PATH\UNIT_livery_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_UNIT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_1x_32bpp.png", "PATH\UNIT_livery_1x_mask.png")
+    alternative_sprites(spriteset_UNIT_livery_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_1x_32bpp.png", "PATH\UNIT_livery_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -349,12 +347,13 @@ item (FEAT_TRAINS, item_UNIT, ) {
         reliability_decay: 				20;
         
 		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
-        // refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        // refittable_cargo_classes:        bitmask(CC_EXPRESS);
+        // refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_OVERSIZED, CC_POWDERIZED, CC_NON_POURABLE, CC_NEO_BULK, CC_POTABLE, CC_NON_POTABLE);	
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_allow_refit:               [PASS, GOOD];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
-        // cargo_disallow_refit:            [];
+        // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;

@@ -1,0 +1,192 @@
+// basic sprites
+spriteset(spriteset_BR_FEA_Black, "gfx\Wagons\BR_FEA\BR_FEA_Black_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Black_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Black_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Black_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Black_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Black_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Black_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+spriteset(spriteset_BR_FEA_Blue, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+spriteset(spriteset_BR_FEA_Green, "gfx\Wagons\BR_FEA\BR_FEA_Green_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Green_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Green_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Green_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Green_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Green_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Green_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+spriteset(spriteset_BR_FEA_Yellow, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Yellow_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Yellow_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Yellow_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_FEA_Blue_purchase, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_FEA_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_mask.png")
+    { template_purchase(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_random_choose_livery_BR_FEA, switch_alternative_var_random_bits(1, 4)) {
+    1: spriteset_BR_FEA_Black;
+    2: spriteset_BR_FEA_Blue;
+    3: spriteset_BR_FEA_Green;
+    4: spriteset_BR_FEA_Yellow;
+        spriteset_BR_FEA_Green;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR_FEA, cargo_subtype) {
+    0: sw_random_choose_livery_BR_FEA;
+    1: spriteset_BR_FEA_Blue;
+    2: spriteset_BR_FEA_Black;
+    3: spriteset_BR_FEA_Green;
+    4: spriteset_BR_FEA_Yellow;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_FEA_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Blue));
+    2:  return string(STR_LIVERY_SHORT, string(str_col_Black));
+    3:  return string(STR_LIVERY_SHORT, string(str_col_Green));
+    4:  return string(STR_LIVERY_SHORT, string(str_col_Yellow));
+       return CB_RESULT_NO_TEXT;
+}
+
+// container switch
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_FEA;
+    1: sw_60Long_Cont40_Side_Dry_loadstage_current_year;
+    2: random_60Long_Cont20_Side_Era1_Dry_loadstage;
+    // 2: sw_60Long_Cont20_Side_Dry_loadstage_current_year;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_FEA;
+    1: random_60Long_Cont20_Side_Era1_Dry_loadstage;
+    // 1: sw_60Long_Cont20_Side_Dry_loadstage_current_year;
+    2: sw_60Long_Cont40_Side_Dry_loadstage_current_year;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_direction, direction) {
+    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_direction1;
+    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_direction1;
+    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_direction1;
+        sw_loadstack_BR_FEA_Dry_direction2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_direction_REV, direction) {
+    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_direction2;
+    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_direction2;
+    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_direction2;
+        sw_loadstack_BR_FEA_Dry_direction1;
+}
+
+random_switch(FEAT_TRAINS, SELF, sw_random_orient_Cont_decider_BR_FEA_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    1: sw_loadstack_BR_FEA_direction;
+    1: sw_loadstack_BR_FEA_direction_REV;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_FEA, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_random_orient_Cont_decider_BR_FEA_Dry;
+	2: spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR_FEA, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 5;
+	2: 4;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_FEA, extra_callback_info1) {
+	1: return item_BR_FEA;
+	2: return item_BR_FEA;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_FEA, 302) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_FEA);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2003,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_OVERSIZED, CC_POWDERIZED, CC_NON_POURABLE, CC_NEO_BULK, CC_POTABLE);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [MAIL, GOOD, VALU];
+        cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 27;
+        loading_speed:					10;
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          75 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         21 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_FEA;
+        // default:                        sw_livery_BR_FEA;
+        purchase:                       spriteset_BR_FEA_Blue_purchase;
+        
+        // internal code
+        length:                         sw_length_BR_FEA;
+        articulated_part:               sw_articulated_BR_FEA;
+        cost_factor:                    return(GetAdjustedCost(30));
+        running_cost_factor:            return(GetAdjustedCost(30));
+        cargo_subtype_text:             sw_BR_FEA_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_FEA_liveries)));
+    }
+}

@@ -1,9 +1,3 @@
-// cargo spritegroup
-spritegroup spritegroup_RCH_1907_5_Plank {
-    loaded: [spriteset_empty, spriteset_RCH_1907_5_Plank_Grey];
-    loading: [spriteset_empty, spriteset_RCH_1907_5_Plank_Grey];
-}
-
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_RCH_1907_5_Plank, cargo_subtype) {
     0: random_choose_RCH_1907_5_Plank;
