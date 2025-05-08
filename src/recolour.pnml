@@ -161,6 +161,15 @@ replace(recolour_bulk) {
         0xEC: 0x0C;
         0xED: 0x0D;
         0xEE: 0x0E;
+    //piece	
+        0x88: 0x07;
+        0x89: 0x08;
+        0x8A: 0x09;
+        0x8B: 0x0A;
+        0x8C: 0x0B;
+        0x8D: 0x0C;
+        0x8E: 0x0D;
+        0x8F: 0x0E;
     }
 //coal 13
     recolour_sprite {
@@ -283,13 +292,13 @@ replace(recolour_bulk) {
 //slag 22
     recolour_sprite {
         0xE5: 0x01;
-        0xE8: 0x01;
-        0xE9: 0xE9;
-        0xEA: 0x02;
-        0xEB: 0xED;
-        0xEC: 0x03;
-        0xED: 0x04;
-        0xEE: 0x05;
+        0xE8: 0x02;
+        0xE9: 0x02;
+        0xEA: 0x03;
+        0xEB: 0x03;
+        0xEC: 0x04;
+        0xED: 0xE9;
+        0xEE: 0xED;
     }
 //phosphate 23
     recolour_sprite {
@@ -467,20 +476,26 @@ replace(recolour_piece) {
     }
 }
 
+/*
 
-//########################
-//### Recolour Callback###
-//########################
+* GENERIC RECOLOUR CALLBACK 
 
-//Code also by EmperorJake//JpplusEngines
+*/
+
+//todo add more recolours
+
+
 
 switch(FEAT_TRAINS, SELF, switch_piece_recolour, cargo_type_in_veh) {
 //PIECE
 	STEL: return recolour_piece +3;
 	IRON: return recolour_piece +7;
 	METL: return recolour_piece ;
+    ALUM: return recolour_piece ;
 	COPR: return recolour_piece +4;
 	ZINC: return recolour_piece +5;
+    // RAMT: return recolour_piece +5;
+	NICK: return recolour_piece +6;
 	ENSP: return recolour_piece +5;
 	FMSP: return recolour_piece +6;
 	MNSP: return recolour_piece +1;
@@ -490,19 +505,20 @@ switch(FEAT_TRAINS, SELF, switch_piece_recolour, cargo_type_in_veh) {
 
 	WOOL: return recolour_piece +1;
 	GLAS: return recolour_piece +5;
-//	BDMT: return recolour_piece +4;
+    // BDMT: return recolour_piece +4;
 	BRCK: return recolour_piece +4;
 	GOOD: return recolour_piece +6;
 	PAPR: return recolour_piece +1;
 	WOOD: return recolour_piece +8;
 	
-	STST: return recolour_piece +1;
+	STST: return recolour_piece +3;
 	STSE: return recolour_piece ;
 	STSH: return recolour_piece ;
 	STWR: return recolour_piece +2;
-	STAL: return recolour_piece +5;
+	STAL: return recolour_piece +1;
 	TYRE: return recolour_piece +2;
 	STCB: return recolour_piece +2;
+	CSTI: return recolour_piece +7;
 	
 	TWOD: return recolour_piece +8;
 	SESP: return recolour_piece +5;
@@ -511,21 +527,33 @@ switch(FEAT_TRAINS, SELF, switch_piece_recolour, cargo_type_in_veh) {
 	POWR: return recolour_piece +2;
 	TEXT: return recolour_piece +9;
 	URAN: return recolour_piece +6;
+    COBL: return recolour_piece +5;
 
 //FAKE BULK
 	BDMT: return recolour_bulk +20;
 	FICR: return recolour_bulk +21;
 
 	SCMT: return recolour_bulk +15;
+	RCYC: return recolour_bulk +19;
+	WSTE: return recolour_bulk +19;
+	
     SULP: return recolour_bulk +3;
 	SEED: return recolour_bulk +9;
     FERT: return recolour_bulk +7;
 	SASH: return recolour_bulk +10;
+	TATO: return recolour_bulk +16;
 	
     FRUT: return recolour_bulk +14;
     FRVG: return recolour_bulk +14;
-    
-    KAOL: return recolour_bulk +24;
+
+    CMNT: return recolour_bulk +12;
+    CBLK: return recolour_bulk +13;
+    // ALO_: return recolour_bulk +12;
+
+    SGCN: return recolour_bulk +17;
+
+//FALLBACK
+    recolour_bulk;    
 }
 
 switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
@@ -545,10 +573,10 @@ switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
     AORE: return recolour_bulk +5;
 
 	CORE: return recolour_bulk +6;
-	NICK: return recolour_bulk +6;
+	NKOR: return recolour_bulk +6;
 
     FERT: return recolour_bulk +7;
-	
+	MNO2: return recolour_bulk +7;
 	TOFF: return recolour_bulk +7;
 	
 	CLAY: return recolour_bulk +8;
@@ -566,11 +594,10 @@ switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
     GRVL: return recolour_bulk +12;
     FECR: return recolour_bulk +12;
 	CMNT: return recolour_bulk +12;
+    // ALO_: return recolour_bulk +12;
 
     COAL: return recolour_bulk +13;
 	COKE: return recolour_bulk +13;
-	CBLK: return recolour_bulk +13;
-	MNO2: return recolour_bulk +13;
 	
     FRUT: return recolour_bulk +14;
     FRVG: return recolour_bulk +14;
@@ -586,6 +613,7 @@ switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
 	
     JAVA: return recolour_bulk +18;	
 	PEAT: return recolour_bulk +18;
+	// BIOM: return recolour_bulk +18;
 	NUTS: return recolour_bulk +18;
 	
 	RCYC: return recolour_bulk +19;
@@ -593,6 +621,7 @@ switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
 	
 	BDMT: return recolour_bulk +20;
 	WOOD: return recolour_bulk +20;
+    // WDCH: return recolour_bulk +20;
 	
 	FICR: return recolour_bulk +21;
 	
@@ -603,10 +632,11 @@ switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
 	SALT: return recolour_bulk +24;
 	BAKE: return recolour_bulk +24;
 	SUGR: return recolour_bulk +24;
-			
-
 	
 	URAN: return recolour_bulk +25;
+	
+	KAOL: return recolour_bulk +26;
+
 
 	
 

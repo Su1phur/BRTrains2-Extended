@@ -52,6 +52,7 @@ str_abbr_VXC            :VXC
 str_abbr_VTEC           :VTEC
 str_abbr_VTWC           :VTWC
 str_abbr_WMR            :WMR
+str_abbr_NCB            :NCB
 
 # Companies
 str_comp_Avanti                 :Avanti West Coast
@@ -99,6 +100,7 @@ str_col_Mahogany                :Mahogany
 str_col_Bauxite                 :Bauxite
 str_col_Brown                   :Brown
 str_col_GarterBlue              :Garter Blue
+str_col_White                   :White
 
 str_var_Named                   :Named
 str_var_Olympics                :Olympics
