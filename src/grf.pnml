@@ -9,21 +9,7 @@ grf {
 	//bump up this number to whatever the "next release" version is when breaking compatibility.
 	// Eg if 8 (2.8) has released and the next version is 9 (2.9) then set it to 9
 	min_compatible_version: 10;
-	param 0 {
-		param_max_speed {
-			type: int;
-			name: string(STR_PARAM_MAX_SPEED);
-			desc: string(STR_PARAM_MAX_SPEED_DESC);
-			min_value: 0;
-			max_value: 1;
-			def_value: 0;
-			names: {
-				0: string(STR_PARAM_MAX_SPEED_SERVICE);
-				1: string(STR_PARAM_MAX_SPEED_DESIGN);
-			};
-		}
-	}
-	param 1 {		
+	param 0 {		
 		param_dev_mode{
 			name: string(STR_PARAM_NAME_DEV);
 			desc: string(STR_PARAM_DESC_DEV);
@@ -33,6 +19,19 @@ grf {
 			names: {
 				0: string(STR_PARAM_DEV_OFF);
 				1: string(STR_PARAM_DEV_ON);
+			};
+		}
+	}
+	param 1 {
+		param_max_speed {
+			name: string(STR_PARAM_MAX_SPEED);
+			desc: string(STR_PARAM_MAX_SPEED_DESC);
+			min_value: 0;
+			max_value: 1;
+			def_value: 0;
+			names: {
+				0: string(STR_PARAM_MAX_SPEED_SERVICE);
+				1: string(STR_PARAM_MAX_SPEED_DESIGN);
 			};
 		}
 	}
@@ -78,51 +77,49 @@ grf {
 		}
 	}
 	param 5 {
-			param_cost_factor{
-				name: string(STR_PARAM_NAME_COST_MULTIPLIER);
-				desc: string(STR_PARAM_DESC_COST_MULTIPLIER);
-				min_value: 1;
-				max_value: 5;
-				def_value: 3;
-				names: {
-					1: string(STR_PARAM_QUARTER);
-					2: string(STR_PARAM_HALF);
-					3: string(STR_PARAM_1X);
-					4: string(STR_PARAM_2X);										
-					5: string(STR_PARAM_4X);
-				};
-			}
+		param_freight{
+			name: string(STR_PARAM_NAME_FREIGHT_MULTIPLIER);
+			desc: string(STR_PARAM_DESC_FREIGHT_MULTIPLIER);
+			min_value: 1;
+			max_value: 4;
+			def_value: 1;
+			names: {
+				1: string(STR_PARAM_1X);
+				2: string(STR_PARAM_2X);
+				3: string(STR_PARAM_3X);
+				4: string(STR_PARAM_4X);
+			};
 		}
-	param 6 {
-			param_tram{
-				name: string(STR_PARAM_NAME_TRAMMETRO);
-				desc: string(STR_PARAM_DESC_TRAMMETRO);
-				min_value: 0;
-				max_value: 5;
-				def_value: 0;
-				names: {
-					0: string(STR_TRAM_DEFAULT);
-					1: string(STR_TRAM_TRAINONLY);
-					2: string(STR_TRAM_TRAMONLY);
-					3: string(STR_TRAM_BOTH);
-					4: string(STR_TRAM_EXTRA);
-					5: string(STR_TRAM_SUPEREXTRA);
-				};
-			}
+	}
+	param 6{
+		param_cost_factor{
+			name: string(STR_PARAM_NAME_COST_MULTIPLIER);
+			desc: string(STR_PARAM_DESC_COST_MULTIPLIER);
+			min_value: 1;
+			max_value: 5;
+			def_value: 3;
+			names: {
+				1: string(STR_PARAM_QUARTER);
+				2: string(STR_PARAM_HALF);
+				3: string(STR_PARAM_1X);
+				4: string(STR_PARAM_2X);										
+				5: string(STR_PARAM_4X);
+			};
+		}
 	}		
 	param 7 {
-			param_2cc{
-				name: string(STR_PARAM_NAME_2CC);
-				desc: string(STR_PARAM_DESC_2CC);
-				min_value: 0;
-				max_value: 2;
-				def_value: 1;
-				names: {
-					0: string(STR_NO_2CC);
-					1: string(STR_USE_2CC);
-					2: string(STR_ONLY_2CC);
-				};
-			}
+		param_2cc{
+			name: string(STR_PARAM_NAME_2CC);
+			desc: string(STR_PARAM_DESC_2CC);
+			min_value: 0;
+			max_value: 2;
+			def_value: 1;
+			names: {
+				0: string(STR_NO_2CC);
+				1: string(STR_USE_2CC);
+				2: string(STR_ONLY_2CC);
+			};
+		}
 	}
 }
 
@@ -150,14 +147,6 @@ if(param["RUKT", 1] != 0)
 }
 
 switch(FEAT_TRAINS, SELF, GetAdjustedCost, base, param_cost_factor) {
-  1: return base / 4;
-  2: return base / 2;
-  3: return base;
-  4: return base * 2;
-  5: return base * 4;
-}
-
-switch(FEAT_ROADVEHS, SELF, GetAdjustedCostTRAM, base, param_cost_factor) {
   1: return base / 4;
   2: return base / 2;
   3: return base;

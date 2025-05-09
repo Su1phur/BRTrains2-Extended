@@ -324,6 +324,12 @@ switch(FEAT_TRAINS, SELF, sw_capacity_UNIT, position_in_vehid_chain % 3) {
     // total
 }
 
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_UNIT, param_max_speed) {
+    0: ; // operational speed
+    1: ; // design speed
+}
+
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_UNIT, extra_callback_info1) {
 	1: return item_UNIT;
@@ -390,10 +396,12 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // visual_effect_and_powered:      sw_FX_UNIT_Steam;
         purchase:                       spriteset_UNIT_purchase;
         // purchase:                       sw_spritestack_UNIT_purchase; // For dual mode units
+        // sound_effect:                   ;
 
         // internal code
         length:                         sw_length_UNIT;
         articulated_part:               sw_articulated_UNIT;
+        // speed:                          sw_speed_UNIT;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor

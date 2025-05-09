@@ -140,7 +140,10 @@ STR_PARAM_DEV_ON				:Development mode (includes in-progress or unfinished trains
 STR_PARAM_DEV_OFF				:Default mode
 
 STR_PARAM_NAME_PAX_MULTIPLIER   :Passenger Capacity Multiplier
-STR_PARAM_DESC_PAX_MULTIPLIER   :Increase passenger capacity to allow use of real-world train sizes with higher capacity routes
+STR_PARAM_DESC_PAX_MULTIPLIER   :Increase passenger capacity of all coaches
+
+STR_PARAM_NAME_FREIGHT_MULTIPLIER   :Freight Capacity Multiplier
+STR_PARAM_DESC_FREIGHT_MULTIPLIER   :Increase cargo capacity of all freight-carrying wagons
 
 STR_PARAM_NAME_COST_MULTIPLIER  :Purchase/Running Cost Multiplier
 STR_PARAM_DESC_COST_MULTIPLIER  :Increase or decrease purchase price and running costs, if you find they aren't balanced to your taste

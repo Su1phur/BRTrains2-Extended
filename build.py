@@ -14,7 +14,7 @@ KeyFiles = OrderedDict( [
     ("sounds.pnml", "\"sounds.pnml\" not found.  Assuming no sounds are required"),
     ("templates_shared.pnml", "\"templates_shared.pnml\" not found.  Assuming no templates are required"),
     ("templates_trains.pnml", "\"templates_trains.pnml\" not found.  Assuming no templates are required"),
-    ("templates_trams.pnml", "\"templates_trams.pnml\" not found.  Assuming no templates are required"),
+    # ("templates_trams.pnml", "\"templates_trams.pnml\" not found.  Assuming no templates are required"),
 ] )
 
 def check_project_structure(src_directory: Path, gfx_directory: Path,

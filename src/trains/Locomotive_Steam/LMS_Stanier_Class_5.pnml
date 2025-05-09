@@ -264,6 +264,12 @@ switch(FEAT_TRAINS, SELF, sw_graphics_LMS_Black_5_Domed, position_in_articulated
 	1: sw_livery_Stanier_4000gal_Class_5;
 }
 
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_LMS_Black_5, param_max_speed) {
+    0: 137;
+    1: 161;
+}
+
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_LMS_Black_5, position_in_articulated_veh % 2) {
 	0: 7;
@@ -320,6 +326,7 @@ item (FEAT_TRAINS, item_LMS_Black_5, 4461) { // BR Number range 44658-45499
         // internal code
         length:                         sw_length_LMS_Black_5;
         articulated_part:               sw_articulated_LMS_Black_5;
+        speed:                          sw_speed_LMS_Black_5;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(37));
@@ -383,6 +390,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domed, 4462) { // BR Number range 44658-4549
         // internal code
         length:                         sw_length_LMS_Black_5;
         articulated_part:               sw_articulated_LMS_Black_5_Domed;
+        speed:                          sw_speed_LMS_Black_5;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(37));
@@ -460,6 +468,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domeless, 4463) { // BR Number range 44658-4
         // internal code
         length:                         sw_length_LMS_Black_5;
         articulated_part:               sw_articulated_LMS_Black_5_Domeless;
+        speed:                          sw_speed_LMS_Black_5;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(37));
@@ -536,6 +545,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Forward_Top_Feed, 4464) { // BR Number range
         // internal code
         length:                         sw_length_LMS_Black_5;
         articulated_part:               sw_articulated_LMS_Black_5_Forward_Top_Feed;
+        speed:                          sw_speed_LMS_Black_5;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(37));
@@ -616,10 +626,12 @@ item (FEAT_TRAINS, item_LMS_Black_5_Named, 4464) { // BR Number range 44658-4549
         default:                        sw_graphics_LMS_Black_5_Named;
         visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
         purchase:                       sw_spritestack_LMS_Black_5_purchase_Named;
+        sound_effect:                   sw_steam_sound;
         
         // internal code
         length:                         sw_length_LMS_Black_5;
         articulated_part:               sw_articulated_LMS_Black_5_Named;
+        speed:                          sw_speed_LMS_Black_5;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(37));

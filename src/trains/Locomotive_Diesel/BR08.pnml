@@ -413,6 +413,7 @@ item (FEAT_TRAINS, item_BR08, 800) {
         default:                        sw_livery_BR08;
         visual_effect_and_powered:      sw_FX_BR08_Diesel;
         purchase:                       sw_BR08_purchase_sprite; 
+        sound_effect:                   sw_gronk_sound;
 
         // internal code
         purchase_cargo_capacity:        0;
