@@ -179,8 +179,8 @@ switch(FEAT_TRAINS, SELF, sw_BR_MCV_cargo_subtype_text, cargo_subtype) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_BR_MCV, param_max_speed) {
-    0: 48;
-    1: 97;
+    0: 30;
+    1: 50;
 }
 
 // unit definition
@@ -223,7 +223,7 @@ item (FEAT_TRAINS, item_BR_MCV, 201) {
         purchase:                       spriteset_BR_MCV_purchase;
         
         // internal code
-        speed:                          sw_speed_BR_MCV;
+        speed:                          sw_speed_BR_MCV() * 1609 / 1000;
         cost_factor:                    return(GetAdjustedCost(47));
         running_cost_factor:            return(GetAdjustedCost(16));
         cargo_subtype_text:             sw_BR_MCV_cargo_subtype_text;

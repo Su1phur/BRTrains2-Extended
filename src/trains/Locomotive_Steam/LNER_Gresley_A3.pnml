@@ -178,8 +178,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_Tender, cargo_subtype) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_LNER_A3, param_max_speed) {
-    0: 161; // 100mph
-    1: 177; // 110mph
+    0: 100;// 161; // 100mph
+    1: 110; // 177; // 110mph
 }
 
 // graphics switch
@@ -244,7 +244,7 @@ item (FEAT_TRAINS, item_LNER_A3, 6002) {
         // internal code
         length:                         sw_length_LNER_A1_A3;
         articulated_part:               sw_articulated_LNER_A3;
-        speed:                          sw_speed_LNER_A3;
+        speed:                          sw_speed_LNER_A3() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(38));
@@ -372,7 +372,7 @@ item (FEAT_TRAINS, item_LNER_A3_PD, 6003) {
         // internal code
         length:                         sw_length_LNER_A1_A3;
         articulated_part:               sw_articulated_LNER_A3_PD;
-        speed:                          sw_speed_LNER_A3;
+        speed:                          sw_speed_LNER_A3() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(38));
@@ -500,7 +500,7 @@ item (FEAT_TRAINS, item_LNER_A3_WD, 6006) {
         // internal code
         length:                         sw_length_LNER_A1_A3;
         articulated_part:               sw_articulated_LNER_A3_WD;
-        speed:                          sw_speed_LNER_A3;
+        speed:                          sw_speed_LNER_A3() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(38));

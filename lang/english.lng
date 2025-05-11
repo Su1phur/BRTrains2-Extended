@@ -81,26 +81,23 @@ str_sep_dash                    : -
 str_sep_dashonly                :-
 
 # Suffixes used to build names
-str_col_Blue                    :Blue
-str_col_Green                   :Green
+str_col_Bauxite                 :Bauxite
+str_col_Brown                   :Brown
 str_col_Black                   :Black
 str_col_Lined_Black             :Lined Black
 str_col_Plain_Black             :Plain Black
-str_col_Yellow                  :Yellow
-str_col_Red                     :Red
-str_col_Purple                  :Purple
-str_col_Desert                  :Desert Sands
-str_col_GoldenOchre             :Golden Ochre
-str_col_Maroon                  :Maroon
-str_col_BloodCustard            :Blood and Custard
-str_col_Teak                    :Teak
-str_col_Orange                  :Orange
+str_col_Blue                    :Blue
+str_col_Green                   :Green
 str_col_Grey                    :Grey
+str_col_Cream                   :Cream
 str_col_Mahogany                :Mahogany
-str_col_Bauxite                 :Bauxite
-str_col_Brown                   :Brown
-str_col_GarterBlue              :Garter Blue
+str_col_Maroon                  :Maroon
+str_col_Orange                  :Orange
+str_col_Purple                  :Purple
+str_col_Red                     :Red
+str_col_Teak                    :Teak
 str_col_White                   :White
+str_col_Yellow                  :Yellow
 
 str_var_Named                   :Named
 str_var_Olympics                :Olympics
@@ -202,103 +199,6 @@ STR_EyeCandy_AI                         :AI companies cannot use the Eye Candy l
 
 STR_NAME_Empty                          :Empty unit
 STR_DESC_Empty                          :Empty Unit intended for internal use of the set.
-
-# TRAM NAMES
-STR_NAME_GlasgowWooden                :Glasgow Corporation Wooden Classic (Double Decker)
-STR_NAME_CR4000                       :London Trams CR4000 (2-car Single Unit)
-STR_NAME_LondonVariobahn              :London Trams Variobahn (5-car Single Unit)
-STR_NAME_BirminghamUrbos              :West Midlands Metro Urbos 3 (5-car Single Unit)
-STR_NAME_BlackpoolStandard147         :Blackpool Trams 1920s "Standard" (Double Decker)
-STR_NAME_BlackpoolBrush_Mail          :Blackpool Trams Royal Mail (Single Decker)
-STR_NAME_BlackpoolBrush               :Blackpool Trams Brush Traincar (Single Decker)
-STR_NAME_BlackpoolFlexity             :Blackpool Transport Flexity 2 (5-car Single Unit)
-STR_NAME_Bolton66                     :Bolton Corporation Electric Tram (Double Decker)
-STR_NAME_T68                          :Manchester Metrolink T-68 (2-car Single Unit)
-STR_NAME_T68_DOUBLE                   :Manchester Metrolink T-68 (4-car Double Unit)
-STR_NAME_M5000                        :Manchester Metrolink M5000 (2-car Single Unit)
-STR_NAME_M5000_DOUBLE                 :Manchester Metrolink M5000 (4-car Double Unit)
-STR_NAME_B07                          :Docklands Light Railway B07 (2-car Single Unit)
-STR_NAME_B07_DOUBLE                   :Docklands Light Railway B07 (4-car Double Unit)
-STR_NAME_B07_TRIPLE                   :Docklands Light Railway B07 (6-car Triple Unit)
-STR_NAME_SheffieldSupertram           :Sheffield Supertram (3-car Single Unit)
-STR_NAME_SheffieldCitylink            :Sheffield Class 399 Citylink (3-car Single Unit)
-
-STR_BR_68_5A                            :BR Class 68 + "Nova 2" Mark 5A set (5-Car + locomotive)
-STR_BR_68_6Mk3                          :BR Class 68 + Mk3 set (6-Car +  DVT + locomotive)
-
-STR_BR_195_2CAR							:BR Class 195/0 "Civity" (2-Car)
-STR_BR_195_3CAR							:BR Class 195/1 "Civity" (3-Car)
-STR_BR_196_2CAR							:BR Class 196/0 "Civity" (2-Car)
-STR_BR_196_4CAR							:BR Class 196/1 "Civity" (4-Car)
-STR_BR_197_2CAR							:BR Class 197/0 "Civity" (2-Car)
-STR_BR_197_3CAR							:BR Class 197/1 "Civity" (3-Car)
-STR_BR_231_4CAR							:BR Class 231/0 "FLIRT" (4-Car)
-STR_BR_331_3CAR                         :BR Class 331/0 "Civity" (3-Car)
-STR_BR_331_4CAR                         :BR Class 331/1 "Civity" (4-Car)
-
-STR_BR321                              :BR Class 321 "Dusty Bin" (4-Car)
-
-STR_BR_345_7CAR                         :BR Class 345 "Aventra" (7-Car)
-STR_BR_345_9CAR                         :BR Class 345 "Aventra" (9-Car)
-
-STR_BR_397                              :BR Class 397 "Civity" (5-Car)
-
-STR_BR555                              :BR Class 555 "METRO" (5-Car)
-
-STR_BR_701_0                            :BR Class 701/0 "Aventra" (10-Car)
-STR_BR_701_5                            :BR Class 701/5 "Aventra" (5-Car)
-
-STR_BR_707                              :BR Class 707 "Desiro City" (5-Car)
-
-STR_BR_710_1                            :BR Class 710/1 "Aventra" (4-Car)
-STR_BR_710_2_4CAR                       :BR Class 710/2 "Aventra" (4-Car)
-STR_BR_710_2_5CAR                       :BR Class 710/2 "Aventra" (5-Car)
-
-STR_BR_720                              :BR Class 720 "Aventra" (5-Car)
-STR_BR_720_1                            :BR Class 720/1 "Aventra" (10-Car)
-
-STR_BR730_0                            :BR Class 730/0 "Aventra" (3-Car)
-STR_BR730_2                            :BR Class 730/2 "Aventra" (5-Car)
-
-STR_BR_745                              :BR Class 745/0/1 "FLIRT" (12-Car)
-STR_BR_755_3CAR                         :BR Class 755/3  "FLIRT" (3-Car with Power Pack)
-STR_BR_755_4CAR                         :BR Class 755/4  "FLIRT" (4-Car with Power Pack)
-
-STR_BR_756_3CAR                         :BR Class 756/3 (3-Car with Power Pack)
-STR_BR_756_4CAR                         :BR Class 756/4 (4-Car with Power Pack)
-
-STR_BR_769                              :BR Class 769/0/3/4 "Flex" (4-Car)
-STR_BR_769_9                            :BR Class 769/9 "Flex" (4-Car)
-
-STR_br777                              :BR Class 777 "METRO" (4-Car)
-
-STR_BR800_5CAR                         :BR Class 800/0/2 (5-Car)
-STR_BR800_9CAR                         :BR Class 800/1/3 (9-Car)
-STR_BR801_5CAR                         :BR Class 801/1 (5-Car)
-STR_BR801_9CAR                         :BR Class 801/2 (9-Car)
-STR_BR802_5CAR                         :BR Class 802/0/2/3 (5-Car)
-STR_BR802_9CAR                         :BR Class 802/1 (9-Car)
-STR_BR803_5CAR                         :BR Class 803 (5-car)
-STR_BR805_5CAR                         :BR Class 805 (5-car)
-STR_BR807_7CAR                         :BR Class 807 (7-car)
-STR_BR810_5CAR                         :BR Class 810 (5-car)
-
-STR_TGV					:SNCF TGV "La Poste" (10-car)
-
-
-# Livery Names
-STR_LIVERY_BR800_LNER                  : LNER "Azuma"
-STR_LIVERY_BR800_TPE                   : Transpennine Express "Nova 1"
-STR_LIVERY_BR800_HullTrains            : Hull Trains "Paragon"
-STR_LIVERY_BR800_VTEC                  : Virgin Trains East Coast
-STR_LIVERY_BR800_Lumo                  : Lumo
-
-STR_LIVERY_BR_745_REGULAR               : Greater Anglia "InterCity"
-STR_LIVERY_BR_745_STANSTED              : Greater Anglia "Stansted Express"
-
-STR_LIVERY_BR_769_TFW                   : Transport for Wales
-STR_LIVERY_BR_769_ROG                   : Rail Operations Group
-STR_LIVERY_BR_769_NORTHERN              : Northern Trains
 
 # Messages
 STR_CANNOT_ATTACH						:Cannot attach a different class of train
@@ -1388,6 +1288,9 @@ STR_NAME_GWR_Mink_G             :GWR "Mink G" Goods Van
 str_GWR_Mink_G_usage            :Goods, Misc. Cargo
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 
+STR_NAME_Milk_Tank              :6-wheeled Milk Tank
+str_Milk_Tank_liveries          :White, Grey, Cream, Private Owners
+
 STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
 str_BR_MCV_liveries             :BR Grey
 
@@ -2017,6 +1920,7 @@ str_Southeastern_yellow			: (Southeastern - Yellow)
 str_Southeastern_yellow_stripe	: (Southeastern - Yellow with Stripe)
 str_Southern					: (Southern)
 str_SRBlack                     : (Southern Railway - Black)
+str_SRGrey                      : (Southern Railway - Grey)
 str_SROlive                     : (Southern Railway - Olive Green)
 str_SRMalachite                 : (Southern Railway - Malachite Green)
 str_SRWartimeBlack              : (Southern Railway - Wartime Black)

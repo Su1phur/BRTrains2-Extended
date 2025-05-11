@@ -153,6 +153,11 @@ switch(FEAT_TRAINS, SELF, sw_length_LMS_Jubilee, position_in_articulated_veh % 2
 	1: 5;
 }
 
+switch(FEAT_TRAINS, SELF, sw_speed_LMS_Jubilee, param_max_speed) {
+    0: 90;
+    1: 100;
+}
+
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_LMS_Jubilee, extra_callback_info1) {
 	1: return item_LMS_Jubilee;
@@ -203,6 +208,7 @@ item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
         // internal code
         length:                         sw_length_LMS_Jubilee;
         articulated_part:               sw_articulated_LMS_Jubilee;
+        speed:                          sw_speed_LMS_Jubilee() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(38));

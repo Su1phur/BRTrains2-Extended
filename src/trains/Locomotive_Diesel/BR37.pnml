@@ -159,8 +159,8 @@ switch(FEAT_TRAINS, SELF, sw_length_BR37, position_in_articulated_veh % 3) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_BR37, param_max_speed) {
-    0: 145; // 90mph
-    1: 161; // 100mph
+    0: 90;
+    1: 100;
 }
 
 // graphics switch
@@ -225,7 +225,7 @@ item (FEAT_TRAINS, item_BR37, 3700) {
         // internal code
         length:                         sw_length_BR37;
         articulated_part:               sw_articulated_BR37;
-        speed:                          sw_speed_BR37;
+        speed:                          sw_speed_BR37() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    return(GetAdjustedCost(32));
