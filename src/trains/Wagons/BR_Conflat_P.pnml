@@ -79,7 +79,7 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 502) {
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 20;
+        cargo_capacity:                 20 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;	
         running_cost_base:				RUNNING_COST_DIESEL;				

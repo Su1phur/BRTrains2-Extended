@@ -152,7 +152,7 @@ item (FEAT_TRAINS, item_Milk_Tank, 401) {
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         cargo_disallow_refit:            [LVST, FISH];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 10;
+        cargo_capacity:                 10 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;						

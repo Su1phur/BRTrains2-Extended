@@ -174,8 +174,8 @@ STR_PARAM_1X                    :1x (Default)
 STR_PARAM_2X                    :2x
 STR_PARAM_3X                    :3x
 STR_PARAM_4X                    :4x
-STR_PARAM_QUARTER              :1/4
-STR_PARAM_HALF                 :1/2
+STR_PARAM_QUARTER               :1/4x
+STR_PARAM_HALF                  :1/2x
 
 # Vehicle names
 
@@ -545,7 +545,6 @@ str_BR52_liveries               :BR Blue, BR Desert Sands, BR Green, BR Maroon, 
 
 STR_NAME_BR55					:BR Class 55 "Deltic"
 str_BR55_usage					:Express Passenger
-str_BR55_eos					:1961-1982
 str_BR55_liveries				:BR Green, BR Green with Yellow Front, BR Blue
 
 STR_NAME_BR57					:BR Class 57 "Thunderbird"
@@ -1871,7 +1870,7 @@ str_overground5					: (London Overground - 5-Car Celebration)
 str_overgroundPride				: (London Overground - Pride)
 str_Police						: (Police)
 str_PPMProto                    : (Parry People Mover - Prototype)
-str_Purple						: (Potterbrook - Purple)
+str_Porterbrook					: (Porterbrook - Purple)
 str_Pullman                     : (Blue Pullman)
 str_PullmanPanels               : (Blue Pullman - Warning Panels)
 str_PullmanBrown                : (Brown Pullman)

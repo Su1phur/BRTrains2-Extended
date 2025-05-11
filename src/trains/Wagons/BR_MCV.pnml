@@ -202,7 +202,7 @@ item (FEAT_TRAINS, item_BR_MCV, 201) {
         // cargo_disallow_refit:            [];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         default_cargo_type:				COAL;
-        cargo_capacity:                 16;
+        cargo_capacity:                 16 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;						

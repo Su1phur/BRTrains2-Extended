@@ -68,7 +68,7 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton containe
         non_refittable_cargo_classes:   bitmask(CC_BULK);
         cargo_disallow_refit:           [LVST, WATR, BEER, IRON, VEHI];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 13;
+        cargo_capacity:                 13 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;			
         running_cost_base:				RUNNING_COST_DIESEL;				
