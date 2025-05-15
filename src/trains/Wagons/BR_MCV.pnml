@@ -227,8 +227,8 @@ item (FEAT_TRAINS, item_BR_MCV, 201) {
         cost_factor:                    return(GetAdjustedCost(47));
         running_cost_factor:            return(GetAdjustedCost(16));
         cargo_subtype_text:             sw_BR_MCV_cargo_subtype_text;
-        colour_mapping:                 switch_bulk_recolour;
-        // colour_mapping:                 switch_generic_recolour;
+        // colour_mapping:                 switch_bulk_recolour;
+        colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
