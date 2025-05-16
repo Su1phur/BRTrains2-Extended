@@ -1,14 +1,8 @@
 # Build files
 build/
-build.json
-conf.ps1
-*.grf
-*.tar
 
 # NML cache
 .nmlcache/
-*.cache
-*.cacheindex
 
 #Storing gfx here instead of in WIP folder for laziness
 *.xcf
@@ -16,28 +10,7 @@ conf.ps1
 # Test files
 *test*
 
-# No clue
-master-gfx/
-docs/ToDo_List.txt
-docs/graphicprogresstrack2.xlsx
-docs/BRTrains Tracking Table.xlsx
-.vscode/snippets.code-snippets
-*.cache
-gfx/ideas/*
-gfx/InTray/*
-docs/Container_Brands.txt
-gfx/Template/possible_target_template.png
-buildandcopy.bat
-build.bat
-copy.bat
-docs/Hitlist.txt
-gfx/Template_DiskStation_*
-/.nmlcache
-/Reference Images
-docs/Class 80X power calculations.ods
-build.sh
-docs/BR liveries and logos.gif
-/gfx/WIP Stash
-/Release Images
-docs/power calculations.ods
+# VSCode Stuff
+.vscode/
 .vscode/settings.json
+.vscode/extensions.json
