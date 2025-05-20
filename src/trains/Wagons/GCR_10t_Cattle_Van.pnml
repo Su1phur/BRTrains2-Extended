@@ -1,0 +1,101 @@
+// basic sprites
+spriteset(spriteset_GCR_10t_Cattle_Van_Brown, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_2x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_4x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_GCR_10t_Cattle_Van_purchase, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprites
+spriteset(spriteset_GCR_10t_Cattle_Van_Grey, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_1x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_2x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_4x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GCR_10t_Cattle_Van, cargo_subtype) {
+    0: spriteset_GCR_10t_Cattle_Van_Brown;
+    1: spriteset_GCR_10t_Cattle_Van_Grey;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GCR_10t_Cattle_Van_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_col_Brown));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Grey));
+       return CB_RESULT_NO_TEXT;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 950) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GCR_10t_Cattle_Van);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1900,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask();
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [LVST];
+        // cargo_disallow_refit:            [];
+        // misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 10 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         10 ton;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.3;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_GCR_10t_Cattle_Van;
+        purchase:                       spriteset_GCR_10t_Cattle_Van_purchase;
+        
+        // internal code
+        cost_factor:                    return(GetAdjustedCost(9));
+        running_cost_factor:            return(GetAdjustedCost(15));
+        cargo_subtype_text:             sw_GCR_10t_Cattle_Van_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_GCR_10t_Cattle_Van_liveries)));
+    }
+}

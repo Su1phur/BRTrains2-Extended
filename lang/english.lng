@@ -1265,7 +1265,8 @@ STR_NAME_RCH_1907_7_Plank       :RCH 1907 Spec 7-plank Open Wagon
 STR_NAME_RCH_1907_5_Plank       :RCH 1907 Spec 5-plank Open Wagon
 STR_NAME_RCH_1907_3_Plank       :RCH 1907 Spec 3-plank Open Wagon
 STR_NAME_RCH_1907_1_Plank       :RCH 1907 Spec 1-plank Wagon
-str_RCH_1907_liveries           :Grey, Bauxite
+STR_NAME_RCH_1907_Van           :RCH 1907 Spec Van
+str_RCH_1907_liveries           :Grey, Bauxite, Misc. Private Owners
 
 STR_NAME_FurnessTankWagon		:Furness Railway Rectangular Tanker Wagon
 str_FurnessTankWagon_usage		:Liquids
@@ -1278,6 +1279,9 @@ str_Furness20TonHopper_liveries	:Grey
 STR_NAME_FurnessLumberWagon		:Furness Railway Small Lumber Wagon
 str_FurnessLumberWagon_usage	:Wood
 str_FurnessLumberWagon_liveries	:Green
+
+STR_NAME_GCR_10t_Cattle_Van     :GCR 10t Cattle Van
+str_GCR_10t_Cattle_Van_liveries :Brown, Grey
 
 STR_NAME_RS_SWB_Hopper			:LNER Standard Medium Hopper
 str_RS_SWB_Hopper_usage			:Bulk Cargos

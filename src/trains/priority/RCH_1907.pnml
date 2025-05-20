@@ -197,7 +197,7 @@ spriteset(spriteset_RCH_1907_Van_Grey, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Gre
 spriteset(spriteset_RCH_1907_Van_purchase, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Grey_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 // randomizers
