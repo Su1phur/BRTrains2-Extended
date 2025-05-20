@@ -317,3 +317,17 @@ spritegroup spritegroup_1_Plank_Tanks {
     loaded: [spriteset_empty, spriteset_1_Plank_Tanks];
     loading: [spriteset_empty, spriteset_1_Plank_Tanks];
 }
+
+spriteset(spriteset_1_Plank_Bulk, "gfx\Cargo\1_Plank_Open_Wagons\1_Plank_Bulk_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_1_Plank_Bulk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Cargo\1_Plank_Open_Wagons\1_Plank_Bulk_2x_8bpp.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_1_Plank_Bulk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Cargo\1_Plank_Open_Wagons\1_Plank_Bulk_4x_8bpp.png")
+    { template_48trains_4x(0,0) }
+
+spritegroup spritegroup_1_Plank_Bulk {
+    loaded: [spriteset_empty, spriteset_1_Plank_Bulk];
+    loading: [spriteset_empty, spriteset_1_Plank_Bulk];
+}

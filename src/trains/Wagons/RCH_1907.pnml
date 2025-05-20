@@ -1,8 +1,30 @@
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_classes, cargo_classes) {
     bitmask(CC_PIECE_GOODS) : return random_choose_RCH_1907_1_Plank_Boxes;
     bitmask(CC_REFRIGERATED) : return spritegroup_1_Plank_Barrels;
+    bitmask(CC_POTABLE) : return spritegroup_1_Plank_Barrels;
     bitmask(CC_LIQUID) : return spritegroup_1_Plank_Tanks;
+    bitmask(CC_BULK) : return spritegroup_1_Plank_Bulk;
         return random_choose_RCH_1907_1_Plank_Boxes;
+}
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Refrigerated, hasbit(cargo_classes, CC_REFRIGERATED)) {
+    0: random_choose_RCH_1907_1_Plank_Boxes;
+        return spritegroup_1_Plank_Barrels;
+}
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Potable, hasbit(cargo_classes, CC_POTABLE)) {
+    0: return sw_RCH_1907_1_Plank_Refrigerated;
+        return spritegroup_1_Plank_Barrels;
+}
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Liquid, hasbit(cargo_classes, CC_LIQUID)) {
+    0: return sw_RCH_1907_1_Plank_Potable;
+        return spritegroup_1_Plank_Tanks;
+}
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Bulk, hasbit(cargo_classes, CC_BULK)) {
+    0: return sw_RCH_1907_1_Plank_Liquid;
+        return spritegroup_1_Plank_Bulk;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_type, cargo_type_in_veh) {
@@ -37,41 +59,55 @@ switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_type, cargo_type_in_veh) {
     MPTS: return random_choose_RCH_1907_1_Plank_Boxes;
     PAPR: return random_choose_RCH_1907_1_Plank_Boxes;
 
-        sw_RCH_1907_1_Plank_cargo_classes;
+        sw_RCH_1907_1_Plank_Bulk;
 }
 
+// cargo sprite stacks
 switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_random_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: random_choose_RCH_1907_1_Plank;
     1: sw_RCH_1907_1_Plank_cargo_type;
 }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed, switch_alternative_var_random_bits(1, 5)) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_Grey_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_RCH_1907_1_Plank_Grey;
+    1: sw_RCH_1907_1_Plank_cargo_type;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_Bauxite_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_RCH_1907_1_Plank_Bauxite;
+    1: sw_RCH_1907_1_Plank_cargo_type;
+}
+
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed, switch_alternative_var_random_bits(1, 3)) {
     0: random_choose_RCH_1907_3_Plank;
     1: random_choose_RCH_1907_5_Plank;
     2: random_choose_RCH_1907_7_Plank;
     3: random_choose_RCH_1907_7_Plank;
-    4: random_choose_RCH_1907_5_Plank;
+    4: random_choose_RCH_1907_Van;
     5: sw_loadstack_RCH_1907_random_1_Plank_Cargo;
+    6: random_choose_RCH_1907_Van;
     random_choose_RCH_1907_5_Plank;
 }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Grey, switch_alternative_var_random_bits(1, 5)) {
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Grey, switch_alternative_var_random_bits(1, 3)) {
     0: spriteset_RCH_1907_3_Plank_Grey;
     1: spriteset_RCH_1907_7_Plank_Grey;
     2: spriteset_RCH_1907_5_Plank_Grey;
-    3: spriteset_RCH_1907_1_Plank_Grey;
+    3: sw_loadstack_RCH_1907_Grey_1_Plank_Cargo;
     4: spriteset_RCH_1907_7_Plank_Grey;
-    5: spriteset_RCH_1907_5_Plank_Grey;
+    5: spriteset_RCH_1907_Van_Grey;
+    6: spriteset_RCH_1907_Van_Grey;
     spriteset_RCH_1907_5_Plank_Grey;
 }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Bauxite, switch_alternative_var_random_bits(1, 5)) {
+switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Bauxite, switch_alternative_var_random_bits(1, 3)) {
     0: spriteset_RCH_1907_3_Plank_Bauxite;
     1: spriteset_RCH_1907_7_Plank_Bauxite;
     2: spriteset_RCH_1907_5_Plank_Bauxite;
-    3: spriteset_RCH_1907_1_Plank_Bauxite;
+    3: sw_loadstack_RCH_1907_Bauxite_1_Plank_Cargo;
     4: spriteset_RCH_1907_7_Plank_Bauxite;
-    5: spriteset_RCH_1907_5_Plank_Bauxite;
+    5: random_choose_RCH_1907_Van_Bauxite;
+    6: random_choose_RCH_1907_Van_Bauxite;
     spriteset_RCH_1907_5_Plank_Bauxite;
 }
 
@@ -105,7 +141,7 @@ item (FEAT_TRAINS, item_RCH_1907_Mixed, 5) {
         reliability_decay: 				20;
         
 		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
-        refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_POWDERIZED, CC_NEO_BULK, CC_POTABLE);	
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
@@ -136,8 +172,8 @@ item (FEAT_TRAINS, item_RCH_1907_Mixed, 5) {
         cost_factor:                    return(GetAdjustedCost(38));
         running_cost_factor:            return(GetAdjustedCost(15));
         cargo_subtype_text:             sw_RCH_1907_Mixed_cargo_subtype_text; 
-        colour_mapping:                 return PALETTE_CC_FIRST;
-        // colour_mapping:                 switch_generic_recolour;
+        // colour_mapping:                 return PALETTE_CC_FIRST;
+        colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,

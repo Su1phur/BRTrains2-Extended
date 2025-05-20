@@ -33,7 +33,7 @@ item (FEAT_TRAINS, item_RCH_1907_1_Plank, 9) {
         reliability_decay: 				20;
         
 		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
-        refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_POWDERIZED, CC_NEO_BULK, CC_POTABLE);	
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
@@ -64,8 +64,8 @@ item (FEAT_TRAINS, item_RCH_1907_1_Plank, 9) {
         cost_factor:                    return(GetAdjustedCost(38));
         running_cost_factor:            return(GetAdjustedCost(15));
         cargo_subtype_text:             sw_RCH_1907_1_Plank_cargo_subtype_text; 
-        colour_mapping:                 return PALETTE_CC_FIRST;
-        // colour_mapping:                 switch_generic_recolour;
+        // colour_mapping:                 return PALETTE_CC_FIRST;
+        colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,

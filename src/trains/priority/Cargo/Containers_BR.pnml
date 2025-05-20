@@ -61,6 +61,44 @@ spritegroup spritegroup_BR_Container_AF_D2DBlue_Centered {
     loading: [spriteset_empty, spriteset_BR_Container_AF_D2DBlue_Centered];
 }
 
+// BR Container - Type "A" - Twin Centered
+// basic sprites
+spriteset(spriteset_BR_Container_Twin_A_Maroon_Centered, "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_Twin_A_Maroon_Centered, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_1x_32bpp.png", "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_Twin_A_Maroon_Centered, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_2x_32bpp.png", "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_Twin_A_Maroon_Centered, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_4x_32bpp.png", "gfx\Cargo\Containers_BR_Centered\BR_Container_Twin_A_Maroon_Centered_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// cargo spritegroup
+spritegroup spritegroup_BR_Container_Twin_A_Maroon_Centered {
+    loaded: [spriteset_empty, spriteset_BR_Container_Twin_A_Maroon_Centered];
+    loading: [spriteset_empty, spriteset_BR_Container_Twin_A_Maroon_Centered];}
+
+// BR Container - Type "A" - Twin Centered
+// basic sprites
+spriteset(spriteset_BR_Container_A_D2DMaroon_Centered, "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_A_D2DMaroon_Centered, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_1x_32bpp.png", "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_A_D2DMaroon_Centered, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_2x_32bpp.png", "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Container_A_D2DMaroon_Centered, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_4x_32bpp.png", "gfx\Cargo\Containers_BR_Centered\BR_Container_A_D2DMaroon_Centered_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// cargo spritegroup
+spritegroup spritegroup_BR_Container_A_D2DMaroon_Centered {
+    loaded: [spriteset_empty, spriteset_BR_Container_A_D2DMaroon_Centered];
+    loading: [spriteset_empty, spriteset_BR_Container_A_D2DMaroon_Centered];}
+
 // BR Container - Type "BD" - Centered
 
 spriteset(spriteset_BR_Container_BD_Maroon_Centered, "gfx\Cargo\Containers_BR_Centered\BR_Container_BD_Maroon_Centered_1x_8bpp.png")
@@ -105,6 +143,8 @@ spritegroup spritegroup_BR_Container_BD_Maroon_Side {
 
 random_switch(FEAT_TRAINS, SELF, random_BR_Container_A_Centered, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
     1: spritegroup_BR_Container_A_Maroon_Centered;
+    1: spritegroup_BR_Container_Twin_A_Maroon_Centered;
+    1: spritegroup_BR_Container_A_D2DMaroon_Centered;
 }
 
 random_switch(FEAT_TRAINS, SELF, random_BR_Container_BD_Centered, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {

@@ -28,7 +28,7 @@ item (FEAT_TRAINS, item_RCH_1907_7_Plank, 6) {
         reliability_decay: 				20;
         
 		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
-        refittable_cargo_classes:        bitmask(CC_PIECE_GOODS, CC_HAZARDOUS, CC_REFRIGERATED, CC_NON_POURABLE, CC_NEO_BULK, CC_OVERSIZED);	
+        refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_POWDERIZED, CC_NEO_BULK, CC_POTABLE);
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
