@@ -278,7 +278,6 @@ str_StephensonPlanet_usage			    :Mixed Traffic
 str_StephensonPlanet_eos			    :1830-1841
 str_StephensonPlanet_liveries		    :Teak
 
-
 STR_NAME_LNER_J70			        :GER Class C53 0-6-0T (LNER "J70")
 str_LNER_J70_usage			        :Light Mixed Traffic
 str_LNER_J70_eos				    :1903-1955
@@ -1283,9 +1282,9 @@ str_FurnessLumberWagon_liveries	:Green
 STR_NAME_GCR_10t_Cattle_Van     :GCR 10t Cattle Van
 str_GCR_10t_Cattle_Van_liveries :Brown, Grey
 
-STR_NAME_RS_SWB_Hopper			:LNER Standard Medium Hopper
-str_RS_SWB_Hopper_usage			:Bulk Cargos
-str_RS_SWB_Hopper_liveries		:Grey, Brown
+STR_NAME_LNER_21t_Hopper        :LNER 21t Hopper
+STR_NAME_LNER_21t_Hopper_Late   :BR HTO/HTV Hopper
+str_LNER_21t_Hopper_liveries    :LNER Grey, BR Grey, BR Bauxite, NCB Grey, Private Owners
 
 STR_NAME_GWR_Mink_G             :GWR "Mink G" Goods Van
 str_GWR_Mink_G_usage            :Goods, Misc. Cargo

@@ -1,0 +1,283 @@
+spriteset(spriteset_LNER_21t_Hopper_bulk_30, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_2x_8bpp.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_4x_8bpp.png")
+    { template_58trains_4x(0,0) }
+
+
+spriteset(spriteset_LNER_21t_Hopper_bulk_60, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_2x_8bpp.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_4x_8bpp.png")
+    { template_58trains_4x(0,0) }
+
+
+spriteset(spriteset_LNER_21t_Hopper_bulk_100, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_2x_8bpp.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_4x_8bpp.png")
+    { template_58trains_4x(0,0) }
+
+spritegroup spritegroup_LNER_21t_Hopper_Load {
+    loaded: [spriteset_empty, spriteset_LNER_21t_Hopper_bulk_30, spriteset_LNER_21t_Hopper_bulk_60, spriteset_LNER_21t_Hopper_bulk_100];
+    loading: [spriteset_empty, spriteset_LNER_21t_Hopper_bulk_30, spriteset_LNER_21t_Hopper_bulk_60, spriteset_LNER_21t_Hopper_bulk_100];
+}
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_BR_Bauxite, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Bauxite_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_BR_Grey, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_BR_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_British_Steel, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_British_Steel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_British_Steel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_British_Steel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_British_Steel_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_Grey, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_LNER_Grey, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_LNER_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_LNER_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_LNER_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_LNER_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_NCB_Grey, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_NCB_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_NCB_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_NCB_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_NCB_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_Private_Grey, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_Private_Red, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Red_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_21t_Hopper_Private_Yellow, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_2x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Private_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_4x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Private_Yellow_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_LNER_21t_Hopper_Grey_purchase, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LNER_21t_Hopper_Grey_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_1x_32bpp.png", "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// random LNER era
+switch(FEAT_TRAINS, SELF, random_choose_LNER_21t_Hopper_LNER, switch_alternative_var_random_bits(1, 2)) {
+    0: spriteset_LNER_21t_Hopper_LNER_Grey;
+    1: spriteset_LNER_21t_Hopper_Grey;
+        spriteset_LNER_21t_Hopper_LNER_Grey;
+}
+
+// random BR era
+switch(FEAT_TRAINS, SELF, random_choose_LNER_21t_Hopper_BR, switch_alternative_var_random_bits(1, 4)) {
+    0: spriteset_LNER_21t_Hopper_BR_Bauxite;
+    1: spriteset_LNER_21t_Hopper_NCB_Grey;
+    2: spriteset_LNER_21t_Hopper_Grey;
+    3: spriteset_LNER_21t_Hopper_Private_Grey;
+    4: spriteset_LNER_21t_Hopper_Private_Red;
+    5: spriteset_LNER_21t_Hopper_Private_Yellow;
+    6: spriteset_LNER_21t_Hopper_NCB_Grey;
+        spriteset_LNER_21t_Hopper_BR_Grey;
+}
+
+switch(FEAT_TRAINS, SELF, sw_LNER_21t_Hopper_random, current_year) {
+    1936..1948: random_choose_LNER_21t_Hopper_LNER;
+        random_choose_LNER_21t_Hopper_BR;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_LNER_21t_Hopper, cargo_subtype) {
+    0: sw_LNER_21t_Hopper_random;
+    1: spriteset_LNER_21t_Hopper_Grey;
+    2: spriteset_LNER_21t_Hopper_LNER_Grey;
+    3: spriteset_LNER_21t_Hopper_BR_Grey;
+    4: spriteset_LNER_21t_Hopper_BR_Bauxite;
+    5: spriteset_LNER_21t_Hopper_NCB_Grey;
+    6: spriteset_LNER_21t_Hopper_Private_Grey;
+    7: spriteset_LNER_21t_Hopper_Private_Red;
+    8: spriteset_LNER_21t_Hopper_Private_Yellow;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_LNER_21t_Hopper_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Grey));
+    2:  return string(STR_LIVERY, string(str_abbr_LNER), string(str_col_Grey));
+    3:  return string(str_BRGrey);
+    4:  return string(str_BRBauxite);
+    5:  return string(STR_LIVERY, string(str_abbr_NCB), string(str_col_Grey));
+    6:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Grey));
+    7:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Red));
+    8:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Yellow));
+       return CB_RESULT_NO_TEXT;
+}
+
+// loading sprite
+switch(FEAT_TRAINS, SELF, sw_loadstack_LNER_21t_Hopper, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_LNER_21t_Hopper;
+    1: spritegroup_LNER_21t_Hopper_Load;
+}
+
+// name switch
+switch(FEAT_TRAINS, SELF, sw_name_LNER_21t_Hopper, current_year) {
+    1936..1948: string(STR_NAME_LNER_21t_Hopper);
+        string(STR_NAME_LNER_21t_Hopper_Late);
+}
+
+// unit definition
+item (FEAT_TRAINS, item_LNER_21t_Hopper, 951) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_LNER_21t_Hopper);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1936,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:        bitmask(CC_BULK);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 21 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;						
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         10 ton;
+        dual_headed:                    0;
+        length:                         5;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_loadstack_LNER_21t_Hopper;
+        purchase:                       spriteset_LNER_21t_Hopper_Grey_purchase;
+        
+        // internal code
+        cost_factor:                    return(GetAdjustedCost(10));
+        running_cost_factor:            return(GetAdjustedCost(16));
+        cargo_subtype_text:             sw_LNER_21t_Hopper_cargo_subtype_text; 
+        // colour_mapping:                 return PALETTE_CC_FIRST;
+        colour_mapping:                 switch_generic_recolour;
+        name:                           sw_name_LNER_21t_Hopper;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_LNER_21t_Hopper_liveries)));
+    }
+}
