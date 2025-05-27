@@ -398,7 +398,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // internal code
         length:                         sw_length_UNIT;
         articulated_part:               sw_articulated_UNIT;
-        // speed:                          sw_speed_UNIT;  
+        // speed:                          sw_speed_UNIT() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor

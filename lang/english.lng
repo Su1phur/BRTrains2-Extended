@@ -363,6 +363,10 @@ str_LNERP2_usage				    :Express Passenger
 str_LNERP2_eos					    :1934-1944
 str_LNERP2_liveries				    :LNER Green, LNER Wartime Black
 
+STR_NAME_LNER_A4                    :LNER Gresley Class A4
+str_LNER_A4_usage                   :Express Passenger
+str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
+
 STR_NAME_LMSBigBertha			    :MR Fowler Lickey Banker 0-10-0 "Big Bertha"
 str_LMSBigBertha_usage		        :Banking
 str_LMSBigBertha_eos			    :1919-1956
@@ -1799,11 +1803,10 @@ str_Kestrel                     : (Kestrel Prototype - Yellow and Black)
 str_LaPoste					    : (La Poste)
 str_LMSBlack                    : (LMS - Black)
 str_LMSRed                      : (LMS - Crimson)
-str_LNER                        : (LNER - Red/White)
-str_LNERCorridorTender			: (LNER - Green Corridor Tender)
-str_LNERGreen					: (LNER - Green)
 str_LNERAppleGreen		        : (LNER - Apple Green)
 str_LNERBlack					: (LNER - Black)
+str_LNERCoronationSilver        : (LNER - Coronation Silver)
+str_LNERGarterBlue              : (LNER - Garter Blue)
 str_LNERWartimeBlack            : (LNER - Wartime Black)
 str_LNERTeak					: (LNER - Teak)
 str_LNERFauxTeak                : (LNER - "Teak")
