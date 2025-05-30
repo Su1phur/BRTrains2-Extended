@@ -7,7 +7,7 @@
       "_comment": "flat greys",
       "start": 1,
       "end": 15,
-      "smoothness": 0,
+      "smoothness": -1,
 	  "max_gap_in_region": 3,
 	  "expected_colour_range": 3
     },

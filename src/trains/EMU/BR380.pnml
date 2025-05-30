@@ -156,31 +156,19 @@ switch(FEAT_TRAINS, PARENT, sw_reverse_BR380_1_TSO_ScotRail, vehicle_is_reversed
 
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, sw_graphics_BR380_0_ScotRail, position_in_vehid_chain % 9){
-    0: spriteset_empty;
+switch(FEAT_TRAINS, SELF, sw_graphics_BR380_0_ScotRail, position_in_vehid_chain % 9) {
     1: return sw_loadstack_BR380_ScotRail_DMSO;
-    2: spriteset_empty;
-    3: spriteset_empty;
     4: return sw_reverse_BR380_PTSO_ScotRail;
-    5: spriteset_empty;
-    6: spriteset_empty;
     7: return sw_loadstack_BR380_ScotRail_DMSO_REV;
-    8: spriteset_empty;
+        spriteset_empty;
 }
 
-switch(FEAT_TRAINS, SELF, sw_graphics_BR380_1_ScotRail, position_in_vehid_chain % 12){
-    0: spriteset_empty;
+switch(FEAT_TRAINS, SELF, sw_graphics_BR380_1_ScotRail, position_in_vehid_chain % 12) {
     1: return sw_loadstack_BR380_ScotRail_DMSO;
-    2: spriteset_empty;
-    3: spriteset_empty;
     4: return sw_reverse_BR380_1_PTSO_ScotRail;
-    5: spriteset_empty;
-    6: spriteset_empty;
     7: return sw_reverse_BR380_1_TSO_ScotRail;
-    8: spriteset_empty;
-    9: spriteset_empty;
     10: return sw_loadstack_BR380_ScotRail_DMSO_REV;
-    11: spriteset_empty;
+        spriteset_empty;
 }
 
 

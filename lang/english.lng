@@ -686,6 +686,13 @@ str_BR99_usage					:Mixed Traffic
 str_BR99_eos					:---
 str_BR99_liveries				:GBRf Blue, GBRf Black
 
+STR_NAME_BR101                  :BR Class 101 "Met-Cam"
+STR_NAME_BR101_3                :BR Class 101 "Met-Cam" (3-car)
+STR_NAME_BR101_4                :BR Class 101 "Met-Cam" (4-car)
+STR_NAME_BR102                  :BR Class 102 "Met-Cam" (2-car)
+str_BR101_usage                 :Passenger
+str_BR101_liveries              :BR Green, BR Blue, Regional Railways, NSE, SPT
+
 STR_NAME_BR121					:BR Class 121 "Bubble Car" (1-car)
 str_BR121_usage					:Passenger
 str_BR121_eos					:---
@@ -1672,8 +1679,6 @@ str_BRMaroonPanel               : (BR - Maroon, Yellow Panel)
 str_BROchre                     : (BR - Golden Ochre)
 str_BRPrototype					: (BR - Prototype)
 str_BRProvincial                : (BR - Provincial)
-str_BRRailfreightGrey           : (BR - Railfreight Grey)
-str_BRRailfreightGrey_RedStripe : (BR - Railfreight Grey, Red Stripe)
 str_BRResearch                  : (BR - Research Department)
 str_BRRefurb                    : (BR - Refurbished)
 str_BRTransitionalRed           : (BR - Transitional Red)
@@ -1885,6 +1890,7 @@ str_Random                      : (Random)
 str_RandomEyeCandy              : (Random - Always show container)
 str_Railtrack					: (Railtrack)
 str_RailfreightGrey				: (Railfreight - Grey)
+str_RailfreightGrey_RedStripe   : (Railfreight - Grey, Red Stripe)
 str_Railfreight2Grey			: (Railfreight - 2 Tone Grey)
 str_Railfreight3Grey			: (Railfreight - 3 Tone Grey)
 str_Railfreight3GreyCoal		: (Railfreight - 3 Tone Grey - Coal)
@@ -1934,7 +1940,7 @@ str_SRWartimeBlack              : (Southern Railway - Wartime Black)
 str_Stagecoach                  : (Stagecoach)
 str_StagecoachWhite             : (Stagecoach - White)
 str_StagecoachBlue              : (Stagecoach - Blue)
-str_StrathclydeOrange			: (Strathclyde - Orange)
+str_StrathclydeOrange			: (SPT - Orange)
 str_StrathclydePTE				: (Strathclyde PTE)
 str_SuperSprinter				: (BR Super Sprinter)
 str_Suko                        : (Suko)

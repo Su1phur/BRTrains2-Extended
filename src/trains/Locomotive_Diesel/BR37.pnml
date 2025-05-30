@@ -303,8 +303,8 @@ switch(FEAT_TRAINS, SELF, sw_BR37_cargo_subtype_text, cargo_subtype){
     6:  return string(str_BRLLogo);
     7:  return string(str_BRInterCity);
     8:  return string(str_Regional);
-    9:  return string(str_BRRailfreightGrey);
-    10: return string(str_BRRailfreightGrey_RedStripe);
+    9:  return string(str_RailfreightGrey);
+    10: return string(str_RailfreightGrey_RedStripe);
     11: return string(str_Railfreight3Grey);
     12: return string(str_RFCoal);
     13: return string(str_RFDistribution);

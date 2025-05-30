@@ -238,7 +238,7 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A4_BR_Green_purchase, [ STORE_TEMP
 }
 
 // FX effects
-switch(FEAT_TRAINS, SELF, sw_FX_LNER_A4_Steam, position_in_vehid_chain % 3) {
+switch(FEAT_TRAINS, SELF, sw_FX_LNER_A4_Steam, position_in_vehid_chain % 4) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
     return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
