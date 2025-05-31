@@ -990,6 +990,7 @@ item (FEAT_TRAINS, item_BR101, 1010) {
         default:                        sw_livery_BR101_2car;
         visual_effect_and_powered:      sw_FX_BR101_2car_Diesel;
         purchase:                       sw_BR101_purchase_sprite;
+        sound_effect:                   sw_dmu_sound;
 
         // internal code
         length:                         sw_length_BR101_2car;
@@ -1164,6 +1165,7 @@ item (FEAT_TRAINS, item_BR101_3, 1013) {
         default:                        sw_livery_BR101_3car;
         visual_effect_and_powered:      sw_FX_BR101_3car_Diesel;
         purchase:                       sw_BR101_purchase_sprite;
+        sound_effect:                   sw_dmu_sound;
 
         // internal code
         length:                         sw_length_BR101_3car;
@@ -1390,6 +1392,7 @@ item (FEAT_TRAINS, item_BR101_4, 1014) {
         default:                        sw_livery_BR101_4car;
         visual_effect_and_powered:      sw_FX_BR101_4car_Diesel;
         purchase:                       sw_BR101_purchase_sprite;
+        sound_effect:                   sw_dmu_sound;
 
         // internal code
         length:                         sw_length_BR101_4car;
@@ -1462,6 +1465,7 @@ item (FEAT_TRAINS, item_BR102, 1020) {
         default:                        sw_livery_BR101_2car;
         visual_effect_and_powered:      sw_FX_BR101_2car_Diesel;
         purchase:                       sw_BR101_purchase_sprite;
+        sound_effect:                   sw_dmu_sound;
 
         // internal code
         length:                         sw_length_BR101_2car;

@@ -1,0 +1,221 @@
+// basic sprites
+spriteset(spriteset_BR325_DTV_RoyalMail, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// spriteset(spriteset_BR325_DTV_RoyalMail_Loading, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_1x_8bpp.png")
+    // { template_128trains_1x(0,0) }
+
+    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_1x_mask.png")
+    // { template_128trains_1x(0,0) }
+
+    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_2x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_2x_mask.png")
+    // { template_128trains_2x(0,0) }
+
+    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_4x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_4x_mask.png")
+    // { template_128trains_4x(0,0) }
+
+spriteset(spriteset_BR325_DTV_RoyalMail_REV, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_mask.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_mask.png")
+    { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_mask.png")
+    { template_128trains_REV_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR325_PMV_RoyalMail, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+spriteset(spriteset_BR325_PMV_RoyalMail_REV, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_mask.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_mask.png")
+    { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_mask.png")
+    { template_128trains_REV_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR325_TAV_RoyalMail, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+spriteset(spriteset_BR325_TAV_RoyalMail_REV, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_mask.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_mask.png")
+    { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_mask.png")
+    { template_128trains_REV_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR325_DTV_RoyalMail_purchase, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// reversing switches
+switch(FEAT_TRAINS, PARENT, sw_BR325_PMV_TAV_RoyalMail, vehicle_is_reversed) {
+    // 0: sw_loadstack_BR325_PMV_RoyalMail;
+    0: spriteset_BR325_PMV_RoyalMail;
+        // sw_loadstack_BR325_TAV_RoyalMail;
+        spriteset_BR325_TAV_RoyalMail;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_BR325_TAV_PMV_RoyalMail, vehicle_is_reversed) {
+    // 0: sw_loadstack_BR325_PMV_RoyalMail_REV;
+    0: spriteset_BR325_TAV_RoyalMail_REV;
+        // sw_loadstack_BR325_TAV_RoyalMail_REV;
+        spriteset_BR325_PMV_RoyalMail_REV;
+}
+
+// FX switch
+switch(FEAT_TRAINS, SELF, sw_FX_BR325_Electric, position_in_vehid_chain % 12) { // rear catenary
+    6: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR325_RoyalMail, position_in_articulated_veh % 12) {
+	1: spriteset_BR325_DTV_RoyalMail;
+    4: return sw_BR325_PMV_TAV_RoyalMail;
+    7: return sw_BR325_TAV_PMV_RoyalMail;
+    10: spriteset_BR325_DTV_RoyalMail_REV;
+	    spriteset_empty;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR325, cargo_subtype) {
+    0: sw_graphics_BR325_RoyalMail;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR325_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_RoyalMail);
+       return CB_RESULT_NO_TEXT;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR325, position_in_articulated_veh % 12) {
+	0: 4;
+	1: 4;
+	2: 4;
+    3: 4;
+    4: 4;
+    5: 4;
+    6: 4;
+    7: 4;
+    8: 4;
+    9: 4;
+    10: 4;
+    11: 4;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR325, extra_callback_info1) {
+	1..11: return item_BR325;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR325, 3250) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR325);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1995,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:        bitmask(CC_MAIL, CC_EXPRESS, CC_ARMOURED);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [MAIL, GOOD, VALU];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 48 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;				
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     BR_3RDC; // custom track type defined
+        power:                          1330 hp;
+        weight:                         138 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.3;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR325;
+        visual_effect_and_powered:      sw_FX_BR325_Electric;
+        purchase:                       spriteset_BR325_DTV_RoyalMail_purchase;
+        sound_effect:                   sw_electric_sound;
+
+        // internal code
+        length:                         sw_length_BR325;
+        articulated_part:               sw_articulated_BR325;
+        cost_factor:                    return(GetAdjustedCost(100));
+        running_cost_factor:            return(GetAdjustedCost(28));
+        cargo_subtype_text:             sw_BR325_cargo_subtype_text; 
+        // power:                          sw_power_BR325;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electric),
+                                                    string(str_BR325_usage),
+                                                    string(str_BR325_liveries)));
+    }
+}
