@@ -580,11 +580,6 @@ str_BR67_usage					:Mixed Traffic
 str_BR67_eos					:---
 str_BR67_liveries				:Arriva Trains Wales, DB Schenker, EWS, Caledonian Sleeper, Wrexham & Shropshire, Royal Claret, Colas Rail
 
-STR_NAME_BR68					:BR Class 68 "Warskip"
-str_BR68_usage					:Mixed Traffic
-str_BR68_eos					:---
-str_BR68_liveries				:DRS, ScotRail, Chiltern Railways
-
 STR_NAME_BR67Royal				:BR Class 67 "British Royal Train"
 str_BR67Royal_usage				:Mixed Traffic
 str_BR67Royal_eos				:---
@@ -594,6 +589,10 @@ STR_NAME_BR67EWS				:BR Class 67 "Company Train"
 str_BR67EWS_usage				:Mixed Traffic
 str_BR67EWS_eos					:---
 str_BR67EWS_liveries			:EWS Company Train, DB Schenker Company Train
+
+STR_NAME_BR68					:BR Class 68 "UKLight"
+str_BR68_usage					:Mixed Traffic
+str_BR68_liveries				:DRS, ScotRail, Chiltern Railways
 
 STR_NAME_BR70OG					:Southern Railway Class CC (BR Class 70)
 str_BR70OG_usage			    :Mixed Traffic
@@ -657,7 +656,6 @@ str_BR87_liveries				:BR Blue, InterCity Swallow, Virgin
 
 STR_NAME_BR88					:BR Class 88 (Bi-Mode)
 str_BR88_usage					:Mixed Traffic
-str_BR88_eos					:---
 str_BR88_liveries				:DRS
 
 STR_NAME_BR89					:BR Class 89 "Badger"

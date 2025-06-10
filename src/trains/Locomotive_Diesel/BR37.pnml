@@ -255,6 +255,20 @@ spriteset(spriteset_BR37_BR_CivilEngineers_Dutch, "gfx\Locomotive_Diesel\BR37\BR
     alternative_sprites(spriteset_BR37_BR_CivilEngineers_Dutch, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BR_CivilEngineers_Dutch_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BR_CivilEngineers_Dutch_4x_mask.png")
     { template_128trains_4x(0,0) }
 
+// basic sprites
+spriteset(spriteset_BR37_BR_ScotRail, "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BR_ScotRail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_1x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BR_ScotRail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_2x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR37_BR_ScotRail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_4x_32bpp.png", "gfx\Locomotive_Diesel\BR37\BR37_BR_ScotRail_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+
 // FX effects
 
 switch(FEAT_TRAINS, SELF, sw_FX_BR37_Diesel, position_in_vehid_chain % 3) {
@@ -281,15 +295,16 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR37, cargo_subtype) {
     6: spriteset_BR37_BRBlue_LargeLogo;
     7: spriteset_BR37_BR_Intercity;
     8: spriteset_BR37_BR_RegionalRailways;
-    9: spriteset_BR37_Railfreight;
-    10: spriteset_BR37_Railfreight_RedStripe;
-    11: spriteset_BR37_Railfreight_TripleGrey;
-    12: spriteset_BR37_Railfreight_Coal;
-    13: spriteset_BR37_Railfreight_Distribution;
-    14: spriteset_BR37_Railfreight_Metal;
-    15: spriteset_BR37_Railfreight_Petroleum;
-    16: spriteset_BR37_BR_DepartmentalGrey;
-    17: spriteset_BR37_BR_CivilEngineers_Dutch;
+    9: spriteset_BR37_BR_ScotRail;
+    10: spriteset_BR37_Railfreight;
+    11: spriteset_BR37_Railfreight_RedStripe;
+    12: spriteset_BR37_Railfreight_TripleGrey;
+    13: spriteset_BR37_Railfreight_Coal;
+    14: spriteset_BR37_Railfreight_Distribution;
+    15: spriteset_BR37_Railfreight_Metal;
+    16: spriteset_BR37_Railfreight_Petroleum;
+    17: spriteset_BR37_BR_DepartmentalGrey;
+    18: spriteset_BR37_BR_CivilEngineers_Dutch;
 }
 
 // livery name refit switch
@@ -303,15 +318,16 @@ switch(FEAT_TRAINS, SELF, sw_BR37_cargo_subtype_text, cargo_subtype){
     6:  return string(str_BRLLogo);
     7:  return string(str_BRInterCity);
     8:  return string(str_Regional);
-    9:  return string(str_RailfreightGrey);
-    10: return string(str_RailfreightGrey_RedStripe);
-    11: return string(str_Railfreight3Grey);
-    12: return string(str_RFCoal);
-    13: return string(str_RFDistribution);
-    14: return string(str_RFMetal);
-    15: return string(str_RFPetrol);
-    16: return string(str_DeptGrey);
-    17: return string(str_CivilDutch);
+    9:  return string(str_BRScotRail);
+    10: return string(str_RailfreightGrey);
+    11: return string(str_RailfreightGrey_RedStripe);
+    12: return string(str_Railfreight3Grey);
+    13: return string(str_RFCoal);
+    14: return string(str_RFDistribution);
+    15: return string(str_RFMetal);
+    16: return string(str_RFPetrol);
+    17: return string(str_DeptGrey);
+    18: return string(str_CivilDutch);
        return CB_RESULT_NO_TEXT;
 }
 
