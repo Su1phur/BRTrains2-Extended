@@ -1,0 +1,51 @@
+// basic sprites
+spriteset(spriteset_GCR_4000gal_LNER_Black, "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_1x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_2x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_4x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_LNER_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GCR_4000gal_GCR_Black, "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_GCR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_1x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_GCR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_2x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_GCR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_4x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_GCR_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GCR_4000gal_BR_Black_Late_Crest, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_BR_Black_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_1x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_BR_Black_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_2x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_BR_Black_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_4x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Late_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GCR_4000gal_BR_Black_Early_Emblem, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_BR_Black_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_1x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_2x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_4000gal_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_4x_32bpp.png", "gfx\Tender\GCR_4000gal\\GCR_4000gal_BR_Black_Early_Emblem_4x_mask.png")
+    { template_58trains_4x(0,0) }

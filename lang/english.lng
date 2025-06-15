@@ -367,6 +367,10 @@ STR_NAME_LNER_A4                    :LNER Gresley Class A4
 str_LNER_A4_usage                   :Express Passenger
 str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
 
+STR_NAME_LNER_O1                    :LNER Thompson Class O1
+str_LNER_O1_usage                   :Heavy Freight
+str_LNER_O1_liveries                :LNER Black, BR Black
+
 STR_NAME_LMSBigBertha			    :MR Fowler Lickey Banker 0-10-0 "Big Bertha"
 str_LMSBigBertha_usage		        :Banking
 str_LMSBigBertha_eos			    :1919-1956
