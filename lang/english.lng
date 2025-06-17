@@ -308,6 +308,15 @@ str_LSWR_AdamsRadial_usage		    :Suburban Passenger
 str_LSWR_AdamsRadial_eos		    :1882-1961
 str_LSWR_AdamsRadial_liveries	    :LSWR Sage Green
 
+STR_NAME_GCR_8K                     :GCR Robinson Class 8K
+STR_NAME_GWR_3000                   :GWR 3000 Class
+STR_NAME_GCR_8K_LNER                :LNER Robinson Class O4
+STR_NAME_LNER_O4_8                  :LNER Robinson Class O4/8
+str_GCR_8K_usage                    :Heavy Freight
+str_GCR_8K_liveries                 :GCR Black, LNER Black, BR Black
+str_GWR_3000_liveries               :GWR Black, GWR Green, BR Black
+str_LNER_O4_8_liveries              :LNER Black, BR Black
+
 STR_NAME_GWR_5700   				:GWR Collett 5700 Class 0-6-0PT
 str_GWR_5700_usage			   	    :Freight, Shunting
 STR_NAME_GWR_6700   				:GWR Collett 6700 Class 0-6-0PT
@@ -1775,6 +1784,8 @@ str_GERBlack					: (GER - Black)
 str_GMPTE						: (GMPTE)
 str_GC							: (Grand Central)
 str_GCLined						: (Grand Central - Lined)
+str_GCRBlack                    : (GCR - Black)
+str_GCRLinedBlack               : (GCR - Lined Black)
 str_GlasgowCorporation          : (Glasgow Corporation)
 str_GoCoop                      : (Go Coperative)
 str_GNER						: (Great North Eastern Railway)

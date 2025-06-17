@@ -1,0 +1,595 @@
+// Anim_sprites
+spriteset(spriteset_GCR_8K_Anim1, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+spriteset(spriteset_GCR_8K_Anim2, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+spriteset(spriteset_GCR_8K_Anim3, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+spriteset(spriteset_GCR_8K_Anim4, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+spriteset(spriteset_GCR_8K_Anim_purchase, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch (FEAT_TRAINS, SELF, sw_Animation_GCR_8K, motion_counter % 4) {
+    0: spriteset_GCR_8K_Anim1;
+    1: spriteset_GCR_8K_Anim2;
+    2: spriteset_GCR_8K_Anim3;
+    3: spriteset_GCR_8K_Anim4;
+}
+// basic sprites
+spriteset(spriteset_GCR_8K_BR_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GCR_8K_GCR_Lined_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GCR_8K_GCR_Plain_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+    
+// basic sprites
+spriteset(spriteset_GCR_8K_LNER_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_GCR_8K_GCR_Lined_Black_purchase, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_GCR_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_GCR_8K_GCR_Lined_Black_purchase;
+    1: spriteset_GCR_8K_Anim_purchase; }
+
+// purchase sprite
+spriteset(spriteset_GCR_8K_LNER_Black_purchase, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GCR_8K_LNER_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_LNER_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_GCR_8K_LNER_Black_purchase;
+    1: spriteset_GCR_8K_Anim_purchase; } 
+
+// basic sprites
+spriteset(spriteset_GWR_3000_GWR_Black, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GWR_3000_GWR_Green, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+
+
+// purchase sprite
+spriteset(spriteset_GWR_3000_GWR_Green_purchase, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_3000_GWR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3000_GWR_Green_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_GWR_3000_GWR_Green_purchase;
+    1: spriteset_GCR_8K_Anim_purchase; }
+
+// basic sprites
+spriteset(spriteset_LNER_O4_8_BR_Black, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_LNER_O4_8_LNER_Black, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+    
+// purchase sprite
+spriteset(spriteset_LNER_O4_8_LNER_Black_purchase, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_O4_8_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_LNER_O4_8_LNER_Black_purchase;
+    1: spriteset_GCR_8K_Anim_purchase;
+}
+
+// purchase year switch
+switch(FEAT_TRAINS, PARENT, sw_GCR_8K_purchase_sprite, current_year) {
+    1911..1923: sw_spritestack_GCR_8K_GCR_purchase;
+        sw_spritestack_GCR_8K_LNER_purchase;
+}
+
+// year name switch
+switch(FEAT_TRAINS, PARENT, sw_GCR_8K_name, current_year) {
+    1911..1923: string(STR_NAME_GCR_8K);
+        string(STR_NAME_GCR_8K_LNER);
+}
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_GCR_8K_Steam, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+// Animation sprite stacking
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_BR_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GCR_8K_BR_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_GCR_Lined_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GCR_8K_GCR_Lined_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_GCR_Plain_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GCR_8K_GCR_Plain_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_LNER_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GCR_8K_LNER_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3000_GWR_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GWR_3000_GWR_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3000_GWR_Green, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_GWR_3000_GWR_Green;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_O4_8_BR_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LNER_O4_8_BR_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_O4_8_LNER_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LNER_O4_8_LNER_Black;
+    1: return sw_Animation_GCR_8K;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GCR_8K_Engine, cargo_subtype) {
+    0: sw_spritestack_GCR_8K_GCR_Lined_Black;
+    1: sw_spritestack_GCR_8K_GCR_Plain_Black;
+    2: sw_spritestack_GCR_8K_LNER_Black;
+    3: sw_spritestack_GCR_8K_BR_Black;
+    4: sw_spritestack_GCR_8K_BR_Black;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_GCR_8K_Tender, cargo_subtype) {
+    0: spriteset_GCR_4000gal_GCR_Lined_Black;
+    1: spriteset_GCR_4000gal_GCR_Plain_Black;
+    2: spriteset_GCR_4000gal_LNER_Black;
+    3: spriteset_GCR_4000gal_BR_Black_Early_Emblem;
+    4: spriteset_GCR_4000gal_BR_Black_Late_Crest;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GCR_8K_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_GCRLinedBlack);
+    1:  return string(str_GCRBlack);
+    2:  return string(str_LNERBlack);
+    3:  return string(str_BRBlack_Early);
+    4:  return string(str_BRBlack_Late);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_GCR_8K, position_in_articulated_veh % 2) {
+	0: return sw_livery_GCR_8K_Engine;
+	1: return sw_livery_GCR_8K_Tender;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_GCR_8K, position_in_articulated_veh % 2) {
+	0: 7;
+	1: 5;
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_GCR_8K, param_max_speed) {
+    0: 40; // operational speed
+    1: 60; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_GCR_8K, extra_callback_info1) {
+	1: return item_GCR_8K;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GCR_8K, 6350) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GCR_8K);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1911,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          40 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2025 hp;
+        weight:                         110 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.2;
+        tractive_effort_coefficient:    0.13;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_GCR_8K;
+        visual_effect_and_powered:      sw_FX_GCR_8K_Steam;
+        purchase:                       sw_GCR_8K_purchase_sprite;
+        sound_effect:                   sw_steam_sound;
+
+        // internal code
+        name:                           sw_GCR_8K_name;
+        length:                         sw_length_GCR_8K;
+        articulated_part:               sw_articulated_GCR_8K;
+        speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(60));
+        running_cost_factor:            return(GetAdjustedCost(21));
+        cargo_subtype_text:             sw_GCR_8K_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_GCR_8K_usage),
+                                                    string(str_GCR_8K_liveries)));
+    }
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GWR_3000_Engine, cargo_subtype) {
+    0: sw_spritestack_GWR_3000_GWR_Green;
+    1: sw_spritestack_GWR_3000_GWR_Black;
+    2: sw_spritestack_GWR_3000_GWR_Black;
+    3: sw_spritestack_GWR_3000_GWR_Black;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_GWR_3000_Tender, cargo_subtype) {
+    0: spriteset_GCR_4000gal_GWR_Green;
+    1: spriteset_GCR_4000gal_GWR_Black;
+    2: spriteset_GCR_4000gal_BR_Black_Early_Emblem;
+    3: spriteset_GCR_4000gal_BR_Black_Late_Crest;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GWR_3000_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_GWRGreen);
+    1:  return string(str_GWRBlack);
+    2:  return string(str_BRBlack_Early);
+    3:  return string(str_BRBlack_Late);
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_GWR_3000, position_in_articulated_veh % 2) {
+	0: return sw_livery_GWR_3000_Engine;
+	1: return sw_livery_GWR_3000_Tender;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_GWR_3000, extra_callback_info1) {
+	1: return item_GWR_3000;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_3000, 300) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_3000);
+        variant_group:                  item_GCR_8K; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1919,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          40 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2050 hp;
+        weight:                         110 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.2;
+        tractive_effort_coefficient:    0.13;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_GWR_3000;
+        visual_effect_and_powered:      sw_FX_GCR_8K_Steam;
+        purchase:                       sw_spritestack_GWR_3000_GWR_Green_purchase;
+        sound_effect:                   sw_steam_sound;
+
+        // internal code
+        length:                         sw_length_GCR_8K;
+        articulated_part:               sw_articulated_GWR_3000;
+        speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(60));
+        running_cost_factor:            return(GetAdjustedCost(22));
+        cargo_subtype_text:             sw_GWR_3000_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_GCR_8K_usage),
+                                                    string(str_GCR_8K_liveries)));
+    }
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_LNER_O4_8_Engine, cargo_subtype) {
+    0: sw_spritestack_LNER_O4_8_LNER_Black;
+    1: sw_spritestack_LNER_O4_8_BR_Black;
+    2: sw_spritestack_LNER_O4_8_BR_Black;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_LNER_O4_8_Tender, cargo_subtype) {
+    0: spriteset_GCR_4000gal_LNER_Black;
+    1: spriteset_GCR_4000gal_BR_Black_Early_Emblem;
+    2: spriteset_GCR_4000gal_BR_Black_Late_Crest;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_LNER_O4_8_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_LNERBlack);
+    1:  return string(str_BRBlack_Early);
+    2:  return string(str_BRBlack_Late);
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_LNER_O4_8, position_in_articulated_veh % 2) {
+	0: return sw_livery_LNER_O4_8_Engine;
+	1: return sw_livery_LNER_O4_8_Tender;
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_LNER_O4_8, extra_callback_info1) {
+	1: return item_LNER_O4_8;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_LNER_O4_8);
+        variant_group:                  item_GCR_8K; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1944,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          40 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2100 hp;
+        weight:                         112 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.2;
+        tractive_effort_coefficient:    0.13;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_LNER_O4_8;
+        visual_effect_and_powered:      sw_FX_GCR_8K_Steam;
+        purchase:                       sw_spritestack_LNER_O4_8_purchase;
+        sound_effect:                   sw_steam_sound;
+
+        // internal code
+        length:                         sw_length_GCR_8K;
+        articulated_part:               sw_articulated_LNER_O4_8;
+        speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    return(GetAdjustedCost(60));
+        running_cost_factor:            return(GetAdjustedCost(22));
+        cargo_subtype_text:             sw_LNER_O4_8_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_GCR_8K_usage),
+                                                    string(str_LNER_O4_8_liveries)));
+    }
+}
