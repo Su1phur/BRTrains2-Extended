@@ -63,8 +63,7 @@ switch (FEAT_TRAINS, SELF, sw_Animation_UNIT, motion_counter % 4) {
     0: spriteset_UNIT_Anim1;
     1: spriteset_UNIT_Anim2;
     2: spriteset_UNIT_Anim3;
-    3: spriteset_UNIT_Anim4;
-}
+    3: spriteset_UNIT_Anim4; }
 
 // load levels
 spriteset(spriteset_UNIT_load_0, "PATH\UNIT_livery_load_0_1x_8bpp.png")
@@ -129,8 +128,7 @@ spriteset(spriteset_UNIT_load_100, "PATH\UNIT_livery_load_100_1x_8bpp.png")
 
 spritegroup spritegroup_UNIT_Load {
     loaded: [spriteset_UNIT_load_0, spriteset_UNIT_load_25, spriteset_UNIT_load_50, spriteset_UNIT_load_75, spriteset_UNIT_load_100];
-    loading: [spriteset_UNIT_load_0, spriteset_UNIT_load_25, spriteset_UNIT_load_50, spriteset_UNIT_load_75, spriteset_UNIT_load_100];
-}
+    loading: [spriteset_UNIT_load_0, spriteset_UNIT_load_25, spriteset_UNIT_load_50, spriteset_UNIT_load_75, spriteset_UNIT_load_100]; }
 
 // basic sprites
 spriteset(spriteset_UNIT_livery, "PATH\UNIT_livery_1x_8bpp.png")
@@ -184,23 +182,21 @@ spriteset(spriteset_UNIT_livery_Loading_REV, "PATH\UNIT_livery_Loading_1x_8bpp.p
 // cargo spritegroup
 spritegroup spritegroup_UNIT_livery {
     loaded: [spriteset_empty, spriteset_UNIT_livery];
-    loading: [spriteset_empty, spriteset_UNIT_livery];}
+    loading: [spriteset_empty, spriteset_UNIT_livery]; }
 
 // loading sprite
 spritegroup spritegroup_UNIT_livery_Loading {  
     loaded: [spriteset_empty];
-    loading: [spriteset_UNIT_livery_Loading];}
+    loading: [spriteset_UNIT_livery_Loading]; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT_livery, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT_livery;
-    1: spritegroup_UNIT_livery_Loading;
-}
+    1: spritegroup_UNIT_livery_Loading; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_UNIT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT;
     1: spritegroup_UNIT_Loading;
-    1: spritegroup_UNIT_Load;
-}
+    1: spritegroup_UNIT_Load; }
 
 // purchase sprite
 spriteset(spriteset_UNIT_livery_purchase, "PATH\UNIT_livery_1x_8bpp.png")
@@ -212,38 +208,32 @@ spriteset(spriteset_UNIT_livery_purchase, "PATH\UNIT_livery_1x_8bpp.png")
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT;
     1: spritegroup_UNIT_Loading;
-    1: spritegroup_UNIT_Load;
-}
+    1: spritegroup_UNIT_Load; }
 
 // FX effects
 
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Diesel, position_in_vehid_chain % 3) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
     1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
-        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
     
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Electric, position_in_vehid_chain % 3) { // front catenary
     0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
-        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
 
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Electric, position_in_vehid_chain % 3) { // middle catenary
     0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
     1: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
-        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);	
-}
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);	 }
 
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Electric, position_in_vehid_chain % 3) { // rear catenary
     0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
     1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-    2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
-}
+    2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER); }
 
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Steam, position_in_vehid_chain % 3) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
-    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
 
 
 // Animation sprite stacking
@@ -426,12 +416,3 @@ item (FEAT_TRAINS, item_UNIT, ) {
     }
 }
 
-switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_O4_8_BR_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-    0: spriteset_LNER_O4_8_BR_Black;
-    1: return sw_Animation_GCR_8K;
-}
-
-switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_O4_8_LNER_Black, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-    0: spriteset_LNER_O4_8_LNER_Black;
-    1: return sw_Animation_GCR_8K;
-}

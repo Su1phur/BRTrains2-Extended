@@ -399,7 +399,7 @@ STR_NAME_LMSBlack5_Cap              :LMS Stanier Class 5 "Black Five" (Caprotti)
 str_LMSBlack5_usage		            :Mixed Traffic
 str_LMSBlack5_liveries			    :LMS Black, BR Plain Black, BR Lined Black
 
-STR_NAME_LMS8F                      :LMS Stanier Class 8F 2-8-0
+STR_NAME_LMS_8F                     :LMS Stanier Class 8F
 str_LMS_8F_usage                    :Heavy Freight
 str_LMS_8F_liveries                 :LMS BLack, BR Transitional Black, BR Black, WD Grey
 
