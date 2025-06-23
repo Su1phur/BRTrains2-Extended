@@ -23,11 +23,9 @@ def check_project_structure(src_directory: Path, gfx_directory: Path,
 
     # Check that the project is properly structured
     if not src_directory.exists():
-        print("\"src\" directory not found.  Aborting")
-        return (False, -1)
+        raise FileNotFoundError("\"src\" directory not found.  Aborting")
     if not gfx_directory.exists():
-        print("\"gfx\" directory not found.  Aborting")
-        return (False, -1)
+        raise FileNotFoundError("\"gfx\" directory not found.  Aborting")
     if not lang_directory.exists():
         print("\"lang\" directory not found.  Assuming hard-coded strings (this is not best practice)")
         has_lang_dir = False
@@ -36,20 +34,18 @@ def check_project_structure(src_directory: Path, gfx_directory: Path,
     for file, error in KeyFiles.items():
         if not src_directory.joinpath(file).exists():
             if file == "grf.pnml" or file == "railtypes.pnml":
-                print(f"{RED}CRITICAL: {error}{RESET}")
-                return (False, -1)
+                raise FileNotFoundError(error)
             else:
                 print(f"{YELLOW}WARNING: {error}{RESET}")
 
     print("Project structure is correct\n")
-    return (has_lang_dir, 0)
+    return has_lang_dir
 
 
 def copy_file(filepath: Path, nml_file: str):
     # If the pnml filepath doesn't exist, exit
     if not filepath.exists():
-        print("The file <%s> does not exist" % str(filepath))
-        return -1
+        raise FileNotFoundError(f"The file <{filepath}> does not exist.")
 
     # Read the pnml file into the internal nml
     with open(str(filepath), "r") as file:
@@ -206,7 +202,6 @@ def run_game(grf_name):
     # Redirect stdout and stderr
     null = open(devnull, "w")
     Popen([executable_path, "-t", "2050", "-g"], cwd=Path(executable_path).parent, stdout=null, stderr=null)
-    null
     return 2
 
 
@@ -219,13 +214,16 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     has_lang_dir = False
 
     # Check if the project is set up properly and we have a lang directory
-    (has_lang_dir, error_code) = check_project_structure(src_directory, gfx_directory, lang_directory)
-    if error_code != 0:
-        return -1
+    has_lang_dir = check_project_structure(src_directory, gfx_directory, lang_directory)
 
     # Add the special files to the internal nml file
     for files in KeyFiles.keys():
-        nml_file = copy_file(src_directory.joinpath(files), nml_file)
+        result = copy_file(src_directory.joinpath(files), nml_file)
+        
+        if result == -1:
+            return -1
+        else:
+            nml_file = result
 
     # Get a list of all the pnml files in src
     file_list = dict()

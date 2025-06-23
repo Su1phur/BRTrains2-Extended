@@ -795,8 +795,7 @@ str_BR1651_liveries				:Network SouthEast, Thames Trains, First Great Western "L
 
 STR_NAME_BR166					:BR Class 166 "Thames Turbo" (3-car)
 str_BR166_usage					:Passenger
-str_BR166_eos					:---
-str_BR166_liveries				:Network SouthEast, Thames Trains, First Great Western "Link", First Great Western "Dynamic Lines", Great Western Railway
+str_BR166_liveries				:Network SouthEast, First Great Western Link, First Great Western, Great Western Railway
 
 STR_NAME_BR168					:BR Class 168 "Clubman" (2-Car)
 str_BR168_usage					:Passenger
@@ -1743,6 +1742,7 @@ str_FGE							: (First Great Eastern)
 str_FGW							: (First Great Western)
 str_FGWFag						: (First Great Western - Fag Packet)
 str_FGWDL						: (First Great Western - Dynamic Lines)
+str_FGWL                        : (First Great Western Link)
 str_fcc							: (First Capital Connect)
 str_FirstGroup					: (First Group)
 str_FirstLink					: (First Link)
@@ -1803,6 +1803,7 @@ str_GTRPride					: (Govia Thameslink - Pride)
 str_Gulf                        : (Gulf)
 str_GNRGreen					: (GNR - Green)
 str_GNRTeak                     : (GNR - Teak)
+str_GWR                         : (GWR)
 str_GWRBlack                    : (GWR - Black)
 str_GWRGreen                    : (GWR - Green)
 str_GWRGreenChrome				: (GWR - Chrome Green)

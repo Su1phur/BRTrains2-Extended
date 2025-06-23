@@ -360,7 +360,7 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         dual_headed:                    0;
         air_drag_coefficient:           0.06;
-        tractive_effort_coefficient:    0.16;
+        tractive_effort_coefficient:    0.13;
         length:                         8;
     }
 
