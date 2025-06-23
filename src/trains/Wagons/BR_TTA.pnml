@@ -1,0 +1,226 @@
+// basic sprites
+spriteset(spriteset_BR_TTA_Black, "gfx\Wagons\BR_TTA\BR_TTA_Black_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Black_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Black_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Black_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Black_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Black_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Black_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Blue, "gfx\Wagons\BR_TTA\BR_TTA_Blue_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Blue_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Blue_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Blue_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Blue_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Blue_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Blue_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Green, "gfx\Wagons\BR_TTA\BR_TTA_Green_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Green_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Green_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Green_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Green_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Green_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Green_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Grey, "gfx\Wagons\BR_TTA\BR_TTA_Grey_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Grey_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Grey_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Grey_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Grey_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Grey_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Grey_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Private_Black, "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Black_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Private_Blue, "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Blue_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Private_Green, "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Green_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Private_Grey, "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Grey_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+
+// basic sprites
+spriteset(spriteset_BR_TTA_Private_Red, "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_1x_mask.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_2x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_2x_mask.png")
+    { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_Private_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_4x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Private_Red_4x_mask.png")
+    { template_68trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_TTA_purchase, "gfx\Wagons\BR_TTA\BR_TTA_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_TTA_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TTA\BR_TTA_Grey_1x_32bpp.png", "gfx\Wagons\BR_TTA\BR_TTA_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// Randomizer
+switch(FEAT_TRAINS, SELF, random_choose_BR_TTA, switch_alternative_var_random_bits(1, 4)) {
+    0..1: spriteset_BR_TTA_Black;
+    2: spriteset_BR_TTA_Private_Black;
+    3: spriteset_BR_TTA_Blue;
+    4: spriteset_BR_TTA_Private_Blue;
+    5: spriteset_BR_TTA_Green;
+    6: spriteset_BR_TTA_Private_Green;
+    7: spriteset_BR_TTA_Private_Grey;
+    8..11: spriteset_BR_TTA_Private_Red;
+    12: spriteset_BR_TTA_Private_Black;
+    13: spriteset_BR_TTA_Private_Green;
+        spriteset_BR_TTA_Grey;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_TTA, cargo_subtype) {
+    0: random_choose_BR_TTA;
+    1: spriteset_BR_TTA_Black;
+    2: spriteset_BR_TTA_Blue;
+    3: spriteset_BR_TTA_Green;
+    4: spriteset_BR_TTA_Grey;
+    5: spriteset_BR_TTA_Private_Black;
+    6: spriteset_BR_TTA_Private_Blue;
+    7: spriteset_BR_TTA_Private_Green;
+    8: spriteset_BR_TTA_Private_Grey;
+    9: spriteset_BR_TTA_Private_Red;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_TTA_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Black));
+    2:  return string(STR_LIVERY_SHORT, string(str_col_Blue));
+    3:  return string(STR_LIVERY_SHORT, string(str_col_Green));
+    4:  return string(STR_LIVERY_SHORT, string(str_col_Grey));
+    5:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Black));
+    6:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Blue));
+    7:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Green));
+    8:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Grey));
+    9:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Red));
+       return CB_RESULT_NO_TEXT;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_TTA, ) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_TTA);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1965,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:        bitmask(CC_LIQUID, CC_HAZARDOUS);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 45;
+        loading_speed:					5;
+        cost_factor: 					108;					
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         17 ton;
+        dual_headed:                    0;
+        length:                         6;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR_TTA;
+        purchase:                       spriteset_BR_TTA_purchase;
+
+        // internal code
+        cost_factor:                    return(GetAdjustedCost(13));
+        running_cost_factor:            return(GetAdjustedCost(18));
+        cargo_subtype_text:             sw_BR_TTA_cargo_subtype_text; 
+        // power:                          sw_power_BR_TTA;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_TTA_liveries)));
+    }
+}
+
