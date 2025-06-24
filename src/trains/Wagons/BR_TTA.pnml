@@ -170,7 +170,7 @@ switch(FEAT_TRAINS, SELF, sw_BR_TTA_cargo_subtype_text, cargo_subtype){
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_TTA, ) {
+item (FEAT_TRAINS, item_BR_TTA, 250) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_TTA);
@@ -187,9 +187,8 @@ item (FEAT_TRAINS, item_BR_TTA, ) {
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_disallow_refit:            [LVST];
-        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
-        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 45;
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 45 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;					
         running_cost_base:				RUNNING_COST_DIESEL;				

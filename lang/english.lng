@@ -1365,8 +1365,11 @@ str_BRJIA_Polybulk_usage        :Bulk Cargos
 str_BRJIA_Polybulk_eos          :---
 str_BRJIA_Polybulk_liveries     :Traffic Service Limited Polybulk, Polybulk, Grainflow, Tiger Nacco Grey
 
-STR_NAME_BR_TTA                 :BR TTA/TTV 45t GLW Tank Wagon
+STR_NAME_BR_TTA                 :BR TTA/TTV 45t Tank Wagon
 str_BR_TTA_liveries             :Black, Blue, Green, Grey, Private Owners
+
+STR_NAME_BR_TEA                 :BR TEA 102t Tank wagon
+str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
 
 # # # # # # # # 
 # # COACHES # #

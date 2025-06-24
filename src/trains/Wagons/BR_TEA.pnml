@@ -1,0 +1,267 @@
+// basic sprites
+spriteset(spriteset_BR_TEA_Black, "gfx\Wagons\BR_TEA\BR_TEA_Black_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Black_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Black_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Black_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Black_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Black_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Black_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Blue, "gfx\Wagons\BR_TEA\BR_TEA_Blue_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Blue_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Blue_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Blue_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Blue_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Blue_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Blue_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Green, "gfx\Wagons\BR_TEA\BR_TEA_Green_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Green_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Green_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Green_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Green_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Green_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Green_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Grey, "gfx\Wagons\BR_TEA\BR_TEA_Grey_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Grey_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Grey_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Grey_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Grey_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Grey_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Grey_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Red, "gfx\Wagons\BR_TEA\BR_TEA_Red_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Red_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Red_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Red_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Red_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Red_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Red_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Private_Black, "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Black_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Private_Blue, "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Blue_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Private_Green, "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Green_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Private_Grey, "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Grey_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_BR_TEA_Private_Red, "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_2x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_Private_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_4x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Private_Red_4x_mask.png")
+    { template_118trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_TEA_purchase, "gfx\Wagons\BR_TEA\BR_TEA_Black_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_TEA_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_TEA\BR_TEA_Black_1x_32bpp.png", "gfx\Wagons\BR_TEA\BR_TEA_Black_1x_mask.png")
+    { template_purchase(0,0) }
+
+// Randomizer
+switch(FEAT_TRAINS, SELF, random_choose_BR_TEA, switch_alternative_var_random_bits(1, 4)) {
+    0..2: spriteset_BR_TEA_Grey;
+    3..4: spriteset_BR_TEA_Private_Black;
+    5:  spriteset_BR_TEA_Blue;
+    6:  spriteset_BR_TEA_Green;
+    7..8: spriteset_BR_TEA_Private_Green;
+    9:  spriteset_BR_TEA_Grey;
+    10: spriteset_BR_TEA_Red;
+    11..12: spriteset_BR_TEA_Private_Grey;
+    13: spriteset_BR_TEA_Private_Red;
+    14: spriteset_BR_TEA_Private_Blue;
+        spriteset_BR_TEA_Black;
+}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_TEA, cargo_subtype) {
+    0: random_choose_BR_TEA;
+    1: spriteset_BR_TEA_Black;
+    2: spriteset_BR_TEA_Blue;
+    3: spriteset_BR_TEA_Green;
+    4: spriteset_BR_TEA_Grey;
+    5: spriteset_BR_TEA_Red;
+    6: spriteset_BR_TEA_Private_Black;
+    7: spriteset_BR_TEA_Private_Blue;
+    8: spriteset_BR_TEA_Private_Green;
+    9: spriteset_BR_TEA_Private_Grey;
+    10: spriteset_BR_TEA_Private_Red;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_TEA_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Black));
+    2:  return string(STR_LIVERY_SHORT, string(str_col_Blue));
+    3:  return string(STR_LIVERY_SHORT, string(str_col_Green));
+    4:  return string(STR_LIVERY_SHORT, string(str_col_Grey));
+    5:  return string(STR_LIVERY_SHORT, string(str_col_Red));
+    6:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Black));
+    7:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Blue));
+    8:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Green));
+    9:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Grey));
+    10: return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Red));
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_TEA, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR_TEA;
+	2: spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR_TEA, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 3;
+	2: 4;
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR_TEA, param_max_speed) {
+    0: 60; // operational speed
+    1: 80; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_TEA, extra_callback_info1) {
+	1: return item_BR_TEA;
+	2: return item_BR_TEA;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR_TEA, 251) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_TEA);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1970,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_LIQUID, CC_HAZARDOUS);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [MAIL, GOOD, VALU];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 34 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;				
+        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         27 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_TEA;
+        purchase:                       spriteset_BR_TEA_purchase;
+
+        // internal code
+        length:                         sw_length_BR_TEA;
+        articulated_part:               sw_articulated_BR_TEA; 
+        speed:                          sw_speed_BR_TEA() * 1609 / 1000;
+        cost_factor:                    return(GetAdjustedCost(13));
+        running_cost_factor:            return(GetAdjustedCost(18));
+        cargo_subtype_text:             sw_BR_TEA_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_TEA_liveries)));
+    }
+}
