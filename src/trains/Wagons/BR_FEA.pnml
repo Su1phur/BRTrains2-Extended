@@ -118,7 +118,8 @@ random_switch(FEAT_TRAINS, SELF, sw_random_orient_Cont_decider_BR_FEA_Dry, bitma
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_FEA, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-	1: return sw_random_orient_Cont_decider_BR_FEA_Dry;
+	// 1: return sw_random_orient_Cont_decider_BR_FEA_Dry;
+    1: sw_loadstack_BR_FEA_direction;
 	2: spriteset_empty;
 }
 
