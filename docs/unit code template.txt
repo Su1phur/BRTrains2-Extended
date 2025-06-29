@@ -179,11 +179,6 @@ spriteset(spriteset_UNIT_livery_Loading_REV, "PATH\UNIT_livery_Loading_1x_8bpp.p
     alternative_sprites(spriteset_UNIT_livery_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "PATH\UNIT_livery_Loading_4x_32bpp.png", "PATH\UNIT_livery_Loading_4x_mask.png")
     { template_trains_REV_4x(0,0) }
 
-// cargo spritegroup
-spritegroup spritegroup_UNIT_livery {
-    loaded: [spriteset_empty, spriteset_UNIT_livery];
-    loading: [spriteset_empty, spriteset_UNIT_livery]; }
-
 // loading sprite
 spritegroup spritegroup_UNIT_livery_Loading {  
     loaded: [spriteset_empty];
@@ -204,6 +199,15 @@ spriteset(spriteset_UNIT_livery_purchase, "PATH\UNIT_livery_1x_8bpp.png")
 
     alternative_sprites(spriteset_UNIT_livery_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_1x_32bpp.png", "PATH\UNIT_livery_1x_mask.png")
     { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, PARENT, sw_UNIT_livery_purchase_sprite, current_year) {
+    1800..1900: ;
+    1901..1924: ;
+    1924..1948: ;
+    1948..1968: ;
+    1969..1998: ;
+    
+}
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_UNIT;
@@ -346,8 +350,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // cargo_allow_refit:               [PASS, GOOD];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [LVST];
-        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
-        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
         // cargo_capacity:                 * param_freight;
         loading_speed:					5;
