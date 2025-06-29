@@ -516,7 +516,7 @@ spriteset(spriteset_BR166_DMCL_GWR_purchase, "gfx\DMU\BR166\BR166_DMCL_GWR_1x_8b
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_BR166_purchase_sprite, current_year) {
-    1992..1996: spriteset_BR166_DMCL_NSE_purchase;
+    1992..1997: spriteset_BR166_DMCL_NSE_purchase;
     1998..2014: spriteset_BR166_DMCL_FGW_purchase;
         spriteset_BR166_DMCL_GWR_purchase; }
 

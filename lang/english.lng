@@ -1209,8 +1209,8 @@ str_BR460_liveries				:Gatwick Express
 STR_NAME_BR465					:BR Class 465 "Networker"
 STR_NAME_BR466					:BR Class 466 "Networker"
 str_BR465_usage					:Passenger
-str_BR465_eos					:---
 str_BR465_liveries				:Network SouthEast, Connex, Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Continental Airlines
+str_BR466_liveries              :NSE, Connex, Southeastern
 
 STR_NAME_BR480					:BR Class 480 "8-VAB"
 str_BR480_usage					:Passenger

@@ -373,10 +373,10 @@ switch(FEAT_TRAINS, SELF, random_choose_reverse_LNER_BT_T_LNER_Teak, switch_alte
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_BT_T, cargo_subtype) {
-    // 0: random_choose_reverse_LNER_BT_T_LNER_Teak;
-    // 1: random_choose_reverse_LNER_BT_T_BR_Maroon;
-    0:  sw_graphics_LNER_BT_T_LNER_Teak;
-    1:  sw_graphics_LNER_BT_T_BR_Maroon;
+    0: random_choose_reverse_LNER_BT_T_LNER_Teak;
+    1: random_choose_reverse_LNER_BT_T_BR_Maroon;
+    // 0:  sw_graphics_LNER_BT_T_LNER_Teak;
+    // 1:  sw_graphics_LNER_BT_T_BR_Maroon;
 }
 
 
