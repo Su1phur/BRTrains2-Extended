@@ -121,8 +121,8 @@ switch(FEAT_TRAINS, SELF, sw_length_BR_Mk1_BSO, position_in_articulated_veh % 3)
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk1_BSO, position_in_articulated_veh % 3) {
     0: 38 * param_pax;
     1: 1 * param_pax;
-    2: 72;
-} // total 39 pax,
+    2: 36 * param_freight;
+} // total 39 pax, 36 mail
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk1_BSO, extra_callback_info1) {
@@ -132,7 +132,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk1_BSO, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_Mk1_BSO, 707) { // DIagram 183, 184 BR Mk1 BSO
+item (FEAT_TRAINS, item_BR_Mk1_BSO, 707) { // Diagram 183, 184 BR Mk1 BSO
     property {
         // common properties
         name:                           string(STR_NAME_BR_Mk1_BSO);
@@ -179,8 +179,8 @@ item (FEAT_TRAINS, item_BR_Mk1_BSO, 707) { // DIagram 183, 184 BR Mk1 BSO
         articulated_part:               sw_articulated_BR_Mk1_BSO;
         purchase_cargo_capacity:        return (19 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_BSO;
-        cost_factor:                    return(GetAdjustedCost(49));
-        running_cost_factor:            return(GetAdjustedCost(17));
+        cost_factor:                    35;
+        running_cost_factor:            1331;
         cargo_subtype_text:             sw_BR_Mk1_BSO_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

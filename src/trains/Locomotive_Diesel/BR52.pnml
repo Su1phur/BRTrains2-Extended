@@ -251,7 +251,7 @@ item (FEAT_TRAINS, item_BR52, 5200) { // TOPS Number range 52000 - even though t
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -281,8 +281,8 @@ item (FEAT_TRAINS, item_BR52, 5200) { // TOPS Number range 52000 - even though t
         speed:                          sw_speed_BR52() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(36));
-        running_cost_factor:            return(GetAdjustedCost(39));
+        cost_factor:                    113;
+        running_cost_factor:            7460;
         cargo_subtype_text:             sw_BR52_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

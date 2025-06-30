@@ -11,7 +11,7 @@ item(FEAT_TRAINS, acid_tank_car_ng_pony_gen_2A_variant_15, 25105) {
         weight:                         4ton;
         tractive_effort_coefficient:    0.3;
         cost_factor:                    0; // use the CB to set this, the prop is capped to max 255, cb is 32k
-        running_cost_base:              RUNNING_COST_DIESEL;
+        running_cost_base:              RUNNING_COST_STEAM;
         running_cost_factor:            0; // use the CB to set this, the prop is capped to max 255, cb is 32k
         model_life:                     60;
         retire_early:                   -10;

@@ -269,8 +269,8 @@ item (FEAT_TRAINS, item_LNER_21t_Hopper, 951) {
         purchase:                       spriteset_LNER_21t_Hopper_Grey_purchase;
         
         // internal code
-        cost_factor:                    return(GetAdjustedCost(10));
-        running_cost_factor:            return(GetAdjustedCost(16));
+        cost_factor:                    15;
+        running_cost_factor:            543;
         cargo_subtype_text:             sw_LNER_21t_Hopper_cargo_subtype_text; 
         // colour_mapping:                 return PALETTE_CC_FIRST;
         colour_mapping:                 switch_generic_recolour;

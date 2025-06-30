@@ -82,7 +82,7 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 502) {
         cargo_capacity:                 20 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;	
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -101,8 +101,8 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 502) {
         purchase:                       spriteset_BR_Conflat_P_purchase;
 
         // internal code
-        cost_factor:                    return(GetAdjustedCost(49));
-        running_cost_factor:            return(GetAdjustedCost(17));
+        cost_factor:                    20;
+        running_cost_factor:            850;
         cargo_subtype_text:             sw_BR_Conflat_P_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

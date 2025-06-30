@@ -258,8 +258,8 @@ item (FEAT_TRAINS, item_LSWR_N15, 3072) {
         articulated_part:               sw_articulated_LSWR_N15;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(34));
-        running_cost_factor:            return(GetAdjustedCost(27));
+        cost_factor:                    73;
+        running_cost_factor:            4856;
         cargo_subtype_text:             sw_LSWR_N15_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

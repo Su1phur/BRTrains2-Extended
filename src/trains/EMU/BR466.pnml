@@ -322,8 +322,8 @@ item (FEAT_TRAINS, item_BR466, 4660) {
         articulated_part:               sw_articulated_BR466;
         purchase_cargo_capacity:        return (28 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR466;
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(30));
+        cost_factor:                    193;
+        running_cost_factor:            5261;
         cargo_subtype_text:             sw_BR466_cargo_subtype_text; 
         // power:                          sw_power_BR466;
         colour_mapping:                 return PALETTE_CC_FIRST;

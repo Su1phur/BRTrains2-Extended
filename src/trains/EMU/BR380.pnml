@@ -288,7 +288,7 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;				
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -316,8 +316,8 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
         articulated_part:               sw_articulated_BR380_0;
         purchase_cargo_capacity:        return (21 * param_pax);
         cargo_capacity:                 sw_capacity_BR380_0;
-        cost_factor:                    return(GetAdjustedCost(70));
-        running_cost_factor:            return(GetAdjustedCost(70));
+        cost_factor:                    179;
+        running_cost_factor:            6675;
         cargo_subtype_text:             sw_BR380_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -347,7 +347,7 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;				
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -375,8 +375,8 @@ item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
         articulated_part:               sw_articulated_BR380_1;
         purchase_cargo_capacity:        return (22 * param_pax);
         cargo_capacity:                 sw_capacity_BR380_1;
-        cost_factor:                    return(GetAdjustedCost(68));
-        running_cost_factor:            return(GetAdjustedCost(68));
+        cost_factor:                    212;
+        running_cost_factor:            6712;
         cargo_subtype_text:             sw_BR380_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

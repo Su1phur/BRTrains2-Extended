@@ -450,7 +450,7 @@ item (FEAT_TRAINS, item_LNER_BT_T, 901) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -472,8 +472,8 @@ item (FEAT_TRAINS, item_LNER_BT_T, 901) {
         articulated_part:               sw_articulated_LNER_BT_T;
         purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_LNER_BT_T;
-        cost_factor:                    return(GetAdjustedCost(63));
-        running_cost_factor:            return(GetAdjustedCost(16));
+        cost_factor:                    67;
+        running_cost_factor:            960;
         cargo_subtype_text:             sw_LNER_BT_T_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

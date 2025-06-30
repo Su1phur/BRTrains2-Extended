@@ -161,8 +161,8 @@ item (FEAT_TRAINS, item_LMS_Rebuilt_Jubilee, 4570) { // BR Number range 45735, 4
         articulated_part:               sw_articulated_LMS_Rebuilt_Jubilee;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(40));
-        running_cost_factor:            return(GetAdjustedCost(29));
+        cost_factor:                    100;
+        running_cost_factor:            6348;
         cargo_subtype_text:             sw_LMS_Jubilee_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

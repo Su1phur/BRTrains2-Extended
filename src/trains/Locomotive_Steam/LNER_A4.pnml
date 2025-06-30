@@ -405,8 +405,8 @@ item (FEAT_TRAINS, item_LNER_A4, 6004) {
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_LNER_A4;
-        cost_factor:                    return(GetAdjustedCost(40));
-        running_cost_factor:            return(GetAdjustedCost(33));
+        cost_factor:                    66;
+        running_cost_factor:            3803;
         cargo_subtype_text:             sw_LNER_A4_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

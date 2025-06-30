@@ -20,7 +20,7 @@ item (FEAT_TRAINS, item_BR_Mk1_B, 702) {
         cargo_capacity:                 36 * param_freight;
         loading_speed:					15;
         cost_factor: 					0;			
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			0;
 
         //specific properties

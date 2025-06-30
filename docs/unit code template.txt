@@ -356,7 +356,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         loading_speed:					5;
         cost_factor: 					108;
         // running_cost_base:			    RUNNING_COST_STEAM;						
-        // running_cost_base:				RUNNING_COST_DIESEL;				
+        // running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties

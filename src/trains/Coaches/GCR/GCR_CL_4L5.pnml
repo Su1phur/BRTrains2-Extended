@@ -129,8 +129,8 @@ item (FEAT_TRAINS, item_GCR_CL_4L5, 902) {
         articulated_part:               sw_articulated_GCR_CL_4L5; 
         purchase_cargo_capacity:        return ( 13 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_GCR_CL_4L5;
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(15));
+        cost_factor:                    22;
+        running_cost_factor:            609;
         cargo_subtype_text:             sw_GCR_CL_4L5_cargo_subtype_text; 
         // power:                          sw_power_GCR_CL_4L5;
         colour_mapping:                 return PALETTE_CC_FIRST;

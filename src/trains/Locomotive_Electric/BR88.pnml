@@ -133,7 +133,7 @@ item (FEAT_TRAINS, item_BR88, 8800) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -162,8 +162,8 @@ item (FEAT_TRAINS, item_BR88, 8800) {
         articulated_part:               sw_articulated_BR88;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(76));
-        running_cost_factor:            return(GetAdjustedCost(20));
+        cost_factor:                    165;
+        running_cost_factor:            11142;
         cargo_subtype_text:             sw_BR88_cargo_subtype_text; 
         power:                          sw_power_BR88;
         colour_mapping:                 return PALETTE_CC_FIRST;

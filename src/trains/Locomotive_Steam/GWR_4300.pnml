@@ -253,8 +253,8 @@ item (FEAT_TRAINS, item_GWR_4300, 430) {
         articulated_part:               sw_articulated_GWR_4300;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(28));
-        running_cost_factor:            return(GetAdjustedCost(18));
+        cost_factor:                    52;
+        running_cost_factor:            3559;
         cargo_subtype_text:             sw_GWR_4300_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

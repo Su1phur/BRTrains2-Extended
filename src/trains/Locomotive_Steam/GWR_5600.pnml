@@ -233,8 +233,8 @@ item (FEAT_TRAINS, item_GWR_5600, 560) {
         // internal code
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(15));
-        running_cost_factor:            return(GetAdjustedCost(26));
+        cost_factor:                    62;
+        running_cost_factor:            4144;
         cargo_subtype_text:             sw_GWR_5600_cargo_subtype_text; 
         // power:                          sw_power_GWR_5600;
         colour_mapping:                 return PALETTE_CC_FIRST;

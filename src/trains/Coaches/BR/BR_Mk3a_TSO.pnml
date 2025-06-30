@@ -130,7 +130,7 @@ item (FEAT_TRAINS, item_BR_Mk3a_TSO, 773) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;			
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -153,8 +153,8 @@ item (FEAT_TRAINS, item_BR_Mk3a_TSO, 773) {
         articulated_part:               sw_articulated_BR_Mk3a_TSO;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk3a_TSO;
-        cost_factor:                    return(GetAdjustedCost(52));
-        running_cost_factor:            return(GetAdjustedCost(17));
+        cost_factor:                    60;
+        running_cost_factor:            2055;
         cargo_subtype_text:             sw_BR_Mk3a_TSO_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

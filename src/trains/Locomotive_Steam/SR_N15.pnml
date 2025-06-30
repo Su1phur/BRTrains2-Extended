@@ -159,8 +159,8 @@ item (FEAT_TRAINS, item_SR_N15, 3040) {
         articulated_part:               sw_articulated_SR_N15;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(36));
-        running_cost_factor:            return(GetAdjustedCost(27));
+        cost_factor:                    85;
+        running_cost_factor:            5334;
         cargo_subtype_text:             sw_SR_N15_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

@@ -71,7 +71,7 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton containe
         cargo_capacity:                 13 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;			
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -96,8 +96,8 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton containe
         // cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_BR_Conflat_A;
-        cost_factor:                    return(GetAdjustedCost(30));
-        running_cost_factor:            return(GetAdjustedCost(17));
+        cost_factor:                    14;
+        running_cost_factor:            646;
         cargo_subtype_text:             sw_BR_Conflat_A_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

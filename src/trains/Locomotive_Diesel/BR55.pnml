@@ -140,7 +140,7 @@ item (FEAT_TRAINS, item_BR55, 5500) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;				
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -169,8 +169,8 @@ item (FEAT_TRAINS, item_BR55, 5500) {
         articulated_part:               sw_articulated_BR55;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(38));
-        running_cost_factor:            return(GetAdjustedCost(29));
+        cost_factor:                    133;
+        running_cost_factor:            8728;
         cargo_subtype_text:             sw_BR55_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

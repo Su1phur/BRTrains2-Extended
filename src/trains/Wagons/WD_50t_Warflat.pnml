@@ -81,8 +81,8 @@ item (FEAT_TRAINS, item_WD_50t_Warflat, 203) {
         // internal code
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_WD_50t_Warflat;
-        cost_factor:                    return(GetAdjustedCost(46));
-        running_cost_factor:            return(GetAdjustedCost(16));
+        cost_factor:                    28;
+        running_cost_factor:            621;
         cargo_subtype_text:             sw_WD_50t_Warflat_cargo_subtype_text; 
         // power:                          sw_power_WD_50t_Warflat;
         colour_mapping:                 return PALETTE_CC_FIRST;

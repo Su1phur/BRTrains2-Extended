@@ -263,8 +263,8 @@ item (FEAT_TRAINS, item_BR_Mk1_TK, 721) { // Diagram 146/147 BR Mk1 TK/SK
         articulated_part:               switch_articulated_BR_Mk1_TK;
         purchase_cargo_capacity:        return (21 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_TK;
-        cost_factor:                    return(GetAdjustedCost(48));
-        running_cost_factor:            return(GetAdjustedCost(17));
+        cost_factor:                    46;
+        running_cost_factor:            1404;
         cargo_subtype_text:             sw_BR_Mk1_TK_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

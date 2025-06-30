@@ -191,7 +191,7 @@ item (FEAT_TRAINS, item_BR_TTA, 250) {
         cargo_capacity:                 45 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -210,8 +210,8 @@ item (FEAT_TRAINS, item_BR_TTA, 250) {
         purchase:                       spriteset_BR_TTA_purchase;
 
         // internal code
-        cost_factor:                    return(GetAdjustedCost(13));
-        running_cost_factor:            return(GetAdjustedCost(18));
+        cost_factor:                    61;
+        running_cost_factor:            1199;
         cargo_subtype_text:             sw_BR_TTA_cargo_subtype_text; 
         // power:                          sw_power_BR_TTA;
         colour_mapping:                 return PALETTE_CC_FIRST;

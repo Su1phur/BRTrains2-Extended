@@ -593,14 +593,14 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR166_GWR, position_in_articulated_veh % 9
     7: return sw_reverse_BR166_DMSL_DMCL_GWR;
         spriteset_empty; }
 
-// NSE switch
-switch(FEAT_TRAINS, SELF, sw_NSE_BR166, cargo_subtype) {
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR166, cargo_subtype) {
     0: sw_graphics_BR166_NSE;
     1: sw_graphics_BR166_FGWL;
     2: sw_graphics_BR166_FGW;
     3: sw_graphics_BR166_GWR; }
 
-// NSE name refit switch
+// livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR166_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_NSE);
     1:  return string(str_FGWL);
@@ -647,7 +647,7 @@ item (FEAT_TRAINS, item_BR166, 1660) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -666,7 +666,7 @@ item (FEAT_TRAINS, item_BR166, 1660) {
 
     graphics {
         // graphics
-        default:                        sw_NSE_BR166;
+        default:                        sw_livery_BR166;
         visual_effect_and_powered:      sw_FX_BR166_Diesel;
         purchase:                       sw_BR166_purchase_sprite;
         sound_effect:                   sw_dmu_sound;
@@ -676,8 +676,8 @@ item (FEAT_TRAINS, item_BR166, 1660) {
         articulated_part:               sw_articulated_BR166;
         purchase_cargo_capacity:        28;
         cargo_capacity:                 sw_capacity_BR166;
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(23));
+        cost_factor:                    227;
+        running_cost_factor:            5490;
         cargo_subtype_text:             sw_BR166_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

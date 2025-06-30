@@ -232,7 +232,7 @@ item (FEAT_TRAINS, item_BR_TEA, 251) {
         cargo_capacity:                 34 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;				
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -254,8 +254,8 @@ item (FEAT_TRAINS, item_BR_TEA, 251) {
         length:                         sw_length_BR_TEA;
         articulated_part:               sw_articulated_BR_TEA; 
         speed:                          sw_speed_BR_TEA() * 1609 / 1000;
-        cost_factor:                    return(GetAdjustedCost(13));
-        running_cost_factor:            return(GetAdjustedCost(18));
+        cost_factor:                    30;
+        running_cost_factor:            863;
         cargo_subtype_text:             sw_BR_TEA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

@@ -192,36 +192,21 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR325_RoyalMail, position_in_articulated_v
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR325, cargo_subtype) {
-    0: sw_graphics_BR325_RoyalMail;
-}
+    0: sw_graphics_BR325_RoyalMail; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR325_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_RoyalMail);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR325, position_in_articulated_veh % 12) {
-	0: 4;
-	1: 4;
-	2: 4;
-    3: 4;
-    4: 4;
-    5: 4;
-    6: 4;
-    7: 4;
-    8: 4;
-    9: 4;
-    10: 4;
-    11: 4;
-}
+	0..11: 4; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR325, extra_callback_info1) {
 	1..11: return item_BR325;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
 item (FEAT_TRAINS, item_BR325, 3250) {
@@ -242,10 +227,10 @@ item (FEAT_TRAINS, item_BR325, 3250) {
         cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 48 * param_freight;
+        cargo_capacity:                 32 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;				
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -272,8 +257,8 @@ item (FEAT_TRAINS, item_BR325, 3250) {
         // internal code
         length:                         sw_length_BR325;
         articulated_part:               sw_articulated_BR325;
-        cost_factor:                    return(GetAdjustedCost(100));
-        running_cost_factor:            return(GetAdjustedCost(28));
+        cost_factor:                    327;
+        running_cost_factor:            7263;
         cargo_subtype_text:             sw_BR325_cargo_subtype_text; 
         // power:                          sw_power_BR325;
         colour_mapping:                 return PALETTE_CC_FIRST;

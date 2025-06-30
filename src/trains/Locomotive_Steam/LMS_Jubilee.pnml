@@ -211,8 +211,8 @@ item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
         speed:                          sw_speed_LMS_Jubilee() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(38));
-        running_cost_factor:            return(GetAdjustedCost(27));
+        cost_factor:                    93;
+        running_cost_factor:            5860;
         cargo_subtype_text:             sw_LMS_Jubilee_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

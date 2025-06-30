@@ -390,7 +390,7 @@ item (FEAT_TRAINS, item_BR309, 3090) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -418,8 +418,8 @@ item (FEAT_TRAINS, item_BR309, 3090) {
         articulated_part:               sw_articulated_BR309;
         purchase_cargo_capacity:        return ( 16 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR309;
-        cost_factor:                    return(GetAdjustedCost(103));
-        running_cost_factor:            return(GetAdjustedCost(62));
+        cost_factor:                    420;
+        running_cost_factor:            9216;
         cargo_subtype_text:             sw_BR309_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -501,7 +501,7 @@ item (FEAT_TRAINS, item_BR309_1, 3091) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -529,8 +529,8 @@ item (FEAT_TRAINS, item_BR309_1, 3091) {
         articulated_part:               sw_articulated_BR309_1;
         purchase_cargo_capacity:        return ( 18 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR309_1;
-        cost_factor:                    return(GetAdjustedCost(39));
-        running_cost_factor:            return(GetAdjustedCost(22));
+        cost_factor:                    143;
+        running_cost_factor:            5629;
         cargo_subtype_text:             sw_BR309_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -621,7 +621,7 @@ item (FEAT_TRAINS, item_BR309_2, 3092) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -649,8 +649,8 @@ item (FEAT_TRAINS, item_BR309_2, 3092) {
         articulated_part:               sw_articulated_BR309_2;
         purchase_cargo_capacity:        return ( 15 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR309_2;
-        cost_factor:                    return(GetAdjustedCost(52));
-        running_cost_factor:            return(GetAdjustedCost(29));
+        cost_factor:                    184;
+        running_cost_factor:            5680;
         cargo_subtype_text:             sw_BR309_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -718,7 +718,7 @@ item (FEAT_TRAINS, item_BR309_3, 3093) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -746,8 +746,8 @@ item (FEAT_TRAINS, item_BR309_3, 3093) {
         articulated_part:               sw_articulated_BR309_3;
         purchase_cargo_capacity:        return ( 17 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR309_3;
-        cost_factor:                    return(GetAdjustedCost(52));
-        running_cost_factor:            return(GetAdjustedCost(29));
+        cost_factor:                    202;
+        running_cost_factor:            5705;
         cargo_subtype_text:             sw_BR309_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

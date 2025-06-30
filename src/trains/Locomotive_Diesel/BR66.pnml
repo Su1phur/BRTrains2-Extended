@@ -152,7 +152,7 @@ item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;					
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -181,8 +181,8 @@ item (FEAT_TRAINS, item_BR66, 6600) { // TOPS Number range 66000-66957
         length:                         sw_length_BR66;
         articulated_part:               sw_articulated_BR66;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(43));
-        running_cost_factor:            return(GetAdjustedCost(37));
+        cost_factor:                    136;
+        running_cost_factor:            8557;
         cargo_subtype_text:             sw_BR66_cargo_subtype_text; 
         // power:                          sw_power_BR66;
         colour_mapping:                 return PALETTE_CC_FIRST;

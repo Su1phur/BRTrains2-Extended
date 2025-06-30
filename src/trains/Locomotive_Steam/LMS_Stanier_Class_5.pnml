@@ -329,8 +329,8 @@ item (FEAT_TRAINS, item_LMS_Black_5, 4461) { // BR Number range 44658-45499
         speed:                          sw_speed_LMS_Black_5() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
-        running_cost_factor:            return(GetAdjustedCost(35));
+        cost_factor:                    86;
+        running_cost_factor:            5412;
         cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -393,8 +393,8 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domed, 4462) { // BR Number range 44658-4549
         speed:                          sw_speed_LMS_Black_5() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
-        running_cost_factor:            return(GetAdjustedCost(35));
+        cost_factor:                    86;
+        running_cost_factor:            5412;
         cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -471,8 +471,8 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domeless, 4463) { // BR Number range 44658-4
         speed:                          sw_speed_LMS_Black_5() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
-        running_cost_factor:            return(GetAdjustedCost(35));
+        cost_factor:                    86;
+        running_cost_factor:            5412;
         cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -548,8 +548,8 @@ item (FEAT_TRAINS, item_LMS_Black_5_Forward_Top_Feed, 4464) { // BR Number range
         speed:                          sw_speed_LMS_Black_5() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
-        running_cost_factor:            return(GetAdjustedCost(35));
+        cost_factor:                    86;
+        running_cost_factor:            5412;
         cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
@@ -634,8 +634,8 @@ item (FEAT_TRAINS, item_LMS_Black_5_Named, 4464) { // BR Number range 44658-4549
         speed:                          sw_speed_LMS_Black_5() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(37));
-        running_cost_factor:            return(GetAdjustedCost(35));
+        cost_factor:                    86;
+        running_cost_factor:            5412;
         cargo_subtype_text:             sw_LMS_Black_5_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

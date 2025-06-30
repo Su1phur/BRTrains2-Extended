@@ -375,8 +375,8 @@ item (FEAT_TRAINS, item_GCR_8K, 6350) {
         speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(21));
+        cost_factor:                    71;
+        running_cost_factor:            4625;
         cargo_subtype_text:             sw_GCR_8K_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -479,8 +479,8 @@ item (FEAT_TRAINS, item_GWR_3000, 300) {
         speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(22));
+        cost_factor:                    72;
+        running_cost_factor:            4668;
         cargo_subtype_text:             sw_GWR_3000_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -580,8 +580,8 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(22));
+        cost_factor:                    88;
+        running_cost_factor:            5266;
         cargo_subtype_text:             sw_LNER_O4_8_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

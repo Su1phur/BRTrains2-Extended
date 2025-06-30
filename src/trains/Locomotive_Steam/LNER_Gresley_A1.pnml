@@ -344,8 +344,8 @@ item (FEAT_TRAINS, item_LNER_A1, 6001) {
         articulated_part:               sw_articulated_LNER_A1;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    return(GetAdjustedCost(36));
-        running_cost_factor:            return(GetAdjustedCost(28));
+        cost_factor:                    81;
+        running_cost_factor:            5397;
         cargo_subtype_text:             sw_LNER_A1_A3_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

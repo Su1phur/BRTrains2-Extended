@@ -227,8 +227,8 @@ item (FEAT_TRAINS, item_LMS_8F, 4802) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
-        cost_factor:                    return(GetAdjustedCost(60));
-        running_cost_factor:            return(GetAdjustedCost(24));
+        cost_factor:                    94;
+        running_cost_factor:            5656;
         cargo_subtype_text:             sw_LMS_8F_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

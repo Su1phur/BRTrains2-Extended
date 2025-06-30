@@ -159,7 +159,7 @@ item (FEAT_TRAINS, item_BR_FEA, 302) {
         cargo_capacity:                 27 * param_freight;
         loading_speed:					10;
         cost_factor: 					108;			
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -181,8 +181,8 @@ item (FEAT_TRAINS, item_BR_FEA, 302) {
         // internal code
         length:                         sw_length_BR_FEA;
         articulated_part:               sw_articulated_BR_FEA;
-        cost_factor:                    return(GetAdjustedCost(30));
-        running_cost_factor:            return(GetAdjustedCost(30));
+        cost_factor:                    55;
+        running_cost_factor:            1372;
         cargo_subtype_text:             sw_BR_FEA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

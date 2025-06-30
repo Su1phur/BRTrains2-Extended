@@ -391,7 +391,7 @@ item (FEAT_TRAINS, item_BR08, 800) {
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;			
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
@@ -403,8 +403,8 @@ item (FEAT_TRAINS, item_BR08, 800) {
         weight:                         52 ton;
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.4;
+        tractive_effort_coefficient:    0.31;
         length:                         6;
     }
 
@@ -420,8 +420,8 @@ item (FEAT_TRAINS, item_BR08, 800) {
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_BR08;
-        cost_factor:                    return(GetAdjustedCost(21));
-        running_cost_factor:            return(GetAdjustedCost(5));
+        cost_factor:                    19;
+        running_cost_factor:            1292;
         cargo_subtype_text:             sw_BR08_cargo_subtype_text; 
         // power:                          sw_power_BR08;
         colour_mapping:                 return PALETTE_CC_FIRST;

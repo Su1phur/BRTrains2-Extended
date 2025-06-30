@@ -185,7 +185,7 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
         cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;			
-        running_cost_base:				RUNNING_COST_DIESEL;				
+        running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
 
         //specific properties
