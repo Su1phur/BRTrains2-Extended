@@ -142,7 +142,8 @@ STR_PARAM_DESC_PAX_MULTIPLIER   :Increase passenger capacity of all coaches
 STR_PARAM_NAME_FREIGHT_MULTIPLIER   :Freight Capacity Multiplier
 STR_PARAM_DESC_FREIGHT_MULTIPLIER   :Increase cargo capacity of all freight-carrying wagons
 
-STR_PARAM_NAME_COST_MULTIPLIER  :Purchase/Running Cost Multiplier
+STR_PARAM_NAME_COST_MULTIPLIER  :Purchase Cost Level
+STR_PARAM_NAME_RUNNING_COST     :Running Cost Level
 STR_PARAM_DESC_COST_MULTIPLIER  :Increase or decrease purchase price and running costs, if you find they aren't balanced to your taste
 
 STR_PARAM_NAME_TRAMMETRO        :Metro Trains and Tram availability
@@ -942,9 +943,8 @@ str_BR323_usage					:Suburban Passenger
 str_BR323_eos					:---
 str_BR323_liveries				:Regional Railways, Centro, First North Western, First North Western - Barbie, Northern, London Midland
 
-STR_NAME_BR325					:BR Class 325 (4-car)
+STR_NAME_BR325					:BR Class 325
 str_BR325_usage					:Express Mail
-str_BR325_eos					:---
 str_BR325_liveries				:Royal Mail
 
 STR_NAME_BR333					:BR Class 333 (4-car)

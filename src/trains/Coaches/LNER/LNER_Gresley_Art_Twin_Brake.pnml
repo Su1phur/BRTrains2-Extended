@@ -320,39 +320,27 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_LNER_Gresley_T8_BR_Maroon_REV, [ STORE_TE
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_BR_Maroon, position_in_vehid_chain % 6) {
-	0: spriteset_empty;
 	1: sw_loadstack_LNER_Gresley_BT6_BR_Maroon;
-	2: spriteset_empty;
-    3: spriteset_empty;
     4: sw_loadstack_LNER_Gresley_T8_BR_Maroon;
-    5: spriteset_empty;
+        spriteset_empty;
 }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_BR_Maroon_REV, position_in_vehid_chain % 6) {
-	0: spriteset_empty;
 	1: sw_loadstack_LNER_Gresley_T8_BR_Maroon_REV;
-	2: spriteset_empty;
-    3: spriteset_empty;
     4: sw_loadstack_LNER_Gresley_BT6_BR_Maroon_REV;
-    5: spriteset_empty;
+        spriteset_empty;
 }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_LNER_Teak, position_in_vehid_chain % 6) {
-	0: spriteset_empty;
 	1: sw_loadstack_LNER_Gresley_BT6_LNER_Teak;
-	2: spriteset_empty;
-    3: spriteset_empty;
     4: sw_loadstack_LNER_Gresley_T8_LNER_Teak;
-    5: spriteset_empty;
+        spriteset_empty;
 }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_BT_T_LNER_Teak_REV, position_in_vehid_chain % 6) {
-	0: spriteset_empty;
 	1: sw_loadstack_LNER_Gresley_T8_LNER_Teak_REV;
-	2: spriteset_empty;
-    3: spriteset_empty;
     4: sw_loadstack_LNER_Gresley_BT6_LNER_Teak_REV;
-    5: spriteset_empty;
+        spriteset_empty;
 }
 
 // random switch
@@ -371,12 +359,34 @@ switch(FEAT_TRAINS, SELF, random_choose_reverse_LNER_BT_T_LNER_Teak, switch_alte
         sw_graphics_LNER_BT_T_LNER_Teak;
 }
 
+// reverse switch
+switch(FEAT_TRAINS, SELF, sw_check_reverse_LNER_BT_T_BR_Maroon, position_in_consist_from_end) {
+    1:  sw_loadstack_LNER_Gresley_BT6_BR_Maroon_REV;
+    4:  sw_loadstack_LNER_Gresley_T8_BR_Maroon_REV;
+        return random_choose_reverse_LNER_BT_T_BR_Maroon; }
+
+switch(FEAT_TRAINS, SELF, sw_check_reverse_LNER_BT_T_LNER_Teak, position_in_consist_from_end) {
+    1:  sw_loadstack_LNER_Gresley_BT6_LNER_Teak_REV;
+    4:  sw_loadstack_LNER_Gresley_T8_LNER_Teak_REV;
+        return random_choose_reverse_LNER_BT_T_LNER_Teak; }
+
+// position switch
+switch(FEAT_TRAINS, SELF, sw_check_position_LNER_BT_T_BR_Maroon, position_in_consist) {
+    // 1:  sw_loadstack_LNER_Gresley_BT6_BR_Maroon;
+    // 4:  sw_loadstack_LNER_Gresley_T8_BR_Maroon;
+    1:  sw_graphics_LNER_BT_T_BR_Maroon;
+        return sw_check_reverse_LNER_BT_T_BR_Maroon; }
+
+switch(FEAT_TRAINS, SELF, sw_check_position_LNER_BT_T_LNER_Teak, position_in_consist) {
+    // 1:  sw_loadstack_LNER_Gresley_BT6_LNER_Teak;
+    // 4:  sw_loadstack_LNER_Gresley_T8_LNER_Teak;
+    1:  sw_graphics_LNER_BT_T_LNER_Teak;
+        return sw_check_reverse_LNER_BT_T_LNER_Teak; }
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_BT_T, cargo_subtype) {
-    0: random_choose_reverse_LNER_BT_T_LNER_Teak;
-    1: random_choose_reverse_LNER_BT_T_BR_Maroon;
-    // 0:  sw_graphics_LNER_BT_T_LNER_Teak;
-    // 1:  sw_graphics_LNER_BT_T_BR_Maroon;
+    0: sw_check_position_LNER_BT_T_LNER_Teak;
+    1: sw_check_position_LNER_BT_T_BR_Maroon;
 }
 
 

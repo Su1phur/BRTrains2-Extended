@@ -106,8 +106,24 @@ grf {
 				5: string(STR_PARAM_4X);
 			};
 		}
-	}		
+	}
 	param 7 {
+		param_running_cost{
+			name: string(STR_PARAM_NAME_RUNNING_COST);
+			desc: string(STR_PARAM_DESC_COST_MULTIPLIER);
+			min_value: 1;
+			max_value: 5;
+			def_value: 3;
+			names: {
+				1: string(STR_PARAM_QUARTER);
+				2: string(STR_PARAM_HALF);
+				3: string(STR_PARAM_1X);
+				4: string(STR_PARAM_2X);										
+				5: string(STR_PARAM_4X);
+			};
+		}
+	}		
+	param 8 {
 		param_2cc{
 			name: string(STR_PARAM_NAME_2CC);
 			desc: string(STR_PARAM_DESC_2CC);
@@ -152,4 +168,12 @@ switch(FEAT_TRAINS, SELF, GetAdjustedCost, base, param_cost_factor) {
   3: return base;
   4: return base * 2;
   5: return base * 4;
+}
+
+basecost {
+	PR_BUILD_VEHICLE_TRAIN: (param[6] - 5);
+	PR_BUILD_VEHICLE_WAGON: (param[6] - 5);
+	PR_RUNNING_TRAIN_STEAM: (param[7] - 5);
+	PR_RUNNING_TRAIN_DIESEL: (param[7] - 4);
+	PR_RUNNING_TRAIN_ELECTRIC: (param[7] - 4);
 }
