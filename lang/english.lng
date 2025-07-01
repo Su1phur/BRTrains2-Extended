@@ -1375,16 +1375,6 @@ str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
 # # COACHES # #
 # # # # # # # #
 
-STR_NAME_LNER_CorSet            :LNER Coronation Set
-STR_NAME_LNER_CorSet_BT_KT      :LNER Coronation Articulated Coach (BT + KT)
-STR_NAME_LNER_CorSet_OF_OF      :LNER Coronation Articulated Coach (OF + OF)
-STR_NAME_LNER_CorSet_OT_KT      :LNER Coronation Articulated Coach (OT + KT)
-STR_NAME_LNER_CorSet_OT_BT      :LNER Coronation Articulated Coach (OT + BT)
-STR_NAME_LNER_CorSet_OBV        :LNER Coronation Observation Coach
-STR_NAME_LNER_CorSet_OT_OT      :LNER Coronation Articulated Coach (OT + OT)
-
-STR_LNER_CorSet_liveries        :LNER Coronation Garter Blue, BR Carmine and Cream
-
 STR_NAME_BR_Mk1_Header			:BR Mark 1 Coaches
 
 STR_NAME_BR_Mk1_BCK				:BR Mark 1 Coach (Brake Composite Corridor)
@@ -1511,6 +1501,9 @@ STR_NAME_370_TU					:BR Class 370 Trailer Unclassified
 STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
 STR_NAME_370_DTS				:BR Class 370 Driving Trailer Standard
 
+STR_NAME_GWR_TK_C24             :GWR Churchward "Dreadnought" Third Corridor
+str_GWR_TK_C24_liveries         :Chocolate and Cream, Maroon, Carmine and Cream
+
 STR_NAME_LMS_StanierP3_50BG 		:LMS Stanier Period 3 50 ft BG Coach
 str_LMS_StanierP3_50BG_liveries		:LMS Red
 
@@ -1519,6 +1512,16 @@ str_GCR_CL_4L5_liveries             :GCR Mahogany
 
 STR_NAME_LNER_BT_T              :LNER Gresley Twin Brake Third
 str_LNER_BT_T_liveries          :LNER Teak, BR Maroon
+
+STR_NAME_LNER_CorSet            :LNER Coronation Set
+STR_NAME_LNER_CorSet_BT_KT      :LNER Coronation Articulated Coach (BT + KT)
+STR_NAME_LNER_CorSet_OF_OF      :LNER Coronation Articulated Coach (OF + OF)
+STR_NAME_LNER_CorSet_OT_KT      :LNER Coronation Articulated Coach (OT + KT)
+STR_NAME_LNER_CorSet_OT_BT      :LNER Coronation Articulated Coach (OT + BT)
+STR_NAME_LNER_CorSet_OBV        :LNER Coronation Observation Coach
+STR_NAME_LNER_CorSet_OT_OT      :LNER Coronation Articulated Coach (OT + OT)
+
+STR_LNER_CorSet_liveries        :LNER Coronation Garter Blue, BR Carmine and Cream
 
 STR_NAME_LNERTK					:LNER Gresley Coach (Third Corridor)
 str_LNERTK_liveries				:GNR/LNER Teak, BR Maroon, BR Carmine and Cream

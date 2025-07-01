@@ -355,8 +355,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // cargo_capacity:                 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;
-        // running_cost_base:			    RUNNING_COST_STEAM;						
-        // running_cost_base:				RUNNING_COST_STEAM;				
+        running_cost_base:			    RUNNING_COST_STEAM;					
         running_cost_factor: 			90;
 
         //specific properties
@@ -381,7 +380,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         // graphics
         default:                        sw_graphics_UNIT;
         // default:                        sw_livery_UNIT;
-        visual_effect_and_powered:      sw_FX_UNIT_Diesel;
+        // visual_effect_and_powered:      sw_FX_UNIT_Diesel;
         // visual_effect_and_powered:      sw_FX_UNIT_Electric;
         // visual_effect_and_powered:      sw_FX_UNIT_Steam;
         purchase:                       spriteset_UNIT_purchase;
@@ -396,8 +395,8 @@ item (FEAT_TRAINS, item_UNIT, ) {
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_UNIT;
-        cost_factor:                    return(GetAdjustedCost());
-        running_cost_factor:            return(GetAdjustedCost());
+        cost_factor:                    ;
+        running_cost_factor:            ;
         cargo_subtype_text:             sw_UNIT_cargo_subtype_text; 
         // power:                          sw_power_UNIT;
         colour_mapping:                 return PALETTE_CC_FIRST;

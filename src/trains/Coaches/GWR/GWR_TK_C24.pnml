@@ -1,0 +1,216 @@
+// basic sprites
+spriteset(spriteset_GWR_TK_C24_BnC, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// spriteset(spriteset_GWR_TK_C24_BnC_Loading, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_1x_8bpp.png")
+//     { template_138trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_1x_mask.png")
+//     { template_138trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_2x_mask.png")
+//     { template_138trains_2x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_4x_mask.png")
+//     { template_138trains_4x(0,0) }
+
+// loading sprite
+// spritegroup spritegroup_GWR_TK_C24_BnC_Loading {  
+//     loaded: [spriteset_empty];
+//     loading: [spriteset_GWR_TK_C24_BnC_Loading]; }
+
+// switch(FEAT_TRAINS, SELF, sw_loadstack_GWR_TK_C24_BnC, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_GWR_TK_C24_BnC;
+//     1: spritegroup_GWR_TK_C24_BnC_Loading; }
+
+// basic sprites
+spriteset(spriteset_GWR_TK_C24_Cream, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// spriteset(spriteset_GWR_TK_C24_Cream_Loading, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_1x_8bpp.png")
+//     { template_138trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_1x_mask.png")
+//     { template_138trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_2x_mask.png")
+//     { template_138trains_2x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_4x_mask.png")
+//     { template_138trains_4x(0,0) }
+
+// loading sprite
+// spritegroup spritegroup_GWR_TK_C24_Cream_Loading {  
+//     loaded: [spriteset_empty];
+//     loading: [spriteset_GWR_TK_C24_Cream_Loading]; }
+
+// switch(FEAT_TRAINS, SELF, sw_loadstack_GWR_TK_C24_Cream, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_GWR_TK_C24_Cream;
+//     1: spritegroup_GWR_TK_C24_Cream_Loading; }
+
+// basic sprites
+spriteset(spriteset_GWR_TK_C24_Maroon, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// spriteset(spriteset_GWR_TK_C24_Maroon_Loading, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_1x_8bpp.png")
+//     { template_138trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_1x_mask.png")
+//     { template_138trains_1x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_2x_mask.png")
+//     { template_138trains_2x(0,0) }
+
+//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_4x_mask.png")
+//     { template_138trains_4x(0,0) }
+
+// loading sprite
+// spritegroup spritegroup_GWR_TK_C24_Maroon_Loading {  
+//     loaded: [spriteset_empty];
+//     loading: [spriteset_GWR_TK_C24_Maroon_Loading]; }
+
+// switch(FEAT_TRAINS, SELF, sw_loadstack_GWR_TK_C24_Maroon, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_GWR_TK_C24_Maroon;
+//     1: spritegroup_GWR_TK_C24_Maroon_Loading; }
+
+// purchase sprite
+spriteset(spriteset_GWR_TK_C24_Cream_purchase, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_TK_C24_Cream_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_mask.png")
+    { template_purchase(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GWR_TK_C24, cargo_subtype) {
+    // 0: sw_loadstack_GWR_TK_C24_Cream;
+    0:  spriteset_GWR_TK_C24_Cream;
+    // 1:  sw_loadstack_GWR_TK_C24_Maroon;
+    // 2:  sw_loadstack_GWR_TK_C24_BnC;
+    1: spriteset_GWR_TK_C24_Maroon;
+    2: spriteset_GWR_TK_C24_BnC;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GWR_TK_C24_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_col_Cream));
+    1:  return string(STR_LIVERY_SHORT, string(str_col_Maroon));
+    2:  return string(str_BRCarmCream);
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_GWR_TK_C24, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_GWR_TK_C24;
+	2: spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_GWR_TK_C24, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 5;
+	2: 4;
+}
+
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_GWR_TK_C24, position_in_vehid_chain % 3) {
+    0: 70 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_GWR_TK_C24, extra_callback_info1) {
+	1: return item_GWR_TK_C24;
+	2: return item_GWR_TK_C24;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_TK_C24, 11501) { // GWR Diagram C24 Churchward "Dreadnought" Third Corridor 
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_TK_C24);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1904,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          75 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         32 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_GWR_TK_C24;
+        purchase:                       spriteset_GWR_TK_C24_Cream_purchase;
+
+        // internal code
+        length:                         sw_length_GWR_TK_C24;
+        articulated_part:               sw_articulated_GWR_TK_C24;
+        // speed:                          sw_speed_GWR_TK_C24() * 1609 / 1000;  
+        purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_GWR_TK_C24;
+        cost_factor:                    37;
+        running_cost_factor:            814;
+        cargo_subtype_text:             sw_GWR_TK_C24_cargo_subtype_text; 
+        // power:                          sw_power_GWR_TK_C24;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_GWR_TK_C24_liveries)));
+    }
+}
