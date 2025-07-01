@@ -279,7 +279,7 @@ spritegroup spritegroup_1_Plank_Wires_2 {
 
 switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_1_Plank_Wires, switch_alternative_var_random_bits(1, 1)) {
     0: spritegroup_1_Plank_Wires;
-    1: spriteset_1_Plank_Wires_2;
+    1: spritegroup_1_Plank_Wires_2;
         spritegroup_1_Plank_Wires;
 }
 

@@ -1,12 +1,3 @@
-switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_classes, cargo_classes) {
-    bitmask(CC_PIECE_GOODS) : return random_choose_RCH_1907_1_Plank_Boxes;
-    bitmask(CC_REFRIGERATED) : return spritegroup_1_Plank_Barrels;
-    bitmask(CC_POTABLE) : return spritegroup_1_Plank_Barrels;
-    bitmask(CC_LIQUID) : return spritegroup_1_Plank_Tanks;
-    bitmask(CC_BULK) : return spritegroup_1_Plank_Bulk;
-        return random_choose_RCH_1907_1_Plank_Boxes;
-}
-
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Refrigerated, hasbit(cargo_classes, CC_REFRIGERATED)) {
     0: random_choose_RCH_1907_1_Plank_Boxes;
         return spritegroup_1_Plank_Barrels;
