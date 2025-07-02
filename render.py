@@ -139,16 +139,17 @@ def main(input_folder,
         rendered_count = 0
         display_progress(rendered_count, total)
 
-        for f in vox_files:
-            relative_path = f.parent.relative_to(voxels_path)
-            output_path = gfx_directory / relative_path
-            output_path.mkdir(parents=True, exist_ok=True)
+        if total != 0:
+            for f in vox_files:
+                relative_path = f.parent.relative_to(voxels_path)
+                output_path = gfx_directory / relative_path
+                output_path.mkdir(parents=True, exist_ok=True)
 
-            render_file(f, palette_path, manifest_path)
-            move_files(f.parent, output_path)
+                render_file(f, palette_path, manifest_path)
+                move_files(f.parent, output_path)
 
-            rendered_count += 1
-            display_progress(rendered_count, total)
+                rendered_count += 1
+                display_progress(rendered_count, total)
     
 
 if __name__ == "__main__":
