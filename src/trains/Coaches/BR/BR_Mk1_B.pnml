@@ -1,4 +1,4 @@
-item (FEAT_TRAINS, item_BR_Mk1_B, 702) {
+item (FEAT_TRAINS, item_BR_Mk1_B, 12001) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_Mk1_Header);

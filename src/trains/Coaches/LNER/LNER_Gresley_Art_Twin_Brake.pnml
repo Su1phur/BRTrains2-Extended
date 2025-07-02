@@ -431,7 +431,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_LNER_BT_T, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_LNER_BT_T, 901) {
+item (FEAT_TRAINS, item_LNER_BT_T, 11500) {
     property {
         // common properties
         name:                           string(STR_NAME_LNER_BT_T);

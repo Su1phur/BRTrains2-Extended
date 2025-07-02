@@ -132,7 +132,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk1_BSO, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_Mk1_BSO, 707) { // Diagram 183, 184 BR Mk1 BSO
+item (FEAT_TRAINS, item_BR_Mk1_BSO, 12006) { // Diagram 183, 184 BR Mk1 BSO
     property {
         // common properties
         name:                           string(STR_NAME_BR_Mk1_BSO);

@@ -138,7 +138,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR_FEA, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_FEA, 302) {
+item (FEAT_TRAINS, item_BR_FEA, 12800) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_FEA);

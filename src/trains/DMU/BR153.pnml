@@ -215,8 +215,8 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
         articulated_part:               sw_articulated_BR153;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR153;
-        cost_factor:                    return(GetAdjustedCost(22));
-        running_cost_factor:            return(GetAdjustedCost(9));
+        cost_factor:                    90;
+        running_cost_factor:            3464;
         cargo_subtype_text:             sw_BR153_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

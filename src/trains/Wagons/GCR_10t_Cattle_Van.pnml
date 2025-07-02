@@ -45,7 +45,7 @@ switch(FEAT_TRAINS, SELF, sw_GCR_10t_Cattle_Van_cargo_subtype_text, cargo_subtyp
 }
 
 // unit definition
-item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 950) {
+item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 11406) {
     property {
         // common properties
         name:                           string(STR_NAME_GCR_10t_Cattle_Van);

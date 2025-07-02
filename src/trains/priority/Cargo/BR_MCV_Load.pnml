@@ -1,14 +1,4 @@
 // load levels
-spriteset(spriteset_BR_MCV_load_0, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_2x_8bpp.png")
-    { template_48trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MCV_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_0_4x_8bpp.png")
-    { template_48trains_4x(0,0) }
-
-
 spriteset(spriteset_BR_MCV_load_25, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_16t_Steel_Mineral_Wagon_Load_25_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
@@ -49,6 +39,6 @@ spriteset(spriteset_BR_MCV_load_100, "gfx\Wagons\BR_16t_Steel_Mineral_Wagon\BR_1
     { template_48trains_4x(0,0) }
 
 spritegroup spritegroup_BR_MCV_Load {
-    loaded: [spriteset_BR_MCV_load_0, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
-    loading: [spriteset_BR_MCV_load_0, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
+    loaded: [spriteset_empty, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
+    loading: [spriteset_empty, spriteset_BR_MCV_load_25, spriteset_BR_MCV_load_50, spriteset_BR_MCV_load_75, spriteset_BR_MCV_load_100];
 }

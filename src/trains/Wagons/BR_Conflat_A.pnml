@@ -52,7 +52,7 @@ switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_type, cargo_type_in_veh) {
 
 
 // unit definition
-item (FEAT_TRAINS, item_BR_Conflat_A, 501) { // Diagram 61/62 12/13 ton container flat 
+item (FEAT_TRAINS, item_BR_Conflat_A, 12200) { // Diagram 61/62 12/13 ton container flat 
     property {
         // common properties
         name:                           string(STR_NAME_BR_CONFLAT_A);

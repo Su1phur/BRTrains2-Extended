@@ -211,7 +211,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR_TEA, extra_callback_info1) {
 
 
 // unit definition
-item (FEAT_TRAINS, item_BR_TEA, 251) {
+item (FEAT_TRAINS, item_BR_TEA, 12204) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_TEA);

@@ -184,7 +184,7 @@ switch(FEAT_TRAINS, SELF, sw_speed_BR_MCV, param_max_speed) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_MCV, 201) {
+item (FEAT_TRAINS, item_BR_MCV, 11250) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_MCV);

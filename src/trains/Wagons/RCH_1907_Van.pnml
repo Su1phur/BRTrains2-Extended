@@ -14,7 +14,7 @@ switch(FEAT_TRAINS, SELF, sw_RCH_1907_Van_cargo_subtype_text, cargo_subtype){
 }
 
 // unit definition
-item (FEAT_TRAINS, item_RCH_1907_Van, 10) {
+item (FEAT_TRAINS, item_RCH_1907_Van, 11405) {
     property {
         // common properties
         name:                           string(STR_NAME_RCH_1907_Van);

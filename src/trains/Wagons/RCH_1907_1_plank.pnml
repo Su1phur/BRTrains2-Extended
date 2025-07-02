@@ -19,7 +19,7 @@ switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_subtype_text, cargo_subtype)
 }
 
 // unit definition
-item (FEAT_TRAINS, item_RCH_1907_1_Plank, 9) {
+item (FEAT_TRAINS, item_RCH_1907_1_Plank, 11404) {
     property {
         // common properties
         name:                           string(STR_NAME_RCH_1907_1_Plank);

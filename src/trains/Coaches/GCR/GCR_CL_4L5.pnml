@@ -155,7 +155,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_GCR_CL_4L5, extra_callback_info1) {
 
 
 // unit definition
-item (FEAT_TRAINS, item_GCR_CL_4L5, 902) {
+item (FEAT_TRAINS, item_GCR_CL_4L5, 11200) {
     property {
         // common properties
         name:                           string(STR_NAME_GCR_CL_4L5);

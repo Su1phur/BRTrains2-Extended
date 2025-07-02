@@ -60,7 +60,7 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR_Conflat_P, [STORE_TEMP((getbits(extra_c
 }
 
 // unit definition
-item (FEAT_TRAINS, item_BR_Conflat_P, 502) {
+item (FEAT_TRAINS, item_BR_Conflat_P, 12201) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_CONFLAT_P);

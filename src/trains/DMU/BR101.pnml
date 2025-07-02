@@ -997,8 +997,8 @@ item (FEAT_TRAINS, item_BR101, 1010) {
         articulated_part:               sw_articulated_BR101_2car;
         purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_2car;
-        cost_factor:                    return(GetAdjustedCost(93));
-        running_cost_factor:            return(GetAdjustedCost(13));
+        cost_factor:                    152;
+        running_cost_factor:            3735;
         cargo_subtype_text:             sw_BR101_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -1172,8 +1172,8 @@ item (FEAT_TRAINS, item_BR101_3, 1013) {
         articulated_part:               sw_articulated_BR101_3car;
         purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_3car;
-        cost_factor:                    return(GetAdjustedCost(93));
-        running_cost_factor:            return(GetAdjustedCost(13));
+        cost_factor:                    202;
+        running_cost_factor:            3798;
         cargo_subtype_text:             sw_BR101_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -1399,8 +1399,8 @@ item (FEAT_TRAINS, item_BR101_4, 1014) {
         articulated_part:               sw_articulated_BR101_4car;
         purchase_cargo_capacity:        return ( 22 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_4car;
-        cost_factor:                    return(GetAdjustedCost(93));
-        running_cost_factor:            return(GetAdjustedCost(13));
+        cost_factor:                    239;
+        running_cost_factor:            3844;
         cargo_subtype_text:             sw_BR101_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -1472,8 +1472,8 @@ item (FEAT_TRAINS, item_BR102, 1020) {
         articulated_part:               sw_articulated_BR102;
         purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_2car;
-        cost_factor:                    return(GetAdjustedCost(78));
-        running_cost_factor:            return(GetAdjustedCost(13));
+        cost_factor:                    145;
+        running_cost_factor:            3296;
         cargo_subtype_text:             sw_BR101_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

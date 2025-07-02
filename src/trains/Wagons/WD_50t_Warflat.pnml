@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_WD_50t_Warflat, [ STORE_TEMP((getbits(ext
 }
 
 // unit definition
-item (FEAT_TRAINS, item_WD_50t_Warflat, 203) {
+item (FEAT_TRAINS, item_WD_50t_Warflat, 12252) {
     property {
         // common properties
         name:                           string(STR_NAME_WD_50t_Warflat);

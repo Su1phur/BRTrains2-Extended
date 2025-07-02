@@ -229,7 +229,7 @@ switch(FEAT_TRAINS, SELF, sw_name_LNER_21t_Hopper, current_year) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_LNER_21t_Hopper, 951) {
+item (FEAT_TRAINS, item_LNER_21t_Hopper, 11801) {
     property {
         // common properties
         name:                           string(STR_NAME_LNER_21t_Hopper);
