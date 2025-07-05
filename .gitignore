@@ -1,8 +1,10 @@
 # Build files
 build/
 
-# NML cache
+# cache
 .nmlcache/
+template/__pycache__/
+template/autogen/
 
 #Storing gfx here instead of in WIP folder for laziness
 *.xcf

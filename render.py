@@ -4,9 +4,12 @@ import shutil
 from pathlib import Path
 from argparse import ArgumentParser
 
+from template.spriteset_template import PNML_TEMPLATE
+
 gorender_path = Path("../gorender/renderobject.exe").resolve()
 gfx_directory = Path("gfx")
-voxels_path = Path("voxels")
+src_directory = Path("src")
+voxel_directory = Path("voxels")
 default_palette_path = Path("docs/ttd_palette.json")
 default_manifest_path = Path("docs/manifest.json")
 
@@ -36,11 +39,6 @@ def validate_needed_files(find_file):
         raise FileNotFoundError(f"{find_file} does not exist")
 
 
-def move_files(rendered_path, output_path):
-    for image in rendered_path.rglob("*.png"):
-        shutil.move(str(image), output_path / image.name)
-
-
 def display_progress(rendered, total):
     progress = "●" * rendered + "o" * (total - rendered)
     print(f"\r{progress} ({rendered}/{total})", end='', flush=True)
@@ -48,7 +46,7 @@ def display_progress(rendered, total):
 
 def expected_images_for(file_name):
     stem = file_name.stem
-    relative = file_name.parent.relative_to(voxels_path)
+    relative = file_name.parent.relative_to(voxel_directory)
     output_dir = gfx_directory / relative
 
     return [output_dir / f"{stem}{suffix}.png" for suffix in expected_endings]
@@ -57,9 +55,10 @@ def is_fully_rendered(file_name):
     expected_images = expected_images_for(file_name)
     return all(image.exists() for image in expected_images)
 
+
 def find_missing_files() -> list[Path]:
     return [
-        f for f in voxels_path.rglob("*.vox")
+        f for f in voxel_directory.rglob("*.vox")
         if "Non-Standard" not in f.parts and not is_fully_rendered(f)
     ]
 
@@ -72,6 +71,47 @@ def render_file(file_name, palette_path, manifest_path):
                "-m", manifest_path]
     
     subprocess.run(command, check=True)
+
+
+def render_and_move(voxel_file, palette_path, manifest_path, output_path=None):
+    relative_path = voxel_file.parent.relative_to(voxel_directory)
+
+    if output_path is None or output_path == "":
+        output_path = gfx_directory / relative_path
+
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    render_file(voxel_file, palette_path, manifest_path)
+    
+    for image in voxel_file.parent.rglob("*.png"):
+        shutil.move(str(image), output_path / image.name)
+
+
+def generate_pnml(vox_files):
+
+    stems = [v.stem for v in vox_files]
+    unit_base_name = os.path.commonprefix(stems).rstrip("_")
+    print(unit_base_name)
+
+    rel_path = next(iter(vox_files)).parent.relative_to(voxel_directory)
+
+    output_dir = Path("template/autogen")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    pnml_file = output_dir / f"{unit_base_name}.pnml"
+
+    with open(pnml_file, "w", encoding="utf-8") as p:
+        for f in vox_files:
+            unit = f
+            rel_path = f.parent.relative_to(voxel_directory)
+            gfx_path = gfx_directory / rel_path
+            
+            content = PNML_TEMPLATE.format(unit=unit.stem, path=gfx_path)
+
+            p.write(content + "\n")
+    
+    print(f"Generated: {pnml_file}")
+
 
 def main(input_folder, 
          palette_path=default_palette_path,
@@ -88,7 +128,7 @@ def main(input_folder,
     validate_needed_files(manifest_path)
 
     if all:
-        input_folder = voxels_path
+        input_folder = voxel_directory
 
         vox_files = [x for x in input_folder.rglob("*.vox") if "Non-Standard" not in x.parts]
 
@@ -98,13 +138,7 @@ def main(input_folder,
         display_progress(rendered_count, total)
 
         for f in vox_files:
-            relative_path = f.parent.relative_to(voxels_path)
-            output_path = gfx_directory / relative_path
-            output_path.mkdir(parents=True, exist_ok=True)
-
-            render_file(f, palette_path, manifest_path)
-            move_files(f.parent, output_path)
-
+            render_and_move(f, palette_path, manifest_path)
             rendered_count += 1
             display_progress(rendered_count, total)
         
@@ -114,11 +148,9 @@ def main(input_folder,
             raise ValueError(f"{input_folder} is not a valid directory.")
     
         if output == "" or output is None:
-            output_path = gfx_directory / input_folder.relative_to(voxels_path)
+            output_path = gfx_directory / input_folder.relative_to(voxel_directory)
         else:
             output_path = Path(output) 
-
-        output_path.mkdir(parents=True, exist_ok=True)
 
         vox_files = {f for f in input_folder.iterdir() if f.suffix == ".vox"}
 
@@ -128,26 +160,23 @@ def main(input_folder,
         display_progress(rendered_count, total)
 
         for f in vox_files:
-            render_file(f, palette_path, manifest_path)
-            move_files(input_folder, output_path)
+            render_and_move(f, palette_path, manifest_path, output_path)
+            rendered_count += 1
+            display_progress(rendered_count, total)
+
+        generate_pnml(vox_files)
 
     if missing:
         vox_files = find_missing_files()
-
         total = len(vox_files)
-        print(f"\nTotal {total} .vox files have missing gfx images.")
-        rendered_count = 0
-        display_progress(rendered_count, total)
 
         if total != 0:
+            print(f"\nTotal {total} .vox files have missing gfx images.")
+            rendered_count = 0
+            display_progress(rendered_count, total)
+
             for f in vox_files:
-                relative_path = f.parent.relative_to(voxels_path)
-                output_path = gfx_directory / relative_path
-                output_path.mkdir(parents=True, exist_ok=True)
-
-                render_file(f, palette_path, manifest_path)
-                move_files(f.parent, output_path)
-
+                render_and_move(f, palette_path, manifest_path)
                 rendered_count += 1
                 display_progress(rendered_count, total)
     
