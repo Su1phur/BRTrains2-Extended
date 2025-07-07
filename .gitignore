@@ -3,7 +3,7 @@ build/
 
 # cache
 .nmlcache/
-template/__pycache__/
+*__pycache__
 template/autogen/
 
 #Storing gfx here instead of in WIP folder for laziness

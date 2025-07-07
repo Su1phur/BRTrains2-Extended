@@ -4,11 +4,10 @@ import shutil
 from pathlib import Path
 from argparse import ArgumentParser
 
-from template.spriteset_template import PNML_TEMPLATE
+from generate import generate_pnml
 
 gorender_path = Path("../gorender/renderobject.exe").resolve()
 gfx_directory = Path("gfx")
-src_directory = Path("src")
 voxel_directory = Path("voxels")
 default_palette_path = Path("docs/ttd_palette.json")
 default_manifest_path = Path("docs/manifest.json")
@@ -87,32 +86,6 @@ def render_and_move(voxel_file, palette_path, manifest_path, output_path=None):
         shutil.move(str(image), output_path / image.name)
 
 
-def generate_pnml(vox_files):
-
-    stems = [v.stem for v in vox_files]
-    unit_base_name = os.path.commonprefix(stems).rstrip("_")
-    print(unit_base_name)
-
-    rel_path = next(iter(vox_files)).parent.relative_to(voxel_directory)
-
-    output_dir = Path("template/autogen")
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
-    pnml_file = output_dir / f"{unit_base_name}.pnml"
-
-    with open(pnml_file, "w", encoding="utf-8") as p:
-        for f in vox_files:
-            unit = f
-            rel_path = f.parent.relative_to(voxel_directory)
-            gfx_path = gfx_directory / rel_path
-            
-            content = PNML_TEMPLATE.format(unit=unit.stem, path=gfx_path)
-
-            p.write(content + "\n")
-    
-    print(f"Generated: {pnml_file}")
-
-
 def main(input_folder, 
          palette_path=default_palette_path,
          manifest_path=default_manifest_path,
@@ -160,7 +133,7 @@ def main(input_folder,
         display_progress(rendered_count, total)
 
         for f in vox_files:
-            render_and_move(f, palette_path, manifest_path, output_path)
+            # render_and_move(f, palette_path, manifest_path, output_path)
             rendered_count += 1
             display_progress(rendered_count, total)
 
