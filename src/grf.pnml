@@ -164,7 +164,7 @@ if(param["RUKT", 1] != 0)
 
 basecost {
 	PR_BUILD_VEHICLE_TRAIN: (param[6] - 5);
-	PR_BUILD_VEHICLE_WAGON: (param[6] - 5);
+	PR_BUILD_VEHICLE_WAGON: (param[6] - 3);
 	PR_RUNNING_TRAIN_STEAM: (param[7] - 5);
 	PR_RUNNING_TRAIN_DIESEL: (param[7] - 4);
 	PR_RUNNING_TRAIN_ELECTRIC: (param[7] - 4);

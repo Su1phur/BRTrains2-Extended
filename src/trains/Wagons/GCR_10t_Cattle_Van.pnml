@@ -88,7 +88,7 @@ item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 11406) {
         purchase:                       spriteset_GCR_10t_Cattle_Van_purchase;
         
         // internal code
-        cost_factor:                    8;
+        cost_factor:                    404;
         running_cost_factor:            385;
         cargo_subtype_text:             sw_GCR_10t_Cattle_Van_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;

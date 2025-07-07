@@ -61,7 +61,7 @@ item (FEAT_TRAINS, item_RCH_1907_1_Plank, 11404) {
         purchase:                       spriteset_RCH_1907_1_Plank_purchase;
         
         // internal code
-        cost_factor:                    8;
+        cost_factor:                    414;
         running_cost_factor:            285;
         cargo_subtype_text:             sw_RCH_1907_1_Plank_cargo_subtype_text; 
         // colour_mapping:                 return PALETTE_CC_FIRST;

@@ -202,7 +202,7 @@ item (FEAT_TRAINS, item_GWR_TK_C24, 11501) { // GWR Diagram C24 Churchward "Drea
         // speed:                          sw_speed_GWR_TK_C24() * 1609 / 1000;  
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_GWR_TK_C24;
-        cost_factor:                    37;
+        cost_factor:                    1860;
         running_cost_factor:            814;
         cargo_subtype_text:             sw_GWR_TK_C24_cargo_subtype_text; 
         // power:                          sw_power_GWR_TK_C24;

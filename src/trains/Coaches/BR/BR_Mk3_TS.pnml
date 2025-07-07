@@ -26,20 +26,11 @@ spriteset(spriteset_BR_Mk3_TS_BR_Blue_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_
 // loading sprite
 spritegroup spritegroup_BR_Mk3_TS_BR_Blue_Loading {  
     loaded: [spriteset_empty];
-    loading: [spriteset_BR_Mk3_TS_BR_Blue_Loading];
-}
+    loading: [spriteset_BR_Mk3_TS_BR_Blue_Loading]; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_BR_Blue, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_BR_Blue;
-    1: spritegroup_BR_Mk3_TS_BR_Blue_Loading;
-}
-
-// purchase sprite
-spriteset(spriteset_BR_Mk3_TS_BR_Blue_purchase, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Blue_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3_TS_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Blue_1x_mask.png")
-    { template_purchase(0,0) }
+    1: spritegroup_BR_Mk3_TS_BR_Blue_Loading; }
 
 // basic sprites
 spriteset(spriteset_BR_Mk3_TS_BR_Intercity, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Intercity_1x_8bpp.png")
@@ -70,20 +61,11 @@ spriteset(spriteset_BR_Mk3_TS_BR_Intercity_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk
 // loading sprite
 spritegroup spritegroup_BR_Mk3_TS_BR_Intercity_Loading {  
     loaded: [spriteset_empty];
-    loading: [spriteset_BR_Mk3_TS_BR_Intercity_Loading];
-}
+    loading: [spriteset_BR_Mk3_TS_BR_Intercity_Loading]; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_BR_Intercity, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_BR_Intercity;
-    1: spritegroup_BR_Mk3_TS_BR_Intercity_Loading;
-}
-
-// purchase sprite
-spriteset(spriteset_BR_Mk3_TS_BR_Intercity_purchase, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Intercity_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3_TS_BR_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Intercity_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_BR_Intercity_1x_mask.png")
-    { template_purchase(0,0) }
+    1: spritegroup_BR_Mk3_TS_BR_Intercity_Loading; }
 
 
 // basic sprites
@@ -103,8 +85,7 @@ spriteset(spriteset_BR_Mk3_TS_GNER, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_8bp
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_GNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_GNER;
-    1: spritegroup_BR_Mk3_GNER_Loading;
-}
+    1: spritegroup_BR_Mk3_GNER_Loading; }
 
 // basic sprites
 spriteset(spriteset_BR_Mk3_TS_Midland_Mainline, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Midland_Mainline_1x_8bpp.png")
@@ -123,8 +104,7 @@ spriteset(spriteset_BR_Mk3_TS_Midland_Mainline, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Midland_Mainline, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_Midland_Mainline;
-    1: spritegroup_BR_Mk3_Midland_Mainline_Loading;
-}
+    1: spritegroup_BR_Mk3_Midland_Mainline_Loading; }
 
 // basic sprites
 spriteset(spriteset_BR_Mk3_TS_GWT, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_1x_8bpp.png")
@@ -155,13 +135,11 @@ spriteset(spriteset_BR_Mk3_TS_GWT_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWT_
 // loading sprite
 spritegroup spritegroup_BR_Mk3_TS_GWT_Loading {  
     loaded: [spriteset_empty];
-    loading: [spriteset_BR_Mk3_TS_GWT_Loading];
-}
+    loading: [spriteset_BR_Mk3_TS_GWT_Loading]; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_GWT, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_GWT;
-    1: spritegroup_BR_Mk3_TS_GWT_Loading;
-}
+    1: spritegroup_BR_Mk3_TS_GWT_Loading; }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3_TS, cargo_subtype) {
@@ -169,8 +147,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3_TS, cargo_subtype) {
     1: sw_loadstack_BR_Mk3_TS_BR_Intercity;
     2: sw_loadstack_BR_Mk3_TS_GNER;
     3: sw_loadstack_BR_Mk3_TS_Midland_Mainline;
-    4: sw_loadstack_BR_Mk3_TS_GWT;
-}
+    4: sw_loadstack_BR_Mk3_TS_GWT; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk3_TS_cargo_subtype_text, cargo_subtype){
@@ -179,44 +156,32 @@ switch(FEAT_TRAINS, SELF, sw_BR_Mk3_TS_cargo_subtype_text, cargo_subtype){
     2:  return string(str_GNER);
     3:  return string(str_MMLTealTang);
     4:  return string(str_GWT);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk3_TS, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
 	1: return sw_livery_BR_Mk3_TS;
-	2: spriteset_empty;
-}
-
-// purchase year switch
-switch(FEAT_TRAINS, PARENT, sw_BR_Mk3_TS_purchase_sprite, current_year) {
-    1965..1982: spriteset_BR_Mk3_TS_BR_Blue_purchase;
-    1983..1993: spriteset_BR_Mk3_TS_BR_Intercity_purchase;
-        spriteset_BR_Mk3_TS_BR_Intercity_purchase;
-}
+	2: spriteset_empty; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR_Mk3_TS, position_in_articulated_veh % 3) {
 	0: 4;
 	1: 6;
-	2: 4;
-}
+	2: 4; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3_TS, position_in_vehid_chain % 3) {
     0: 69 * param_pax; // all the capacity - (vehid chain number)
     1..2: 1 * param_pax;
-    // total 72
+    // total 72 
 }
-
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk3_TS, extra_callback_info1) {
 	1: return item_BR_Mk3_TS;
 	2: return item_BR_Mk3_TS;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
 item (FEAT_TRAINS, item_BR_Mk3_TS, 12126) {
@@ -261,7 +226,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TS, 12126) {
         articulated_part:               sw_articulated_BR_Mk3_TS;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk3_TS;
-        cost_factor:                    60;
+        cost_factor:                    3000;
         running_cost_factor:            2055;
         cargo_subtype_text:             sw_BR_Mk3_TS_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;

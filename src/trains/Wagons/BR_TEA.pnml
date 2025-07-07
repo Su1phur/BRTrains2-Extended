@@ -254,8 +254,8 @@ item (FEAT_TRAINS, item_BR_TEA, 12204) {
         length:                         sw_length_BR_TEA;
         articulated_part:               sw_articulated_BR_TEA; 
         speed:                          sw_speed_BR_TEA() * 1609 / 1000;
-        cost_factor:                    30;
-        running_cost_factor:            863;
+        cost_factor:                    3051;
+        running_cost_factor:            1199;
         cargo_subtype_text:             sw_BR_TEA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

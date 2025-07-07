@@ -153,7 +153,7 @@ item (FEAT_TRAINS, item_BR_Mk3a_TSO, 12136) {
         articulated_part:               sw_articulated_BR_Mk3a_TSO;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk3a_TSO;
-        cost_factor:                    60;
+        cost_factor:                    3000;
         running_cost_factor:            2055;
         cargo_subtype_text:             sw_BR_Mk3a_TSO_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;

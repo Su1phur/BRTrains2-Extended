@@ -210,8 +210,8 @@ item (FEAT_TRAINS, item_BR_TTA, 12203) {
         purchase:                       spriteset_BR_TTA_purchase;
 
         // internal code
-        cost_factor:                    61;
-        running_cost_factor:            1199;
+        cost_factor:                    1547;
+        running_cost_factor:            863;
         cargo_subtype_text:             sw_BR_TTA_cargo_subtype_text; 
         // power:                          sw_power_BR_TTA;
         colour_mapping:                 return PALETTE_CC_FIRST;

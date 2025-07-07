@@ -54,7 +54,7 @@ item (FEAT_TRAINS, item_BR_Mk1_TSO, 12038) { // Diagram 93 BR Mk1 TSO
         articulated_part:               switch_articulated_BR_Mk1_TSO;
         purchase_cargo_capacity:        return (21 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_TSO;
-        cost_factor:                    46;
+        cost_factor:                    2327;
         running_cost_factor:            1404;
         cargo_subtype_text:             sw_BR_Mk1_TSO_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;

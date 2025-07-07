@@ -96,7 +96,7 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 12200) { // Diagram 61/62 12/13 ton contai
         // cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_BR_Conflat_A;
-        cost_factor:                    14;
+        cost_factor:                    725;
         running_cost_factor:            646;
         cargo_subtype_text:             sw_BR_Conflat_A_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
