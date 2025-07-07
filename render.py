@@ -133,7 +133,7 @@ def main(input_folder,
         display_progress(rendered_count, total)
 
         for f in vox_files:
-            # render_and_move(f, palette_path, manifest_path, output_path)
+            render_and_move(f, palette_path, manifest_path, output_path)
             rendered_count += 1
             display_progress(rendered_count, total)
 
