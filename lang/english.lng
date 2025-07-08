@@ -256,6 +256,7 @@ str_purchase_type_dmu			:{RED}Diesel Multiple Unit
 str_purchase_type_demu			:{RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit
 str_purchase_type_emu			:{BLUE}Electric Multiple Unit
 str_purchase_type_electric		:{BLUE}Electric Locomotive
+str_purchase_type_electro_diesel    :{BLUE}Electro-{RED}Diesel Locomotive
 str_purchase_type_gtu  		    :{ORANGE}Gas Turbine Experimental Unit
 
 STR_NAME_MPV_Single				:Departmental Class 98/9 "MPV" Track Maintenance Unit (1-car)
@@ -622,6 +623,14 @@ STR_NAME_BR71					:BR Class 71
 str_BR71_usage					:Mixed Traffic
 str_BR71_eos					:---
 str_BR71_liveries				:BR Green
+
+STR_NAME_BR73_0                 :BR Class 73/0
+STR_NAME_BR73_1                 :BR Class 73/1
+STR_NAME_BR73_9                 :BR Class 73/9
+str_BR73_usage                  :Mixed Traffic
+str_BR73_0_liveries             :BR Green, BR Blue
+str_BR73_1_liveries             :BR Blue, Intercity, NSE
+str_BR73_9_liveries             :BR Blue, GBRf, Caledonian Sleeper
 
 STR_NAME_18100					:BR 18100 (Gas Turbine Prototype)
 str_18100_usage					:Experimental

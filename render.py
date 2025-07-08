@@ -125,7 +125,7 @@ def main(input_folder,
         else:
             output_path = Path(output) 
 
-        vox_files = {f for f in input_folder.iterdir() if f.suffix == ".vox"}
+        vox_files = sorted({f for f in input_folder.iterdir() if f.suffix == ".vox"})
 
         total = len(vox_files)
         print(f"Total {total} .vox files to be rendered.")

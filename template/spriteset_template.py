@@ -3,14 +3,14 @@ PNML_TEMPLATE = """
 spriteset(spriteset_{unit}, "{path}\\{unit}_1x_8bpp.png")
     {{ template_trains_1x(0,0) }}
 
-alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "{path}\\{unit}_1x_32bpp.png", "{path}\\{unit}_1x_mask.png")
-    {{ template_trains_1x(0,0) }}
+    alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "{path}\\{unit}_1x_32bpp.png", "{path}\\{unit}_1x_mask.png")
+        {{ template_trains_1x(0,0) }}
 
-alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "{path}\\{unit}_2x_32bpp.png", "{path}\\{unit}_2x_mask.png")
-    {{ template_trains_2x(0,0) }}
+    alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "{path}\\{unit}_2x_32bpp.png", "{path}\\{unit}_2x_mask.png")
+        {{ template_trains_2x(0,0) }}
 
-alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "{path}\\{unit}_4x_32bpp.png", "{path}\\{unit}_4x_mask.png")
-    {{ template_trains_4x(0,0) }}
+    alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "{path}\\{unit}_4x_32bpp.png", "{path}\\{unit}_4x_mask.png")
+        {{ template_trains_4x(0,0) }}
 
 // purchase sprite
 spriteset(spriteset_{unit}_purchase, "{path}\\{unit}_1x_8bpp.png")

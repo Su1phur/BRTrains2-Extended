@@ -1,0 +1,474 @@
+// basic sprite
+spriteset(spriteset_BR73_0_BRBlue_LargeLogo, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_0_BRBlue_LargeLogo_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_0_BRBlue_SmallYellow, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_0_BRBlue_SmallYellow_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_0_BRBlue_YellowFront, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_0_BRBlue_YellowFront_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_0_BRGreen, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_0_BRGreen_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_0_BRGreen_GreyStripe, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_0_BRGreen_GreyStripe_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_0_BRGreen_SmallYellow, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_0_BRGreen_SmallYellow_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+switch(FEAT_TRAINS, PARENT, sw_BR73_0_purchase_sprite, current_year) {
+    1948..1968: spriteset_BR73_0_BRGreen_purchase;
+    1969..1998: spriteset_BR73_0_BRBlue_YellowFront_purchase;
+        spriteset_BR73_0_BRBlue_YellowFront_purchase; }
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_BR73_Diesel, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+switch(FEAT_TRAINS, SELF, sw_FX_BR73_Electric, position_in_vehid_chain % 3) { // middle catenary
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+    1: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+switch(FEAT_TRAINS, PARENT, sw_FX_BR73, tile_powers_railtype("BR_3RDR")) {
+    1: sw_FX_BR73_Electric;
+        sw_FX_BR73_Diesel; }
+
+// dual mode switch
+switch(FEAT_TRAINS, PARENT, sw_power_BR73_0, tile_powers_railtype("BR_3RDR")){
+    1: 1420;
+        600; }
+
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR73_0, cargo_subtype) {
+    0: spriteset_BR73_0_BRGreen;
+    1: spriteset_BR73_0_BRGreen_GreyStripe;
+    2: spriteset_BR73_0_BRGreen_SmallYellow;
+    3: spriteset_BR73_0_BRBlue_SmallYellow;
+    4: spriteset_BR73_0_BRBlue_YellowFront;
+    5: spriteset_BR73_0_BRBlue_LargeLogo; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR73_0_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRGreen_Late);
+    1:  return string(str_BRGreen);
+    2:  return string(str_BRGreenPanel);
+    3:  return string(str_BRBluePanel);
+    4:  return string(str_BRBlueFront);
+    5:  return string(str_BRLLogo);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR73_0, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR73_0;
+	2: spriteset_empty; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR73, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 2;
+	2: 4; }
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR73_0, extra_callback_info1) {
+	1: return item_BR73_0;
+	2: return item_BR73_0;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR73_0, 7300) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR73_0);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1962,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          80 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          600 hp;
+        weight:                         78 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.1;
+        tractive_effort_coefficient:    0.22;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR73_0;
+        purchase:                       sw_BR73_0_purchase_sprite;
+        visual_effect_and_powered:      sw_FX_BR73;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR73;
+        articulated_part:               sw_articulated_BR73_0;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    77;
+        running_cost_factor:            4851;
+        cargo_subtype_text:             sw_BR73_0_cargo_subtype_text; 
+        power:                          sw_power_BR73_0;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electro_diesel),
+                                                    string(str_BR73_usage),
+                                                    string(str_BR73_0_liveries)));
+    }
+}
+
+// basic sprite
+spriteset(spriteset_BR73_1_BR_Intercity, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_1_BR_Intercity_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BR_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_1_BRBlue_FullYellow, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_1_BRBlue_FullYellow_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_1_BRBlue_LargeLogo, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_1_BRBlue_LargeLogo_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_1_BRBlue_SmallYellow, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_1_BRBlue_SmallYellow_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR73_1_NSE, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_8bpp.png")
+    { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_mask.png")
+        { template_108trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_2x_mask.png")
+        { template_108trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_4x_mask.png")
+        { template_108trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR73_1_NSE_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR73_1_NSE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+switch(FEAT_TRAINS, PARENT, sw_BR73_1_purchase_sprite, current_year) {
+    1965..1982: spriteset_BR73_1_BRBlue_FullYellow_purchase;
+    1983..1998: spriteset_BR73_1_BRBlue_LargeLogo_purchase;
+        spriteset_BR73_1_BRBlue_LargeLogo_purchase; }
+
+switch(FEAT_TRAINS,PARENT,sw_power_BR73_1, tile_powers_railtype("BR_3RDR")){
+    1: 1420;
+        600; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR73_1, cargo_subtype) {
+    0: spriteset_BR73_1_BRBlue_FullYellow;
+    1: spriteset_BR73_1_BRBlue_SmallYellow;
+    2: spriteset_BR73_1_BRBlue_LargeLogo;
+    3: spriteset_BR73_1_BR_Intercity;
+    4: spriteset_BR73_1_NSE;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR73_1_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRBlueFront);
+    1:  return string(str_BRBluePanel);
+    2:  return string(str_BRLLogo);
+    3:  return string(str_BRInterCity);
+    4:  return string(str_NSE);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR73_1, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR73_1;
+	2: spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR73_1, position_in_articulated_veh % 3) {
+	0: 4;
+	1: 2;
+	2: 4; }
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR73_1, extra_callback_info1) {
+	1: return item_BR73_1;
+	2: return item_BR73_1;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR73_1, 7310) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR73_1);
+        variant_group:                  item_BR73_0; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1965,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        // cargo_capacity:                 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          90 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          600 hp;
+        weight:                         78 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.09;
+        tractive_effort_coefficient:    0.23;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR73_1;
+        purchase:                       sw_BR73_1_purchase_sprite;
+        visual_effect_and_powered:      sw_FX_BR73;
+
+        // internal code
+        length:                         sw_length_BR73_1;
+        articulated_part:               sw_articulated_BR73_1;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    83;
+        running_cost_factor:            5241;
+        cargo_subtype_text:             sw_BR73_1_cargo_subtype_text; 
+        power:                          sw_power_BR73_1;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electro_diesel),
+                                                    string(str_BR73_usage),
+                                                    string(str_BR73_1_liveries)));
+    }
+}
