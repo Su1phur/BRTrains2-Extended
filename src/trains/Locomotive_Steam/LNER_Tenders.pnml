@@ -1,3 +1,83 @@
+// GNR 5000 Gal Tender
+// basic sprites
+spriteset(spriteset_GNR_5000gal_LNER_Apple_Green, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_LNER_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_1x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_LNER_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_2x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_LNER_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_4x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Apple_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GNR_5000gal_LNER_Wartime_Black, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_LNER_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_1x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_LNER_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_2x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_LNER_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_4x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_LNER_Wartime_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GNR_5000gal_BR_Apple_Green, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_1x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_2x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_4x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Apple_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GNR_5000gal_BR_Express_Blue, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_1x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_2x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_4x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Express_Blue_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GNR_5000gal_BR_Green_Early_Emblem, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_1x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_2x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_4x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Early_Emblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GNR_5000gal_BR_Green_Late_Crest, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_1x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_2x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GNR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_4x_32bpp.png", "gfx\Tender\GNR_5000gal\GNR_5000gal_BR_Green_Late_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// LNER Gresley 5000 Gal Tender
 // basic sprites
 spriteset(spriteset_LNER_5000gal_LNER_Apple_Green, "gfx\Tender\LNER_5000gal\LNER_5000gal_LNER_Apple_Green_1x_8bpp.png")
     { template_58trains_1x(0,0) }

@@ -228,7 +228,8 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     # Get a list of all the pnml files in src
     file_list = dict()
     pnml_files = OrderedDict( [ ("Top level", list()), ("Priority", list()), ("Normal", list()), ("Append", list()) ] )
-    
+    tender_files = dict()
+
     for file in src_directory.rglob("*.pnml"):
         relative_path = file.relative_to(src_directory)
 
@@ -246,9 +247,12 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
             pnml_files["Priority"].append(file)
         elif "append" in relative_path.parts:
             pnml_files["Append"].append(file)
+        elif "Tenders" in file.stem:
+            company_name = file.stem.rsplit("_")[0]
+            tender_files[company_name] = file
         else:
             pnml_files["Normal"].append(file)
-    
+
     f = lambda a: "src" if a == src_directory else "/".join(directory.parts[1:])
     for directory in file_list.keys():
         print(f"Found in directory [{f(directory)}]:")
@@ -259,7 +263,15 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     # iterate over all pnml files in the dictionary, and append it to the nml file
     for key, file_list in pnml_files.items():
         print(f"Starting to read {key} files")
+        
         for file in sorted(file_list):
+            if "Locomotive_Steam" in file.parts:
+                engine_company_name = file.stem.rsplit("_")[0]
+                if engine_company_name in tender_files:
+                    tender_file = tender_files.pop(engine_company_name)
+                    print(f"Reading Tender file: {tender_file.stem + tender_file.suffix}")
+                    nml_file = copy_file(tender_file, nml_file)
+
             print(f"Reading {key} file: {file.stem + file.suffix}")
             nml_file = copy_file(file, nml_file)
 

@@ -1,9 +1,6 @@
 spriteset(spriteset_LNER_21t_Hopper_bulk_30, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
     alternative_sprites(spriteset_LNER_21t_Hopper_bulk_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_30_2x_8bpp.png")
     { template_58trains_2x(0,0) }
 
@@ -14,9 +11,6 @@ spriteset(spriteset_LNER_21t_Hopper_bulk_30, "gfx\Wagons\LNER_21t_Hopper\LNER_21
 spriteset(spriteset_LNER_21t_Hopper_bulk_60, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
     alternative_sprites(spriteset_LNER_21t_Hopper_bulk_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_60_2x_8bpp.png")
     { template_58trains_2x(0,0) }
 
@@ -25,9 +19,6 @@ spriteset(spriteset_LNER_21t_Hopper_bulk_60, "gfx\Wagons\LNER_21t_Hopper\LNER_21
 
 
 spriteset(spriteset_LNER_21t_Hopper_bulk_100, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_LNER_21t_Hopper_bulk_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
     alternative_sprites(spriteset_LNER_21t_Hopper_bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\LNER_21t_Hopper\LNER_21t_Hopper_Bulk_100_2x_8bpp.png")
