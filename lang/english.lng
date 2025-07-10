@@ -387,6 +387,10 @@ str_LMSBigBertha_usage		        :Banking
 str_LMSBigBertha_eos			    :1919-1956
 str_LMSBigBertha_liveries		    :MR Maroon
 
+STR_NAME_LMS_4F                     :LMS Fowler Class 4F
+str_LMS_4F_usage                    :Freight
+str_LMS_4F_liveries                 :LMS Black, BR Black, SDJR Blue
+
 STR_NAME_LMS_Jubilee				:LMS Jubilee Class
 STR_NAME_LMS_Rebuilt_Jubilee        :LMS Rebuilt Jubilee Class
 str_LMS_Jubilee_usage		        :Express Passenger
@@ -1952,6 +1956,7 @@ str_ScotRail					: (ScotRail)
 str_ScotRailPride				: (ScotRail Pride)
 str_ScotRail_I7C                : (ScotRail - Inter7City)
 str_ScotRailSaltire				: (ScotRail - Saltire)
+str_SDJRBlue                    : (S&DJR - Blue)
 str_Shell                       : (Shell)
 str_Siemens						: (Siemens Demonstrator)
 str_Silverlink					: (Silverlink)
