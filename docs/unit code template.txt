@@ -200,7 +200,7 @@ spriteset(spriteset_UNIT_livery_purchase, "PATH\UNIT_livery_1x_8bpp.png")
     alternative_sprites(spriteset_UNIT_livery_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "PATH\UNIT_livery_1x_32bpp.png", "PATH\UNIT_livery_1x_mask.png")
     { template_purchase(0,0) }
 
-switch(FEAT_TRAINS, PARENT, sw_UNIT_livery_purchase_sprite, current_year) {
+switch(FEAT_TRAINS, PARENT, sw_UNIT_purchase_sprite, current_year) {
     1800..1900: ;
     1901..1924: ;
     1924..1948: ;
@@ -220,7 +220,7 @@ switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Diesel, position_in_vehid_chain % 3) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
     1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
         return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
-    
+
 switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Electric, position_in_vehid_chain % 3) { // front catenary
     0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
         return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }

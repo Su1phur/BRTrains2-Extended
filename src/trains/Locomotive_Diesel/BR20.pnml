@@ -96,7 +96,7 @@ spriteset(spriteset_BR20_BRGreen_YellowPanel_purchase, "gfx\Locomotive_Diesel\BR
     alternative_sprites(spriteset_BR20_BRGreen_YellowPanel_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR20\BR20_BRGreen_YellowPanel_1x_32bpp.png", "gfx\Locomotive_Diesel\BR20\BR20_BRGreen_YellowPanel_1x_mask.png")
     { template_purchase(0,0) }
 
-switch(FEAT_TRAINS, PARENT, sw_BR20_livery_purchase_sprite, current_year) {
+switch(FEAT_TRAINS, PARENT, sw_BR20_purchase_sprite, current_year) {
     1948..1968: spriteset_BR20_BRGreen_YellowPanel_purchase;
     1968..1998: spriteset_BR20_BRBlueCentre_purchase;
         spriteset_BR20_BRBlueCentre_purchase; }
@@ -135,6 +135,24 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR20, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
 	1: return sw_random_forward_BR20;
 	2: spriteset_empty; }
+
+// switch(FEAT_TRAINS, SELF, sw_graphics_BR20_engine_front, position_in_articulated_veh % 6) {
+// 	1: return sw_livery_BR20;
+//     4: return sw_livery_BR20_REV;
+//         spriteset_empty; }
+
+// switch(FEAT_TRAINS, SELF, sw_graphics_BR20_cab_front, position_in_articulated_veh % 6) {
+// 	1: return sw_livery_BR20_REV;
+//     4: return sw_livery_BR20;
+//         spriteset_empty; }
+
+// switch(FEAT_TRAINS, SELF, sw_random_forward_BR20, switch_alternative_var_random_bits(1,1)) {
+//     0: sw_graphics_BR20_engine_front;
+//         sw_graphics_BR20_cab_front; }
+
+// switch(FEAT_TRAINS, SELF, sw_rear_BR20, num_vehs_in_consist > 6 ? position_in_consist_from_end : -1) {
+//     1: sw_livery_BR20_REV;
+//         sw_random_forward_BR20; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR20, position_in_articulated_veh % 3) {
@@ -190,9 +208,10 @@ item (FEAT_TRAINS, item_BR20, 2000) {
 
     graphics {
         // graphics
+        // default:                        sw_rear_BR20;
         default:                        sw_graphics_BR20;
         visual_effect_and_powered:      sw_FX_BR20_Diesel;
-        purchase:                       sw_BR20_livery_purchase_sprite;
+        purchase:                       sw_BR20_purchase_sprite;
         // sound_effect:                   ;
 
         // internal code
