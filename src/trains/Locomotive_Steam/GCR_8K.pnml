@@ -352,7 +352,7 @@ item (FEAT_TRAINS, item_GCR_8K, 6350) {
         speed:                          40 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          2025 hp;
+        power:                          2020 hp;
         weight:                         110 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -376,7 +376,7 @@ item (FEAT_TRAINS, item_GCR_8K, 6350) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    71;
-        running_cost_factor:            4625;
+        running_cost_factor:            4617;
         cargo_subtype_text:             sw_GCR_8K_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -457,7 +457,7 @@ item (FEAT_TRAINS, item_GWR_3000, 300) {
         speed:                          40 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          2050 hp;
+        power:                          2035 hp;
         weight:                         110 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -479,8 +479,8 @@ item (FEAT_TRAINS, item_GWR_3000, 300) {
         speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    72;
-        running_cost_factor:            4668;
+        cost_factor:                    71;
+        running_cost_factor:            4642;
         cargo_subtype_text:             sw_GWR_3000_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -558,7 +558,7 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         speed:                          40 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          2100 hp;
+        power:                          2080 hp;
         weight:                         112 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -580,8 +580,8 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    88;
-        running_cost_factor:            5266;
+        cost_factor:                    87;
+        running_cost_factor:            5227;
         cargo_subtype_text:             sw_LNER_O4_8_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

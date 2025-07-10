@@ -237,7 +237,7 @@ item (FEAT_TRAINS, item_LSWR_N15, 3072) {
         speed:                          90 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1475 hp;
+        power:                          1615 hp;
         weight:                         140 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -258,8 +258,8 @@ item (FEAT_TRAINS, item_LSWR_N15, 3072) {
         articulated_part:               sw_articulated_LSWR_N15;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    73;
-        running_cost_factor:            4856;
+        cost_factor:                    76;
+        running_cost_factor:            5095;
         cargo_subtype_text:             sw_LSWR_N15_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

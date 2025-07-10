@@ -139,12 +139,12 @@ item (FEAT_TRAINS, item_SR_N15, 3040) {
         speed:                          90 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1535 hp;
+        power:                          1630 hp;
         weight:                         141 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.10;
-        tractive_effort_coefficient:    0.08;
+        tractive_effort_coefficient:    0.09;
         length:                         8;
     }
 
@@ -159,8 +159,8 @@ item (FEAT_TRAINS, item_SR_N15, 3040) {
         articulated_part:               sw_articulated_SR_N15;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    85;
-        running_cost_factor:            5334;
+        cost_factor:                    88;
+        running_cost_factor:            5519;
         cargo_subtype_text:             sw_SR_N15_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

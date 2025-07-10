@@ -163,8 +163,8 @@ switch(FEAT_TRAINS, SELF, sw_length_LMS_8F, position_in_articulated_veh % 2) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_LMS_8F, param_max_speed) {
-    0: 40; // operational speed
-    1: 60; // design speed
+    0: 50; // operational speed
+    1: 75; // design speed
 }
 
 // articulation switch
@@ -204,12 +204,12 @@ item (FEAT_TRAINS, item_LMS_8F, 4802) {
         speed:                          40 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          2300 hp;
+        power:                          2280 hp;
         weight:                         128 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.16;
+        tractive_effort_coefficient:    0.12;
         length:                         8;
     }
 
@@ -226,9 +226,8 @@ item (FEAT_TRAINS, item_LMS_8F, 4802) {
         speed:                          sw_speed_LMS_8F() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
-        cost_factor:                    94;
-        running_cost_factor:            5656;
+        cost_factor:                    98;
+        running_cost_factor:            5909;
         cargo_subtype_text:             sw_LMS_8F_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

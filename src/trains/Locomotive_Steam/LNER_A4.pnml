@@ -381,12 +381,12 @@ item (FEAT_TRAINS, item_LNER_A4, 6004) {
         speed:                          100 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1950 hp;
+        power:                          2280 hp;
         weight:                         170 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.08;
-        tractive_effort_coefficient:    0.09;
+        tractive_effort_coefficient:    0.1;
         length:                         8;
     }
 
@@ -405,8 +405,8 @@ item (FEAT_TRAINS, item_LNER_A4, 6004) {
         cargo_capacity:                 return 0;
         // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
         // cargo_capacity:                 sw_capacity_LNER_A4;
-        cost_factor:                    66;
-        running_cost_factor:            3803;
+        cost_factor:                    118;
+        running_cost_factor:            7372;
         cargo_subtype_text:             sw_LNER_A4_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

@@ -183,7 +183,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         speed:                          60 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1416 hp;
+        power:                          1415 hp;
         weight:                         91 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -207,7 +207,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    63;
-        running_cost_factor:            4562;
+        running_cost_factor:            4560;
         cargo_subtype_text:             sw_LMS_4F_cargo_subtype_text; 
         // power:                          sw_power_LMS_4F;
         colour_mapping:                 return PALETTE_CC_FIRST;

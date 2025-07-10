@@ -190,7 +190,7 @@ item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
         speed:                          90 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1670 hp;
+        power:                          1855 hp;
         weight:                         136 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -211,8 +211,8 @@ item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
         speed:                          sw_speed_LMS_Jubilee() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    93;
-        running_cost_factor:            5860;
+        cost_factor:                    100;
+        running_cost_factor:            6251;
         cargo_subtype_text:             sw_LMS_Jubilee_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

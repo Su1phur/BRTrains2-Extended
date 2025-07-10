@@ -194,7 +194,7 @@ item (FEAT_TRAINS, item_LNER_O1, 6357) {
         speed:                          40 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          2200 hp;
+        power:                          2090 hp;
         weight:                         112 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
@@ -217,8 +217,8 @@ item (FEAT_TRAINS, item_LNER_O1, 6357) {
         speed:                          sw_speed_LNER_O1() * 1609 / 1000;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    91;
-        running_cost_factor:            5461;
+        cost_factor:                    87;
+        running_cost_factor:            5246;
         cargo_subtype_text:             sw_LNER_O1_cargo_subtype_text; 
         // power:                          sw_power_LNER_O1;
         colour_mapping:                 return PALETTE_CC_FIRST;
