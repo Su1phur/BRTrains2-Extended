@@ -256,7 +256,6 @@ str_purchase_type_dmu			:{RED}Diesel Multiple Unit
 str_purchase_type_demu			:{RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit
 str_purchase_type_emu			:{BLUE}Electric Multiple Unit
 str_purchase_type_electric		:{BLUE}Electric Locomotive
-str_purchase_type_electro_diesel    :{BLUE}Electro-{RED}Diesel Locomotive
 str_purchase_type_gtu  		    :{ORANGE}Gas Turbine Experimental Unit
 
 STR_NAME_MPV_Single				:Departmental Class 98/9 "MPV" Track Maintenance Unit (1-car)
@@ -1351,13 +1350,8 @@ str_BRTTA_usage					:Liquid Cargo
 str_BRTTA_eos					:---
 str_BRTTA_liveries				:Mobil, Esso, BP (x3), SUKO, Gulf, Shell (x2), Murco, Total, VTG
 
-STR_NAME_BRVGA					:BR VGA Wagon
-str_BRVGA_usage					:Goods, Misc. Cargo
-str_BRVGA_liveries				:BR Grey, BR Grey (Speedlink), BR Grey (Exhibition)
-
-STR_NAME_BRVKA					:BR VKA Wagon
-str_BRVKA_usage					:Goods, Misc. Cargo
-str_BRVKA_liveries				:BR Grey, BR Grey (Speedlink), BR Grey (Exhibition)
+STR_NAME_BR_VGA					:BR VGA/VKA Wagon
+str_BR_VGA_liveries				:Railfreight, EWS, DB Cargo
 
 STR_NAME_BRContainer			:BR Container Flatbed Wagon
 str_BRContainer_usage			:Misc. Cargo
@@ -1734,8 +1728,9 @@ str_ColasRail					: (Colas Rail)
 str_Connex						: (Connex)
 str_Continental_Airlines		: (Continental Airlines)
 str_Corus						: (Corus)
-str_DBSchenker					: (DB Schenker)
+str_DBCargo                     : (DB Cargo)
 str_DBSCompany					: (DB Schenker - Company Train)
+str_DBSchenker					: (DB Schenker)
 str_DBSteel                     : (DB - Steel on Steel)
 str_DeptGrey					: (Departmental Grey)
 str_DLRRed                      : (Docklands Light Railway - Red)

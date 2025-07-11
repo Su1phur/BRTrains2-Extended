@@ -1,0 +1,150 @@
+// basic sprite
+spriteset(spriteset_BR_VGA_DB_Cargo, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_1x_mask.png")
+        { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_2x_mask.png")
+        { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_4x_mask.png")
+        { template_98trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_VGA_EWS, "gfx\Wagons\BR_VGA\BR_VGA_EWS_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_EWS_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_EWS_1x_mask.png")
+        { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_EWS_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_EWS_2x_mask.png")
+        { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_EWS_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_EWS_4x_mask.png")
+        { template_98trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_VGA_Railfreight, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_mask.png")
+        { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_2x_mask.png")
+        { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_4x_mask.png")
+        { template_98trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_VGA_Railfreight_purchase, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR_VGA_Railfreight_Distribution, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_1x_mask.png")
+        { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_2x_mask.png")
+        { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_4x_mask.png")
+        { template_98trains_4x(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_VGA, cargo_subtype) {
+    0: spriteset_BR_VGA_Railfreight;
+    1: spriteset_BR_VGA_Railfreight_Distribution;
+    2: spriteset_BR_VGA_EWS;
+    3: spriteset_BR_VGA_DB_Cargo; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_VGA_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_RailfreightGrey);
+    1:  return string(str_RFDistribution);
+    2:  return string(str_EWSRed);
+    3:  return string(str_DBCargo);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_VGA, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR_VGA;
+	2: spriteset_empty; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR_VGA, position_in_articulated_veh % 3) {
+	0: 3;
+	1: 3;
+	2: 3; }
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_VGA, extra_callback_info1) {
+	1: return item_BR_VGA;
+	2: return item_BR_VGA;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR_VGA, 12252) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_VGA);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1981,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_EXPRESS, CC_PIECE_GOODS, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_NON_POURABLE, CC_NEO_BULK);	
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 13 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          75 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         18 ton;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.3;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_VGA;
+        purchase:                       spriteset_BR_VGA_Railfreight_purchase;
+
+        // internal code
+        length:                         sw_length_BR_VGA;
+        articulated_part:               sw_articulated_BR_VGA;
+        purchase_cargo_capacity:        return (13 * param_freight); // divide by number of articulated parts and floor
+        cost_factor:                    1460;
+        running_cost_factor:            1298;
+        cargo_subtype_text:             sw_BR_VGA_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_VGA_liveries)));
+    }
+}
