@@ -425,7 +425,7 @@ item (FEAT_TRAINS, item_BR309, 3090) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_electric),
+                                                    string(str_purchase_type_emu),
                                                     string(str_BR309_usage),
                                                     string(str_BR309_liveries)));
     }
@@ -536,7 +536,7 @@ item (FEAT_TRAINS, item_BR309_1, 3091) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_electric),
+                                                    string(str_purchase_type_emu),
                                                     string(str_BR309_usage),
                                                     string(str_BR309_liveries)));
     }
@@ -656,7 +656,7 @@ item (FEAT_TRAINS, item_BR309_2, 3092) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_electric),
+                                                    string(str_purchase_type_emu),
                                                     string(str_BR309_usage),
                                                     string(str_BR309_liveries)));
     }
@@ -753,7 +753,7 @@ item (FEAT_TRAINS, item_BR309_3, 3093) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_electric),
+                                                    string(str_purchase_type_emu),
                                                     string(str_BR309_usage),
                                                     string(str_BR309_liveries)));
     }

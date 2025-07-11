@@ -172,7 +172,7 @@ switch(FEAT_TRAINS, SELF, sw_length_BR_Mk3_TS, position_in_articulated_veh % 3) 
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3_TS, position_in_vehid_chain % 3) {
-    0: 69 * param_pax; // all the capacity - (vehid chain number)
+    0: 70 * param_pax; // all the capacity - (vehid chain number)
     1..2: 1 * param_pax;
     // total 72 
 }

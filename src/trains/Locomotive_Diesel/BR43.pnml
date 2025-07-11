@@ -32,6 +32,39 @@ spriteset(spriteset_BR43_BR_Intercity_Executive_purchase, "gfx\Locomotive_Diesel
 
 
 // basic sprite
+spriteset(spriteset_BR43_BR_Intercity_Swallow, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+spriteset(spriteset_BR43_BR_Intercity_Swallow_REV, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_8bpp.png")
+    { template_118trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_mask.png")
+        { template_118trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_2x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_2x_mask.png")
+        { template_118trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_4x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_4x_mask.png")
+        { template_118trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR43_BR_Intercity_Swallow_purchase, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR43_BR_Intercity_Swallow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_32bpp.png", "gfx\Locomotive_Diesel\BR43\BR43_BR_Intercity_Swallow_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
 spriteset(spriteset_BR43_BRBlue, "gfx\Locomotive_Diesel\BR43\BR43_BRBlue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
@@ -97,7 +130,8 @@ spriteset(spriteset_BR43_GNER_purchase, "gfx\Locomotive_Diesel\BR43\BR43_GNER_1x
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_BR43_purchase_sprite, current_year) {
-    1975..1996: spriteset_BR43_BRBlue_purchase;
+    1975..1882: spriteset_BR43_BRBlue_purchase;
+    1883..1996: spriteset_BR43_BR_Intercity_Swallow_purchase;
         spriteset_BR43_GNER_purchase; }
 
 // FX effects
@@ -109,19 +143,22 @@ switch(FEAT_TRAINS, SELF, sw_FX_BR43_Diesel, position_in_vehid_chain % 3) {
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR43, cargo_subtype) {
     0: spriteset_BR43_BRBlue;
-    1: spriteset_BR43_BR_Intercity_Executive;
-    2: spriteset_BR43_GNER; }
+    1: spriteset_BR43_BR_Intercity_Swallow;
+    2: spriteset_BR43_BR_Intercity_Executive;
+    3: spriteset_BR43_GNER; }
 
 switch(FEAT_TRAINS, SELF, sw_livery_BR43_REV, cargo_subtype) {
     0: spriteset_BR43_BRBlue_REV;
-    1: spriteset_BR43_BR_Intercity_Executive_REV;
-    2: spriteset_BR43_GNER_REV; }
+    1: spriteset_BR43_BR_Intercity_Swallow_REV;
+    2: spriteset_BR43_BR_Intercity_Executive_REV;
+    3: spriteset_BR43_GNER_REV; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR43_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlue);
-    1:  return string(str_BRInterCityExecutive);
-    2:  return string(str_GNER);
+    1:  return string(str_BRInterCitySwallow);
+    2:  return string(str_BRInterCityExecutive);
+    3:  return string(str_GNER);
        return CB_RESULT_NO_TEXT; }
 
 // graphics switch
@@ -154,7 +191,7 @@ switch(FEAT_TRAINS, SELF, sw_articulated_BR43, extra_callback_info1) {
 
 
 // BR43 definition
-item (FEAT_TRAINS, item_BR43_HST, 4300) {
+item (FEAT_TRAINS, item_BR43_HST, 4301) {
     property {
         // common properties
         name:                           string(STR_NAME_BR43);

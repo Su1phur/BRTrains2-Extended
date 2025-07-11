@@ -222,7 +222,7 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
 
         // purchase menu text
         additional_text:                return(	string(str_purchase_loco_with_liveries,
-													string(str_purchase_type_diesel),
+													string(str_purchase_type_dmu),
 													string(str_BR153_usage),
 													string(str_BR153_liveries)));
     }

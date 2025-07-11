@@ -170,7 +170,7 @@ item (FEAT_TRAINS, item_BR88, 8800) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_electric),
+                                                    string(str_purchase_type_bimode),
                                                     string(str_BR88_usage),
                                                     string(str_BR88_liveries)));
     }
