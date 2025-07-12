@@ -169,7 +169,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         
 		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
         // non_refittable_cargo_classes:    bitmask();
-        // cargo_allow_refit:               [PASS, GOOD];
+        cargo_allow_refit:               [PASS, GOOD];
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;

@@ -1,0 +1,181 @@
+// basic sprite
+spriteset(spriteset_BR_HAA_BR_Bauxite, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_1x_mask.png")
+        { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_2x_mask.png")
+        { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_4x_mask.png")
+        { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_HAA_Mainline, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Mainline_1x_mask.png")
+        { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Mainline_2x_mask.png")
+        { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Mainline_4x_mask.png")
+        { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_HAA_Railfreight_Red, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_mask.png")
+        { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_2x_mask.png")
+        { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_4x_mask.png")
+        { template_58trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_HAA_Railfreight_Red_purchase, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_HAA_Trainload, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Trainload_1x_mask.png")
+        { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Trainload_2x_mask.png")
+        { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Trainload_4x_mask.png")
+        { template_58trains_4x(0,0) }
+
+
+// Loading sprites
+spriteset(spriteset_BR_HAA_Bulk_30, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_30_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Bulk_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_30_2x_8bpp.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Bulk_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_30_4x_8bpp.png")
+    { template_58trains_4x(0,0) }
+
+spriteset(spriteset_BR_HAA_Bulk_60, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_60_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Bulk_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_60_2x_8bpp.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Bulk_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_60_4x_8bpp.png")
+    { template_58trains_4x(0,0) }
+
+spriteset(spriteset_BR_HAA_Bulk_100, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_100_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_100_2x_8bpp.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_HAA_Bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_100_4x_8bpp.png")
+    { template_58trains_4x(0,0) }
+
+// loading spritestack
+spritegroup spritegroup_BR_HAA_Bulk {  
+    loaded: [spriteset_empty, spriteset_BR_HAA_Bulk_30, spriteset_BR_HAA_Bulk_60, spriteset_BR_HAA_Bulk_100];
+    loading: [spriteset_empty, spriteset_BR_HAA_Bulk_30, spriteset_BR_HAA_Bulk_60, spriteset_BR_HAA_Bulk_100]; }
+
+// Randomizer
+switch(FEAT_TRAINS, SELF, random_choose_BR_HAA, switch_alternative_var_random_bits(1, 3)) {
+    0: spriteset_BR_HAA_BR_Bauxite;
+    1: spriteset_BR_HAA_Mainline;
+    2: spriteset_BR_HAA_Trainload;
+    3: spriteset_BR_HAA_Railfreight_Red;
+        spriteset_BR_HAA_Railfreight_Red; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_HAA, cargo_subtype) {
+    0: random_choose_BR_HAA;
+    1: spriteset_BR_HAA_BR_Bauxite;
+    2: spriteset_BR_HAA_Railfreight_Red;
+    3: spriteset_BR_HAA_Trainload;
+    4: spriteset_BR_HAA_Mainline; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_HAA_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
+    1:  return string(str_BRBauxite);
+    2:  return string(str_Railfreight);
+    3:  return string(str_Trainload);
+    4:  return string(str_MainlineFreight);
+       return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_HAA_Bulk, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_BR_HAA;
+    1: spritegroup_BR_HAA_Bulk; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR_HAA, param_max_speed) {
+    0: 45; // operational speed
+    1: 60; // design speed
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_HAA, 12253) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_HAA);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1964,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_BULK);
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 31 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          45 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         14 ton;
+        dual_headed:                    0;
+        length:                         5;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_loadstack_BR_HAA_Bulk;
+        purchase:                       spriteset_BR_HAA_Railfreight_Red_purchase;
+
+        // internal code
+        speed:                          sw_speed_BR_HAA;
+        cost_factor:                    1097;
+        running_cost_factor:            638;
+        cargo_subtype_text:             sw_BR_HAA_cargo_subtype_text; 
+        colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_HAA_liveries)));
+    }
+}

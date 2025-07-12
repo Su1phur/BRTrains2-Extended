@@ -1341,22 +1341,10 @@ str_BR_Conflat_P_usage          :Goods, Misc. Cargo
 str_BR_Conflat_P_liveries       :BR Bauxite
 
 STR_NAME_BRHHA					:BR HHA Wagon
-str_BRHHA_usage					:Bulk Cargos
-str_BRHHA_eos					:---
 str_BRHHA_liveries				:Freightliner
-
-STR_NAME_BRTTA					:BR Tanker Wagon
-str_BRTTA_usage					:Liquid Cargo
-str_BRTTA_eos					:---
-str_BRTTA_liveries				:Mobil, Esso, BP (x3), SUKO, Gulf, Shell (x2), Murco, Total, VTG
 
 STR_NAME_BR_VGA					:BR VGA/VKA Wagon
 str_BR_VGA_liveries				:Railfreight, EWS, DB Cargo
-
-STR_NAME_BRContainer			:BR Container Flatbed Wagon
-str_BRContainer_usage			:Misc. Cargo
-str_BRContainer_eos				:---
-str_BRContainer_liveries		:Maersk, Tesco, Random
 
 STR_NAME_BR_FEA                 :BR FEA Container Flat Wagon
 str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
@@ -1377,6 +1365,9 @@ str_BR_TTA_liveries             :Black, Blue, Green, Grey, Private Owners
 
 STR_NAME_BR_TEA                 :BR TEA 102t Tank wagon
 str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
+
+STR_NAME_BR_HAA                 :BR HAA/HFA 32t MGR Hopper
+str_BR_HAA_liveries             :BR Bauxite, Railfreight, Trainload, Mainline Freight
 
 # # # # # # # # 
 # # COACHES # #
@@ -1920,6 +1911,7 @@ str_PullmanBrown                : (Brown Pullman)
 str_Random                      : (Random)
 str_RandomEyeCandy              : (Random - Always show container)
 str_Railtrack					: (Railtrack)
+str_Railfreight                 : (Railfreight)
 str_RailfreightGrey				: (Railfreight - Grey)
 str_RailfreightGrey_RedStripe   : (Railfreight - Grey, Red Stripe)
 str_Railfreight2Grey			: (Railfreight - 2 Tone Grey)
@@ -1994,6 +1986,7 @@ str_ThamesTrains				: (Thames Trains)
 str_Total                       : (Total)
 str_TPE                         : (Transpennine Express)
 str_TPEPride                    : (Transpennine Express - Pride)
+str_Trainload                   : (Trainload)
 str_ROSCO						: (ROSCO Transitional Livery)
 str_ValleyLines                 : (Valley Lines)
 str_Virgin      				: (Virgin Trains)
