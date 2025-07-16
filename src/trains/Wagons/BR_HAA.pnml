@@ -168,7 +168,7 @@ item (FEAT_TRAINS, item_BR_HAA, 12253) {
         purchase:                       spriteset_BR_HAA_Railfreight_Red_purchase;
 
         // internal code
-        speed:                          sw_speed_BR_HAA;
+        speed:                          sw_speed_BR_HAA() * 1609/1000;
         cost_factor:                    1097;
         running_cost_factor:            638;
         cargo_subtype_text:             sw_BR_HAA_cargo_subtype_text; 

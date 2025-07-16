@@ -1369,6 +1369,10 @@ str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
 STR_NAME_BR_HAA                 :BR HAA/HFA 32t MGR Hopper
 str_BR_HAA_liveries             :BR Bauxite, Railfreight, Trainload, Mainline Freight
 
+STR_NAME_BR_MBA                 :BR MBA/MDA/MOA 'Monsterbox' Wagon
+STR_NAME_BR_MCA                 :BR MCA 'Mini Monsterbox' Wagon
+str_BR_MBA_liveries             :EWS
+
 # # # # # # # # 
 # # COACHES # #
 # # # # # # # #
