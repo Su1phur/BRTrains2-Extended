@@ -1,0 +1,88 @@
+// basic sprite
+spriteset(spriteset_BR_Oxfit_Bauxite, "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Oxfit_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_1x_mask.png")
+        { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Oxfit_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_2x_mask.png")
+        { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Oxfit_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_4x_mask.png")
+        { template_48trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Oxfit_Bauxite_purchase, "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Oxfit_Bauxite_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Oxfit\BR_Oxfit_Bauxite_1x_mask.png")
+    { template_purchase(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Oxfit, cargo_subtype) {
+    0: spriteset_BR_Oxfit_Bauxite; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Oxfit_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_col_Bauxite);
+       return CB_RESULT_NO_TEXT; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR_Oxfit, param_max_speed) {
+    0: 50; // operational speed
+    1: 75; // design speed
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Oxfit, 12255) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Oxfit);
+        // extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1949,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_OVERSIZED, CC_POWDERIZED, CC_NON_POURABLE, CC_NEO_BULK, CC_POTABLE, CC_NON_POTABLE);	
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:              [LVST];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 12 * param_freight;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         8 ton;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.3;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR_Oxfit;
+        purchase:                       spriteset_BR_Oxfit_Bauxite_purchase;
+
+        // internal code
+        speed:                          sw_speed_BR_Oxfit() * 1609 / 1000;  
+        cost_factor:                    703;
+        running_cost_factor:            704;
+        cargo_subtype_text:             sw_BR_Oxfit_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_Oxfit_liveries)));
+    }
+}

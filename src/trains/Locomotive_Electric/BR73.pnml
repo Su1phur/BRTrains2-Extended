@@ -244,6 +244,7 @@ item (FEAT_TRAINS, item_BR73_0, 7300) {
         running_cost_factor:            4851;
         cargo_subtype_text:             sw_BR73_0_cargo_subtype_text; 
         power:                          sw_power_BR73_0;
+        purchase_power:                 sw_power_BR73_0;
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
 
@@ -463,6 +464,7 @@ item (FEAT_TRAINS, item_BR73_1, 7310) {
         running_cost_factor:            5241;
         cargo_subtype_text:             sw_BR73_1_cargo_subtype_text; 
         power:                          sw_power_BR73_1;
+        purchase_power:                 sw_power_BR73_1;
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text

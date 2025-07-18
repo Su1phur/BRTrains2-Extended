@@ -1340,6 +1340,9 @@ STR_NAME_BR_CONFLAT_P           :BR Container Flat "Conflat P" Wagon
 str_BR_Conflat_P_usage          :Goods, Misc. Cargo
 str_BR_Conflat_P_liveries       :BR Bauxite
 
+STR_NAME_BR_Oxfit               :BR 'Oxfit' 12t Cattle Wagon
+str_BR_Oxfit_liveries           :BR Bauxite
+
 STR_NAME_BRHHA					:BR HHA Wagon
 str_BRHHA_liveries				:Freightliner
 
