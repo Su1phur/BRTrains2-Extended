@@ -109,7 +109,7 @@ item (FEAT_TRAINS, item_BR_VGA, 12252) {
 		refittable_cargo_classes:        bitmask(CC_EXPRESS, CC_PIECE_GOODS, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_NON_POURABLE, CC_NEO_BULK);	
         // non_refittable_cargo_classes:    bitmask();
         // cargo_allow_refit:               [PASS, TOUR];
-        // cargo_disallow_refit:            [LVST];
+        cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 13 * param_freight;
         loading_speed:					5;
@@ -124,8 +124,6 @@ item (FEAT_TRAINS, item_BR_VGA, 12252) {
         track_type:                     RAIL;
         weight:                         18 ton;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
         length:                         8;
     }
 
