@@ -1379,6 +1379,9 @@ str_BR_MBA_liveries             :EWS
 STR_NAME_BR_VAA                 :BR VAA/VBA/VCA Sliding Door Van
 str_BR_VAA_liveries             :BR Bauxite, BR Research Department, Railfreight, EWS, Private Owners
 
+STR_NAME_BR_OTA                 :BR OTA Timber Wagon
+str_BR_OTA_liveries             :Railfreight, EWS, Private Owners
+
 # # # # # # # # 
 # # COACHES # #
 # # # # # # # #

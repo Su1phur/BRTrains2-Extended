@@ -8,7 +8,10 @@ gfx_directory = Path("gfx")
 src_directory = Path("src")
 voxel_directory = Path("voxels")
 
-cargo = {"bulk", "steel", "wood", "bars"}
+cargo = {"barrel", "steel", "wood", "bars", "wires", 
+         "tarp", "box", "tanks", "rails", "farm", 
+         "eng", "supplies", "logs", "planks"}
+bulk = {"bulk"}
 loading = {"loading"}
 dual_mode = {"panto_up", "panto_down"}
 anim = {"anim"}
@@ -21,6 +24,8 @@ def classify_vox_files(vox_files: set[Path]):
 
         if any(k in stem for k in anim):
             groups["anim"].append(f)
+        if any(k in stem for k in bulk):
+            groups["bulk"].append(f)
         elif any(k in stem for k in cargo):
             groups["cargo"].append(f)
         elif any(k in stem for k in dual_mode):
