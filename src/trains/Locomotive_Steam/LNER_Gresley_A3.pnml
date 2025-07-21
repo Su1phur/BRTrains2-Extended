@@ -178,8 +178,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_Tender, cargo_subtype) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_LNER_A3, param_max_speed) {
-    0: 111;// 161; // 100mph
-    1: 110; // 177; // 110mph
+    0: 100;
+    1: 110; 
 }
 
 // graphics switch
