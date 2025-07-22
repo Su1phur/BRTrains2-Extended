@@ -784,8 +784,7 @@ str_BR156_liveries				:Regional Railways, Strathclyde Orange, Strathclyde PTE, S
 
 STR_NAME_BR158					:BR Class 158 "Express Sprinter" (2-Car)
 str_BR158_usage					:Express Passenger
-str_BR158_eos					:---
-str_BR158_liveries				:Regional Express, Arriva Trains Wales, ATW Western Mail, Arriva Silver, Arriva TP Northern Spirit, First North Western, First Scot Rail, First TransPennine, FGW First ScotRail, Alphaline Wales and Borders, Alphaline Wessex, Northern Rail, Northern Rail metro, Central Trains, East Midland Trains, WYPTE Metro, Wales and West, ScotRail (Nat Ex), ScotRail Saltire, South West Trains, Network South East
+str_BR158_liveries				:Regional Express, Arriva Trains, First North Western, First Scot Rail, First TransPennine, FGW First ScotRail, Alphaline Wales and Borders, Alphaline Wessex, Northern Rail, Northern Rail metro, Central Trains, East Midland Trains, WYPTE Metro, Wales and West, ScotRail (Nat Ex), ScotRail Saltire, South West Trains, Network South East
 
 STR_NAME_BR158_3				:BR Class 158 "Express Sprinter" (3-Car)
 str_BR158_3_usage				:Express Passenger
