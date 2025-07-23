@@ -386,32 +386,26 @@ switch(FEAT_TRAINS, SELF, sw_check_position_LNER_BT_T_LNER_Teak, position_in_con
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_BT_T, cargo_subtype) {
     0: sw_check_position_LNER_BT_T_LNER_Teak;
-    1: sw_check_position_LNER_BT_T_BR_Maroon;
-}
+    1: sw_check_position_LNER_BT_T_BR_Maroon; }
 
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LNER_BT_T_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LNERTeak);
     1:  return string(str_BRMaroon);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // purchase sprite stacking
 switch(FEAT_TRAINS, PARENT, sw_LNER_BT_T_purchase_sprite, current_year) {
     1934..1948: spriteset_LNER_BT_T_LNER_Teak_purchase;
-        spriteset_LNER_BT_T_BR_Maroon_purchase;
-}
+    1949..1997: spriteset_LNER_BT_T_BR_Maroon_purchase;
+        spriteset_LNER_BT_T_LNER_Teak_purchase; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_LNER_BT_T, position_in_articulated_veh % 6) {
-	0: 4;
 	1: 2;
-	2: 4;
-    3: 4;
     4: 2;
-    5: 4;
-}
+        4; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_LNER_BT_T, position_in_vehid_chain % 6) {
@@ -422,13 +416,8 @@ switch(FEAT_TRAINS, SELF, sw_capacity_LNER_BT_T, position_in_vehid_chain % 6) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_LNER_BT_T, extra_callback_info1) {
-	1: return item_LNER_BT_T;
-	2: return item_LNER_BT_T;
-    3: return item_LNER_BT_T;
-    4: return item_LNER_BT_T;
-    5: return item_LNER_BT_T;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+	1..5: return item_LNER_BT_T;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
 item (FEAT_TRAINS, item_LNER_BT_T, 11500) {

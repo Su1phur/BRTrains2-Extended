@@ -1533,14 +1533,8 @@ STR_NAME_LNER_CorSet_OT_OT      :LNER Coronation Articulated Coach (OT + OT)
 
 STR_LNER_CorSet_liveries        :LNER Coronation Garter Blue, BR Carmine and Cream
 
-STR_NAME_LNERTK					:LNER Gresley Coach (Third Corridor)
-str_LNERTK_liveries				:GNR/LNER Teak, BR Maroon, BR Carmine and Cream
-
-STR_NAME_LNERPV					:LNER Gresley Parcel Van
-str_LNERPV_liveries				:GNR/LNER Teak, BR Maroon, BR Carmine and Cream
-
-STR_NAME_LNERBG					:LNER Gresley Full Brake Van
-str_LNERBG_liveries				:GNR/LNER Teak, BR Maroon, BR Carmine and Cream
+STR_NAME_LNER_Gresley_CK_D259       :LNER Gresley 61'6" Flying Scotsman CK
+str_LNER_Gresley_CK_D259_liveries   :LNER Teak, BR Maroon, BR Carmine and Cream
 
 STR_NAME_LNER_Gresley_616TK		    :LNER Gresley 61' 6" TK
 str_LNER_Gresley_616TK_liveries		:LNER "Teak", LNER "Blood and Custard", BR Maroon, BR Blue
