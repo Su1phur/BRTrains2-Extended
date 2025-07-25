@@ -1114,19 +1114,16 @@ str_BR412_usage					:Passenger
 str_BR412_eos					:2005
 str_BR412_liveries				:BR Green, BR Blue Grey, NSE, South West Trains
 
-STR_NAME_BR415_1				:BR Class 415/1 "4-EPB"
-STR_NAME_BR416_1				:BR Class 416/1 "2-EPB"
-STR_NAME_BR414_1				:BR Class 414/1 "2-HAP"
-STR_NAME_BR418_1				:BR Class 418 "2-SAP"
-STR_NAME_BR413_1				:BR Class 413 "4-CAP"
-STR_NAME_BR415_2				:BR Class 415/2 "4-EPB"
-STR_NAME_BR416_2				:BR Class 416/2 "2-EPB"
-STR_NAME_BR414_2				:BR Class 414/2 "2-HAP"
-str_BR415_usage					:Suburban Passenger
-str_BR416_usage					:Suburban Passenger
+STR_NAME_BR413				    :BR Class 413 "4-CAP"
+
+STR_NAME_BR414  				:BR Class 414 "2-HAP"
 str_BR414_usage					:Semi-Fast Passenger
-str_BR41x_eos					:1995
-str_BR41x_liveries				:BR Green, BR Green - Yellow Front, BR Blue, BR Blue Grey, Network SouthEast
+
+STR_NAME_BR415				    :BR Class 415 "4-EPB"
+STR_NAME_BR416				    :BR Class 416 "2-EPB"
+STR_NAME_BR418				    :BR Class 418 "2-SAP"
+str_BR415_416_usage				:Suburban Passenger
+str_BR41x_liveries				:BR Green, BR Blue, BR Blue Grey, Network SouthEast
 str_BR413_liveries				:BR Blue Grey, Network SouthEast
 
 STR_NAME_BR421					:BR Class 421 "4-CIG"
