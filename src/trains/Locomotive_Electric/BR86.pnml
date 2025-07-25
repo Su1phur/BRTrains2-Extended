@@ -1,0 +1,470 @@
+// basic sprite
+spriteset(spriteset_BR86_BR_Intercity_Executive, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Executive, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Executive, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Executive, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Executive_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR86_BR_Intercity_Mainline, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Mainline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Mainline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Mainline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR86_BR_Intercity_Mainline_purchase, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_Intercity_Mainline_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_Intercity_Mainline_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR86_BR_IntercitySwallow, "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_IntercitySwallow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_IntercitySwallow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BR_IntercitySwallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BR_IntercitySwallow_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR86_BRBlue, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR86_BRBlue_YellowFront, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR86_BRBlue_YellowFront_purchase, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRBlue_YellowFront_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRBlue_YellowFront_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR86_BRElectricBlue, "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRElectricBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRElectricBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRElectricBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR86_BRElectricBlue_purchase, "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR86_BRElectricBlue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_BRElectricBlue_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR86_Freightliner, "gfx\Locomotive_Electric\BR86\BR86_Freightliner_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_Freightliner, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_Freightliner_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_Freightliner_1x_mask.png")
+        { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR86_Freightliner, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_Freightliner_2x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_Freightliner_2x_mask.png")
+        { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR86_Freightliner, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_Freightliner_4x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_Freightliner_4x_mask.png")
+        { template_118trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR86_Freightliner_purchase, "gfx\Locomotive_Electric\BR86\BR86_Freightliner_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR86_Freightliner_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR86\BR86_Freightliner_1x_32bpp.png", "gfx\Locomotive_Electric\BR86\BR86_Freightliner_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, PARENT, sw_BR86_purchase_sprite, current_year) {
+    1948..1968: spriteset_BR86_BRElectricBlue_purchase;
+    1969..1982: spriteset_BR86_BRBlue_YellowFront_purchase;
+    1983..1994: spriteset_BR86_BR_Intercity_Mainline_purchase;
+    1995..2021: spriteset_BR86_Freightliner_purchase;
+        spriteset_BR86_BRBlue_YellowFront_purchase; }
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_BR86_Electric, position_in_vehid_chain % 3) { // rear catenary
+    2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER); 
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR86, cargo_subtype) {
+    0: spriteset_BR86_BRBlue;
+    1: spriteset_BR86_BRElectricBlue;
+    2: spriteset_BR86_BRBlue_YellowFront;
+    3: spriteset_BR86_BR_Intercity_Mainline;
+    4: spriteset_BR86_BR_Intercity_Executive;
+    5: spriteset_BR86_BR_IntercitySwallow;
+    6: spriteset_BR86_Freightliner; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR86_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRBlue);
+    1:  return string(str_BRElectricBlue);
+    2:  return string(str_BRBlueFront);
+    3:  return string(str_BRInterCity);
+    4:  return string(str_BRInterCityExecutive);
+    5:  return string(str_BRInterCitySwallow);
+    6:  return string(str_FreightlinerGreen);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR86, position_in_articulated_veh % 3) {
+	0: spriteset_empty;
+	1: return sw_livery_BR86;
+	2: spriteset_empty; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR86, position_in_articulated_veh % 3) {
+	1: 3;
+	    4; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR86_0, param_max_speed) {
+    0: 80; // operational speed
+    1: 100; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR86_0, extra_callback_info1) {
+	1..2: return item_BR86_0;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR86_0, 8600) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR86_0);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1965,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          90 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          3600 hp;
+        weight:                         82 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.1;
+        tractive_effort_coefficient:    0.33;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR86;
+        visual_effect_and_powered:      sw_FX_BR86_Electric;
+        purchase:                       sw_BR86_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR86;
+        articulated_part:               sw_articulated_BR86_0;
+        speed:                          sw_speed_BR86_0() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    129;
+        running_cost_factor:            8387;
+        cargo_subtype_text:             sw_BR86_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electric),
+                                                    string(str_BR86_usage),
+                                                    string(str_BR86_liveries)));
+    }
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR86_1, param_max_speed) {
+    0: 110; // operational speed
+    1: 110; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR86_1, extra_callback_info1) {
+	1..2: return item_BR86_1;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR86_1, 8601) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR86_1);
+        variant_group:                  item_BR86_0; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1969,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          110 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          5000 hp;
+        weight:                         82 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.08;
+        tractive_effort_coefficient:    0.33;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR86;
+        visual_effect_and_powered:      sw_FX_BR86_Electric;
+        purchase:                       sw_BR86_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR86;
+        articulated_part:               sw_articulated_BR86_1;
+        speed:                          sw_speed_BR86_1() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    179;
+        running_cost_factor:            11605;
+        cargo_subtype_text:             sw_BR86_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electric),
+                                                    string(str_BR86_usage),
+                                                    string(str_BR86_liveries)));
+    }
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR86_2, param_max_speed) {
+    0: 100; // operational speed
+    1: 110; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR86_2, extra_callback_info1) {
+	1..2: return item_BR86_2;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR86_2, 8602) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR86_2);
+        variant_group:                  item_BR86_0; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1971,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          4040 hp;
+        weight:                         82 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.08;
+        tractive_effort_coefficient:    0.33;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR86;
+        visual_effect_and_powered:      sw_FX_BR86_Electric;
+        purchase:                       sw_BR86_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR86;
+        articulated_part:               sw_articulated_BR86_2;
+        speed:                          sw_speed_BR86_2() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    151;
+        running_cost_factor:            9810;
+        cargo_subtype_text:             sw_BR86_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electric),
+                                                    string(str_BR86_usage),
+                                                    string(str_BR86_liveries)));
+    }
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR86_6, extra_callback_info1) {
+	1..2: return item_BR86_6;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR86_6, 8606) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR86_6);
+        variant_group:                  item_BR86_0; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1984,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          75 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          4040 hp;
+        weight:                         82 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.11;
+        tractive_effort_coefficient:    0.33;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR86;
+        visual_effect_and_powered:      sw_FX_BR86_Electric;
+        purchase:                       sw_BR86_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR86;
+        articulated_part:               sw_articulated_BR86_6;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    137;
+        running_cost_factor:            8835;
+        cargo_subtype_text:             sw_BR86_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_electric),
+                                                    string(str_BR86_usage),
+                                                    string(str_BR86_liveries)));
+    }
+}

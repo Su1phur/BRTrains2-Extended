@@ -670,9 +670,11 @@ str_BR85_usage					:Mixed Traffic
 str_BR85_eos		    			:---
 str_BR85_liveries				:BR Blue
 
-STR_NAME_BR86					:BR Class 86 "AL6"
+STR_NAME_BR86_0				    :BR Class 86/0 "AL6"
+STR_NAME_BR86_1                 :BR Class 86/1 "AL6"
+STR_NAME_BR86_2                 :BR Class 86/2 "AL6"
+STR_NAME_BR86_6                 :BR Class 86/6 "AL6"
 str_BR86_usage					:Mixed Traffic
-str_BR86_eos					:---
 str_BR86_liveries				:BR Blue, InterCity Executive, Rail Express, EWS, Railfraight Distribution, Rail Express Systems
 
 STR_NAME_BR87					:BR Class 87
@@ -1676,6 +1678,7 @@ str_BRCarmCream					: (BR - Carmine and Cream)
 str_BRChocCream					: (BR - Chocolate and Cream)
 str_BRDesertSand                : (BR - Desert Sands)
 str_BRExpressBlue               : (BR - Express Passenger Blue)
+str_BRElectricBlue              : (BR - Electric Blue)
 str_BRGreen						: (BR - Green)
 str_BRGreen_Early               : (BR - Green, Early Emblem)
 str_BRGreen_Late                : (BR - Green, Late Crest)

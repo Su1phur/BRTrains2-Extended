@@ -130,8 +130,8 @@ spriteset(spriteset_BR43_GNER_purchase, "gfx\Locomotive_Diesel\BR43\BR43_GNER_1x
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_BR43_purchase_sprite, current_year) {
-    1975..1882: spriteset_BR43_BRBlue_purchase;
-    1883..1996: spriteset_BR43_BR_Intercity_Swallow_purchase;
+    1975..1982: spriteset_BR43_BRBlue_purchase;
+    1983..1996: spriteset_BR43_BR_Intercity_Swallow_purchase;
         spriteset_BR43_GNER_purchase; }
 
 // FX effects
