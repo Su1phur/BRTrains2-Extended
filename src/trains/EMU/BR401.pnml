@@ -238,10 +238,10 @@ switch(FEAT_TRAINS, SELF, sw_FX_BR401_Electric, position_in_vehid_chain % 3) { /
 // reversing switches
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DMBTK_DTCK_SR_Green, vehicle_is_reversed) {
     0: spriteset_BR401_DMBTK_SR_Green;
-        spriteset_BR401_DTCK_SR_Green_REV; }
+        spriteset_BR401_DTCK_SR_Green; }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DTCK_DMBTK_SR_Green, vehicle_is_reversed) {
-    0: spriteset_BR401_DTCK_SR_Green;
+    0: spriteset_BR401_DTCK_SR_Green_REV;
         spriteset_BR401_DMBTK_SR_Green_REV; }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR401_SR_Green, position_in_vehid_chain % 6) {
@@ -252,10 +252,10 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR401_SR_Green, position_in_vehid_chain % 
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DMBTK_DTCK_BR_Green, vehicle_is_reversed) {
     0: spriteset_BR401_DMBTK_BR_Green;
-        spriteset_BR401_DTCK_BR_Green_REV; }
+        spriteset_BR401_DTCK_BR_Green; }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DTCK_DMBTK_BR_Green, vehicle_is_reversed) {
-    0: spriteset_BR401_DTCK_BR_Green;
+    0: spriteset_BR401_DTCK_BR_Green_REV;
         spriteset_BR401_DMBTK_BR_Green_REV; }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR401_BR_Green, position_in_vehid_chain % 6) {
@@ -266,10 +266,10 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR401_BR_Green, position_in_vehid_chain % 
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DMBTK_DTCK_BR_Southern_Green, vehicle_is_reversed) {
     0: spriteset_BR401_DMBTK_BR_Southern_Green;
-        spriteset_BR401_DTCK_BR_Southern_Green_REV; }
+        spriteset_BR401_DTCK_BR_Southern_Green; }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DTCK_DMBTK_BR_Southern_Green, vehicle_is_reversed) {
-    0: spriteset_BR401_DTCK_BR_Southern_Green;
+    0: spriteset_BR401_DTCK_BR_Southern_Green_REV;
         spriteset_BR401_DMBTK_BR_Southern_Green_REV; }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR401_BR_Southern_Green, position_in_vehid_chain % 6) {
@@ -280,10 +280,10 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR401_BR_Southern_Green, position_in_vehid
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DMBTK_DTCK_BR_Blue, vehicle_is_reversed) {
     0: spriteset_BR401_DMBTK_BR_Blue;
-        spriteset_BR401_DTCK_BR_Blue_REV; }
+        spriteset_BR401_DTCK_BR_Blue; }
 
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR401_DTCK_DMBTK_BR_Blue, vehicle_is_reversed) {
-    0: spriteset_BR401_DTCK_BR_Blue;
+    0: spriteset_BR401_DTCK_BR_Blue_REV;
         spriteset_BR401_DMBTK_BR_Blue_REV; }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR401_BR_Blue, position_in_vehid_chain % 6) {
