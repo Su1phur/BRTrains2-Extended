@@ -6,12 +6,16 @@ This is an 4x zoom, 32bpp, extra-long train set, designed with a focus on real-w
 ### Main Goals
 - Extra length, 4x zoom, 32bpp train set with comprehensive unit selection across the ages (1850-modern day) (early versions may not support the entire age)
 - Speed options (operation VS potential/achieved speeds)
-- Unit bonuses (Passengers in express vehicles pay more)
-- Coupling restrictions options (Brake vans, MU working)
+- Customizable multiple unit consists
 
 #### Potentially...
 - 2CC Unit variants
-- Customizable multiple unit consists
+- Unit bonuses (Passengers in express vehicles pay more)
+- Coupling restrictions options (Brake vans, MU working)
+
+## Tracking table
+To track vehicles planned, current progress and other statistics, please refer to the following spreadsheet. Correcting or providing additional information and diagrams for tracked or new vehicles are welcome.
+https://docs.google.com/spreadsheets/d/1RACfDDpuTNXPyaUC5tNg7-STm_maQqCuw_r31gAB8eU/edit?usp=sharing
 
 ### Credits (In no particular order)
 
