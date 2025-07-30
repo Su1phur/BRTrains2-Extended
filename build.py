@@ -2,7 +2,7 @@ from pathlib import Path
 from sys import argv
 from argparse import ArgumentParser
 from importlib import util
-from collections import OrderedDict # Use OrderedDict to enforce order
+from collections import OrderedDict
 
 RED = "\033[91m"
 YELLOW = "\033[93m" 
@@ -16,6 +16,13 @@ KeyFiles = OrderedDict( [
     ("templates_trains.pnml", "\"templates_trains.pnml\" not found.  Assuming no templates are required"),
     # ("templates_trams.pnml", "\"templates_trams.pnml\" not found.  Assuming no templates are required"),
 ] )
+
+SpecialOrderFiles = { 
+    "BR_Mk3_TS.pnml": "BR43.pnml",
+    "Containers_BR.pnml": ["BR_Conflat_A.pnml", "BR_Conflat_P.pnml"],
+    "RCH_1907_graphics.pnml": ["1_Plank_Open_Wagons_Load.pnml", "RCH_1907.pnml", "RCH_1907_1_plank.pnml", "RCH_1907_3_plank.pnml", "RCH_1907_5_plank.pnml", "RCH_1907_7_plank.pnml", "RCH_1907_Van.pnml"],
+    "60Long_Cont20_Side.pnml": ["60Long_Cont40_Side.pnml", "BR_FEA.pnml"]
+}
 
 def check_project_structure(src_directory: Path, gfx_directory: Path,
                             lang_directory: Path):
@@ -41,6 +48,16 @@ def check_project_structure(src_directory: Path, gfx_directory: Path,
     print("Project structure is correct\n")
     return has_lang_dir
 
+
+def find_special_file(filename:str, search_dir: Path):
+    matches = list(search_dir.rglob(filename))
+    
+    if len(matches) == 0:
+        raise FileNotFoundError(f"No file named '{filename}' found")
+    elif len(matches) > 1:
+        raise RuntimeError(f"Multiple files named '{filename}' found: {matches}")
+    
+    return matches[0]
 
 def copy_file(filepath: Path, nml_file: str):
     # If the pnml filepath doesn't exist, exit
@@ -81,7 +98,7 @@ def compile_grf(has_lang_dir, grf_name, lang_dir):
     found_nml = util.find_spec("nml")
     if found_nml is not None:
         # Import nml's main module
-        import nml.main
+        import nml.main # type: ignore
         parameters = []
         if has_lang_dir:
             # If we have a lang directory, add it to the parameters
@@ -229,19 +246,37 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
     file_list = dict()
     pnml_files = OrderedDict( [ ("Top level", list()), ("Priority", list()), ("Normal", list()), ("Append", list()) ] )
     tender_files = dict()
+    special_files = dict()
+    in_chain = set()
 
     for file in src_directory.rglob("*.pnml"):
         relative_path = file.relative_to(src_directory)
+        file_name = file.stem + file.suffix # e.g. BR43.pnml
 
         if file.parent not in file_list.keys():
             file_list[file.parent] = list()
 
-        if (file.stem + file.suffix) not in KeyFiles.keys():
+        if (file_name) not in KeyFiles.keys():
             file_list[file.parent].append(file)
+
+        if file_name in SpecialOrderFiles and file_name not in in_chain:
+            chain = SpecialOrderFiles.get(file_name)
+            file_chain = []
+            if type(chain) is str:
+                in_chain.add(chain)
+                file_chain.append(find_special_file(chain, src_directory))
+            elif type(chain) is list:
+                for cf in chain:
+                    in_chain.add(cf)
+                    file_chain.append(find_special_file(cf, src_directory))
+            elif chain is None:
+                raise RuntimeError
+
+            special_files[file_name] = file_chain
 
         # sort and add the pnml files to their correct location
         if len(relative_path.parts) == 1:
-            if ((file.stem + file.suffix) not in KeyFiles.keys()): # filter out the KeyFiles
+            if (file_name not in KeyFiles.keys()): # filter out the KeyFiles
                 pnml_files["Top level"].append(file)
         elif "priority" in relative_path.parts:
             pnml_files["Priority"].append(file)
@@ -250,8 +285,9 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
         elif "Tenders" in file.stem:
             company_name = file.stem.rsplit("_")[0]
             tender_files[company_name] = file
-        else:
-            pnml_files["Normal"].append(file)
+        elif file_name not in KeyFiles and file_name not in in_chain:
+            pnml_files['Normal'].append(file)
+  
 
     f = lambda a: "src" if a == src_directory else "/".join(directory.parts[1:])
     for directory in file_list.keys():
@@ -265,6 +301,11 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
         print(f"Starting to read {key} files")
         
         for file in sorted(file_list):
+            file_name = file.stem + file.suffix
+
+            if file_name in in_chain:
+                continue
+
             if "Locomotive_Steam" in file.parts:
                 engine_company_name = file.stem.rsplit("_")[0]
                 if engine_company_name in tender_files:
@@ -272,8 +313,15 @@ def main(grf_name, src_dir, lang_dir, gfx_dir, b_compile_grf, b_run_game):
                     print(f"Reading Tender file: {tender_file.stem + tender_file.suffix}")
                     nml_file = copy_file(tender_file, nml_file)
 
-            print(f"Reading {key} file: {file.stem + file.suffix}")
+            print(f"Reading {key} file: {file_name}")
             nml_file = copy_file(file, nml_file)
+
+            if file_name in SpecialOrderFiles.keys():
+                chain = special_files.get(file_name)
+                if chain is not None:
+                    for chain_file in chain:
+                        print(f"Reading Special Order file: {chain_file.stem + chain_file.suffix}")
+                        nml_file = copy_file(chain_file, nml_file)
 
     print("Copied all files to internal buffer\n")
 
