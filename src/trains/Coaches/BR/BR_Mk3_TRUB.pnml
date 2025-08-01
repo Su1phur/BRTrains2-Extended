@@ -146,7 +146,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TRUB, 12127) {
     property {
         // common properties
         name:                           string(STR_NAME_BR_Mk3_TRUB);
-        variant_group:                  BR_Mk3_Header; // unit ID or item
+        variant_group:                  item_BR_Mk3_Header; // unit ID or item
 		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1975,01,01); 

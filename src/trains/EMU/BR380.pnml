@@ -262,16 +262,16 @@ switch(FEAT_TRAINS, PARENT, sw_FX_BR380_1, vehicle_is_reversed) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR380_0, extra_callback_info1) {
-    1..8: return ITEM_BR380_0;
+    1..8: return item_BR380_0;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
 switch(FEAT_TRAINS, SELF, sw_articulated_BR380_1, extra_callback_info1) {
-    1..11: return ITEM_BR380_1;
+    1..11: return item_BR380_1;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
+item (FEAT_TRAINS, item_BR380_0, 3800) {
     property {
         // common properties
         name:                           string(STR_NAME_BR380_0);
@@ -330,11 +330,11 @@ item (FEAT_TRAINS, ITEM_BR380_0, 3800) {
     }
 }
 
-item (FEAT_TRAINS, ITEM_BR380_1, 3801) {
+item (FEAT_TRAINS, item_BR380_1, 3801) {
     property {
         // common properties
         name:                           string(STR_NAME_BR380_1);
-        variant_group:                  ITEM_BR380_0; // unit ID or item
+        variant_group:                  item_BR380_0; // unit ID or item
         extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010,08,01);

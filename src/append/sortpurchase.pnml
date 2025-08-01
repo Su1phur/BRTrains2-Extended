@@ -1,0 +1,128 @@
+sort(FEAT_TRAINS, [
+    // GWR Steam Locomotives
+    item_GWR_4300,
+    item_GWR_5600,
+    // SR Pre-Grouping Steam Locomotives
+    item_LSWR_N15,
+    // SR Steam Locomotives
+    item_SR_N15,
+    // LMS Pre-Grouping Steam Locomotives
+    // LMS Steam Locomotives
+    item_LMS_4F,
+    item_LMS_Black_5,
+        item_LMS_Black_5_Domed,
+        item_LMS_Black_5_Domeless,
+        item_LMS_Black_5_Forward_Top_Feed,
+        item_LMS_Black_5_Named,
+    item_LMS_Jubilee,
+    item_LMS_Rebuilt_Jubilee,
+    item_LMS_8F,
+    // LNER Pre-Grouping Steam Locomotives
+    item_GCR_8K,
+        item_GWR_3000,
+        item_LNER_O4_8,
+    // LNER Steam Locomotives
+    item_LNER_A1,
+    item_LNER_A3,
+        item_LNER_A3_PD,
+        item_LNER_A3_WD,
+    item_LNER_A4,
+    item_LNER_O1,
+    // BR Steam Locomotives
+    // BR Diesel Locomotives
+    item_BR08,
+    item_BR20,
+    item_BR37,
+    item_BR43_HST,
+    item_BR47,
+    item_BR52,
+    item_BR55,
+    item_BR66,
+    item_BR68,
+    // BR 3rd Rail Electric Locomotives
+    item_BR73_0,
+        item_BR73_1,
+        // item_BR73_9,
+    // BR OHLE Electric Locomotives
+    item_BR86_0,
+        item_BR86_1,
+        item_BR86_2,
+        item_BR86_6,
+    item_BR88,
+    // BR DMUs
+    item_BR101,
+        item_BR101_3,
+        item_BR101_4,
+        item_BR102,
+    item_BR153,
+    item_BR158,
+        // item_BR158_3,
+    item_BR166,
+    item_BR254,
+    // BR OHLE EMUs
+    item_BR309,
+        item_BR309_1,
+        item_BR309_2,
+        item_BR309_3,
+    item_BR325,
+    item_BR380_0,
+        item_BR380_1,
+    // BR 3rd Rail EMUs
+    item_BR401,
+    item_BR415,
+    item_BR466,
+    // GWR Coaches
+    item_GWR_TK_C24,
+    // LNER Pre-Grouping Coaches
+    item_GCR_CL_4L5,
+    // LNER Coaches
+    item_LNER_BT_T,
+    item_LNER_Gresley_CK_D259,
+    // BR Coaches
+    item_BR_Mk1_Header,
+        item_BR_Mk1_BSO,
+        // item_BR_Mk1_SK,
+        item_BR_Mk1_SO,
+        item_BR_Mk1_TSO,
+    // item_BR_Mk2_Header,
+        item_BR_Mk2_TSO,
+    item_BR_Mk3_Header,
+        item_BR_Mk3_TF,
+        // item_BR_Mk3_TGS,
+        item_BR_Mk3_TLUK,
+        item_BR_Mk3_TRFB,
+        item_BR_Mk3_TRFK,
+        item_BR_Mk3_TRSB,
+        item_BR_Mk3_TRUK,
+        item_BR_Mk3_TS,
+    // item_BR_Mk3a_Header,
+        // item_BR_Mk3a_FO,
+        item_BR_Mk3a_TSO,
+    // RCH standard Wagons
+    item_RCH_1907_Mixed,
+        item_RCH_1907_1_Plank,
+        item_RCH_1907_3_Plank,
+        item_RCH_1907_5_Plank,
+        item_RCH_1907_7_Plank,
+        item_RCH_1907_Van,
+    // SR Wagons
+    item_Milk_Tank,
+    // LNER Pre-Grouping Wagons
+    item_GCR_10t_Cattle_Van,
+    // LNER Wagons
+    item_LNER_21t_Hopper,
+    // BR Wagons
+    item_WD_50t_Warflat,
+    item_BR_Conflat_A,
+    item_BR_Conflat_P,
+    item_BR_Oxfit,
+    item_BR_FEA,
+    item_BR_HAA,
+    item_BR_MBA,
+    item_BR_MCV,
+    item_BR_OTA,
+    item_BR_TEA,
+    item_BR_TTA,
+    item_BR_VAA,
+    item_BR_VGA
+]);

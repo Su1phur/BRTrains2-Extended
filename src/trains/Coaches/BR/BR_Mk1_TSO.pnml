@@ -18,7 +18,7 @@ item (FEAT_TRAINS, item_BR_Mk1_TSO, 12038) { // Diagram 93 BR Mk1 TSO
     property {
 		// common properties
         name:                           string(STR_NAME_BR_Mk1_TSO);
-        variant_group:                  BR_Mk1_Header; // unit ID or item
+        variant_group:                  item_BR_Mk1_Header; // unit ID or item
 
         climates_available:              ALL_CLIMATES;
 		introduction_date:				date(1953,01,01);

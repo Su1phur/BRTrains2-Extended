@@ -1,4 +1,4 @@
-item(FEAT_TRAINS, BR_Mk1_Header, 12000) {
+item(FEAT_TRAINS, item_BR_Mk1_Header, 12000) {
     property {
         name:                           string(STR_NAME_BR_Mk1_Header);
 		climates_available: 			NO_CLIMATE;					

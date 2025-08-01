@@ -18,7 +18,7 @@ switch(FEAT_TRAINS, PARENT, sw_BR_Mk3_TS_purchase_sprite, current_year) {
     1983..1993: spriteset_BR_Mk3_TS_Intercity_Swallow_purchase;
         spriteset_BR_Mk3_TS_Intercity_Swallow_purchase; }
 
-item(FEAT_TRAINS, BR_Mk3_Header, 12120) {
+item(FEAT_TRAINS, item_BR_Mk3_Header, 12120) {
     property {
         name:                           string(STR_NAME_BR_Mk3_Header);
 		climates_available: 			NO_CLIMATE;					
