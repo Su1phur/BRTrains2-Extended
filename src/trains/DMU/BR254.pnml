@@ -1,0 +1,180 @@
+// reversing switches
+// coming soon
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_BR254_Diesel, position_in_vehid_chain % 30) {
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+    28: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR254_BR_Blue_125, position_in_articulated_veh % 30) {
+	1: spriteset_BR43_BRBlue;
+    4: sw_loadstack_BR_Mk3_TF_BR_Blue_125;
+    7: sw_loadstack_BR_Mk3_TF_BR_Blue_125;
+    10: sw_loadstack_BR_Mk3_TRUK_BR_Blue_125;
+    13: sw_loadstack_BR_Mk3_TS_BR_Blue_125;
+    16: sw_loadstack_BR_Mk3_TS_BR_Blue_125;
+    19: sw_loadstack_BR_Mk3_TRSB_BR_Blue_125;
+    22: sw_loadstack_BR_Mk3_TS_BR_Blue_125;
+    25: sw_loadstack_BR_Mk3_TS_BR_Blue_125;
+    28: spriteset_BR43_BRBlue_REV;
+	    spriteset_empty; }
+
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR254_Intercity_Executive, position_in_articulated_veh % 30) {
+	1: spriteset_BR43_BR_Intercity_Executive;
+    4: sw_loadstack_BR_Mk3_TF_Intercity_Executive;
+    7: sw_loadstack_BR_Mk3_TF_Intercity_Executive;
+    10: sw_loadstack_BR_Mk3_TRUK_Intercity_Executive;
+    13: sw_loadstack_BR_Mk3_TS_Intercity_Executive;
+    16: sw_loadstack_BR_Mk3_TS_Intercity_Executive;
+    19: sw_loadstack_BR_Mk3_TRSB_Intercity_Executive;
+    22: sw_loadstack_BR_Mk3_TS_Intercity_Executive;
+    25: sw_loadstack_BR_Mk3_TS_Intercity_Executive;
+    28: spriteset_BR43_BR_Intercity_Executive_REV;
+	    spriteset_empty; }
+
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR254_Intercity_Swallow, position_in_articulated_veh % 30) {
+	1: spriteset_BR43_BR_Intercity_Swallow;
+    4: sw_loadstack_BR_Mk3_TF_Intercity_Swallow;
+    7: sw_loadstack_BR_Mk3_TF_Intercity_Swallow;
+    10: sw_loadstack_BR_Mk3_TRUK_Intercity_Swallow;
+    13: sw_loadstack_BR_Mk3_TS_Intercity_Swallow;
+    16: sw_loadstack_BR_Mk3_TS_Intercity_Swallow;
+    19: sw_loadstack_BR_Mk3_TRSB_Intercity_Swallow;
+    22: sw_loadstack_BR_Mk3_TS_Intercity_Swallow;
+    25: sw_loadstack_BR_Mk3_TS_Intercity_Swallow;
+    28: spriteset_BR43_BR_Intercity_Swallow_REV;
+	    spriteset_empty; }
+
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR254_GNER, position_in_articulated_veh % 30) {
+	1: spriteset_BR43_GNER;
+    4: sw_loadstack_BR_Mk3_TF_GNER;
+    7: sw_loadstack_BR_Mk3_TF_GNER;
+    10: sw_loadstack_BR_Mk3_TRFB_GNER;
+    13: sw_loadstack_BR_Mk3_TS_GNER;
+    16: sw_loadstack_BR_Mk3_TS_GNER;
+    19: sw_loadstack_BR_Mk3_TRUB_GNER;
+    22: sw_loadstack_BR_Mk3_TS_GNER;
+    25: sw_loadstack_BR_Mk3_TS_GNER;
+    28: spriteset_BR43_GNER_REV;
+	    spriteset_empty; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR254, cargo_subtype) {
+    0: sw_graphics_BR254_BR_Blue_125;
+    1: sw_graphics_BR254_Intercity_Executive;
+    2: sw_graphics_BR254_Intercity_Swallow;
+    3: sw_graphics_BR254_GNER; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR254_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRBlue125);
+    1:  return string(str_BRInterCityExecutive);
+    2:  return string(str_BRInterCitySwallow);
+    3:  return string(str_GNER);
+       return CB_RESULT_NO_TEXT; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR254, position_in_articulated_veh % 30) {
+	1: 3;
+    4: 6;
+    7: 6;
+    10: 6;
+    13: 6;
+    16: 6;
+    19: 6;
+    22: 6;
+    25: 6;
+    28: 3;
+        4; }
+
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR254, position_in_vehid_chain % 30) {
+    0: 423 * param_pax; // all the capacity - (vehid chain number)
+    1..29: 1 * param_pax;
+    // total 452
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR254, param_max_speed) {
+    0: 125; // operational speed
+    1: 140; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR254, extra_callback_info1) {
+	1..29: return item_BR254;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR254, 2540) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR254);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1975,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          4500 hp;
+        weight:                         469 ton;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.07;
+        tractive_effort_coefficient:    0.04;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR254;
+        visual_effect_and_powered:      sw_FX_BR254_Diesel;
+        purchase:                       sw_BR43_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR254;
+        articulated_part:               sw_articulated_BR254;
+        speed:                          sw_speed_BR254() * 1609 / 1000;
+        purchase_cargo_capacity:        return ( 15 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR254;
+        cost_factor:                    456;
+        running_cost_factor:            12885;
+        cargo_subtype_text:             sw_BR254_cargo_subtype_text; 
+        // power:                          sw_power_BR254;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_dmu),
+                                                    string(str_BR254_usage),
+                                                    string(str_BR254_liveries)));
+    }
+}
+

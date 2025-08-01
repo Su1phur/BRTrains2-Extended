@@ -1,0 +1,236 @@
+// basic sprite
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_purchase, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_TRFB_BR_Blue_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_TRFB_BR_Blue_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_BR_Blue, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TRFB_BR_Blue;
+    1: spritegroup_BR_Mk3_TRFB_BR_Blue_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_125, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_BR_Blue_125, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TRFB_BR_Blue;
+    1: spritegroup_BR_Mk3_TRFB_BR_Blue_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TRFB_GNER, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TRFB_GNER_purchase, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_GNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TRFB_GNER;
+    1: spritegroup_BR_Mk3_GNER_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_TRFB_Intercity_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_Intercity_Executive, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TRFB_Intercity_Executive;
+    1: spritegroup_BR_Mk3_TRFB_Intercity_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Swallow, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_Intercity_Swallow, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TRFB_Intercity_Swallow;
+    1: spritegroup_BR_Mk3_TRFB_Intercity_Loading; }
+
+// purchase year switch
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk3_TRFB_purchase_sprite, current_year) {
+    1965..1982: spriteset_BR_Mk3_TRFB_BR_Blue_purchase;
+    1983..1993: spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase;
+        spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3_TRFB, cargo_subtype) {
+    0: sw_loadstack_BR_Mk3_TRFB_BR_Blue;
+    1: sw_loadstack_BR_Mk3_TRFB_BR_Blue_125;
+    2: sw_loadstack_BR_Mk3_TRFB_Intercity_Executive;
+    3: sw_loadstack_BR_Mk3_TRFB_Intercity_Swallow; 
+    4: sw_loadstack_BR_Mk3_TRFB_GNER; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk3_TRFB_cargo_subtype_text, cargo_subtype){
+	0:  return string(str_BRBlueGrey);	
+    1:  return string(str_BRBlue125);
+    2:  return string(str_BRInterCityExecutive);
+    3:  return string(str_BRInterCitySwallow);
+    4:  return string(str_GNER);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk3_TRFB, position_in_articulated_veh % 3) {
+	1: return sw_livery_BR_Mk3_TRFB;
+	    spriteset_empty; }
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3_TRFB, position_in_vehid_chain % 3) {
+    0: 33 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total 35 
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk3_TRFB, extra_callback_info1) {
+	1: return item_BR_Mk3_TRFB;
+	2: return item_BR_Mk3_TRFB;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Mk3_TRFB, 12124) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk3_TRFB);
+        variant_group:                  BR_Mk3_Header; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1975,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        cargo_allow_refit:               [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_STEAM;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         36 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Mk3_TRFB;
+        purchase:                       sw_BR_Mk3_TRFB_purchase_sprite;
+        
+        // internal code
+        length:                         sw_length_BR_Mk3;
+        articulated_part:               sw_articulated_BR_Mk3_TRFB;
+        purchase_cargo_capacity:        return (7 * param_pax); // divide by number of articulated parTRFB and floor
+        cargo_capacity:                 sw_capacity_BR_Mk3_TRFB;
+        cost_factor:                    2116;
+        running_cost_factor:            2120;
+        cargo_subtype_text:             sw_BR_Mk3_TRFB_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_Mk3_liveries)));
+    }
+}

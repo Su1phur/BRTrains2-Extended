@@ -902,15 +902,13 @@ str_BR43_usage					:Express Passenger
 str_BR43_eos					:---
 str_BR43_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, First Great Western
 
-# STR_NAME_BR43					:BR Class 254 "Eastern"
-# str_BR43_usage					:Express Passenger
-# str_BR43_eos					:---
-# str_BR43_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Cross Country, Great North Eastern Railway, National Express
-# 
-# STR_NAME_BR43					:BR Class 255 "Challenger"
-# str_BR43_usage					:Express Passenger
-# str_BR43_eos					:---
-# str_BR43_liveries				:Cross Country, Grand Central, Grand Central Lined
+STR_NAME_BR254					:BR Class 254 "Eastern"
+str_BR254_usage					:Express Passenger
+str_BR254_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Cross Country, Great North Eastern Railway, National Express
+
+STR_NAME_BR255					:BR Class 255 "Challenger"
+str_BR255_usage					:Express Passenger
+str_BR255_liveries				:Cross Country, Grand Central, Grand Central Lined
 
 STR_NAME_BR302					:BR Class 302 "AM2" (4-car)
 str_BR302_usage					:Commuter Passenger
@@ -1450,12 +1448,15 @@ str_BR_Mk2_Buffet_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, DRS, V
 STR_NAME_BR_Mk3_Header			:BR Mark 3 Coaches (HST Only)
 STR_NAME_BR_Mk3a_Header         :BR Mark 3a Coaches (Locomotive-hauled)
 
-STR_NAME_BR_Mk3_TF				:BR Mark 3 Coach (Trailer First)
-STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (Trailer Second)
+STR_NAME_BR_Mk3_TF				:BR Mark 3 Coach (TF)
 STR_NAME_BR_Mk3_TGS				:BR Mark 3 Coach (Trailer Guard Second)
-STR_NAME_BR_Mk3_TRSB			:BR Mark 3 Coach (Trailer Buffet)
-STR_NAME_BR_Mk3_TRUB			:BR Mark 3 Coach (Trailer Buffet)
-STR_NAME_BR_Mk3_TRUK			:BR Mark 3 Coach (Trailer Kitchen)
+STR_NAME_BR_Mk3_TLUK            :BR Mark 3 Trailing Lounge Unclassified Kitchen
+STR_NAME_BR_Mk3_TRFB            :BR Mark 3 Trailing Restaurant First Buffet
+STR_NAME_BR_Mk3_TRFK            :BR Mark 3 Trailing Restaurant First Kitchen
+STR_NAME_BR_Mk3_TRSB			:BR Mk 3 (Trailing Restaurant Standard Buffet)
+STR_NAME_BR_Mk3_TRUB			:BR Mk 3 (TRUB)
+STR_NAME_BR_Mk3_TRUK			:BR Mark 3 Coach (Trailer Restaurant Unclassified Kitchen)
+STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (Trailer Second)
 STR_NAME_BR_Mk3_DMB				:BR Mark 3 Driving Motor Brake
 
 STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (Tourist Standard Open)
@@ -1673,6 +1674,7 @@ str_BRBlueCentre				: (BR - Blue, Centre Headcode)
 str_BRBlueSplit					: (BR - Blue, Split Box)
 str_BRBlueFront				    : (BR - Blue, Yellow Front)
 str_BRBluePanel                 : (BR - Blue, Yellow Panel)
+str_BRBlue125                   : (BR - InterCity 125 Blue and Grey)
 str_BRCarmCream					: (BR - Carmine and Cream)
 str_BRChocCream					: (BR - Chocolate and Cream)
 str_BRDesertSand                : (BR - Desert Sands)

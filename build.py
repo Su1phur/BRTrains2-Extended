@@ -18,7 +18,7 @@ KeyFiles = OrderedDict( [
 ] )
 
 SpecialOrderFiles = { 
-    "BR_Mk3_TS.pnml": "BR43.pnml",
+    "BR_Mk3_TS.pnml": ["BR43.pnml", "BR254.pnml"],
     "Containers_BR.pnml": ["BR_Conflat_A.pnml", "BR_Conflat_P.pnml"],
     "RCH_1907_graphics.pnml": ["1_Plank_Open_Wagons_Load.pnml", "RCH_1907.pnml", "RCH_1907_1_plank.pnml", "RCH_1907_3_plank.pnml", "RCH_1907_5_plank.pnml", "RCH_1907_7_plank.pnml", "RCH_1907_Van.pnml"],
     "60Long_Cont20_Side.pnml": ["60Long_Cont40_Side.pnml", "BR_FEA.pnml"]

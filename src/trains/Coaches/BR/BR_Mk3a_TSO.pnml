@@ -26,8 +26,7 @@ spriteset(spriteset_BR_Mk3_TS_BR_ScotRail_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3
 // loading sprite
 spritegroup spritegroup_BR_Mk3_TS_BR_ScotRail_Loading {  
     loaded: [spriteset_empty];
-    loading: [spriteset_BR_Mk3_TS_BR_ScotRail_Loading];
-}
+    loading: [spriteset_BR_Mk3_TS_BR_ScotRail_Loading]; }
 
 // sprite stacking
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3a_TSO_BR_Blue, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -36,8 +35,14 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3a_TSO_BR_Blue, [ STORE_TEMP((getbit
     2: spriteset_BR_Mk3a_Buffers;
 }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3a_TSO_BR_Intercity, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR_Mk3_TS_BR_Intercity;
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3a_TSO_Intercity_Executive, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_Intercity_Executive;
+    1: spritegroup_BR_Mk3_TS_BR_Blue_Loading;
+    2: spriteset_BR_Mk3a_Buffers;
+}
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3a_TSO_Intercity_Swallow, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_Intercity_Swallow;
     1: spritegroup_BR_Mk3_TS_BR_Blue_Loading;
     2: spriteset_BR_Mk3a_Buffers;
 }
@@ -55,24 +60,24 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Mk3a_TSO_BR_Blue_purchase, [STORE_TE
 }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Mk3a_TSO_BR_Intercity_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-    0: spriteset_BR_Mk3_TS_BR_Intercity_purchase;
+    0: spriteset_BR_Mk3_TS_Intercity_Swallow_purchase;
     1: spriteset_BR_Mk3a_Buffers_purchase;
 }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3a_TSO, cargo_subtype) {
     0: sw_loadstack_BR_Mk3a_TSO_BR_Blue;
-    1: sw_loadstack_BR_Mk3a_TSO_BR_Intercity;
-    2: sw_loadstack_BR_Mk3a_TSO_BR_ScotRail;
-}
+    1: sw_loadstack_BR_Mk3a_TSO_Intercity_Executive;
+    2: sw_loadstack_BR_Mk3a_TSO_Intercity_Swallow;
+    3: sw_loadstack_BR_Mk3a_TSO_BR_ScotRail; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk3a_TSO_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlueGrey);
-    1:  return string(str_BRInterCity);
-    2:  return string(str_BRScotRail);
-       return CB_RESULT_NO_TEXT;
-}
+    1:  return string(str_BRInterCityExecutive);
+    2:  return string(str_BRInterCitySwallow);
+    3:  return string(str_BRScotRail);
+       return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk3a_TSO, position_in_articulated_veh % 3) {
@@ -86,13 +91,6 @@ switch(FEAT_TRAINS, PARENT, sw_BR_Mk3a_TSO_purchase_sprite, current_year) {
     1965..1982: sw_spritestack_BR_Mk3a_TSO_BR_Blue_purchase;
     1983..1993: sw_spritestack_BR_Mk3a_TSO_BR_Intercity_purchase;
         sw_spritestack_BR_Mk3a_TSO_BR_Intercity_purchase;
-}
-
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR_Mk3a_TSO, position_in_articulated_veh % 3) {
-	0: 4;
-	1: 6;
-	2: 4;
 }
 
 // capacity switch
@@ -149,7 +147,7 @@ item (FEAT_TRAINS, item_BR_Mk3a_TSO, 12136) {
         purchase:                       sw_BR_Mk3a_TSO_purchase_sprite;
         
         // internal code
-        length:                         sw_length_BR_Mk3a_TSO;
+        length:                         sw_length_BR_Mk3;
         articulated_part:               sw_articulated_BR_Mk3a_TSO;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk3a_TSO;
