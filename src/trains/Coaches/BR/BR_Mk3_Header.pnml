@@ -12,11 +12,20 @@ spriteset(spriteset_BR_Mk3_TS_Intercity_Swallow_purchase, "gfx\Coaches\BR_Mk3_TS
     alternative_sprites(spriteset_BR_Mk3_TS_Intercity_Swallow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Intercity_Swallow_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Intercity_Swallow_1x_mask.png")
     { template_purchase(0,0) }
 
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TS_GNER_purchase, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_GNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GNER_1x_mask.png")
+    { template_purchase(0,0) }
+
 // purchase year switch
 switch(FEAT_TRAINS, PARENT, sw_BR_Mk3_TS_purchase_sprite, current_year) {
     1965..1982: spriteset_BR_Mk3_TS_BR_Blue_purchase;
     1983..1993: spriteset_BR_Mk3_TS_Intercity_Swallow_purchase;
-        spriteset_BR_Mk3_TS_Intercity_Swallow_purchase; }
+    1996..2007: spriteset_BR_Mk3_TS_GNER_purchase;
+    
+        spriteset_BR_Mk3_TS_BR_Blue_purchase; }
 
 item(FEAT_TRAINS, item_BR_Mk3_Header, 12120) {
     property {
@@ -26,6 +35,7 @@ item(FEAT_TRAINS, item_BR_Mk3_Header, 12120) {
 	}
 	graphics {	
 		purchase:						sw_BR_Mk3_TS_purchase_sprite;	
+        colour_mapping:                 return PALETTE_CC_FIRST;
 	}
 }
 

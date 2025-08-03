@@ -1,0 +1,199 @@
+// basic sprite
+spriteset(spriteset_BR_Mk3_TSD_BR_Blue, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TSD_BR_Blue_purchase, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_BR_Blue_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TSD_BR_Blue, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TSD_BR_Blue;
+    1: spritegroup_BR_Mk3_TS_Sliding_Door_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TSD_Crosscountry, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Crosscountry, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Crosscountry, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Crosscountry, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TSD_Crosscountry_purchase, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Crosscountry_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Crosscountry_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TSD_XC, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TSD_Crosscountry;
+    1: spritegroup_BR_Mk3_TS_Sliding_Door_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TSD_GWR, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_GWR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_GWR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_GWR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TSD_GWR_purchase, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_GWR_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_GWR_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TSD_GWR, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TSD_GWR;
+    1: spritegroup_BR_Mk3_TS_Sliding_Door_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TSD_Scotrail, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Scotrail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Scotrail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Scotrail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk3_TSD_Scotrail_purchase, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TSD_Scotrail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TSD\BR_Mk3_TSD_Scotrail_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TSD_Scotrail, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TSD_Scotrail;
+    1: spritegroup_BR_Mk3_TS_Sliding_Door_Loading; }
+
+// purchase year switch
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk3_TSD_purchase_sprite, current_year) {
+    1996..2005: spriteset_BR_Mk3_TSD_Crosscountry_purchase;
+    2006..2021: spriteset_BR_Mk3_TSD_GWR_purchase;
+    2022..2028: spriteset_BR_Mk3_TSD_Scotrail_purchase;
+        spriteset_BR_Mk3_TSD_BR_Blue_purchase; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3_TSD, cargo_subtype) {
+    0: sw_loadstack_BR_Mk3_TSD_BR_Blue;
+    1: sw_loadstack_BR_Mk3_TSD_XC;
+    2: sw_loadstack_BR_Mk3_TSD_GWR;
+    3: sw_loadstack_BR_Mk3_TSD_Scotrail; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk3_TSD_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRBlueGrey);
+    1:  return string(str_XC);
+    2:  return string(str_GWR);
+    3:  return string(str_ScotRail_I7C);
+       return CB_RESULT_NO_TEXT;
+}
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk3_TSD, position_in_articulated_veh % 3) {
+	1: return sw_livery_BR_Mk3_TSD;
+	    spriteset_empty; }
+    
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR_Mk3_TSD, position_in_articulated_veh % 3) {
+	1: 6;
+	    4; }
+
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3_TSD, position_in_vehid_chain % 3) {
+    0: 64 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total 66
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk3_TSD, extra_callback_info1) {
+	1..2: return item_BR_Mk3_TSD;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Mk3_TSD, 12130) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk3_TSD);
+        variant_group:                  item_BR_Mk3_Header; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1996,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         35 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Mk3_TSD;
+        purchase:                       sw_BR_Mk3_TSD_purchase_sprite;
+
+        // internal code
+        length:                         sw_length_BR_Mk3_TSD;
+        articulated_part:               sw_articulated_BR_Mk3_TSD;
+        purchase_cargo_capacity:        return (22 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR_Mk3_TSD;
+        cost_factor:                    2856;
+        running_cost_factor:            2226;
+        cargo_subtype_text:             sw_BR_Mk3_TSD_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_BR_Mk3_liveries)));
+    }
+}
