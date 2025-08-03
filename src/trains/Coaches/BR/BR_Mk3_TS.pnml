@@ -81,13 +81,6 @@ spriteset(spriteset_BR_Mk3_TS_GWR, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_1x_8bpp.
     alternative_sprites(spriteset_BR_Mk3_TS_GWR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_4x_mask.png")
         { template_148trains_4x(0,0) }
 
-// purchase sprite
-spriteset(spriteset_BR_Mk3_TS_GWR_purchase, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3_TS_GWR_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_1x_mask.png")
-    { template_purchase(0,0) }
-
 // POWERED DOOR LOADING SPRITE
 spriteset(spriteset_BR_Mk3_TS_Sliding_Door_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_GWR_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
@@ -227,13 +220,6 @@ spriteset(spriteset_BR_Mk3_TS_Scotrail, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Scotrai
     alternative_sprites(spriteset_BR_Mk3_TS_Scotrail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Scotrail_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Scotrail_4x_mask.png")
         { template_148trains_4x(0,0) }
 
-// purchase sprite
-spriteset(spriteset_BR_Mk3_TS_Scotrail_purchase, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Scotrail_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3_TS_Scotrail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Scotrail_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Scotrail_1x_mask.png")
-    { template_purchase(0,0) }
-
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Scotrail, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_Scotrail;
     1: spritegroup_BR_Mk3_TS_Sliding_Door_Loading; }
@@ -327,6 +313,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TS, 12129) {
         // internal code
         length:                         sw_length_BR_Mk3_TS;
         articulated_part:               sw_articulated_BR_Mk3_TS;
+        speed:                          sw_speed_BR_Mk3() * 1609 / 1000;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk3_TS;
         cost_factor:                    3000;
@@ -336,6 +323,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TS, 12129) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TS),
                                                     string(str_BR_Mk3_liveries)));
     }
 }

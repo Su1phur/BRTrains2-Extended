@@ -214,7 +214,7 @@ item (FEAT_TRAINS, item_WD_50t_Warflat, 11802) {
         // colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_WD_50t_Warflat_liveries)));
     }
 }

@@ -158,6 +158,7 @@ item (FEAT_TRAINS, item_BR_Mk3a_TSO, 12136) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TSO),
                                                     string(str_BR_Mk3a_liveries)));
     }
 }

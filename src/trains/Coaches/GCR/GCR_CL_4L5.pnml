@@ -211,7 +211,7 @@ item (FEAT_TRAINS, item_GCR_CL_4L5, 11200) {
         // colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_GCR_CL_4L5_liveries)));
     }
 }

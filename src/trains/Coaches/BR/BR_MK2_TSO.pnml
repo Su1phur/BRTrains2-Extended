@@ -109,6 +109,7 @@ item (FEAT_TRAINS, item_BR_Mk2_TSO, 12089) { // Diagram 87/88 BR Mk2z TSO
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
+                                                string(str_coach_TSO),
                                                 string(str_BR_Mk2_Early_liveries)));
     }
 }

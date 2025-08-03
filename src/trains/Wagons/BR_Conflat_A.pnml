@@ -102,7 +102,7 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 12200) { // Diagram 61/62 12/13 ton contai
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return(string(str_purchase_coach,
+        additional_text:                return(string(str_purchase_wagon,
                                             string(str_BR_Conflat_A_liveries))
                                         );
     }

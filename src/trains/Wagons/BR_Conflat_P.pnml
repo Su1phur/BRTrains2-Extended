@@ -107,7 +107,7 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 12201) {
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return(string(str_purchase_coach,
+        additional_text:                return(string(str_purchase_wagon,
                                             string(str_BR_Conflat_P_liveries))
                                         );
     }

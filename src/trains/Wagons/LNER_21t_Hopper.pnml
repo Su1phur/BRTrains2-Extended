@@ -268,7 +268,7 @@ item (FEAT_TRAINS, item_LNER_21t_Hopper, 11801) {
         name:                           sw_name_LNER_21t_Hopper;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_LNER_21t_Hopper_liveries)));
     }
 }

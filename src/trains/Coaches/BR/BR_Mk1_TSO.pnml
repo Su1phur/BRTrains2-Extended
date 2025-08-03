@@ -61,6 +61,7 @@ item (FEAT_TRAINS, item_BR_Mk1_TSO, 12038) { // Diagram 93 BR Mk1 TSO
 
         // purchase menu text
         additional_text:                return(	string(str_purchase_coach,
+                                                string(str_coach_TSO),
 												string(str_BR_Mk1_liveries)));
     }
 }

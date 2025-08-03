@@ -222,6 +222,10 @@ switch(FEAT_TRAINS, PARENT, sw_BR_Mk1_TK_name, current_year) {
     string(STR_NAME_BR_Mk1_SK);
 }
 
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk1_TK_desc, current_year) {
+    1952..1956: string(str_purchase_coach, string(str_coach_TK), string(str_BR_Mk1_liveries));
+        string(str_purchase_coach, string(str_coach_SK), string(str_BR_Mk1_liveries)); }
+
 item (FEAT_TRAINS, item_BR_Mk1_TK, 12031) { // Diagram 146/147 BR Mk1 TK/SK
     property {
 		// common properties
@@ -269,7 +273,6 @@ item (FEAT_TRAINS, item_BR_Mk1_TK, 12031) { // Diagram 146/147 BR Mk1 TK/SK
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return(	string(str_purchase_coach,
-												string(str_BR_Mk1_liveries)));
+        additional_text:                sw_BR_Mk1_TK_desc;
     }
 }

@@ -210,7 +210,7 @@ item (FEAT_TRAINS, item_GWR_TK_C24, 11501) { // GWR Diagram C24 Churchward "Drea
         // colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_GWR_TK_C24_liveries)));
     }
 }

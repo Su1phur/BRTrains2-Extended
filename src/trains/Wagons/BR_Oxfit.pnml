@@ -82,7 +82,7 @@ item (FEAT_TRAINS, item_BR_Oxfit, 12255) {
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_BR_Oxfit_liveries)));
     }
 }

@@ -467,7 +467,7 @@ item (FEAT_TRAINS, item_LNER_BT_T, 11500) {
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return(	string(str_purchase_coach,
+        additional_text:                return(	string(str_purchase_wagon,
 												string(str_LNER_BT_T_liveries)));
     }
 }

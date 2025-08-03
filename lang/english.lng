@@ -205,48 +205,11 @@ STR_DESC_Empty                          :Empty Unit intended for internal use of
 STR_CANNOT_ATTACH						:Cannot attach a different class of train
 
 # Vehicle Descriptions
-STR_DSC_BR_MK5A                        :Type: {RED}Diesel Locomotive{}{BLACK}Usage: {GOLD}Regional Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Transpennine Express
-
-STR_DSC_BR_195                         :Type: {RED}Diesel Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Northern
-STR_DSC_BR_196                         :Type: {RED}Diesel Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}West Midlands Railway
-STR_DSC_BR_197                         :Type: {RED}Diesel Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}TfW Rail
-STR_DSC_BR_231                         :Type: {RED}Diesel{BLACK} {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Regional Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Transport for Wales
-
-STR_DSC_BR321                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}NSE, Dutch Railways, Greater Anglia, Silverlink, London Midland, WYPTE
-STR_DSC_BR_331                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Northern
-STR_DSC_BR_345                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Transport for London
-STR_DSC_BR_397                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Transpennine Express
-STR_DSC_BR555                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Urban Passenger/Metro{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Tyne and Wear Metro
-
-STR_DSC_TGV                            :Type: {BLUE}High Speed Electric Multiple Unit{}{BLACK}Usage: {GOLD}Express Mail/Goods{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}La Poste, Royal Mail (fictional)
-
-
-STR_DSC_BR_701                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}South Western Railway
-STR_DSC_BR_707                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}South Western Railway
-STR_DSC_BR_710                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Urban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}London Overground
-STR_DSC_BR_720                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Greater Anglia
-STR_DSC_BR730_0                       :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}WMR
-STR_DSC_BR730_2                       :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}LNWR
-STR_DSC_BR_745                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Regional Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Greater Anglia
-STR_DSC_BR_755                         :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Regional Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Greater Anglia
-STR_DSC_BR_756                         :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Regional Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Transport for Wales
-STR_DSC_BR_769                         :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Transport for London, Northen, Rail Operations Group
-STR_DSC_BR_769_9                       :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Great Western Railway
-STR_DSC_br777                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Urban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Merseyrail
-
-STR_DSC_BR800                         :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}London North Eastern Railway, GWR, Virgin Trains East Coast, Hitachi
-STR_DSC_BR801                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}London North Eastern Railway, Hitachi
-STR_DSC_BR802_5CAR                    :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Great Western Railway, Transpennine Express, Hull Trains, Hitachi
-STR_DSC_BR802_9CAR                    :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Great Western Railway, Hitachi
-STR_DSC_BR803                         :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Lumo, Hitachi
-STR_DSC_BR805_5CAR                    :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Avanti West Coast, Hitachi
-STR_DSC_BR807_7CAR                    :Type: {BLUE}Electric Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Avanti West Coast, Hitachi
-STR_DSC_BR810_5CAR                    :Type: {RED}Diesel{BLACK}-{BLUE}Electric {PURPLE}Multiple Unit{}{BLACK}Usage: {GOLD}Express Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}East Midland Railway, Hitachi
-
 str_purchase_loco_with_liveries	:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
 str_purchase_loco				:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}
 str_purchase_steam_liveries		:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
-str_purchase_coach				:{BLACK}Liveries: {GOLD}{STRING}{BLACK}
+str_purchase_wagon			    :{BLACK}Liveries: {GOLD}{STRING}{BLACK}
+str_purchase_coach              :{BLACK}Type: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
 
 str_purchase_type_diesel		:{RED}Diesel locomotive
 str_purchase_type_steam			:{GREEN}Steam Locomotive
@@ -258,41 +221,242 @@ str_purchase_type_emu			:{BLUE}Electric Multiple Unit
 str_purchase_type_electric		:{BLUE}Electric Locomotive
 str_purchase_type_gtu  		    :{ORANGE}Gas Turbine Experimental Unit
 
-STR_NAME_MPV_Single				:Departmental Class 98/9 "MPV" Track Maintenance Unit (1-car)
-STR_NAME_MPV_DualTrack			:Departmental Class 98/9 "MPV" Track Maintenance Unit (2-car)
-STR_NAME_MPV_DualFreight		:Departmental Class 98/9 "Freight MPV" Container Unit (2-car)
-str_MPV_usage				    :Departmental Railway
-str_MPV_eos					    :---
-str_MPV_liveries				:Network Rail, Railtrack, South West Trains
+# Coach Codes
+str_coach_B                     :Brake
+str_coach_BC                    :Brake Composite
+str_coach_BCK                   :Brake Composite Corridor
+str_coach_BCL                   :Brake Composite Lavatory
+str_coach_BCV                   :BRUTE Carrying Van
+str_coach_BDBS                  :Battery Driving Trailer Brake Second
+str_coach_BDMS                  :Battery Driving Motor Second
+str_coach_BDTC                  :Battery Driving Trailer Composite
+str_coach_BDTS                  :Battery Driving Trailer Second
+str_coach_BFB                   :Bullion Container Flat
+str_coach_BFK                   :Brake First Corridor
+str_coach_BFO                   :Brake First Open
+str_coach_BG                    :Gangwayed Full Brake
+str_coach_BGP                   :Brake gangwayed pigeon van
+str_coach_BGZ                   :Brake gangwayed (six-wheels)
+str_coach_BS                    :Brake Second
+str_coach_BSK                   :Brake Second Corridor
+str_coach_BSL                   :Brake Second Lavatory
+str_coach_BSO                   :Brake Second Open
+str_coach_BSO_T                 :Brake Second Open Trolley (Micro Buffet)
+str_coach_BTK                   :Brake Third Corridor
+str_coach_BUO                   :Brake Unclassified Open
+str_coach_BY                    :Brake (non-gangwayed, four-wheeled)
+str_coach_BZ                    :Brake (non-gangwayed, six-wheeled)
+str_coach_C                     :Composite
+str_coach_CCT                   :Covered Carriage Truck
+str_coach_CK                    :Corridor Composite
+str_coach_CL                    :Lavatory Composite
+str_coach_CLso                  :Lavatory Composite Semi-Open
+str_coach_CO                    :Composite Open
+str_coach_CTO                   :Open Carriage Truck
+str_coach_DBSO                  :Driving Brake Second Open
+str_coach_DM                    :Driving Motor
+str_coach_DMB                   :Driving Motor Brake
+str_coach_DMBC                  :Driving Motor Brake Composite
+str_coach_DMBF                  :Driving Motor Brake First
+str_coach_DMBS                  :Driving Motor Brake Second
+str_coach_DMBSO                 :Driving Motor Brake Second Open
+str_coach_DMC                   :Driving Motor Composite
+str_coach_DMLV                  :Driving Motor Luggage Van
+str_coach_DMS                   :Driving Motor Second
+str_coach_DTBS                  :Driving Trailer Brake Second
+str_coach_DTC                   :Driving Trailer Composite
+str_coach_DTS                   :Driving Trailer Second
+str_coach_DTV                   :Driving Trailer Van
+str_coach_DVT                   :Driving Van Trailer
+str_coach_FK                    :Corridor First
+str_coach_FO                    :Open First
+str_coach_FOT                   :First Open Trolley
+str_coach_GUV                   :General Utility Van
+str_coach_HB                    :Horse Box
+str_coach_IFV                   :Insulated Fish Van
+str_coach_KB                    :Kitchen Buffet (no seats, later RKB)
+str_coach_LFK                   :Lounge First
+str_coach_M                     :Motor
+str_coach_MBS                   :Motor Brake Second
+str_coach_MFLRK                 :Motor First Lavatory Kitchen
+str_coach_MLV                   :Motor Luggage Van
+str_coach_MPSL                  :Motor Parlour Second Lavatory
+str_coach_MS                    :Motor Second
+str_coach_MSLRK                 :Motor Second Lavatory Kitchen
+str_coach_NPV                   :Newspaper Van
+str_coach_PCP                   :Pullman Composite Parlour
+str_coach_PCV                   :Propelling Control Vehicle / Parcels Van
+str_coach_PFB                   :Pullman First Brake
+str_coach_PFK                   :Pullman First Kitchen
+str_coach_PFP                   :Pullman First Parlour
+str_coach_PMV                   :Parcels & Miscellaneous Van / Pantograph Motor Van
+str_coach_POS                   :Post Office Sorting Van
+str_coach_POT                   :Post Office Stowage Van
+str_coach_PSB                   :Pullman Second Brake
+str_coach_PSP                   :Pullman Second Parlour
+str_coach_PTSO                  :Pantograph Trailer Second Open
+str_coach_PVG                   :Packing Van Gangway (newspaper)
+str_coach_RB                    :Restaurant Buffet
+str_coach_BRK                   :Restaurant Buffet (larger kitchen)
+str_coach_RBR                   :Restaurant Buffet Refurbished
+str_coach_RBS                   :Restaurant Unclassed (proper buffet)
+str_coach_RC                    :Restaurant Composite
+str_coach_RCO                   :Restaurant Composite Open
+str_coach_RE                    :Griddle
+str_coach_RF                    :Restaurant First
+str_coach_RFB                   :Restaurant First Buffet
+str_coach_RFM                   :Restaurant First Modular
+str_coach_RFO                   :Restaurant First Open
+str_coach_RFK                   :Restaurant First Kitchen
+str_coach_RK                    :Kitchen Car
+str_coach_RKB                   :Kitchen Buffet (no seats)
+str_coach_RLB                   :Restaurant Lounge First Buffet
+str_coach_RMB                   :Restaurant Miniature Buffet
+str_coach_RMBT                  :Micro Buffet
+str_coach_RS                    :Restaurant Second
+str_coach_RSO                   :Restaurant Second Open (without kitchen)
+str_coach_RU                    :Unclassified Restaurant
+str_coach_RUB                   :Restaurant Unclassified (makeshift buffet)
+str_coach_RUK                   :Restaurant Unclassified Kitchen
+str_coach_RUO                   :Restaurant Unclassified Open (with kitchen)
+str_coach_S                     :Second
+str_coach_SCV                   :Special Cattle Van
+str_coach_SD                    :Saloon Discothèque
+str_coach_SK                    :Corridor Second
+str_coach_SLB                   :Bullion Van
+str_coach_SLC                   :Sleeper Composite
+str_coach_SLCP                  :Sleeper Composite with Pantry
+str_coach_SLE                   :Sleeper Either Class
+str_coach_SLEP                  :Sleeper Either Class with Pantry
+str_coach_SLF                   :Sleeper First
+str_coach_SLO                   :Open Second with Lavatory (Non-gangwayed)
+str_coach_SLSC                  :Sleeper Support Coach
+str_coach_SLSTP                 :Sleeper Second Twin-Berth with Pantry
+str_coach_SO                    :Open Second
+str_coach_SO_NG                 :Second Open (non-gangwayed)
+str_coach_SPV                   :Special Parcels Van
+str_coach_TAV                   :Trailer Auxiliary Van
+str_coach_TBC                   :Trailer Brake Composite
+str_coach_TBF                   :Trailer Brake First
+str_coach_TBS                   :Trailer Brake Second
+str_coach_TC                    :Trailer Composite
+str_coach_TCC                   :Trailer Composite Conductor
+str_coach_TCV                   :Tiered Car Carrier
+str_coach_TF                    :Trailer First
+str_coach_TFLRK                 :Trailer First Lavatory Kitchen
+str_coach_TG                    :Trailer Griddle
+str_coach_TGS                   :Trailer Guard Second
+str_coach_TK                    :Third Corridor
+str_coach_TOV                   :Third Open Vestibuled
+str_coach_TLUK                  :Trailer Lounge Unclassified Kitchen
+str_coach_TPFL                  :Trailer Parlour First Lavatory
+str_coach_TRB                   :Trailer Restaurant Buffet Unclassified
+str_coach_TRFB                  :Trailer Restaurant First Buffet
+str_coach_TRFM                  :Trailer Restaurant First Modular
+str_coach_TRFK                  :TRailer Restaurant First Kitchen
+str_coach_TRSB                  :Trailer Restaurant Second Buffet
+str_coach_TRUB                  :Trailer Restaurant Unclassified Buffet
+str_coach_TRUK                  :Trailer Restaurant Unclassified Kitchen
+str_coach_TS                    :Trailer Second
+str_coach_TSD                   :Trailer Second Disabled
+str_coach_TSO                   :Tourist Second Open
+str_coach_TSOD                  :Tourist Standard Open Disabled
+str_coach_TSOE                  :Tourist Standard Open End Coach
+str_coach_TSO_T                 :Tourist Second Open Trolley (Micro Buffet)
+str_coach_TU                    :Trailer Unclassified
+str_coach_VFV                   :Ventilated Fruit Van
 
-str_MPV_Geometry                :Track Geometry (Covered)
-str_MPV_GeometryOpen            :Track Geometry (Open)
-str_MPV_Leaf                    :Leaf Removal
+# Usage Type
+str_usage_pax                   :Passenger
+str_usage_expr_pax              :Express Passenger
+str_usage_light_pax             :Light Passenger
+str_usage_freight               :Freight
+str_usage_heavy_freight         :Heavy Freight
+str_usage_mixed_traffic         :Mixed Traffic
+str_usage_shunting              :Shunting
+str_usage_banking               :Banking
 
-STR_NAME_FlyingBanana					:Network Rail "Flying Banana" New Measurement Train
-str_FlyingBanana_usage					:Track Measurement
-str_FlyingBanana_eos					:---
-str_FlyingBanana_liveries				:Network Rail Yellow
+###############
+# Locomotives #
+###############
 
 STR_NAME_StephensonPlanet			    :L&MR Stephenson 2-2-0 "Planet"
 str_StephensonPlanet_usage			    :Mixed Traffic
 str_StephensonPlanet_eos			    :1830-1841
 str_StephensonPlanet_liveries		    :Teak
 
-STR_NAME_LNER_J70			        :GER Class C53 0-6-0T (LNER "J70")
-str_LNER_J70_usage			        :Light Mixed Traffic
-str_LNER_J70_eos				    :1903-1955
-str_LNER_J70_liveries			    :GER Teak
+# GWR Steam Locomotives
+STR_NAME_GWR_DeanGoods				:GWR Dean 2301 Class "Dean Goods"
+str_GWR_DeanGoods_usage			   	:Mixed Traffic
+str_GWR_DeanGoods_eos				:1883
+str_GWR_DeanGoods_liveries		    :GWR Green, GWR Green & Chrome
+
+STR_NAME_GreatBear					:GWR Churchward 111 "The Great Bear"
+str_GreatBear_usage					:Experimental
+str_GreatBear_eos					:1908-1924
+str_GreatBear_liveries				:GWR Green
+
+STR_NAME_GWRCastle					:GWR Churchward 4073 Class "Castle"
+str_GWRCastle_usage			   		:Express Passenger
+str_GWRCastle_eos					:1923-1965
+str_GWRCastle_liveries				:GWR Green
+
+STR_NAME_GWR_4300                   :GWR 4300 Class
+str_GWR_4300_usage                  :Mixed Traffic
+str_GWR_4300_liveries               :GWR Green, GWR Black, BR Green, BR Black, ROD Khaki
+
+STR_NAME_GWRHall				    :GWR Collett 4900 Class "Hall"
+str_GWRHall_usage		   		    :Express Passenger
+str_GWRHall_eos				        :1946
+str_GWRHall_liveries			    :GWR Green, Hogwarts Express
+
+STR_NAME_GWR_5600                   :GWR 5600 Class "Welsh Tank"
+str_GWR_5600_usage                  :Mixed Traffic
+str_GWR_5600_liveries               :GWR Green, GWR Black, BR Green, BR Black
+
+STR_NAME_GWR_5700   				:GWR Collett 5700 Class 
+str_GWR_5700_usage			   	    :Freight, Shunting
+STR_NAME_GWR_6700   				:GWR Collett 6700 Class
+STR_NAME_GWR_8750   				:GWR Collett 8750 Class
+str_GWR_67008750_usage			   	:Freight, Suburban Passenger, Shunting
+str_GWR_67008750_eos				:1929-1971
+str_GWR_67008750_liveries		    :GWR Green
+
+# SR Pre-grouping Steam Locomotives
+
+STR_NAME_LSWR_AdamsRadial		    :LSWR Adams 415 Class 4-4-2T "Adams Radial Tank"
+str_LSWR_AdamsRadial_usage		    :Suburban Passenger
+str_LSWR_AdamsRadial_eos		    :1882-1961
+str_LSWR_AdamsRadial_liveries	    :LSWR Sage Green
+
+STR_NAME_LSWR_N15                   :LSWR N15 Class
+STR_NAME_LSWR_N15_SR                :LSWR N15 CLass "Urie Arthurs"
+STR_NAME_SR_N15                     :SR King Arthur Class "Eastleigh Arthurs/Scotch Arthurs"
+str_LSWR_N15_usage                  :Express Passenger
+str_LSWR_N15_liveries               :LSWR Green, SR Olive Green, SR Wartime Black, SR Malachite Green, BR Brunswick Green
+
+# SR Steam Locomotive
+
+STR_NAME_SRQ1                       :SR Bulleid Q1 Class 0-6-0
+str_SRQ1_usage                      :Freight
+str_SRQ1_eos                        :1942-1966
+str_SRQ1_liveries                   :SR Black, BR Black
+
+STR_NAME_SRZClass			        :SR Maunsell Z Class 0-8-0T
+str_SRZClass_usage				    :Heavy shunting, short haul freight
+str_SRZClass_eos				    :1929-1962
+str_SRZClass_liveries			    :SR Black, BR Black
+
+# LMS Pre-Grouping Steam Locomotives
+STR_NAME_CaledonianSingle			:CR Single 4-2-2 "No. 123"
+str_CaledonianSingle_usage			:Exhibition, Directors' Train
+str_CaledonianSingle_eos			:1887-1935
+str_CaledonianSingle_liveries		:CR Blue
 
 STR_NAME_Coppernob					:FR A2 Class 0-4-0 "Old Coppernob"
 str_Coppernob_usage					:Mixed Traffic
 str_Coppernob_eos					:1848-1898
 str_Coppernob_liveries				:FR Red
-
-STR_NAME_CaledonianSingle			:CR Single 4-2-2 "No. 123"
-str_CaledonianSingle_usage			:Exhibition, Directors' Train
-str_CaledonianSingle_eos			:1887-1935
-str_CaledonianSingle_liveries		:CR Blue
 
 STR_NAME_FurnessK2					:FR Pettigrew K2 Class 4-4-0 "Large Seagull"
 str_FurnessK2_usage					:Mixed Traffic
@@ -304,88 +468,12 @@ str_LNWRWebb_usage				    :Low speed freight
 str_LNWRWebb_eos				    :1881-1958
 str_LNWRWebb_liveries			    :LNWR Black, BR Black
 
-STR_NAME_LSWR_AdamsRadial		    :LSWR Adams 415 Class 4-4-2T "Adams Radial Tank"
-str_LSWR_AdamsRadial_usage		    :Suburban Passenger
-str_LSWR_AdamsRadial_eos		    :1882-1961
-str_LSWR_AdamsRadial_liveries	    :LSWR Sage Green
-
-STR_NAME_GCR_8K                     :GCR Robinson Class 8K
-STR_NAME_GWR_3000                   :GWR 3000 Class
-STR_NAME_GCR_8K_LNER                :LNER Robinson Class O4
-STR_NAME_LNER_O4_8                  :LNER Robinson Class O4/8
-str_GCR_8K_usage                    :Heavy Freight
-str_GCR_8K_liveries                 :GCR Black, LNER Black, BR Black
-str_GWR_3000_liveries               :GWR Black, GWR Green, BR Black
-str_LNER_O4_8_liveries              :LNER Black, BR Black
-
-STR_NAME_GWR_5700   				:GWR Collett 5700 Class 0-6-0PT
-str_GWR_5700_usage			   	    :Freight, Shunting
-STR_NAME_GWR_6700   				:GWR Collett 6700 Class 0-6-0PT
-STR_NAME_GWR_8750   				:GWR Collett 8750 Class 0-6-0PT
-str_GWR_67008750_usage			   	:Freight, Suburban Passenger, Shunting
-str_GWR_67008750_eos				:1929-1971
-str_GWR_67008750_liveries		    :GWR Green
-
-STR_NAME_GWR_DeanGoods				:GWR Dean 2301 Class 0-6-0 "Dean Goods"
-str_GWR_DeanGoods_usage			   	:Mixed Traffic
-str_GWR_DeanGoods_eos				:1883
-str_GWR_DeanGoods_liveries		    :GWR Green, GWR Green & Chrome
-
-STR_NAME_GreatBear					:GWR Churchward 111 4-6-2 "The Great Bear"
-str_GreatBear_usage					:Experimental
-str_GreatBear_eos					:1908-1924
-str_GreatBear_liveries				:GWR Green
-
-STR_NAME_GWRCastle					:GWR Churchward 4073 Class 4-6-0 "Castle"
-str_GWRCastle_usage			   		:Express Passenger
-str_GWRCastle_eos					:1923-1965
-str_GWRCastle_liveries				:GWR Green
-
-STR_NAME_GWR_4300                   :GWR 4300 Class
-str_GWR_4300_usage                  :Mixed Traffic
-str_GWR_4300_liveries               :GWR Green, GWR Black, BR Green, BR Black, ROD Khaki
-
-STR_NAME_GWRHall				    :GWR Collett 4900 Class 4-6-0 "Hall"
-str_GWRHall_usage		   		    :Express Passenger
-str_GWRHall_eos				        :1946
-str_GWRHall_liveries			    :GWR Green, Hogwarts Express
-
-STR_NAME_GWR_5600                   :GWR 5600 Class "Welsh Tank"
-str_GWR_5600_usage                  :Mixed Traffic
-str_GWR_5600_liveries               :GWR Green, GWR Black, BR Green, BR Black
-
-STR_NAME_LNERV2					    :LNER Gresley Class V2 2-6-2
-str_LNERV2_usage				    :Fast Freight, Passenger, Express Passenger
-str_LNERV2_eos					    :1936-1966
-str_LNERV2_liveries				    :LNER Green
-
-STR_NAME_LNER_A1                    :LNER Gresley Class A1
-STR_NAME_LNER_A3					:LNER Gresley Class A3
-STR_NAME_LNER_A3_PD                 :LNER Gresley Class A3 (Peppercorn-style Smoke Deflectors)
-STR_NAME_LNER_A3_WD                 :LNER Gresley Class A3 (Wagner-style Smoke Deflectors)
-str_LNER_A1_A3_usage				:Express Passenger
-str_LNER_A1_A3_liveries				:LNER Green, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
-
-STR_NAME_LNERP2					    :LNER Gresley Class P2
-STR_NAME_LNERP2_Caprotti            :LNER Gresley Class P2 (Caprotti)
-STR_NAME_LNERP2_Streamlined		    :LNER Gresley Class P2 (Streamlined)
-str_LNERP2_usage				    :Express Passenger
-str_LNERP2_eos					    :1934-1944
-str_LNERP2_liveries				    :LNER Green, LNER Wartime Black
-
-STR_NAME_LNER_A4                    :LNER Gresley Class A4
-str_LNER_A4_usage                   :Express Passenger
-str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Blue, BR Brunswick Green
-
-STR_NAME_LNER_O1                    :LNER Thompson Class O1
-str_LNER_O1_usage                   :Heavy Freight
-str_LNER_O1_liveries                :LNER Black, BR Black
-
 STR_NAME_LMSBigBertha			    :MR Fowler Lickey Banker 0-10-0 "Big Bertha"
 str_LMSBigBertha_usage		        :Banking
 str_LMSBigBertha_eos			    :1919-1956
 str_LMSBigBertha_liveries		    :MR Maroon
 
+# LMS Steam Locomotives
 STR_NAME_LMS_4F                     :LMS Fowler Class 4F
 str_LMS_4F_usage                    :Freight
 str_LMS_4F_liveries                 :LMS Black, BR Black, SDJR Blue
@@ -408,43 +496,61 @@ STR_NAME_LMS_8F                     :LMS Stanier Class 8F
 str_LMS_8F_usage                    :Heavy Freight
 str_LMS_8F_liveries                 :LMS BLack, BR Black, WD Grey
 
-STR_NAME_LSWR_N15                   :LSWR N15 Class
-STR_NAME_LSWR_N15_SR                :LSWR N15 CLass "Urie Arthurs"
-STR_NAME_SR_N15                     :SR King Arthur Class "Eastleigh Arthurs/Scotch Arthurs"
-str_LSWR_N15_usage                  :Express Passenger
-str_LSWR_N15_liveries               :LSWR Green, SR Olive Green, SR Wartime Black, SR Malachite Green, BR Brunswick Green
-
-STR_NAME_SRQ1                       :SR Bulleid Q1 Class 0-6-0
-str_SRQ1_usage                      :Freight
-str_SRQ1_eos                        :1942-1966
-str_SRQ1_liveries                   :SR Black, BR Black
-
-STR_NAME_WDTank				        :WD Austerity "Austerity Tank" 0-6-0ST 
-str_WDTank_usage				    :Low speed freight/shunting
-str_WDTank_eos				        :1960
-str_WDTank_liveries			        :Wartime Black
-
-STR_NAME_SRZClass			        :SR Maunsell Z Class 0-8-0T
-str_SRZClass_usage				    :Heavy shunting, short haul freight
-str_SRZClass_eos				    :1929-1962
-str_SRZClass_liveries			    :SR Black, BR Black
+# LNER Pre-Grouping Steam Locomotives
+STR_NAME_GCR_8K                     :GCR Robinson Class 8K
+STR_NAME_GWR_3000                   :GWR 3000 Class
+STR_NAME_GCR_8K_LNER                :LNER Robinson Class O4
+STR_NAME_LNER_O4_8                  :LNER Robinson Class O4/8
+str_GCR_8K_usage                    :Heavy Freight
+str_GCR_8K_liveries                 :GCR Black, LNER Black, BR Black
+str_GWR_3000_liveries               :GWR Black, GWR Green, BR Black
+str_LNER_O4_8_liveries              :LNER Black, BR Black
 
 STR_NAME_GER_L77			        :GER Hill Class L77 0-6-2T (LNER Class N7)
 str_GER_L77_usage			        :Suburban Passenger
 str_GER_L77_eos				        :1915-1962
 str_GER_L77_liveries			    :GER Blue, GER Black, LNER Apple Green, LNER Black, BR Black
 
+# LNER Steam Locomotives
+STR_NAME_LNER_A1                    :LNER Gresley Class A1
+STR_NAME_LNER_A3					:LNER Gresley Class A3
+STR_NAME_LNER_A3_PD                 :LNER Gresley Class A3 (Peppercorn-style Smoke Deflectors)
+STR_NAME_LNER_A3_WD                 :LNER Gresley Class A3 (Wagner-style Smoke Deflectors)
+str_LNER_A1_A3_usage				:Express Passenger
+str_LNER_A1_A3_liveries				:LNER Green, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
+
+STR_NAME_LNER_A4                    :LNER Gresley Class A4
+str_LNER_A4_usage                   :Express Passenger
+str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Blue, BR Brunswick Green
+
+STR_NAME_LNER_O1                    :LNER Thompson Class O1
+str_LNER_O1_usage                   :Heavy Freight
+str_LNER_O1_liveries                :LNER Black, BR Black
+
+STR_NAME_LNERP2					    :LNER Gresley Class P2
+STR_NAME_LNERP2_Caprotti            :LNER Gresley Class P2 (Caprotti)
+STR_NAME_LNERP2_Streamlined		    :LNER Gresley Class P2 (Streamlined)
+str_LNERP2_usage				    :Express Passenger
+str_LNERP2_eos					    :1934-1944
+str_LNERP2_liveries				    :LNER Green, LNER Wartime Black
+
+STR_NAME_LNERV2					    :LNER Gresley Class V2 2-6-2
+str_LNERV2_usage				    :Fast Freight, Passenger, Express Passenger
+str_LNERV2_eos					    :1936-1966
+str_LNERV2_liveries				    :LNER Green
+
+# BR Steam Locomotives
+STR_NAME_WDTank				        :WD Austerity "Austerity Tank" 0-6-0ST 
+str_WDTank_usage				    :Low speed freight/shunting
+str_WDTank_eos				        :1960
+str_WDTank_liveries			        :Wartime Black
+
 STR_NAME_Standard9F				    :BR Standard Class 9F
 str_Standard9F_usage			    :Heavy Freight/Mixed Traffic
 str_Standard9F_eos				    :1954-1968
 str_Standard9F_liveries			    :BR Black, BR Brunswick Green
 
-STR_NAME_BluePullman_6Car		:BR "Blue Pullman" (6 car)
-STR_NAME_BluePullman_8Car		:BR "Blue Pullman" (8 car)
-str_BluePullman_usage			:Express Passenger
-str_BluePullman_eos		    	:---
-str_BluePullman_liveries		:Blue Pullman, Blue Pullman (Warning Panels), BR Grey and Blue
-
+# BR Diesel Locomotives
 STR_NAME_BR08					:BR Class 08 "Gronk"
 str_BR08_usage					:Shunting
 str_BR08_liveries				:BR Black, BR Green, BR Blue, EWS Red and Gold, Network Rail Yellow, Unusual Purple, InterCity Swallow, BR General Grey
@@ -892,14 +998,17 @@ str_BR230_eos					:---
 str_BR230_2CAR_liveries			:London North Western Railway
 str_BR230_3CAR_liveries			:Transport for Wales
 
+STR_NAME_BR251_6		        :BR "Blue Pullman" (6 car)
+STR_NAME_BR251_8        		:BR "Blue Pullman" (8 car)
+str_BR251_usage			        :Express Passenger
+str_BR251_liveries		        :Blue Pullman, Blue Pullman (Warning Panels), BR Grey and Blue
+
 STR_NAME_BR252					:BR Class 41 "HST Prototype" (2+9 car)
 str_BR252_usage					:Express Passenger
-str_BR252_eos					:---
 str_BR252_liveries				:BR Blue
 
 STR_NAME_BR43					:BR Class 43 "HST"
 str_BR43_usage					:Express Passenger
-str_BR43_eos					:---
 str_BR43_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, First Great Western
 
 STR_NAME_BR254					:BR Class 254 "Eastern"
@@ -909,6 +1018,13 @@ str_BR254_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Cross Co
 STR_NAME_BR255					:BR Class 255 "Challenger"
 str_BR255_usage					:Express Passenger
 str_BR255_liveries				:Cross Country, Grand Central, Grand Central Lined
+
+STR_NAME_BR256                  :BR Class 255 "Castle"
+str_BR256_liveries              :GWR
+
+STR_NAME_BR257_4                :BR Class 257 "Inter7City" (4-car)
+STR_NAME_BR257_5                :BR Class 257 "Inter7City" (5-car)
+str_BR257_liveries              :ScotRail Inter7City
 
 STR_NAME_BR302					:BR Class 302 "AM2" (4-car)
 str_BR302_usage					:Commuter Passenger
@@ -994,6 +1110,14 @@ str_BR370_usage					:Express Passenger
 str_BR370_eos					:1986
 str_BR370_liveries				:InterCity
 
+STR_NAME_370_TF					:BR Class 370 Trailer First
+STR_NAME_370_TS					:BR Class 370 Trailer Standard
+STR_NAME_370_TBF				:BR Class 370 Trailer Brake First
+STR_NAME_370_TRSB				:BR Class 370 Trailer Restaurant Standard Buffet
+STR_NAME_370_TU					:BR Class 370 Trailer Unclassified
+STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
+STR_NAME_370_DTS				:BR Class 370 Driving Trailer Standard
+
 STR_NAME_BR375_3				:BR Class 375 "Electrostar" (3-Car)
 str_BR375_3_usage				:Suburban Passenger
 str_BR375_3_eos					:---
@@ -1069,6 +1193,15 @@ STR_NAME_BR390_11				:BR Class 390/1 "Pendolino" (11-car)
 str_BR390_usage					:Express Passenger
 str_BR390_eos					:---
 str_BR390_liveries				:Virgin Trains
+
+STR_NAME_390_MF					:BR Class 390 Motor First
+STR_NAME_390_TS					:BR Class 390 Trailer Standard
+STR_NAME_390_PTF				:BR Class 390 Motor Pantograph Trailer First
+STR_NAME_390_PTSRMB				:BR Class 390 Motor Pantograph Trailer Standard Restaurant
+STR_NAME_390_MS					:BR Class 390 Motor Standard
+STR_NAME_390_MSD				:BR Class 390 Motor Standard Disabled
+STR_NAME_390_MFD				:BR Class 390 Motor First Disabled
+STR_NAME_390_DMSO				:BR Class 390 Driving Motor Standard Open
 
 STR_NAME_BR395					:BR Class 395 "Javelin" (6-car, Dual Voltage)
 str_BR395_usage					:Passenger
@@ -1282,246 +1415,23 @@ str_BR800_usage					:Regional Passenger
 str_BR800_eos					:---
 str_BR800_liveries				:Hitachi, GWR
 
-# # # # # # #
-# # WAGON # #
-# # # # # # #
-
-STR_NAME_FurnessGoodsVan		:Furness Railway Goods Van
-str_FurnessGoodsVan_usage		:Goods, Misc. Cargo
-str_FurnessGoodsVan_liveries	:Grey, Brown
-
-STR_NAME_RCH_1907_Mixed         :RCH 1907 Spec Wagons
-STR_NAME_RCH_1907_7_Plank       :RCH 1907 Spec 7-plank Open Wagon
-STR_NAME_RCH_1907_5_Plank       :RCH 1907 Spec 5-plank Open Wagon
-STR_NAME_RCH_1907_3_Plank       :RCH 1907 Spec 3-plank Open Wagon
-STR_NAME_RCH_1907_1_Plank       :RCH 1907 Spec 1-plank Wagon
-STR_NAME_RCH_1907_Van           :RCH 1907 Spec Van
-str_RCH_1907_liveries           :Grey, Bauxite, Misc. Private Owners
-
-STR_NAME_FurnessTankWagon		:Furness Railway Rectangular Tanker Wagon
-str_FurnessTankWagon_usage		:Liquids
-str_FurnessTankWagon_liveries	:Grey
-
-STR_NAME_Furness20TonHopper		:Furness Railway 20 Ton Hopper
-str_Furness20TonHopper_usage	:Bulk
-str_Furness20TonHopper_liveries	:Grey
-
-STR_NAME_FurnessLumberWagon		:Furness Railway Small Lumber Wagon
-str_FurnessLumberWagon_usage	:Wood
-str_FurnessLumberWagon_liveries	:Green
-
-STR_NAME_GCR_10t_Cattle_Van     :GCR 10t Cattle Van
-str_GCR_10t_Cattle_Van_liveries :Brown, Grey
-
-STR_NAME_LNER_21t_Hopper        :LNER 21t Hopper
-STR_NAME_LNER_21t_Hopper_Late   :BR HTO/HTV Hopper
-str_LNER_21t_Hopper_liveries    :LNER Grey, BR Grey, BR Bauxite, NCB Grey, Private Owners
-
-STR_NAME_GWR_Mink_G             :GWR "Mink G" Goods Van
-str_GWR_Mink_G_usage            :Goods, Misc. Cargo
-str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
-
-STR_NAME_Milk_Tank              :6-wheeled Milk Tank
-str_Milk_Tank_liveries          :White, Grey, Cream, Private Owners
-
-STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
-str_BR_MCV_liveries             :BR Grey
-
-STR_NAME_WD_50t_Warflat         :WD 50t Flat Wagon 'Warflat'
-str_WD_50t_Warflat_liveries     :WD Olive Green
-
-STR_NAME_BR_CONFLAT_A           :BR Container Flat "Conflat A" Wagon
-str_BR_Conflat_A_usage          :Goods, Misc. Cargo
-str_BR_Conflat_A_liveries       :BR Bauxite
-
-STR_NAME_BR_CONFLAT_P           :BR Container Flat "Conflat P" Wagon
-str_BR_Conflat_P_usage          :Goods, Misc. Cargo
-str_BR_Conflat_P_liveries       :BR Bauxite
-
-STR_NAME_BR_Oxfit               :BR 'Oxfit' 12t Cattle Wagon
-str_BR_Oxfit_liveries           :BR Bauxite
-
-STR_NAME_BRHHA					:BR HHA Wagon
-str_BRHHA_liveries				:Freightliner
-
-STR_NAME_BR_VGA					:BR VGA/VKA Wagon
-str_BR_VGA_liveries				:Railfreight, EWS, DB Cargo
-
-STR_NAME_BR_FEA                 :BR FEA Container Flat Wagon
-str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
-
-STR_NAME_BRT_CovHop             :BRT PAA Covered Hopper
-STR_NAME_BRT_Whisky_CovHop      :BRT PAV Covered Hopper "Whisky CovHop"
-str_BRT_CovHop_usage            :Bulk Cargos
-str_BRT_CovHop_eos              :---
-str_BRT_CovHop_liveries         :Grainflow, BR Grey, BR Brown, Private Owner Blue, Private Owner Blue with Advertising, Private Owner Yellow
-
-STR_NAME_BRJIA_Polybulk         :BR JIA "Polybulk" Hopper
-str_BRJIA_Polybulk_usage        :Bulk Cargos
-str_BRJIA_Polybulk_eos          :---
-str_BRJIA_Polybulk_liveries     :Traffic Service Limited Polybulk, Polybulk, Grainflow, Tiger Nacco Grey
-
-STR_NAME_BR_TTA                 :BR TTA/TTV 45t Tank Wagon
-str_BR_TTA_liveries             :Black, Blue, Green, Grey, Private Owners
-
-STR_NAME_BR_TEA                 :BR TEA 102t Tank wagon
-str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
-
-STR_NAME_BR_HAA                 :BR HAA/HFA 32t MGR Hopper
-str_BR_HAA_liveries             :BR Bauxite, Railfreight, Trainload, Mainline Freight
-
-STR_NAME_BR_MBA                 :BR MBA/MDA/MOA 'Monsterbox' Wagon
-STR_NAME_BR_MCA                 :BR MCA 'Mini Monsterbox' Wagon
-str_BR_MBA_liveries             :EWS
-
-STR_NAME_BR_VAA                 :BR VAA/VBA/VCA Sliding Door Van
-str_BR_VAA_liveries             :BR Bauxite, BR Research Department, Railfreight, EWS, Private Owners
-
-STR_NAME_BR_OTA                 :BR OTA Timber Wagon
-str_BR_OTA_liveries             :Railfreight, EWS, Private Owners
-
 # # # # # # # # 
 # # COACHES # #
 # # # # # # # #
 
-STR_NAME_BR_Mk1_Header			:BR Mark 1 Coaches
-
-STR_NAME_BR_Mk1_BCK				:BR Mark 1 Coach (Brake Composite Corridor)
-STR_NAME_BR_Mk1_BFK				:BR Mark 1 Coach (Brake First Corridor)
-STR_NAME_BR_Mk1_BG				:BR Mark 1 Coach (Brake Gangwayed)
-STR_NAME_BR_Mk1_BSK				:BR Mark 1 Coach (Brake Standard Corridor)
-STR_NAME_BR_Mk1_BSO				:BR Mark 1 Coach (Brake Standard Open)
-STR_NAME_BR_Mk1_BSOT			:BR Mark 1 Coach (Brake Standard Open Trolley)
-
-STR_NAME_BR_Mk1_CK				:BR Mark 1 Coach (Composite Corridor)
-STR_NAME_BR_Mk1_FK				:BR Mark 1 Coach (First Corridor)
-STR_NAME_BR_Mk1_FO				:BR Mark 1 Coach (First Open)
-
-STR_NAME_BR_Mk1_RB              :BR Mark 1 Coach (Restaurant Buffet)
-STR_NAME_BR_Mk1_RBK             :BR Mark 1 Coach (Restaurant Buffet Kitchen)
-STR_NAME_BR_Mk1_RF              :BR Mark 1 Coach (Restaurant First)
-STR_NAME_BR_Mk1_RFK             :BR Mark 1 Coach (Restaurant First Kitchen)
-STR_NAME_BR_Mk1_RFO             :BR Mark 1 Coach (Restaurant First Open)
-STR_NAME_BR_Mk1_RMB				:BR Mark 1 Coach (Restaurant Min. Buffet)
-STR_NAME_BR_Mk1_RT              :BR Mark 1 Coach (Restaurant Third)
-STR_NAME_BR_Mk1_RU              :BR Mark 1 Coach (Restaurant Unclassified)
-STR_NAME_BR_Mk1_RK				:BR Mark 1 Coach (Restaurant Kitchen)
-
-STR_NAME_BR_Mk1_SK				:BR Mark 1 Coach (Standard Corridor)
-STR_NAME_BR_Mk1_TK              :BR Mark 1 Coach (Third Corridor)
-STR_NAME_BR_Mk1_SLC             :BR Mark 1 Coach (Sleeper Composite)
-STR_NAME_BR_Mk1_SLE             :BR Mark 1 Coach (Sleeper, Either Class)
-STR_NAME_BR_Mk1_SLEP            :BR Mark 1 Coach (Sleeper, Either Class with Pantry)
-STR_NAME_BR_Mk1_SLSTP           :BR Mark 1 Coach (Sleeper Second, Twin Berth with Pantry)
-STR_NAME_BR_Mk1_SLF             :BR Mark 1 Coach (Sleeper First)
-
-STR_NAME_BR_Mk1_SO				:BR Mark 1 Coach (Standard Open)
-STR_NAME_BR_Mk1_TSO				:BR Mark 1 Coach (Tourist Standard Open)
-
-str_BR_Mk1_liveries			    :BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
-
-STR_NAME_BR_Mk2_Header			:BR Mark 2 Coaches
-
-STR_NAME_BR_Mk2_BFK             :BR Mark 2 Coach (Brake First Corridor)    
-STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (Tourist Standard Open)
-STR_NAME_BR_Mk2_SO		        :BR Mark 2 Coach (Standard Class)
-STR_NAME_BR_Mk2_FO		        :BR Mark 2 Coach (First Class)
-
-STR_NAME_BR_Mk2L_Header         :BR Mark 2 Late Coaches
-
-STR_NAME_BR_Mk2L_BSO			:BR Mark 2 Late Coach (Brake Standard Open)
-STR_NAME_BR_Mk2L_BFK			:BR Mark 2 Late Coach (Brake First Corridor)
-STR_NAME_BR_Mk2L_DBSO			:BR Mark 2 Driving Coach (Driving Brake Standard Open)
-STR_NAME_BR_Mk2L_FK             :BR Mark 2 Late Coach (First Corridor)
-STR_NAME_BR_Mk2L_FO			    :BR Mark 2 Late Coach (First Open)
-STR_NAME_BR_Mk2L_TSO			:BR Mark 2 Late Coach (Tourist Standard Open) 
-
-STR_NAME_BR_Mk2_Buffet			:BR Mark 2 Buffet Coach (First Class)
-STR_NAME_BR_Mk2_Pullman		    :BR Mark 2 Pullman Coach (First Class)
-
-str_BR_Mk2_Early_liveries		:BR Blue & Grey, NSE, Regional Railways, ScotRail, West Coast Railway Company
-str_BR_Mk2_Late_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, DRS, Virgin, FGW, West Coast Railway Company
-str_BR_Mk2_BFO_liveries			:BR Blue & Grey, InterCity, ScotRail, DRS
-str_BR_Mk2_Buffet_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, DRS, Virgin, FGW, West Coast Railway Company
-
-
-STR_NAME_BR_Mk3_Header			:BR Mark 3 Coaches (HST Only)
-STR_NAME_BR_Mk3a_Header         :BR Mark 3a Coaches (Locomotive-hauled)
-
-STR_NAME_BR_Mk3_TF				:BR Mark 3 Coach (TF)
-STR_NAME_BR_Mk3_TGS				:BR Mark 3 Coach (TGS)
-STR_NAME_BR_Mk3_TLUK            :BR Mark 3 Coach (TLUK)
-STR_NAME_BR_Mk3_TRFB            :BR Mark 3 Coach (TRFB)
-STR_NAME_BR_Mk3_TRFK            :BR Mark 3 Coach (TRFK)
-STR_NAME_BR_Mk3_TRSB			:BR Mark 3 Coach (TRSB)
-STR_NAME_BR_Mk3_TRUB			:BR Mark 3 Coach (TRUB)
-STR_NAME_BR_Mk3_TRUK			:BR Mark 3 Coach (TRUK)
-STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (TS)
-STR_NAME_BR_Mk3_TSD             :BR Mark 3 Coach (TSD)
-STR_NAME_BR_Mk3_DMB				:BR Mark 3 Driving Motor Brake
-
-STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (Tourist Standard Open)
-
-STR_NAME_BR_Mk3Sleeper			:BR Mark 3 Sleeper Coach
-str_BR_Mk3Sleeper_liveries	    :BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
-
-STR_NAME_BR_Mk3DVT				:BR Mark 3 Driving Van Trailer
-str_BR_Mk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Anglia, Transport for Wales, Virgin "Pretendolino", Arriva Wales, Network Rail
-
-str_BR_Mk3_liveries			    :BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
-str_BR_Mk3a_liveries			:BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
-
-STR_NAME_BRMk4_Header			:BR Mark 4 Coaches
-
-STR_NAME_BRMk4FO				:BR Mark 4 Coach (First Open)
-STR_NAME_BRMk4TSO				:BR Mark 4 Coach (Trailer Standard Open)
-STR_NAME_BRMk4TSOE				:BR Mark 4 Coach (Trailer Standard Open End)
-STR_NAME_BRMk4TSOD				:BR Mark 4 Coach (Trailer Standard Open Disabled)
-STR_NAME_BRMk4RFM				:BR Mark 4 Coach (Trailer Restaurant First)
-STR_NAME_BRMk4DVT				:BR Mark 4 Driving Van Trailer
-
-str_BR_Mk4_liveries			    :InterCity, National Express, GNER, East Coast, Virgin East Coast
-
-STR_NAME_BRMk5_Header			:BR Mark 5 Coaches
-
-STR_NAME_BRMk5DVT				:BR Mark 5a Driving Van Trailer
-str_BRMk5DVT_liveries			:Transpennine Express
-
-STR_NAME_BRMk5a				    :BR Mark 5a Coach
-str_BRMk5a_liveries			    :Transpennine Express
-
-STR_NAME_BRMk5Sleeper			:BR Mark 5 Sleeper Coach
-str_BRMk5Sleeper_liveries		:Caledonian Sleaper
-
-STR_NAME_RMTPO					:Royal Mail Travelling Post Office
-str_RMTPO_usage					:Express Mail
-str_RMTPO_liveries				:Freightliner
-
-STR_NAME_390_MF					:BR Class 390 Motor First
-STR_NAME_390_TS					:BR Class 390 Trailer Standard
-STR_NAME_390_PTF				:BR Class 390 Motor Pantograph Trailer First
-STR_NAME_390_PTSRMB				:BR Class 390 Motor Pantograph Trailer Standard Restaurant
-STR_NAME_390_MS					:BR Class 390 Motor Standard
-STR_NAME_390_MSD				:BR Class 390 Motor Standard Disabled
-STR_NAME_390_MFD				:BR Class 390 Motor First Disabled
-STR_NAME_390_DMSO				:BR Class 390 Driving Motor Standard Open
-
-STR_NAME_370_TF					:BR Class 370 Trailer First
-STR_NAME_370_TS					:BR Class 370 Trailer Standard
-STR_NAME_370_TBF				:BR Class 370 Trailer Brake First
-STR_NAME_370_TRSB				:BR Class 370 Trailer Restaurant Standard Buffet
-STR_NAME_370_TU					:BR Class 370 Trailer Unclassified
-STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
-STR_NAME_370_DTS				:BR Class 370 Driving Trailer Standard
-
+# GWR Coaches
 STR_NAME_GWR_TK_C24             :GWR Churchward "Dreadnought" Third Corridor
 str_GWR_TK_C24_liveries         :Chocolate and Cream, Maroon, Carmine and Cream
 
+# LMS Coaches
 STR_NAME_LMS_StanierP3_50BG 		:LMS Stanier Period 3 50 ft BG Coach
 str_LMS_StanierP3_50BG_liveries		:LMS Red
 
+# LNER Pre-Grouping Coaches
 STR_NAME_GCR_CL_4L5                 :GCR Robinson 50 ft Semi-Corridor Lavatory Composite
 str_GCR_CL_4L5_liveries             :GCR Mahogany
+
+# LNER Coaches
 
 STR_NAME_LNER_BT_T              :LNER Gresley Twin Brake Third
 str_LNER_BT_T_liveries          :LNER Teak, BR Maroon
@@ -1557,6 +1467,220 @@ str_LNER_Thompson_61FK_liveries		:LNER "Teak"
 STR_NAME_LNER_Thompson_63TK		    :LNER Thompson 63' TK
 str_LNER_Thompson_63TK_liveries		:LNER "Teak"
 
+# BR Coaches
+STR_NAME_BR_Mk1_Header			:BR Mark 1 Coaches
+
+STR_NAME_BR_Mk1_BCK             :BR Mark 1 Coach (BCK)
+STR_NAME_BR_Mk1_BFK             :BR Mark 1 Coach (BFK)
+STR_NAME_BR_Mk1_BG              :BR Mark 1 Coach (BG)
+STR_NAME_BR_Mk1_BSK             :BR Mark 1 Coach (Brake Standard Corridor)
+STR_NAME_BR_Mk1_BSO             :BR Mark 1 Coach (Brake Standard Open)
+STR_NAME_BR_Mk1_BSOT            :BR Mark 1 Coach (Brake Standard Open Trolley)
+
+STR_NAME_BR_Mk1_CK              :BR Mark 1 Coach (CK)
+STR_NAME_BR_Mk1_FK              :BR Mark 1 Coach (FK)
+STR_NAME_BR_Mk1_FO              :BR Mark 1 Coach (FO)
+
+STR_NAME_BR_Mk1_RB              :BR Mark 1 Coach (RB)
+STR_NAME_BR_Mk1_RBK             :BR Mark 1 Coach (RBK)
+STR_NAME_BR_Mk1_RF              :BR Mark 1 Coach (RF)
+STR_NAME_BR_Mk1_RFK             :BR Mark 1 Coach (RFK)
+STR_NAME_BR_Mk1_RFO             :BR Mark 1 Coach (RFO)
+STR_NAME_BR_Mk1_RMB             :BR Mark 1 Coach (RMB)
+STR_NAME_BR_Mk1_RT              :BR Mark 1 Coach (RT)
+STR_NAME_BR_Mk1_RU              :BR Mark 1 Coach (RU)
+STR_NAME_BR_Mk1_RK              :BR Mark 1 Coach (RK)
+
+STR_NAME_BR_Mk1_SK              :BR Mark 1 Coach (SK)
+STR_NAME_BR_Mk1_TK              :BR Mark 1 Coach (TK)
+
+STR_NAME_BR_Mk1_SLC             :BR Mark 1 Coach (SLC)
+STR_NAME_BR_Mk1_SLE             :BR Mark 1 Coach (SLE)
+STR_NAME_BR_Mk1_SLEP            :BR Mark 1 Coach (SLEP)
+STR_NAME_BR_Mk1_SLSTP           :BR Mark 1 Coach (SLSTP)
+STR_NAME_BR_Mk1_SLF             :BR Mark 1 Coach (SLF)
+
+STR_NAME_BR_Mk1_SO              :BR Mark 1 Coach (SO)
+STR_NAME_BR_Mk1_TSO             :BR Mark 1 Coach (TSO)
+
+str_BR_Mk1_liveries			    :BR Carmine and Cream, BR Chocolate and Cream, BR Malachite Green, BR Maroon, BR Blue & Grey
+
+STR_NAME_BR_Mk2_Header			:BR Mark 2 Coaches
+
+STR_NAME_BR_Mk2_BFK             :BR Mark 2 Coach (BFK)    
+STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (TSO)
+STR_NAME_BR_Mk2_SO		        :BR Mark 2 Coach (SO)
+STR_NAME_BR_Mk2_FO		        :BR Mark 2 Coach (FO)
+
+STR_NAME_BR_Mk2L_Header         :BR Mark 2 Late Coaches
+
+STR_NAME_BR_Mk2L_BSO			:BR Mark 2 Late Coach (BSO)
+STR_NAME_BR_Mk2L_BFK			:BR Mark 2 Late Coach (BFK)
+STR_NAME_BR_Mk2L_DBSO			:BR Mark 2 Driving Coach (DBSO)
+STR_NAME_BR_Mk2L_FK             :BR Mark 2 Late Coach (FK)
+STR_NAME_BR_Mk2L_FO			    :BR Mark 2 Late Coach (FO)
+STR_NAME_BR_Mk2L_TSO			:BR Mark 2 Late Coach (TSO) 
+
+STR_NAME_BR_Mk2_Buffet			:BR Mark 2 Buffet Coach (First Class)
+STR_NAME_BR_Mk2_Pullman		    :BR Mark 2 Pullman Coach (First Class)
+
+str_BR_Mk2_Early_liveries		:BR Blue & Grey, NSE, Regional Railways, ScotRail, West Coast Railway Company
+str_BR_Mk2_Late_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, DRS, Virgin, FGW, West Coast Railway Company
+str_BR_Mk2_BFO_liveries			:BR Blue & Grey, InterCity, ScotRail, DRS
+str_BR_Mk2_Buffet_liveries		:BR Blue & Grey, InterCity, ScotRail, Arriva, DRS, Virgin, FGW, West Coast Railway Company
+
+STR_NAME_BR_Mk3_Header			:BR Mark 3 Coaches (HST Only)
+STR_NAME_BR_Mk3a_Header         :BR Mark 3a Coaches (Locomotive-hauled)
+
+STR_NAME_BR_Mk3_TF				:BR Mark 3 Coach (TF)
+STR_NAME_BR_Mk3_TGS				:BR Mark 3 Coach (TGS)
+STR_NAME_BR_Mk3_TLUK            :BR Mark 3 Coach (TLUK)
+STR_NAME_BR_Mk3_TRFB            :BR Mark 3 Coach (TRFB)
+STR_NAME_BR_Mk3_TRFK            :BR Mark 3 Coach (TRFK)
+STR_NAME_BR_Mk3_TRSB			:BR Mark 3 Coach (TRSB)
+STR_NAME_BR_Mk3_TRUB			:BR Mark 3 Coach (TRUB)
+STR_NAME_BR_Mk3_TRUK			:BR Mark 3 Coach (TRUK)
+STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (TS)
+STR_NAME_BR_Mk3_TSD             :BR Mark 3 Coach (TSD)
+STR_NAME_BR_Mk3_DMB				:BR Mark 3 Driving Motor Brake
+
+STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (Tourist Standard Open)
+
+STR_NAME_BR_Mk3Sleeper			:BR Mark 3 Sleeper Coach
+str_BR_Mk3Sleeper_liveries	    :BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
+
+STR_NAME_BR_Mk3DVT				:BR Mark 3 Driving Van Trailer
+str_BR_Mk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Anglia, Transport for Wales, Virgin "Pretendolino", Arriva Wales, Network Rail
+
+str_BR_Mk3_liveries			    :BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
+str_BR_Mk3a_liveries			:BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
+
+STR_NAME_BRMk4_Header			:BR Mark 4 Coaches
+
+STR_NAME_BR_Mk4_FO				:BR Mark 4 Coach (FO)
+STR_NAME_BR_Mk4_TSO				:BR Mark 4 Coach (TSO)
+STR_NAME_BR_Mk4_TSOE			:BR Mark 4 Coach (TSOE)
+STR_NAME_BR_Mk4_TSOD			:BR Mark 4 Coach (TSOD)
+STR_NAME_BR_Mk4_RFM				:BR Mark 4 Coach (TRFM)
+STR_NAME_BR_Mk4_DVT				:BR Mark 4 Driving Van Trailer
+
+str_BR_Mk4_liveries			    :InterCity, National Express, GNER, East Coast, Virgin East Coast
+
+STR_NAME_BRMk5_Header			:BR Mark 5 Coaches
+
+STR_NAME_BRMk5DVT				:BR Mark 5a Driving Van Trailer
+str_BRMk5DVT_liveries			:Transpennine Express
+
+STR_NAME_BRMk5a				    :BR Mark 5a Coach
+str_BRMk5a_liveries			    :Transpennine Express
+
+STR_NAME_BRMk5Sleeper			:BR Mark 5 Sleeper Coach
+str_BRMk5Sleeper_liveries		:Caledonian Sleaper
+
+# Miscellaneous
+STR_NAME_RMTPO					:Royal Mail Travelling Post Office
+str_RMTPO_usage					:Express Mail
+str_RMTPO_liveries				:Freightliner
+
+STR_NAME_RoyalBFK				:British Royal Train (Brake First Corridor)
+STR_NAME_RoyalSLE				:British Royal Train (Sleeper Coach)
+STR_NAME_RoyalTRUK				:British Royal Train (Restaurant Unclassified)
+STR_NAME_RoyalTSO				:British Royal Train (Trailer Standard Open)
+STR_NAME_RoyalFO				:British Royal Train (First Open)
+STR_NAME_RoyalBFKa				:British Royal Train (Brake First Corridor)
+
+STR_NAME_EWSFO					:EWS Company Train (First Open)
+STR_NAME_EWSRFM					:EWS Company Train (Restaurant First Modular)
+STR_NAME_EWSSLEP				:EWS Company Train (Sleeper Coach)
+STR_NAME_EWSDVT					:EWS Company Train (Driving Van Trailer)
+
+# # # # # # #
+# # WAGON # #
+# # # # # # #
+
+# RCH Standard Wagons
+STR_NAME_RCH_1907_Mixed         :RCH 1907 Spec Wagons
+STR_NAME_RCH_1907_7_Plank       :RCH 1907 Spec 7-plank Open Wagon
+STR_NAME_RCH_1907_5_Plank       :RCH 1907 Spec 5-plank Open Wagon
+STR_NAME_RCH_1907_3_Plank       :RCH 1907 Spec 3-plank Open Wagon
+STR_NAME_RCH_1907_1_Plank       :RCH 1907 Spec 1-plank Wagon
+STR_NAME_RCH_1907_Van           :RCH 1907 Spec Van
+str_RCH_1907_liveries           :Grey, Bauxite, Misc. Private Owners
+
+# GWR Wagons
+STR_NAME_GWR_Mink_G             :GWR "Mink G" Goods Van
+str_GWR_Mink_G_usage            :Goods, Misc. Cargo
+str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
+
+# SR Wagons
+STR_NAME_Milk_Tank              :6-wheeled Milk Tank
+str_Milk_Tank_liveries          :White, Grey, Cream, Private Owners
+
+# LNER Pre-Grouping Wagons
+STR_NAME_GCR_10t_Cattle_Van     :GCR 10t Cattle Van
+str_GCR_10t_Cattle_Van_liveries :Brown, Grey
+
+# LNER Wagons
+STR_NAME_LNER_21t_Hopper        :LNER 21t Hopper
+STR_NAME_LNER_21t_Hopper_Late   :BR HTO/HTV Hopper
+str_LNER_21t_Hopper_liveries    :LNER Grey, BR Grey, BR Bauxite, NCB Grey, Private Owners
+
+# BR Wagons
+STR_NAME_WD_50t_Warflat         :WD 50t Flat Wagon 'Warflat'
+str_WD_50t_Warflat_liveries     :WD Olive Green
+
+STR_NAME_BR_CONFLAT_A           :BR Container Flat "Conflat A" Wagon
+str_BR_Conflat_A_usage          :Goods, Misc. Cargo
+str_BR_Conflat_A_liveries       :BR Bauxite
+
+STR_NAME_BR_CONFLAT_P           :BR Container Flat "Conflat P" Wagon
+str_BR_Conflat_P_usage          :Goods, Misc. Cargo
+str_BR_Conflat_P_liveries       :BR Bauxite
+
+STR_NAME_BR_Oxfit               :BR 'Oxfit' 12t Cattle Wagon
+str_BR_Oxfit_liveries           :BR Bauxite
+
+STR_NAME_BR_FEA                 :BR FEA Container Flat Wagon
+str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
+
+STR_NAME_BR_HAA                 :BR HAA/HFA 32t MGR Hopper
+str_BR_HAA_liveries             :BR Bauxite, Railfreight, Trainload, Mainline Freight
+
+STR_NAME_BRHHA					:BR HHA Wagon
+str_BRHHA_liveries				:Freightliner
+
+STR_NAME_BRJIA_Polybulk         :BR JIA "Polybulk" Hopper
+str_BRJIA_Polybulk_usage        :Bulk Cargos
+str_BRJIA_Polybulk_eos          :---
+str_BRJIA_Polybulk_liveries     :Traffic Service Limited Polybulk, Polybulk, Grainflow, Tiger Nacco Grey
+
+STR_NAME_BR_MBA                 :BR MBA/MDA/MOA 'Monsterbox' Wagon
+STR_NAME_BR_MCA                 :BR MCA 'Mini Monsterbox' Wagon
+str_BR_MBA_liveries             :EWS
+
+STR_NAME_BR_MCV                 :BR MCO/MCV 16t Steel Mineral Wagon
+str_BR_MCV_liveries             :BR Grey
+
+STR_NAME_BRT_CovHop             :BRT PAA Covered Hopper
+STR_NAME_BRT_Whisky_CovHop      :BRT PAV Covered Hopper "Whisky CovHop"
+str_BRT_CovHop_liveries         :Grainflow, BR Grey, BR Brown, Private Owner Blue, Private Owner Blue with Advertising, Private Owner Yellow
+
+STR_NAME_BR_TEA                 :BR TEA 102t Tank wagon
+str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
+
+STR_NAME_BR_TTA                 :BR TTA/TTV 45t Tank Wagon
+str_BR_TTA_liveries             :Black, Blue, Green, Grey, Private Owners
+
+STR_NAME_BR_VAA                 :BR VAA/VBA/VCA Sliding Door Van
+str_BR_VAA_liveries             :BR Bauxite, BR Research Department, Railfreight, EWS, Private Owners
+
+STR_NAME_BR_VGA					:BR VGA/VKA Wagon
+str_BR_VGA_liveries				:Railfreight, EWS, DB Cargo
+
+STR_NAME_BR_OTA                 :BR OTA Timber Wagon
+str_BR_OTA_liveries             :Railfreight, EWS, Private Owners
+
+# London Underground Units
 STR_NAME_LU1938					:London Underground 1938 Stock (8-car, Deep Level)
 str_LU1938_usage				:Metro
 str_LU1938_eos					:---
@@ -1618,22 +1742,6 @@ STR_NAME_LU2024					:London Underground 2024 Stock (9-car, Deep Level)
 str_LU2024_usage				:Metro
 str_LU2024_eos					:---
 str_LU2024_liveries				:London Underground
-
-STR_IE2800_2CAR                 :Irish Railways 2800 Class
-STR_DSC_IE2800                  :Type: {RED}Diesel Multiple Unit{}{BLACK}Usage: {GOLD}Suburban Passenger{}{BLACK}Withdrawal: {GOLD}--{}{BLACK}Liveries: {GOLD}Commuter Green, Commuter Gold, InterCity
-
-STR_NAME_LNERBCK				:LNER Gresley Coach (Brake Composite Corridor)
-str_LNERBCK_liveries			:GNR/LNER Teak, BR Maroon, BR Carmine and Cream	
-STR_NAME_RoyalBFK				:British Royal Train (Brake First Corridor)
-STR_NAME_RoyalSLE				:British Royal Train (Sleeper Coach)
-STR_NAME_RoyalTRUK				:British Royal Train (Restaurant Unclassified)
-STR_NAME_RoyalTSO				:British Royal Train (Trailer Standard Open)
-STR_NAME_RoyalFO				:British Royal Train (First Open)
-STR_NAME_RoyalBFKa				:British Royal Train (Brake First Corridor)
-STR_NAME_EWSFO					:EWS Company Train (First Open)
-STR_NAME_EWSRFM					:EWS Company Train (Restaurant First Modular)
-STR_NAME_EWSSLEP				:EWS Company Train (Sleeper Coach)
-STR_NAME_EWSDVT					:EWS Company Train (Driving Van Trailer)
 
 str_AGA							: (Abellio Greater Anglia)
 str_AGAAltLights				: (Abellio Greater Anglia - Alternative Lights)

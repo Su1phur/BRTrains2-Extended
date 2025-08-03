@@ -185,6 +185,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TSD, 12130) {
         // internal code
         length:                         sw_length_BR_Mk3_TSD;
         articulated_part:               sw_articulated_BR_Mk3_TSD;
+        speed:                          sw_speed_BR_Mk3() * 1609 / 1000;
         purchase_cargo_capacity:        return (22 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk3_TSD;
         cost_factor:                    2856;
@@ -194,6 +195,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TSD, 12130) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TSD),
                                                     string(str_BR_Mk3_liveries)));
     }
 }

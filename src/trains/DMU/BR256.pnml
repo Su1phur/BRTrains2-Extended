@@ -1,0 +1,115 @@
+// reversing switches
+// coming soon
+
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_BR256_Diesel, position_in_vehid_chain % 18) {
+    1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+    16: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR256_GWR, position_in_articulated_veh % 18) {
+    1: spriteset_BR43_GWR;
+    4: sw_loadstack_BR_Mk3_TGS_GWR;
+    7: sw_loadstack_BR_Mk3_TS_GWR;
+    10: sw_loadstack_BR_Mk3_TSD_GWR;
+    13: sw_loadstack_BR_Mk3_TS_GWR;
+    16: spriteset_BR43_GWR_REV;
+        spriteset_empty; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR256, cargo_subtype) {
+    0: sw_graphics_BR256_GWR; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR256_cargo_subtype_text, cargo_subtype) {
+    0: return string(str_GWR); 
+        return CB_RESULT_NO_TEXT; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR256, position_in_articulated_veh % 18) {
+	1: 3;
+    4: 6;
+    7: 6;
+    10: 6;
+    13: 6;
+    16: 3;
+     4; }
+
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR256, position_in_vehid_chain % 18) {
+    0: 201 * param_pax; // all the capacity - (vehid chain number)
+    1..17: 1 * param_pax;
+    // total 219
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR256, extra_callback_info1) {
+	1..17: return item_BR256;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR256, 2560) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR256);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1996,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          4500 hp;
+        weight:                         275 ton;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.07;
+        tractive_effort_coefficient:    0.06;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR256;
+        visual_effect_and_powered:      sw_FX_BR256_Diesel;
+        purchase:                       spriteset_BR43_GWR_purchase;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR256;
+        articulated_part:               sw_articulated_BR256;
+        speed:                          sw_speed_BR254() * 1609 / 1000;  
+        purchase_cargo_capacity:        return (12 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR256;
+        cost_factor:                    323;
+        running_cost_factor:            12714;
+        cargo_subtype_text:             sw_BR256_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_diesel),
+                                                    string(str_usage_expr_pax),
+                                                    string(str_BR256_liveries)));
+    }
+}

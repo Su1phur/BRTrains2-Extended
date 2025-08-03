@@ -218,7 +218,7 @@ item (FEAT_TRAINS, item_BR_TTA, 12203) {
         // colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_BR_TTA_liveries)));
     }
 }

@@ -95,7 +95,7 @@ item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 11406) {
         // colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_GCR_10t_Cattle_Van_liveries)));
     }
 }

@@ -160,6 +160,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TRUK, 12128) {
         // internal code
         length:                         sw_length_BR_Mk3;
         articulated_part:               sw_articulated_BR_Mk3_TRUK;
+        speed:                          sw_speed_BR_Mk3() * 1609 / 1000;
         purchase_cargo_capacity:        return (8 * param_pax); // divide by number of articulated parTRUK and floor
         cargo_capacity:                 sw_capacity_BR_Mk3_TRUK;
         cost_factor:                    1853;
@@ -169,6 +170,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TRUK, 12128) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TRUK),
                                                     string(str_BR_Mk3_liveries)));
     }
 }

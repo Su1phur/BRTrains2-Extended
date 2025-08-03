@@ -180,7 +180,7 @@ item (FEAT_TRAINS, item_Milk_Tank, 11800) {
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_coach,
+        additional_text:                return( string(str_purchase_wagon,
                                                     string(str_Milk_Tank_liveries)));
     }
 }
