@@ -54,8 +54,8 @@ item (FEAT_TRAINS, item_BR256, 2560) {
     property {
         // common properties
         name:                           string(STR_NAME_BR256);
-        // variant_group:                  ; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        variant_group:                  item_BR43_HST; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1996,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -98,7 +98,7 @@ item (FEAT_TRAINS, item_BR256, 2560) {
         // internal code
         length:                         sw_length_BR256;
         articulated_part:               sw_articulated_BR256;
-        speed:                          sw_speed_BR254() * 1609 / 1000;  
+        speed:                          sw_speed_BR253() * 1609 / 1000;
         purchase_cargo_capacity:        return (12 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR256;
         cost_factor:                    323;

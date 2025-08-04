@@ -352,7 +352,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domed, 4462) { // BR Number range 44658-4549
         // common properties
         name:                           string(STR_NAME_LMSBlack5_Domed);
         variant_group:                  item_LMS_Black_5; // unit ID or item
-        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:              ALL_CLIMATES;
         introduction_date:              date(1934,2,1); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -430,7 +430,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domeless, 4463) { // BR Number range 44658-4
         // common properties
         name:                           string(STR_NAME_LMSBlack5_Domeless);
         variant_group:                  item_LMS_Black_5; // unit ID or item
-        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:              ALL_CLIMATES;
         introduction_date:              date(1934,2,1); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -507,7 +507,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Forward_Top_Feed, 4464) { // BR Number range
         // common properties
         name:                           string(STR_NAME_LMSBlack5_For);
         variant_group:                  item_LMS_Black_5; // unit ID or item
-        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:              ALL_CLIMATES;
         introduction_date:              date(1934,2,1); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -592,7 +592,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Named, 4464) { // BR Number range 44658-4549
         // common properties
         name:                           string(STR_NAME_LMSBlack5_Named);
         variant_group:                  item_LMS_Black_5; // unit ID or item
-        extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:              ALL_CLIMATES;
         introduction_date:              date(1934,2,1); 
         model_life:                     VEHICLE_NEVER_EXPIRES;

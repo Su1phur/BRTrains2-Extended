@@ -986,15 +986,18 @@ STR_NAME_BR43					:BR Class 43 "HST"
 str_BR43_usage					:Express Passenger
 str_BR43_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Midland Mainline (Teal & Tangerine), Midland Mainline (Blue), East Midlands Trains, Virgin Trains, First Great Western
 
-STR_NAME_BR254					:BR Class 254 "Eastern"
-str_BR254_usage					:Express Passenger
-str_BR254_liveries				:BR Blue, InterCity Executive, InterCity Swallow, Cross Country, Great North Eastern Railway, National Express
+STR_NAME_BR253                  :BR Class 253 "Western" (7-car)
+str_BR253_liveries              :BR Blue, InterCity, CrossCountry, GNER, NatEx
 
-STR_NAME_BR255					:BR Class 255 "Challenger"
+STR_NAME_BR254					:BR Class 254 "Eastern" (8-car)
+str_BR254_usage					:Express Passenger
+str_BR254_liveries				:BR Blue, InterCity, CrossCountry, GNER, NatEx
+
+STR_NAME_BR255					:BR Class 255 "Challenger" (5-car)
 str_BR255_usage					:Express Passenger
 str_BR255_liveries				:Cross Country, Grand Central, Grand Central Lined
 
-STR_NAME_BR256                  :BR Class 256 "Castle"
+STR_NAME_BR256                  :BR Class 256 "Castle" (4-car)
 str_BR256_liveries              :GWR
 
 STR_NAME_BR257_4                :BR Class 257 "Inter7City" (4-car)
