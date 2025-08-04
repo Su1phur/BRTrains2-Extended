@@ -328,7 +328,7 @@ str_coach_TPFL                  :{PURPLE}Trailing Parlour First Lavatory
 str_coach_TRB                   :{PURPLE}Trailing Restaurant Buffet Unclassified
 str_coach_TRFB                  :{PURPLE}Trailing Restaurant First Buffet
 str_coach_TRFM                  :{PURPLE}Trailing Restaurant First Modular
-str_coach_TRFK                  :{PURPLE}Trailer Restaurant First Kitchen
+str_coach_TRFK                  :{PURPLE}Trailing Restaurant First Kitchen
 str_coach_TRSB                  :{PURPLE}Trailing Restaurant Second Buffet
 str_coach_TRUB                  :{PURPLE}Trailing Restaurant Unclassified Buffet
 str_coach_TRUK                  :{PURPLE}Trailing Restaurant Unclassified Kitchen
