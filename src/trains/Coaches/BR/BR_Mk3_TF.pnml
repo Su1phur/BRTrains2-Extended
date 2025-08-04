@@ -252,7 +252,8 @@ item (FEAT_TRAINS, item_BR_Mk3_TF, 12121) {
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_wagon,
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TF),
                                                     string(str_BR_Mk3_liveries)));
     }
 }

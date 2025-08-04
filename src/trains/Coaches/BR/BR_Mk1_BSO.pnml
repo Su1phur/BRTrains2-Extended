@@ -185,7 +185,8 @@ item (FEAT_TRAINS, item_BR_Mk1_BSO, 12006) { // Diagram 183, 184 BR Mk1 BSO
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return( string(str_purchase_wagon,
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_BSO),
                                                     string(str_BR_Mk1_liveries)));
     }
 }

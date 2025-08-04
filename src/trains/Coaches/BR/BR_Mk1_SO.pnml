@@ -235,7 +235,8 @@ item (FEAT_TRAINS, item_BR_Mk1_SO, 12037) { // Diagram 94 BR Mk1 SO
         colour_mapping:                 return PALETTE_CC_FIRST;
 
         // purchase menu text
-        additional_text:                return(	string(str_purchase_wagon,
+        additional_text:                return(	string(str_purchase_coach,
+                                                string(str_coach_SO),
 												string(str_BR_Mk1_liveries)));
     }
 }

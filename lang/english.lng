@@ -209,7 +209,7 @@ str_purchase_loco_with_liveries	:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STR
 str_purchase_loco				:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}
 str_purchase_steam_liveries		:{BLACK}Type: {STRING}{}{BLACK}Usage: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
 str_purchase_wagon			    :{BLACK}Liveries: {GOLD}{STRING}{BLACK}
-str_purchase_coach              :{BLACK}Type: {GOLD}{STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
+str_purchase_coach              :{BLACK}Type: {STRING}{}{BLACK}Liveries: {GOLD}{STRING}{BLACK}
 
 str_purchase_type_diesel		:{RED}Diesel locomotive
 str_purchase_type_steam			:{GREEN}Steam Locomotive
@@ -222,159 +222,134 @@ str_purchase_type_electric		:{BLUE}Electric Locomotive
 str_purchase_type_gtu  		    :{ORANGE}Gas Turbine Experimental Unit
 
 # Coach Codes
-str_coach_B                     :Brake
-str_coach_BC                    :Brake Composite
-str_coach_BCK                   :Brake Composite Corridor
-str_coach_BCL                   :Brake Composite Lavatory
-str_coach_BCV                   :BRUTE Carrying Van
-str_coach_BDBS                  :Battery Driving Trailer Brake Second
-str_coach_BDMS                  :Battery Driving Motor Second
-str_coach_BDTC                  :Battery Driving Trailer Composite
-str_coach_BDTS                  :Battery Driving Trailer Second
-str_coach_BFB                   :Bullion Container Flat
-str_coach_BFK                   :Brake First Corridor
-str_coach_BFO                   :Brake First Open
-str_coach_BG                    :Gangwayed Full Brake
-str_coach_BGP                   :Brake gangwayed pigeon van
-str_coach_BGZ                   :Brake gangwayed (six-wheels)
-str_coach_BS                    :Brake Second
-str_coach_BSK                   :Brake Second Corridor
-str_coach_BSL                   :Brake Second Lavatory
-str_coach_BSO                   :Brake Second Open
-str_coach_BSO_T                 :Brake Second Open Trolley (Micro Buffet)
-str_coach_BTK                   :Brake Third Corridor
-str_coach_BUO                   :Brake Unclassified Open
-str_coach_BY                    :Brake (non-gangwayed, four-wheeled)
-str_coach_BZ                    :Brake (non-gangwayed, six-wheeled)
-str_coach_C                     :Composite
-str_coach_CCT                   :Covered Carriage Truck
-str_coach_CK                    :Corridor Composite
-str_coach_CL                    :Lavatory Composite
-str_coach_CLso                  :Lavatory Composite Semi-Open
-str_coach_CO                    :Composite Open
-str_coach_CTO                   :Open Carriage Truck
-str_coach_DBSO                  :Driving Brake Second Open
-str_coach_DM                    :Driving Motor
-str_coach_DMB                   :Driving Motor Brake
-str_coach_DMBC                  :Driving Motor Brake Composite
-str_coach_DMBF                  :Driving Motor Brake First
-str_coach_DMBS                  :Driving Motor Brake Second
-str_coach_DMBSO                 :Driving Motor Brake Second Open
-str_coach_DMC                   :Driving Motor Composite
-str_coach_DMLV                  :Driving Motor Luggage Van
-str_coach_DMS                   :Driving Motor Second
-str_coach_DTBS                  :Driving Trailer Brake Second
-str_coach_DTC                   :Driving Trailer Composite
-str_coach_DTS                   :Driving Trailer Second
-str_coach_DTV                   :Driving Trailer Van
-str_coach_DVT                   :Driving Van Trailer
-str_coach_FK                    :Corridor First
-str_coach_FO                    :Open First
-str_coach_FOT                   :First Open Trolley
-str_coach_GUV                   :General Utility Van
-str_coach_HB                    :Horse Box
-str_coach_IFV                   :Insulated Fish Van
-str_coach_KB                    :Kitchen Buffet (no seats, later RKB)
-str_coach_LFK                   :Lounge First
-str_coach_M                     :Motor
-str_coach_MBS                   :Motor Brake Second
-str_coach_MFLRK                 :Motor First Lavatory Kitchen
-str_coach_MLV                   :Motor Luggage Van
-str_coach_MPSL                  :Motor Parlour Second Lavatory
-str_coach_MS                    :Motor Second
-str_coach_MSLRK                 :Motor Second Lavatory Kitchen
-str_coach_NPV                   :Newspaper Van
-str_coach_PCP                   :Pullman Composite Parlour
+# Blue: Standard, Green: Brake, Purple: First/Restaurant/Kitchen, Brown: Mail/Express Goods, Dark Green: Sleeper
+str_coach_B                     :{GREEN}Brake
+str_coach_BC                    :{GREEN}Brake Composite
+str_coach_BCK                   :{GREEN}Brake Composite Corridor
+str_coach_BCL                   :{GREEN}Brake Composite Lavatory
+str_coach_BCV                   :{BROWN}BRUTE Carrying Van
+str_coach_BFB                   :{BROWN}Bullion Container Flat
+str_coach_BFK                   :{GREEN}Brake First Corridor
+str_coach_BFO                   :{GREEN}Brake First Open
+str_coach_BG                    :{GREEN}Gangwayed Full Brake
+str_coach_BGP                   :{GREEN}Brake gangwayed pigeon van
+str_coach_BGZ                   :{GREEN}Brake gangwayed (six-wheels)
+str_coach_BS                    :{GREEN}Brake Second
+str_coach_BSK                   :{GREEN}Brake Second Corridor
+str_coach_BSL                   :{GREEN}Brake Second Lavatory
+str_coach_BSO                   :{GREEN}Brake Second Open
+str_coach_BSO_T                 :{GREEN}Brake Second Open Trolley (Micro Buffet)
+str_coach_BTK                   :{GREEN}Brake Third Corridor
+str_coach_BUO                   :{GREEN}Brake Unclassified Open
+str_coach_BY                    :{GREEN}Brake (non-gangwayed, four-wheeled)
+str_coach_BZ                    :{GREEN}Brake (non-gangwayed, six-wheeled)
+str_coach_C                     :{BLUE}Composite
+str_coach_CCT                   :{BROWN}Covered Carriage Truck
+str_coach_CK                    :{BLUE}Corridor Composite
+str_coach_CL                    :{BLUE}Lavatory Composite
+str_coach_CLso                  :{BLUE}Lavatory Composite Semi-Open
+str_coach_CO                    :{BLUE}Composite Open
+str_coach_CTO                   :{BROWN}Open Carriage Truck
+str_coach_DBSO                  :{GREEN}Driving Brake Second Open
+str_coach_DVT                   :{GREEN}Driving Van Trailing
+str_coach_FK                    :{PURPLE}Corridor First
+str_coach_FO                    :{PURPLE}Open First
+str_coach_FOT                   :{PURPLE}First Open Trolley
+str_coach_GUV                   :{GREEN}General Utility Van
+str_coach_HB                    :{BROWN}Horse Box
+str_coach_IFV                   :{BROWN}Insulated Fish Van
+str_coach_LFK                   :{PURPLE}Lounge First
+str_coach_NPV                   :{GREEN}Newspaper Van
+str_coach_PCP                   :{PURPLE}Pullman Composite Parlour
 str_coach_PCV                   :Propelling Control Vehicle / Parcels Van
-str_coach_PFB                   :Pullman First Brake
-str_coach_PFK                   :Pullman First Kitchen
-str_coach_PFP                   :Pullman First Parlour
-str_coach_PMV                   :Parcels & Miscellaneous Van / Pantograph Motor Van
-str_coach_POS                   :Post Office Sorting Van
-str_coach_POT                   :Post Office Stowage Van
-str_coach_PSB                   :Pullman Second Brake
-str_coach_PSP                   :Pullman Second Parlour
-str_coach_PTSO                  :Pantograph Trailer Second Open
-str_coach_PVG                   :Packing Van Gangway (newspaper)
-str_coach_RB                    :Restaurant Buffet
-str_coach_BRK                   :Restaurant Buffet (larger kitchen)
-str_coach_RBR                   :Restaurant Buffet Refurbished
-str_coach_RBS                   :Restaurant Unclassed (proper buffet)
-str_coach_RC                    :Restaurant Composite
-str_coach_RCO                   :Restaurant Composite Open
-str_coach_RE                    :Griddle
-str_coach_RF                    :Restaurant First
-str_coach_RFB                   :Restaurant First Buffet
-str_coach_RFM                   :Restaurant First Modular
-str_coach_RFO                   :Restaurant First Open
-str_coach_RFK                   :Restaurant First Kitchen
-str_coach_RK                    :Kitchen Car
-str_coach_RKB                   :Kitchen Buffet (no seats)
-str_coach_RLB                   :Restaurant Lounge First Buffet
-str_coach_RMB                   :Restaurant Miniature Buffet
-str_coach_RMBT                  :Micro Buffet
-str_coach_RS                    :Restaurant Second
-str_coach_RSO                   :Restaurant Second Open (without kitchen)
-str_coach_RU                    :Unclassified Restaurant
-str_coach_RUB                   :Restaurant Unclassified (makeshift buffet)
-str_coach_RUK                   :Restaurant Unclassified Kitchen
-str_coach_RUO                   :Restaurant Unclassified Open (with kitchen)
-str_coach_S                     :Second
-str_coach_SCV                   :Special Cattle Van
-str_coach_SD                    :Saloon Discothèque
-str_coach_SK                    :Corridor Second
-str_coach_SLB                   :Bullion Van
-str_coach_SLC                   :Sleeper Composite
-str_coach_SLCP                  :Sleeper Composite with Pantry
-str_coach_SLE                   :Sleeper Either Class
-str_coach_SLEP                  :Sleeper Either Class with Pantry
-str_coach_SLF                   :Sleeper First
-str_coach_SLO                   :Open Second with Lavatory (Non-gangwayed)
-str_coach_SLSC                  :Sleeper Support Coach
-str_coach_SLSTP                 :Sleeper Second Twin-Berth with Pantry
-str_coach_SO                    :Open Second
-str_coach_SO_NG                 :Second Open (non-gangwayed)
-str_coach_SPV                   :Special Parcels Van
-str_coach_TAV                   :Trailer Auxiliary Van
-str_coach_TBC                   :Trailer Brake Composite
-str_coach_TBF                   :Trailer Brake First
-str_coach_TBS                   :Trailer Brake Second
-str_coach_TC                    :Trailer Composite
-str_coach_TCC                   :Trailer Composite Conductor
-str_coach_TCV                   :Tiered Car Carrier
-str_coach_TF                    :Trailer First
-str_coach_TFLRK                 :Trailer First Lavatory Kitchen
-str_coach_TG                    :Trailer Griddle
-str_coach_TGS                   :Trailer Guard Second
-str_coach_TK                    :Third Corridor
-str_coach_TOV                   :Third Open Vestibuled
-str_coach_TLUK                  :Trailer Lounge Unclassified Kitchen
-str_coach_TPFL                  :Trailer Parlour First Lavatory
-str_coach_TRB                   :Trailer Restaurant Buffet Unclassified
-str_coach_TRFB                  :Trailer Restaurant First Buffet
-str_coach_TRFM                  :Trailer Restaurant First Modular
-str_coach_TRFK                  :TRailer Restaurant First Kitchen
-str_coach_TRSB                  :Trailer Restaurant Second Buffet
-str_coach_TRUB                  :Trailer Restaurant Unclassified Buffet
-str_coach_TRUK                  :Trailer Restaurant Unclassified Kitchen
-str_coach_TS                    :Trailer Second
-str_coach_TSD                   :Trailer Second Disabled
-str_coach_TSO                   :Tourist Second Open
-str_coach_TSOD                  :Tourist Standard Open Disabled
-str_coach_TSOE                  :Tourist Standard Open End Coach
-str_coach_TSO_T                 :Tourist Second Open Trolley (Micro Buffet)
-str_coach_TU                    :Trailer Unclassified
-str_coach_VFV                   :Ventilated Fruit Van
+str_coach_PFB                   :{PURPLE}Pullman First Brake
+str_coach_PFK                   :{PURPLE}Pullman First Kitchen
+str_coach_PFP                   :{PURPLE}Pullman First Parlour
+str_coach_PMV                   :{GREEN}Parcels & Miscellaneous Van / Pantograph Motor Van
+str_coach_POS                   :{GREEN}Post Office Sorting Van
+str_coach_POT                   :{GREEN}Post Office Stowage Van
+str_coach_PSB                   :{PURPLE}Pullman Second Brake
+str_coach_PSP                   :{PURPLE}Pullman Second Parlour
+str_coach_PVG                   :{GREEN}Packing Van Gangway (newspaper)
+str_coach_RB                    :{PURPLE}Restaurant Buffet
+str_coach_BRK                   :{PURPLE}Restaurant Buffet (larger kitchen)
+str_coach_RBR                   :{PURPLE}Restaurant Buffet Refurbished
+str_coach_RBS                   :{PURPLE}Restaurant Unclassed (proper buffet)
+str_coach_RC                    :{PURPLE}Restaurant Composite
+str_coach_RCO                   :{PURPLE}Restaurant Composite Open
+str_coach_RE                    :{PURPLE}Griddle
+str_coach_RF                    :{PURPLE}Restaurant First
+str_coach_RFB                   :{PURPLE}Restaurant First Buffet
+str_coach_RFM                   :{PURPLE}Restaurant First Modular
+str_coach_RFO                   :{PURPLE}Restaurant First Open
+str_coach_RFK                   :{PURPLE}Restaurant First Kitchen
+str_coach_RK                    :{PURPLE}Kitchen Car
+str_coach_RKB                   :{PURPLE}Kitchen Buffet (no seats)
+str_coach_RLB                   :{PURPLE}Restaurant Lounge First Buffet
+str_coach_RMB                   :{PURPLE}Restaurant Miniature Buffet
+str_coach_RMBT                  :{PURPLE}Micro Buffet
+str_coach_RS                    :{PURPLE}Restaurant Second
+str_coach_RSO                   :{PURPLE}Restaurant Second Open (without kitchen)
+str_coach_RU                    :{PURPLE}Unclassified Restaurant
+str_coach_RUB                   :{PURPLE}Restaurant Unclassified (makeshift buffet)
+str_coach_RUK                   :{PURPLE}Restaurant Unclassified Kitchen
+str_coach_RUO                   :{PURPLE}Restaurant Unclassified Open (with kitchen)
+str_coach_S                     :{BLUE}Second
+str_coach_SCV                   :{BROWN}Special Cattle Van
+str_coach_SD                    :{PURPLE}Saloon Discothèque
+str_coach_SK                    :{BLUE}Corridor Second
+str_coach_SLB                   :{GREEN}Bullion Van
+str_coach_SLC                   :{DKGREEN}Sleeper Composite
+str_coach_SLCP                  :{DKGREEN}Sleeper Composite with Pantry
+str_coach_SLE                   :{DKGREEN}Sleeper Either Class
+str_coach_SLEP                  :{DKGREEN}Sleeper Either Class with Pantry
+str_coach_SLF                   :{DKGREEN}Sleeper First
+str_coach_SLO                   :{BLUE}Open Second with Lavatory (Non-gangwayed)
+str_coach_SLSC                  :{DKGREEN}Sleeper Support Coach
+str_coach_SLSTP                 :{DKGREEN}Sleeper Second Twin-Berth with Pantry
+str_coach_SO                    :{BLUE}Open Second
+str_coach_SO_NG                 :{BLUE}Second Open (non-gangwayed)
+str_coach_SPV                   :{GREEN}Special Parcels Van
+str_coach_TAV                   :{GREEN}Trailing Auxiliary Van
+str_coach_TBC                   :{GREEN}Trailing Brake Composite
+str_coach_TBF                   :{GREEN}Trailing Brake First
+str_coach_TBS                   :{GREEN}Trailing Brake Second
+str_coach_TC                    :{BLUE}Trailing Composite
+str_coach_TCC                   :{BLUE}Trailing Composite Conductor
+str_coach_TCV                   :{BROWN}Tiered Car Carrier
+str_coach_TF                    :{PURPLE}Trailing First
+str_coach_TFLRK                 :{PURPLE}Trailing First Lavatory Kitchen
+str_coach_TG                    :{PURPLE}Trailing Griddle
+str_coach_TGS                   :{BLUE}Trailing Guard Second
+str_coach_TK                    :{BLUE}Third Corridor
+str_coach_TOV                   :{BLUE}Third Open Vestibuled
+str_coach_TLUK                  :{PURPLE}Trailing Lounge Unclassified Kitchen
+str_coach_TPFL                  :{PURPLE}Trailing Parlour First Lavatory
+str_coach_TRB                   :{PURPLE}Trailing Restaurant Buffet Unclassified
+str_coach_TRFB                  :{PURPLE}Trailing Restaurant First Buffet
+str_coach_TRFM                  :{PURPLE}Trailing Restaurant First Modular
+str_coach_TRFK                  :{PURPLE}Trailer Restaurant First Kitchen
+str_coach_TRSB                  :{PURPLE}Trailing Restaurant Second Buffet
+str_coach_TRUB                  :{PURPLE}Trailing Restaurant Unclassified Buffet
+str_coach_TRUK                  :{PURPLE}Trailing Restaurant Unclassified Kitchen
+str_coach_TS                    :{BLUE}Trailing Second
+str_coach_TSD                   :{BLUE}Trailing Second Disabled
+str_coach_TSO                   :{BLUE}Tourist Second Open
+str_coach_TSOD                  :{BLUE}Tourist Standard Open Disabled
+str_coach_TSOE                  :{BLUE}Tourist Standard Open End Coach
+str_coach_TSO_T                 :{BLUE}Tourist Second Open Trolley (Micro Buffet)
+str_coach_TU                    :Trailing Unclassified
+str_coach_VFV                   :{BROWN}Ventilated Fruit Van
 
 # Usage Type
-str_usage_pax                   :Passenger
-str_usage_expr_pax              :Express Passenger
-str_usage_light_pax             :Light Passenger
-str_usage_freight               :Freight
-str_usage_heavy_freight         :Heavy Freight
-str_usage_mixed_traffic         :Mixed Traffic
-str_usage_shunting              :Shunting
-str_usage_banking               :Banking
+str_usage_pax                   :{GREEN}Passenger
+str_usage_expr_pax              :{PURPLE}Express Passenger
+str_usage_light_pax             :{DKGREEN}Light Passenger
+str_usage_freight               :{BROWN}Freight
+str_usage_heavy_freight         :{BROWN}Heavy Freight
+str_usage_mixed_traffic         :{BLUE}Mixed Traffic
+str_usage_shunting              :{DKBLUE}Shunting
+str_usage_banking               :{DKBLUE}Banking
 
 ###############
 # Locomotives #
@@ -1019,7 +994,7 @@ STR_NAME_BR255					:BR Class 255 "Challenger"
 str_BR255_usage					:Express Passenger
 str_BR255_liveries				:Cross Country, Grand Central, Grand Central Lined
 
-STR_NAME_BR256                  :BR Class 255 "Castle"
+STR_NAME_BR256                  :BR Class 256 "Castle"
 str_BR256_liveries              :GWR
 
 STR_NAME_BR257_4                :BR Class 257 "Inter7City" (4-car)
@@ -1110,13 +1085,13 @@ str_BR370_usage					:Express Passenger
 str_BR370_eos					:1986
 str_BR370_liveries				:InterCity
 
-STR_NAME_370_TF					:BR Class 370 Trailer First
-STR_NAME_370_TS					:BR Class 370 Trailer Standard
-STR_NAME_370_TBF				:BR Class 370 Trailer Brake First
-STR_NAME_370_TRSB				:BR Class 370 Trailer Restaurant Standard Buffet
-STR_NAME_370_TU					:BR Class 370 Trailer Unclassified
+STR_NAME_370_TF					:BR Class 370 Trailing First
+STR_NAME_370_TS					:BR Class 370 Trailing Standard
+STR_NAME_370_TBF				:BR Class 370 Trailing Brake First
+STR_NAME_370_TRSB				:BR Class 370 Trailing Restaurant Standard Buffet
+STR_NAME_370_TU					:BR Class 370 Trailing Unclassified
 STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
-STR_NAME_370_DTS				:BR Class 370 Driving Trailer Standard
+STR_NAME_370_DTS				:BR Class 370 Driving Trailing Standard
 
 STR_NAME_BR375_3				:BR Class 375 "Electrostar" (3-Car)
 str_BR375_3_usage				:Suburban Passenger
@@ -1195,9 +1170,9 @@ str_BR390_eos					:---
 str_BR390_liveries				:Virgin Trains
 
 STR_NAME_390_MF					:BR Class 390 Motor First
-STR_NAME_390_TS					:BR Class 390 Trailer Standard
-STR_NAME_390_PTF				:BR Class 390 Motor Pantograph Trailer First
-STR_NAME_390_PTSRMB				:BR Class 390 Motor Pantograph Trailer Standard Restaurant
+STR_NAME_390_TS					:BR Class 390 Trailing Standard
+STR_NAME_390_PTF				:BR Class 390 Motor Pantograph Trailing First
+STR_NAME_390_PTSRMB				:BR Class 390 Motor Pantograph Trailing Standard Restaurant
 STR_NAME_390_MS					:BR Class 390 Motor Standard
 STR_NAME_390_MSD				:BR Class 390 Motor Standard Disabled
 STR_NAME_390_MFD				:BR Class 390 Motor First Disabled
@@ -1473,9 +1448,9 @@ STR_NAME_BR_Mk1_Header			:BR Mark 1 Coaches
 STR_NAME_BR_Mk1_BCK             :BR Mark 1 Coach (BCK)
 STR_NAME_BR_Mk1_BFK             :BR Mark 1 Coach (BFK)
 STR_NAME_BR_Mk1_BG              :BR Mark 1 Coach (BG)
-STR_NAME_BR_Mk1_BSK             :BR Mark 1 Coach (Brake Standard Corridor)
-STR_NAME_BR_Mk1_BSO             :BR Mark 1 Coach (Brake Standard Open)
-STR_NAME_BR_Mk1_BSOT            :BR Mark 1 Coach (Brake Standard Open Trolley)
+STR_NAME_BR_Mk1_BSK             :BR Mark 1 Coach (BSK)
+STR_NAME_BR_Mk1_BSO             :BR Mark 1 Coach (BSO)
+STR_NAME_BR_Mk1_BSOT            :BR Mark 1 Coach (BSOT)
 
 STR_NAME_BR_Mk1_CK              :BR Mark 1 Coach (CK)
 STR_NAME_BR_Mk1_FK              :BR Mark 1 Coach (FK)
@@ -1544,12 +1519,12 @@ STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (TS)
 STR_NAME_BR_Mk3_TSD             :BR Mark 3 Coach (TSD)
 STR_NAME_BR_Mk3_DMB				:BR Mark 3 Driving Motor Brake
 
-STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (Tourist Standard Open)
+STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (TSO)
 
 STR_NAME_BR_Mk3Sleeper			:BR Mark 3 Sleeper Coach
 str_BR_Mk3Sleeper_liveries	    :BR Blue, InterCity, First ScotRail, ScotRail, Caledonian Sleaper, Great Western, GWR
 
-STR_NAME_BR_Mk3DVT				:BR Mark 3 Driving Van Trailer
+STR_NAME_BR_Mk3DVT				:BR Mark 3 DVT
 str_BR_Mk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Anglia, Transport for Wales, Virgin "Pretendolino", Arriva Wales, Network Rail
 
 str_BR_Mk3_liveries			    :BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
@@ -1562,13 +1537,13 @@ STR_NAME_BR_Mk4_TSO				:BR Mark 4 Coach (TSO)
 STR_NAME_BR_Mk4_TSOE			:BR Mark 4 Coach (TSOE)
 STR_NAME_BR_Mk4_TSOD			:BR Mark 4 Coach (TSOD)
 STR_NAME_BR_Mk4_RFM				:BR Mark 4 Coach (TRFM)
-STR_NAME_BR_Mk4_DVT				:BR Mark 4 Driving Van Trailer
+STR_NAME_BR_Mk4_DVT				:BR Mark 4 DVT
 
 str_BR_Mk4_liveries			    :InterCity, National Express, GNER, East Coast, Virgin East Coast
 
 STR_NAME_BRMk5_Header			:BR Mark 5 Coaches
 
-STR_NAME_BRMk5DVT				:BR Mark 5a Driving Van Trailer
+STR_NAME_BRMk5DVT				:BR Mark 5a DVT
 str_BRMk5DVT_liveries			:Transpennine Express
 
 STR_NAME_BRMk5a				    :BR Mark 5a Coach
@@ -1585,14 +1560,14 @@ str_RMTPO_liveries				:Freightliner
 STR_NAME_RoyalBFK				:British Royal Train (Brake First Corridor)
 STR_NAME_RoyalSLE				:British Royal Train (Sleeper Coach)
 STR_NAME_RoyalTRUK				:British Royal Train (Restaurant Unclassified)
-STR_NAME_RoyalTSO				:British Royal Train (Trailer Standard Open)
+STR_NAME_RoyalTSO				:British Royal Train (Trailing Standard Open)
 STR_NAME_RoyalFO				:British Royal Train (First Open)
 STR_NAME_RoyalBFKa				:British Royal Train (Brake First Corridor)
 
 STR_NAME_EWSFO					:EWS Company Train (First Open)
 STR_NAME_EWSRFM					:EWS Company Train (Restaurant First Modular)
 STR_NAME_EWSSLEP				:EWS Company Train (Sleeper Coach)
-STR_NAME_EWSDVT					:EWS Company Train (Driving Van Trailer)
+STR_NAME_EWSDVT					:EWS Company Train (Driving Van Trailing)
 
 # # # # # # #
 # # WAGON # #
