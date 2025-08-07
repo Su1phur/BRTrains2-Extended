@@ -251,7 +251,7 @@ str_coach_CLso                  :{BLUE}Lavatory Composite Semi-Open
 str_coach_CO                    :{BLUE}Composite Open
 str_coach_CTO                   :{BROWN}Open Carriage Truck
 str_coach_DBSO                  :{GREEN}Driving Brake Second Open
-str_coach_DVT                   :{GREEN}Driving Van Trailing
+str_coach_DVT                   :{GREEN}Driving Van Trailer
 str_coach_FK                    :{PURPLE}Corridor First
 str_coach_FO                    :{PURPLE}Open First
 str_coach_FOT                   :{PURPLE}First Open Trolley
@@ -318,6 +318,7 @@ str_coach_TC                    :{BLUE}Trailing Composite
 str_coach_TCC                   :{BLUE}Trailing Composite Conductor
 str_coach_TCV                   :{BROWN}Tiered Car Carrier
 str_coach_TF                    :{PURPLE}Trailing First
+str_coach_TFE                   :{PURPLE}Trailing First End
 str_coach_TFLRK                 :{PURPLE}Trailing First Lavatory Kitchen
 str_coach_TG                    :{PURPLE}Trailing Griddle
 str_coach_TGS                   :{BLUE}Trailing Guard Second
@@ -334,6 +335,7 @@ str_coach_TRUB                  :{PURPLE}Trailing Restaurant Unclassified Buffet
 str_coach_TRUK                  :{PURPLE}Trailing Restaurant Unclassified Kitchen
 str_coach_TS                    :{BLUE}Trailing Second
 str_coach_TSD                   :{BLUE}Trailing Second Disabled
+str_coach_TSE                   :{BLUE}Trailing Second End
 str_coach_TSO                   :{BLUE}Tourist Second Open
 str_coach_TSOD                  :{BLUE}Tourist Standard Open Disabled
 str_coach_TSOE                  :{BLUE}Tourist Standard Open End Coach
@@ -777,10 +779,9 @@ str_BR90_usage					:Mixed Traffic
 str_BR90_eos					:---
 str_BR90_liveries				:InterCity Swallow, Freightliner Grey, EWS, DB, Freightliner Green, Freightliner Powerhaul, ONE, Greater Anglie Blue, Greater Anglia White, Virgin, REX, First ScotRail, GNER
 
-STR_NAME_BR91					:BR Class 91 "InterCity 225" set (10 car + locomotive)
-STR_NAME_BR91_Standalone		:BR Class 91
-str_BR91_usage					:Express Passenger
-str_BR91_eos					:---
+STR_NAME_BR91           		:BR Class 91
+STR_NAME_BR91_IC225				:BR Class 91 "InterCity 225" (10-car)
+STR_NAME_BR91_IC225_P           :BR Class 91 "InterCity 225 Pullman" (9-car + Locomotive)
 str_BR91_liveries				:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
 
 STR_NAME_BR93					:BR Class 93 (Tri-Mode)
@@ -1533,14 +1534,16 @@ str_BR_Mk3DVT_liveries			:InterCity Swallow, Virgin, ONE, Chiltern, Greater Angl
 str_BR_Mk3_liveries			    :BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
 str_BR_Mk3a_liveries			:BR Blue, InterCity, Midland Mainline, East Midlands Trains, Virgin Trains, Cross Country, Grand Central, FGW, GNER
 
-STR_NAME_BRMk4_Header			:BR Mark 4 Coaches
+STR_NAME_BR_Mk4_Header			:BR Mark 4 Coaches
 
-STR_NAME_BR_Mk4_FO				:BR Mark 4 Coach (FO)
-STR_NAME_BR_Mk4_TSO				:BR Mark 4 Coach (TSO)
-STR_NAME_BR_Mk4_TSOE			:BR Mark 4 Coach (TSOE)
-STR_NAME_BR_Mk4_TSOD			:BR Mark 4 Coach (TSOD)
-STR_NAME_BR_Mk4_RFM				:BR Mark 4 Coach (TRFM)
 STR_NAME_BR_Mk4_DVT				:BR Mark 4 DVT
+STR_NAME_BR_Mk4_TF				:BR Mark 4 Coach (TF)
+STR_NAME_BR_Mk4_TFE             :BR Mark 4 Coach (TFE)
+STR_NAME_BR_Mk4_TRFB            :BR Mark 4 Coach (TRFB)
+STR_NAME_BR_Mk4_TRSB            :BR Mark 4 Coach (TRSB)
+STR_NAME_BR_Mk4_TS				:BR Mark 4 Coach (TS)
+STR_NAME_BR_Mk4_TSD			    :BR Mark 4 Coach (TSD)
+STR_NAME_BR_Mk4_TSE			    :BR Mark 4 Coach (TSE)
 
 str_BR_Mk4_liveries			    :InterCity, National Express, GNER, East Coast, Virgin East Coast
 
@@ -1931,6 +1934,8 @@ str_LNERAppleGreen		        : (LNER - Apple Green)
 str_LNERBlack					: (LNER - Black)
 str_LNERCoronationSilver        : (LNER - Coronation Silver)
 str_LNERGarterBlue              : (LNER - Garter Blue)
+str_LNERRedWhite                : (LNER - Red and White)
+str_LNEROxblood                 : (LNER - Oxblood)
 str_LNERWartimeBlack            : (LNER - Wartime Black)
 str_LNERTeak					: (LNER - Teak)
 str_LNERFauxTeak                : (LNER - "Teak")

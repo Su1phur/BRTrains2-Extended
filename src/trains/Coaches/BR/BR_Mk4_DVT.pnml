@@ -1,0 +1,263 @@
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_GNER, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_mask.png")
+        { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_2x_mask.png")
+        { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_4x_mask.png")
+        { template_128trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_GNER_REV, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_mask.png")
+        { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_2x_mask.png")
+        { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_4x_mask.png")
+        { template_128trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_DVT_GNER_purchase, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_GNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_GNER_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_Intercity_Swallow, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_mask.png")
+        { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_2x_mask.png")
+        { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_4x_mask.png")
+        { template_128trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_Intercity_Swallow_REV, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_mask.png")
+        { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_2x_mask.png")
+        { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_4x_mask.png")
+        { template_128trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_DVT_Intercity_Swallow_purchase, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_Intercity_Swallow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_Intercity_Swallow_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_LNER, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_mask.png")
+        { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_2x_mask.png")
+        { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_4x_mask.png")
+        { template_128trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_LNER_REV, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_mask.png")
+        { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_2x_mask.png")
+        { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_4x_mask.png")
+        { template_128trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_DVT_LNER_purchase, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_LNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_LNER_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_TfW, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_mask.png")
+        { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_2x_mask.png")
+        { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_4x_mask.png")
+        { template_128trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_DVT_TfW_REV, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_8bpp.png")
+    { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_mask.png")
+        { template_128trains_REV_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_2x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_2x_mask.png")
+        { template_128trains_REV_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_4x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_4x_mask.png")
+        { template_128trains_REV_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_DVT_TfW_purchase, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_DVT_TfW_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_32bpp.png", "gfx\Coaches\BR_Mk4_DVT\BR_Mk4_DVT_TfW_1x_mask.png")
+    { template_purchase(0,0) }
+
+// purchase year switch
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk4_DVT_purchase_sprite, current_year) {
+    1989..1993: spriteset_BR_Mk4_DVT_Intercity_Swallow_purchase;
+    1994..2007: spriteset_BR_Mk4_DVT_GNER_purchase;
+    // 2008..2015: spriteset_BR_Mk4_TS_EastCoast_purchase;
+    2016..2024: spriteset_BR_Mk4_DVT_LNER_purchase;
+        spriteset_BR_Mk4_DVT_Intercity_Swallow_purchase; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk4_DVT, cargo_subtype) {
+    0: spriteset_BR_Mk4_DVT_Intercity_Swallow;
+    1: spriteset_BR_Mk4_DVT_GNER;
+    2: spriteset_BR_Mk4_DVT_LNER;
+    3: spriteset_BR_Mk4_DVT_TfW; }
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk4_DVT_REV, cargo_subtype) {
+    0: spriteset_BR_Mk4_DVT_Intercity_Swallow_REV;
+    1: spriteset_BR_Mk4_DVT_GNER_REV;
+    2: spriteset_BR_Mk4_DVT_LNER_REV;
+    3: spriteset_BR_Mk4_DVT_TfW_REV; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk4_DVT_cargo_subtype_text, cargo_subtype) {
+	0:	return string(str_BRInterCitySwallow);
+    1:  return string(str_GNER);
+    2:  return string(str_LNERRedWhite);
+    3:  return string(str_TfW);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk4_DVT, position_in_consist % 3) {
+	1: return sw_livery_BR_Mk4_DVT;
+        spriteset_empty; }
+
+        
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk4_DVT_REV, position_in_consist_from_end % 3) {
+	1: return sw_livery_BR_Mk4_DVT_REV;
+        spriteset_empty; }
+
+switch(FEAT_TRAINS, SELF, sw_rear_BR_Mk4_DVT, num_vehs_in_consist > 3 ? position_in_consist_from_end : - 1) {
+    1: sw_graphics_BR_Mk4_DVT_REV;
+        sw_graphics_BR_Mk4_DVT; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR_Mk4_DVT, position_in_articulated_veh % 3) {
+        4; }
+
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk4_DVT, position_in_vehid_chain % 3) {
+    0: 46 * param_freight; // all the capacity - (vehid chain number)
+    1..2: 1 * param_freight;
+    // total 48
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR_Mk4_DVT, param_max_speed) {
+    0: 125; // operational speed
+    1: 140; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk4_DVT, extra_callback_info1) {
+	1: return item_BR_Mk4_DVT;
+	2: return item_BR_Mk4_DVT;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Mk4_DVT, 12161) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk4_DVT);
+        variant_group:                  item_BR_Mk4_Header; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        // refittable_cargo_classes:        bitmask(CC_EXPRESS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [MAIL, GOOD, VALU];
+        // cargo_disallow_refit:            [LVST];
+        default_cargo_type:             MAIL;
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 20 * param_freight; // total 60
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         44 ton;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.3;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_rear_BR_Mk4_DVT;
+        purchase:                       sw_BR_Mk4_DVT_purchase_sprite;
+        
+        // internal code
+        length:                         sw_length_BR_Mk4_DVT;
+        articulated_part:               sw_articulated_BR_Mk4_DVT;
+        speed:                          sw_speed_BR_Mk4_DVT() * 1609 / 1000;  
+        cost_factor:                    2713;
+        running_cost_factor:            2018;
+        cargo_subtype_text:             sw_BR_Mk4_DVT_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_DVT),
+                                                    string(str_BR_Mk4_liveries)));
+    }
+}

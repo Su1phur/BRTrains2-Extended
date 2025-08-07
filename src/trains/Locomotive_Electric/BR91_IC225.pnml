@@ -1,0 +1,235 @@
+// FX effects
+switch(FEAT_TRAINS, SELF, sw_FX_BR91_IC225_Electric, position_in_vehid_chain % 33) { // rear catenary 
+    2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER); 
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_Intercity, position_in_consist % 33) {
+	1: return spriteset_BR91_Intercity_Swallow;
+    4: return sw_loadstack_BR_Mk4_TSE_Intercity;
+    7: return sw_loadstack_BR_Mk4_TS_Intercity;
+    10: return sw_loadstack_BR_Mk4_TS_Intercity;
+    13: return sw_loadstack_BR_Mk4_TS_Intercity;
+    16: return sw_loadstack_BR_Mk4_TS_Intercity; // should be a TSD but it's externally identical
+    19: return sw_loadstack_BR_Mk4_TRSB_Intercity;
+    22: return sw_loadstack_BR_Mk4_TF_Intercity;
+    25: return sw_loadstack_BR_Mk4_TF_Intercity;
+    28: return sw_loadstack_BR_Mk4_TF_Intercity;
+    31: return spriteset_BR_Mk4_DVT_Intercity_Swallow_REV;
+        spriteset_empty; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR91_IC225, cargo_subtype) {
+    0: sw_graphics_BR91_IC225_Intercity; }
+    
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR91_IC225_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRInterCitySwallow);
+       return CB_RESULT_NO_TEXT; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR91_IC225, position_in_articulated_veh % 33) {
+	4: 6;
+    7: 6;
+    10: 6;
+    13: 6;
+    16: 6;
+    19: 6;
+    22: 6;
+    25: 6;
+    28: 6;
+        4; }
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR91_IC225, position_in_vehid_chain % 33) {
+    0: 470 * param_pax; // all the capacity - (vehid chain number)
+    1..32: 1 * param_pax;
+    // total 502
+}
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR91_IC225, param_max_speed) {
+    0: 125; // operational speed
+    1: 140; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR91_IC225, extra_callback_info1) {
+	1..32: return item_BR91_IC225;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR91_IC225, 9101) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR91_IC225);
+        variant_group:                  item_BR91; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          6300 hp;
+        weight:                         486 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.07;
+        tractive_effort_coefficient:    0.04;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR91_IC225;
+        visual_effect_and_powered:      sw_FX_BR91_IC225_Electric;
+        purchase:                       sw_BR91_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR91_IC225;
+        articulated_part:               sw_articulated_BR91_IC225;
+        speed:                          sw_speed_BR91_IC225() * 1609 / 1000;  
+        purchase_cargo_capacity:        return (15 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR91_IC225;
+        cost_factor:                    439;
+        running_cost_factor:            14336;
+        cargo_subtype_text:             sw_BR91_IC225_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_emu),
+                                                    string(str_usage_expr_pax),
+                                                    string(str_BR91_liveries)));
+    }
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_P_Intercity, position_in_consist % 30) {
+	1: return spriteset_BR91_Intercity_Swallow;
+    4: return sw_loadstack_BR_Mk4_TSE_Intercity;
+    7: return sw_loadstack_BR_Mk4_TS_Intercity;
+    10: return sw_loadstack_BR_Mk4_TS_Intercity; // should be a TSD but it's externally identical
+    13: return sw_loadstack_BR_Mk4_TRSB_Intercity;
+    16: return sw_loadstack_BR_Mk4_TF_Intercity; 
+    19: return sw_loadstack_BR_Mk4_TF_Intercity;
+    22: return sw_loadstack_BR_Mk4_TRFB_Intercity;
+    25: return sw_loadstack_BR_Mk4_TF_Intercity;
+    28: return spriteset_BR_Mk4_DVT_Intercity_Swallow_REV;
+        spriteset_empty; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR91_IC225_P, cargo_subtype) {
+    0: sw_graphics_BR91_IC225_P_Intercity; }
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR91_IC225_P, position_in_articulated_veh % 30) {
+	4: 6;
+    7: 6;
+    10: 6;
+    13: 6;
+    16: 6;
+    19: 6;
+    22: 6;
+    25: 6;
+        4; }
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR91_IC225_P, position_in_vehid_chain % 30) {
+    0: 383 * param_pax; // all the capacity - (vehid chain number)
+    1..29: 1 * param_pax;
+    // total 412
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR91_IC225_P, extra_callback_info1) {
+	1..29: return item_BR91_IC225_P;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR91_IC225_P, 9102) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR91_IC225_P);
+        variant_group:                  item_BR91; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        // cargo_allow_refit:               [PASS, TOUR];
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     ELRL;
+        power:                          6300 hp;
+        weight:                         486 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.07;
+        tractive_effort_coefficient:    0.04;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR91_IC225_P;
+        visual_effect_and_powered:      sw_FX_BR91_IC225_Electric;
+        purchase:                       sw_BR91_purchase_sprite;
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_BR91_IC225_P;
+        articulated_part:               sw_articulated_BR91_IC225_P;
+        speed:                          sw_speed_BR91_IC225() * 1609 / 1000;  
+        purchase_cargo_capacity:        return (15 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR91_IC225_P;
+        cost_factor:                    439;
+        running_cost_factor:            14336;
+        cargo_subtype_text:             sw_BR91_IC225_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_emu),
+                                                    string(str_usage_expr_pax),
+                                                    string(str_BR91_liveries)));
+    }
+}

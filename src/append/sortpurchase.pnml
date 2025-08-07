@@ -55,6 +55,7 @@ sort(FEAT_TRAINS, [
         item_BR86_2,
         item_BR86_6,
     item_BR88,
+    item_BR91,
     // BR DMUs
     item_BR101,
         item_BR101_3,
@@ -105,6 +106,15 @@ sort(FEAT_TRAINS, [
     // item_BR_Mk3a_Header,
         // item_BR_Mk3a_FO,
         item_BR_Mk3a_TSO,
+    item_BR_Mk4_Header,
+        item_BR_Mk4_DVT,
+        item_BR_Mk4_TF,
+        item_BR_Mk4_TFE,
+        item_BR_Mk4_TRFB,
+        item_BR_Mk4_TRSB,
+        item_BR_Mk4_TS,
+        item_BR_Mk4_TSD,
+        item_BR_Mk4_TSE,
     // RCH standard Wagons
     item_RCH_1907_Mixed,
         item_RCH_1907_1_Plank,

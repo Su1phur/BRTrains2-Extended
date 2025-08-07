@@ -1,0 +1,233 @@
+// basic sprite
+spriteset(spriteset_BR_Mk4_TF_GNER, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_GNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_GNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_2x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_4x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_TF_GNER_purchase, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_GNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_GNER_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk4_TF_GNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk4_TF_GNER;
+    1: spritegroup_BR_Mk4_TS_GNER_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_TF_Intercity, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_2x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_4x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_TF_Intercity_purchase, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+spriteset(spriteset_BR_Mk4_TF_Intercity_Loading, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_Intercity_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_Intercity_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk4_TF_Intercity_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk4_TF_Intercity_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk4_TF_Intercity, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk4_TF_Intercity;
+    1: spritegroup_BR_Mk4_TF_Intercity_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_TF_LNER, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_2x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_4x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_TF_LNER_purchase, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+spriteset(spriteset_BR_Mk4_TF_LNER_Loading, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_LNER_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_LNER_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk4_TF_LNER_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk4_TF_LNER_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk4_TF_LNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk4_TF_LNER;
+    1: spritegroup_BR_Mk4_TF_LNER_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk4_TF_TfW, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_TfW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_1x_mask.png")
+        { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_TfW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_2x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_2x_mask.png")
+        { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_TfW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_4x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_4x_mask.png")
+        { template_148trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk4_TF_TfW_purchase, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk4_TF_TfW_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_1x_32bpp.png", "gfx\Coaches\BR_Mk4_TF\BR_Mk4_TF_TfW_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk4_TF_TfW, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk4_TF_TfW;
+    1: spritegroup_BR_Mk4_TF_LNER_Loading; }
+
+
+// purchase year switch
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk4_TF_purchase_sprite, current_year) {
+    1989..1993: spriteset_BR_Mk4_TF_Intercity_purchase;
+    1994..2007: spriteset_BR_Mk4_TF_GNER_purchase;
+    // 2008..2015: spriteset_BR_Mk4_TF_EastCoast_purchase;
+    2016..2024: spriteset_BR_Mk4_TF_LNER_purchase;
+        spriteset_BR_Mk4_TF_Intercity_purchase; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk4_TF, cargo_subtype) {
+    0: sw_loadstack_BR_Mk4_TF_Intercity;
+    1: sw_loadstack_BR_Mk4_TF_GNER;
+    2: sw_loadstack_BR_Mk4_TF_LNER;
+    3: sw_loadstack_BR_Mk4_TF_TfW; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk4_TF_cargo_subtype_text, cargo_subtype) {
+	0:	return string(str_BRInterCitySwallow);
+    1:  return string(str_GNER);
+    2:  return string(str_LNERRedWhite);
+    3:  return string(str_TfW);
+       return CB_RESULT_NO_TEXT; }
+
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk4_TF, position_in_articulated_veh % 3) {
+	1: return sw_livery_BR_Mk4_TF;
+	    spriteset_empty; }
+
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk4_TF, position_in_vehid_chain % 3) {
+    0: 44 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total 46
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk4_TF, extra_callback_info1) {
+	1..2: return item_BR_Mk4_TF;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Mk4_TF, 12162) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk4_TF);
+        variant_group:                  item_BR_Mk4_Header; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          140 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         40 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Mk4_TF;
+        purchase:                       sw_BR_Mk4_TF_purchase_sprite;
+
+        // internal code
+        length:                         sw_length_BR_Mk4;
+        articulated_part:               sw_articulated_BR_Mk4_TF;
+        purchase_cargo_capacity:        return (15 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR_Mk4_TF;
+        cost_factor:                    2532;
+        running_cost_factor:            2191;
+        cargo_subtype_text:             sw_BR_Mk4_TF_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TF),
+                                                    string(str_BR_Mk4_liveries)));
+    }
+}
