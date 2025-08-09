@@ -221,8 +221,8 @@ item (FEAT_TRAINS, item_BR91_IC225_P, 9102) {
         speed:                          sw_speed_BR91_IC225() * 1609 / 1000;  
         purchase_cargo_capacity:        return (15 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR91_IC225_P;
-        cost_factor:                    439;
-        running_cost_factor:            14336;
+        cost_factor:                    400;
+        running_cost_factor:            14292;
         cargo_subtype_text:             sw_BR91_IC225_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

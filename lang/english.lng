@@ -822,6 +822,7 @@ str_BR141_eos					:---
 str_BR141_liveries				:BR Blue, WYTPE Metro, WYTPE Verona Green
 
 STR_NAME_BR142					:BR Class 142 "Pacer" (2-car)
+STR_NAME_BR142_1				:BR Class 142 "Pacer" (Refurbished, 2-car)
 str_BR142_usage					:Passenger
 str_BR142_eos					:---
 str_BR142_liveries				:
@@ -2022,6 +2023,7 @@ str_Railfreight3GreyCoal		: (Railfreight - 3 Tone Grey - Coal)
 str_RailfreightMainlineGrey		: (Railfreight - Mainline Grey)
 str_RailfreightMainlineBlue		: (Railfreight - Mainline Blue)
 str_Regional					: (Regional Railways)
+str_RegionalCnC                 : (Regional Railways - Chocolate and Cream)
 str_RegionalExpress				: (Regional Railways Express)
 str_RegionalGreen				: (Regional Railways - Green)
 str_RegionalGrey				: (Regional Railways - Grey)
