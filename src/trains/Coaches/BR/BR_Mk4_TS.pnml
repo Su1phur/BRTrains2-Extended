@@ -117,15 +117,18 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk4_TS_TfW, [ STORE_TEMP((getbits(extr
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk4_TS, cargo_subtype) {
     0: sw_loadstack_BR_Mk4_TS_Intercity;
     1: sw_loadstack_BR_Mk4_TS_GNER;
-    2: sw_loadstack_BR_Mk4_TS_LNER;
-    3: sw_loadstack_BR_Mk4_TS_TfW; }
+    2:  spriteset_BR_Mk4_TS_EastCoast;
+    // 2: sw_loadstack_BR_Mk4_TS_EastCoast;
+    3:  sw_loadstack_BR_Mk4_TS_LNER;
+    4:  sw_loadstack_BR_Mk4_TS_TfW; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk4_TS_cargo_subtype_text, cargo_subtype) {
 	0:	return string(str_BRInterCitySwallow);
     1:  return string(str_GNER);
-    2:  return string(str_LNERRedWhite);
-    3:  return string(str_TfW);
+    2:  return string(str_EastCoast);
+    3:  return string(str_LNERRedWhite);
+    4:  return string(str_TfW);
        return CB_RESULT_NO_TEXT; }
 
 

@@ -18,13 +18,75 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_Intercity, position_in_consist 
     31: return spriteset_BR_Mk4_DVT_Intercity_Swallow_REV;
         spriteset_empty; }
 
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_GNER, position_in_consist % 33) {
+	1: return spriteset_BR91_GNER;
+    4: return sw_loadstack_BR_Mk4_TSE_GNER;
+    7: return sw_loadstack_BR_Mk4_TS_GNER;
+    10: return sw_loadstack_BR_Mk4_TS_GNER;
+    13: return sw_loadstack_BR_Mk4_TS_GNER;
+    16: return sw_loadstack_BR_Mk4_TSD_GNER;
+    19: return sw_loadstack_BR_Mk4_TRSB_GNER;
+    22: return sw_loadstack_BR_Mk4_TF_GNER;
+    25: return sw_loadstack_BR_Mk4_TF_GNER;
+    28: return sw_loadstack_BR_Mk4_TF_GNER;
+    31: return spriteset_BR_Mk4_DVT_GNER_REV;
+        spriteset_empty; }
+
+// switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_EastCoast, position_in_consist % 33) {
+// 	1: return spriteset_BR91_EastCoast;
+//     4: return sw_loadstack_BR_Mk4_TSE_EastCoast;
+//     7: return sw_loadstack_BR_Mk4_TS_EastCoast;
+//     10: return sw_loadstack_BR_Mk4_TS_EastCoast;
+//     13: return sw_loadstack_BR_Mk4_TS_EastCoast;
+//     16: return sw_loadstack_BR_Mk4_TSD_EastCoast;
+//     19: return sw_loadstack_BR_Mk4_TRSB_EastCoast;
+//     22: return sw_loadstack_BR_Mk4_TF_EastCoast;
+//     25: return sw_loadstack_BR_Mk4_TF_EastCoast;
+//     28: return sw_loadstack_BR_Mk4_TF_EastCoast;
+//     31: return spriteset_BR_Mk4_DVT_EastCoast_REV;
+//         spriteset_empty; }
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_LNER, position_in_consist % 33) {
+	1: return spriteset_BR91_LNER;
+    4: return sw_loadstack_BR_Mk4_TSE_LNER;
+    7: return sw_loadstack_BR_Mk4_TS_LNER;
+    10: return sw_loadstack_BR_Mk4_TS_LNER;
+    13: return sw_loadstack_BR_Mk4_TS_LNER;
+    16: return sw_loadstack_BR_Mk4_TSD_LNER; 
+    19: return sw_loadstack_BR_Mk4_TRSB_LNER;
+    22: return sw_loadstack_BR_Mk4_TF_LNER;
+    25: return sw_loadstack_BR_Mk4_TF_LNER;
+    28: return sw_loadstack_BR_Mk4_TF_LNER;
+    31: return spriteset_BR_Mk4_DVT_LNER_REV;
+        spriteset_empty; }
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_TfW, position_in_consist % 33) {
+	1: return spriteset_BR91_TfW;
+    4: return sw_loadstack_BR_Mk4_TSE_TfW;
+    7: return sw_loadstack_BR_Mk4_TS_TfW;
+    10: return sw_loadstack_BR_Mk4_TS_TfW;
+    13: return sw_loadstack_BR_Mk4_TS_TfW;
+    16: return sw_loadstack_BR_Mk4_TSD_TfW; 
+    19: return sw_loadstack_BR_Mk4_TRSB_TfW;
+    22: return sw_loadstack_BR_Mk4_TF_TfW;
+    25: return sw_loadstack_BR_Mk4_TF_TfW;
+    28: return sw_loadstack_BR_Mk4_TF_TfW;
+    31: return spriteset_BR_Mk4_DVT_TfW_REV;
+        spriteset_empty; }
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR91_IC225, cargo_subtype) {
-    0: sw_graphics_BR91_IC225_Intercity; }
+    0: sw_graphics_BR91_IC225_Intercity; 
+    1: sw_graphics_BR91_IC225_GNER; 
+    2: sw_graphics_BR91_IC225_LNER; 
+    3: sw_graphics_BR91_IC225_TfW; }
     
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR91_IC225_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRInterCitySwallow);
+    1:  return string(str_GNER);
+    2:  return string(str_LNERRedWhite);
+    3:  return string(str_TfW);
        return CB_RESULT_NO_TEXT; }
 
 // length switch
@@ -139,9 +201,64 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_P_Intercity, position_in_consis
     28: return spriteset_BR_Mk4_DVT_Intercity_Swallow_REV;
         spriteset_empty; }
 
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_P_GNER, position_in_consist % 30) {
+	1: return spriteset_BR91_GNER;
+    4: return sw_loadstack_BR_Mk4_TSE_GNER;
+    7: return sw_loadstack_BR_Mk4_TS_GNER;
+    10: return sw_loadstack_BR_Mk4_TSD_GNER;
+    13: return sw_loadstack_BR_Mk4_TRSB_GNER;
+    16: return sw_loadstack_BR_Mk4_TF_GNER; 
+    19: return sw_loadstack_BR_Mk4_TF_GNER;
+    22: return sw_loadstack_BR_Mk4_TRSB_GNER;
+    25: return sw_loadstack_BR_Mk4_TF_GNER;
+    28: return spriteset_BR_Mk4_DVT_GNER_REV;
+        spriteset_empty; }
+
+// switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_P_EastCoast, position_in_consist % 30) {
+// 	1: return spriteset_BR91_EastCoast;
+//     4: return sw_loadstack_BR_Mk4_TSE_EastCoast;
+//     7: return sw_loadstack_BR_Mk4_TS_EastCoast;
+//     10: return sw_loadstack_BR_Mk4_TSD_EastCoast;
+//     13: return sw_loadstack_BR_Mk4_TRSB_EastCoast;
+//     16: return sw_loadstack_BR_Mk4_TF_EastCoast; 
+//     19: return sw_loadstack_BR_Mk4_TF_EastCoast;
+//     22: return sw_loadstack_BR_Mk4_TRFB_EastCoast;
+//     25: return sw_loadstack_BR_Mk4_TF_EastCoast;
+//     28: return spriteset_BR_Mk4_DVT_EastCoast_REV;
+//         spriteset_empty; }
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_P_LNER, position_in_consist % 30) {
+	1: return spriteset_BR91_LNER;
+    4: return sw_loadstack_BR_Mk4_TSE_LNER;
+    7: return sw_loadstack_BR_Mk4_TS_LNER;
+    10: return sw_loadstack_BR_Mk4_TSD_LNER;
+    13: return sw_loadstack_BR_Mk4_TRSB_LNER;
+    16: return sw_loadstack_BR_Mk4_TF_LNER; 
+    19: return sw_loadstack_BR_Mk4_TF_LNER;
+    22: return sw_loadstack_BR_Mk4_TRFB_LNER;
+    25: return sw_loadstack_BR_Mk4_TF_LNER;
+    28: return spriteset_BR_Mk4_DVT_LNER_REV;
+        spriteset_empty; }
+        
+switch(FEAT_TRAINS, SELF, sw_graphics_BR91_IC225_P_TfW, position_in_consist % 30) {
+	1: return spriteset_BR91_TfW;
+    4: return sw_loadstack_BR_Mk4_TSE_TfW;
+    7: return sw_loadstack_BR_Mk4_TS_TfW;
+    10: return sw_loadstack_BR_Mk4_TSD_TfW;
+    13: return sw_loadstack_BR_Mk4_TRSB_TfW;
+    16: return sw_loadstack_BR_Mk4_TF_TfW; 
+    19: return sw_loadstack_BR_Mk4_TF_TfW;
+    22: return sw_loadstack_BR_Mk4_TRFB_TfW;
+    25: return sw_loadstack_BR_Mk4_TF_TfW;
+    28: return spriteset_BR_Mk4_DVT_TfW_REV;
+        spriteset_empty; }
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR91_IC225_P, cargo_subtype) {
-    0: sw_graphics_BR91_IC225_P_Intercity; }
+    0: sw_graphics_BR91_IC225_P_Intercity; 
+    1: sw_graphics_BR91_IC225_P_GNER;
+    2: sw_graphics_BR91_IC225_P_LNER;
+    3: sw_graphics_BR91_IC225_P_TfW; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR91_IC225_P, position_in_articulated_veh % 30) {
