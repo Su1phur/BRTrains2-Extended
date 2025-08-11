@@ -430,7 +430,7 @@ item (FEAT_TRAINS, item_BR08, 800) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_diesel),
-                                                    string(str_BR08_usage),
+                                                    string(str_usage_shunting),
                                                     string(str_BR08_liveries)));
     }
 }

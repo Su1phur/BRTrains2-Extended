@@ -824,8 +824,7 @@ str_BR141_liveries				:BR Blue, WYTPE Metro, WYTPE Verona Green
 STR_NAME_BR142					:BR Class 142 "Pacer" (2-car)
 STR_NAME_BR142_1				:BR Class 142 "Pacer" (Refurbished, 2-car)
 str_BR142_usage					:Passenger
-str_BR142_eos					:---
-str_BR142_liveries				:
+str_BR142_liveries				:BR Provincial, Regional Railways, Northern Spirit, Arriva Trains, Northern
 
 STR_NAME_BR143					:BR Class 143 "Pacer" (2-car)
 str_BR143_usage					:Passenger
@@ -987,11 +986,9 @@ STR_NAME_BR253                  :BR Class 253 "Western" (7-car)
 str_BR253_liveries              :BR Blue, InterCity, CrossCountry, GNER, NatEx
 
 STR_NAME_BR254					:BR Class 254 "Eastern" (8-car)
-str_BR254_usage					:Express Passenger
 str_BR254_liveries				:BR Blue, InterCity, CrossCountry, GNER, NatEx
 
 STR_NAME_BR255					:BR Class 255 "Challenger" (5-car)
-str_BR255_usage					:Express Passenger
 str_BR255_liveries				:Cross Country, Grand Central, Grand Central Lined
 
 STR_NAME_BR256                  :BR Class 256 "Castle" (4-car)
@@ -1046,22 +1043,18 @@ str_BR323_eos					:---
 str_BR323_liveries				:Regional Railways, Centro, First North Western, First North Western - Barbie, Northern, London Midland
 
 STR_NAME_BR325					:BR Class 325
-str_BR325_usage					:Express Mail
 str_BR325_liveries				:Royal Mail
 
 STR_NAME_BR333					:BR Class 333 (4-car)
 str_BR333_usage					:Suburban Passenger
-str_BR333_eos					:---
 str_BR333_liveries				:Northern, Northern Rail (WYPTE), Northern Spirit
 
 STR_NAME_BR334					:BR Class 334 (3-car)
 str_BR334_usage					:Suburban Passenger
-str_BR334_eos					:---
 str_BR334_liveries				:"Carmine and Cream", ScotRail Saltire
 
 STR_NAME_BR350					:BR Class 350 "Desiro" (4-car)
 str_BR350_usage					:Passenger
-str_BR350_eos					:---
 str_BR350_liveries				:London Midland
 
 STR_NAME_ElectroTest			:TEST UNIT
@@ -1071,17 +1064,14 @@ str_ElectroTest_liveries		:
 
 STR_NAME_BR357					:BR Class 357 "Electrostar" (4-car)
 str_BR357_usage					:Surburban Passenger
-str_BR357_eos					:---
 str_BR357_liveries				:C2C, C2C Blue, C2C Eco
 
 
 STR_NAME_APTE					:BR "APT-E" Prototype (4-car)
-str_APTE_usage			        :Express Passenger
 str_APTE_eos					:1972
 str_APTE_liveries				:InterCity
 
 STR_NAME_BR370					:BR Class 370 "APT-P" Prototype (14-car)
-str_BR370_usage					:Express Passenger
 str_BR370_eos					:1986
 str_BR370_liveries				:InterCity
 
@@ -1094,49 +1084,31 @@ STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
 STR_NAME_370_DTS				:BR Class 370 Driving Trailing Standard
 
 STR_NAME_BR375_3				:BR Class 375 "Electrostar" (3-Car)
-str_BR375_3_usage				:Suburban Passenger
-str_BR375_3_eos					:---
-str_BR375_3_liveries				:Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Southeastern Blue Refurbished
+str_BR375_3_liveries			:Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Southeastern Blue Refurbished
 
 STR_NAME_BR375_4				:BR Class 375 "Electrostar" (4-Car)
-str_BR375_4_usage				:Suburban Passenger
-str_BR375_4_eos					:---
 str_BR375_4_liveries			:Connex, Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Southeastern Blue Refurbished, Southeastern Tunbridge Wells, Govia Tunbridge Wells
 
 STR_NAME_BR376					:BR Class 376 "Electrostar" (5-car)
-str_BR376_usage					:Urban Passenger
-str_BR376_eos					:---
 str_BR376_liveries				:Southeastern Yellow
 
 STR_NAME_BR377_3				:BR Class 377/3 "Electrostar" (3-Car)
-str_BR377_3_usage				:Urban Passenger
-str_BR377_3_eos					:---
 str_BR377_3_liveries			:Southern
 
 STR_NAME_BR377_4				:BR Class 377/1/4 "Electrostar" (4-Car)
-str_BR377_4_usage				:Regional Passenger
-str_BR377_4_eos					:---
 str_BR377_4_liveries			:Southern
 
 STR_NAME_BR377_4_dv				:BR Class 377/2/5 "Electrostar" (4-Car, Dual Voltage)
-str_BR377_4_dv_usage				:Regional Passenger
-str_BR377_4_dv_eos				:---
 str_BR377_4_dv_liveries			:Southern, First Capital Connect, Thameslink (Ex-First Capital Connect)
 
 STR_NAME_BR377_5				:BR Class 377/6 "Electrostar" (5-Car)
-str_BR377_5_usage				:Regional Passenger
-str_BR377_5_eos					:---
 str_BR377_5_liveries			:Southern
 
 STR_NAME_BR377_5dv				:BR Class 377/7 "Electrostar" (5-Car, Dual Voltage)
-str_BR377_5dv_usage				:Regional Passenger
-str_BR377_5dv_eos				:---
 str_BR377_5dv_liveries			:Southern
 
 STR_NAME_BR378				    :BR Class 378 "Electrostar" (4-car)
 STR_NAME_BR378_3				:BR Class 378/0 "Electrostar" (3-Car, Dual Voltage)
-str_BR378_3_usage				:Urban Passenger
-str_BR378_3_eos					:---
 str_BR378_3_liveries			:London Overground
 
 STR_NAME_BR378_4				:BR Class 378/2 "Electrostar" (4-Car, Dual Voltage)
@@ -1165,8 +1137,6 @@ str_BR387__liveries				:Govia Thameslink, Gatwick Express (Branded & Unbranded),
 
 STR_NAME_BR390					:BR Class 390/0 "Pendolino" (9-car)
 STR_NAME_BR390_11				:BR Class 390/1 "Pendolino" (11-car)
-str_BR390_usage					:Express Passenger
-str_BR390_eos					:---
 str_BR390_liveries				:Virgin Trains
 
 STR_NAME_390_MF					:BR Class 390 Motor First
@@ -1179,35 +1149,24 @@ STR_NAME_390_MFD				:BR Class 390 Motor First Disabled
 STR_NAME_390_DMSO				:BR Class 390 Driving Motor Standard Open
 
 STR_NAME_BR395					:BR Class 395 "Javelin" (6-car, Dual Voltage)
-str_BR395_usage					:Passenger
-str_BR395_eos					:---
 str_BR395_liveries				:Southeastern
 
 STR_NAME_BR373					:BR Class 373/1 "Three Capitals" (20-car)
 STR_NAME_BR373Dual              :BR Class 373 "Three Capitals" (Dual Voltage) (20-car)
-str_BR373_usage					:International Passenger
-str_BR373_eos					:---
 str_BR373_liveries				:Eurostar
 
 STR_NAME_BR373_2				:BR Class 373/2 "North of London" (16-car)
-str_BR373_2_usage				:Express Passenger
-str_BR373_2_eos					:---
 str_BR373_2_liveries			:Eurostar Debranded, GNER
 
 STR_NAME_BR374					:BR Class 374 "Velaro" (16-car)
-str_BR374_usage					:International Passenger
-str_BR374_eos					:---
 str_BR374_liveries				:Eurostar
 
 STR_NAME_BR380_0                :BR Class 380/0 "Desiro" (3-car)
 STR_NAME_BR380_1                :BR Class 380/1 "Desiro" (4-car)
-str_BR380_usage                 :Passenger
-str_BR380_eos                   :---
 str_BR380_liveries              :ScotRail Saltire
 
 STR_NAME_BR401_SR               :SR 2-BIL 
 STR_NAME_BR401                  :BR Class 401 "2-BIL"
-str_BR401_usage                 :Passenger
 str_BR401_liveries              :SR Green, BR Green, BR Blue
 
 STR_NAME_BR411					:BR Class 411 "4-CEP"
@@ -1230,28 +1189,19 @@ str_BR414_usage					:Semi-Fast Passenger
 STR_NAME_BR415				    :BR Class 415 "4-EPB"
 STR_NAME_BR416				    :BR Class 416 "2-EPB"
 STR_NAME_BR418				    :BR Class 418 "2-SAP"
-str_BR415_416_usage				:Suburban Passenger
 str_BR41x_liveries				:BR Green, BR Blue, BR Blue Grey, Network SouthEast
 str_BR413_liveries				:BR Blue Grey, Network SouthEast
 
 STR_NAME_BR421					:BR Class 421 "4-CIG"
-str_BR421_usage					:Passenger
-str_BR421_eos					:2005
 str_BR421_liveries				:BR Green, BR Blue Grey, London & South Eastern "Jaffa Cake", NSE, South West Trains, Connex, Southern
 
 STR_NAME_BR421_5				:BR Class 421/5 "Greyhound"
-str_BR421_5_usage				:Passenger
-str_BR421_5_eos					:2005
 str_BR421_5_liveries			:BR Blue Grey, NSE, South West Trains
 
 STR_NAME_BR421_7				:BR Class 421/7 "3-CIG"
-str_BR421_7_usage				:Passenger
-str_BR421_7_eos					:2005
 str_BR421_7_liveries			:Connex, South West Trains
 
 STR_NAME_BR422					:BR Class 422 "4-BIG"
-str_BR422_usage					:Passenger
-str_BR422_eos					:1995
 str_BR422_liveries				:BR Green, BR Blue Grey, Network SouthEast
 
 STR_NAME_BR423					:BR Class 423 "4-VEP"
@@ -1326,7 +1276,6 @@ str_BR460_liveries				:Gatwick Express
 
 STR_NAME_BR465					:BR Class 465 "Networker"
 STR_NAME_BR466					:BR Class 466 "Networker"
-str_BR465_usage					:Passenger
 str_BR465_liveries				:NSE, Connex, Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Continental Airlines
 str_BR466_liveries              :NSE, Connex, Southeastern
 
@@ -1726,7 +1675,6 @@ str_AggregateIndustries         : (Aggregate Industries)
 str_AlphaWales					: (Alphaline Wales and Borders)
 str_AlphaWessex					: (Alphaline Wessex)
 str_AngliaFestival				: (Anglia - Norwich & Norfolk Festival Ad.)
-str_Apple						: (BR - Apple Green)
 str_Anglia						: (Anglia Trains)
 str_ARC					        : (ARC)
 str_ArrivaBlue					: (Arriva - Blue)

@@ -1004,7 +1004,7 @@ item (FEAT_TRAINS, item_BR101, 1010) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_dmu),
-                                                    string(str_BR101_usage),
+                                                    string(str_usage_pax),
                                                     string(str_BR101_liveries)));
     }
 }
@@ -1177,7 +1177,7 @@ item (FEAT_TRAINS, item_BR101_3, 1013) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_dmu),
-                                                    string(str_BR101_usage),
+                                                    string(str_usage_pax),
                                                     string(str_BR101_liveries)));
     }
 }
@@ -1402,7 +1402,7 @@ item (FEAT_TRAINS, item_BR101_4, 1014) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_dmu),
-                                                    string(str_BR101_usage),
+                                                    string(str_usage_pax),
                                                     string(str_BR101_liveries)));
     }
 }
@@ -1474,7 +1474,7 @@ item (FEAT_TRAINS, item_BR102, 1020) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_dmu),
-                                                    string(str_BR101_usage),
+                                                    string(str_usage_pax),
                                                     string(str_BR101_liveries)));
     }
 }

@@ -417,7 +417,7 @@ item (FEAT_TRAINS, item_BR415, 4150) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_emu),
-                                                    string(str_BR415_416_usage),
+                                                    string(str_usage_pax),
                                                     string(str_BR41x_liveries)));
     }
 }

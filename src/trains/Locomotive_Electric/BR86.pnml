@@ -240,7 +240,7 @@ item (FEAT_TRAINS, item_BR86_0, 8600) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_electric),
-                                                    string(str_BR86_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_BR86_liveries)));
     }
 }
@@ -317,7 +317,7 @@ item (FEAT_TRAINS, item_BR86_1, 8601) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_electric),
-                                                    string(str_BR86_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_BR86_liveries)));
     }
 }
@@ -394,7 +394,7 @@ item (FEAT_TRAINS, item_BR86_2, 8602) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_electric),
-                                                    string(str_BR86_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_BR86_liveries)));
     }
 }
@@ -464,7 +464,7 @@ item (FEAT_TRAINS, item_BR86_6, 8606) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_electric),
-                                                    string(str_BR86_usage),
+                                                    string(str_usage_heavy_freight),
                                                     string(str_BR86_liveries)));
     }
 }

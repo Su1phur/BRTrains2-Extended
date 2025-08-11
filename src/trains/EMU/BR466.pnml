@@ -252,12 +252,9 @@ switch(FEAT_TRAINS, SELF, sw_BR466_cargo_subtype_text, cargo_subtype){
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR466, position_in_articulated_veh % 6) {
-	0: 4;
 	1: 5;
-	2: 4;
-    3: 4;
     4: 5;
-    5: 4; }
+        4; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR466, position_in_vehid_chain % 6) {
@@ -288,7 +285,7 @@ item (FEAT_TRAINS, item_BR466, 4660) {
         
 		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
         // non_refittable_cargo_classes:    bitmask();
-        // cargo_allow_refit:               [PASS, TOUR];
+        cargo_allow_refit:               [PASS, TOUR];
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
@@ -332,7 +329,7 @@ item (FEAT_TRAINS, item_BR466, 4660) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_emu),
-                                                    string(str_BR465_usage),
+                                                    string(str_usage_pax),
                                                     string(str_BR466_liveries)));
     }
 }

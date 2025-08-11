@@ -251,7 +251,7 @@ item (FEAT_TRAINS, item_BR73_0, 7300) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_bimode),
-                                                    string(str_BR73_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_BR73_0_liveries)));
     }
 }
@@ -470,7 +470,7 @@ item (FEAT_TRAINS, item_BR73_1, 7310) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_bimode),
-                                                    string(str_BR73_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_BR73_1_liveries)));
     }
 }

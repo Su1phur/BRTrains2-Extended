@@ -345,7 +345,7 @@ item (FEAT_TRAINS, item_BR43_HST, 4301) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_diesel),
-                                                    string(str_BR43_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_BR43_liveries)));
     }
 }
