@@ -96,7 +96,7 @@ item (FEAT_TRAINS, item_BR257_4, 2570) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR256;
+        length:                         sw_length_BR257_4;
         articulated_part:               sw_articulated_BR257_4;
         speed:                          sw_speed_BR253() * 1609 / 1000;
         purchase_cargo_capacity:        return (13 * param_pax); // divide by number of articulated parts and floor

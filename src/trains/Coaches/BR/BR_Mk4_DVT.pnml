@@ -179,14 +179,6 @@ switch(FEAT_TRAINS, SELF, sw_rear_BR_Mk4_DVT, num_vehs_in_consist > 3 ? position
 switch(FEAT_TRAINS, SELF, sw_length_BR_Mk4_DVT, position_in_articulated_veh % 3) {
         4; }
 
-
-// capacity switch
-switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk4_DVT, position_in_vehid_chain % 3) {
-    0: 46 * param_freight; // all the capacity - (vehid chain number)
-    1..2: 1 * param_freight;
-    // total 48
-}
-
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_BR_Mk4_DVT, param_max_speed) {
     0: 125; // operational speed

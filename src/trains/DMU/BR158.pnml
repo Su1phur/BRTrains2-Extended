@@ -731,82 +731,82 @@ item (FEAT_TRAINS, item_BR158, 1580) {
 }
 
 // FX effects
-switch(FEAT_TRAINS, SELF, sw_FX_BR158_1_Diesel, position_in_vehid_chain % 9) {
+switch(FEAT_TRAINS, SELF, sw_FX_BR158_3_Diesel, position_in_vehid_chain % 9) {
     1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
     4: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
     7: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
         return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, sw_graphics_BR158_1_BR_Regional_Railways, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR158_3_BR_Regional_Railways, position_in_articulated_veh % 9) {
 	1: return sw_loadstack_BR158_DMS_BR_Regional_Railways;
     4: return sw_loadstack_BR158_MS_BR_Regional_Railways;
     7: return sw_loadstack_BR158_DMS_BR_Regional_Railways_REV;
 	    spriteset_empty; }
 
-switch(FEAT_TRAINS, SELF, sw_graphics_BR158_1_GWR, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR158_3_GWR, position_in_articulated_veh % 9) {
 	1: return sw_loadstack_BR158_DMS_GWR;
     4: return sw_loadstack_BR158_MS_GWR;
     7: return sw_loadstack_BR158_DMS_GWR_REV;
 	    spriteset_empty; }
 
-switch(FEAT_TRAINS, SELF, sw_graphics_BR158_1_Northern, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR158_3_Northern, position_in_articulated_veh % 9) {
     1: return sw_loadstack_BR158_DMS_Northern;
     4: return sw_loadstack_BR158_MS_Northern;
     7: return sw_loadstack_BR158_DMS_Northern_REV;
         spriteset_empty; }
 
-switch(FEAT_TRAINS, SELF, sw_graphics_BR158_1_NorthernRail, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR158_3_NorthernRail, position_in_articulated_veh % 9) {
     1: return sw_loadstack_BR158_DMS_NorthernRail;
     4: return sw_loadstack_BR158_MS_NorthernRail;
     7: return sw_loadstack_BR158_DMS_NorthernRail_REV;
         spriteset_empty; }
 
-switch(FEAT_TRAINS, SELF, sw_graphics_BR158_1_TfW, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR158_3_TfW, position_in_articulated_veh % 9) {
 	1: return sw_loadstack_BR158_DMS_TfW;
     4: return sw_loadstack_BR158_MS_TfW;
     7: return sw_loadstack_BR158_DMS_TfW_REV;
 	    spriteset_empty; }
 
-switch(FEAT_TRAINS, SELF, sw_graphics_BR158_1_WYPTE, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_graphics_BR158_3_WYPTE, position_in_articulated_veh % 9) {
 	1: return sw_loadstack_BR158_DMS_WYPTE;
     4: return sw_loadstack_BR158_MS_WYPTE;
     7: return sw_loadstack_BR158_DMS_WYPTE_REV;
 	    spriteset_empty; }
 
 // livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_BR158_1, cargo_subtype) {
-    0: sw_graphics_BR158_1_BR_Regional_Railways;
-    1: sw_graphics_BR158_1_WYPTE;
-    2: sw_graphics_BR158_1_GWR;
-    3: sw_graphics_BR158_1_NorthernRail;
-    4: sw_graphics_BR158_1_Northern;
-    5: sw_graphics_BR158_1_TfW; }
+switch(FEAT_TRAINS, SELF, sw_livery_BR158_3, cargo_subtype) {
+    0: sw_graphics_BR158_3_BR_Regional_Railways;
+    1: sw_graphics_BR158_3_WYPTE;
+    2: sw_graphics_BR158_3_GWR;
+    3: sw_graphics_BR158_3_NorthernRail;
+    4: sw_graphics_BR158_3_Northern;
+    5: sw_graphics_BR158_3_TfW; }
 
 // length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR158_1, position_in_articulated_veh % 9) {
+switch(FEAT_TRAINS, SELF, sw_length_BR158_3, position_in_articulated_veh % 9) {
 	1: 6;
     4: 6;
     7: 6;
 	    4; }
 
 // capacity switch
-switch(FEAT_TRAINS, SELF, sw_capacity_BR158_1, position_in_vehid_chain % 9) {
+switch(FEAT_TRAINS, SELF, sw_capacity_BR158_3, position_in_vehid_chain % 9) {
     0: 199 * param_pax; // all the capacity - (vehid chain number)
     1..8: 1 * param_pax;
     // total 207
 }
 
 // articulation switch
-switch(FEAT_TRAINS, SELF, sw_articulated_BR158_1, extra_callback_info1) {
-	1..8: return item_BR158_1;
+switch(FEAT_TRAINS, SELF, sw_articulated_BR158_3, extra_callback_info1) {
+	1..8: return item_BR158_3;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
-item (FEAT_TRAINS, item_BR158_1, 1581) {
+item (FEAT_TRAINS, item_BR158_3, 1581) {
     property {
         // common properties
-        name:                           string(STR_NAME_BR158_1);
+        name:                           string(STR_NAME_BR158_3);
         variant_group:                  item_BR158; // unit ID or item
 		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
@@ -843,16 +843,16 @@ item (FEAT_TRAINS, item_BR158_1, 1581) {
 
     graphics {
         // graphics
-        default:                        sw_livery_BR158_1;
-        visual_effect_and_powered:      sw_FX_BR158_1_Diesel;
+        default:                        sw_livery_BR158_3;
+        visual_effect_and_powered:      sw_FX_BR158_3_Diesel;
         purchase:                       sw_BR158_purchase_sprite;
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR158_1;
-        articulated_part:               sw_articulated_BR158_1;
+        length:                         sw_length_BR158_3;
+        articulated_part:               sw_articulated_BR158_3;
         purchase_cargo_capacity:        return (23 * param_pax); // divide by number of articulated parts and floor
-        cargo_capacity:                 sw_capacity_BR158_1;
+        cargo_capacity:                 sw_capacity_BR158_3;
         cost_factor:                    197;
         running_cost_factor:            5454;
         cargo_subtype_text:             sw_BR158_cargo_subtype_text; 

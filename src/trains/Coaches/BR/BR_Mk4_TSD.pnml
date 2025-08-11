@@ -152,7 +152,7 @@ item (FEAT_TRAINS, item_BR_Mk4_TSD, 12167) {
         length:                         sw_length_BR_Mk4;
         articulated_part:               sw_articulated_BR_Mk4_TSD;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
-        cargo_capacity:                 sw_capacity_BR_Mk4_TS;
+        cargo_capacity:                 sw_capacity_BR_Mk4_TSD;
         cost_factor:                    3153;
         running_cost_factor:            2274;
         cargo_subtype_text:             sw_BR_Mk4_TSD_cargo_subtype_text; 

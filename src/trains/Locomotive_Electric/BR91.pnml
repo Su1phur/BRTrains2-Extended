@@ -260,7 +260,7 @@ item (FEAT_TRAINS, item_BR91, 9100) {
 
     graphics {
         // graphics
-        default:                        sw_graphics_BR91;
+        default:                        sw_rear_BR91;
         visual_effect_and_powered:      sw_FX_BR91_Electric;
         purchase:                       sw_BR91_purchase_sprite;
 
