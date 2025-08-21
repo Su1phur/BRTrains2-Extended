@@ -127,13 +127,25 @@ switch(FEAT_TRAINS, SELF, sw_BR20_cargo_subtype_text, cargo_subtype){
 
 
 // graphics switch
-switch(FEAT_TRAINS, SELF, sw_random_forward_BR20, switch_alternative_var_random_bits(1,1)) {
-    0: sw_livery_BR20;
-        sw_livery_BR20_REV; }
+switch(FEAT_TRAINS, PARENT, sw_BR20_engine_front, [STORE_TEMP(0, 0x10F), var[0x61, 9, 0x1, 0x5F]]) {
+	1: sw_livery_BR20;
+	sw_livery_BR20_REV; }
+
+switch(FEAT_TRAINS, PARENT, sw_BR20_cab_front, [STORE_TEMP(-1, 0x10F), var[0x61, 9, 0x1, 0x5F]]) {
+	1: sw_livery_BR20_REV;
+	sw_livery_BR20; }
+
+// switch(FEAT_TRAINS, SELF, sw_random_forward_BR20, switch_alternative_var_random_bits(1,1)) {
+//     0: sw_livery_BR20;
+//         sw_livery_BR20_REV; }
+
+random_switch(FEAT_TRAINS, SELF, sw_BR20_random) {
+    1: sw_BR20_engine_front;
+    1: sw_BR20_cab_front; }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR20, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-	1: return sw_random_forward_BR20;
+	1: return sw_BR20_random;
 	2: spriteset_empty; }
 
 // switch(FEAT_TRAINS, SELF, sw_graphics_BR20_engine_front, position_in_articulated_veh % 6) {
