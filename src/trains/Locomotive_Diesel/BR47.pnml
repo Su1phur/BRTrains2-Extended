@@ -279,3 +279,89 @@ item (FEAT_TRAINS, item_BR47, 4700) {
                                                     string(str_BR47_liveries)));
     }
 }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR48, cargo_subtype) {
+    0: spriteset_BR47_BR_Green_YellowPanel;
+    1: spriteset_BR47_BR_Green_YellowFront;
+    2: spriteset_BR47_BR_Blue;
+    3: spriteset_BR47_BR_Scotrail;
+    4: spriteset_BR47_Intercity_Executive;
+    5: spriteset_BR47_Freightliner;
+    6: spriteset_BR47_Fragonset;
+    7: spriteset_BR47_Virgin;
+    8: spriteset_BR47_Anglia_Railways; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR48, position_in_articulated_veh % 3) {
+	1: return sw_livery_BR48;
+	    spriteset_empty; }
+
+switch(FEAT_TRAINS, SELF, sw_articulated_BR48, extra_callback_info1) {
+    1..2: item_BR48;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR48, 4800) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR48);
+        variant_group:                  item_BR47; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1965,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          95 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2650 hp;
+        weight:                         114 ton;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.09;
+        tractive_effort_coefficient:    0.22;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR48;
+        visual_effect_and_powered:      sw_FX_BR47_Diesel;
+        purchase:                       sw_BR47_purchase_sprite;
+
+        // internal code
+        length:                         sw_length_BR47;
+        articulated_part:               sw_articulated_BR48;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    115;
+        running_cost_factor:            7582;
+        cargo_subtype_text:             sw_BR47_cargo_subtype_text; 
+        // power:                          sw_power_BR48;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_diesel),
+                                                    string(str_usage_experimental),
+                                                    string(str_BR47_liveries)));
+    }
+}
