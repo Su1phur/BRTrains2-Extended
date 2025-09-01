@@ -352,6 +352,7 @@ str_usage_heavy_freight         :{BROWN}Heavy Freight
 str_usage_mixed_traffic         :{BLUE}Mixed Traffic
 str_usage_shunting              :{DKBLUE}Shunting
 str_usage_banking               :{DKBLUE}Banking
+str_usage_experimental          :{RED}Experimental
 
 ###############
 # Locomotives #
@@ -457,7 +458,6 @@ str_LMS_4F_liveries                 :LMS Black, BR Black, SDJR Blue
 
 STR_NAME_LMS_Jubilee				:LMS Jubilee Class
 STR_NAME_LMS_Rebuilt_Jubilee        :LMS Rebuilt Jubilee Class
-str_LMS_Jubilee_usage		        :Express Passenger
 str_LMS_Jubilee_liveries			:LMS Crimson, LMS Black, BR Black, BR Brunswick Green, BR Express Blue
 
 STR_NAME_LMSBlack5       	        :LMS Stanier Class 5 "Black Five"
@@ -466,11 +466,9 @@ STR_NAME_LMSBlack5_Domeless         :LMS Stanier Class 5 "Black Five" (Domeless)
 STR_NAME_LMSBlack5_For      	    :LMS Stanier Class 5 "Black Five" (Forward Top Feed)
 STR_NAME_LMSBlack5_Named            :LMS Stanier Class 5 "Black Five" (Named)
 STR_NAME_LMSBlack5_Cap              :LMS Stanier Class 5 "Black Five" (Caprotti)
-str_LMSBlack5_usage		            :Mixed Traffic
 str_LMSBlack5_liveries			    :LMS Black, BR Black
 
 STR_NAME_LMS_8F                     :LMS Stanier Class 8F
-str_LMS_8F_usage                    :Heavy Freight
 str_LMS_8F_liveries                 :LMS BLack, BR Black, WD Grey
 
 # LNER Pre-Grouping Steam Locomotives

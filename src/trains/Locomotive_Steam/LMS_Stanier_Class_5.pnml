@@ -200,8 +200,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_Black_5, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Class_5, cargo_subtype) {
     0: spriteset_Stanier_4000gal_LMS_Black;
-    1: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
-    2: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
+    1: spriteset_Stanier_4000gal_BR_LinedBlack_Early_Emblem;
+    2: spriteset_Stanier_4000gal_BR_LinedBlack_Late_Crest;
     3: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
     4: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
 }
@@ -337,7 +337,7 @@ item (FEAT_TRAINS, item_LMS_Black_5, 4461) { // BR Number range 44658-45499
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMSBlack5_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_LMSBlack5_liveries)));
     }
 }
@@ -401,7 +401,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domed, 4462) { // BR Number range 44658-4549
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMSBlack5_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_LMSBlack5_liveries)));
     }
 }
@@ -479,7 +479,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domeless, 4463) { // BR Number range 44658-4
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMSBlack5_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_LMSBlack5_liveries)));
     }
 }
@@ -556,7 +556,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Forward_Top_Feed, 4464) { // BR Number range
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMSBlack5_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_LMSBlack5_liveries)));
     }
 }
@@ -642,7 +642,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Named, 4464) { // BR Number range 44658-4549
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMSBlack5_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_LMSBlack5_liveries)));
     }
 }

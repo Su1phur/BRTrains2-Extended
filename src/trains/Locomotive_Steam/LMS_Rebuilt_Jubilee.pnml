@@ -55,6 +55,19 @@ spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, "gfx\Locomotive_Steam\LM
 
     alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
+    
+// basic sprites
+spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_4x_mask.png")
+    { template_78trains_4x(0,0) }
 
 // basic sprites
 spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Green, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_8bpp.png")
@@ -83,8 +96,9 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_Rebuilt_Jubilee, cargo_subtype) {
     3: spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black;
     4: spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black;
     5: spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black;
-    6: spriteset_LMS_Rebuilt_Jubilee_BR_Green;
+    6: spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue;
     7: spriteset_LMS_Rebuilt_Jubilee_BR_Green;
+    8: spriteset_LMS_Rebuilt_Jubilee_BR_Green;
 }
 
 // purchase sprite stacking
@@ -169,7 +183,7 @@ item (FEAT_TRAINS, item_LMS_Rebuilt_Jubilee, 4570) { // BR Number range 45735, 4
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMS_Jubilee_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_LMS_Jubilee_liveries)));
     }
 }

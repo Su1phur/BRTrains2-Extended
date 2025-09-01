@@ -57,6 +57,19 @@ spriteset(spriteset_LMS_Jubilee_BR_Lined_Black, "gfx\Locomotive_Steam\LMS_Jubile
     { template_78trains_4x(0,0) }
 
 // basic sprites
+spriteset(spriteset_LMS_Jubilee_BR_ExpressBlue, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_ExpressBlue_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
+// basic sprites
 spriteset(spriteset_LMS_Jubilee_BR_Green, "gfx\Locomotive_Steam\LMS_Jubilee\LMS_Jubilee_BR_Green_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
@@ -89,8 +102,9 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_Jubilee, cargo_subtype) {
     3: spriteset_LMS_Jubilee_BR_Lined_Black;
     4: spriteset_LMS_Jubilee_BR_Plain_Black;
     5: spriteset_LMS_Jubilee_BR_Plain_Black;
-    6: spriteset_LMS_Jubilee_BR_Green;
+    6: spriteset_LMS_Jubilee_BR_ExpressBlue;
     7: spriteset_LMS_Jubilee_BR_Green;
+    8: spriteset_LMS_Jubilee_BR_Green;
 }
 
 switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Jubilee, cargo_subtype) {
@@ -100,9 +114,9 @@ switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Jubilee, cargo_subtype) {
     3: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
     4: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
     5: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
-    6: spriteset_Stanier_4000gal_BR_Green_Early_Emblem;
-    7: spriteset_Stanier_4000gal_BR_Green_Late_Crest;
-}
+    6: spriteset_Stanier_4000gal_BR_Express_Blue;
+    7: spriteset_Stanier_4000gal_BR_Green_Early_Emblem;
+    8: spriteset_Stanier_4000gal_BR_Green_Late_Crest; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LMS_Jubilee_cargo_subtype_text, cargo_subtype){
@@ -112,40 +126,36 @@ switch(FEAT_TRAINS, SELF, sw_LMS_Jubilee_cargo_subtype_text, cargo_subtype){
     3:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Lined_Black), string(str_var_Late_Crest));
     4:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Plain_Black), string(str_var_Early_Emblem));
     5:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Plain_Black), string(str_var_Late_Crest));
-    6:  return string(str_BRGreen_Early);
-    7:  return string(str_BRGreen_Late);
-        return CB_RESULT_NO_TEXT;
-}
+    6:  return string(str_BRExpressBlue);
+    7:  return string(str_BRGreen_Early);
+    8:  return string(str_BRGreen_Late);
+        return CB_RESULT_NO_TEXT; }
 
 // purchase sprite stacking
 switch(FEAT_TRAINS, PARENT, sw_LMS_Jubilee_purchase_sprite, current_year) {
     1934..1948: spriteset_LMS_Jubilee_LMS_Crimson_purchase;
-        spriteset_LMS_Jubilee_BR_Green_Purchase;
-}
+    1948..1968: spriteset_LMS_Jubilee_BR_Green_Purchase;
+        spriteset_LMS_Jubilee_LMS_Crimson_purchase; }
 
 switch (FEAT_TRAINS, SELF, sw_spritestack_LMS_Jubilee_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_LMS_Jubilee_purchase_sprite;
-    1: spriteset_LMS_Black_5_purchase_anim;
-}
+    1: spriteset_LMS_Black_5_purchase_anim; }
 
 // animation sprite stacking
 switch (FEAT_TRAINS, SELF, sw_animation_LMS_Black_5, motion_counter % 4) {
     0: spriteset_LMS_Black_5_anim1;
     1: spriteset_LMS_Black_5_anim2;
     2: spriteset_LMS_Black_5_anim3;
-    3: spriteset_LMS_Black_5_anim4;
-}
+    3: spriteset_LMS_Black_5_anim4; }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_Jubilee, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_LMS_Jubilee;
-    1: return sw_animation_LMS_Black_5;
-}
+    1: return sw_animation_LMS_Black_5; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LMS_Jubilee, position_in_articulated_veh % 2) {
 	0: sw_spritestack_LMS_Jubilee;
-	1: sw_livery_Stanier_4000gal_Jubilee;
-}
+	1: sw_livery_Stanier_4000gal_Jubilee; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_LMS_Jubilee, position_in_articulated_veh % 2) {
@@ -219,7 +229,7 @@ item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
         // purchase menu text
         additional_text:                return(     string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMS_Jubilee_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_LMS_Jubilee_liveries)));
     }
 }
