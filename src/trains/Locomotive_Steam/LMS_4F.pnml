@@ -180,7 +180,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
 
         //specific properties
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        speed:                          60 mph;
+        speed:                          50 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
         power:                          1415 hp;
@@ -206,8 +206,8 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         // speed:                          sw_speed_LMS_4F() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    63;
-        running_cost_factor:            4560;
+        cost_factor:                    59;
+        running_cost_factor:            4240;
         cargo_subtype_text:             sw_LMS_4F_cargo_subtype_text; 
         // power:                          sw_power_LMS_4F;
         colour_mapping:                 return PALETTE_CC_FIRST;
@@ -216,7 +216,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LMS_4F_usage),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_LMS_4F_liveries)));
     }
 }

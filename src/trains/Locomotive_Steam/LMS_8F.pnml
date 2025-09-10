@@ -154,7 +154,7 @@ switch(FEAT_TRAINS, SELF, sw_length_LMS_8F, position_in_articulated_veh % 2) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_LMS_8F, param_max_speed) {
-    0: 50; // operational speed
+    0: 60; // operational speed
     1: 75; // design speed
 }
 
@@ -192,7 +192,7 @@ item (FEAT_TRAINS, item_LMS_8F, 4802) {
 
         //specific properties
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        speed:                          40 mph;
+        speed:                          60 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
         power:                          2280 hp;
@@ -217,8 +217,8 @@ item (FEAT_TRAINS, item_LMS_8F, 4802) {
         speed:                          sw_speed_LMS_8F() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        cost_factor:                    98;
-        running_cost_factor:            5909;
+        cost_factor:                    102;
+        running_cost_factor:            6202;
         cargo_subtype_text:             sw_LMS_8F_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

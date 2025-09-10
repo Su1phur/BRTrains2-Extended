@@ -347,6 +347,7 @@ str_coach_VFV                   :{BROWN}Ventilated Fruit Van
 str_usage_pax                   :{GREEN}Passenger
 str_usage_expr_pax              :{PURPLE}Express Passenger
 str_usage_light_pax             :{DKGREEN}Light Passenger
+str_usage_expr_mail             :{DKGREEN}Express Mail
 str_usage_freight               :{BROWN}Freight
 str_usage_heavy_freight         :{BROWN}Heavy Freight
 str_usage_mixed_traffic         :{BLUE}Mixed Traffic
