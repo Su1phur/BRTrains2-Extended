@@ -55,21 +55,18 @@ spriteset(spriteset_BR_FEA_Blue_purchase, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_8bpp
     { template_purchase(0,0) }
 
 // livery switch
-switch(FEAT_TRAINS, SELF, sw_random_choose_livery_BR_FEA, switch_alternative_var_random_bits(1, 4)) {
+random_switch(FEAT_TRAINS, SELF, sw_random_choose_livery_BR_FEA) {
     1: spriteset_BR_FEA_Black;
-    2: spriteset_BR_FEA_Blue;
-    3: spriteset_BR_FEA_Green;
-    4: spriteset_BR_FEA_Yellow;
-        spriteset_BR_FEA_Green;
-}
+    1: spriteset_BR_FEA_Blue;
+    1: spriteset_BR_FEA_Green;
+    1: spriteset_BR_FEA_Yellow; }
 
 switch(FEAT_TRAINS, SELF, sw_livery_BR_FEA, cargo_subtype) {
     0: sw_random_choose_livery_BR_FEA;
     1: spriteset_BR_FEA_Blue;
     2: spriteset_BR_FEA_Black;
     3: spriteset_BR_FEA_Green;
-    4: spriteset_BR_FEA_Yellow;
-}
+    4: spriteset_BR_FEA_Yellow; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_FEA_cargo_subtype_text, cargo_subtype){
@@ -78,64 +75,42 @@ switch(FEAT_TRAINS, SELF, sw_BR_FEA_cargo_subtype_text, cargo_subtype){
     2:  return string(STR_LIVERY_SHORT, string(str_col_Black));
     3:  return string(STR_LIVERY_SHORT, string(str_col_Green));
     4:  return string(STR_LIVERY_SHORT, string(str_col_Yellow));
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // container switch
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_FEA;
     1: sw_60Long_Cont40_Side_Dry_loadstage_current_year;
-    2: random_60Long_Cont20_Side_Era1_Dry_loadstage;
-    // 2: sw_60Long_Cont20_Side_Dry_loadstage_current_year;
-}
+    2: sw_60Long_Cont20_Side_Dry_loadstage_current_year; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_FEA;
-    1: random_60Long_Cont20_Side_Era1_Dry_loadstage;
-    // 1: sw_60Long_Cont20_Side_Dry_loadstage_current_year;
-    2: sw_60Long_Cont40_Side_Dry_loadstage_current_year;
-}
+    1: sw_60Long_Cont20_Side_Dry_loadstage_current_year;
+    2: sw_60Long_Cont40_Side_Dry_loadstage_current_year; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_direction, direction) {
     DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_direction1;
     DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_direction1;
     DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_direction1;
-        sw_loadstack_BR_FEA_Dry_direction2;
-}
+        sw_loadstack_BR_FEA_Dry_direction2; }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_direction_REV, direction) {
-    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_direction2;
-    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_direction2;
-    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_direction2;
-        sw_loadstack_BR_FEA_Dry_direction1;
-}
-
-random_switch(FEAT_TRAINS, SELF, sw_random_orient_Cont_decider_BR_FEA_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
-    1: sw_loadstack_BR_FEA_direction;
-    1: sw_loadstack_BR_FEA_direction_REV;
-}
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_FEA, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-	// 1: return sw_random_orient_Cont_decider_BR_FEA_Dry;
     1: sw_loadstack_BR_FEA_direction;
-	2: spriteset_empty;
-}
+	2: spriteset_empty; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR_FEA, position_in_articulated_veh % 3) {
 	0: 4;
 	1: 5;
-	2: 4;
-}
+	2: 4; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_FEA, extra_callback_info1) {
-	1: return item_BR_FEA;
-	2: return item_BR_FEA;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+	1..2: return item_BR_FEA;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
 item (FEAT_TRAINS, item_BR_FEA, 12800) {
@@ -175,7 +150,6 @@ item (FEAT_TRAINS, item_BR_FEA, 12800) {
     graphics {
         // graphics
         default:                        sw_graphics_BR_FEA;
-        // default:                        sw_livery_BR_FEA;
         purchase:                       spriteset_BR_FEA_Blue_purchase;
         
         // internal code
