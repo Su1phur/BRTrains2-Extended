@@ -32,13 +32,11 @@ switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_subtype_text, cargo_subtype){
 // container switches
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_Any_Centered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_Conflat_A;
-    1: random_BR_Container_Any_Centered;
-}
+    1: random_BR_Container_Any_Centered; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_A_Cold_Centered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_Conflat_A;
-    1: random_BR_Container_Cold_Centered;
-}
+    1: random_BR_Container_Cold_Centered; }
 
 switch(FEAT_TRAINS, SELF, sw_BR_Conflat_A_cargo_type, cargo_type_in_veh) {
     FISH: return sw_loadstack_BR_Conflat_A_Cold_Centered;
@@ -92,10 +90,6 @@ item (FEAT_TRAINS, item_BR_Conflat_A, 12200) { // Diagram 61/62 12/13 ton contai
         purchase:                       spriteset_BR_Conflat_A_purchase;
         
         // internal code
-        // purchase_cargo_capacity:        13;
-        // cargo_capacity:                 return 0;
-        // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
-        // cargo_capacity:                 sw_capacity_BR_Conflat_A;
         cost_factor:                    725;
         running_cost_factor:            646;
         cargo_subtype_text:             sw_BR_Conflat_A_cargo_subtype_text; 

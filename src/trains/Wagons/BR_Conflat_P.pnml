@@ -11,18 +11,6 @@ spriteset(spriteset_BR_Conflat_P_BR_Bauxite, "gfx\Wagons\BR_Conflat_P\BR_Conflat
     alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_mask.png")
     { template_68trains_4x(0,0) }
 
-spriteset(spriteset_BR_Conflat_P_BR_Bauxite_REV, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
-    { template_68trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
-    { template_68trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_2x_mask.png")
-    { template_68trains_REV_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_Conflat_P_BR_Bauxite_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_4x_mask.png")
-    { template_68trains_REV_4x(0,0) }
-
 // purchase sprite
 spriteset(spriteset_BR_Conflat_P_purchase, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_8bpp.png")
     { template_purchase(0,0) }
@@ -30,34 +18,31 @@ spriteset(spriteset_BR_Conflat_P_purchase, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P
     alternative_sprites(spriteset_BR_Conflat_P_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_Conflat_P\BR_Conflat_P_BR_Bauxite_1x_mask.png")
     { template_purchase(0,0) }
 
-// container stacking switch
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_P_Container_A_direction, direction) {
-    DIRECTION_SOUTHEAST: random_BR_Container_A_Side;
-    DIRECTION_SOUTH: random_BR_Container_A_Side;
-    DIRECTION_SOUTHWEST: random_BR_Container_A_Side;
-}
-
-random_switch(FEAT_TRAINS, SELF, sw_random_BR_Container_decider, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
-    1: random_BR_Container_BD_Side;
-    1: sw_loadstack_BR_Conflat_P_Container_A_direction;
-}
-
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Conflat_P, cargo_subtype) {
-    0: spriteset_BR_Conflat_P_BR_Bauxite;
-}
+    0: spriteset_BR_Conflat_P_BR_Bauxite; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Conflat_P_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBauxite);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
-// graphics switch
-switch(FEAT_TRAINS, SELF, sw_graphics_BR_Conflat_P, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-	0: return sw_livery_BR_Conflat_P;
-    1: return sw_random_BR_Container_decider;
-}
+// container stacking switch
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_P_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_Conflat_P;
+    1: random_BR_Container_BD_Side;
+    2: random_BR_Container_A_Side; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_P_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_Conflat_P;
+    1: random_BR_Container_A_Side;
+    2: random_BR_Container_BD_Side; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Conflat_P_direction, direction) {
+    DIRECTION_SOUTHEAST: sw_loadstack_BR_Conflat_P_direction1;
+    DIRECTION_SOUTH: sw_loadstack_BR_Conflat_P_direction1;
+    DIRECTION_SOUTHWEST: sw_loadstack_BR_Conflat_P_direction1;
+        sw_loadstack_BR_Conflat_P_direction2; }
 
 // unit definition
 item (FEAT_TRAINS, item_BR_Conflat_P, 12201) {
@@ -75,9 +60,8 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 12201) {
         
 		refittable_cargo_classes:		bitmask(CC_PIECE_GOODS, CC_NON_POURABLE);	
         non_refittable_cargo_classes:   bitmask(CC_BULK);
-        cargo_disallow_refit:           [LVST, WATR, IRON, VEHI];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
-        // cargo_disallow_refit:            [];
+        cargo_disallow_refit:           [LVST, WATR, IRON, VEHI];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 20 * param_freight;
         loading_speed:					5;
@@ -97,7 +81,7 @@ item (FEAT_TRAINS, item_BR_Conflat_P, 12201) {
 
     graphics {
         // graphics
-        default:                        sw_graphics_BR_Conflat_P;
+        default:                        sw_loadstack_BR_Conflat_P_direction;
         purchase:                       spriteset_BR_Conflat_P_purchase;
 
         // internal code
