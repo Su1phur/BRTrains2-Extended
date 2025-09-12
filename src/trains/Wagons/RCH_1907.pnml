@@ -1,22 +1,18 @@
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Refrigerated, hasbit(cargo_classes, CC_REFRIGERATED)) {
-    0: random_choose_RCH_1907_1_Plank_Boxes;
-        return spritegroup_1_Plank_Barrels;
-}
+    0: random_choose_1_Plank_Boxes;
+        return spritegroup_1_Plank_Barrels; }
 
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Potable, hasbit(cargo_classes, CC_POTABLE)) {
     0: return sw_RCH_1907_1_Plank_Refrigerated;
-        return spritegroup_1_Plank_Barrels;
-}
+        return spritegroup_1_Plank_Barrels; }
 
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Liquid, hasbit(cargo_classes, CC_LIQUID)) {
     0: return sw_RCH_1907_1_Plank_Potable;
-        return spritegroup_1_Plank_Tanks;
-}
+        return spritegroup_1_Plank_Tanks; }
 
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_Bulk, hasbit(cargo_classes, CC_BULK)) {
     0: return sw_RCH_1907_1_Plank_Liquid;
-        return spritegroup_1_Plank_Bulk;
-}
+        return spritegroup_1_Plank_Bulk; }
 
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_type, cargo_type_in_veh) {
     STAL: return spritegroup_1_Plank_Bars;
@@ -25,16 +21,16 @@ switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_type, cargo_type_in_veh) {
     STST: return spritegroup_1_Plank_Bars;
     STSH: return spritegroup_1_Plank_Bars;
 
-    POWR: return random_choose_RCH_1907_1_Plank_Boxes;
-    VENG: return random_choose_RCH_1907_1_Plank_Boxes;
-    VPTS: return random_choose_RCH_1907_1_Plank_Boxes;
-    GOOD: return random_choose_RCH_1907_1_Plank_Boxes;
-    GLAS: return random_choose_RCH_1907_1_Plank_Boxes;
+    POWR: return random_choose_1_Plank_Boxes;
+    VENG: return random_choose_1_Plank_Boxes;
+    VPTS: return random_choose_1_Plank_Boxes;
+    GOOD: return random_choose_1_Plank_Boxes;
+    GLAS: return random_choose_1_Plank_Boxes;
 
     ENSP: return spritegroup_1_Plank_Eng_Supplies_1920;
     FMSP: return sw_1_Plank_Farm_Supplies_current_year;
 
-    STWR: return random_choose_RCH_1907_1_Plank_Wires;
+    STWR: return random_choose_1_Plank_Wires;
 
     STEL: return spritegroup_1_Plank_Rails;
     STSE: return spritegroup_1_Plank_Rails;
@@ -46,76 +42,118 @@ switch(FEAT_TRAINS, SELF, sw_RCH_1907_1_Plank_cargo_type, cargo_type_in_veh) {
 
     WOOD: return spritegroup_1_Plank_Logs;
 
-    MNSP: return random_choose_RCH_1907_1_Plank_Boxes;
-    MPTS: return random_choose_RCH_1907_1_Plank_Boxes;
-    PAPR: return random_choose_RCH_1907_1_Plank_Boxes;
+    MNSP: return random_choose_1_Plank_Boxes;
+    MPTS: return random_choose_1_Plank_Boxes;
+    PAPR: return random_choose_1_Plank_Boxes;
 
-        sw_RCH_1907_1_Plank_Bulk;
-}
+        sw_RCH_1907_1_Plank_Bulk;}
 
-// cargo sprite stacks
+// 1 Plank cargo sprite stacks
 switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_random_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: random_choose_RCH_1907_1_Plank;
-    1: sw_RCH_1907_1_Plank_cargo_type;
-}
+    1: sw_RCH_1907_1_Plank_cargo_type; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_Grey_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_RCH_1907_1_Plank_Grey;
-    1: sw_RCH_1907_1_Plank_cargo_type;
-}
+    1: sw_RCH_1907_1_Plank_cargo_type; }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_Bauxite_1_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_RCH_1907_1_Plank_Bauxite;
-    1: sw_RCH_1907_1_Plank_cargo_type;
-}
+    1: sw_RCH_1907_1_Plank_cargo_type; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed, switch_alternative_var_random_bits(1, 3)) {
+
+// 3 Plank
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_3_Plank_Powdered, hasbit(cargo_classes, CC_POWDERIZED)) {
+    0: random_choose_3_Plank_Boxes;
+        return random_choose_3_Plank_Powder; }
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_3_Plank_Potable, hasbit(cargo_classes, CC_POTABLE)) {
+    0: sw_RCH_1907_3_Plank_Powdered;
+        return random_choose_3_Plank_Tarp; }
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_3_Plank_Liquid, hasbit(cargo_classes, CC_LIQUID)) {
+    0: sw_RCH_1907_3_Plank_Potable;
+        return random_choose_3_Plank_Tarp; }
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_3_Plank_Bulk, hasbit(cargo_classes, CC_BULK)) {
+    0: sw_RCH_1907_3_Plank_Liquid;
+        return spritegroup_3_Plank_Bulk; }
+
+switch(FEAT_TRAINS, SELF, sw_RCH_1907_3_Plank_cargo_type, cargo_type_in_veh) {
+    STAL: return spritegroup_3_Plank_Steel;
+    ALUM: return spritegroup_3_Plank_Steel;
+    STCB: return spritegroup_3_Plank_Steel;
+    STST: return spritegroup_3_Plank_Steel;
+    STSH: return spritegroup_3_Plank_Steel;
+
+    POWR: return random_choose_3_Plank_Boxes;
+    VENG: return random_choose_3_Plank_Boxes;
+    VPTS: return random_choose_3_Plank_Boxes;
+    GOOD: return random_choose_3_Plank_Boxes;
+    GLAS: return random_choose_3_Plank_Boxes;
+
+    STWR: return spritegroup_3_Plank_Wires;
+
+    PIPE: return spritegroup_3_Plank_Pipes;
+
+    BDMT: return spritegroup_3_Plank_Timber;
+    WDPR: return spritegroup_3_Plank_Timber;
+
+    WOOD: return spritegroup_3_Plank_Wood;
+
+    MNSP: return random_choose_3_Plank_Boxes;
+    MPTS: return random_choose_3_Plank_Boxes;
+    PAPR: return random_choose_3_Plank_Boxes;
+
+    sw_RCH_1907_3_Plank_Bulk; }
+
+// 3 Plank cargo sprite stacks
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_random_3_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: random_choose_RCH_1907_3_Plank;
-    1: random_choose_RCH_1907_5_Plank;
-    2: random_choose_RCH_1907_7_Plank;
-    3: random_choose_RCH_1907_7_Plank;
-    4: random_choose_RCH_1907_Van;
-    5: sw_loadstack_RCH_1907_random_1_Plank_Cargo;
-    6: random_choose_RCH_1907_Van;
-    random_choose_RCH_1907_5_Plank;
-}
+    1: sw_RCH_1907_3_Plank_cargo_type; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Grey, switch_alternative_var_random_bits(1, 3)) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_Grey_3_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_RCH_1907_3_Plank_Grey;
-    1: spriteset_RCH_1907_7_Plank_Grey;
-    2: spriteset_RCH_1907_5_Plank_Grey;
-    3: sw_loadstack_RCH_1907_Grey_1_Plank_Cargo;
-    4: spriteset_RCH_1907_7_Plank_Grey;
-    5: spriteset_RCH_1907_Van_Grey;
-    6: spriteset_RCH_1907_Van_Grey;
-    spriteset_RCH_1907_5_Plank_Grey;
-}
+    1: sw_RCH_1907_3_Plank_cargo_type; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Bauxite, switch_alternative_var_random_bits(1, 3)) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_Bauxite_3_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_RCH_1907_3_Plank_Bauxite;
-    1: spriteset_RCH_1907_7_Plank_Bauxite;
-    2: spriteset_RCH_1907_5_Plank_Bauxite;
-    3: sw_loadstack_RCH_1907_Bauxite_1_Plank_Cargo;
-    4: spriteset_RCH_1907_7_Plank_Bauxite;
-    5: random_choose_RCH_1907_Van_Bauxite;
-    6: random_choose_RCH_1907_Van_Bauxite;
-    spriteset_RCH_1907_5_Plank_Bauxite;
-}
+    1: sw_RCH_1907_3_Plank_cargo_type; }
+
+// Random switches
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed) {
+    1: sw_loadstack_RCH_1907_random_1_Plank_Cargo;
+    2: sw_loadstack_RCH_1907_random_3_Plank_Cargo;
+    5: random_choose_RCH_1907_5_Plank;
+    3: random_choose_RCH_1907_7_Plank;
+    4: random_choose_RCH_1907_Van; }
+
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Grey) {
+    1: sw_loadstack_RCH_1907_Grey_1_Plank_Cargo;
+    2: sw_loadstack_RCH_1907_Grey_3_Plank_Cargo;
+    5: spriteset_RCH_1907_5_Plank_Grey;
+    3: spriteset_RCH_1907_7_Plank_Grey;
+    4: spriteset_RCH_1907_Van_Grey; }
+
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Mixed_Bauxite) {
+    1: sw_loadstack_RCH_1907_Bauxite_1_Plank_Cargo;
+    2: sw_loadstack_RCH_1907_Bauxite_3_Plank_Cargo;
+    5: spriteset_RCH_1907_5_Plank_Bauxite;
+    3: spriteset_RCH_1907_7_Plank_Bauxite;
+    4: random_choose_RCH_1907_Van_Bauxite; }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_RCH_1907_Mixed, cargo_subtype) {
     0: random_choose_RCH_1907_Mixed;
     1: random_choose_RCH_1907_Mixed_Grey;
-    2: random_choose_RCH_1907_Mixed_Bauxite;
-}
+    2: random_choose_RCH_1907_Mixed_Bauxite; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_Mixed_cargo_subtype_text, cargo_subtype) {
 	0:	return string(STR_LIVERY_SHORT, string(str_var_Random));
     1:  return string(STR_LIVERY_SHORT, string(str_col_Grey));
     2:  return string(STR_LIVERY_SHORT, string(str_col_Bauxite));
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // unit definition
 item (FEAT_TRAINS, item_RCH_1907_Mixed, 11400) {

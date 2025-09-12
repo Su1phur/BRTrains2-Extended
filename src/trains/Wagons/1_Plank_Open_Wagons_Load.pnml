@@ -125,13 +125,9 @@ spritegroup spritegroup_1_Plank_Tarp_Box {
     loading: [spriteset_empty, spriteset_1_Plank_Tarp_Box];
 }
 
-
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_1_Plank_Boxes, switch_alternative_var_random_bits(1, 1)) {
-    0: spritegroup_1_Plank_Box;
-    1: spritegroup_1_Plank_Tarp_Box;
-        spritegroup_1_Plank_Box;
-}
-
+random_switch(FEAT_TRAINS, SELF, random_choose_1_Plank_Boxes) {
+    1: spritegroup_1_Plank_Box;
+    1: spritegroup_1_Plank_Tarp_Box; }
 
 spriteset(spriteset_1_Plank_Logs_50, "gfx\Cargo\1_Plank_Open_Wagons\1_Plank_Logs_50_1x_8bpp.png")
     { template_48trains_1x(0,0) }
@@ -276,13 +272,9 @@ spritegroup spritegroup_1_Plank_Wires_2 {
     loading: [spriteset_empty, spriteset_1_Plank_Wires_2];
 }
 
-
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_1_Plank_Wires, switch_alternative_var_random_bits(1, 1)) {
-    0: spritegroup_1_Plank_Wires;
-    1: spritegroup_1_Plank_Wires_2;
-        spritegroup_1_Plank_Wires;
-}
-
+random_switch(FEAT_TRAINS, SELF, random_choose_1_Plank_Wires) {
+    1: spritegroup_1_Plank_Wires;
+    1: spritegroup_1_Plank_Wires_2; }
 
 spriteset(spriteset_1_Plank_Barrels, "gfx\Cargo\1_Plank_Open_Wagons\1_Plank_Barrels_1x_8bpp.png")
     { template_48trains_1x(0,0) }

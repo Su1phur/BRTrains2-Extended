@@ -202,40 +202,29 @@ spriteset(spriteset_RCH_1907_Van_purchase, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van
 
 // randomizers
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Van_Bauxite, switch_alternative_var_random_bits(1, 2)) {
-    0: spriteset_RCH_1907_Van_Bauxite;
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Van_Bauxite) {
+    1: spriteset_RCH_1907_Van_Bauxite;
     1: spriteset_RCH_1907_Van_Bauxite_Var3;
-    2: spriteset_RCH_1907_Van_Bauxite_Var2;
-        spriteset_RCH_1907_Van_Bauxite;
-}
+    1: spriteset_RCH_1907_Van_Bauxite_Var2; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Van, switch_alternative_var_random_bits(1, 3)) {
-    0: spriteset_RCH_1907_Van_Bauxite;
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_Van) {
+    1: spriteset_RCH_1907_Van_Bauxite;
     1: spriteset_RCH_1907_Van_Bauxite_Var3;
-    2: spriteset_RCH_1907_Van_Bauxite_Var2;
-    spriteset_RCH_1907_Van_Grey;
-}
+    1: spriteset_RCH_1907_Van_Bauxite_Var2;
+    3: spriteset_RCH_1907_Van_Grey; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_7_Plank, switch_alternative_var_random_bits(1, 1)) {
-    0: spriteset_RCH_1907_7_Plank_Grey;
-    1: spriteset_RCH_1907_7_Plank_Bauxite;
-    spriteset_RCH_1907_7_Plank_Grey;
-}
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_7_Plank) {
+    1: spriteset_RCH_1907_7_Plank_Grey;
+    1: spriteset_RCH_1907_7_Plank_Bauxite; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_5_Plank, switch_alternative_var_random_bits(1, 1)) {
-    0: spriteset_RCH_1907_5_Plank_Grey;
-    1: spriteset_RCH_1907_5_Plank_Bauxite;
-    spriteset_RCH_1907_5_Plank_Grey;
-}
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_5_Plank) {
+    1: spriteset_RCH_1907_5_Plank_Grey;
+    1: spriteset_RCH_1907_5_Plank_Bauxite; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_3_Plank, switch_alternative_var_random_bits(1, 1)) {
-    0: spriteset_RCH_1907_3_Plank_Grey;
-    1: spriteset_RCH_1907_3_Plank_Bauxite;
-    spriteset_RCH_1907_3_Plank_Grey;
-}
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_3_Plank) {
+    1: spriteset_RCH_1907_3_Plank_Grey;
+    1: spriteset_RCH_1907_3_Plank_Bauxite; }
 
-switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_1_Plank, switch_alternative_var_random_bits(1, 1)) {
-    0: spriteset_RCH_1907_1_Plank_Grey;
-    1: spriteset_RCH_1907_1_Plank_Bauxite;
-    spriteset_RCH_1907_1_Plank_Grey;
-}
+random_switch(FEAT_TRAINS, SELF, random_choose_RCH_1907_1_Plank) {
+    1: spriteset_RCH_1907_1_Plank_Grey;
+    1: spriteset_RCH_1907_1_Plank_Bauxite; }
