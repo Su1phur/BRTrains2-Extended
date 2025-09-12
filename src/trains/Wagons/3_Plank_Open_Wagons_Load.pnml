@@ -49,16 +49,13 @@ spritegroup spritegroup_3_Plank_Boxes_2 {
     loaded: [spriteset_empty, spriteset_3_Plank_Boxes_2];
     loading: [spriteset_empty, spriteset_3_Plank_Boxes_2]; }
 
-random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Boxes) {
+random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Boxes, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
     1: spritegroup_3_Plank_Boxes;
     1: spritegroup_3_Plank_Boxes_2; }
 
 spriteset(spriteset_3_Plank_Bulk50, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk50_1x_8bpp.png")
     { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_3_Plank_Bulk50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk50_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
+    
     alternative_sprites(spriteset_3_Plank_Bulk50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk50_2x_8bpp.png")
     { template_48trains_2x(0,0) }
 
@@ -66,9 +63,6 @@ spriteset(spriteset_3_Plank_Bulk50, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk5
     { template_48trains_4x(0,0) }
 
 spriteset(spriteset_3_Plank_Bulk100, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk100_1x_8bpp.png")
-    { template_48trains_1x(0,0) }
-
-    alternative_sprites(spriteset_3_Plank_Bulk100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk100_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
     alternative_sprites(spriteset_3_Plank_Bulk100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk100_2x_8bpp.png")
@@ -200,7 +194,7 @@ spritegroup spritegroup_3_Plank_Tarp_3 {
     loaded: [spriteset_empty, spriteset_3_Plank_Tarp_3];
     loading: [spriteset_empty, spriteset_3_Plank_Tarp_3]; }
 
-random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Tarp) {
+random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Tarp, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
     1: spritegroup_3_Plank_Tarp;
     1: spritegroup_3_Plank_Tarp_2;
     1: spritegroup_3_Plank_Tarp_3;
@@ -215,7 +209,7 @@ spritegroup spritegroup_3_Plank_Powder_2 {
     loaded: [spriteset_empty, spriteset_3_Plank_High_Tarp_2];
     loading: [spriteset_empty, spriteset_3_Plank_Bulk50, spriteset_3_Plank_Bulk100]; }
 
-random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Powder) {
+random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Powder, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
     1: spritegroup_3_Plank_Powder;
     1: spritegroup_3_Plank_Powder_2; }
 

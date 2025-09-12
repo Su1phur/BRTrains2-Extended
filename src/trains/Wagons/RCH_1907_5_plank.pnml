@@ -2,8 +2,11 @@
 switch(FEAT_TRAINS, SELF, sw_livery_RCH_1907_5_Plank, cargo_subtype) {
     0: random_choose_RCH_1907_5_Plank;
     1: spriteset_RCH_1907_5_Plank_Grey;
-    2: spriteset_RCH_1907_5_Plank_Bauxite;
-}
+    2: spriteset_RCH_1907_5_Plank_Bauxite; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_5_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_RCH_1907_5_Plank;
+    1: sw_RCH_1907_5_Plank_cargo_type; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_5_Plank_cargo_subtype_text, cargo_subtype){
@@ -27,10 +30,8 @@ item (FEAT_TRAINS, item_RCH_1907_5_Plank, 11402) {
         retire_early: 					-10;							
         reliability_decay: 				20;
         
-		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
         refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_POWDERIZED, CC_NEO_BULK, CC_POTABLE);	
         // non_refittable_cargo_classes:    bitmask();
-        // cargo_allow_refit:               [PASS, TOUR];
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         cargo_disallow_refit:           [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
@@ -52,15 +53,14 @@ item (FEAT_TRAINS, item_RCH_1907_5_Plank, 11402) {
 
     graphics {
         // graphics
-        default:                        sw_livery_RCH_1907_5_Plank;
+        default:                        sw_loadstack_RCH_1907_5_Plank_Cargo;
         purchase:                       spriteset_RCH_1907_5_Plank_purchase;
         
         // internal code
         cost_factor:                    414;
         running_cost_factor:            285;
         cargo_subtype_text:             sw_RCH_1907_5_Plank_cargo_subtype_text; 
-        colour_mapping:                 return PALETTE_CC_FIRST;
-        // colour_mapping:                 switch_generic_recolour;
+        colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
         additional_text:                return( string(str_purchase_wagon,
