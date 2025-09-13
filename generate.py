@@ -15,6 +15,7 @@ bulk = {"bulk"}
 loading = {"loading"}
 dual_mode = {"panto_up", "panto_down"}
 anim = {"anim"}
+ignore = {"menu", "masked", "old"}
 
 def classify_vox_files(vox_files: set[Path]):
     groups = defaultdict(list)
@@ -32,6 +33,8 @@ def classify_vox_files(vox_files: set[Path]):
             groups["dual_mode"].append(f)
         elif any(k in stem for k in loading):
             groups["loading"].append(f)
+        elif any(k in stem for k in ignore):
+            pass
         else:
             groups["default"].append(f)
 
@@ -81,6 +84,18 @@ def generate_pnml(vox_files):
                 unit = unit_base_name,
                 path = gfx_path
             ) + "\n")
+
+        if len(groups["bulk"]) >= 1:
+            for f_bulk in groups["bulk"]:
+                p.write(BULK_TEMPLATE.format(
+                    unit = f_bulk.stem,
+                    path = gfx_path
+                ) + "\n" )
+
+            p.write(BULK_SPRITEGROUP.format(
+                unit = unit_base_name,
+                path = gfx_path
+            ))
 
         for f_cargo in groups["cargo"]:
             p.write(CARGO_TEMPLATE.format(

@@ -70,23 +70,18 @@ BULK_TEMPLATE = """
 spriteset(spriteset_{unit}, "{path}\\{unit}_1x_8bpp.png")
     {{ template_XXtrains_1x(0,0) }}
 
-    alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "{path}\\{unit}_1x_8bpp.png")
-    {{ template_XXtrains_1x(0,0) }}
-
     alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "{path}\\{unit}_2x_8bpp.png")
     {{ template_XXtrains_2x(0,0) }}
 
     alternative_sprites(spriteset_{unit}, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "{path}\\{unit}_4x_9bpp.png")
     {{ template_XXtrains_4x(0,0) }}
+"""
 
+BULK_SPRITEGROUP = """
 // loading sprite
 spritegroup spritegroup_{unit} {{  
     loaded: [spriteset_empty, spriteset_{unit}];
     loading: [spriteset_empty, spriteset_{unit}]; }}
-
-switch(FEAT_TRAINS, SELF, sw_loadstack_{unit}, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {{
-    0: spriteset_{base_unit};
-    1: spritegroup_{unit}; }}
 """
 
 ANIM_TEMPLATE = """
