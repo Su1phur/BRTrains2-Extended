@@ -29,6 +29,8 @@ sort(FEAT_TRAINS, [
     item_LNER_A4,
     item_LNER_O1,
     // BR Steam Locomotives
+    item_BR_Standard_6,
+    item_BR_Standard_7,
     // BR Diesel Locomotives
     item_BR08,
     item_BR20,

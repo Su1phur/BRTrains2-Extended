@@ -22,18 +22,8 @@ STR_CONCAT_5s	: {STRING} {STRING} {STRING} {STRING} {STRING}
 
 STR_LIVERY_SHORT    : ({STRING})
 STR_LIVERY          : ({STRING} - {STRING})
-STR_LIVERY_EXTENDED : ({STRING} - {STRING} - {STRING})
+STR_LIVERY_EXTENDED : ({STRING} - {STRING}, {STRING})
 STR_LIVERY_SPECIAL  : ({STRING} - {STRING} - {SILVER}{STRING})
-
-# Company name, whyte notation, nickname
-STR_Name_SteamTender          :{STRING} {STRING} "{STRING}" Tender
-STR_Name_SteamTank          :{STRING} {STRING}T "{STRING}" Tank
-
-# TOPS class, nickname, length
-STR_Name_BR_MUClass                 :BR Class {STRING} "{STRING}" ({STRING}-car) 
-# TOPS class, length
-STR_Name_BR_MUClass_NoNickname      :BR Class {STRING} ({STRING}-car)
-
 
 # Abbreviations
 str_abbr_AWC            :AWC
@@ -521,9 +511,12 @@ str_WDTank_usage				    :Low speed freight/shunting
 str_WDTank_eos				        :1960
 str_WDTank_liveries			        :Wartime Black
 
+STR_NAME_BR_Standard_6              :BR Standard Class 6MT "Clan"
+STR_NAME_BR_Standard_7              :BR Standard Class 7P "Britannia"
+STR_NAME_BR_Standard_8              :BR Standard Class 8P "Duke"
+str_BR_Big_Standards_liveries       :BR Green, BR Black, BR Express Blue
+
 STR_NAME_Standard9F				    :BR Standard Class 9F
-str_Standard9F_usage			    :Heavy Freight/Mixed Traffic
-str_Standard9F_eos				    :1954-1968
 str_Standard9F_liveries			    :BR Black, BR Brunswick Green
 
 # BR Diesel Locomotives
