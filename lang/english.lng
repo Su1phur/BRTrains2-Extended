@@ -512,7 +512,7 @@ str_WDTank_eos				        :1960
 str_WDTank_liveries			        :Wartime Black
 
 STR_NAME_BR_Standard_6              :BR Standard Class 6MT "Clan"
-STR_NAME_BR_Standard_7              :BR Standard Class 7P "Britannia"
+STR_NAME_BR_Standard_7              :BR Standard Class 7MT "Britannia"
 STR_NAME_BR_Standard_8              :BR Standard Class 8P "Duke"
 str_BR_Big_Standards_liveries       :BR Green, BR Black, BR Express Blue
 
