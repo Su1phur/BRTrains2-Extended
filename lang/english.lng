@@ -229,6 +229,7 @@ str_coach_BSK                   :{GREEN}Brake Second Corridor
 str_coach_BSL                   :{GREEN}Brake Second Lavatory
 str_coach_BSO                   :{GREEN}Brake Second Open
 str_coach_BSO_T                 :{GREEN}Brake Second Open Trolley (Micro Buffet)
+str_coach_BT                    :{GREEN}Brake Third
 str_coach_BTK                   :{GREEN}Brake Third Corridor
 str_coach_BUO                   :{GREEN}Brake Unclassified Open
 str_coach_BY                    :{GREEN}Brake (non-gangwayed, four-wheeled)
@@ -471,6 +472,10 @@ str_GCR_8K_usage                    :Heavy Freight
 str_GCR_8K_liveries                 :GCR Black, LNER Black, BR Black
 str_GWR_3000_liveries               :GWR Black, GWR Green, BR Black
 str_LNER_O4_8_liveries              :LNER Black, BR Black
+
+STR_NAME_GCR_9J                     :GCR Robinson Class 9J
+STR_NAME_GCR_9J_LNER                :LNER Robinson Class J11
+str_GCR_9J_liveries                 :GCR Black, LNER Black, BR Black
 
 STR_NAME_GER_L77			        :GER Hill Class L77 0-6-2T (LNER Class N7)
 str_GER_L77_usage			        :Suburban Passenger
@@ -1336,7 +1341,7 @@ str_BR800_liveries				:Hitachi, GWR
 # # # # # # # #
 
 # GWR Coaches
-STR_NAME_GWR_TK_C24             :GWR Churchward "Dreadnought" Third Corridor
+STR_NAME_GWR_TK_C24             :GWR Churchward "Dreadnought" TK
 str_GWR_TK_C24_liveries         :Chocolate and Cream, Maroon, Carmine and Cream
 
 # LMS Coaches
@@ -1344,12 +1349,12 @@ STR_NAME_LMS_StanierP3_50BG 		:LMS Stanier Period 3 50 ft BG Coach
 str_LMS_StanierP3_50BG_liveries		:LMS Red
 
 # LNER Pre-Grouping Coaches
-STR_NAME_GCR_CL_4L5                 :GCR Robinson 50 ft Semi-Corridor Lavatory Composite
+STR_NAME_GCR_CL_4L5                 :GCR Robinson 50 ft CLso
 str_GCR_CL_4L5_liveries             :GCR Mahogany
 
 # LNER Coaches
 
-STR_NAME_LNER_BT_T              :LNER Gresley Twin Brake Third
+STR_NAME_LNER_BT_T              :LNER Gresley Articulated Twin BT-T
 str_LNER_BT_T_liveries          :LNER Teak, BR Maroon
 
 STR_NAME_LNER_CorSet            :LNER Coronation Set

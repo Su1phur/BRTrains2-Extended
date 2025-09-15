@@ -21,6 +21,7 @@ sort(FEAT_TRAINS, [
     item_GCR_8K,
         item_GWR_3000,
         item_LNER_O4_8,
+    item_GCR_9J,
     // LNER Steam Locomotives
     item_LNER_A1,
     item_LNER_A3,

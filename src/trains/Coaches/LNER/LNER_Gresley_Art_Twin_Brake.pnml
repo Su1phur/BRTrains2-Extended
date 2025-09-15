@@ -468,6 +468,7 @@ item (FEAT_TRAINS, item_LNER_BT_T, 11500) {
 
         // purchase menu text
         additional_text:                return(	string(str_purchase_wagon,
+                                                string(str_coach_BT),
 												string(str_LNER_BT_T_liveries)));
     }
 }
