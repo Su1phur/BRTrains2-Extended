@@ -353,7 +353,10 @@ item (FEAT_TRAINS, item_UNIT, ) {
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
         // cargo_capacity:                 * param_freight;
-        loading_speed:					5;
+        // loading_speed:					5; // All freight / Locomotive
+        // loading_speed:					10; // First Class / Restaurant
+        // loading_speed:                   12; // Composite, Compartment Stock
+        loading_speed:					15; // Standard Class
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;					
         running_cost_factor: 			90;

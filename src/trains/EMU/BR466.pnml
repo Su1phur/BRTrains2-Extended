@@ -289,7 +289,7 @@ item (FEAT_TRAINS, item_BR466, 4660) {
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					5;
+        loading_speed:					15;
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_ELECTRIC;					
         running_cost_factor: 			90;

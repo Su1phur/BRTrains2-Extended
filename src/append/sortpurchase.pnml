@@ -89,8 +89,8 @@ sort(FEAT_TRAINS, [
     // LNER Pre-Grouping Coaches
     item_GCR_CL_4L5,
     // LNER Coaches
-    item_LNER_BT_T,
     item_LNER_Gresley_CK_D259,
+    item_LNER_BT_T,
     // BR Coaches
     item_BR_Mk1_Header,
         item_BR_Mk1_BSO,
