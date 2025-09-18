@@ -83,8 +83,10 @@ str_col_Cream                   :Cream
 str_col_Mahogany                :Mahogany
 str_col_Maroon                  :Maroon
 str_col_Orange                  :Orange
+str_col_Olive                   :Olive
 str_col_Purple                  :Purple
 str_col_Red                     :Red
+str_col_Sage                    :Sage
 str_col_Teak                    :Teak
 str_col_White                   :White
 str_col_Yellow                  :Yellow
@@ -243,6 +245,7 @@ str_coach_CO                    :{BLUE}Composite Open
 str_coach_CTO                   :{BROWN}Open Carriage Truck
 str_coach_DBSO                  :{GREEN}Driving Brake Second Open
 str_coach_DVT                   :{GREEN}Driving Van Trailer
+str_coach_F                     :{PURPLE}Compartment First
 str_coach_FK                    :{PURPLE}Corridor First
 str_coach_FO                    :{PURPLE}Open First
 str_coach_FOT                   :{PURPLE}First Open Trolley
@@ -285,7 +288,7 @@ str_coach_RU                    :{PURPLE}Unclassified Restaurant
 str_coach_RUB                   :{PURPLE}Restaurant Unclassified (makeshift buffet)
 str_coach_RUK                   :{PURPLE}Restaurant Unclassified Kitchen
 str_coach_RUO                   :{PURPLE}Restaurant Unclassified Open (with kitchen)
-str_coach_S                     :{BLUE}Second
+str_coach_S                     :{BLUE}Compartment Second
 str_coach_SCV                   :{BROWN}Special Cattle Van
 str_coach_SD                    :{PURPLE}Saloon Discothèque
 str_coach_SK                    :{BLUE}Corridor Second
@@ -299,8 +302,9 @@ str_coach_SLO                   :{BLUE}Open Second with Lavatory (Non-gangwayed)
 str_coach_SLSC                  :{DKGREEN}Sleeper Support Coach
 str_coach_SLSTP                 :{DKGREEN}Sleeper Second Twin-Berth with Pantry
 str_coach_SO                    :{BLUE}Open Second
-str_coach_SO_NG                 :{BLUE}Second Open (non-gangwayed)
+str_coach_SO_NG                 :{BLUE}Open Second (non-gangwayed)
 str_coach_SPV                   :{GREEN}Special Parcels Van
+str_coach_T                     :{BLUE}Compartment Third
 str_coach_TAV                   :{GREEN}Trailing Auxiliary Van
 str_coach_TBC                   :{GREEN}Trailing Brake Composite
 str_coach_TBF                   :{GREEN}Trailing Brake First
@@ -1339,6 +1343,12 @@ str_BR800_liveries				:Hitachi, GWR
 # # # # # # # # 
 # # COACHES # #
 # # # # # # # #
+
+# Generic Coaches
+str_Evolution_liveries          :Mahogany, Teak, Chocolate and Cream, Maroon, Olive, Sage, Carmine and Cream
+
+STR_NAME_Evol_Clerestory_T      :Generic 48' Clerestory Coach T
+
 
 # GWR Coaches
 STR_NAME_GWR_TK_C24             :GWR Churchward "Dreadnought" TK
