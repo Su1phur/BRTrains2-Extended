@@ -7,7 +7,11 @@ sort(FEAT_TRAINS, [
     // SR Steam Locomotives
     item_SR_N15,
     // LMS Pre-Grouping Steam Locomotives
+    item_MR_483,
+        item_MR_483_RB,
+    item_MR_3835,
     // LMS Steam Locomotives
+    item_LMS_Fowler_2P,
     item_LMS_4F,
     item_LMS_Black_5,
         item_LMS_Black_5_Domed,

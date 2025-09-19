@@ -18,6 +18,18 @@ spriteset(spriteset_LMS_4F_Black_purchase, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_B
     alternative_sprites(spriteset_LMS_4F_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_4F\LMS_4F_Black_1x_mask.png")
     { template_purchase(0,0) }
 
+// basic sprite
+spriteset(spriteset_LMS_4F_MR_Black, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_1x_8bpp.png")
+    { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_4F_MR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_1x_mask.png")
+        { template_68trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LMS_4F_MR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_2x_mask.png")
+        { template_68trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LMS_4F_MR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_4F\LMS_4F_MR_Black_4x_mask.png")
+        { template_68trains_4x(0,0) }
 
 // basic sprite
 spriteset(spriteset_LMS_4F_SDJR_Blue, "gfx\Locomotive_Steam\LMS_4F\LMS_4F_SDJR_Blue_1x_8bpp.png")
@@ -109,12 +121,27 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_4F_purchase, [ STORE_TEMP((getbits(
     0: spriteset_LMS_4F_Black_purchase;
     1: spriteset_LMS_4F_Anim_purchase; }
 
+// Specific Tender
+// basic sprite
+spriteset(spriteset_Fowler_3500gal_MR_Black_4027, "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Fowler_3500gal_MR_Black_4027, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_1x_32bpp.png", "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_1x_mask.png")
+        { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Fowler_3500gal_MR_Black_4027, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_2x_32bpp.png", "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_2x_mask.png")
+        { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Fowler_3500gal_MR_Black_4027, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_4x_32bpp.png", "gfx\Tender\Fowler_3500gal\Fowler_3500gal_MR_Black_4027_4x_mask.png")
+        { template_58trains_4x(0,0) }
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LMS_4F, cargo_subtype) {
     0: spriteset_LMS_4F_Black;
     1: spriteset_LMS_4F_Black;
     2: spriteset_LMS_4F_Black;
-    3: spriteset_LMS_4F_SDJR_Blue; }
+    3: spriteset_LMS_4F_MR_Black;
+    4: spriteset_LMS_4F_SDJR_Blue; }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_LMS_4F, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: sw_livery_LMS_4F;
@@ -124,21 +151,21 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_4F_Tender, cargo_subtype) {
     0: spriteset_Fowler_3500gal_LMS_Black;
     1: spriteset_Fowler_3500gal_BR_Black_Early_Emblem;
     2: spriteset_Fowler_3500gal_BR_Black_Late_Crest;
-    3: spriteset_Fowler_3500gal_SDJR_Blue; }
+    3: spriteset_Fowler_3500gal_MR_Black_4027;
+    4: spriteset_Fowler_3500gal_SDJR_Blue; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LMS_4F_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LMSBlack);
-    1:  return string(str_BRBlack_Early);
-    2:  return string(str_BRBlack_Late);
-    3:  return string(str_SDJRBlue);
+    1:  return string(str_BRPlainBlack_Early);
+    2:  return string(str_BRPlainBlack_Late);
+    3:  return string(STR_LIVERY, string(str_abbr_MR), string(str_col_Black));
+    4:  return string(str_SDJRBlue);
        return CB_RESULT_NO_TEXT; }
-
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LMS_4F, position_in_articulated_veh % 2) {
 	0: return sw_spritestack_LMS_4F;
-    // 0: return sw_livery_LMS_4F;
 	1: return sw_livery_LMS_4F_Tender; }
 
 // length switch
@@ -149,8 +176,7 @@ switch(FEAT_TRAINS, SELF, sw_length_LMS_4F, position_in_articulated_veh % 2) {
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_LMS_4F, extra_callback_info1) {
 	1: return item_LMS_4F;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
 // unit definition
@@ -216,8 +242,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_usage_mixed_traffic),
+                                                    string(str_usage_freight),
                                                     string(str_LMS_4F_liveries)));
     }
 }
-

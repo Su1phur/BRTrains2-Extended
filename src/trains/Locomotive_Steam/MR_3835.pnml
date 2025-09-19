@@ -1,0 +1,116 @@
+// Specific Tender
+// basic sprite
+spriteset(spriteset_MR_Johnson_3250gal_MR_Black_3835, "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_MR_Johnson_3250gal_MR_Black_3835, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_1x_32bpp.png", "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_1x_mask.png")
+        { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_MR_Johnson_3250gal_MR_Black_3835, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_2x_32bpp.png", "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_2x_mask.png")
+        { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_MR_Johnson_3250gal_MR_Black_3835, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_4x_32bpp.png", "gfx\Tender\MR_Johnson_3250gal\MR_Johnson_3250gal_MR_Black_3835_4x_mask.png")
+        { template_58trains_4x(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_MR_3835, cargo_subtype) {
+    0: spriteset_LMS_4F_MR_Black;
+    1: spriteset_LMS_4F_Black;
+    2: spriteset_LMS_4F_Black;
+    3: spriteset_LMS_4F_Black;
+    4: spriteset_LMS_4F_SDJR_Blue; }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_MR_3835, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_MR_3835;
+    1: sw_Animation_LMS_4F; }
+
+switch(FEAT_TRAINS, SELF, sw_livery_MR_3835_Tender, cargo_subtype) {
+    0: spriteset_MR_Johnson_3250gal_MR_Black_3835;
+    1: spriteset_MR_Johnson_3250gal_LMS_Black;
+    2: spriteset_MR_Johnson_3250gal_BR_Black_Early_Emblem;
+    3: spriteset_MR_Johnson_3250gal_BR_Black_Late_Crest;
+    4: spriteset_MR_Johnson_3250gal_SDJR_Blue; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_MR_3835_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY, string(str_abbr_MR), string(str_col_Black));
+    1:  return string(str_LMSBlack);
+    2:  return string(str_BRPlainBlack_Early);
+    3:  return string(str_BRPlainBlack_Late);
+    4:  return string(str_SDJRBlue);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_MR_3835, position_in_articulated_veh % 2) {
+	0: return sw_spritestack_MR_3835;
+	1: return sw_livery_MR_3835_Tender; }
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_MR_3835, extra_callback_info1) {
+	1: return item_MR_3835;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_MR_3835, 4383) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_MR_3835);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1911,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1380 hp;
+        weight:                         89 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.16;
+        tractive_effort_coefficient:    0.13;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_MR_3835;
+        visual_effect_and_powered:      sw_FX_LMS_4F_Steam;
+        purchase:                       sw_spritestack_LMS_4F_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        length:                         sw_length_LMS_4F;
+        articulated_part:               sw_articulated_MR_3835;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    58;
+        running_cost_factor:            3818;
+        cargo_subtype_text:             sw_MR_3835_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_freight),
+                                                    string(str_MR_3835_liveries)));
+    }
+}
