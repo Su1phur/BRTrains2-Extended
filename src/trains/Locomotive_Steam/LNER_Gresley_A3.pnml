@@ -255,7 +255,7 @@ item (FEAT_TRAINS, item_LNER_A3, 6002) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LNER_A1_A3_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_LNER_A1_A3_liveries)));
     }
 }
@@ -383,7 +383,7 @@ item (FEAT_TRAINS, item_LNER_A3_PD, 6003) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LNER_A1_A3_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_LNER_A1_A3_liveries)));
     }
 }
@@ -511,7 +511,7 @@ item (FEAT_TRAINS, item_LNER_A3_WD, 6006) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LNER_A1_A3_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_LNER_A1_A3_liveries)));
     }
 }

@@ -168,8 +168,8 @@ switch(FEAT_TRAINS, SELF, sw_GCR_9J_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_GCRLinedBlack);
     1:  return string(str_GCRBlack);
     2:  return string(str_LNERBlack);
-    3:  return string(str_BRBlack_Early);
-    4:  return string(str_BRBlack_Late);
+    3:  return string(str_BRPlainBlack_Early);
+    4:  return string(str_BRPlainBlack_Late);
        return CB_RESULT_NO_TEXT; }
 
 // Animation sprite stacking

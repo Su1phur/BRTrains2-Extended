@@ -122,10 +122,10 @@ switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Jubilee, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_LMS_Jubilee_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LMSRed);
     1:  return string(str_LMSBlack);
-    2:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Lined_Black), string(str_var_Early_Emblem));
-    3:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Lined_Black), string(str_var_Late_Crest));
-    4:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Plain_Black), string(str_var_Early_Emblem));
-    5:  return string(STR_LIVERY_EXTENDED, string(str_abbr_BR), string(str_col_Plain_Black), string(str_var_Late_Crest));
+    2:  return string(str_BRLinedBlack_Early);
+    3:  return string(str_BRLinedBlack_Late);
+    4:  return string(str_BRPlainBlack_Early);
+    5:  return string(str_BRPlainBlack_Late);
     6:  return string(str_BRExpressBlue);
     7:  return string(str_BRGreen_Early);
     8:  return string(str_BRGreen_Late);

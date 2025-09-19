@@ -138,8 +138,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_8F_Tender, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_LMS_8F_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LMSBlack);
     1:  return string(str_LNERWartimeBlack);
-    2:  return string(str_BRBlack_Early);
-    3:  return string(str_BRBlack_Late);
+    2:  return string(str_BRPlainBlack_Early);
+    3:  return string(str_BRPlainBlack_Late);
        return CB_RESULT_NO_TEXT; }
 
 // graphics switch

@@ -28,41 +28,22 @@ STR_LIVERY_SPECIAL  : ({STRING} - {STRING} - {SILVER}{STRING})
 # Abbreviations
 str_abbr_AWC            :AWC
 str_abbr_BR             :BR
-str_abbr_FR             :FR
 str_abbr_DRS            :DRS
 str_abbr_EMR            :EMR
+str_abbr_FR             :FR
 str_abbr_GCR            :GCR
 str_abbr_GWR            :GWR
 str_abbr_HNR            :HNR
 str_abbr_LNER           :LNER
 str_abbr_LNWR           :LNWR
 str_abbr_LSWR           :LSWR
+str_abbr_MR             :MR
+str_abbr_NCB            :NCB
 str_abbr_TPE            :TPE
 str_abbr_VXC            :VXC
 str_abbr_VTEC           :VTEC
 str_abbr_VTWC           :VTWC
 str_abbr_WMR            :WMR
-str_abbr_NCB            :NCB
-
-# Companies
-str_comp_Avanti                 :Avanti West Coast
-str_comp_BR                     :British Rail
-str_comp_DRS                    :Direct Rail Services
-str_comp_Furness                :Furness Railway
-str_comp_Freightliner           :Freightliner
-str_comp_GCR                    :Great Central Railway
-str_comp_GWR                    :Great Western Railway
-str_comp_HarryNeedle            :Harry Needle Railroad
-str_comp_Northern               :Northern
-str_comp_NorthernRail           :Northern Rail
-str_comp_SWR                    :South Western Railway
-str_comp_TigerNacco             :Tiger Nacco
-str_comp_TSL                    :Traffic Services Limited
-str_comp_TPE                    :Transpennine Express
-str_comp_VXC                    :Virgin CrossCountry
-str_comp_VTEC                   :Virgin East Coast
-str_comp_VTWC                   :Virgin West Coast
-str_comp_WMR                    :West Midland Railway
 
 str_comp_gen_priv_owner         :Private Owner
 
@@ -77,9 +58,10 @@ str_col_Black                   :Black
 str_col_Lined_Black             :Lined Black
 str_col_Plain_Black             :Plain Black
 str_col_Blue                    :Blue
+str_col_Cream                   :Cream
+str_col_Crimson                 :Crimson
 str_col_Green                   :Green
 str_col_Grey                    :Grey
-str_col_Cream                   :Cream
 str_col_Mahogany                :Mahogany
 str_col_Maroon                  :Maroon
 str_col_Orange                  :Orange
@@ -302,7 +284,7 @@ str_coach_SLO                   :{BLUE}Open Second with Lavatory (Non-gangwayed)
 str_coach_SLSC                  :{DKGREEN}Sleeper Support Coach
 str_coach_SLSTP                 :{DKGREEN}Sleeper Second Twin-Berth with Pantry
 str_coach_SO                    :{BLUE}Open Second
-str_coach_SO_NG                 :{BLUE}Open Second (non-gangwayed)
+str_coach_SO_NG                 :{BLUE}Open Second (Non-gangwayed)
 str_coach_SPV                   :{GREEN}Special Parcels Van
 str_coach_T                     :{BLUE}Compartment Third
 str_coach_TAV                   :{GREEN}Trailing Auxiliary Van
@@ -355,102 +337,81 @@ str_usage_experimental          :{RED}Experimental
 ###############
 
 STR_NAME_StephensonPlanet			    :L&MR Stephenson 2-2-0 "Planet"
-str_StephensonPlanet_usage			    :Mixed Traffic
 str_StephensonPlanet_eos			    :1830-1841
 str_StephensonPlanet_liveries		    :Teak
 
 # GWR Steam Locomotives
 STR_NAME_GWR_DeanGoods				:GWR Dean 2301 Class "Dean Goods"
-str_GWR_DeanGoods_usage			   	:Mixed Traffic
-str_GWR_DeanGoods_eos				:1883
 str_GWR_DeanGoods_liveries		    :GWR Green, GWR Green & Chrome
 
 STR_NAME_GreatBear					:GWR Churchward 111 "The Great Bear"
-str_GreatBear_usage					:Experimental
-str_GreatBear_eos					:1908-1924
 str_GreatBear_liveries				:GWR Green
 
 STR_NAME_GWRCastle					:GWR Churchward 4073 Class "Castle"
-str_GWRCastle_usage			   		:Express Passenger
-str_GWRCastle_eos					:1923-1965
 str_GWRCastle_liveries				:GWR Green
 
 STR_NAME_GWR_4300                   :GWR 4300 Class
-str_GWR_4300_usage                  :Mixed Traffic
 str_GWR_4300_liveries               :GWR Green, GWR Black, BR Green, BR Black, ROD Khaki
 
 STR_NAME_GWRHall				    :GWR Collett 4900 Class "Hall"
-str_GWRHall_usage		   		    :Express Passenger
-str_GWRHall_eos				        :1946
 str_GWRHall_liveries			    :GWR Green, Hogwarts Express
 
 STR_NAME_GWR_5600                   :GWR 5600 Class "Welsh Tank"
-str_GWR_5600_usage                  :Mixed Traffic
 str_GWR_5600_liveries               :GWR Green, GWR Black, BR Green, BR Black
 
 STR_NAME_GWR_5700   				:GWR Collett 5700 Class 
-str_GWR_5700_usage			   	    :Freight, Shunting
 STR_NAME_GWR_6700   				:GWR Collett 6700 Class
 STR_NAME_GWR_8750   				:GWR Collett 8750 Class
-str_GWR_67008750_usage			   	:Freight, Suburban Passenger, Shunting
 str_GWR_67008750_eos				:1929-1971
 str_GWR_67008750_liveries		    :GWR Green
 
 # SR Pre-grouping Steam Locomotives
 
 STR_NAME_LSWR_AdamsRadial		    :LSWR Adams 415 Class 4-4-2T "Adams Radial Tank"
-str_LSWR_AdamsRadial_usage		    :Suburban Passenger
-str_LSWR_AdamsRadial_eos		    :1882-1961
 str_LSWR_AdamsRadial_liveries	    :LSWR Sage Green
 
 STR_NAME_LSWR_N15                   :LSWR N15 Class
 STR_NAME_LSWR_N15_SR                :LSWR N15 CLass "Urie Arthurs"
 STR_NAME_SR_N15                     :SR King Arthur Class "Eastleigh Arthurs/Scotch Arthurs"
-str_LSWR_N15_usage                  :Express Passenger
 str_LSWR_N15_liveries               :LSWR Green, SR Olive Green, SR Wartime Black, SR Malachite Green, BR Brunswick Green
 
 # SR Steam Locomotive
 
 STR_NAME_SRQ1                       :SR Bulleid Q1 Class 0-6-0
-str_SRQ1_usage                      :Freight
-str_SRQ1_eos                        :1942-1966
 str_SRQ1_liveries                   :SR Black, BR Black
 
 STR_NAME_SRZClass			        :SR Maunsell Z Class 0-8-0T
-str_SRZClass_usage				    :Heavy shunting, short haul freight
-str_SRZClass_eos				    :1929-1962
 str_SRZClass_liveries			    :SR Black, BR Black
 
 # LMS Pre-Grouping Steam Locomotives
 STR_NAME_CaledonianSingle			:CR Single 4-2-2 "No. 123"
-str_CaledonianSingle_usage			:Exhibition, Directors' Train
-str_CaledonianSingle_eos			:1887-1935
 str_CaledonianSingle_liveries		:CR Blue
 
 STR_NAME_Coppernob					:FR A2 Class 0-4-0 "Old Coppernob"
-str_Coppernob_usage					:Mixed Traffic
-str_Coppernob_eos					:1848-1898
 str_Coppernob_liveries				:FR Red
 
 STR_NAME_FurnessK2					:FR Pettigrew K2 Class 4-4-0 "Large Seagull"
-str_FurnessK2_usage					:Mixed Traffic
-str_FurnessK2_eos					:1892-1931
 str_FurnessK2_liveries				:FR Red
 
 STR_NAME_LNWRWebb				    :LNWR Webb Coal Tank 0-6-2T
-str_LNWRWebb_usage				    :Low speed freight
-str_LNWRWebb_eos				    :1881-1958
 str_LNWRWebb_liveries			    :LNWR Black, BR Black
 
 STR_NAME_LMSBigBertha			    :MR Fowler Lickey Banker 0-10-0 "Big Bertha"
-str_LMSBigBertha_usage		        :Banking
-str_LMSBigBertha_eos			    :1919-1956
 str_LMSBigBertha_liveries		    :MR Maroon
 
 # LMS Steam Locomotives
+STR_NAME_MR_483                     :MR 483 Class
+STR_NAME_MR_483_RB                  :MR 483 Class (Rebuilt)
+str_MR_483_liveries                 :MR Crimson, MR Black, LMS Crimson, LMS Black, BR Black, SDJR Blue
+
+STR_NAME_LMS_Fowler_2P              :LMS Fowler Class 2P
+str_LMS_Fowler_2P_liveries          :LMS Crimson, LMS Black, BR Black, MR Crimson, MR Black, SDJR Blue
+
+STR_NAME_MR_3835                    :MR 3835 Class
+str_MR_3835_liveries                :MR Black, LMS Black, BR Black, SDJR Blue
+
 STR_NAME_LMS_4F                     :LMS Fowler Class 4F
-str_LMS_4F_usage                    :Freight
-str_LMS_4F_liveries                 :LMS Black, BR Black, SDJR Blue
+str_LMS_4F_liveries                 :LMS Black, BR Black, MR Black, SDJR Blue
 
 STR_NAME_LMS_Jubilee				:LMS Jubilee Class
 STR_NAME_LMS_Rebuilt_Jubilee        :LMS Rebuilt Jubilee Class
@@ -472,7 +433,6 @@ STR_NAME_GCR_8K                     :GCR Robinson Class 8K
 STR_NAME_GWR_3000                   :GWR 3000 Class
 STR_NAME_GCR_8K_LNER                :LNER Robinson Class O4
 STR_NAME_LNER_O4_8                  :LNER Robinson Class O4/8
-str_GCR_8K_usage                    :Heavy Freight
 str_GCR_8K_liveries                 :GCR Black, LNER Black, BR Black
 str_GWR_3000_liveries               :GWR Black, GWR Green, BR Black
 str_LNER_O4_8_liveries              :LNER Black, BR Black
@@ -482,8 +442,6 @@ STR_NAME_GCR_9J_LNER                :LNER Robinson Class J11
 str_GCR_9J_liveries                 :GCR Black, LNER Black, BR Black
 
 STR_NAME_GER_L77			        :GER Hill Class L77 0-6-2T (LNER Class N7)
-str_GER_L77_usage			        :Suburban Passenger
-str_GER_L77_eos				        :1915-1962
 str_GER_L77_liveries			    :GER Blue, GER Black, LNER Apple Green, LNER Black, BR Black
 
 # LNER Steam Locomotives
@@ -491,33 +449,24 @@ STR_NAME_LNER_A1                    :LNER Gresley Class A1
 STR_NAME_LNER_A3					:LNER Gresley Class A3
 STR_NAME_LNER_A3_PD                 :LNER Gresley Class A3 (Peppercorn-style Smoke Deflectors)
 STR_NAME_LNER_A3_WD                 :LNER Gresley Class A3 (Wagner-style Smoke Deflectors)
-str_LNER_A1_A3_usage				:Express Passenger
 str_LNER_A1_A3_liveries				:LNER Green, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
 
 STR_NAME_LNER_A4                    :LNER Gresley Class A4
-str_LNER_A4_usage                   :Express Passenger
 str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Blue, BR Brunswick Green
 
 STR_NAME_LNER_O1                    :LNER Thompson Class O1
-str_LNER_O1_usage                   :Heavy Freight
 str_LNER_O1_liveries                :LNER Black, BR Black
 
 STR_NAME_LNERP2					    :LNER Gresley Class P2
 STR_NAME_LNERP2_Caprotti            :LNER Gresley Class P2 (Caprotti)
 STR_NAME_LNERP2_Streamlined		    :LNER Gresley Class P2 (Streamlined)
-str_LNERP2_usage				    :Express Passenger
-str_LNERP2_eos					    :1934-1944
 str_LNERP2_liveries				    :LNER Green, LNER Wartime Black
 
 STR_NAME_LNERV2					    :LNER Gresley Class V2 2-6-2
-str_LNERV2_usage				    :Fast Freight, Passenger, Express Passenger
-str_LNERV2_eos					    :1936-1966
 str_LNERV2_liveries				    :LNER Green
 
 # BR Steam Locomotives
 STR_NAME_WDTank				        :WD Austerity "Austerity Tank" 0-6-0ST 
-str_WDTank_usage				    :Low speed freight/shunting
-str_WDTank_eos				        :1960
 str_WDTank_liveries			        :Wartime Black
 
 STR_NAME_BR_Standard_6              :BR Standard Class 6MT "Clan"
@@ -1704,8 +1653,10 @@ str_BRAppleGreen                : (BR - Apple Green)
 str_BRBauxite                   : (BR - Bauxite)
 str_BRBlack						: (BR - Black)
 str_BRLion                      : (BR - Black & Lion)
-str_BRBlack_Early               : (BR - Black, Early Emblem)
-str_BRBlack_Late                : (BR - Black, Late Crest)
+str_BRPlainBlack_Early          : (BR - Black, Early Emblem)
+str_BRPlainBlack_Late           : (BR - Black, Late Crest)
+str_BRLinedBlack_Early          : (BR - Lined Black, Early Emblem)
+str_BRLinedBlack_Late           : (BR - Lined Black, Late Crest)
 str_BRBlue						: (BR - Blue)
 str_BRBlueAlt					: (BR - Blue, Alternate)
 str_BRBlueWrap					: (BR - Blue, Wraparound)
@@ -1916,6 +1867,7 @@ str_MerseyRailOld				: (MerseyRail - Old)
 str_MetrolinkYellow             : (Manchester Metrolink - Yellow)
 str_Maersk      				: (Maersk)
 str_MaerskEyeCandy 				: (Maersk - Always show container)
+str_MRCrimson                   : (MR - Crimson)
 str_MMLBlue						: (Midland Mainline - Blue)
 str_MMLTealTang					: (Midland Mainline - Teal & Tangerine)
 str_Mobil                       : (Mobil)

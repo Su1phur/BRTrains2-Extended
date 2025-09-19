@@ -163,8 +163,8 @@ switch(FEAT_TRAINS, SELF, sw_GWR_5600_cargo_subtype_text, cargo_subtype){
     1:  return string(str_GWRGreen);
     2:  return string(str_BRGreen_Early);
     3:  return string(str_BRGreen_Late);
-    4:  return string(str_BRBlack_Early);
-    5:  return string(str_BRBlack_Late);
+    4:  return string(str_BRPlainBlack_Early);
+    5:  return string(str_BRPlainBlack_Late);
         return CB_RESULT_NO_TEXT;
 }
 
@@ -242,7 +242,7 @@ item (FEAT_TRAINS, item_GWR_5600, 560) {
         // purchase menu text
         additional_text:                return(string(str_purchase_loco_with_liveries,
 													string(str_purchase_type_steam),
-													string(str_GWR_5600_usage),
+													string(str_usage_mixed_traffic),
 													string(str_GWR_5600_liveries)));
     }
 }

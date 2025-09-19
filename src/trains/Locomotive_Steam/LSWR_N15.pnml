@@ -266,7 +266,7 @@ item (FEAT_TRAINS, item_LSWR_N15, 3072) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_LSWR_N15_usage),
+                                                    string(str_usage_expr_pax),
                                                     string(str_LSWR_N15_liveries)));
     }
 }

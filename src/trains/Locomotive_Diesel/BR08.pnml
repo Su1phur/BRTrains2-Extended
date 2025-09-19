@@ -363,8 +363,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR08, cargo_subtype) {
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR08_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_BRBlack_Early);
-    1:  return string(str_BRBlack_Late);
+	0:	return string(str_BRPlainBlack_Early);
+    1:  return string(str_BRPlainBlack_Late);
     2:  return string(str_BRBlack);
     3:  return string(str_BRGreen_Early);
     4:  return string(str_BRGreen_Late);

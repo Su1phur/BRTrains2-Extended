@@ -292,8 +292,8 @@ switch(FEAT_TRAINS, SELF, sw_GCR_8K_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_GCRLinedBlack);
     1:  return string(str_GCRBlack);
     2:  return string(str_LNERBlack);
-    3:  return string(str_BRBlack_Early);
-    4:  return string(str_BRBlack_Late);
+    3:  return string(str_BRPlainBlack_Early);
+    4:  return string(str_BRPlainBlack_Late);
        return CB_RESULT_NO_TEXT;
 }
 
@@ -384,7 +384,7 @@ item (FEAT_TRAINS, item_GCR_8K, 6350) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_GCR_8K_usage),
+                                                    string(str_usage_heavy_freight),
                                                     string(str_GCR_8K_liveries)));
     }
 }
@@ -408,8 +408,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_GWR_3000_Tender, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_GWR_3000_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_GWRGreen);
     1:  return string(str_GWRBlack);
-    2:  return string(str_BRBlack_Early);
-    3:  return string(str_BRBlack_Late);
+    2:  return string(str_BRPlainBlack_Early);
+    3:  return string(str_BRPlainBlack_Late);
        return CB_RESULT_NO_TEXT;
 }
 
@@ -427,12 +427,12 @@ switch(FEAT_TRAINS, SELF, sw_articulated_GWR_3000, extra_callback_info1) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_GWR_3000, 300) {
+item (FEAT_TRAINS, item_GWR_3000, 301) {
     property {
         // common properties
         name:                           string(STR_NAME_GWR_3000);
         variant_group:                  item_GCR_8K; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1919,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -488,7 +488,7 @@ item (FEAT_TRAINS, item_GWR_3000, 300) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_GCR_8K_usage),
+                                                    string(str_usage_heavy_freight),
                                                     string(str_GCR_8K_liveries)));
     }
 }
@@ -509,8 +509,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_O4_8_Tender, cargo_subtype) {
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LNER_O4_8_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_LNERBlack);
-    1:  return string(str_BRBlack_Early);
-    2:  return string(str_BRBlack_Late);
+    1:  return string(str_BRPlainBlack_Early);
+    2:  return string(str_BRPlainBlack_Late);
        return CB_RESULT_NO_TEXT;
 }
 
@@ -533,8 +533,8 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         // common properties
         name:                           string(STR_NAME_LNER_O4_8);
         variant_group:                  item_GCR_8K; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
-        climates_available:             ALL_CLIMATES;
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		climates_available:             ALL_CLIMATES;
         introduction_date:              date(1944,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
@@ -589,7 +589,7 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_GCR_8K_usage),
+                                                    string(str_usage_heavy_freight),
                                                     string(str_LNER_O4_8_liveries)));
     }
 }
