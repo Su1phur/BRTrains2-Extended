@@ -396,13 +396,19 @@ str_FurnessK2_liveries				:FR Red
 STR_NAME_LNWRWebb				    :LNWR Webb Coal Tank 0-6-2T
 str_LNWRWebb_liveries			    :LNWR Black, BR Black
 
+STR_NAME_MR_483                     :MR 483 Class
+STR_NAME_MR_483_RB                  :MR 483 Class (Rebuilt)
+str_MR_483_liveries                 :MR Crimson, MR Black, LMS Crimson, LMS Black, BR Black, SDJR Blue
+
+STR_NAME_MR_1000                    :MR 1000 Class
+str_MR_1000_liveries                :MR Crimson, MR Black, LMS Crimson, LMS Black, BR Black, SDJR Blue
+
 STR_NAME_LMSBigBertha			    :MR Fowler Lickey Banker 0-10-0 "Big Bertha"
 str_LMSBigBertha_liveries		    :MR Maroon
 
 # LMS Steam Locomotives
-STR_NAME_MR_483                     :MR 483 Class
-STR_NAME_MR_483_RB                  :MR 483 Class (Rebuilt)
-str_MR_483_liveries                 :MR Crimson, MR Black, LMS Crimson, LMS Black, BR Black, SDJR Blue
+STR_NAME_LMS_Fowler_4P              :LMS Fowler Class 4P Compound
+str_LMS_Fowler_4P_liveries          :LMS Crimson, LMS Black, BR Black, MR Crimson, MR Black, SDJR Blue
 
 STR_NAME_LMS_Fowler_2P              :LMS Fowler Class 2P
 str_LMS_Fowler_2P_liveries          :LMS Crimson, LMS Black, BR Black, MR Crimson, MR Black, SDJR Blue
@@ -1528,13 +1534,11 @@ str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
 STR_NAME_BR_HAA                 :BR HAA/HFA 32t MGR Hopper
 str_BR_HAA_liveries             :BR Bauxite, Railfreight, Trainload, Mainline Freight
 
-STR_NAME_BRHHA					:BR HHA Wagon
+STR_NAME_BR_HHA					:BR HHA Wagon
 str_BRHHA_liveries				:Freightliner
 
-STR_NAME_BRJIA_Polybulk         :BR JIA "Polybulk" Hopper
-str_BRJIA_Polybulk_usage        :Bulk Cargos
-str_BRJIA_Polybulk_eos          :---
-str_BRJIA_Polybulk_liveries     :Traffic Service Limited Polybulk, Polybulk, Grainflow, Tiger Nacco Grey
+STR_NAME_BR_JIA_Polybulk        :BR JIA "Polybulk" Hopper
+str_BR_JIA_Polybulk_liveries    :Traffic Service Limited Polybulk, Polybulk, Grainflow, Tiger Nacco Grey
 
 STR_NAME_BR_MBA                 :BR MBA/MDA/MOA 'Monsterbox' Wagon
 STR_NAME_BR_MCA                 :BR MCA 'Mini Monsterbox' Wagon
@@ -1547,7 +1551,10 @@ STR_NAME_BRT_CovHop             :BRT PAA Covered Hopper
 STR_NAME_BRT_Whisky_CovHop      :BRT PAV Covered Hopper "Whisky CovHop"
 str_BRT_CovHop_liveries         :Grainflow, BR Grey, BR Brown, Private Owner Blue, Private Owner Blue with Advertising, Private Owner Yellow
 
-STR_NAME_BR_TEA                 :BR TEA 102t Tank wagon
+STR_NAME_BR_OTA                 :BR OTA Timber Wagon
+str_BR_OTA_liveries             :Railfreight, EWS, Private Owners
+
+STR_NAME_BR_TEA                 :BR TEA 102t Tank Wagon
 str_BR_TEA_liveries             :Black, Blue, Green, Grey, Red, Private Owners
 
 STR_NAME_BR_TTA                 :BR TTA/TTV 45t Tank Wagon
@@ -1556,11 +1563,8 @@ str_BR_TTA_liveries             :Black, Blue, Green, Grey, Private Owners
 STR_NAME_BR_VAA                 :BR VAA/VBA/VCA Sliding Door Van
 str_BR_VAA_liveries             :BR Bauxite, BR Research Department, Railfreight, EWS, Private Owners
 
-STR_NAME_BR_VGA					:BR VGA/VKA Wagon
+STR_NAME_BR_VGA					:BR VGA/VKA Van
 str_BR_VGA_liveries				:Railfreight, EWS, DB Cargo
-
-STR_NAME_BR_OTA                 :BR OTA Timber Wagon
-str_BR_OTA_liveries             :Railfreight, EWS, Private Owners
 
 # London Underground Units
 STR_NAME_LU1938					:London Underground 1938 Stock (8-car, Deep Level)
