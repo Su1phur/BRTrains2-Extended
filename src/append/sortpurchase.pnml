@@ -89,6 +89,8 @@ sort(FEAT_TRAINS, [
     // BR 3rd Rail EMUs
     item_BR401,
     item_BR415,
+    item_BR465,
+        item_BR465_9,
     item_BR466,
     // Generic Coaches
     item_Evol_Clerestory_T,
