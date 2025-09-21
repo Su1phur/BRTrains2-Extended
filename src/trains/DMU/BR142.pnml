@@ -457,7 +457,7 @@ item (FEAT_TRAINS, item_BR142, 1420) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_diesel),
+                                                    string(str_purchase_type_dmu),
                                                     string(str_usage_pax),
                                                     string(str_BR142_liveries)));
     }
@@ -534,7 +534,7 @@ item (FEAT_TRAINS, item_BR142_1, 1421) {
 
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
-                                                    string(str_purchase_type_diesel),
+                                                    string(str_purchase_type_dmu),
                                                     string(str_usage_pax),
                                                     string(str_BR142_liveries)));
     }

@@ -737,7 +737,7 @@ str_BR90_liveries				:InterCity Swallow, Freightliner Grey, EWS, DB, Freightline
 
 STR_NAME_BR91           		:BR Class 91
 STR_NAME_BR91_IC225				:BR Class 91 "InterCity 225" (10-car)
-STR_NAME_BR91_IC225_P           :BR Class 91 "InterCity 225 Pullman" (9-car + Locomotive)
+STR_NAME_BR91_IC225_P           :BR Class 91 "InterCity 225 Pullman" (9-car)
 str_BR91_liveries				:InterCity Swallow, National Express, GNER, East Coast, Virgin East Coast
 
 STR_NAME_BR93					:BR Class 93 (Tri-Mode)

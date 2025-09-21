@@ -181,16 +181,13 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MCV_Late_BR_White, [STORE_TEMP((getbit
 
 
 // Randomizer
-switch(FEAT_TRAINS, SELF, random_choose_BR_MCV, switch_alternative_var_random_bits(1, 3)) {
-    0: sw_loadstack_BR_MCV_Early_BR_Grey;
-    1: sw_loadstack_BR_MCV_Late_BR_Bauxite;
-    2: sw_loadstack_BR_MCV_Late_BR_White;
-    3: sw_loadstack_BR_MCV_Late_BR_Bauxite;
-    4: sw_loadstack_BR_MCV_Late_NCB_Grey;
-    5: sw_loadstack_BR_MCV_Late_NCB_Black;
-    6: sw_loadstack_BR_MCV_Late_NCB_Grey;
-        sw_loadstack_BR_MCV_Late_BR_Grey;
-}
+random_switch(FEAT_TRAINS, SELF, random_choose_BR_MCV) {
+    1: sw_loadstack_BR_MCV_Early_BR_Grey;
+    2: sw_loadstack_BR_MCV_Late_BR_Bauxite;
+    1: sw_loadstack_BR_MCV_Late_BR_White;
+    2: sw_loadstack_BR_MCV_Late_NCB_Grey;
+    1: sw_loadstack_BR_MCV_Late_NCB_Black;
+    3: sw_loadstack_BR_MCV_Late_BR_Grey; }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_MCV, cargo_subtype) {
