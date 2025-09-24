@@ -1022,6 +1022,9 @@ STR_NAME_BR357					:BR Class 357 "Electrostar" (4-car)
 str_BR357_usage					:Surburban Passenger
 str_BR357_liveries				:C2C, C2C Blue, C2C Eco
 
+STR_NAME_BR365                  :BR Class 365 "Networker Express"
+STR_NAME_BR365_RB               :BR Class 365 "Networker Express" (Refurbished)
+str_BR365_liveries              :NSE, Connex, South East Trains, West Anglia Great Northern, First Capital Connect, Govia Great Northern, Abellio ScotRail
 
 STR_NAME_APTE					:BR "APT-E" Prototype (4-car)
 str_APTE_eos					:1972
@@ -1038,6 +1041,16 @@ STR_NAME_370_TRSB				:BR Class 370 Trailing Restaurant Standard Buffet
 STR_NAME_370_TU					:BR Class 370 Trailing Unclassified
 STR_NAME_370_NDM				:BR Class 370 Non-Driving Motor
 STR_NAME_370_DTS				:BR Class 370 Driving Trailing Standard
+
+STR_NAME_BR373					:BR Class 373/1 "Three Capitals" (20-car)
+STR_NAME_BR373Dual              :BR Class 373 "Three Capitals" (Dual Voltage) (20-car)
+str_BR373_liveries				:Eurostar
+
+STR_NAME_BR373_2				:BR Class 373/2 "North of London" (16-car)
+str_BR373_2_liveries			:Eurostar Debranded, GNER
+
+STR_NAME_BR374					:BR Class 374 "Velaro" (16-car)
+str_BR374_liveries				:Eurostar
 
 STR_NAME_BR375_3				:BR Class 375 "Electrostar" (3-Car)
 str_BR375_3_liveries			:Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Southeastern Blue Refurbished
@@ -1091,6 +1104,10 @@ str_BR387__usage					:Regional Passenger
 str_BR387__eos					:---
 str_BR387__liveries				:Govia Thameslink, Gatwick Express (Branded & Unbranded), GWR Green (Brended & Unbranded), c2c
 
+STR_NAME_BR380_0                :BR Class 380/0 "Desiro" (3-car)
+STR_NAME_BR380_1                :BR Class 380/1 "Desiro" (4-car)
+str_BR380_liveries              :ScotRail Saltire
+
 STR_NAME_BR390					:BR Class 390/0 "Pendolino" (9-car)
 STR_NAME_BR390_11				:BR Class 390/1 "Pendolino" (11-car)
 str_BR390_liveries				:Virgin Trains
@@ -1106,20 +1123,6 @@ STR_NAME_390_DMSO				:BR Class 390 Driving Motor Standard Open
 
 STR_NAME_BR395					:BR Class 395 "Javelin" (6-car, Dual Voltage)
 str_BR395_liveries				:Southeastern
-
-STR_NAME_BR373					:BR Class 373/1 "Three Capitals" (20-car)
-STR_NAME_BR373Dual              :BR Class 373 "Three Capitals" (Dual Voltage) (20-car)
-str_BR373_liveries				:Eurostar
-
-STR_NAME_BR373_2				:BR Class 373/2 "North of London" (16-car)
-str_BR373_2_liveries			:Eurostar Debranded, GNER
-
-STR_NAME_BR374					:BR Class 374 "Velaro" (16-car)
-str_BR374_liveries				:Eurostar
-
-STR_NAME_BR380_0                :BR Class 380/0 "Desiro" (3-car)
-STR_NAME_BR380_1                :BR Class 380/1 "Desiro" (4-car)
-str_BR380_liveries              :ScotRail Saltire
 
 STR_NAME_BR401_SR               :SR 2-BIL 
 STR_NAME_BR401                  :BR Class 401 "2-BIL"
@@ -1631,6 +1634,7 @@ str_LU2024_liveries				:London Underground
 
 str_AGA							: (Abellio Greater Anglia)
 str_AGAAltLights				: (Abellio Greater Anglia - Alternative Lights)
+str_ASR                         : (Abellio ScotRail)
 str_AggregateIndustries         : (Aggregate Industries)
 str_AlphaWales					: (Alphaline Wales and Borders)
 str_AlphaWessex					: (Alphaline Wessex)
@@ -1757,7 +1761,7 @@ str_FGW							: (First Great Western)
 str_FGWFag						: (First Great Western - Fag Packet)
 str_FGWDL						: (First Great Western - Dynamic Lines)
 str_FGWL                        : (First Great Western Link)
-str_fcc							: (First Capital Connect)
+str_FCC							: (First Capital Connect)
 str_FirstGroup					: (First Group)
 str_FirstLink					: (First Link)
 str_FirstScotRail			    : (First ScotRail)	
@@ -1804,15 +1808,14 @@ str_GNER						: (Great North Eastern Railway)
 str_GlasgowCorporation          : (Glasgow Corporation)
 str_GoCoop                      : (Go Coperative)
 str_GreaterAnglia               : (Greater Anglia)
-str_GreatNorthern               : (Govia Great Northern)
 str_GreatWestern                : (Great Western)
-str_Grey                        : (Grey)
 str_GRFTest1				    : (GRF Test Livery)
 str_GRFTest2					: (GRF Test Livery)
+str_GGN                         : (Govia Great Northern)
 str_GTR							: (Govia Thameslink)
 str_GTR_TBW						: (Govia - Tunbridge Wells)
-str_gtrb						: (Govia Thameslink - Blue)
-str_gtrp						: (Govia Thameslink - Pink)
+str_GTRB						: (Govia Thameslink - Blue)
+str_GTRP						: (Govia Thameslink - Pink)
 str_GTRPride					: (Govia Thameslink - Pride)
 str_Gulf                        : (Gulf)
 str_GNRGreen					: (GNR - Green)
