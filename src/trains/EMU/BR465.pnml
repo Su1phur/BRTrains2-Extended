@@ -992,14 +992,14 @@ item (FEAT_TRAINS, item_BR465_9, 4659) {
         // graphics
         default:                        sw_livery_BR465_9;
         // visual_effect_and_powered:      sw_FX_BR465_Electric;
-        purchase:                       sw_BR465_purchase_sprite;
+        purchase:                       sw_BR465_9_purchase_sprite;
         sound_effect:                   sw_networker_sound;
 
         // internal code
         length:                         sw_length_BR465;
         articulated_part:               sw_articulated_BR465_9;
         purchase_cargo_capacity:        return (26 * param_pax); // divide by number of articulated parts and floor
-        cargo_capacity:                 sw_capacity_BR465;
+        cargo_capacity:                 sw_capacity_BR465_9;
         cost_factor:                    344;
         running_cost_factor:            7582;
         cargo_subtype_text:             sw_BR465_cargo_subtype_text; 

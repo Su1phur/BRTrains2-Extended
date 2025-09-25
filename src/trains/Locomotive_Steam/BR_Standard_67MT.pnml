@@ -228,7 +228,7 @@ item (FEAT_TRAINS, item_BR_Standard_6, 7201) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    92;
-        running_cost_factor:            6736;
+        running_cost_factor:            13472;
         cargo_subtype_text:             sw_BR_Standard_67_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
@@ -236,7 +236,7 @@ item (FEAT_TRAINS, item_BR_Standard_6, 7201) {
         // purchase menu text
         additional_text:                return( string(str_purchase_loco_with_liveries,
                                                     string(str_purchase_type_steam),
-                                                    string(str_usage_expr_pax),
+                                                    string(str_usage_mixed_traffic),
                                                     string(str_BR_Big_Standards_liveries)));
     }
 }
@@ -295,7 +295,7 @@ item (FEAT_TRAINS, item_BR_Standard_7, 7002) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    98;
-        running_cost_factor:            6517;
+        running_cost_factor:            6514;
         cargo_subtype_text:             sw_BR_Standard_67_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;
