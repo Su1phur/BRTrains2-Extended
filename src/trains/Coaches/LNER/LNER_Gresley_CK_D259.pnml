@@ -124,12 +124,12 @@ switch(FEAT_TRAINS, SELF, sw_articulated_LNER_Gresley_CK_D259, extra_callback_in
 
 
 // unit definition
-item (FEAT_TRAINS, item_LNER_Gresley_CK_D259, 11505) {
+item (FEAT_TRAINS, item_LNER_Gresley_CK_D259, 11507) {
     property {
         // common properties
         name:                           string(STR_NAME_LNER_Gresley_CK_D259);
-        // variant_group:                  ; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        variant_group:                  item_LNER_Gresley_FS_Header; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1938,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -178,7 +178,7 @@ item (FEAT_TRAINS, item_LNER_Gresley_CK_D259, 11505) {
         // purchase menu text
         additional_text:                return( string(str_purchase_coach,
                                                 string(str_coach_TK),
-                                                string(str_LNER_Gresley_CK_D259_liveries)));
+                                                string(str_LNER_Gresley_FS_liveries)));
     }
 }
 

@@ -1,0 +1,10 @@
+item(FEAT_TRAINS, item_LNER_Gresley_FS_Header, 11508) {
+    property {
+        name:                           string(STR_NAME_LNER_Gresley_FS);
+		climates_available: 			NO_CLIMATE;					
+		sprite_id:						SPRITE_ID_NEW_TRAIN;
+	}
+	graphics {	
+		purchase:						sw_LNER_Gresley_CK_D259_purchase_sprite;	
+	}
+}
