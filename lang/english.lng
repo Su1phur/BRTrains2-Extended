@@ -1100,7 +1100,7 @@ STR_LNER_CorSet_liveries        :LNER Coronation Garter Blue, BR Carmine and Cre
 STR_NAME_LNER_Gresley_FS            :LNER Gresley "Flying Scotsman" Coaches
 STR_NAME_LNER_Gresley_CK_D259       :LNER Gresley 61'6" Flying Scotsman CK
 STR_NAME_LNER_Gresley_BTK_D261      :LNER Gresley 61'6" Flying Scotsman BTK
-str_LNER_Gresley_FS_liveries   :LNER Teak, BR Maroon, BR Carmine and Cream, BR Blue
+str_LNER_Gresley_FS_liveries        :LNER Teak, BR Maroon, BR Carmine and Cream, BR Blue
 
 STR_NAME_LNER_Gresley_616TK		    :LNER Gresley 61' 6" TK
 str_LNER_Gresley_616TK_liveries		:LNER "Teak", LNER "Blood and Custard", BR Maroon, BR Blue
@@ -1265,6 +1265,9 @@ str_RCH_1907_liveries           :Grey, Bauxite, Misc. Private Owners
 # GWR Wagons
 STR_NAME_GWR_Mink_G             :GWR "Mink G" Goods Van
 str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
+
+STR_NAME_GWR_SiphonG_O11        :GWR Siphon G Milk Van
+str_GWR_SiphonG_O11_liveries    :GWR Brown, GWR Grey, BR Maroon, BR Blue
 
 # SR Wagons
 STR_NAME_Milk_Tank              :6-wheeled Milk Tank

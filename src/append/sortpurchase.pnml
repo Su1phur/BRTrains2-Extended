@@ -143,6 +143,8 @@ sort(FEAT_TRAINS, [
         item_RCH_1907_5_Plank,
         item_RCH_1907_7_Plank,
         item_RCH_1907_Van,
+    // GWR Wagons
+    item_GWR_SiphonG_O11,
     // SR Wagons
     item_Milk_Tank,
     // LNER Pre-Grouping Wagons
