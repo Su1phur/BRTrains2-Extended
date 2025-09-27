@@ -1053,6 +1053,10 @@ STR_NAME_BR700_2				:BR Class 700/1 "Desiro City" (10-car)
 STR_NAME_BR707					:BR Class 707 "Desiro City"
 str_BR707_liveries				:South Western Trains, Southeastern
 
+STR_NAME_BR710_1_2              :BR Class 710/1/2 "Aventra Overground" (4-car)
+STR_NAME_BR710_3                :BR Class 710/3 "Aventra Overground" (5-car)
+str_BR710_liveries              :London Overground
+
 STR_NAME_BR717					:BR Class 717 "Desiro City"
 str_BR717_liveries				:Govia Great Northern
 
@@ -1597,6 +1601,10 @@ str_LondonMidland				: (London Midland)
 str_LSE							: (London and South East - Jaffa Cake)
 str_LSWRSageGreen               : (LSWR - Sage Green)
 str_LTS							: (LTS Rail)
+str_LO					        : (London Overground)
+str_LO_Aventra			        : (London Overground - Fake Aventra)
+str_LO_5_Celeb					: (London Overground - 5-Car Celebration)
+str_LO_Pride       				: (London Overground - Pride)
 str_LU_TfL						: (London Underground)
 str_LU_Prefurb                  : (London Underground - Pre-Refurb)
 str_LULPoppies					: (London Underground - Poppies)
@@ -1650,10 +1658,6 @@ str_ONE							: (One)
 str_ONEChapelf					: (One - Chapelfield)
 str_ONEGhost					: (One - Ghost White)
 str_ONETrans					: (One - Transitional)
-str_overground					: (London Overground)
-str_overgroundAventra			: (London Overground - Fake Aventra)
-str_overground5					: (London Overground - 5-Car Celebration)
-str_overgroundPride				: (London Overground - Pride)
 str_Police						: (Police)
 str_PPMProto                    : (Parry People Mover - Prototype)
 str_Porterbrook					: (Porterbrook - Purple)

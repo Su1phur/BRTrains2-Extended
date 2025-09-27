@@ -94,6 +94,9 @@ sort(FEAT_TRAINS, [
     item_BR465,
         item_BR465_9,
     item_BR466,
+    // BR Modern EMUs
+    item_BR710_1_2,
+        item_BR710_3,
     // Generic Coaches
     item_Evol_Clerestory_T,
     // GWR Coaches
