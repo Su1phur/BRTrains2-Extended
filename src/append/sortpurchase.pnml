@@ -97,6 +97,10 @@ sort(FEAT_TRAINS, [
     // BR Modern EMUs
     item_BR710_1_2,
         item_BR710_3,
+    item_BR720_1,
+        item_BR720_1_10,
+        item_BR720_6,
+        item_BR720_6_10,
     // Generic Coaches
     item_Evol_Clerestory_T,
     // GWR Coaches
