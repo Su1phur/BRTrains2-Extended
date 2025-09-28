@@ -660,7 +660,7 @@ item (FEAT_TRAINS, item_BR166, 1660) {
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
         air_drag_coefficient:           0.09;
-        tractive_effort_coefficient:    0.3;
+        tractive_effort_coefficient:    0.1;
         length:                         8;
     }
 

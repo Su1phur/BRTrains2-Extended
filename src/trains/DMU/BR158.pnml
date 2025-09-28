@@ -700,8 +700,8 @@ item (FEAT_TRAINS, item_BR158, 1580) {
         weight:                         76 ton;
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
-        air_drag_coefficient:           0.09;
-        tractive_effort_coefficient:    0.09;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.1;
         length:                         8;
     }
 
@@ -836,8 +836,8 @@ item (FEAT_TRAINS, item_BR158_3, 1581) {
         weight:                         113 ton;
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
-        air_drag_coefficient:           0.09;
-        tractive_effort_coefficient:    0.09;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.1;
         length:                         8;
     }
 

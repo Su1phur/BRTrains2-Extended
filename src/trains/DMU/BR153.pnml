@@ -197,8 +197,8 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
         weight:                         41 ton;
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
-        air_drag_coefficient:           0.11;
-        tractive_effort_coefficient:    0.09;
+        air_drag_coefficient:           0.05;
+        tractive_effort_coefficient:    0.1;
         length:                         8;
     }
 
