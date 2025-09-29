@@ -224,24 +224,27 @@ item (FEAT_TRAINS, item_BR_Mk4_DVT, 12161) {
         speed:                          125 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
+        power:                          10 hp;
         weight:                         44 ton;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.07;
+        tractive_effort_coefficient:    0.03;
         length:                         8;
     }
 
     graphics {
         // graphics
         default:                        sw_rear_BR_Mk4_DVT;
+        visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
         purchase:                       sw_BR_Mk4_DVT_purchase_sprite;
         
         // internal code
         length:                         sw_length_BR_Mk4_DVT;
         articulated_part:               sw_articulated_BR_Mk4_DVT;
         speed:                          sw_speed_BR_Mk4_DVT() * 1609 / 1000;  
-        cost_factor:                    2713;
-        running_cost_factor:            2018;
+        cost_factor:                    94;
+        running_cost_factor:            4920;
         cargo_subtype_text:             sw_BR_Mk4_DVT_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

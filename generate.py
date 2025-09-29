@@ -15,7 +15,7 @@ bulk = {"bulk"}
 loading = {"loading"}
 dual_mode = {"panto_up", "panto_down"}
 anim = {"anim"}
-ignore = {"menu", "masked", "old"}
+ignore = {"menu", "masked", "old", "blank"}
 
 def classify_vox_files(vox_files: set[Path]):
     groups = defaultdict(list)

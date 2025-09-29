@@ -720,7 +720,7 @@ item (FEAT_TRAINS, item_BR720_1_10, 7202) {
         length:                         sw_length_BR720;
         articulated_part:               sw_articulated_BR720_1_10;
         purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
-        cargo_capacity:                 sw_capacity_BR720_1;
+        cargo_capacity:                 sw_capacity_BR720_1_10;
         cost_factor:                    613;
         running_cost_factor:            27765;
         cargo_subtype_text:             sw_BR720_1_cargo_subtype_text; 

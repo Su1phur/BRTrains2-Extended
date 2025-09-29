@@ -139,7 +139,7 @@ item (FEAT_TRAINS, item_BR254, 2540) {
         weight:                         469 ton;
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
-        air_drag_coefficient:           0.07;
+        air_drag_coefficient:           0.05;
         tractive_effort_coefficient:    0.04;
         length:                         8;
     }

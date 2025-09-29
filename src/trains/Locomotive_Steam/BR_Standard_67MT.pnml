@@ -228,7 +228,7 @@ item (FEAT_TRAINS, item_BR_Standard_6, 7201) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    92;
-        running_cost_factor:            13472;
+        running_cost_factor:            6158;
         cargo_subtype_text:             sw_BR_Standard_67_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

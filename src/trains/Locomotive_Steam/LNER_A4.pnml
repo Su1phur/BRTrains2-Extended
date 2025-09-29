@@ -148,6 +148,16 @@ spriteset(spriteset_LNER_A4_LNER_Garter_Blue, "gfx\Locomotive_Steam\LNER_A4\LNER
     alternative_sprites(spriteset_LNER_A4_LNER_Garter_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_A4\LNER_A4_LNER_Garter_Blue_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_A4\LNER_A4_LNER_Garter_Blue_4x_mask.png")
     { template_98trains_4x(0,0) }
 
+spriteset(spriteset_LNER_A4_LNER_Garter_Blue_purchase, "gfx\Locomotive_Steam\LNER_A4\LNER_A4_LNER_Garter_Blue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LNER_A4_LNER_Garter_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_A4\LNER_A4_LNER_Garter_Blue_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_A4\LNER_A4_LNER_Garter_Blue_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A4_LNER_Garter_Blue_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_LNER_A4_LNER_Garter_Blue_purchase;
+    1: spriteset_LNER_A4_Valance_Anim_purchase; }
+
 // basic sprites
 spriteset(spriteset_LNER_A4_LNER_Silver, "gfx\Locomotive_Steam\LNER_A4\LNER_A4_LNER_Silver_1x_8bpp.png")
     { template_98trains_1x(0,0) }
@@ -318,8 +328,8 @@ switch(FEAT_TRAINS, SELF, sw_LNER_A4_cargo_subtype_text, cargo_subtype){
 
 switch(FEAT_TRAINS, SELF, sw_LNER_A4_purchase_sprite, current_year) {
     1934..1948: sw_spritestack_LNER_A4_LNER_Apple_Green_purchase;
-        sw_spritestack_LNER_A4_BR_Green_purchase;
-}
+    1949..1968: sw_spritestack_LNER_A4_BR_Green_purchase;
+        sw_spritestack_LNER_A4_LNER_Garter_Blue_purchase; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_A4, position_in_articulated_veh % 4) {

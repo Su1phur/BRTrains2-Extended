@@ -253,7 +253,7 @@ item (FEAT_TRAINS, item_GCR_9J, 6420) {
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    47;
-        running_cost_factor:            3434;
+        running_cost_factor:            3140;
         cargo_subtype_text:             sw_GCR_9J_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
