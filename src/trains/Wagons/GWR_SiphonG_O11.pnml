@@ -152,7 +152,7 @@ item (FEAT_TRAINS, item_GWR_SiphonG_O11, 11407) {
         length:                         sw_length_GWR_SiphonG_O11;
         articulated_part:               sw_articulated_GWR_SiphonG_O11;
         speed:                          sw_speed_GWR_SiphonG_O11() * 1609 / 1000;  
-        purchase_cargo_capacity:        return (15 * param_freight); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return (5 * param_freight); // divide by number of articulated parts and floor
         cost_factor:                    385;
         running_cost_factor:            1568;
         cargo_subtype_text:             sw_GWR_SiphonG_O11_cargo_subtype_text; 

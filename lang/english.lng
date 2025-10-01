@@ -938,6 +938,14 @@ STR_NAME_BR401_SR               :SR 2-BIL
 STR_NAME_BR401                  :BR Class 401 "2-BIL"
 str_BR401_liveries              :SR Green, BR Green, BR Blue
 
+STR_NAME_BR404_SR               :SR 4-COR
+STR_NAME_BR404                  :BR Class 404 "4-COR"
+STR_NAME_BR404_1_SR             :SR 4-RES
+STR_NAME_BR404_1                :BR Class 404 "4-RES"
+STR_NAME_BR404_2_SR             :SR 4-BUF
+STR_NAME_BR404_2                :BR Class 404 "4-BUF"
+str_BR404_liveries              :SR Green, BR Green, BR Blue
+
 STR_NAME_BR411					:BR Class 411 "4-CEP"
 str_BR411_usage					:Passenger
 str_BR411_liveries				:BR Green, BR Blue Grey, London & South Eastern "Jaffa Cake", NSE, South West Trains, Connex, Ex-South West Trains

@@ -70,9 +70,9 @@ spritegroup spritegroup_BR720_DMSO_c2c_Loading_REV {
     loaded: [spriteset_empty];
     loading: [spriteset_BR720_DMSO_c2c_Loading_REV]; }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSO_c2c_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR720_DMSO_c2c_REV;
-    1: spritegroup_BR720_DMSO_c2c_Loading_REV; }
+// switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSO_c2c_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_BR720_DMSO_c2c_REV;
+//     1: spritegroup_BR720_DMSO_c2c_Loading_REV; }
 
 // basic sprite
 spriteset(spriteset_BR720_DMSO_GA, "gfx\EMU\BR720\BR720_DMSO_GA_1x_8bpp.png")
@@ -145,9 +145,9 @@ spritegroup spritegroup_BR720_DMSO_GA_Loading_REV {
     loaded: [spriteset_empty];
     loading: [spriteset_BR720_DMSO_GA_Loading_REV]; }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSO_GA_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR720_DMSO_GA_REV;
-    1: spritegroup_BR720_DMSO_GA_Loading_REV; }
+// switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSO_GA_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_BR720_DMSO_GA_REV;
+//     1: spritegroup_BR720_DMSO_GA_Loading_REV; }
 
 // basic sprite
 spriteset(spriteset_BR720_DMSOD_c2c, "gfx\EMU\BR720\BR720_DMSOD_c2c_1x_8bpp.png")
@@ -162,9 +162,9 @@ spriteset(spriteset_BR720_DMSOD_c2c, "gfx\EMU\BR720\BR720_DMSOD_c2c_1x_8bpp.png"
     alternative_sprites(spriteset_BR720_DMSOD_c2c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR720\BR720_DMSOD_c2c_4x_32bpp.png", "gfx\EMU\BR720\BR720_DMSOD_c2c_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSOD_c2c, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR720_DMSOD_c2c;
-    1: spritegroup_BR720_DMSO_c2c_Loading; }
+// switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSOD_c2c, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_BR720_DMSOD_c2c;
+//     1: spritegroup_BR720_DMSO_c2c_Loading; }
 
 // basic sprite
 spriteset(spriteset_BR720_DMSOD_c2c_REV, "gfx\EMU\BR720\BR720_DMSOD_c2c_1x_8bpp.png")
@@ -196,9 +196,9 @@ spriteset(spriteset_BR720_DMSOD_GA, "gfx\EMU\BR720\BR720_DMSOD_GA_1x_8bpp.png")
     alternative_sprites(spriteset_BR720_DMSOD_GA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR720\BR720_DMSOD_GA_4x_32bpp.png", "gfx\EMU\BR720\BR720_DMSOD_GA_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSOD_GA, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_BR720_DMSOD_GA;
-    1: spritegroup_BR720_DMSO_GA_Loading; }
+// switch(FEAT_TRAINS, SELF, sw_loadstack_BR720_DMSOD_GA, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+//     0: spriteset_BR720_DMSOD_GA;
+//     1: spritegroup_BR720_DMSO_GA_Loading; }
 
 // basic sprite
 spriteset(spriteset_BR720_DMSOD_GA_REV, "gfx\EMU\BR720\BR720_DMSOD_GA_1x_8bpp.png")

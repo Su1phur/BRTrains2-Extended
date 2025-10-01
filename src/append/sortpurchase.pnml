@@ -90,6 +90,9 @@ sort(FEAT_TRAINS, [
         item_BR380_1,
     // BR 3rd Rail EMUs
     item_BR401,
+    item_BR404,
+        item_BR404_1,
+        item_BR404_2,
     item_BR415,
     item_BR465,
         item_BR465_9,
