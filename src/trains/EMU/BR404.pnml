@@ -713,7 +713,6 @@ switch(FEAT_TRAINS, PARENT, sw_reverse_BR404_TRTK_TRF_BR_Blue, vehicle_is_revers
     0: spriteset_BR404_TRTK_BR_Blue; 
         spriteset_BR404_TRF_BR_Blue_REV; }
 
-
 switch(FEAT_TRAINS, PARENT, sw_reverse_BR404_TCK_TTK_BR_Green, vehicle_is_reversed) {
     0: spriteset_BR404_TCK_BR_Green; 
         spriteset_BR404_TTK_BR_Green_REV; }
@@ -808,7 +807,6 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR404_BUF_BR_Blue, position_in_articulated
     10: spriteset_BR404_DMBTO_BR_Blue_REV;
 	    spriteset_empty; }
 
-
 switch(FEAT_TRAINS, SELF, sw_graphics_BR404_COR_BR_Green_YellowFront, position_in_articulated_veh % 12) {
 	1:  spriteset_BR404_DMBTO_BR_Green_YellowFront;
     4:  sw_reverse_BR404_TCK_TTK_BR_Green;
@@ -829,7 +827,6 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR404_BUF_BR_Green_YellowFront, position_i
     7:  sw_reverse_BR404_TRBK_TCK_BR_Green;
     10: spriteset_BR404_DMBTO_BR_Green_YellowFront_REV;
 	    spriteset_empty; }
-
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR404_COR_BR_Green_YellowPanel, position_in_articulated_veh % 12) {
 	1:  spriteset_BR404_DMBTO_BR_Green_YellowPanel;
@@ -941,26 +938,23 @@ switch(FEAT_TRAINS, SELF, sw_capacity_BR404_RES, position_in_vehid_chain % 12) {
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR404_BUF, position_in_vehid_chain % 12) {
-    0: 173 * param_pax; // all the capacity - (vehid chain number)
+    0: 163 * param_pax; // all the capacity - (vehid chain number)
     1..11: 1 * param_pax;
-    // total 184
+    // total 174
 }
-
 
 // name switch
 switch (FEAT_TRAINS, SELF, sw_name_BR404, current_year) {
     1935..1948: string(STR_NAME_BR404_SR);
         string(STR_NAME_BR404); }
 
-// name switch
-switch (FEAT_TRAINS, SELF, sw_name_BR404_1, current_year) {
-    1935..1948: string(STR_NAME_BR404_1_SR);
-        string(STR_NAME_BR404_1); }
+switch (FEAT_TRAINS, SELF, sw_name_BR404_RES, current_year) {
+    1935..1948: string(STR_NAME_BR404_RES_SR);
+        string(STR_NAME_BR404_RES); }
 
-// name switch
-switch (FEAT_TRAINS, SELF, sw_name_BR404_2, current_year) {
-    1935..1948: string(STR_NAME_BR404_2_SR);
-        string(STR_NAME_BR404_2); }
+switch (FEAT_TRAINS, SELF, sw_name_BR404_BUF, current_year) {
+    1935..1948: string(STR_NAME_BR404_BUF_SR);
+        string(STR_NAME_BR404_BUF); }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR404, extra_callback_info1) {
@@ -1034,15 +1028,15 @@ item (FEAT_TRAINS, item_BR404, 4040) {
 
 
 // articulation switch
-switch(FEAT_TRAINS, SELF, sw_articulated_BR404_1, extra_callback_info1) {
-	1..11: return item_BR404_1;
+switch(FEAT_TRAINS, SELF, sw_articulated_BR404_RES, extra_callback_info1) {
+	1..11: return item_BR404_RES;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
-item (FEAT_TRAINS, item_BR404_1, 4041) {
+item (FEAT_TRAINS, item_BR404_RES, 4041) {
     property {
         // common properties
-        name:                           string(STR_NAME_BR404_1);
+        name:                           string(STR_NAME_BR404_RES);
         variant_group:                  item_BR404; // unit ID or item
 		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
@@ -1085,9 +1079,9 @@ item (FEAT_TRAINS, item_BR404_1, 4041) {
         // sound_effect:                   ;
 
         // internal code
-        name:                           sw_name_BR404_1;
+        name:                           sw_name_BR404_RES;
         // length:                         sw_length_BR404;
-        articulated_part:               sw_articulated_BR404_1;  
+        articulated_part:               sw_articulated_BR404_RES;  
         purchase_cargo_capacity:        return ( 15 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR404_RES;
         cost_factor:                    164;
@@ -1106,15 +1100,15 @@ item (FEAT_TRAINS, item_BR404_1, 4041) {
 
 
 // articulation switch
-switch(FEAT_TRAINS, SELF, sw_articulated_BR404_2, extra_callback_info1) {
-	1..11: return item_BR404_2;
+switch(FEAT_TRAINS, SELF, sw_articulated_BR404_BUF, extra_callback_info1) {
+	1..11: return item_BR404_BUF;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
-item (FEAT_TRAINS, item_BR404_2, 4042) {
+item (FEAT_TRAINS, item_BR404_BUF, 4042) {
     property {
         // common properties
-        name:                           string(STR_NAME_BR404_2);
+        name:                           string(STR_NAME_BR404_BUF);
         variant_group:                  item_BR404; // unit ID or item
 		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
@@ -1157,13 +1151,13 @@ item (FEAT_TRAINS, item_BR404_2, 4042) {
         // sound_effect:                   ;
 
         // internal code
-        name:                           sw_name_BR404_2;
+        name:                           sw_name_BR404_BUF;
         // length:                         sw_length_BR404;
-        articulated_part:               sw_articulated_BR404_2;  
-        purchase_cargo_capacity:        return ( 15 * param_pax); // divide by number of articulated parts and floor
+        articulated_part:               sw_articulated_BR404_BUF;  
+        purchase_cargo_capacity:        return ( 14 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR404_BUF;
-        cost_factor:                    164;
-        running_cost_factor:            3974;
+        cost_factor:                    159;
+        running_cost_factor:            3964;
         cargo_subtype_text:             sw_BR404_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

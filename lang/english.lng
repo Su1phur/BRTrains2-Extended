@@ -940,10 +940,10 @@ str_BR401_liveries              :SR Green, BR Green, BR Blue
 
 STR_NAME_BR404_SR               :SR 4-COR
 STR_NAME_BR404                  :BR Class 404 "4-COR"
-STR_NAME_BR404_1_SR             :SR 4-RES
-STR_NAME_BR404_1                :BR Class 404 "4-RES"
-STR_NAME_BR404_2_SR             :SR 4-BUF
-STR_NAME_BR404_2                :BR Class 404 "4-BUF"
+STR_NAME_BR404_RES_SR           :SR 4-RES
+STR_NAME_BR404_RES              :BR Class 404 "4-RES"
+STR_NAME_BR404_BUF_SR           :SR 4-BUF
+STR_NAME_BR404_BUF              :BR Class 404 "4-BUF"
 str_BR404_liveries              :SR Green, BR Green, BR Blue
 
 STR_NAME_BR411					:BR Class 411 "4-CEP"
