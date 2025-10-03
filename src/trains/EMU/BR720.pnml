@@ -567,8 +567,25 @@ switch(FEAT_TRAINS, SELF, sw_BR720_6_cargo_subtype_text, cargo_subtype) {
         return CB_RESULT_NO_TEXT; }
 
 // length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR720, position_in_articulated_veh % 3) {
+switch(FEAT_TRAINS, SELF, sw_length_BR720_5_car, position_in_articulated_veh % 15) {
 	1: 7;
+    4: 7;
+    7: 7;
+    10: 7;
+    13: 7;
+	    4; }
+
+switch(FEAT_TRAINS, SELF, sw_length_BR720_10_car, position_in_articulated_veh % 30) {
+	1: 7;
+    4: 7;
+    7: 7;
+    10: 7;
+    13: 7;
+    16: 7;
+    19: 7;
+    22: 7;
+    25: 7;
+    28: 7;
 	    4; }
 
 // capacity switch
@@ -648,7 +665,7 @@ item (FEAT_TRAINS, item_BR720_1, 7200) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR720;
+        length:                         sw_length_BR720_5_car;
         articulated_part:               sw_articulated_BR720_1;
         purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR720_1;
@@ -667,7 +684,7 @@ item (FEAT_TRAINS, item_BR720_1, 7200) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR720_1_10, extra_callback_info1) {
-	1..30: return item_BR720_1_10;
+	1..29: return item_BR720_1_10;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
@@ -717,7 +734,7 @@ item (FEAT_TRAINS, item_BR720_1_10, 7202) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR720;
+        length:                         sw_length_BR720_10_car;
         articulated_part:               sw_articulated_BR720_1_10;
         purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR720_1_10;
@@ -786,7 +803,7 @@ item (FEAT_TRAINS, item_BR720_6, 7206) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR720;
+        length:                         sw_length_BR720_5_car;
         articulated_part:               sw_articulated_BR720_6;
         purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR720_6;
@@ -805,7 +822,7 @@ item (FEAT_TRAINS, item_BR720_6, 7206) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR720_6_10, extra_callback_info1) {
-	1..30: return item_BR720_6_10;
+	1..29: return item_BR720_6_10;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
@@ -855,7 +872,7 @@ item (FEAT_TRAINS, item_BR720_6_10, 7205) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR720;
+        length:                         sw_length_BR720_10_car;
         articulated_part:               sw_articulated_BR720_6_10;
         purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR720_6_10;
