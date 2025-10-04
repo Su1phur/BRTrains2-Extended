@@ -78,27 +78,66 @@ switch(FEAT_TRAINS, SELF, sw_BR_FEA_cargo_subtype_text, cargo_subtype){
        return CB_RESULT_NO_TEXT; }
 
 // container switch
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_Cont4020_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_FEA;
-    1: sw_60Long_Cont40_Side_Dry_loadstage_current_year;
-    2: sw_60Long_Cont20_Side_Dry_loadstage_current_year; }
+    1: sw_60Long_Cont40_Lead_Dry_loadstage_current_year;
+    2: sw_60Long_Cont20_End_Dry_loadstage_current_year; }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_Cont4020_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_BR_FEA;
-    1: sw_60Long_Cont20_Side_Dry_loadstage_current_year;
-    2: sw_60Long_Cont40_Side_Dry_loadstage_current_year; }
+    1: sw_60Long_Cont20_End_Dry_loadstage_current_year;
+    2: sw_60Long_Cont40_Lead_Dry_loadstage_current_year; }
 
-switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_direction, direction) {
-    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_direction1;
-    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_direction1;
-    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_direction1;
-        sw_loadstack_BR_FEA_Dry_direction2; }
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Cont4020, direction) {
+    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_Cont4020_direction1;
+    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_Cont4020_direction1;
+    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_Cont4020_direction1;
+        sw_loadstack_BR_FEA_Dry_Cont4020_direction2; }
 
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_Cont2040_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_FEA;
+    1: sw_60Long_Cont20_Lead_Dry_loadstage_current_year;
+    2: sw_60Long_Cont40_End_Dry_loadstage_current_year; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_Cont2040_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_FEA;
+    1: sw_60Long_Cont40_End_Dry_loadstage_current_year;
+    2: sw_60Long_Cont20_Lead_Dry_loadstage_current_year; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Cont2040, direction) {
+    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_Cont2040_direction1;
+    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_Cont2040_direction1;
+    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_Cont2040_direction1;
+        sw_loadstack_BR_FEA_Dry_Cont2040_direction2; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_3Cont20_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_FEA;
+    1: sw_60Long_Cont20_Lead_Dry_loadstage_current_year;
+    2: sw_60Long_Cont20_Center_Dry_loadstage_current_year;
+    3: sw_60Long_Cont20_End_Dry_loadstage_current_year; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_3Cont20_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_BR_FEA;
+    1: sw_60Long_Cont20_End_Dry_loadstage_current_year;
+    2: sw_60Long_Cont20_Center_Dry_loadstage_current_year;
+    3: sw_60Long_Cont20_Lead_Dry_loadstage_current_year; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_3Cont20, direction) {
+    DIRECTION_SOUTHEAST: sw_loadstack_BR_FEA_Dry_3Cont20_direction1;
+    DIRECTION_SOUTH: sw_loadstack_BR_FEA_Dry_3Cont20_direction1;
+    DIRECTION_SOUTHWEST: sw_loadstack_BR_FEA_Dry_3Cont20_direction1;
+        sw_loadstack_BR_FEA_Dry_3Cont20_direction2; }
+
+// container orientation switch
+random_switch(FEAT_TRAINS, SELF, random_BR_FEA_Decide_Cont_Combination, bitmask(TRIGGER_VEHICLE_NEW_LOAD, TRIGGER_VEHICLE_UNLOAD_ALL)) {
+    3: sw_loadstack_BR_FEA_Cont2040;
+    3: sw_loadstack_BR_FEA_Cont4020;
+    2: sw_loadstack_BR_FEA_Dry_3Cont20; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_FEA, position_in_articulated_veh % 3) {
 	0: spriteset_empty;
-    1: sw_loadstack_BR_FEA_direction;
+    1: random_BR_FEA_Decide_Cont_Combination;
 	2: spriteset_empty; }
 
 // length switch

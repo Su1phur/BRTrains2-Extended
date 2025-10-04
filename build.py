@@ -22,7 +22,7 @@ SpecialOrderFiles = {
     "BR_Mk4_Header.pnml": ["BR_Mk4_DVT.pnml", "BR_Mk4_TF.pnml", "BR_Mk4_TFE.pnml", "BR_Mk4_TRFB.pnml", "BR_Mk4_TRSB.pnml", "BR_Mk4_TS.pnml", "BR_Mk4_TSD.pnml", "BR_Mk4_TSE.pnml", "BR91.pnml", "BR91_IC225.pnml"],
     "Containers_BR.pnml": ["BR_Conflat_A.pnml", "BR_Conflat_P.pnml"],
     "RCH_1907_graphics.pnml": ["1_Plank_Open_Wagons_Load.pnml", "3_Plank_Open_Wagons_Load.pnml", "5_Plank_Open_Wagons_Load.pnml", "RCH_1907.pnml", "RCH_1907_1_plank.pnml", "RCH_1907_3_plank.pnml", "RCH_1907_5_plank.pnml", "RCH_1907_7_plank.pnml", "RCH_1907_Van.pnml"],
-    "60Long_Cont20_Side.pnml": ["60Long_Cont40_Side.pnml", "BR_FEA.pnml"],
+    "60Long_Cont20_Side.pnml": ["60Long_Cont30_Side.pnml", "60Long_Cont40_Side.pnml", "BR_FFA.pnml","BR_FEA.pnml"],
     "LMS_4F.pnml" : ["MR_Tenders.pnml", "MR_3835.pnml", "LMS_Fowler_2P.pnml", "LMS_Fowler_4P.pnml",]
 }
 

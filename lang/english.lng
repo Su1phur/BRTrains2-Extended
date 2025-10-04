@@ -1317,6 +1317,11 @@ str_BR_Oxfit_liveries           :BR Bauxite
 STR_NAME_BR_FEA                 :BR FEA Container Flat Wagon
 str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
 
+STR_NAME_BR_FFA_2               :BR FFA Container Flat Wagon (2-car)
+STR_NAME_BR_FFA_3               :BR FFA Container Flat Wagon (3-car)
+STR_NAME_BR_FFA_5               :BR FFA Container Flat Wagon (5-car)
+str_BR_FFA_liveries             :Blue, Black, Red
+
 STR_NAME_BR_HAA                 :BR HAA/HFA 32t MGR Hopper
 str_BR_HAA_liveries             :BR Bauxite, Railfreight, Trainload, Mainline Freight
 
