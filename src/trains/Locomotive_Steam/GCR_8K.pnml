@@ -514,6 +514,11 @@ switch(FEAT_TRAINS, SELF, sw_LNER_O4_8_cargo_subtype_text, cargo_subtype){
        return CB_RESULT_NO_TEXT;
 }
 
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_LNER_O4_8, param_max_speed) {
+    0: 50; // operational speed
+    1: 75; // design speed
+}
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_O4_8, position_in_articulated_veh % 2) {
@@ -555,7 +560,7 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
 
         //specific properties
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        speed:                          40 mph;
+        speed:                          50 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
         power:                          2080 hp;
@@ -577,7 +582,7 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         // internal code
         length:                         sw_length_GCR_8K;
         articulated_part:               sw_articulated_LNER_O4_8;
-        speed:                          sw_speed_GCR_8K() * 1609 / 1000;  
+        speed:                          sw_speed_LNER_O4_8() * 1609 / 1000;  
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
         cost_factor:                    87;

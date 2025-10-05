@@ -152,8 +152,8 @@ switch(FEAT_TRAINS, SELF, sw_length_LNER_O1, position_in_articulated_veh % 2) {
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_LNER_O1, param_max_speed) {
-    0: 40; // operational speed
-    1: 60; // design speed
+    0: 60; // operational speed
+    1: 75; // design speed
 }
 
 // articulation switch
