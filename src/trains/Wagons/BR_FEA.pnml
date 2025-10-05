@@ -129,7 +129,7 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FEA_Dry_3Cont20, direction) {
         sw_loadstack_BR_FEA_Dry_3Cont20_direction2; }
 
 // container orientation switch
-random_switch(FEAT_TRAINS, SELF, random_BR_FEA_Decide_Cont_Combination, bitmask(TRIGGER_VEHICLE_NEW_LOAD, TRIGGER_VEHICLE_UNLOAD_ALL)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FEA_Decide_Cont_Combination) {
     3: sw_loadstack_BR_FEA_Cont2040;
     3: sw_loadstack_BR_FEA_Cont4020;
     2: sw_loadstack_BR_FEA_Dry_3Cont20; }

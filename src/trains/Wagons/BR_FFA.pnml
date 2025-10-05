@@ -345,36 +345,36 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_FFA_I_Cont2040, direction) {
         sw_loadstack_BR_FFA_I_Dry_Cont2040_direction2; }
 
 // container orientation switch
-random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_Decide_Cont_Combination_All, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_Decide_Cont_Combination_All) {
     1:  sw_loadstack_BR_FFA_O_Dry_3Cont20_direction; 
     1:  sw_loadstack_BR_FFA_O_2Cont30;
     1:  sw_loadstack_BR_FFA_O_Cont4020;
     1:  sw_loadstack_BR_FFA_O_Cont2040; }
 
-random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_REV_Decide_Cont_Combination_All, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_REV_Decide_Cont_Combination_All) {
     1:  sw_loadstack_BR_FFA_O_REV_Dry_3Cont20_direction;
     1:  sw_loadstack_BR_FFA_O_REV_2Cont30;
     1:  sw_loadstack_BR_FFA_O_REV_Cont4020;
     1:  sw_loadstack_BR_FFA_O_REV_Cont2040; }
 
-random_switch(FEAT_TRAINS, SELF, random_BR_FFA_I_Decide_Cont_Combination_All, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FFA_I_Decide_Cont_Combination_All) {
     1:  sw_loadstack_BR_FFA_I_Dry_3Cont20_direction;
     1:  sw_loadstack_BR_FFA_I_2Cont30;
     1:  sw_loadstack_BR_FFA_I_Cont4020;
     1:  sw_loadstack_BR_FFA_I_Cont2040; }
 
 // Partial, can be removed after additional 30ft Containers
-random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_Decide_Cont_Combination_Part, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_Decide_Cont_Combination_Part) {
     3:  sw_loadstack_BR_FFA_O_Dry_3Cont20_direction; 
     3:  sw_loadstack_BR_FFA_O_Cont4020;
     2:  sw_loadstack_BR_FFA_O_Cont2040; }
 
-random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_REV_Decide_Cont_Combination_Part, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FFA_O_REV_Decide_Cont_Combination_Part) {
     3:  sw_loadstack_BR_FFA_O_REV_Dry_3Cont20_direction;
     3:  sw_loadstack_BR_FFA_O_REV_Cont4020;
     2:  sw_loadstack_BR_FFA_O_REV_Cont2040; }
 
-random_switch(FEAT_TRAINS, SELF, random_BR_FFA_I_Decide_Cont_Combination_Part, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD)) {
+random_switch(FEAT_TRAINS, SELF, random_BR_FFA_I_Decide_Cont_Combination_Part) {
     3:  sw_loadstack_BR_FFA_I_Dry_3Cont20_direction;
     3:  sw_loadstack_BR_FFA_I_Cont4020;
     2:  sw_loadstack_BR_FFA_I_Cont2040; }

@@ -153,6 +153,24 @@ spritegroup spritegroup_60Long_Cont20_Lead_Era3_Dry_JRFBauxite {
     loaded: [spriteset_empty, spriteset_60Long_Cont20_Lead_Era3_Dry_JRFBauxite];
     loading: [spriteset_empty, spriteset_60Long_Cont20_Lead_Era3_Dry_JRFBauxite]; }
 
+// basic sprites
+spriteset(spriteset_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow, "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow {  
+    loaded: [spriteset_empty, spriteset_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow];
+    loading: [spriteset_empty, spriteset_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow]; }
+
 // basic sprite
 spriteset(spriteset_60Long_Cont20_Lead_Era3_Dry_NERV, "gfx\Cargo\60Long_Cont20_Lead\60Long_Cont20_Lead_Era3_Dry_NERV_1x_8bpp.png")
     { template_138trains_1x(0,0) }
@@ -325,6 +343,24 @@ spritegroup spritegroup_60Long_Cont20_Center_Era3_Dry_Cosco {
 // spritegroup spritegroup_60Long_Cont20_Center_Era3_Dry_JRFBauxite {
 //     loaded: [spriteset_empty, spriteset_60Long_Cont20_Center_Era3_Dry_JRFBauxite];
 //     loading: [spriteset_empty, spriteset_60Long_Cont20_Center_Era3_Dry_JRFBauxite]; }
+
+// basic sprites
+spriteset(spriteset_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow, "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow {  
+    loaded: [spriteset_empty, spriteset_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow];
+    loading: [spriteset_empty, spriteset_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow]; }
 
 // basic sprite
 // spriteset(spriteset_60Long_Cont20_Center_Era3_Dry_NERV, "gfx\Cargo\60Long_Cont20_Center\60Long_Cont20_Center_Era3_Dry_NERV_1x_8bpp.png")
@@ -511,6 +547,23 @@ spriteset(spriteset_60Long_Cont20_End_Era3_Dry_JRFBauxite, "gfx\Cargo\60Long_Con
     alternative_sprites(spriteset_60Long_Cont20_End_Era3_Dry_JRFBauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_JRFBauxite_4x_32bpp.png", "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_JRFBauxite_4x_mask.png")
         { template_138trains_4x(0,0) }
 
+// basic sprites
+spriteset(spriteset_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow, "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_1x_mask.png")
+    { template_138trains_1x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_2x_mask.png")
+    { template_138trains_2x(0,0) }
+
+    alternative_sprites(spriteset_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx\Cargo\60Long_Cont20_End\60Long_Cont20_End_Era3_Dry_Maersk_Rainbow_4x_mask.png")
+    { template_138trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow {  
+    loaded: [spriteset_empty, spriteset_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow];
+    loading: [spriteset_empty, spriteset_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow]; }
 
 spritegroup spritegroup_60Long_Cont20_End_Era3_Dry_JRFBauxite {
     loaded: [spriteset_empty, spriteset_60Long_Cont20_End_Era3_Dry_JRFBauxite];
@@ -589,40 +642,50 @@ random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_End_Era2_Chem_loadstage, b
     1: spritegroup_60Long_Cont20_End_Era2_Chem_Yellow; }
 
 random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_Lead_Era2_Dry_loadstage, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    independent: random_60Long_Cont20_End_Era2_Dry_loadstage;
     1: spritegroup_60Long_Cont20_Lead_Era2_Dry_Bauxite;
     1: spritegroup_60Long_Cont20_Lead_Era2_Dry_DB;
-    1: spritegroup_60Long_Cont20_Lead_Era2_Dry_Maersk;}
+    1: spritegroup_60Long_Cont20_Lead_Era2_Dry_Maersk; 
+    1: spritegroup_60Long_Cont20_Lead_Era1_Freightliner_Var1; }
 
 random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_Lead_Era3_Dry_loadstage, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    independent: random_60Long_Cont20_End_Era3_Dry_loadstage;
     1: spritegroup_60Long_Cont20_Lead_Era3_Dry_Cosco;
     1: spritegroup_60Long_Cont20_Lead_Era3_Dry_JRFBauxite;
     1: spritegroup_60Long_Cont20_Lead_Era3_Dry_NERV;
     1: spritegroup_60Long_Cont20_Lead_Era3_Dry_ONE;
-    1: spritegroup_60Long_Cont20_Lead_Era3_Dry_Tex; }
+    1: spritegroup_60Long_Cont20_Lead_Era3_Dry_Tex;
+    1: spritegroup_60Long_Cont20_Lead_Era3_Dry_Maersk_Rainbow; }
 
 random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_Center_Era2_Dry_loadstage, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
     1: spritegroup_60Long_Cont20_Center_Era2_Dry_Bauxite;
     1: spritegroup_60Long_Cont20_Center_Era2_Dry_DB;
-    1: spritegroup_60Long_Cont20_Center_Era2_Dry_Maersk;}
+    1: spritegroup_60Long_Cont20_Center_Era2_Dry_Maersk;
+    1: spritegroup_60Long_Cont20_Center_Era1_Freightliner_Var1; }
 
 random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_Center_Era3_Dry_loadstage, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
     1: spritegroup_60Long_Cont20_Center_Era3_Dry_Cosco;
     // 1: spritegroup_60Long_Cont20_Center_Era3_Dry_JRFBauxite;
     // 1: spritegroup_60Long_Cont20_Center_Era3_Dry_NERV;
     1: spritegroup_60Long_Cont20_Center_Era3_Dry_ONE;
-    1: spritegroup_60Long_Cont20_Center_Era3_Dry_Tex; }
+    1: spritegroup_60Long_Cont20_Center_Era3_Dry_Tex;
+    1: spritegroup_60Long_Cont20_Center_Era3_Dry_Maersk_Rainbow; }
     
 random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_End_Era2_Dry_loadstage, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    independent: random_60Long_Cont20_Lead_Era2_Dry_loadstage;
     1: spritegroup_60Long_Cont20_End_Era2_Dry_Bauxite;
     1: spritegroup_60Long_Cont20_End_Era2_Dry_DB;
-    1: spritegroup_60Long_Cont20_End_Era2_Dry_Maersk;}
+    1: spritegroup_60Long_Cont20_End_Era2_Dry_Maersk;
+    1: spritegroup_60Long_Cont20_End_Era1_Freightliner_Var2; }
 
 random_switch(FEAT_TRAINS, SELF, random_60Long_Cont20_End_Era3_Dry_loadstage, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+    independent: random_60Long_Cont20_Lead_Era3_Dry_loadstage;
     1: spritegroup_60Long_Cont20_End_Era3_Dry_Cosco;
     1: spritegroup_60Long_Cont20_End_Era3_Dry_JRFBauxite;
     1: spritegroup_60Long_Cont20_End_Era3_Dry_NERV;
     1: spritegroup_60Long_Cont20_End_Era3_Dry_ONE;
-    1: spritegroup_60Long_Cont20_End_Era3_Dry_Tex; }
+    1: spritegroup_60Long_Cont20_End_Era3_Dry_Tex;
+    1: spritegroup_60Long_Cont20_End_Era3_Dry_Maersk_Rainbow; }
 
 // Year switches
 switch(FEAT_TRAINS, SELF, sw_60Long_Cont20_Lead_Dry_loadstage_current_year, current_year) {
