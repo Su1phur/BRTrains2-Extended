@@ -615,13 +615,6 @@ spriteset(spriteset_BR158_MS_Northern, "gfx\DMU\BR158\BR158_MS_Northern_1x_8bpp.
     alternative_sprites(spriteset_BR158_MS_Northern, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR158\BR158_MS_Northern_4x_32bpp.png", "gfx\DMU\BR158\BR158_MS_Northern_4x_mask.png")
         { template_148trains_4x(0,0) }
 
-// purchase sprite
-spriteset(spriteset_BR158_DMS_Northern_purchase, "gfx\DMU\BR158\BR158_DMS_Northern_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_BR158_DMS_Northern_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR158\BR158_DMS_Northern_1x_32bpp.png", "gfx\DMU\BR158\BR158_DMS_Northern_1x_mask.png")
-    { template_purchase(0,0) }
-
 spriteset(spriteset_BR158_MS_Northern_Loading, "gfx\DMU\BR158\BR158_MS_Northern_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 

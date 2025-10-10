@@ -701,7 +701,7 @@ str_BR156_liveries				:Regional Railways, Strathclyde Orange, Strathclyde PTE, S
 
 STR_NAME_BR158					:BR Class 158 "Express Sprinter" (2-Car)
 STR_NAME_BR158_3				:BR Class 158 "Express Sprinter" (3-Car)
-str_BR158_liveries				:Regional Express, Arriva Trains, First North Western, First Scot Rail, First TransPennine, FGW First ScotRail, Alphaline Wales and Borders, Alphaline Wessex, Northern Rail, Northern Rail metro, Central Trains, East Midland Trains, WYPTE Metro, Wales and West, ScotRail (Nat Ex), ScotRail Saltire, South West Trains, Network South East
+str_BR158_liveries				:Regional Railways, NSE, WYPTE, SWT, NatEx Scotrail, Northern Spirit, Alphaline Wessex, Arriva Trains Wales, First Transpennine, First Scotrail, Northern Rail, ScotRail Saltire, GWR, Northern, SWR, TfW
 
 STR_NAME_BR159					:BR Class 159 "South Western Turbo"
 str_BR159_liveries				:Network South East, South West Trains
@@ -869,7 +869,8 @@ STR_NAME_BR373_2				:BR Class 373/2 "North of London" (16-car)
 str_BR373_2_liveries			:Eurostar Debranded, GNER
 
 STR_NAME_BR374					:BR Class 374 "Velaro" (16-car)
-str_BR374_liveries				:Eurostar
+STR_NAME_BR374_1                :BR Class 374 "Velaro D" (8-car)
+str_BR374_liveries				:Eurostar, DB
 
 STR_NAME_BR375_3				:BR Class 375 "Electrostar" (3-Car)
 str_BR375_3_liveries			:Southeastern Blue, Southeastern Blue Stripe, Southeastern Yellow, Southeastern Yellow Stripe, Southeastern Blue Refurbished
@@ -1493,6 +1494,7 @@ str_ColasRail					: (Colas Rail)
 str_Connex						: (Connex)
 str_Continental_Airlines		: (Continental Airlines)
 str_Corus						: (Corus)
+str_DB                          : (Deutsche Bahn)
 str_DBCargo                     : (DB Cargo)
 str_DBSCompany					: (DB Schenker - Company Train)
 str_DBSchenker					: (DB Schenker)
