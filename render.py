@@ -5,6 +5,8 @@ from pathlib import Path
 from argparse import ArgumentParser
 
 from generate import generate_pnml
+from template.keywords import keyword_map
+from template.endings import expected_endings
 
 gorender_path = Path("../gorender/renderobject.exe").resolve()
 gfx_directory = Path("gfx")
@@ -12,17 +14,7 @@ voxel_directory = Path("voxels")
 default_palette_path = Path("docs/ttd_palette.json")
 default_manifest_path = Path("docs/manifest.json")
 
-expected_endings = [
-    "_1x_8bpp",
-    "_1x_32bpp",
-    "_1x_mask",
-    "_2x_8bpp",
-    "_2x_32bpp",
-    "_2x_mask",
-    "_4x_8bpp",
-    "_4x_32bpp",
-    "_4x_mask",
-]
+ignore = keyword_map['ignore']
 
 class GoRenderNotFoundError(FileNotFoundError):
     def __init__(self, path):
@@ -32,16 +24,13 @@ class GoRenderNotFoundError(FileNotFoundError):
         )
         super().__init__(message)
 
-
 def validate_needed_files(find_file):
     if not find_file.exists():
         raise FileNotFoundError(f"{find_file} does not exist")
 
-
 def display_progress(rendered, total):
-    progress = "●" * rendered + "o" * (total - rendered)
+    progress = "█" * rendered + "-" * (total - rendered)
     print(f"\r{progress} ({rendered}/{total})", end='', flush=True)
-
 
 def expected_images_for(file_name):
     stem = file_name.stem
@@ -55,13 +44,6 @@ def is_fully_rendered(file_name):
     return all(image.exists() for image in expected_images)
 
 
-def find_missing_files() -> list[Path]:
-    return [
-        f for f in voxel_directory.rglob("*.vox")
-        if "Non-Standard" not in f.parts and not is_fully_rendered(f)
-    ]
-
-
 def render_file(file_name, palette_path, manifest_path):
     command = [str(gorender_path),
                "-i", str(file_name),
@@ -69,7 +51,10 @@ def render_file(file_name, palette_path, manifest_path):
                "-palette", palette_path,
                "-m", manifest_path]
     
-    subprocess.run(command, check=True)
+    try:
+        subprocess.run(command, check=True, capture_output=True, text=True)
+    except subprocess.CalledProcessError as e:
+        print(f"\n[ERROR] Rendering failed for {file_name}:\n{e.stderr}")
 
 
 def render_and_move(voxel_file, palette_path, manifest_path, output_path=None):
@@ -82,8 +67,33 @@ def render_and_move(voxel_file, palette_path, manifest_path, output_path=None):
 
     render_file(voxel_file, palette_path, manifest_path)
     
-    for image in voxel_file.parent.rglob("*.png"):
+    stem = voxel_file.stem
+    for image in voxel_file.parent.glob(f"{stem}_*.png"):
         shutil.move(str(image), output_path / image.name)
+
+
+def find_filter_vox_files(input_directory, only_missing=False):
+    vox_list = []
+    for f in input_directory.rglob("*.vox"):
+        if "Non-Standard" not in f.parts and not any(k in f.stem.lower() for k in ignore):
+            vox_list.append(f)
+    
+    if only_missing:
+        vox_list = {f for f in vox_list if not is_fully_rendered(f)}
+
+    return sorted(vox_list)
+        
+
+def process_vox_files(vox_files, palette_path, manifest_path, output_path=None):
+    total = len(vox_files)
+    print(f"Total {total} .vox files to be rendered.")
+    rendered_count = 0
+    display_progress(rendered_count, total)
+
+    for f in vox_files:
+        render_and_move(f, palette_path, manifest_path, output_path)
+        rendered_count += 1
+        display_progress(rendered_count, total)
 
 
 def main(input_folder, 
@@ -103,17 +113,8 @@ def main(input_folder,
     if all:
         input_folder = voxel_directory
 
-        vox_files = [x for x in input_folder.rglob("*.vox") if "Non-Standard" not in x.parts]
-
-        total = len(vox_files)
-        print(f"Total {total} .vox files to be rendered.")
-        rendered_count = 0
-        display_progress(rendered_count, total)
-
-        for f in vox_files:
-            render_and_move(f, palette_path, manifest_path)
-            rendered_count += 1
-            display_progress(rendered_count, total)
+        all_vox_files = find_filter_vox_files(input_folder)
+        process_vox_files(all_vox_files, palette_path, manifest_path)
         
     else:
         input_folder = Path(input_folder)
@@ -125,33 +126,17 @@ def main(input_folder,
         else:
             output_path = Path(output) 
 
-        vox_files = sorted({f for f in input_folder.iterdir() if f.suffix == ".vox"})
+        vox_files = find_filter_vox_files(input_folder)
 
-        total = len(vox_files)
-        print(f"Total {total} .vox files to be rendered.")
-        rendered_count = 0
-        display_progress(rendered_count, total)
-
-        for f in vox_files:
-            render_and_move(f, palette_path, manifest_path, output_path)
-            rendered_count += 1
-            display_progress(rendered_count, total)
-
-        generate_pnml(vox_files)
+        process_vox_files(vox_files, palette_path, manifest_path, output_path)
 
     if missing:
-        vox_files = find_missing_files()
-        total = len(vox_files)
+        missing_vox_files = find_filter_vox_files(voxel_directory, only_missing=True)
+        total = len(missing_vox_files)
 
         if total != 0:
             print(f"\nTotal {total} .vox files have missing gfx images.")
-            rendered_count = 0
-            display_progress(rendered_count, total)
-
-            for f in vox_files:
-                render_and_move(f, palette_path, manifest_path)
-                rendered_count += 1
-                display_progress(rendered_count, total)
+            process_vox_files(missing_vox_files, palette_path, manifest_path, output)
     
 
 if __name__ == "__main__":

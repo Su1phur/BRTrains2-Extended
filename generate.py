@@ -3,19 +3,11 @@ from pathlib import Path
 from collections import defaultdict
 
 from template.spriteset_template import *
+from template.keywords import keyword_map
 
 gfx_directory = Path("gfx")
 src_directory = Path("src")
 voxel_directory = Path("voxels")
-
-cargo = {"barrel", "steel", "wood", "bars", "wires", 
-         "tarp", "box", "tanks", "rails", "farm", 
-         "eng", "supplies", "logs", "planks", "cont"}
-bulk = {"bulk"}
-loading = {"loading"}
-dual_mode = {"panto_up", "panto_down"}
-anim = {"anim"}
-ignore = {"menu", "masked", "old", "blank"}
 
 def classify_vox_files(vox_files: set[Path]):
     groups = defaultdict(list)
@@ -23,20 +15,12 @@ def classify_vox_files(vox_files: set[Path]):
     for f in vox_files:
         stem = f.stem.lower()
 
-        if any(k in stem for k in anim):
-            groups["anim"].append(f)
-        elif any(k in stem for k in bulk):
-            groups["bulk"].append(f)
-        elif any(k in stem for k in cargo):
-            groups["cargo"].append(f)
-        elif any(k in stem for k in dual_mode):
-            groups["dual_mode"].append(f)
-        elif any(k in stem for k in loading):
-            groups["loading"].append(f)
-        elif any(k in stem for k in ignore):
-            continue
-        else:
-            groups["default"].append(f)
+        for group_name, keywords in keyword_map.items():
+            if any(k in stem for k in keywords):
+                groups[group_name].append(f)
+                break
+            else:
+                groups["default"].append(f)
 
     return groups
 
