@@ -484,7 +484,7 @@ item (FEAT_TRAINS, item_BR142_1, 1421) {
         variant_group:                  item_BR142; // unit ID or item
 		extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1985,01,01); 
+        introduction_date:              date(1997,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
