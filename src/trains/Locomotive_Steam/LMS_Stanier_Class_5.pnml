@@ -313,7 +313,7 @@ item (FEAT_TRAINS, item_LMS_Black_5, 4461) { // BR Number range 44658-45499
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.1;
-        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        tractive_effort_coefficient:    0.09;
         length:                         8;
     }
 
@@ -377,7 +377,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domed, 4462) { // BR Number range 44658-4549
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.1;
-        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        tractive_effort_coefficient:    0.09;
         length:                         8;
     }
 
@@ -455,7 +455,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Domeless, 4463) { // BR Number range 44658-4
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.1;
-        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        tractive_effort_coefficient:    0.09;
         length:                         8;
     }
 
@@ -532,7 +532,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Forward_Top_Feed, 4464) { // BR Number range
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.1;
-        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        tractive_effort_coefficient:    0.09;
         length:                         8;
     }
 
@@ -617,7 +617,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Named, 4464) { // BR Number range 44658-4549
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
         air_drag_coefficient:           0.1;
-        tractive_effort_coefficient:    0.14; // RL 0.14, 24.4k lbf
+        tractive_effort_coefficient:    0.09;
         length:                         8;
     }
 

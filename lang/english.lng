@@ -370,7 +370,7 @@ STR_NAME_LSWR_AdamsRadial		    :LSWR Adams 415 Class 4-4-2T "Adams Radial Tank"
 str_LSWR_AdamsRadial_liveries	    :LSWR Sage Green
 
 STR_NAME_LSWR_N15                   :LSWR N15 Class
-STR_NAME_LSWR_N15_SR                :LSWR N15 CLass "Urie Arthurs"
+STR_NAME_LSWR_N15_SR                :LSWR N15 Class "Urie Arthurs"
 STR_NAME_SR_N15                     :SR King Arthur Class "Eastleigh Arthurs/Scotch Arthurs"
 str_LSWR_N15_liveries               :LSWR Green, SR Olive Green, SR Wartime Black, SR Malachite Green, BR Brunswick Green
 
