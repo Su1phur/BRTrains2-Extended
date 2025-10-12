@@ -101,7 +101,8 @@ def main(input_folder,
          manifest_path=default_manifest_path,
          output=None, 
          all=False,
-         missing=False):
+         missing=False,
+         generate=False):
 
     # validate if GoRender is installed
     if not gorender_path.is_file():
@@ -110,7 +111,16 @@ def main(input_folder,
     validate_needed_files(palette_path)
     validate_needed_files(manifest_path)
 
-    if all:
+    if generate:
+        input_folder = Path(input_folder)
+        if not input_folder.is_dir():
+            raise ValueError(f"{input_folder} is not a valid directory.")
+        
+        vox_files = find_filter_vox_files(input_folder)
+        generate_pnml(vox_files)
+        return
+    
+    elif all:
         input_folder = voxel_directory
 
         all_vox_files = find_filter_vox_files(input_folder)
@@ -130,6 +140,8 @@ def main(input_folder,
 
         process_vox_files(vox_files, palette_path, manifest_path, output_path)
 
+        generate_pnml(vox_files)
+
     if missing:
         missing_vox_files = find_filter_vox_files(voxel_directory, only_missing=True)
         total = len(missing_vox_files)
@@ -145,12 +157,15 @@ if __name__ == "__main__":
     parser.add_argument("--path",
                         type=str, 
                         help="Path to a folder containing all files to be rendered.")
-    parser.add_argument("--output",
-                        type=str,
-                        help="Folder name/Destination folder to contain all rendered GFX")
+    parser.add_argument("--generate",
+                        action="store_true",
+                        help="Automatically generates pnml file within a folder.")
     parser.add_argument("--all",
                         action="store_true",
                         help="Renders all .vox files, overrides --path and --output.")
+    parser.add_argument("--output",
+                        type=str,
+                        help="Folder name/Destination folder to contain all rendered GFX")
     parser.add_argument("--palette",
                         type=str,
                         default=default_palette_path,
@@ -164,4 +179,4 @@ if __name__ == "__main__":
                         help="Automatically looks for and renders any missing gfx.")
     args = parser.parse_args()
 
-    main(args.path, args.palette, args.manifest, args.output, args.all, args.missing)
+    main(args.path, args.palette, args.manifest, args.output, args.all, args.missing, args.generate)

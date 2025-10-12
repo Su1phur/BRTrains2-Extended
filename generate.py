@@ -15,12 +15,15 @@ def classify_vox_files(vox_files: set[Path]):
     for f in vox_files:
         stem = f.stem.lower()
 
+        matched = False
         for group_name, keywords in keyword_map.items():
             if any(k in stem for k in keywords):
                 groups[group_name].append(f)
+                matched = True
                 break
-            else:
-                groups["default"].append(f)
+
+        if not matched:
+            groups["default"].append(f)
 
     return groups
 
