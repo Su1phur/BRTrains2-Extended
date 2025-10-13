@@ -389,6 +389,9 @@ str_CaledonianSingle_liveries		:CR Blue
 STR_NAME_Coppernob					:FR A2 Class 0-4-0 "Old Coppernob"
 str_Coppernob_liveries				:FR Red
 
+STR_NAME_FR_115                     :FR 115/N1 Class "Jumbo"
+str_FR_115_liveries                 :FR Red, LMS Crimson, LMS Black, BR Black
+
 STR_NAME_FurnessK2					:FR Pettigrew K2 Class 4-4-0 "Large Seagull"
 str_FurnessK2_liveries				:FR Red
 
