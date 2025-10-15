@@ -139,11 +139,21 @@ spriteset(spriteset_FR_115_Anim_purchase, "gfx\Locomotive_Steam\FR_115\FR_115_An
     alternative_sprites(spriteset_FR_115_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_mask.png")
     { template_purchase(0,0) }
 
-switch (FEAT_TRAINS, SELF, sw_Animation_FR_115, motion_counter % 4) {
+switch (FEAT_TRAINS, SELF, sw_animation_FR_115, motion_counter % 4) {
     0: spriteset_FR_115_Anim1;
     1: spriteset_FR_115_Anim2;
     2: spriteset_FR_115_Anim3;
     3: spriteset_FR_115_Anim4; }
+
+switch (FEAT_TRAINS, SELF, sw_animation_FR_115_REV, motion_counter % 4) {
+    0: spriteset_FR_115_Anim1;
+    1: spriteset_FR_115_Anim4;
+    2: spriteset_FR_115_Anim3;
+    3: spriteset_FR_115_Anim2; }
+
+switch(FEAT_TRAINS, SELF, sw_pick_animation_FR_115, vehicle_is_reversed) {
+    0: sw_animation_FR_115;
+        sw_animation_FR_115_REV; }
 
 // purchase sprite
 switch(FEAT_TRAINS, PARENT, sw_FR_115_purchase_sprite, current_year) {
@@ -176,7 +186,7 @@ switch(FEAT_TRAINS, SELF, sw_FR_115_cargo_subtype_text, cargo_subtype){
 // Animation sprite stacking
 switch(FEAT_TRAINS, SELF, sw_spritestack_FR_115, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_FR_115;
-    1: return sw_Animation_FR_115; }
+    1: return sw_pick_animation_FR_115; }
 
 // unit definition
 item (FEAT_TRAINS, item_FR_115, 5110) {

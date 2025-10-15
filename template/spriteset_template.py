@@ -140,11 +140,21 @@ spriteset(spriteset_{unit}_Anim_purchase, "{path}\\{unit}_Anim_1_1x_8bpp.png")
     alternative_sprites(spriteset_{unit}_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "{path}\\{unit}_Anim_1_1x_32bpp.png", "{path}\\{unit}_Anim_1_1x_mask.png")
     {{ template_purchase(0,0) }}
 
-switch (FEAT_TRAINS, SELF, sw_Animation_{unit}, motion_counter % 4) {{
+switch(FEAT_TRAINS, SELF, sw_animation_{unit}, motion_counter % 4) {{
     0: spriteset_{unit}_Anim1;
     1: spriteset_{unit}_Anim2;
     2: spriteset_{unit}_Anim3;
     3: spriteset_{unit}_Anim4; }}
+
+switch(FEAT_TRAINS, SELF, sw_animation_{unit}_REV, motion_counter % 4) {{
+    0: spriteset_{unit}_Anim1;
+    1: spriteset_{unit}_Anim4;
+    2: spriteset_{unit}_Anim3;
+    3: spriteset_{unit}_Anim2; }}
+
+switch(FEAT_TRAINS, SELF, sw_pick_animation_{unit}, vehicle_is_reversed) {{
+    0:  sw_Animation_{unit};
+        sw_Animation_{unit}_REV; }}
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_{unit}_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {{
     0: spriteset_{unit};

@@ -169,17 +169,25 @@ switch(FEAT_TRAINS, SELF, sw_GWR_5600_cargo_subtype_text, cargo_subtype){
 }
 
 // Animation sprite stacking
-switch (FEAT_TRAINS, SELF, sw_Animation_GWR_5600, motion_counter % 4) {
+switch (FEAT_TRAINS, SELF, sw_animation_GWR_5600, motion_counter % 4) {
     0: spriteset_GWR_5600_Anim1;
     1: spriteset_GWR_5600_Anim2;
     2: spriteset_GWR_5600_Anim3;
-    3: spriteset_GWR_5600_Anim4;
-}
+    3: spriteset_GWR_5600_Anim4; }
+
+switch (FEAT_TRAINS, SELF, sw_animation_GWR_5600_REV, motion_counter % 4) {
+    0: spriteset_GWR_5600_Anim1;
+    1: spriteset_GWR_5600_Anim4;
+    2: spriteset_GWR_5600_Anim3;
+    3: spriteset_GWR_5600_Anim2; }
+
+switch(FEAT_TRAINS, SELF, sw_pick_animation_GWR_5600, vehicle_is_reversed) {
+    0: sw_animation_GWR_5600;
+        sw_animation_GWR_5600_REV; }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_5600, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: sw_livery_GWR_5600;
-    1: return sw_Animation_GWR_5600;
-}
+    1: return sw_pick_animation_GWR_5600; }
 
 // purchase sprite stack
 switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_5600_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {

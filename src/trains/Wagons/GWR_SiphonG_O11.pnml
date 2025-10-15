@@ -102,6 +102,11 @@ switch(FEAT_TRAINS, SELF, sw_speed_GWR_SiphonG_O11, param_max_speed) {
     1: 100; // design speed
 }
 
+// cargo capacity switch
+switch(FEAT_TRAINS, SELF, sw_cargo_capacity_GWR_SiphonG_O11, cargo_type_in_veh) {
+    MAIL: 15 * param_freight;
+        5 * param_freight; }
+
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_GWR_SiphonG_O11, extra_callback_info1) {
 	1..2: return item_GWR_SiphonG_O11;
@@ -126,6 +131,7 @@ item (FEAT_TRAINS, item_GWR_SiphonG_O11, 11407) {
         // non_refittable_cargo_classes:    bitmask();
         cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [LVST];
+        default_cargo_type:             MILK;
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 5 * param_freight;
         loading_speed:				    5; // All freight / Locomotive
@@ -153,6 +159,7 @@ item (FEAT_TRAINS, item_GWR_SiphonG_O11, 11407) {
         articulated_part:               sw_articulated_GWR_SiphonG_O11;
         speed:                          sw_speed_GWR_SiphonG_O11() * 1609 / 1000;  
         purchase_cargo_capacity:        return (5 * param_freight); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_cargo_capacity_GWR_SiphonG_O11();
         cost_factor:                    385;
         running_cost_factor:            1568;
         cargo_subtype_text:             sw_GWR_SiphonG_O11_cargo_subtype_text; 
