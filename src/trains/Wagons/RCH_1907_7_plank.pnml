@@ -2,8 +2,11 @@
 switch(FEAT_TRAINS, SELF, sw_livery_RCH_1907_7_Plank, cargo_subtype) {
     0: random_choose_RCH_1907_7_Plank;
     1: spriteset_RCH_1907_7_Plank_Grey;
-    2: spriteset_RCH_1907_7_Plank_Bauxite;
-}
+    2: spriteset_RCH_1907_7_Plank_Bauxite; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_RCH_1907_7_Plank_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_RCH_1907_7_Plank;
+    1: sw_RCH_1907_7_Plank_cargo_type; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_RCH_1907_7_Plank_cargo_subtype_text, cargo_subtype){
@@ -52,15 +55,14 @@ item (FEAT_TRAINS, item_RCH_1907_7_Plank, 11401) {
 
     graphics {
         // graphics
-        default:                        sw_livery_RCH_1907_7_Plank;
+        default:                        sw_loadstack_RCH_1907_7_Plank_Cargo;
         purchase:                       spriteset_RCH_1907_7_Plank_purchase;
         
         // internal code
         cost_factor:                    414;
         running_cost_factor:            285;
         cargo_subtype_text:             sw_RCH_1907_7_Plank_cargo_subtype_text; 
-        colour_mapping:                 return PALETTE_CC_FIRST;
-        // colour_mapping:                 switch_generic_recolour;
+        colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text
         additional_text:                return( string(str_purchase_wagon,
