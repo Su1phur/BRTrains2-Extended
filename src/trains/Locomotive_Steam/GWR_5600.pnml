@@ -55,6 +55,18 @@ spriteset(spriteset_GWR_5600_Anim_purchase, "gfx\Locomotive_Steam\GWR_5600\GWR_5
     { template_purchase(0,0) }
 
 // basic sprites
+spriteset(spriteset_GWR_5600_GWR_Black, "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_1x_8bpp.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5600_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_1x_mask.png")
+    { template_78trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5600_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_2x_mask.png")
+    { template_78trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5600_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Black_4x_mask.png")
+    { template_78trains_4x(0,0) }
+
 // GWR Green Chrome
 spriteset(spriteset_GWR_5600_GWR_Green_Chrome, "gfx\Locomotive_Steam\GWR_5600\GWR_5600_GWR_Green_Chrome_1x_8bpp.png")
     { template_78trains_1x(0,0) }
@@ -151,22 +163,22 @@ switch(FEAT_TRAINS, SELF, sw_FX_GWR_5600_Steam, position_in_vehid_chain % 3) {
 switch(FEAT_TRAINS, SELF, sw_livery_GWR_5600, cargo_subtype) {
     0: spriteset_GWR_5600_GWR_Green_Chrome;
     1: spriteset_GWR_5600_GWR_Green;
-    2: spriteset_GWR_5600_BR_Green_Early_Emblem;
-    3: spriteset_GWR_5600_BR_Green_Late_Crest;
-    4: spriteset_GWR_5600_BR_Black_Early_Emblem;
-    5: spriteset_GWR_5600_BR_Black_Late_Crest;
-}
+    2: spriteset_GWR_5600_GWR_Black;
+    3: spriteset_GWR_5600_BR_Green_Early_Emblem;
+    4: spriteset_GWR_5600_BR_Green_Late_Crest;
+    5: spriteset_GWR_5600_BR_Black_Early_Emblem;
+    6: spriteset_GWR_5600_BR_Black_Late_Crest; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_5600_cargo_subtype_text, cargo_subtype){
-	0:  return string(str_GWRGreenChrome);
+	0:	return string(str_GWRGreenChrome);
     1:  return string(str_GWRGreen);
-    2:  return string(str_BRGreen_Early);
-    3:  return string(str_BRGreen_Late);
-    4:  return string(str_BRPlainBlack_Early);
-    5:  return string(str_BRPlainBlack_Late);
-        return CB_RESULT_NO_TEXT;
-}
+    2:  return string(str_GWRBlack);
+    3:  return string(str_BRGreen_Early);
+    4:  return string(str_BRGreen_Late);
+    5:  return string(str_BRPlainBlack_Early);
+    6:  return string(str_BRPlainBlack_Late);
+        return CB_RESULT_NO_TEXT; }
 
 // Animation sprite stacking
 switch (FEAT_TRAINS, SELF, sw_animation_GWR_5600, motion_counter % 4) {
