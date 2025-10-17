@@ -718,7 +718,7 @@ STR_NAME_BR158_3				:BR Class 158 "Express Sprinter" (3-Car)
 str_BR158_liveries				:Regional Railways, NSE, WYPTE, SWT, NatEx Scotrail, Northern Spirit, Alphaline Wessex, Arriva Trains Wales, First Transpennine, First Scotrail, Northern Rail, ScotRail Saltire, GWR, Northern, SWR, TfW
 
 STR_NAME_BR159					:BR Class 159 "South Western Turbo"
-str_BR159_liveries				:Network South East, South West Trains
+str_BR159_liveries				:NSE, SWT, SWR
 
 STR_NAME_BR165_0_2				:BR Class 165/0 "Chiltern Turbo" (2-Car)
 STR_NAME_BR165_0_3				:BR Class 165/0 "Chiltern Turbo" (3-Car)
