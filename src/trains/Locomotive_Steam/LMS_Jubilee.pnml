@@ -110,8 +110,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LMS_Jubilee, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_livery_Stanier_4000gal_Jubilee, cargo_subtype) {
     0: spriteset_Stanier_4000gal_LMS_Crimson;
     1: spriteset_Stanier_4000gal_LMS_Black;
-    2: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
-    3: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
+    2: spriteset_Stanier_4000gal_BR_LinedBlack_Early_Emblem;
+    3: spriteset_Stanier_4000gal_BR_LinedBlack_Late_Crest;
     4: spriteset_Stanier_4000gal_BR_Black_Early_Emblem;
     5: spriteset_Stanier_4000gal_BR_Black_Late_Crest;
     6: spriteset_Stanier_4000gal_BR_Express_Blue;
