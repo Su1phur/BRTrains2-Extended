@@ -497,6 +497,7 @@ str_Standard9F_liveries			    :BR Black, BR Brunswick Green
 
 # BR Diesel Locomotives
 STR_NAME_BR08					:BR Class 08 "Gronk"
+STR_NAME_BR09                   :BR Class 09 "Supergronk"
 str_BR08_liveries				:BR Black, BR Green, BR Blue, EWS Red and Gold, Network Rail Yellow, Unusual Purple, InterCity Swallow, BR General Grey
 
 STR_NAME_BR13					:BR Class 13 "Shunter"

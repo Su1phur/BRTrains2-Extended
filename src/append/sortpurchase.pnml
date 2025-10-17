@@ -47,6 +47,7 @@ sort(FEAT_TRAINS, [
     item_BR_Standard_7,
     // BR Diesel Locomotives
     item_BR08,
+        item_BR09,
     item_BR20,
     item_BR37,
     item_BR43_HST,

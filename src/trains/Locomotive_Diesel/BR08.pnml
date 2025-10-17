@@ -336,20 +336,16 @@ spriteset(spriteset_BR08_BR_Blue_Purchase, "gfx\Locomotive_Diesel\BR08\BR08_BR_B
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_BR08_BR_Blue_Purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_BR08_BR_Blue_Purchase;
-    1: return spriteset_BR08_Yellow_Purchase;
-}
+    1: return spriteset_BR08_Yellow_Purchase; }
 
 switch(FEAT_TRAINS, PARENT, sw_BR08_purchase_sprite, current_year) {
     1952..1965: sw_spritestack_BR08_BR_Black_Purchase;
     1965..1982: sw_spritestack_BR08_BR_Black_Arrow_Purchase;
-        sw_spritestack_BR08_BR_Blue_Purchase;
-}
+        sw_spritestack_BR08_BR_Blue_Purchase; }
 
 // FX effects
-
 switch(FEAT_TRAINS, SELF, sw_FX_BR08_Diesel, position_in_vehid_chain) {
-    0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
-}
+    0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER); }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR08, cargo_subtype) {
@@ -358,8 +354,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR08, cargo_subtype) {
     2: sw_spritestack_BR08_BR_Black_Arrow;
     3: sw_spritestack_BR08_BR_Green_Early_Emblem;
     4: sw_spritestack_BR08_BR_Green_Late_Crest;
-    5: sw_spritestack_BR08_BR_Blue;
-}
+    5: sw_spritestack_BR08_BR_Blue; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR08_cargo_subtype_text, cargo_subtype){
@@ -369,8 +364,7 @@ switch(FEAT_TRAINS, SELF, sw_BR08_cargo_subtype_text, cargo_subtype){
     3:  return string(str_BRGreen_Early);
     4:  return string(str_BRGreen_Late);
     5:  return string(str_BRBlue);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // unit definition
 item (FEAT_TRAINS, item_BR08, 800) {
@@ -396,7 +390,7 @@ item (FEAT_TRAINS, item_BR08, 800) {
 
         //specific properties
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        speed:                          19 mph;
+        speed:                          20 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
         power:                          350 hp;
@@ -418,10 +412,69 @@ item (FEAT_TRAINS, item_BR08, 800) {
         // internal code
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
-        // purchase_cargo_capacity:        return ( * param_pax); // divide by number of articulated parts and floor
-        // cargo_capacity:                 sw_capacity_BR08;
         cost_factor:                    19;
         running_cost_factor:            1292;
+        cargo_subtype_text:             sw_BR08_cargo_subtype_text; 
+        // power:                          sw_power_BR08;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_diesel),
+                                                    string(str_usage_shunting),
+                                                    string(str_BR08_liveries)));
+    }
+}
+
+// unit definition
+item (FEAT_TRAINS, item_BR09, 900) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR09);
+        variant_group:                  item_BR08; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1959,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        cargo_allow_refit:               [PASS, GOOD];
+        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_STEAM;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          28 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          350 hp;
+        weight:                         50 ton;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.29;
+        tractive_effort_coefficient:    0.32;
+        length:                         6;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_BR08;
+        visual_effect_and_powered:      sw_FX_BR08_Diesel;
+        purchase:                       sw_BR08_purchase_sprite; 
+        sound_effect:                   sw_gronk_sound;
+
+        // internal code
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    23;
+        running_cost_factor:            1604;
         cargo_subtype_text:             sw_BR08_cargo_subtype_text; 
         // power:                          sw_power_BR08;
         colour_mapping:                 return PALETTE_CC_FIRST;
