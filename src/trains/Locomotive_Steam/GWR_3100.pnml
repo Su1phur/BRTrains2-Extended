@@ -220,7 +220,7 @@ item (FEAT_TRAINS, item_GWR_3100, 310) {
         // common properties
         name:                           string(STR_NAME_GWR_3100);
         // variant_group:                  ; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1903,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -425,7 +425,7 @@ item (FEAT_TRAINS, item_GWR_3150, 315) {
         // common properties
         name:                           string(STR_NAME_GWR_3150);
         // variant_group:                  ; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		// extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1906,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -490,7 +490,7 @@ item (FEAT_TRAINS, item_GWR_5101, 510) {
         // common properties
         name:                           string(STR_NAME_GWR_5101);
         // variant_group:                  ; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1929,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -554,7 +554,7 @@ item (FEAT_TRAINS, item_GWR_6100, 610) {
         // common properties
         name:                           string(STR_NAME_GWR_6100);
         variant_group:                  item_GWR_5101; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1931,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -613,14 +613,14 @@ item (FEAT_TRAINS, item_GWR_6100, 610) {
 }
 
 // unit definition
-item (FEAT_TRAINS, item_GWR_Colett_3100, 311) {
+item (FEAT_TRAINS, item_GWR_Collett_3100, 311) {
     property {
         // common properties
-        name:                           string(STR_NAME_GWR_3100);
+        name:                           string(STR_NAME_GWR_3100_full);
         variant_group:                  item_GWR_5101; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1931,01,01); 
+        introduction_date:              date(1938,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
@@ -682,7 +682,7 @@ item (FEAT_TRAINS, item_GWR_8100, 810) {
         // common properties
         name:                           string(STR_NAME_GWR_8100);
         variant_group:                  item_GWR_5101; // unit ID or item
-		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+		extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1938,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -706,7 +706,7 @@ item (FEAT_TRAINS, item_GWR_8100, 810) {
         speed:                          60 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
-        power:                          1430 hp;
+        power:                          1445 hp;
         weight:                         78 ton;
         engine_class:                   ENGINE_CLASS_STEAM;
         dual_headed:                    0;
