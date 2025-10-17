@@ -1,0 +1,741 @@
+
+// basic sprite
+spriteset(spriteset_GWR_3100_BR_Black_Early_Emblem, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Black_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Early_Emblem_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3100_BR_Black_Late_Crest, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Black_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Black_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Black_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Black_Late_Crest_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3100_BR_Green_Early_Emblem, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Green_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Early_Emblem_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3100_BR_Green_Late_Crest, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Green_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Green_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_BR_Green_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_BR_Green_Late_Crest_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprites
+spriteset(spriteset_GWR_3100_GWR_Black, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Black_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3100_GWR_Green, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3100_GWR_Green_Chrome, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green_Chrome, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green_Chrome, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green_Chrome, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_GWR_3100_GWR_Green_Chrome_purchase, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_GWR_Green_Chrome_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_GWR_Green_Chrome_1x_mask.png")
+    { template_purchase(0,0) }
+
+// Anim_sprites
+spriteset(spriteset_GWR_3100_Anim1, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_GWR_3100_Anim2, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_2_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_GWR_3100_Anim3, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_3_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_GWR_3100_Anim4, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_4_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+spriteset(spriteset_GWR_3100_Anim_purchase, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_3100_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_3100\GWR_3100_Anim_1_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_animation_GWR_3100, motion_counter % 4) {
+    0: spriteset_GWR_3100_Anim1;
+    1: spriteset_GWR_3100_Anim2;
+    2: spriteset_GWR_3100_Anim3;
+    3: spriteset_GWR_3100_Anim4; }
+
+switch(FEAT_TRAINS, SELF, sw_animation_GWR_3100_REV, motion_counter % 4) {
+    0: spriteset_GWR_3100_Anim1;
+    1: spriteset_GWR_3100_Anim4;
+    2: spriteset_GWR_3100_Anim3;
+    3: spriteset_GWR_3100_Anim2; }
+
+switch(FEAT_TRAINS, SELF, sw_pick_animation_GWR_3100, vehicle_is_reversed) {
+    0:  sw_animation_GWR_3100;
+        sw_animation_GWR_3100_REV; }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3100_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_GWR_3100_GWR_Green_Chrome_purchase;
+    1: spriteset_GWR_3100_Anim_purchase; }
+
+// FX effects 
+switch(FEAT_TRAINS, SELF, sw_FX_GWR_3100_Steam, position_in_vehid_chain % 3) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GWR_3100, cargo_subtype) {
+    0: spriteset_GWR_3100_GWR_Green_Chrome;
+    1: spriteset_GWR_3100_GWR_Green;
+    2: spriteset_GWR_3100_GWR_Black;
+    3: spriteset_GWR_3100_BR_Green_Early_Emblem;
+    4: spriteset_GWR_3100_BR_Green_Late_Crest;
+    5: spriteset_GWR_3100_BR_Black_Early_Emblem;
+    6: spriteset_GWR_3100_BR_Black_Late_Crest; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GWR_3100_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_GWRGreenChrome);
+    1:  return string(str_GWRGreen);
+    2:  return string(str_GWRBlack);
+    3:  return string(str_BRGreen_Early);
+    4:  return string(str_BRGreen_Late);
+    5:  return string(str_BRPlainBlack_Early);
+    6:  return string(str_BRPlainBlack_Late);
+       return CB_RESULT_NO_TEXT; }
+
+// Animation sprite stacking
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3100, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_GWR_3100;
+    1: return sw_pick_animation_GWR_3100; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_GWR_3100, param_max_speed) {
+    0: 50; // operational speed
+    1: 75; // design speed
+}
+
+// year name switch
+switch(FEAT_TRAINS, PARENT, sw_GWR_3100_name, current_year) {
+    1903..1927: string(STR_NAME_GWR_3100);
+    string(STR_NAME_GWR_3100_5100); }
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_3100, 310) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_3100);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1903,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1370 hp;
+        weight:                         77 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.16;
+        tractive_effort_coefficient:    0.15;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_spritestack_GWR_3100;
+        visual_effect_and_powered:      sw_FX_GWR_3100_Steam;
+        purchase:                       sw_spritestack_GWR_3100_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        name:                           sw_GWR_3100_name;
+        speed:                          sw_speed_GWR_3100() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    57;
+        running_cost_factor:            3798;
+        cargo_subtype_text:             sw_GWR_3100_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_GWR_Large_Prairie_liveries)));
+    }
+}
+
+
+// basic sprite
+spriteset(spriteset_GWR_5101_BR_Black_Early_Emblem, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Black_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Early_Emblem_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_5101_BR_Black_Late_Crest, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Black_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Black_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Black_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Black_Late_Crest_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_5101_BR_Green_Early_Emblem, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Green_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Early_Emblem_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_5101_BR_Green_Late_Crest, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Green_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Green_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_BR_Green_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_BR_Green_Late_Crest_4x_mask.png")
+    { template_88trains_4x(0,0) }
+    
+// basic sprites
+spriteset(spriteset_GWR_5101_GWR_Black, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Black_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_5101_GWR_Green, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_5101_GWR_Green_Chrome, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green_Chrome, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green_Chrome, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_2x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green_Chrome, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_4x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_GWR_5101_GWR_Green_Chrome_purchase, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_5101_GWR_Green_Chrome_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_1x_32bpp.png", "gfx\Locomotive_Steam\GWR_5101\GWR_5101_GWR_Green_Chrome_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_5101_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_GWR_5101_GWR_Green_Chrome_purchase;
+    1: spriteset_GWR_3100_Anim_purchase; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GWR_5101, cargo_subtype) {
+    0: spriteset_GWR_5101_GWR_Green_Chrome;
+    1: spriteset_GWR_5101_GWR_Green;
+    2: spriteset_GWR_5101_GWR_Black;
+    3: spriteset_GWR_5101_BR_Green_Early_Emblem;
+    4: spriteset_GWR_5101_BR_Green_Late_Crest;
+    5: spriteset_GWR_5101_BR_Black_Early_Emblem;
+    6: spriteset_GWR_5101_BR_Black_Late_Crest; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GWR_5101_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_GWRGreenChrome);
+    1:  return string(str_GWRGreen);
+    2:  return string(str_GWRBlack);
+    3:  return string(str_BRGreen_Early);
+    4:  return string(str_BRGreen_Late);
+    5:  return string(str_BRPlainBlack_Early);
+    6:  return string(str_BRPlainBlack_Late);
+       return CB_RESULT_NO_TEXT; }
+
+// Animation sprite stacking
+switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_5101, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: sw_livery_GWR_5101;
+    1: return sw_pick_animation_GWR_3100; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_GWR_5101, param_max_speed) {
+    0: 60; // operational speed
+    1: 85; // design speed
+}
+
+// year name switch
+switch(FEAT_TRAINS, PARENT, sw_GWR_3150_name, current_year) {
+    1903..1927: string(STR_NAME_GWR_3150);
+    string(STR_NAME_GWR_3150_full); }
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_3150, 315) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_3150);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1906,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1375 hp;
+        weight:                         83 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.16;
+        tractive_effort_coefficient:    0.14;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_spritestack_GWR_5101;
+        visual_effect_and_powered:      sw_FX_GWR_3100_Steam;
+        purchase:                       sw_spritestack_GWR_5101_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        name:                           sw_GWR_3150_name;
+        speed:                          sw_speed_GWR_3100() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    58;
+        running_cost_factor:            3808;
+        cargo_subtype_text:             sw_GWR_5101_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_GWR_Large_Prairie_liveries)));
+    }
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_5101, 510) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_5101);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1929,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1425 hp;
+        weight:                         80 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.14;
+        tractive_effort_coefficient:    0.14;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_spritestack_GWR_5101;
+        visual_effect_and_powered:      sw_FX_GWR_3100_Steam;
+        purchase:                       sw_spritestack_GWR_5101_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        speed:                          sw_speed_GWR_5101() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    73;
+        running_cost_factor:            4534;
+        cargo_subtype_text:             sw_GWR_5101_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_GWR_Large_Prairie_liveries)));
+    }
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_6100, 610) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_6100);
+        variant_group:                  item_GWR_5101; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1931,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1430 hp;
+        weight:                         80 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.14;
+        tractive_effort_coefficient:    0.16;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_spritestack_GWR_5101;
+        visual_effect_and_powered:      sw_FX_GWR_3100_Steam;
+        purchase:                       sw_spritestack_GWR_5101_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        speed:                          sw_speed_GWR_5101() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    73;
+        running_cost_factor:            4544;
+        cargo_subtype_text:             sw_GWR_5101_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_GWR_Large_Prairie_liveries)));
+    }
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_Colett_3100, 311) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_3100);
+        variant_group:                  item_GWR_5101; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1931,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1445 hp;
+        weight:                         83 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.14;
+        tractive_effort_coefficient:    0.17;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_spritestack_GWR_5101;
+        visual_effect_and_powered:      sw_FX_GWR_3100_Steam;
+        purchase:                       sw_spritestack_GWR_5101_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        speed:                          sw_speed_GWR_5101() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    73;
+        running_cost_factor:            4544;
+        cargo_subtype_text:             sw_GWR_5101_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_GWR_Large_Prairie_liveries)));
+    }
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_8100, 810) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_8100);
+        variant_group:                  item_GWR_5101; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1938,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          1430 hp;
+        weight:                         78 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.14;
+        tractive_effort_coefficient:    0.16;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_spritestack_GWR_5101;
+        visual_effect_and_powered:      sw_FX_GWR_3100_Steam;
+        purchase:                       sw_spritestack_GWR_5101_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        speed:                          sw_speed_GWR_5101() * 1609 / 1000;  
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    73;
+        running_cost_factor:            4544;
+        cargo_subtype_text:             sw_GWR_5101_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_GWR_Large_Prairie_liveries)));
+    }
+}

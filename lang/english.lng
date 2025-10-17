@@ -350,6 +350,16 @@ str_GreatBear_liveries				:GWR Green
 STR_NAME_GWRCastle					:GWR Churchward 4073 Class "Castle"
 str_GWRCastle_liveries				:GWR Green
 
+STR_NAME_GWR_3100_5100              :GWR 5100 Class "Large Prairies"
+STR_NAME_GWR_3100                   :GWR 3100 Class
+STR_NAME_GWR_3100_full              :GWR 3100 Class "Large Prairies"
+STR_NAME_GWR_3150                   :GWR 3150 Class
+STR_NAME_GWR_3150_full              :GWR 3150 Class "Large Prairies"
+STR_NAME_GWR_5101                   :GWR 5101 Class "Large Prairies"
+STR_NAME_GWR_6100                   :GWR 6100 Class "Large Prairies"
+STR_NAME_GWR_8100                   :GWR 8100 Class "Large Prairies"
+str_GWR_Large_Prairie_liveries      :GWR Green, BR Green, BR Black
+
 STR_NAME_GWR_4300                   :GWR 4300 Class
 str_GWR_4300_liveries               :GWR Green, GWR Black, BR Green, BR Black, ROD Khaki
 

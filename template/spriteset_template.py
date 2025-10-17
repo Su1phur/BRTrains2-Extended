@@ -153,12 +153,12 @@ switch(FEAT_TRAINS, SELF, sw_animation_{unit}_REV, motion_counter % 4) {{
     3: spriteset_{unit}_Anim2; }}
 
 switch(FEAT_TRAINS, SELF, sw_pick_animation_{unit}, vehicle_is_reversed) {{
-    0:  sw_Animation_{unit};
-        sw_Animation_{unit}_REV; }}
+    0:  sw_animation_{unit};
+        sw_animation_{unit}_REV; }}
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_{unit}_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {{
     0: spriteset_{unit};
-    1: sw_Animation_{unit}; }}
+    1: spriteset_{unit}_Anim_purchase; }}
 """
 
 DUAL_MODE_TEMPLATE = """
