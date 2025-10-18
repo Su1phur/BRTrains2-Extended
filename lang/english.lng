@@ -831,6 +831,10 @@ str_BR310_liveries			    :BR Blue/Grey, Network South East, Regional Rail
 STR_NAME_BR315					:BR Class 315 (4-car)
 str_BR315_liveries				:BR Blue/Grey, NSE, Network SouthEast Alternative Scheme, WAGN, One, First Great Eastern, National Express East Anglia, Abellio Greater Anglia, TfL Rail, London Overground
 
+STR_NAME_BR318                  :BR Class 318
+STR_NAME_BR318_RF               :BR Class 318 (Refurbished)
+str_BR318_liveries              :SPTE, SPT, ScotRail Saltire
+
 STR_NAME_BR319					:BR Class 319 (4-car)
 str_BR319_liveries				:NSE, Network SouthEast Grey, BR Thameslink, Connex, First Capital Connect, Southern, Govia Thameslink Blue, Govia Thameslink Pink, Transitional, London Midland, Northern
 
