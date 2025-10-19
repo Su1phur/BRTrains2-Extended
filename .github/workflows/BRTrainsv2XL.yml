@@ -65,7 +65,7 @@ jobs:
       - name: Determine release metadata
         id: metadata
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.release_type }}" = "weekly" ]; then
             TAG="weekly.$(date +'%Y-%m-%d')"
             NAME="Weekly Build $(date +'%Y-%m-%d')"
             PRERELEASE=true
