@@ -83,6 +83,7 @@ jobs:
           echo "prerelease=$PRERELEASE" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
+        id: create_release
         uses: actions/create-release@v1
         with:
           tag_name: ${{ steps.metadata.outputs.tag_name }}
@@ -94,7 +95,7 @@ jobs:
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
         with:
-          upload_url: ${{ steps.create-release.outputs.upload_url }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: build/BRTrainsv2XL.grf
           asset_name: brtrainsv2.grf
           asset_content_type: application/grf
