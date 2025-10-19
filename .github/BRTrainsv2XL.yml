@@ -1,0 +1,100 @@
+name: BRTrainsv2XL
+
+on:
+  schedule:
+    - cron: "0 0 * * MON"
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: "Type of release"
+        required: true
+        default: "weekly"
+        type: choice
+        options:
+          - weekly
+          - prerelease
+          - release
+      version:
+        description: "Version number (for prerelease or full release, e.g., 1.0.0)"
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check for commits in the past week
+        id: commits
+        run: |
+          if git log --since="7 days ago" --pretty=format:"%H" | grep .; then
+            echo "found_commits=true" >> $GITHUB_OUTPUT
+          else
+            echo "found_commits=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop if no commits found (for scheduled runs)
+        if: github.event_name == 'schedule' && steps.commits.outputs.found_commits == 'false'
+        run: echo "No commits this week — skipping." && exit 0
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/example
+          key: example-cache-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: example-cache-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip setuptools
+          pip3 install nml
+
+      - name: Build
+        run: python3 build.py BRTrainsv2XL
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BRTrainsv2XL
+          path: build/BRTrainsv2XL.*
+
+      - name: Determine release metadata
+        id: metadata
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            TAG="weekly.$(date +'%Y-%m-%d')"
+            NAME="Weekly Build $(date +'%Y-%m-%d')"
+            PRERELEASE=false
+          elif [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
+            TAG="v${{ github.event.inputs.version }}"
+            NAME="Pre-release v${{ github.event.inputs.version }}"
+            PRERELEASE=true
+          else
+            TAG="v${{ github.event.inputs.version }}"
+            NAME="Release v${{ github.event.inputs.version }}"
+            PRERELEASE=false
+          fi
+          echo "tag_name=$TAG" >> $GITHUB_OUTPUT
+          echo "release_name=$NAME" >> $GITHUB_OUTPUT
+          echo "prerelease=$PRERELEASE" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ steps.metadata.outputs.tag_name }}
+          release_name: ${{ steps.metadata.outputs.release_name }}
+          prerelease: ${{ steps.metadata.outputs.prerelease }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create-release.outputs.upload_url }}
+          asset_path: build/BRTrainsv2XL.grf
+          asset_name: brtrainsv2.grf
+          asset_content_type: application/grf
