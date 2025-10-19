@@ -331,7 +331,7 @@ item (FEAT_TRAINS, item_BR48, 4800) {
         dual_headed:                    0;
         air_drag_coefficient:           0.09;
         tractive_effort_coefficient:    0.22;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {
@@ -341,7 +341,6 @@ item (FEAT_TRAINS, item_BR48, 4800) {
         purchase:                       sw_BR47_purchase_sprite;
 
         // internal code
-        length:                         sw_length_BR47;
         articulated_part:               sw_articulated_BR48;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;
