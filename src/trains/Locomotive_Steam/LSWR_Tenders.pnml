@@ -1,77 +1,77 @@
 // basic sprites
-spriteset(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_1x_8bpp.png")
+spriteset(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_1x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_1x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_1x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_2x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_2x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_2x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_4x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Early_Emblem_4x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_4x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Early_Emblem_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LSWR_5000gal_BR_Green_Late_Crest, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_1x_8bpp.png")
+spriteset(spriteset_LSWR_5000gal_BR_Green_Late_Crest, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_1x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_1x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_1x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_2x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_2x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_2x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_4x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_BR_Green_Late_Crest_4x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_4x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_BR_Green_Late_Crest_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LSWR_5000gal_LSWR_Green, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_1x_8bpp.png")
+spriteset(spriteset_LSWR_5000gal_LSWR_Green, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_LSWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_1x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_1x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_LSWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_1x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_LSWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_2x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_2x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_LSWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_2x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_LSWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_4x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_LSWR_Green_4x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_LSWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_4x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_LSWR_Green_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LSWR_5000gal_SR_Malachite_Green, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_1x_8bpp.png")
+spriteset(spriteset_LSWR_5000gal_SR_Malachite_Green, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Malachite_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_1x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_1x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Malachite_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_1x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Malachite_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_2x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_2x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Malachite_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_2x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Malachite_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_4x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Malachite_Green_4x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Malachite_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_4x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Malachite_Green_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LSWR_5000gal_SR_Olive_Green, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_1x_8bpp.png")
+spriteset(spriteset_LSWR_5000gal_SR_Olive_Green, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Olive_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_1x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_1x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Olive_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_1x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Olive_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_2x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_2x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Olive_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_2x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Olive_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_4x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Olive_Green_4x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Olive_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_4x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Olive_Green_4x_mask.png")
     { template_58trains_4x(0,0) }
     
 // basic sprites
-spriteset(spriteset_LSWR_5000gal_SR_Wartime_Black, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_1x_8bpp.png")
+spriteset(spriteset_LSWR_5000gal_SR_Wartime_Black, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_1x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_1x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_1x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_2x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_2x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_2x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LSWR_5000gal_SR_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_4x_32bpp.png", "gfx\Tender\LSWR_5000gal\LSWR_5000gal_SR_Wartime_Black_4x_mask.png")
+    alternative_sprites(spriteset_LSWR_5000gal_SR_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_4x_32bpp.png", "gfx/Tender/LSWR_5000gal/LSWR_5000gal_SR_Wartime_Black_4x_mask.png")
     { template_58trains_4x(0,0) }

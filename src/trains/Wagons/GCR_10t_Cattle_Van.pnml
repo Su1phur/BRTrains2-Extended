@@ -1,34 +1,34 @@
 // basic sprites
-spriteset(spriteset_GCR_10t_Cattle_Van_Brown, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_8bpp.png")
+spriteset(spriteset_GCR_10t_Cattle_Van_Brown, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_1x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_2x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_2x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_2x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_4x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_4x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_4x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_GCR_10t_Cattle_Van_purchase, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_8bpp.png")
+spriteset(spriteset_GCR_10t_Cattle_Van_purchase, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Brown_1x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_1x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Brown_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprites
-spriteset(spriteset_GCR_10t_Cattle_Van_Grey, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_1x_8bpp.png")
+spriteset(spriteset_GCR_10t_Cattle_Van_Grey, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_1x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_1x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_1x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_2x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_2x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_2x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_4x_32bpp.png", "gfx\Wagons\GCR_10t_Cattle_Van\GCR_10t_Cattle_Van_Grey_4x_mask.png")
+    alternative_sprites(spriteset_GCR_10t_Cattle_Van_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_4x_32bpp.png", "gfx/Wagons/GCR_10t_Cattle_Van/GCR_10t_Cattle_Van_Grey_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // livery switch

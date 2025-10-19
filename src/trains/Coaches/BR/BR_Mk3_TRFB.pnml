@@ -1,34 +1,34 @@
 // basic sprite
-spriteset(spriteset_BR_Mk3_TRFB_BR_Blue, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_1x_mask.png")
         { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_2x_mask.png")
         { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_4x_mask.png")
         { template_148trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_purchase, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_purchase, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_1x_mask.png")
     { template_purchase(0,0) }
 
 
-spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
 // loading sprite
@@ -41,16 +41,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_BR_Blue, [ STORE_TEMP((getbit
     1: spritegroup_BR_Mk3_TRFB_BR_Blue_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_125, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_BR_Blue_125, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_1x_mask.png")
         { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_2x_mask.png")
         { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_BR_Blue_125_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_BR_Blue_125, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_BR_Blue_125_4x_mask.png")
         { template_148trains_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_BR_Blue_125, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -58,23 +58,23 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_BR_Blue_125, [ STORE_TEMP((ge
     1: spritegroup_BR_Mk3_TRFB_BR_Blue_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR_Mk3_TRFB_GNER, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_GNER, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_1x_mask.png")
         { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_2x_mask.png")
         { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_4x_mask.png")
         { template_148trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_Mk3_TRFB_GNER_purchase, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_GNER_purchase, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_GNER_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_GNER_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_GNER_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_GNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -82,36 +82,36 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_GNER, [ STORE_TEMP((getbits(e
     1: spritegroup_BR_Mk3_GNER_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_1x_mask.png")
         { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_2x_mask.png")
         { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_4x_mask.png")
         { template_148trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_1x_mask.png")
     { template_purchase(0,0) }
 
 
-spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Executive_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Executive_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Executive_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
 // loading sprite
@@ -124,16 +124,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_Intercity_Executive, [ STORE_
     1: spritegroup_BR_Mk3_TRFB_Intercity_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR_Mk3_TRFB_Intercity_Swallow, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_1x_8bpp.png")
+spriteset(spriteset_BR_Mk3_TRFB_Intercity_Swallow, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_1x_mask.png")
         { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_2x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_2x_mask.png")
         { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TRFB\BR_Mk3_TRFB_Intercity_Swallow_4x_mask.png")
+    alternative_sprites(spriteset_BR_Mk3_TRFB_Intercity_Swallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TRFB/BR_Mk3_TRFB_Intercity_Swallow_4x_mask.png")
         { template_148trains_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TRFB_Intercity_Swallow, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {

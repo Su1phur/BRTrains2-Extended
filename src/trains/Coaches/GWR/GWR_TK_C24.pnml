@@ -1,26 +1,26 @@
 // basic sprites
-spriteset(spriteset_GWR_TK_C24_BnC, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_8bpp.png")
+spriteset(spriteset_GWR_TK_C24_BnC, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_2x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_2x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_4x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_BnC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_4x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-// spriteset(spriteset_GWR_TK_C24_BnC_Loading, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_1x_8bpp.png")
+// spriteset(spriteset_GWR_TK_C24_BnC_Loading, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_1x_8bpp.png")
 //     { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_1x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_1x_mask.png")
 //     { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_2x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_2x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_2x_mask.png")
 //     { template_138trains_2x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_Loading_4x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_BnC_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_4x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_BnC_Loading_4x_mask.png")
 //     { template_138trains_4x(0,0) }
 
 // loading sprite
@@ -33,28 +33,28 @@ spriteset(spriteset_GWR_TK_C24_BnC, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_BnC_1x_8b
 //     1: spritegroup_GWR_TK_C24_BnC_Loading; }
 
 // basic sprites
-spriteset(spriteset_GWR_TK_C24_Cream, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_8bpp.png")
+spriteset(spriteset_GWR_TK_C24_Cream, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_2x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_2x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_4x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_4x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-// spriteset(spriteset_GWR_TK_C24_Cream_Loading, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_1x_8bpp.png")
+// spriteset(spriteset_GWR_TK_C24_Cream_Loading, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_1x_8bpp.png")
 //     { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_1x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_1x_mask.png")
 //     { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_2x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_2x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_2x_mask.png")
 //     { template_138trains_2x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_Loading_4x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_Cream_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_4x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_Loading_4x_mask.png")
 //     { template_138trains_4x(0,0) }
 
 // loading sprite
@@ -67,28 +67,28 @@ spriteset(spriteset_GWR_TK_C24_Cream, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1
 //     1: spritegroup_GWR_TK_C24_Cream_Loading; }
 
 // basic sprites
-spriteset(spriteset_GWR_TK_C24_Maroon, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_1x_8bpp.png")
+spriteset(spriteset_GWR_TK_C24_Maroon, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_1x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_2x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_2x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_4x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_4x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-// spriteset(spriteset_GWR_TK_C24_Maroon_Loading, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_1x_8bpp.png")
+// spriteset(spriteset_GWR_TK_C24_Maroon_Loading, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_1x_8bpp.png")
 //     { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_1x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_1x_mask.png")
 //     { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_2x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_2x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_2x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_2x_mask.png")
 //     { template_138trains_2x(0,0) }
 
-//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_4x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon_Loading_4x_mask.png")
+//     alternative_sprites(spriteset_GWR_TK_C24_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_4x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Maroon_Loading_4x_mask.png")
 //     { template_138trains_4x(0,0) }
 
 // loading sprite
@@ -101,10 +101,10 @@ spriteset(spriteset_GWR_TK_C24_Maroon, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Maroon
 //     1: spritegroup_GWR_TK_C24_Maroon_Loading; }
 
 // purchase sprite
-spriteset(spriteset_GWR_TK_C24_Cream_purchase, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_8bpp.png")
+spriteset(spriteset_GWR_TK_C24_Cream_purchase, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GWR_TK_C24_Cream_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_32bpp.png", "gfx\Coaches\GWR_TK_C24\GWR_TK_C24_Cream_1x_mask.png")
+    alternative_sprites(spriteset_GWR_TK_C24_Cream_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_1x_32bpp.png", "gfx/Coaches/GWR_TK_C24/GWR_TK_C24_Cream_1x_mask.png")
     { template_purchase(0,0) }
 
 // livery switch

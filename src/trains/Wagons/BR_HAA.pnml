@@ -1,89 +1,89 @@
 // basic sprite
-spriteset(spriteset_BR_HAA_BR_Bauxite, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_BR_Bauxite, "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_1x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_1x_mask.png")
         { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_2x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_2x_mask.png")
         { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_BR_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_4x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_BR_Bauxite_4x_mask.png")
         { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR_HAA_Mainline, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Mainline, "gfx/Wagons/BR_HAA/BR_HAA_Mainline_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Mainline_1x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Mainline_1x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Mainline_1x_mask.png")
         { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Mainline_2x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Mainline_2x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Mainline_2x_mask.png")
         { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Mainline_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Mainline_4x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Mainline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Mainline_4x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Mainline_4x_mask.png")
         { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR_HAA_Railfreight_Red, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Railfreight_Red, "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_1x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_1x_mask.png")
         { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_2x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_2x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_2x_mask.png")
         { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_4x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_4x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_4x_mask.png")
         { template_58trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_HAA_Railfreight_Red_purchase, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Railfreight_Red_purchase, "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Railfreight_Red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Railfreight_Red_1x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Railfreight_Red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_1x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Railfreight_Red_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR_HAA_Trainload, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Trainload, "gfx/Wagons/BR_HAA/BR_HAA_Trainload_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_1x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Trainload_1x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Trainload_1x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Trainload_1x_mask.png")
         { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_2x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Trainload_2x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Trainload_2x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Trainload_2x_mask.png")
         { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_HAA\BR_HAA_Trainload_4x_32bpp.png", "gfx\Wagons\BR_HAA\BR_HAA_Trainload_4x_mask.png")
+    alternative_sprites(spriteset_BR_HAA_Trainload, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_HAA/BR_HAA_Trainload_4x_32bpp.png", "gfx/Wagons/BR_HAA/BR_HAA_Trainload_4x_mask.png")
         { template_58trains_4x(0,0) }
 
 
 // Loading sprites
-spriteset(spriteset_BR_HAA_Bulk_30, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_30_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Bulk_30, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_30_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Bulk_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_30_2x_8bpp.png")
+    alternative_sprites(spriteset_BR_HAA_Bulk_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_30_2x_8bpp.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Bulk_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_30_4x_8bpp.png")
+    alternative_sprites(spriteset_BR_HAA_Bulk_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_30_4x_8bpp.png")
     { template_58trains_4x(0,0) }
 
-spriteset(spriteset_BR_HAA_Bulk_60, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_60_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Bulk_60, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_60_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Bulk_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_60_2x_8bpp.png")
+    alternative_sprites(spriteset_BR_HAA_Bulk_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_60_2x_8bpp.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Bulk_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_60_4x_8bpp.png")
+    alternative_sprites(spriteset_BR_HAA_Bulk_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_60_4x_8bpp.png")
     { template_58trains_4x(0,0) }
 
-spriteset(spriteset_BR_HAA_Bulk_100, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_100_1x_8bpp.png")
+spriteset(spriteset_BR_HAA_Bulk_100, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_100_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_100_2x_8bpp.png")
+    alternative_sprites(spriteset_BR_HAA_Bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_100_2x_8bpp.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_HAA_Bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_HAA\BR_HAA_Bulk_100_4x_8bpp.png")
+    alternative_sprites(spriteset_BR_HAA_Bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_HAA/BR_HAA_Bulk_100_4x_8bpp.png")
     { template_58trains_4x(0,0) }
 
 // loading spritestack

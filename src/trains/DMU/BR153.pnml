@@ -1,26 +1,26 @@
 // basic sprites
-spriteset(spriteset_BR153_BR_Regional_Railways, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR153_BR_Regional_Railways, "gfx/DMU/BR153/BR153_BR_Regional_Railways_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_4x_mask.png")
     { template_148trains_4x(0,0) }
 
-spriteset(spriteset_BR153_BR_Regional_Railways_Loading, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_1x_8bpp.png")
+spriteset(spriteset_BR153_BR_Regional_Railways_Loading, "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_1x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_2x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_2x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR153_BR_Regional_Railways_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_4x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
 // loading sprite
@@ -30,10 +30,10 @@ spritegroup spritegroup_BR153_BR_Regional_Railways_Loading {
 }
 
 // purchase sprite
-spriteset(spriteset_BR153_purchase, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR153_purchase, "gfx/DMU/BR153/BR153_BR_Regional_Railways_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR153_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR153\BR153_BR_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR153_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_BR_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR153/BR153_BR_Regional_Railways_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_BR_Regional_Railways, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -42,28 +42,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_BR_Regional_Railways, [ STORE_TEMP(
 }
 
 // basic sprites
-spriteset(spriteset_BR153_Arriva_Trains_Wales, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_1x_8bpp.png")
+spriteset(spriteset_BR153_Arriva_Trains_Wales, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_1x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_1x_mask.png")
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_1x_32bpp.png", "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_2x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_2x_mask.png")
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_2x_32bpp.png", "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_4x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_4x_mask.png")
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_4x_32bpp.png", "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_4x_mask.png")
     { template_148trains_4x(0,0) }
 
-spriteset(spriteset_BR153_Arriva_Trains_Wales_Loading, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_1x_8bpp.png")
+spriteset(spriteset_BR153_Arriva_Trains_Wales_Loading, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_1x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_1x_32bpp.png", "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_2x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_2x_32bpp.png", "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_Arriva_Trains_Wales_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR153_Arriva_Trains_Wales_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_4x_32bpp.png", "gfx/DMU/BR153/BR153_Arriva_Trains_Wales_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
 // loading sprite
@@ -78,28 +78,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR153_Arriva_Trains_Wales, [ STORE_TEMP((
 }
 
 // basic sprites
-spriteset(spriteset_BR153_TfW, "gfx\DMU\BR153\BR153_TfW_1x_8bpp.png")
+spriteset(spriteset_BR153_TfW, "gfx/DMU/BR153/BR153_TfW_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_1x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_1x_mask.png")
+    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_TfW_1x_32bpp.png", "gfx/DMU/BR153/BR153_TfW_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_2x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_2x_mask.png")
+    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_TfW_2x_32bpp.png", "gfx/DMU/BR153/BR153_TfW_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_4x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_4x_mask.png")
+    alternative_sprites(spriteset_BR153_TfW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_TfW_4x_32bpp.png", "gfx/DMU/BR153/BR153_TfW_4x_mask.png")
     { template_148trains_4x(0,0) }
 
-spriteset(spriteset_BR153_TfW_Loading, "gfx\DMU\BR153\BR153_TfW_Loading_1x_8bpp.png")
+spriteset(spriteset_BR153_TfW_Loading, "gfx/DMU/BR153/BR153_TfW_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_Loading_1x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_TfW_Loading_1x_32bpp.png", "gfx/DMU/BR153/BR153_TfW_Loading_1x_mask.png")
     { template_148trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_Loading_2x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_TfW_Loading_2x_32bpp.png", "gfx/DMU/BR153/BR153_TfW_Loading_2x_mask.png")
     { template_148trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR153\BR153_TfW_Loading_4x_32bpp.png", "gfx\DMU\BR153\BR153_TfW_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR153_TfW_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR153/BR153_TfW_Loading_4x_32bpp.png", "gfx/DMU/BR153/BR153_TfW_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
 // loading sprite

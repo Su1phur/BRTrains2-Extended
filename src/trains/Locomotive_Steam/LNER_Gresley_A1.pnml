@@ -1,57 +1,57 @@
 // Anim_sprites
-spriteset(spriteset_LNER_Gresley_A1_A3_Anim1, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Anim1, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_4x_mask.png")
     { template_98trains_4x(0,0) }
 
-spriteset(spriteset_LNER_Gresley_A1_A3_Anim2, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Anim2, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_2_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_2_4x_mask.png")
     { template_98trains_4x(0,0) }
 
-spriteset(spriteset_LNER_Gresley_A1_A3_Anim3, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Anim3, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_3_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_3_4x_mask.png")
     { template_98trains_4x(0,0) }
 
-spriteset(spriteset_LNER_Gresley_A1_A3_Anim4, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Anim4, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_4_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_4_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_LNER_Gresley_A1_A3_Anim_Purchase, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Anim_Purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Anim_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Anim_1_1x_mask.png")
     { template_purchase(0,0) }
 
 // Animation sprite stacking
@@ -63,140 +63,140 @@ switch (FEAT_TRAINS, SELF, sw_Animation_LNER_Gresley_A1_A3, motion_counter % 4) 
 }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_LNER_Gresley_A1_purchase, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Apple_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Apple_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_LNER_Wartime_Black_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_LNER_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_LNER_Wartime_Black_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Express_Blue_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Express_Blue_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_A3_BR_Green, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_BR_Green, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_BR_Green_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Wartime_Black_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_LNER_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Wartime_Black_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_Top_BR_Green, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_Top_BR_Green, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Green_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_BR_Express_Blue_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_BR_Express_Blue_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_Gresley_A1_A3_Single_Chimney, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Single_Chimney, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_1x_mask.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_2x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_2x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_2x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_2x_mask.png")
     { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_4x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_4x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_4x_mask.png")
     { template_98trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_A3_Single_Chimney_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Single_Chimney_1x_mask.png")
     { template_purchase(0,0) }
 
-spriteset(spriteset_LNER_Gresley_A1_Top_purchase, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A1_Top_purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A1_Top_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LNER_Gresley_A1_A3\LNER_Gresley_A1_Top_LNER_Apple_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A1_Top_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_Top_LNER_Apple_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 

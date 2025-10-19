@@ -1,61 +1,61 @@
 // basic sprite
-spriteset(spriteset_BR_VGA_DB_Cargo, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_1x_8bpp.png")
+spriteset(spriteset_BR_VGA_DB_Cargo, "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_1x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_1x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_1x_mask.png")
         { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_2x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_2x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_2x_mask.png")
         { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_DB_Cargo_4x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_DB_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_4x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_DB_Cargo_4x_mask.png")
         { template_98trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR_VGA_EWS, "gfx\Wagons\BR_VGA\BR_VGA_EWS_1x_8bpp.png")
+spriteset(spriteset_BR_VGA_EWS, "gfx/Wagons/BR_VGA/BR_VGA_EWS_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_EWS_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_EWS_1x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_EWS_1x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_EWS_1x_mask.png")
         { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_EWS_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_EWS_2x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_EWS_2x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_EWS_2x_mask.png")
         { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_EWS_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_EWS_4x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_EWS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_EWS_4x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_EWS_4x_mask.png")
         { template_98trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR_VGA_Railfreight, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_8bpp.png")
+spriteset(spriteset_BR_VGA_Railfreight, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_1x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_1x_mask.png")
         { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_2x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_2x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_2x_mask.png")
         { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_4x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_4x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_4x_mask.png")
         { template_98trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_VGA_Railfreight_purchase, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_8bpp.png")
+spriteset(spriteset_BR_VGA_Railfreight_purchase, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_1x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_1x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR_VGA_Railfreight_Distribution, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_1x_8bpp.png")
+spriteset(spriteset_BR_VGA_Railfreight_Distribution, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_1x_8bpp.png")
     { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_1x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_1x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_1x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_1x_mask.png")
         { template_98trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_2x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_2x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_2x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_2x_mask.png")
         { template_98trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_4x_32bpp.png", "gfx\Wagons\BR_VGA\BR_VGA_Railfreight_Distribution_4x_mask.png")
+    alternative_sprites(spriteset_BR_VGA_Railfreight_Distribution, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_4x_32bpp.png", "gfx/Wagons/BR_VGA/BR_VGA_Railfreight_Distribution_4x_mask.png")
         { template_98trains_4x(0,0) }
 
 // livery switch

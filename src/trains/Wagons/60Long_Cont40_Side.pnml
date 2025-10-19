@@ -1,15 +1,15 @@
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var1_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var1_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era1_Freightliner_Var1 {
@@ -17,32 +17,32 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era1_Freightliner_Var1 {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var1];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era1_Freightliner_Var2_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era1_Freightliner_Var2_4x_mask.png")
     { template_138trains_4x(0,0) }
     
 spritegroup spritegroup_60Long_Cont40_Lead_Era1_Freightliner_Var2 {
     loaded: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2];
     loading:    [spriteset_empty, spriteset_60Long_Cont40_Lead_Era1_Freightliner_Var2]; }
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Bauxite_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Bauxite {
@@ -50,16 +50,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Bauxite {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Bauxite];}
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_DB_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_DB_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_DB {
@@ -67,16 +67,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_DB {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_DB];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1 {
@@ -84,16 +84,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1 {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var1];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2 {
@@ -101,16 +101,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2 {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Freightliner_Yellow_Var2];}
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Maersk_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Maersk_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Maersk {
@@ -118,16 +118,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Maersk {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Maersk];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Green_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Green_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Green {
@@ -135,16 +135,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Green {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Green]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Hamburg_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Hamburg_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Hamburg {
@@ -152,16 +152,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Hamburg {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Hamburg]; }
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_Maersk_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_Maersk_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Cold_Maersk {
@@ -170,16 +170,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Cold_Maersk {
 
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Cold_White, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Cold_White, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_White, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_White, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_White, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_White, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_White, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Cold_White_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Cold_White, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Cold_White_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Cold_White {
@@ -187,16 +187,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Cold_White {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Cold_White];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Cosco_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Cosco_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Cosco {
@@ -204,16 +204,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Cosco {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era3_Dry_Cosco]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_DB_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_DB_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_DB {
@@ -221,16 +221,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_DB {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era3_Dry_DB]; }
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Evergreen_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Evergreen_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Evergreen {
@@ -238,16 +238,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Evergreen {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era3_Dry_Evergreen];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_JP+Bauxite_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_JPBauxite{
@@ -256,16 +256,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_JPBauxite{
 
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 // loading sprite
@@ -274,16 +274,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era3_Dry_Maersk_Rainbow]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_Tesco_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_Tesco_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Tesco{
@@ -291,16 +291,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_Tesco{
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era3_Dry_Tesco]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era3_Dry_MitsuiOL_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era3_Dry_MitsuiOL_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_MitsuiOL {
@@ -308,16 +308,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era3_Dry_MitsuiOL {
     loading: [spriteset_empty, spriteset_60Long_Cont40_Lead_Era3_Dry_MitsuiOL]; }
     
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var1_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var1_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era1_Freightliner_Var1 {
@@ -325,32 +325,32 @@ spritegroup spritegroup_60Long_Cont40_End_Era1_Freightliner_Var1 {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era1_Freightliner_Var1];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era1_Freightliner_Var2_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era1_Freightliner_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era1_Freightliner_Var2_4x_mask.png")
     { template_138trains_4x(0,0) }
     
 spritegroup spritegroup_60Long_Cont40_End_Era1_Freightliner_Var2 {
     loaded: [spriteset_empty, spriteset_60Long_Cont40_End_Era1_Freightliner_Var2];
     loading:    [spriteset_empty, spriteset_60Long_Cont40_End_Era1_Freightliner_Var2]; }
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Bauxite_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Bauxite {
@@ -358,16 +358,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Bauxite {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_Bauxite];}
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_DB, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_DB, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_DB_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_DB_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_DB {
@@ -375,16 +375,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_DB {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_DB];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1 {
@@ -392,16 +392,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1 {
     loading:    [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var1]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2 {
@@ -409,16 +409,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2 {
     loading:    [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_Freightliner_Yellow_Var2]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1 {
@@ -426,16 +426,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1 {
     loading:    [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var1]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_Lead\60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_Lead/60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2 {
@@ -443,16 +443,16 @@ spritegroup spritegroup_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2 {
     loading:    [spriteset_empty, spriteset_60Long_Cont40_Lead_Era2_Dry_Frieghtliner_Yellow_Var2]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Green, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Green, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Green_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Green_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Green {
@@ -460,16 +460,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Green {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_Green]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Hamburg_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Hamburg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Hamburg_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Hamburg {
@@ -477,16 +477,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Hamburg {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_Hamburg]; }
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Dry_Maersk_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Dry_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Dry_Maersk_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Maersk {
@@ -494,16 +494,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Dry_Maersk {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Dry_Maersk];}
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_Maersk_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_Maersk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_Maersk_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Cold_Maersk {
@@ -512,16 +512,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Cold_Maersk {
 
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era2_Cold_White, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era2_Cold_White, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_White, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_White, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_White, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_White, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_White, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era2_Cold_White_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era2_Cold_White, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era2_Cold_White_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era2_Cold_White {
@@ -529,16 +529,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era2_Cold_White {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era2_Cold_White];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Cosco_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Cosco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Cosco_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Cosco {
@@ -546,32 +546,32 @@ spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Cosco {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_Cosco]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_DB, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_DB, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_DB_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_DB_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_DB {
     loaded: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_DB];
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_DB]; }
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Evergreen_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Evergreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Evergreen_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Evergreen {
@@ -579,16 +579,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Evergreen {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_Evergreen];}
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_JP+Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_JP+Bauxite_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_JPBauxite{
@@ -596,16 +596,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_JPBauxite{
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_JPBauxite]; }
 
 // basic sprites
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Maersk_Rainbow_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 // loading sprite
@@ -614,16 +614,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow {
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_Maersk_Rainbow]; }
 
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_Tesco_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_Tesco, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_Tesco_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Tesco{
@@ -631,16 +631,16 @@ spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_Tesco{
     loading: [spriteset_empty, spriteset_60Long_Cont40_End_Era3_Dry_Tesco]; }
     
 // basic sprite
-spriteset(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_1x_8bpp.png")
+spriteset(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_1x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_1x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_1x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_1x_mask.png")
         { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_2x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_2x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_2x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_2x_mask.png")
         { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_4x_32bpp.png", "gfx\Cargo\60Long_Cont40_End\60Long_Cont40_End_Era3_Dry_MitsuiOL_4x_mask.png")
+    alternative_sprites(spriteset_60Long_Cont40_End_Era3_Dry_MitsuiOL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_4x_32bpp.png", "gfx/Cargo/60Long_Cont40_End/60Long_Cont40_End_Era3_Dry_MitsuiOL_4x_mask.png")
         { template_138trains_4x(0,0) }
 
 spritegroup spritegroup_60Long_Cont40_End_Era3_Dry_MitsuiOL {

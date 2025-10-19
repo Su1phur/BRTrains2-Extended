@@ -1,57 +1,57 @@
 // basic sprites
-spriteset(spriteset_BR_FEA_Black, "gfx\Wagons\BR_FEA\BR_FEA_Black_1x_8bpp.png")
+spriteset(spriteset_BR_FEA_Black, "gfx/Wagons/BR_FEA/BR_FEA_Black_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Black_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Black_1x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Black_1x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Black_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Black_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Black_2x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Black_2x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Black_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Black_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Black_4x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Black_4x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Black_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-spriteset(spriteset_BR_FEA_Blue, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_8bpp.png")
+spriteset(spriteset_BR_FEA_Blue, "gfx/Wagons/BR_FEA/BR_FEA_Blue_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Blue_1x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Blue_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Blue_2x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Blue_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Blue_4x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Blue_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-spriteset(spriteset_BR_FEA_Green, "gfx\Wagons\BR_FEA\BR_FEA_Green_1x_8bpp.png")
+spriteset(spriteset_BR_FEA_Green, "gfx/Wagons/BR_FEA/BR_FEA_Green_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Green_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Green_1x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Green_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Green_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Green_2x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Green_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Green_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Green_4x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Green_4x_mask.png")
     { template_138trains_4x(0,0) }
 
-spriteset(spriteset_BR_FEA_Yellow, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_1x_8bpp.png")
+spriteset(spriteset_BR_FEA_Yellow, "gfx/Wagons/BR_FEA/BR_FEA_Yellow_1x_8bpp.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Yellow_1x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Yellow_1x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Yellow_1x_mask.png")
     { template_138trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_2x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Yellow_2x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Yellow_2x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Yellow_2x_mask.png")
     { template_138trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Yellow_4x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Yellow_4x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Yellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Yellow_4x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Yellow_4x_mask.png")
     { template_138trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_FEA_Blue_purchase, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_8bpp.png")
+spriteset(spriteset_BR_FEA_Blue_purchase, "gfx/Wagons/BR_FEA/BR_FEA_Blue_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_FEA_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_32bpp.png", "gfx\Wagons\BR_FEA\BR_FEA_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR_FEA_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_FEA/BR_FEA_Blue_1x_32bpp.png", "gfx/Wagons/BR_FEA/BR_FEA_Blue_1x_mask.png")
     { template_purchase(0,0) }
 
 // livery switch

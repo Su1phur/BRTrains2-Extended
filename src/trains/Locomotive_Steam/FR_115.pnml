@@ -1,142 +1,142 @@
 // basic sprite
-spriteset(spriteset_FR_115_BR_Black_Early_Emblem, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_1x_8bpp.png")
+spriteset(spriteset_FR_115_BR_Black_Early_Emblem, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_FR_115_BR_Black_Early_Emblem_purchase, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_1x_8bpp.png")
+spriteset(spriteset_FR_115_BR_Black_Early_Emblem_purchase, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Early_Emblem_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Early_Emblem_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Early_Emblem_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_FR_115_BR_Black_Late_Crest, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_1x_8bpp.png")
+spriteset(spriteset_FR_115_BR_Black_Late_Crest, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_BR_Black_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_BR_Black_Late_Crest_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_BR_Black_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_BR_Black_Late_Crest_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_FR_115_FR_Red, "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_1x_8bpp.png")
+spriteset(spriteset_FR_115_FR_Red, "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_FR_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_FR_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_FR_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_FR_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_FR_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_4x_mask.png")
-    { template_88trains_4x(0,0) }
-
-// purchase sprite
-spriteset(spriteset_FR_115_FR_Red_purchase, "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_FR_115_FR_Red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_FR_Red_1x_mask.png")
-    { template_purchase(0,0) }
-
-// basic sprite
-spriteset(spriteset_FR_115_LMS_Black, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_1x_8bpp.png")
-    { template_88trains_1x(0,0) }
-
-    alternative_sprites(spriteset_FR_115_LMS_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_1x_mask.png")
-    { template_88trains_1x(0,0) }
-
-    alternative_sprites(spriteset_FR_115_LMS_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_2x_mask.png")
-    { template_88trains_2x(0,0) }
-
-    alternative_sprites(spriteset_FR_115_LMS_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Black_4x_mask.png")
-    { template_88trains_4x(0,0) }
-
-// basic sprite
-spriteset(spriteset_FR_115_LMS_Crimson, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_1x_8bpp.png")
-    { template_88trains_1x(0,0) }
-
-    alternative_sprites(spriteset_FR_115_LMS_Crimson, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_1x_mask.png")
-    { template_88trains_1x(0,0) }
-
-    alternative_sprites(spriteset_FR_115_LMS_Crimson, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_2x_mask.png")
-    { template_88trains_2x(0,0) }
-
-    alternative_sprites(spriteset_FR_115_LMS_Crimson, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_FR_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_FR_115_LMS_Crimson_purchase, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_1x_8bpp.png")
+spriteset(spriteset_FR_115_FR_Red_purchase, "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_FR_115_LMS_Crimson_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_LMS_Crimson_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_FR_Red_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_FR_Red_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_FR_115_LMS_Black, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Black_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_FR_115_LMS_Crimson, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_1x_8bpp.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Crimson, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_1x_mask.png")
+    { template_88trains_1x(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Crimson, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_2x_mask.png")
+    { template_88trains_2x(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Crimson, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_4x_mask.png")
+    { template_88trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_FR_115_LMS_Crimson_purchase, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_FR_115_LMS_Crimson_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_LMS_Crimson_1x_mask.png")
     { template_purchase(0,0) }
 
 // Anim_sprites
-spriteset(spriteset_FR_115_Anim1, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_8bpp.png")
+spriteset(spriteset_FR_115_Anim1, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_FR_115_Anim2, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_1x_8bpp.png")
+spriteset(spriteset_FR_115_Anim2, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_2_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_2_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_FR_115_Anim3, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_1x_8bpp.png")
+spriteset(spriteset_FR_115_Anim3, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_3_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_3_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_FR_115_Anim4, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_1x_8bpp.png")
+spriteset(spriteset_FR_115_Anim4, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_2x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_2x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_4_4x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_4x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_4_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_FR_115_Anim_purchase, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_8bpp.png")
+spriteset(spriteset_FR_115_Anim_purchase, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_FR_115_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\FR_115\FR_115_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_FR_115_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_1x_32bpp.png", "gfx/Locomotive_Steam/FR_115/FR_115_Anim_1_1x_mask.png")
     { template_purchase(0,0) }
 
 switch (FEAT_TRAINS, SELF, sw_animation_FR_115, motion_counter % 4) {

@@ -1,791 +1,791 @@
 // basic sprites
-spriteset(spriteset_BR101_DMBS_BR_Blue, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_BR_Blue, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMBS_BR_Blue_REV, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_BR_Blue_REV, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMBS_BR_Green, "gfx\DMU\BR101\BR101_DMBS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_BR_Green, "gfx/DMU/BR101/BR101_DMBS_BR_Green_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMBS_BR_Green_REV, "gfx\DMU\BR101\BR101_DMBS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_BR_Green_REV, "gfx/DMU/BR101/BR101_DMBS_BR_Green_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMBS_BR_Green_YellowPanel, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_BR_Green_YellowPanel, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_BR_Green_YellowPanel_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMBS_Regional_Railways, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_Regional_Railways, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMBS_Regional_Railways_REV, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_Regional_Railways_REV, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_Regional_Railways_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMBS_SPT, "gfx\DMU\BR101\BR101_DMBS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_SPT, "gfx/DMU/BR101/BR101_DMBS_SPT_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_SPT_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_SPT_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_SPT_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMBS_SPT_REV, "gfx\DMU\BR101\BR101_DMBS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_SPT_REV, "gfx/DMU/BR101/BR101_DMBS_SPT_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_SPT_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_SPT_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_SPT_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 
 
 // basic sprites
-spriteset(spriteset_BR101_DMBS_NSE, "gfx\DMU\BR101\BR101_DMBS_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_NSE, "gfx/DMU/BR101/BR101_DMBS_NSE_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_NSE_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_NSE_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_NSE_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMBS_NSE_REV, "gfx\DMU\BR101\BR101_DMBS_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_DMBS_NSE_REV, "gfx/DMU/BR101/BR101_DMBS_NSE_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_NSE_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_NSE_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMBS_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMBS_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMBS_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMBS_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMBS_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMBS_NSE_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
     
 // basic sprites
-spriteset(spriteset_BR101_DMC_BR_Blue, "gfx\DMU\BR101\BR101_DMC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DMC_BR_Blue, "gfx/DMU/BR101/BR101_DMC_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMC_BR_Blue_REV, "gfx\DMU\BR101\BR101_DMC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DMC_BR_Blue_REV, "gfx/DMU/BR101/BR101_DMC_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMC_NSE, "gfx\DMU\BR101\BR101_DMC_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_DMC_NSE, "gfx/DMU/BR101/BR101_DMC_NSE_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_NSE_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_NSE_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_NSE_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMC_NSE_REV, "gfx\DMU\BR101\BR101_DMC_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_DMC_NSE_REV, "gfx/DMU/BR101/BR101_DMC_NSE_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_NSE_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_NSE_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMC_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMC_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMC_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMC_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMC_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMC_NSE_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMS_BR_Blue, "gfx\DMU\BR101\BR101_DMS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_BR_Blue, "gfx/DMU/BR101/BR101_DMS_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMS_BR_Blue_REV, "gfx\DMU\BR101\BR101_DMS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_BR_Blue_REV, "gfx/DMU/BR101/BR101_DMS_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMS_BR_Green, "gfx\DMU\BR101\BR101_DMS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_BR_Green, "gfx/DMU/BR101/BR101_DMS_BR_Green_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMS_BR_Green_REV, "gfx\DMU\BR101\BR101_DMS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_BR_Green_REV, "gfx/DMU/BR101/BR101_DMS_BR_Green_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMS_BR_Green_YellowPanel, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_BR_Green_YellowPanel, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_BR_Green_YellowPanel_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMS_Regional_Railways, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_Regional_Railways, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_Regional_Railways_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_Regional_Railways_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_Regional_Railways_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMS_Regional_Railways_REV, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_Regional_Railways_REV, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_Regional_Railways_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_Regional_Railways_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_Regional_Railways_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DMS_SPT, "gfx\DMU\BR101\BR101_DMS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_SPT, "gfx/DMU/BR101/BR101_DMS_SPT_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_SPT_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_SPT_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_SPT_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DMS_SPT_REV, "gfx\DMU\BR101\BR101_DMS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_DMS_SPT_REV, "gfx/DMU/BR101/BR101_DMS_SPT_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_SPT_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_SPT_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DMS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DMS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_DMS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DMS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DMS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_DMS_SPT_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DTC_BR_Blue, "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DTC_BR_Blue, "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTC_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTC_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTC_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTC_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTC_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTC_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DTC_BR_Blue_REV, "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DTC_BR_Blue_REV, "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTC_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTC_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTC_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTC_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTC_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTC_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-// spriteset(spriteset_BR101_DTC_BR_Green, "gfx\DMU\BR101\BR101_DTC_BR_Green_1x_8bpp.png")
+// spriteset(spriteset_BR101_DTC_BR_Green, "gfx/DMU/BR101/BR101_DTC_BR_Green_1x_8bpp.png")
 //     { template_118trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_BR101_DTC_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Green_1x_mask.png")
+//     alternative_sprites(spriteset_BR101_DTC_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Green_1x_mask.png")
 //     { template_118trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_BR101_DTC_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Green_2x_mask.png")
+//     alternative_sprites(spriteset_BR101_DTC_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Green_2x_mask.png")
 //     { template_118trains_2x(0,0) }
 
-//     alternative_sprites(spriteset_BR101_DTC_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Green_4x_mask.png")
+//     alternative_sprites(spriteset_BR101_DTC_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Green_4x_mask.png")
 //     { template_118trains_4x(0,0) }
 
-// spriteset(spriteset_BR101_DTC_BR_Green_REV, "gfx\DMU\BR101\BR101_DTC_BR_Green_1x_8bpp.png")
+// spriteset(spriteset_BR101_DTC_BR_Green_REV, "gfx/DMU/BR101/BR101_DTC_BR_Green_1x_8bpp.png")
 //     { template_118trains_REV_1x(0,0) }
 
-//     alternative_sprites(spriteset_BR101_DTC_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Green_1x_mask.png")
+//     alternative_sprites(spriteset_BR101_DTC_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Green_1x_mask.png")
 //     { template_118trains_REV_1x(0,0) }
 
-//     alternative_sprites(spriteset_BR101_DTC_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Green_2x_mask.png")
+//     alternative_sprites(spriteset_BR101_DTC_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Green_2x_mask.png")
 //     { template_118trains_REV_2x(0,0) }
 
-//     alternative_sprites(spriteset_BR101_DTC_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Green_4x_mask.png")
+//     alternative_sprites(spriteset_BR101_DTC_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Green_4x_mask.png")
 //     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DTS_BR_Blue, "gfx\DMU\BR101\BR101_DTS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DTS_BR_Blue, "gfx/DMU/BR101/BR101_DTS_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DTS_BR_Blue_REV, "gfx\DMU\BR101\BR101_DTS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_DTS_BR_Blue_REV, "gfx/DMU/BR101/BR101_DTS_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DTS_BR_Green, "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_DTS_BR_Green, "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DTS_BR_Green_REV, "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_DTS_BR_Green_REV, "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_DTS_BR_Green_YellowPanel, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR101_DTS_BR_Green_YellowPanel, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_2x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_2x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_4x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR101_DTS_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_4x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_YellowPanel_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TBS_BR_Blue, "gfx\DMU\BR101\BR101_TBS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_BR_Blue, "gfx/DMU/BR101/BR101_TBS_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TBS_BR_Blue_REV, "gfx\DMU\BR101\BR101_TBS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_BR_Blue_REV, "gfx/DMU/BR101/BR101_TBS_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TBS_BR_Green, "gfx\DMU\BR101\BR101_TBS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_BR_Green, "gfx/DMU/BR101/BR101_TBS_BR_Green_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Green_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Green_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Green_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TBS_BR_Green_REV, "gfx\DMU\BR101\BR101_TBS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_BR_Green_REV, "gfx/DMU/BR101/BR101_TBS_BR_Green_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Green_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Green_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_BR_Green_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TBS_NSE, "gfx\DMU\BR101\BR101_TBS_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_NSE, "gfx/DMU/BR101/BR101_TBS_NSE_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_NSE_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_NSE_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_NSE_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TBS_NSE_REV, "gfx\DMU\BR101\BR101_TBS_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_NSE_REV, "gfx/DMU/BR101/BR101_TBS_NSE_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_NSE_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_NSE_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_NSE_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TBS_Regional_Railways, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_Regional_Railways, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_Regional_Railways_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_Regional_Railways_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_Regional_Railways_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TBS_Regional_Railways_REV, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_Regional_Railways_REV, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_Regional_Railways_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_Regional_Railways_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_Regional_Railways_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TBS_SPT, "gfx\DMU\BR101\BR101_TBS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_SPT, "gfx/DMU/BR101/BR101_TBS_SPT_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_SPT_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_SPT_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_SPT_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TBS_SPT_REV, "gfx\DMU\BR101\BR101_TBS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_TBS_SPT_REV, "gfx/DMU/BR101/BR101_TBS_SPT_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_SPT_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_SPT_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TBS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TBS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_TBS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TBS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TBS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_TBS_SPT_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TC_BR_Blue, "gfx\DMU\BR101\BR101_TC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_TC_BR_Blue, "gfx/DMU/BR101/BR101_TC_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TC_BR_Blue_REV, "gfx\DMU\BR101\BR101_TC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_TC_BR_Blue_REV, "gfx/DMU/BR101/BR101_TC_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TC_BR_Green, "gfx\DMU\BR101\BR101_TC_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_TC_BR_Green, "gfx/DMU/BR101/BR101_TC_BR_Green_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Green_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Green_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Green_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TC_BR_Green_REV, "gfx\DMU\BR101\BR101_TC_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_TC_BR_Green_REV, "gfx/DMU/BR101/BR101_TC_BR_Green_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Green_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Green_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_TC_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_TC_BR_Green_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TC_NSE, "gfx\DMU\BR101\BR101_TC_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_TC_NSE, "gfx/DMU/BR101/BR101_TC_NSE_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_TC_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_TC_NSE_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_TC_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_TC_NSE_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_TC_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_TC_NSE_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TC_NSE_REV, "gfx\DMU\BR101\BR101_TC_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_TC_NSE_REV, "gfx/DMU/BR101/BR101_TC_NSE_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_TC_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_TC_NSE_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_TC_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_TC_NSE_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TC_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TC_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_TC_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TC_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TC_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_TC_NSE_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TS_BR_Blue, "gfx\DMU\BR101\BR101_TS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_BR_Blue, "gfx/DMU/BR101/BR101_TS_BR_Blue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Blue_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Blue_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Blue_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TS_BR_Blue_REV, "gfx\DMU\BR101\BR101_TS_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_BR_Blue_REV, "gfx/DMU/BR101/BR101_TS_BR_Blue_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Blue_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Blue_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Blue_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Blue_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Blue_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Blue_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Blue_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TS_BR_Green, "gfx\DMU\BR101\BR101_TS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_BR_Green, "gfx/DMU/BR101/BR101_TS_BR_Green_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Green_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Green_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Green_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TS_BR_Green_REV, "gfx\DMU\BR101\BR101_TS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_BR_Green_REV, "gfx/DMU/BR101/BR101_TS_BR_Green_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Green_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Green_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Green_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Green_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_BR_Green_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_BR_Green_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_BR_Green_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TS_NSE, "gfx\DMU\BR101\BR101_TS_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_NSE, "gfx/DMU/BR101/BR101_TS_NSE_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_NSE_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_NSE_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_NSE_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TS_NSE_REV, "gfx\DMU\BR101\BR101_TS_NSE_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_NSE_REV, "gfx/DMU/BR101/BR101_TS_NSE_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_NSE_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_NSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_NSE_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_NSE_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_NSE_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_NSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_NSE_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_NSE_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_NSE_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_NSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_NSE_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_NSE_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TS_Regional_Railways, "gfx\DMU\BR101\BR101_TS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_Regional_Railways, "gfx/DMU/BR101/BR101_TS_Regional_Railways_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_Regional_Railways, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_Regional_Railways_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_Regional_Railways, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_Regional_Railways_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_Regional_Railways, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_Regional_Railways_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TS_Regional_Railways_REV, "gfx\DMU\BR101\BR101_TS_Regional_Railways_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_Regional_Railways_REV, "gfx/DMU/BR101/BR101_TS_Regional_Railways_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_Regional_Railways_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_Regional_Railways_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_Regional_Railways_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_Regional_Railways_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_Regional_Railways_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_Regional_Railways_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_Regional_Railways_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_Regional_Railways_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_Regional_Railways_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_Regional_Railways_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_Regional_Railways_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_Regional_Railways_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_Regional_Railways_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_Regional_Railways_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_Regional_Railways_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR101_TS_SPT, "gfx\DMU\BR101\BR101_TS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_SPT, "gfx/DMU/BR101/BR101_TS_SPT_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_SPT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_SPT_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_SPT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_SPT_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_SPT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_SPT_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR101_TS_SPT_REV, "gfx\DMU\BR101\BR101_TS_SPT_1x_8bpp.png")
+spriteset(spriteset_BR101_TS_SPT_REV, "gfx/DMU/BR101/BR101_TS_SPT_1x_8bpp.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_SPT_1x_32bpp.png", "gfx\DMU\BR101\BR101_TS_SPT_1x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_SPT_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_SPT_1x_32bpp.png", "gfx/DMU/BR101/BR101_TS_SPT_1x_mask.png")
     { template_118trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_SPT_2x_32bpp.png", "gfx\DMU\BR101\BR101_TS_SPT_2x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_SPT_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_SPT_2x_32bpp.png", "gfx/DMU/BR101/BR101_TS_SPT_2x_mask.png")
     { template_118trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR101_TS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_TS_SPT_4x_32bpp.png", "gfx\DMU\BR101\BR101_TS_SPT_4x_mask.png")
+    alternative_sprites(spriteset_BR101_TS_SPT_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_TS_SPT_4x_32bpp.png", "gfx/DMU/BR101/BR101_TS_SPT_4x_mask.png")
     { template_118trains_REV_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR101_BR_Green_Purchase, "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR101_BR_Green_Purchase, "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR101_BR_Green_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTS_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR101_BR_Green_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTS_BR_Green_1x_mask.png")
     { template_purchase(0,0) }
 
-spriteset(spriteset_BR101_BR_Blue_Purchase, "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR101_BR_Blue_Purchase, "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR101_BR_Blue_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_32bpp.png", "gfx\DMU\BR101\BR101_DTC_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR101_BR_Blue_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_32bpp.png", "gfx/DMU/BR101/BR101_DTC_BR_Blue_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_BR101_purchase_sprite, current_year) {
@@ -1152,7 +1152,7 @@ item (FEAT_TRAINS, item_BR101_3, 1013) {
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
         air_drag_coefficient:           0.12;
-        tractive_effort_coefficient:    0.25;
+        tractive_effort_coefficient:    0.18;
         length:                         8;
     }
 
@@ -1377,7 +1377,7 @@ item (FEAT_TRAINS, item_BR101_4, 1014) {
         engine_class:                   ENGINE_CLASS_DIESEL;
         dual_headed:                    0;
         air_drag_coefficient:           0.12;
-        tractive_effort_coefficient:    0.25;
+        tractive_effort_coefficient:    0.14;
         length:                         8;
     }
 

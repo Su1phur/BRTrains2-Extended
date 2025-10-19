@@ -1,679 +1,679 @@
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Blue, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Blue, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR404_DMBTO_BR_Blue_purchase, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Blue_purchase, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Blue_REV, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Blue_REV, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Blue_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Green_YellowFront, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Green_YellowFront, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowFront_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowFront_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowFront_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
     
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Green_YellowPanel, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Green_YellowPanel, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR404_DMBTO_BR_Green_YellowPanel_purchase, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Green_YellowPanel_purchase, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Green_YellowPanel_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Green_YellowPanel_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Green_YellowPanel_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Southern_Green, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Southern_Green, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR404_DMBTO_BR_Southern_Green_purchase, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Southern_Green_purchase, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_BR_Southern_Green_REV, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_BR_Southern_Green_REV, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_BR_Southern_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_SR_Green, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_SR_Green, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR404_DMBTO_SR_Green_purchase, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_SR_Green_purchase, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_DMBTO_SR_Green_REV, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_DMBTO_SR_Green_REV, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_DMBTO_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_DMBTO_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_DMBTO_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_DMBTO_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_DMBTO_SR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_BR_Blue, "gfx\EMU\BR404\BR404_TCK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_BR_Blue, "gfx/EMU/BR404/BR404_TCK_BR_Blue_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Blue_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Blue_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Blue_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_BR_Blue_REV, "gfx\EMU\BR404\BR404_TCK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_BR_Blue_REV, "gfx/EMU/BR404/BR404_TCK_BR_Blue_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Blue_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Blue_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Blue_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_BR_Green, "gfx\EMU\BR404\BR404_TCK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_BR_Green, "gfx/EMU/BR404/BR404_TCK_BR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_BR_Green_REV, "gfx\EMU\BR404\BR404_TCK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_BR_Green_REV, "gfx/EMU/BR404/BR404_TCK_BR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_BR_Southern_Green, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_BR_Southern_Green, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_BR_Southern_Green_REV, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_BR_Southern_Green_REV, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_BR_Southern_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_SR_Green, "gfx\EMU\BR404\BR404_TCK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_SR_Green, "gfx/EMU/BR404/BR404_TCK_SR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_SR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_SR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_SR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TCK_SR_Green_REV, "gfx\EMU\BR404\BR404_TCK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TCK_SR_Green_REV, "gfx/EMU/BR404/BR404_TCK_SR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_SR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_SR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TCK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TCK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TCK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TCK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TCK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TCK_SR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_BR_Blue, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_BR_Blue, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Blue_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Blue_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Blue_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_BR_Blue_REV, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_BR_Blue_REV, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Blue_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Blue_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Blue_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_BR_Green, "gfx\EMU\BR404\BR404_TRBK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_BR_Green, "gfx/EMU/BR404/BR404_TRBK_BR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_BR_Green_REV, "gfx\EMU\BR404\BR404_TRBK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_BR_Green_REV, "gfx/EMU/BR404/BR404_TRBK_BR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_BR_Southern_Green, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_BR_Southern_Green, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_BR_Southern_Green_REV, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_BR_Southern_Green_REV, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_BR_Southern_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_SR_Green, "gfx\EMU\BR404\BR404_TRBK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_SR_Green, "gfx/EMU/BR404/BR404_TRBK_SR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_SR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_SR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_SR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRBK_SR_Green_REV, "gfx\EMU\BR404\BR404_TRBK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRBK_SR_Green_REV, "gfx/EMU/BR404/BR404_TRBK_SR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_SR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_SR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRBK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRBK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRBK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRBK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRBK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRBK_SR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_BR_Blue, "gfx\EMU\BR404\BR404_TRF_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_BR_Blue, "gfx/EMU/BR404/BR404_TRF_BR_Blue_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Blue_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Blue_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Blue_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_BR_Blue_REV, "gfx\EMU\BR404\BR404_TRF_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_BR_Blue_REV, "gfx/EMU/BR404/BR404_TRF_BR_Blue_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Blue_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Blue_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Blue_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_BR_Green, "gfx\EMU\BR404\BR404_TRF_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_BR_Green, "gfx/EMU/BR404/BR404_TRF_BR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_BR_Green_REV, "gfx\EMU\BR404\BR404_TRF_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_BR_Green_REV, "gfx/EMU/BR404/BR404_TRF_BR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_BR_Southern_Green, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_BR_Southern_Green, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_BR_Southern_Green_REV, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_BR_Southern_Green_REV, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_BR_Southern_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_SR_Green, "gfx\EMU\BR404\BR404_TRF_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_SR_Green, "gfx/EMU/BR404/BR404_TRF_SR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_SR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_SR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_SR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRF_SR_Green_REV, "gfx\EMU\BR404\BR404_TRF_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRF_SR_Green_REV, "gfx/EMU/BR404/BR404_TRF_SR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_SR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_SR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRF_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRF_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRF_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRF_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRF_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRF_SR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_BR_Blue, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_BR_Blue, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Blue_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Blue_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Blue_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_BR_Blue_REV, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_BR_Blue_REV, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Blue_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Blue_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Blue_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_BR_Green, "gfx\EMU\BR404\BR404_TRTK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_BR_Green, "gfx/EMU/BR404/BR404_TRTK_BR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_BR_Green_REV, "gfx\EMU\BR404\BR404_TRTK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_BR_Green_REV, "gfx/EMU/BR404/BR404_TRTK_BR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_BR_Southern_Green, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_BR_Southern_Green, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_BR_Southern_Green_REV, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_BR_Southern_Green_REV, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_BR_Southern_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_SR_Green, "gfx\EMU\BR404\BR404_TRTK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_SR_Green, "gfx/EMU/BR404/BR404_TRTK_SR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_SR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_SR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_SR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TRTK_SR_Green_REV, "gfx\EMU\BR404\BR404_TRTK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TRTK_SR_Green_REV, "gfx/EMU/BR404/BR404_TRTK_SR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_SR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_SR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TRTK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TRTK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TRTK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TRTK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TRTK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TRTK_SR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_BR_Blue, "gfx\EMU\BR404\BR404_TTK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_BR_Blue, "gfx/EMU/BR404/BR404_TTK_BR_Blue_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Blue_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Blue_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Blue_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_BR_Blue_REV, "gfx\EMU\BR404\BR404_TTK_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_BR_Blue_REV, "gfx/EMU/BR404/BR404_TTK_BR_Blue_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Blue_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Blue_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Blue_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Blue_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Blue_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Blue_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Blue_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Blue_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Blue_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Blue_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Blue_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Blue_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_BR_Green, "gfx\EMU\BR404\BR404_TTK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_BR_Green, "gfx/EMU/BR404/BR404_TTK_BR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_BR_Green_REV, "gfx\EMU\BR404\BR404_TTK_BR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_BR_Green_REV, "gfx/EMU/BR404/BR404_TTK_BR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_BR_Southern_Green, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_BR_Southern_Green, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_BR_Southern_Green_REV, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_BR_Southern_Green_REV, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_BR_Southern_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_BR_Southern_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_BR_Southern_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_SR_Green, "gfx\EMU\BR404\BR404_TTK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_SR_Green, "gfx/EMU/BR404/BR404_TTK_SR_Green_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_SR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_SR_Green_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_SR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_SR_Green_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_SR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_SR_Green_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR404_TTK_SR_Green_REV, "gfx\EMU\BR404\BR404_TTK_SR_Green_1x_8bpp.png")
+spriteset(spriteset_BR404_TTK_SR_Green_REV, "gfx/EMU/BR404/BR404_TTK_SR_Green_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_SR_Green_1x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_SR_Green_1x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_SR_Green_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_SR_Green_1x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_SR_Green_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_SR_Green_2x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_SR_Green_2x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_SR_Green_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_SR_Green_2x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_SR_Green_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR404_TTK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR404\BR404_TTK_SR_Green_4x_32bpp.png", "gfx\EMU\BR404\BR404_TTK_SR_Green_4x_mask.png")
+    alternative_sprites(spriteset_BR404_TTK_SR_Green_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR404/BR404_TTK_SR_Green_4x_32bpp.png", "gfx/EMU/BR404/BR404_TTK_SR_Green_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_BR404_purchase_sprite, current_year) {

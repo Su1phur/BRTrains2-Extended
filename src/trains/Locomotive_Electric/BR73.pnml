@@ -1,126 +1,126 @@
 // basic sprite
-spriteset(spriteset_BR73_0_BRBlue_LargeLogo, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRBlue_LargeLogo, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_2x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_4x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_0_BRBlue_LargeLogo_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRBlue_LargeLogo_purchase, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_LargeLogo_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_LargeLogo_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_0_BRBlue_SmallYellow, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRBlue_SmallYellow, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_2x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_4x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_0_BRBlue_SmallYellow_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRBlue_SmallYellow_purchase, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_SmallYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_SmallYellow_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_0_BRBlue_YellowFront, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRBlue_YellowFront, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_2x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_4x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_0_BRBlue_YellowFront_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRBlue_YellowFront_purchase, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRBlue_YellowFront_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRBlue_YellowFront_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRBlue_YellowFront_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_0_BRGreen, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRGreen, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_2x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_4x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_0_BRGreen_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRGreen_purchase, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_0_BRGreen_GreyStripe, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRGreen_GreyStripe, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_2x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_4x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_0_BRGreen_GreyStripe_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRGreen_GreyStripe_purchase, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_GreyStripe_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_GreyStripe_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_GreyStripe_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_0_BRGreen_SmallYellow, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRGreen_SmallYellow, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_2x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_4x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_0_BRGreen_SmallYellow_purchase, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_0_BRGreen_SmallYellow_purchase, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_0\BR73_0_BRGreen_SmallYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_0_BRGreen_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_0/BR73_0_BRGreen_SmallYellow_1x_mask.png")
     { template_purchase(0,0) }
 
 
@@ -257,107 +257,107 @@ item (FEAT_TRAINS, item_BR73_0, 7300) {
 }
 
 // basic sprite
-spriteset(spriteset_BR73_1_BR_Intercity, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BR_Intercity, "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_2x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_4x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BR_Intercity, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_1_BR_Intercity_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BR_Intercity_purchase, "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BR_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BR_Intercity_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BR_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BR_Intercity_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_1_BRBlue_FullYellow, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BRBlue_FullYellow, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_2x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_4x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_1_BRBlue_FullYellow_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BRBlue_FullYellow_purchase, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_FullYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_FullYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_FullYellow_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_1_BRBlue_LargeLogo, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BRBlue_LargeLogo, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_2x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_4x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_1_BRBlue_LargeLogo_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BRBlue_LargeLogo_purchase, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_LargeLogo_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_LargeLogo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_LargeLogo_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_1_BRBlue_SmallYellow, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BRBlue_SmallYellow, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_2x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_4x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_1_BRBlue_SmallYellow_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_8bpp.png")
+spriteset(spriteset_BR73_1_BRBlue_SmallYellow_purchase, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_BRBlue_SmallYellow_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_BRBlue_SmallYellow_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_BRBlue_SmallYellow_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // basic sprite
-spriteset(spriteset_BR73_1_NSE, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_8bpp.png")
+spriteset(spriteset_BR73_1_NSE, "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_2x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_2x_mask.png")
+    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_2x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_4x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_4x_mask.png")
+    alternative_sprites(spriteset_BR73_1_NSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_4x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR73_1_NSE_purchase, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_8bpp.png")
+spriteset(spriteset_BR73_1_NSE_purchase, "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR73_1_NSE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_32bpp.png", "gfx\Locomotive_Electric\BR73_1\BR73_1_NSE_1x_mask.png")
+    alternative_sprites(spriteset_BR73_1_NSE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_1x_32bpp.png", "gfx/Locomotive_Electric/BR73_1/BR73_1_NSE_1x_mask.png")
     { template_purchase(0,0) }
 
 

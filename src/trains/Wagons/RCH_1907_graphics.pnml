@@ -1,203 +1,203 @@
 // 1-plank section
 
 // basic sprites
-spriteset(spriteset_RCH_1907_1_Plank_Grey, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_1_Plank_Grey, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_2x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_4x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_1_Plank_Bauxite, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_1_Plank_Bauxite, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_1x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_2x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_4x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Bauxite_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_RCH_1907_1_Plank_purchase, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_1_Plank_purchase, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_1_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_1_Plank\RCH_1907_1_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_1_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_1_Plank/RCH_1907_1_Plank_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 // 3-plank section
 
 // basic sprites
-spriteset(spriteset_RCH_1907_3_Plank_Grey, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_3_Plank_Grey, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_2x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_4x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_3_Plank_Bauxite, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_3_Plank_Bauxite, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_1x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_2x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_4x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Bauxite_4x_mask.png")
     { template_48trains_4x(0,0) }
     
 // purchase sprite
-spriteset(spriteset_RCH_1907_3_Plank_purchase, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_3_Plank_purchase, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_3_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_3_Plank\RCH_1907_3_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_3_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_3_Plank/RCH_1907_3_Plank_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 // 5-plank section
 
 // basic sprites
-spriteset(spriteset_RCH_1907_5_Plank_Grey, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_5_Plank_Grey, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_2x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_4x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_5_Plank_Bauxite, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_5_Plank_Bauxite, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_1x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_2x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_4x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Bauxite_4x_mask.png")
     { template_48trains_4x(0,0) }
     
 // purchase sprite
-spriteset(spriteset_RCH_1907_5_Plank_purchase, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_5_Plank_purchase, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_5_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_5_Plank\RCH_1907_5_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_5_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_5_Plank/RCH_1907_5_Plank_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 // 7-plank section
 
 // basic sprites
-spriteset(spriteset_RCH_1907_7_Plank_Grey, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_7_Plank_Grey, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_2x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_4x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_7_Plank_Bauxite, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_7_Plank_Bauxite, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_1x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_2x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_4x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Bauxite_4x_mask.png")
     { template_48trains_4x(0,0) }
     
 // purchase sprite
-spriteset(spriteset_RCH_1907_7_Plank_purchase, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_7_Plank_purchase, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_7_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_7_Plank\RCH_1907_7_Plank_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_7_Plank_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_7_Plank/RCH_1907_7_Plank_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // Van section
 
 // basic sprites
-spriteset(spriteset_RCH_1907_Van_Bauxite, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_Van_Bauxite, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_1x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_2x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_2x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_4x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_4x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_Van_Bauxite_Var2, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_Van_Bauxite_Var2, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_1x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_2x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_2x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_4x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var2_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_4x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var2_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_Van_Bauxite_Var3, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_Van_Bauxite_Var3, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_1x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_2x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_2x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_4x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Bauxite_Var3_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Bauxite_Var3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_4x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Bauxite_Var3_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_RCH_1907_Van_Grey, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_Van_Grey, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_2x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_2x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_2x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_4x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_4x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_4x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_RCH_1907_Van_purchase, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_8bpp.png")
+spriteset(spriteset_RCH_1907_Van_purchase, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_RCH_1907_Van_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_32bpp.png", "gfx\Wagons\RCH_1907_Van\RCH_1907_Van_Grey_1x_mask.png")
+    alternative_sprites(spriteset_RCH_1907_Van_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_1x_32bpp.png", "gfx/Wagons/RCH_1907_Van/RCH_1907_Van_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 // randomizers

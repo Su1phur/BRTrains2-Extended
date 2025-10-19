@@ -1,35 +1,35 @@
 // basic sprites
-spriteset(spriteset_WD_50t_Warflat_WD_Olive_Green, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_WD_Olive_Green, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_WD_Olive_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 
 // purchase sprite
-spriteset(spriteset_WD_50t_Warflat_purchase, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_purchase, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_WD_Olive_Green_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_WD_Olive_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // cargo sprite
-spriteset(spriteset_WD_50t_Warflat_Tank, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Tank, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Tank, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Tank, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Tank, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Tank, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Tank, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Tank_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Tank, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Tank_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 spritegroup spritegroup_WD_50t_Warflat_Tank {
@@ -37,53 +37,53 @@ spritegroup spritegroup_WD_50t_Warflat_Tank {
     loading:    [spriteset_empty, spriteset_WD_50t_Warflat_Tank]; }
 
 // basic sprites
-spriteset(spriteset_WD_50t_Warflat_Stanchions, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Stanchions, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Stanchions, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Stanchions, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Stanchions, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Stanchions, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Stanchions, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Stanchions_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Stanchions, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Stanchions_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 // cargo sprite
-spriteset(spriteset_WD_50t_Warflat_Bars_100, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Bars_100, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_100_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_100_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_WD_50t_Warflat_Bars_30, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Bars_30, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_30_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_30_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_WD_50t_Warflat_Bars_60, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Bars_60, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Bars_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Bars_60_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Bars_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Bars_60_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 // loading sprite
@@ -92,40 +92,40 @@ spritegroup spritegroup_WD_50t_Warflat_Bars {
     loading: [spriteset_WD_50t_Warflat_Stanchions, spriteset_WD_50t_Warflat_Bars_30, spriteset_WD_50t_Warflat_Bars_60, spriteset_WD_50t_Warflat_Bars_100]; }
 
 // cargo sprite
-spriteset(spriteset_WD_50t_Warflat_Steel_100, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Steel_100, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_100_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_100_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_WD_50t_Warflat_Steel_30, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Steel_30, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_30_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_30_4x_mask.png")
     { template_88trains_4x(0,0) }
 
-spriteset(spriteset_WD_50t_Warflat_Steel_60, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_1x_8bpp.png")
+spriteset(spriteset_WD_50t_Warflat_Steel_60, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_1x_8bpp.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_1x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_1x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_1x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_1x_mask.png")
     { template_88trains_1x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_2x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_2x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_2x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_2x_mask.png")
     { template_88trains_2x(0,0) }
 
-    alternative_sprites(spriteset_WD_50t_Warflat_Steel_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_4x_32bpp.png", "gfx\Wagons\WD_50t_Warflat\WD_50t_Warflat_Steel_60_4x_mask.png")
+    alternative_sprites(spriteset_WD_50t_Warflat_Steel_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_4x_32bpp.png", "gfx/Wagons/WD_50t_Warflat/WD_50t_Warflat_Steel_60_4x_mask.png")
     { template_88trains_4x(0,0) }
 
 // loading sprite

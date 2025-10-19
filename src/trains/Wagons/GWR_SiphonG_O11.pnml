@@ -1,67 +1,67 @@
 // basic sprite
-spriteset(spriteset_GWR_SiphonG_O11_BR_Blue, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_GWR_SiphonG_O11_BR_Blue, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_1x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_1x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_2x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_2x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_2x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_4x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Blue_4x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_4x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Blue_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_SiphonG_O11_BR_Maroon, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_1x_8bpp.png")
+spriteset(spriteset_GWR_SiphonG_O11_BR_Maroon, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_1x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_1x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_1x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_2x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_2x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_2x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_4x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_4x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_4x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_GWR_SiphonG_O11_BR_Maroon_purchase, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_1x_8bpp.png")
+spriteset(spriteset_GWR_SiphonG_O11_BR_Maroon_purchase, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_1x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_BR_Maroon_1x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_BR_Maroon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_1x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_BR_Maroon_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_SiphonG_O11_GWR_Grey, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_1x_8bpp.png")
+spriteset(spriteset_GWR_SiphonG_O11_GWR_Grey, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_1x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_1x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_2x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_2x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_2x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_4x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Grey_4x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_4x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Grey_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_SiphonG_O11_GWR_Mahogany, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_1x_8bpp.png")
+spriteset(spriteset_GWR_SiphonG_O11_GWR_Mahogany, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_1x_8bpp.png")
     { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_1x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_1x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_1x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_1x_mask.png")
         { template_108trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_2x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_2x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_2x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_2x_mask.png")
         { template_108trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_4x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_4x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_4x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_4x_mask.png")
         { template_108trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_GWR_SiphonG_O11_GWR_Mahogany_purchase, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_1x_8bpp.png")
+spriteset(spriteset_GWR_SiphonG_O11_GWR_Mahogany_purchase, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_1x_32bpp.png", "gfx\Wagons\GWR_SiphonG_O11\GWR_SiphonG_O11_GWR_Mahogany_1x_mask.png")
+    alternative_sprites(spriteset_GWR_SiphonG_O11_GWR_Mahogany_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_1x_32bpp.png", "gfx/Wagons/GWR_SiphonG_O11/GWR_SiphonG_O11_GWR_Mahogany_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_GWR_SiphonG_O11_purchase_sprite, current_year) {

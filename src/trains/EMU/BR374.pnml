@@ -1,27 +1,27 @@
 // basic sprite
-spriteset(spriteset_BR374_lights_back, "gfx\EMU\BR374\BR374_lights_back_1x_8bpp.png")
+spriteset(spriteset_BR374_lights_back, "gfx/EMU/BR374/BR374_lights_back_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_lights_back_1x_32bpp.png", "gfx\EMU\BR374\BR374_lights_back_1x_mask.png")
+    alternative_sprites(spriteset_BR374_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_lights_back_1x_32bpp.png", "gfx/EMU/BR374/BR374_lights_back_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_lights_back_2x_32bpp.png", "gfx\EMU\BR374\BR374_lights_back_2x_mask.png")
+    alternative_sprites(spriteset_BR374_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_lights_back_2x_32bpp.png", "gfx/EMU/BR374/BR374_lights_back_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_lights_back_4x_32bpp.png", "gfx\EMU\BR374\BR374_lights_back_4x_mask.png")
+    alternative_sprites(spriteset_BR374_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_lights_back_4x_32bpp.png", "gfx/EMU/BR374/BR374_lights_back_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_lights_front, "gfx\EMU\BR374\BR374_lights_front_1x_8bpp.png")
+spriteset(spriteset_BR374_lights_front, "gfx/EMU/BR374/BR374_lights_front_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_lights_front_1x_32bpp.png", "gfx\EMU\BR374\BR374_lights_front_1x_mask.png")
+    alternative_sprites(spriteset_BR374_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_lights_front_1x_32bpp.png", "gfx/EMU/BR374/BR374_lights_front_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_lights_front_2x_32bpp.png", "gfx\EMU\BR374\BR374_lights_front_2x_mask.png")
+    alternative_sprites(spriteset_BR374_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_lights_front_2x_32bpp.png", "gfx/EMU/BR374/BR374_lights_front_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_lights_front_4x_32bpp.png", "gfx\EMU\BR374\BR374_lights_front_4x_mask.png")
+    alternative_sprites(spriteset_BR374_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_lights_front_4x_32bpp.png", "gfx/EMU/BR374/BR374_lights_front_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_BR374_lights_back, position_in_consist_from_end) {
@@ -33,54 +33,54 @@ switch(FEAT_TRAINS, SELF, sw_BR374_lights_front, position_in_consist) {
         spriteset_empty; }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_DB, "gfx\EMU\BR374\BR374_DMF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB, "gfx/EMU/BR374/BR374_DMF_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_DB_NoseClosed, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB_NoseClosed, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_DB_NoseClosed_REV, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB_NoseClosed_REV, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_NoseClosed_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_NoseClosed_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_NoseClosed_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_DMF_DB_Loading, "gfx\EMU\BR374\BR374_DMF_DB_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB_Loading, "gfx/EMU/BR374/BR374_DMF_DB_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -103,28 +103,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_DMF_DB, [ STORE_TEMP((getbits(extra
     3: sw_BR374_lights_front; }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_DB_REV, "gfx\EMU\BR374\BR374_DMF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB_REV, "gfx/EMU/BR374/BR374_DMF_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_DMF_DB_Loading_REV, "gfx\EMU\BR374\BR374_DMF_DB_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB_Loading_REV, "gfx/EMU/BR374/BR374_DMF_DB_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -139,36 +139,36 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_DMF_DB_REV, [ STORE_TEMP((getbits(e
     3: sw_BR374_lights_back; }
 
 // purchase sprite
-spriteset(spriteset_BR374_DMF_DB_purchase, "gfx\EMU\BR374\BR374_DMF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_DB_purchase, "gfx/EMU/BR374/BR374_DMF_DB_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_DB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_DB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_DB_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_Eurostar_NoseClosed, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar_NoseClosed, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_NoseClosed_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_NoseClosed_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_NoseClosed_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_BR374_DMF_Eurostar_NoseClosed, position_in_consist) {
@@ -180,48 +180,48 @@ switch(FEAT_TRAINS, SELF, sw_BR374_DMF_Eurostar_NoseClosed_REV, position_in_cons
         spriteset_empty; }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_Eurostar, "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar, "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_DMF_Eurostar_REV, "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar_REV, "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR374_DMF_Eurostar_purchase, "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar_purchase, "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_1x_mask.png")
     { template_purchase(0,0) }
 
-spriteset(spriteset_BR374_DMF_Eurostar_Loading, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar_Loading, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -235,16 +235,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_DMF_Eurostar, [ STORE_TEMP((getbits
     2: sw_BR374_DMF_Eurostar_NoseClosed;
     3: sw_BR374_lights_front; }
 
-spriteset(spriteset_BR374_DMF_Eurostar_Loading_REV, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_DMF_Eurostar_Loading_REV, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMF_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMF_Eurostar_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -259,29 +259,29 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_DMF_Eurostar_REV, [ STORE_TEMP((get
     3: sw_BR374_lights_back; }
 
 // basic sprite
-spriteset(spriteset_BR374_DMS_DB, "gfx\EMU\BR374\BR374_DMS_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_DMS_DB, "gfx/EMU/BR374/BR374_DMS_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMS_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMS_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMS_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMS_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMS_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMS_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMS_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMS_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMS_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMS_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMS_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMS_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMS_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMS_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMS_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMS_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMS_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMS_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_DMS_DB_REV, "gfx\EMU\BR374\BR374_DMS_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_DMS_DB_REV, "gfx/EMU/BR374/BR374_DMS_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMS_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMS_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_DMS_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_DMS_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMS_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_DMS_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMS_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMS_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_DMS_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_DMS_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMS_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_DMS_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_DMS_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_DMS_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_DMS_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_DMS_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_DMS_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_DMS_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_DMS_DB, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -297,28 +297,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_DMS_DB_REV, [ STORE_TEMP((getbits(e
     3: sw_BR374_lights_back; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMBS_Eurostar, "gfx\EMU\BR374\BR374_TMBS_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TMBS_Eurostar, "gfx/EMU/BR374/BR374_TMBS_Eurostar_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-spriteset(spriteset_BR374_TMBS_Eurostar_Loading, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMBS_Eurostar_Loading, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -331,28 +331,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMBS_Eurostar, [ STORE_TEMP((getbit
     1: spritegroup_BR374_TMBS_Eurostar_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMBS_Eurostar_REV, "gfx\EMU\BR374\BR374_TMBS_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TMBS_Eurostar_REV, "gfx/EMU/BR374/BR374_TMBS_Eurostar_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_TMBS_Eurostar_Loading_REV, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMBS_Eurostar_Loading_REV, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMBS_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMBS_Eurostar_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -365,28 +365,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMBS_Eurostar_REV, [ STORE_TEMP((ge
     1: spritegroup_BR374_TMBS_Eurostar_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMF_Eurostar, "gfx\EMU\BR374\BR374_TMF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TMF_Eurostar, "gfx/EMU/BR374/BR374_TMF_Eurostar_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-spriteset(spriteset_BR374_TMF_Eurostar_Loading, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMF_Eurostar_Loading, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -399,28 +399,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMF_Eurostar, [ STORE_TEMP((getbits
     1: spritegroup_BR374_TMF_Eurostar_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMF_Eurostar_REV, "gfx\EMU\BR374\BR374_TMF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TMF_Eurostar_REV, "gfx/EMU/BR374/BR374_TMF_Eurostar_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_TMF_Eurostar_Loading_REV, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMF_Eurostar_Loading_REV, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMF_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMF_Eurostar_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -433,29 +433,29 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMF_Eurostar_REV, [ STORE_TEMP((get
     1: spritegroup_BR374_TMF_Eurostar_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMRF_DB, "gfx\EMU\BR374\BR374_TMRF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TMRF_DB, "gfx/EMU/BR374/BR374_TMRF_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 
-spriteset(spriteset_BR374_TMRF_DB_Loading, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMRF_DB_Loading, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -468,28 +468,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMRF_DB, [ STORE_TEMP((getbits(extr
     1: spritegroup_BR374_TMRF_DB_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMRF_DB_REV, "gfx\EMU\BR374\BR374_TMRF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TMRF_DB_REV, "gfx/EMU/BR374/BR374_TMRF_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_TMRF_DB_Loading_REV, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMRF_DB_Loading_REV, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMRF_DB_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMRF_DB_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMRF_DB_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMRF_DB_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMRF_DB_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMRF_DB_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -502,16 +502,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMRF_DB_REV, [ STORE_TEMP((getbits(
     1: spritegroup_BR374_TMRF_DB_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMS_DB, "gfx\EMU\BR374\BR374_TMS_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TMS_DB, "gfx/EMU/BR374/BR374_TMS_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMS_DB, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -519,16 +519,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMS_DB, [ STORE_TEMP((getbits(extra
     1: spritegroup_BR374_TMRF_DB_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMS_DB_REV, "gfx\EMU\BR374\BR374_TMS_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TMS_DB_REV, "gfx/EMU/BR374/BR374_TMS_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMS_DB_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -536,28 +536,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMS_DB_REV, [ STORE_TEMP((getbits(e
     1: spritegroup_BR374_TMRF_DB_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMS_Eurostar, "gfx\EMU\BR374\BR374_TMS_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TMS_Eurostar, "gfx/EMU/BR374/BR374_TMS_Eurostar_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-spriteset(spriteset_BR374_TMS_Eurostar_Loading, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMS_Eurostar_Loading, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMBS_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -570,28 +570,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMS_Eurostar, [ STORE_TEMP((getbits
     1: spritegroup_BR374_TMS_Eurostar_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TMS_Eurostar_REV, "gfx\EMU\BR374\BR374_TMS_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TMS_Eurostar_REV, "gfx/EMU/BR374/BR374_TMS_Eurostar_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_TMS_Eurostar_Loading_REV, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TMS_Eurostar_Loading_REV, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TMS_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TMS_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TMS_Eurostar_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -604,28 +604,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TMS_Eurostar_REV, [ STORE_TEMP((get
     1: spritegroup_BR374_TMS_Eurostar_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPF_DB, "gfx\EMU\BR374\BR374_TPF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_DB, "gfx/EMU/BR374/BR374_TPF_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-spriteset(spriteset_BR374_TPF_DB_Loading, "gfx\EMU\BR374\BR374_TPF_DB_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_DB_Loading, "gfx/EMU/BR374/BR374_TPF_DB_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -638,28 +638,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPF_DB, [ STORE_TEMP((getbits(extra
     1: spritegroup_BR374_TPF_DB_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPF_DB_REV, "gfx\EMU\BR374\BR374_TPF_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_DB_REV, "gfx/EMU/BR374/BR374_TPF_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_TPF_DB_Loading_REV, "gfx\EMU\BR374\BR374_TPF_DB_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_DB_Loading_REV, "gfx/EMU/BR374/BR374_TPF_DB_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_DB_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_DB_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_DB_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_DB_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_DB_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_DB_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -672,28 +672,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPF_DB_REV, [ STORE_TEMP((getbits(e
     1: spritegroup_BR374_TPF_DB_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPF_Eurostar, "gfx\EMU\BR374\BR374_TPF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_Eurostar, "gfx/EMU/BR374/BR374_TPF_Eurostar_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_4x_mask.png")
     { template_158trains_4x(0,0) }
 
-spriteset(spriteset_BR374_TPF_Eurostar_Loading, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_Eurostar_Loading, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // loading sprite
@@ -706,28 +706,28 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPF_Eurostar, [ STORE_TEMP((getbits
     1: spritegroup_BR374_TPF_Eurostar_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPF_Eurostar_REV, "gfx\EMU\BR374\BR374_TPF_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_Eurostar_REV, "gfx/EMU/BR374/BR374_TPF_Eurostar_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR374_TPF_Eurostar_Loading_REV, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_1x_8bpp.png")
+spriteset(spriteset_BR374_TPF_Eurostar_Loading_REV, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPF_Eurostar_Loading_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPF_Eurostar_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPF_Eurostar_Loading_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 // loading sprite
@@ -740,29 +740,29 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPF_Eurostar_REV, [ STORE_TEMP((get
     1: spritegroup_BR374_TPF_Eurostar_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPS_DB, "gfx\EMU\BR374\BR374_TPS_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TPS_DB, "gfx/EMU/BR374/BR374_TPS_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_TPS_DB_REV, "gfx\EMU\BR374\BR374_TPS_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TPS_DB_REV, "gfx/EMU/BR374/BR374_TPS_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPS_DB, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -774,16 +774,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPS_DB_REV, [ STORE_TEMP((getbits(e
     1: spritegroup_BR374_TPF_DB_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPS_Eurostar, "gfx\EMU\BR374\BR374_TPS_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TPS_Eurostar, "gfx/EMU/BR374/BR374_TPS_Eurostar_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_Eurostar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_Eurostar_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_Eurostar, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_Eurostar_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_Eurostar, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_Eurostar_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPS_Eurostar, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -791,16 +791,16 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPS_Eurostar, [ STORE_TEMP((getbits
     1: spritegroup_BR374_TMS_Eurostar_Loading; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPS_Eurostar_REV, "gfx\EMU\BR374\BR374_TPS_Eurostar_1x_8bpp.png")
+spriteset(spriteset_BR374_TPS_Eurostar_REV, "gfx/EMU/BR374/BR374_TPS_Eurostar_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_Eurostar_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_Eurostar_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_Eurostar_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_Eurostar_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_Eurostar_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_Eurostar_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_Eurostar_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_Eurostar_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_Eurostar_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_Eurostar_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPS_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPS_Eurostar_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPS_Eurostar_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPS_Eurostar_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPS_Eurostar_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPS_Eurostar_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPS_Eurostar_REV, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -808,29 +808,29 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPS_Eurostar_REV, [ STORE_TEMP((get
     1: spritegroup_BR374_TMS_Eurostar_Loading_REV; }
 
 // basic sprite
-spriteset(spriteset_BR374_TPSD_DB, "gfx\EMU\BR374\BR374_TPSD_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TPSD_DB, "gfx/EMU/BR374/BR374_TPSD_DB_1x_8bpp.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPSD_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPSD_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPSD_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPSD_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPSD_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPSD_DB_1x_mask.png")
     { template_158trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPSD_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPSD_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPSD_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPSD_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPSD_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPSD_DB_2x_mask.png")
     { template_158trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPSD_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPSD_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPSD_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPSD_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPSD_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPSD_DB_4x_mask.png")
     { template_158trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_BR374_TPSD_DB_REV, "gfx\EMU\BR374\BR374_TPSD_DB_1x_8bpp.png")
+spriteset(spriteset_BR374_TPSD_DB_REV, "gfx/EMU/BR374/BR374_TPSD_DB_1x_8bpp.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPSD_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPSD_DB_1x_32bpp.png", "gfx\EMU\BR374\BR374_TPSD_DB_1x_mask.png")
+    alternative_sprites(spriteset_BR374_TPSD_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPSD_DB_1x_32bpp.png", "gfx/EMU/BR374/BR374_TPSD_DB_1x_mask.png")
     { template_158trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPSD_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPSD_DB_2x_32bpp.png", "gfx\EMU\BR374\BR374_TPSD_DB_2x_mask.png")
+    alternative_sprites(spriteset_BR374_TPSD_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPSD_DB_2x_32bpp.png", "gfx/EMU/BR374/BR374_TPSD_DB_2x_mask.png")
     { template_158trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR374_TPSD_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR374\BR374_TPSD_DB_4x_32bpp.png", "gfx\EMU\BR374\BR374_TPSD_DB_4x_mask.png")
+    alternative_sprites(spriteset_BR374_TPSD_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR374/BR374_TPSD_DB_4x_32bpp.png", "gfx/EMU/BR374/BR374_TPSD_DB_4x_mask.png")
     { template_158trains_REV_4x(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR374_TPSD_DB, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {

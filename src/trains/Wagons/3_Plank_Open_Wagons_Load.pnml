@@ -1,30 +1,30 @@
 // basic sprite
-spriteset(spriteset_3_Plank_Pipes, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Pipes, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Pipes, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Pipes, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_1x_mask.png")
         { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Pipes, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Pipes, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_2x_mask.png")
         { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Pipes, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Pipes_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Pipes, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Pipes_4x_mask.png")
         { template_48trains_4x(0,0) }
 
 spritegroup spritegroup_3_Plank_Pipes {
     loaded: [spriteset_empty, spriteset_3_Plank_Pipes];
     loading: [spriteset_empty, spriteset_3_Plank_Pipes]; }
 
-spriteset(spriteset_3_Plank_Boxes, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Boxes, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Boxes, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Boxes, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Boxes, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Boxes, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Boxes, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Boxes, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -32,16 +32,16 @@ spritegroup spritegroup_3_Plank_Boxes {
     loaded: [spriteset_empty, spriteset_3_Plank_Boxes];
     loading: [spriteset_empty, spriteset_3_Plank_Boxes]; }
 
-spriteset(spriteset_3_Plank_Boxes_2, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Boxes_2, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Boxes_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Boxes_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Boxes_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Boxes_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Boxes_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Boxes_2_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Boxes_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Boxes_2_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -53,22 +53,22 @@ random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Boxes, bitmask(TRIGGER_V
     1: spritegroup_3_Plank_Boxes;
     1: spritegroup_3_Plank_Boxes_2; }
 
-spriteset(spriteset_3_Plank_Bulk50, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk50_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Bulk50, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Bulk50_1x_8bpp.png")
     { template_48trains_1x(0,0) }
     
-    alternative_sprites(spriteset_3_Plank_Bulk50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk50_2x_8bpp.png")
+    alternative_sprites(spriteset_3_Plank_Bulk50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Bulk50_2x_8bpp.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Bulk50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk50_4x_8bpp.png")
+    alternative_sprites(spriteset_3_Plank_Bulk50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Bulk50_4x_8bpp.png")
     { template_48trains_4x(0,0) }
 
-spriteset(spriteset_3_Plank_Bulk100, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk100_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Bulk100, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Bulk100_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Bulk100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk100_2x_8bpp.png")
+    alternative_sprites(spriteset_3_Plank_Bulk100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Bulk100_2x_8bpp.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Bulk100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Bulk100_4x_8bpp.png")
+    alternative_sprites(spriteset_3_Plank_Bulk100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Bulk100_4x_8bpp.png")
     { template_48trains_4x(0,0) }
 
 spritegroup spritegroup_3_Plank_Bulk {
@@ -76,16 +76,16 @@ spritegroup spritegroup_3_Plank_Bulk {
     loading: [spriteset_empty, spriteset_3_Plank_Bulk50, spriteset_3_Plank_Bulk100]; }
 
 
-spriteset(spriteset_3_Plank_High_Tarp, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_1x_8bpp.png")
+spriteset(spriteset_3_Plank_High_Tarp, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_High_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_High_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_High_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_High_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_High_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_High_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -93,16 +93,16 @@ spritegroup spritegroup_3_Plank_High_Tarp {
     loaded: [spriteset_empty, spriteset_3_Plank_High_Tarp];
     loading: [spriteset_empty, spriteset_3_Plank_High_Tarp]; }
 
-spriteset(spriteset_3_Plank_High_Tarp_2, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_1x_8bpp.png")
+spriteset(spriteset_3_Plank_High_Tarp_2, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_High_Tarp_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_High_Tarp_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_High_Tarp_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_High_Tarp_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_High_Tarp_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_High_Tarp_2_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_High_Tarp_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_High_Tarp_2_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -111,28 +111,28 @@ spritegroup spritegroup_3_Plank_High_Tarp_2 {
     loading: [spriteset_empty, spriteset_3_Plank_High_Tarp_2]; }
 
 
-spriteset(spriteset_3_Plank_Steel100, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Steel100, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Steel100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Steel100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Steel100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Steel100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Steel100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel100_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Steel100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel100_4x_mask.png")
     { template_48trains_4x(0,0) }
 
-spriteset(spriteset_3_Plank_Steel50, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Steel50, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Steel50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Steel50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Steel50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Steel50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Steel50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Steel50_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Steel50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Steel50_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -141,16 +141,16 @@ spritegroup spritegroup_3_Plank_Steel {
     loading: [spriteset_empty, spriteset_3_Plank_Steel50, spriteset_3_Plank_Steel100]; }
 
 
-spriteset(spriteset_3_Plank_Tarp, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Tarp, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -159,16 +159,16 @@ spritegroup spritegroup_3_Plank_Tarp {
     loading: [spriteset_empty, spriteset_3_Plank_Tarp]; }
 
 
-spriteset(spriteset_3_Plank_Tarp_2, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Tarp_2, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_2_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_2_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -177,16 +177,16 @@ spritegroup spritegroup_3_Plank_Tarp_2 {
     loading: [spriteset_empty, spriteset_3_Plank_Tarp_2]; }
 
 
-spriteset(spriteset_3_Plank_Tarp_3, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Tarp_3, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp_3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp_3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Tarp_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Tarp_3_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Tarp_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Tarp_3_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -215,32 +215,32 @@ random_switch (FEAT_TRAINS, SELF, random_choose_3_Plank_Powder, bitmask(TRIGGER_
 
 
 // basic sprite
-spriteset(spriteset_3_Plank_Timber, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Timber, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Timber, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Timber, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_1x_mask.png")
         { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Timber, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Timber, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_2x_mask.png")
         { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Timber, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Timber_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Timber, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Timber_4x_mask.png")
         { template_48trains_4x(0,0) }
 
 spritegroup spritegroup_3_Plank_Timber {
     loaded: [spriteset_empty, spriteset_3_Plank_Timber];
     loading: [spriteset_empty, spriteset_3_Plank_Timber]; }
 
-spriteset(spriteset_3_Plank_Wires, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Wires, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Wires, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Wires, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Wires, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Wires, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Wires, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wires_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Wires, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wires_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite
@@ -249,16 +249,16 @@ spritegroup spritegroup_3_Plank_Wires {
     loading: [spriteset_empty, spriteset_3_Plank_Wires]; }
 
 
-spriteset(spriteset_3_Plank_Wood, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_1x_8bpp.png")
+spriteset(spriteset_3_Plank_Wood, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_1x_8bpp.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Wood, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_1x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_1x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Wood, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_1x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_1x_mask.png")
     { template_48trains_1x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Wood, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_2x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_2x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Wood, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_2x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_2x_mask.png")
     { template_48trains_2x(0,0) }
 
-    alternative_sprites(spriteset_3_Plank_Wood, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_4x_32bpp.png", "gfx\Cargo\3_Plank_Open_Wagons\3_Plank_Wood_4x_mask.png")
+    alternative_sprites(spriteset_3_Plank_Wood, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_4x_32bpp.png", "gfx/Cargo/3_Plank_Open_Wagons/3_Plank_Wood_4x_mask.png")
     { template_48trains_4x(0,0) }
 
 // loading sprite

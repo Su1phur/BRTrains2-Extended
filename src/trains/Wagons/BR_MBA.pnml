@@ -1,74 +1,74 @@
 // basic sprite
-spriteset(spriteset_BR_MBA_EWS, "gfx\Wagons\BR_MBA\BR_MBA_EWS_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_EWS, "gfx/Wagons/BR_MBA/BR_MBA_EWS_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_EWS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_EWS_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_EWS_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_EWS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_EWS_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_EWS_1x_mask.png")
         { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_EWS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_EWS_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_EWS_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_EWS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_EWS_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_EWS_2x_mask.png")
         { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_EWS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_EWS_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_EWS_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_EWS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_EWS_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_EWS_4x_mask.png")
         { template_118trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_BR_MBA_EWS_purchase, "gfx\Wagons\BR_MBA\BR_MBA_EWS_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_EWS_purchase, "gfx/Wagons/BR_MBA/BR_MBA_EWS_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_EWS_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_EWS_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_EWS_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_EWS_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_EWS_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_EWS_1x_mask.png")
     { template_purchase(0,0) }
 
 
 // cargo sprite - Bulk
-spriteset(spriteset_BR_MBA_Bulk_100, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_100_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bulk_100, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_100_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_100_2x_8bpp.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_100_2x_8bpp.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_100_4x_8bpp.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_100_4x_8bpp.png")
     { template_118trains_4x(0,0) }
 
 
-spriteset(spriteset_BR_MBA_Bulk_25, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_25_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bulk_25, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_25_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_25_2x_8bpp.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_25_2x_8bpp.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_25_4x_8bpp.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_25_4x_8bpp.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Bulk_50, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_50_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bulk_50, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_50_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_50_2x_8bpp.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_50_2x_8bpp.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_50_4x_8bpp.png")
-    { template_118trains_4x(0,0) }
-
-
-spriteset(spriteset_BR_MBA_Bulk_75, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_75_1x_8bpp.png")
-    { template_118trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MBA_Bulk_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_75_2x_8bpp.png")
-    { template_118trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_MBA_Bulk_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_75_4x_8bpp.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_50_4x_8bpp.png")
     { template_118trains_4x(0,0) }
 
 
-spriteset(spriteset_BR_MBA_Bulk_Tarp, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bulk_75, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_75_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_1x_mask.png")
-    { template_118trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_MBA_Bulk_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_75_2x_8bpp.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bulk_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bulk_Tarp_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bulk_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_75_4x_8bpp.png")
+    { template_118trains_4x(0,0) }
+
+
+spriteset(spriteset_BR_MBA_Bulk_Tarp, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_1x_8bpp.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MBA_Bulk_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_1x_mask.png")
+    { template_118trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_MBA_Bulk_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_2x_mask.png")
+    { template_118trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_MBA_Bulk_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bulk_Tarp_4x_mask.png")
     { template_118trains_4x(0,0) }
 
 
@@ -92,32 +92,32 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MBA_Bulk_Covered, [ STORE_TEMP((getbit
     1: spritegroup_BR_MBA_Bulk_Covered; }
 
 // cargo sprites - Tarps
-spriteset(spriteset_BR_MBA_Tarp, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Tarp, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tarp_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tarp_1x_mask.png")
         { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2x_mask.png")
         { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tarp_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tarp_4x_mask.png")
         { template_118trains_4x(0,0) }
 
 spritegroup spritegroup_BR_MBA_Tarp_1 {
     loaded: [spriteset_empty, spriteset_BR_MBA_Tarp];
     loading: [spriteset_empty, spriteset_BR_MBA_Tarp]; }
 
-spriteset(spriteset_BR_MBA_Tarp_2, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Tarp_2, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tarp_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tarp_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_1x_mask.png")
         { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tarp_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tarp_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_2x_mask.png")
         { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tarp_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tarp_2_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tarp_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tarp_2_4x_mask.png")
         { template_118trains_4x(0,0) }
 
 spritegroup spritegroup_BR_MBA_Tarp_2 {
@@ -134,41 +134,41 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MBA_Tarp, [ STORE_TEMP((getbits(extra_
     1: random_choose_BR_MBA_Tarp; }
 
 // cargo sprites - Tubes
-spriteset(spriteset_BR_MBA_Tubes_100, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Tubes_100, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_1x_mask.png")
         { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_2x_mask.png")
         { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_100_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_100_4x_mask.png")
         { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Tubes_30, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Tubes_30, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_1x_mask.png")
         { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_2x_mask.png")
         { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_30_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_30_4x_mask.png")
         { template_118trains_4x(0,0) }
 
 
-spriteset(spriteset_BR_MBA_Tubes_60, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Tubes_60, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_1x_mask.png")
         { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_2x_mask.png")
         { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Tubes_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Tubes_60_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Tubes_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Tubes_60_4x_mask.png")
         { template_118trains_4x(0,0) }
 
 // loading sprite
@@ -181,52 +181,52 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MBA_Tubes, [ STORE_TEMP((getbits(extra
     1: spritegroup_BR_MBA_Tubes; }
 
 // cargo sprite - Barsa
-spriteset(spriteset_BR_MBA_Bars_100, "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bars_100, "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_100_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_100_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Bars_25, "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bars_25, "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_25_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_25_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Bars_50, "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bars_50, "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_50_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_50_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Bars_75, "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Bars_75, "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Bars_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Bars_75_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Bars_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Bars_75_4x_mask.png")
     { template_118trains_4x(0,0) }
 
 // loading sprite
@@ -239,52 +239,52 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_MBA_Bars, [ STORE_TEMP((getbits(extra_
     1: spritegroup_BR_MBA_Bars; }
 
 // cargo sprite - Wood
-spriteset(spriteset_BR_MBA_Wood_100, "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Wood_100, "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_100_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_100_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Wood_25, "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Wood_25, "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_25_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_25_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Wood_50, "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Wood_50, "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_50_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_50_4x_mask.png")
     { template_118trains_4x(0,0) }
 
-spriteset(spriteset_BR_MBA_Wood_75, "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_1x_8bpp.png")
+spriteset(spriteset_BR_MBA_Wood_75, "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_1x_8bpp.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_1x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_1x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_1x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_1x_mask.png")
     { template_118trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_2x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_2x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_2x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_2x_mask.png")
     { template_118trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR_MBA_Wood_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_4x_32bpp.png", "gfx\Wagons\BR_MBA\BR_MBA_Wood_75_4x_mask.png")
+    alternative_sprites(spriteset_BR_MBA_Wood_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_4x_32bpp.png", "gfx/Wagons/BR_MBA/BR_MBA_Wood_75_4x_mask.png")
     { template_118trains_4x(0,0) }
 
 // loading sprite

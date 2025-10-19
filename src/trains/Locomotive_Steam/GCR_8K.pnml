@@ -1,56 +1,56 @@
 // Anim_sprites
-spriteset(spriteset_GCR_8K_Anim1, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_Anim1, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_GCR_8K_Anim2, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_Anim2, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_2_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_2_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_GCR_8K_Anim3, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_Anim3, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_3_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_3_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_GCR_8K_Anim4, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_Anim4, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_4_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_4_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_GCR_8K_Anim_purchase, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_Anim_purchase, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_Anim_1_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_Anim_1_1x_mask.png")
     { template_purchase(0,0) }
 
 switch (FEAT_TRAINS, SELF, sw_Animation_GCR_8K, motion_counter % 4) {
@@ -60,62 +60,62 @@ switch (FEAT_TRAINS, SELF, sw_Animation_GCR_8K, motion_counter % 4) {
     3: spriteset_GCR_8K_Anim4;
 }
 // basic sprites
-spriteset(spriteset_GCR_8K_BR_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_BR_Black, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_BR_Black_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_BR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_BR_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_GCR_8K_GCR_Lined_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_GCR_Lined_Black, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_GCR_8K_GCR_Plain_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_GCR_Plain_Black, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Plain_Black_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Plain_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
     
 // basic sprites
-spriteset(spriteset_GCR_8K_LNER_Black, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_LNER_Black, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_2x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_4x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_GCR_8K_GCR_Lined_Black_purchase, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_GCR_Lined_Black_purchase, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_GCR_Lined_Black_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_GCR_Lined_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_GCR_Lined_Black_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_GCR_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -123,10 +123,10 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_GCR_purchase, [ STORE_TEMP((getb
     1: spriteset_GCR_8K_Anim_purchase; }
 
 // purchase sprite
-spriteset(spriteset_GCR_8K_LNER_Black_purchase, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_8bpp.png")
+spriteset(spriteset_GCR_8K_LNER_Black_purchase, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GCR_8K_LNER_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GCR_8K_LNER_Black_1x_mask.png")
+    alternative_sprites(spriteset_GCR_8K_LNER_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GCR_8K_LNER_Black_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_LNER_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -134,38 +134,38 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_GCR_8K_LNER_purchase, [ STORE_TEMP((get
     1: spriteset_GCR_8K_Anim_purchase; } 
 
 // basic sprites
-spriteset(spriteset_GWR_3000_GWR_Black, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_1x_8bpp.png")
+spriteset(spriteset_GWR_3000_GWR_Black, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_1x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_2x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Black_4x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_GWR_3000_GWR_Green, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_8bpp.png")
+spriteset(spriteset_GWR_3000_GWR_Green, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_2x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_4x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 
 
 // purchase sprite
-spriteset(spriteset_GWR_3000_GWR_Green_purchase, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_8bpp.png")
+spriteset(spriteset_GWR_3000_GWR_Green_purchase, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GWR_3000_GWR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\GWR_3000_GWR_Green_1x_mask.png")
+    alternative_sprites(spriteset_GWR_3000_GWR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/GWR_3000_GWR_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3000_GWR_Green_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
@@ -173,36 +173,36 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_3000_GWR_Green_purchase, [ STORE_TE
     1: spriteset_GCR_8K_Anim_purchase; }
 
 // basic sprites
-spriteset(spriteset_LNER_O4_8_BR_Black, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_1x_8bpp.png")
+spriteset(spriteset_LNER_O4_8_BR_Black, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_1x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_2x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_BR_Black_4x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_BR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_BR_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LNER_O4_8_LNER_Black, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_8bpp.png")
+spriteset(spriteset_LNER_O4_8_LNER_Black, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_2x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_2x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_2x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_4x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_4x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_4x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
     
 // purchase sprite
-spriteset(spriteset_LNER_O4_8_LNER_Black_purchase, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_8bpp.png")
+spriteset(spriteset_LNER_O4_8_LNER_Black_purchase, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_O4_8_LNER_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_32bpp.png", "gfx\Locomotive_Steam\GCR_8K\LNER_O4_8_LNER_Black_1x_mask.png")
+    alternative_sprites(spriteset_LNER_O4_8_LNER_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_1x_32bpp.png", "gfx/Locomotive_Steam/GCR_8K/LNER_O4_8_LNER_Black_1x_mask.png")
     { template_purchase(0,0) }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_O4_8_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {

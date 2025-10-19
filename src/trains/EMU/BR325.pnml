@@ -1,138 +1,138 @@
 // basic sprites
-spriteset(spriteset_BR325_DTV_RoyalMail, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_DTV_RoyalMail, "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_2x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_4x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_4x_mask.png")
     { template_128trains_4x(0,0) }
 
-// spriteset(spriteset_BR325_DTV_RoyalMail_Loading, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_1x_8bpp.png")
+// spriteset(spriteset_BR325_DTV_RoyalMail_Loading, "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_1x_8bpp.png")
     // { template_128trains_1x(0,0) }
 
-    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_1x_mask.png")
+    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_1x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_1x_mask.png")
     // { template_128trains_1x(0,0) }
 
-    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_2x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_2x_mask.png")
+    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_2x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_2x_mask.png")
     // { template_128trains_2x(0,0) }
 
-    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_4x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_Loading_4x_mask.png")
+    // alternative_sprites(spriteset_BR325_DTV_RoyalMail_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_4x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_Loading_4x_mask.png")
     // { template_128trains_4x(0,0) }
 
-spriteset(spriteset_BR325_DTV_RoyalMail_REV, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_DTV_RoyalMail_REV, "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_2x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_2x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_4x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_4x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR325_PMV_RoyalMail, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_PMV_RoyalMail, "gfx/EMU/BR325/BR325_PMV_RoyalMail_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_RoyalMail_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_RoyalMail_2x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_RoyalMail_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_RoyalMail_4x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_RoyalMail_4x_mask.png")
     { template_128trains_4x(0,0) }
 
-spriteset(spriteset_BR325_PMV_RoyalMail_REV, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_PMV_RoyalMail_REV, "gfx/EMU/BR325/BR325_PMV_RoyalMail_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_RoyalMail_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_2x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_RoyalMail_2x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_RoyalMail_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_RoyalMail_4x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_RoyalMail_4x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_RoyalMail_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR325_TAV_RoyalMail, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_TAV_RoyalMail, "gfx/EMU/BR325/BR325_TAV_RoyalMail_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_TAV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_TAV_RoyalMail_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_mask.png")
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_TAV_RoyalMail_2x_32bpp.png", "gfx/EMU/BR325/BR325_TAV_RoyalMail_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_mask.png")
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_TAV_RoyalMail_4x_32bpp.png", "gfx/EMU/BR325/BR325_TAV_RoyalMail_4x_mask.png")
     { template_128trains_4x(0,0) }
 
-spriteset(spriteset_BR325_TAV_RoyalMail_REV, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_TAV_RoyalMail_REV, "gfx/EMU/BR325/BR325_TAV_RoyalMail_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_TAV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_TAV_RoyalMail_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_2x_mask.png")
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_TAV_RoyalMail_2x_32bpp.png", "gfx/EMU/BR325/BR325_TAV_RoyalMail_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_32bpp.png", "gfx\EMU\BR325\BR325_TAV_RoyalMail_4x_mask.png")
+    alternative_sprites(spriteset_BR325_TAV_RoyalMail_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_TAV_RoyalMail_4x_32bpp.png", "gfx/EMU/BR325/BR325_TAV_RoyalMail_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR325_PMV_panto_up, "gfx\EMU\BR325\BR325_PMV_panto_up_1x_8bpp.png")
+spriteset(spriteset_BR325_PMV_panto_up, "gfx/EMU/BR325/BR325_PMV_panto_up_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_up_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_up_1x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_up_1x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_up_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_up, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_up_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_up_2x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_up, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_up_2x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_up_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_up_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_up_4x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_up_4x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_up_4x_mask.png")
     { template_128trains_4x(0,0) }
 
-spriteset(spriteset_BR325_PMV_panto_down, "gfx\EMU\BR325\BR325_PMV_panto_down_1x_8bpp.png")
+spriteset(spriteset_BR325_PMV_panto_down, "gfx/EMU/BR325/BR325_PMV_panto_down_1x_8bpp.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_down, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_down_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_down_1x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_down, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_down_1x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_down_1x_mask.png")
     { template_128trains_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_down, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_down_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_down_2x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_down, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_down_2x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_down_2x_mask.png")
     { template_128trains_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_down, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_down_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_down_4x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_down, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_down_4x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_down_4x_mask.png")
     { template_128trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_BR325_PMV_panto_up_REV, "gfx\EMU\BR325\BR325_PMV_panto_up_1x_8bpp.png")
+spriteset(spriteset_BR325_PMV_panto_up_REV, "gfx/EMU/BR325/BR325_PMV_panto_up_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_up_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_up_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_up_1x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_up_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_up_1x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_up_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_up_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_up_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_up_2x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_up_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_up_2x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_up_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_up_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_up_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_up_4x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_up_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_up_4x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_up_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
-spriteset(spriteset_BR325_PMV_panto_down_REV, "gfx\EMU\BR325\BR325_PMV_panto_down_1x_8bpp.png")
+spriteset(spriteset_BR325_PMV_panto_down_REV, "gfx/EMU/BR325/BR325_PMV_panto_down_1x_8bpp.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_down_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_down_1x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_down_1x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_down_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_down_1x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_down_1x_mask.png")
     { template_128trains_REV_1x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_down_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_down_2x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_down_2x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_down_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_down_2x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_down_2x_mask.png")
     { template_128trains_REV_2x(0,0) }
 
-    alternative_sprites(spriteset_BR325_PMV_panto_down_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_PMV_panto_down_4x_32bpp.png", "gfx\EMU\BR325\BR325_PMV_panto_down_4x_mask.png")
+    alternative_sprites(spriteset_BR325_PMV_panto_down_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_PMV_panto_down_4x_32bpp.png", "gfx/EMU/BR325/BR325_PMV_panto_down_4x_mask.png")
     { template_128trains_REV_4x(0,0) }
 
 // panto switches
@@ -153,10 +153,10 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_BR325_PMV_REV, [STORE_TEMP((getbits(ext
     1: return sw_panto_BR325_REV; }
 
 // purchase sprite
-spriteset(spriteset_BR325_DTV_RoyalMail_purchase, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_8bpp.png")
+spriteset(spriteset_BR325_DTV_RoyalMail_purchase, "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR325_DTV_RoyalMail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_32bpp.png", "gfx\EMU\BR325\BR325_DTV_RoyalMail_1x_mask.png")
+    alternative_sprites(spriteset_BR325_DTV_RoyalMail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_32bpp.png", "gfx/EMU/BR325/BR325_DTV_RoyalMail_1x_mask.png")
     { template_purchase(0,0) }
 
 

@@ -1,100 +1,100 @@
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_White, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_White, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_White, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_White, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_White, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_White, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_White, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_White_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_White, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_White_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_SR_Grey, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_SR_Grey, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_SR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_SR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_SR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_SR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_SR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_SR_Grey_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_SR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_SR_Grey_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_Cream, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_Cream, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Cream_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Cream_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_Private_Cream, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_Private_Cream, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Cream, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Cream, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Cream_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Cream, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Cream_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_Private_Green, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_Private_Green, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_Private_Red, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_Private_Red, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Red_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Private_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Red_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_6_Wheeled_Milk_Tank_Red, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_Red, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_2x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_2x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_2x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_4x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Red_4x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_4x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Red_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 
 // purchase sprite
-spriteset(spriteset_6_Wheeled_Milk_Tank_Purchase, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_1x_8bpp.png")
+spriteset(spriteset_6_Wheeled_Milk_Tank_Purchase, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_1x_32bpp.png", "gfx\Wagons\6_Wheeled_Milk_Tank\6_Wheeled_Milk_Tank_Private_Green_1x_mask.png")
+    alternative_sprites(spriteset_6_Wheeled_Milk_Tank_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_1x_32bpp.png", "gfx/Wagons/6_Wheeled_Milk_Tank/6_Wheeled_Milk_Tank_Private_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // random liveries

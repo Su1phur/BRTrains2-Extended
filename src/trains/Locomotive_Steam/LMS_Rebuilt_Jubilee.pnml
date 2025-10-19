@@ -1,91 +1,91 @@
 // basic sprites
-spriteset(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_2x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Lined_Black_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_4x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Lined_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_2x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_4x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson_purchase, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson_purchase, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_LMS_Crimson_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_LMS_Crimson_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_LMS_Crimson_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprites
-spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_2x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Plain_Black_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_4x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Plain_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_2x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Lined_Black_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_4x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Lined_Black_4x_mask.png")
     { template_78trains_4x(0,0) }
     
 // basic sprites
-spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_2x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_ExpressBlue_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_ExpressBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_4x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_ExpressBlue_4x_mask.png")
     { template_78trains_4x(0,0) }
 
 // basic sprites
-spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Green, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Green, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_1x_8bpp.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_1x_mask.png")
     { template_78trains_1x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_2x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_2x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_2x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_2x_mask.png")
     { template_78trains_2x(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_4x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_4x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_4x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_4x_mask.png")
     { template_78trains_4x(0,0) }
 
-spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Green_Purchase, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_8bpp.png")
+spriteset(spriteset_LMS_Rebuilt_Jubilee_BR_Green_Purchase, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_32bpp.png", "gfx\Locomotive_Steam\LMS_Rebuilt_Jubilee\LMS_Rebuilt_Jubilee_BR_Green_1x_mask.png")
+    alternative_sprites(spriteset_LMS_Rebuilt_Jubilee_BR_Green_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LMS_Rebuilt_Jubilee/LMS_Rebuilt_Jubilee_BR_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // livery switch
