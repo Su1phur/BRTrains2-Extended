@@ -424,7 +424,7 @@ item (FEAT_TRAINS, item_GWR_3150, 315) {
     property {
         // common properties
         name:                           string(STR_NAME_GWR_3150);
-        // variant_group:                  ; // unit ID or item
+        variant_group:                  item_GWR_3100; // unit ID or item
 		// extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1906,01,01); 
