@@ -1,0 +1,36 @@
+item (FEAT_TRAINS, item_BR_Mk2_B, 12080) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk2_Header);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             NO_CLIMATE;
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:        bitmask(CC_MAIL);	
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [MAIL, GOOD, VALU];
+        // cargo_disallow_refit:            [];
+        default_cargo_type:             MAIL;
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 42 * param_freight;
+        loading_speed:					15;
+        cost_factor: 					0;			
+        running_cost_base:				RUNNING_COST_STEAM;				
+        running_cost_factor: 			0;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        dual_headed:                    0;
+        length:                         4;
+    }
+
+    graphics {
+        default:                        spriteset_empty;
+    }
+}

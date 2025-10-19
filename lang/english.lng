@@ -1198,7 +1198,8 @@ str_BR_Mk1_liveries			    :BR Carmine and Cream, BR Chocolate and Cream, BR Mala
 
 STR_NAME_BR_Mk2_Header			:BR Mark 2 Coaches
 
-STR_NAME_BR_Mk2_BFK             :BR Mark 2 Coach (BFK)    
+STR_NAME_BR_Mk2_BFK             :BR Mark 2 Coach (BFK)
+STR_NAME_BR_Mk2_BSO             :BR Mark 2 Coach (BSO)    
 STR_NAME_BR_Mk2_TSO             :BR Mark 2 Coach (TSO)
 STR_NAME_BR_Mk2_SO		        :BR Mark 2 Coach (SO)
 STR_NAME_BR_Mk2_FO		        :BR Mark 2 Coach (FO)

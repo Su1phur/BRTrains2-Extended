@@ -74,25 +74,27 @@ spriteset(spriteset_BR_Mk1_BSO_purchase, "gfx/Coaches/BR_Mk1_BSO/BR_Mk1_BSO_BR_M
 	alternative_sprites (spriteset_BR_Mk1_BSO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_BSO/BR_Mk1_BSO_BR_Maroon_1x_32bpp.png", "gfx/Coaches/BR_Mk1_BSO/BR_Mk1_BSO_BR_Maroon_1x_mask.png")
 		{ template_purchase(0, 0) }
 
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_BSO, cargo_subtype) {
+    0: sw_loadstack_BR_Mk1_BSO_BR_Maroon; }
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_BSO_REV, cargo_subtype) {
+    0: sw_loadstack_BR_Mk1_BSO_BR_Maroon_REV; }
+
 // random switch
 random_switch(FEAT_TRAINS, SELF, random_choose_reverse_BR_Mk1_BSO_BR_Maroon) {
-    1: sw_loadstack_BR_Mk1_BSO_BR_Maroon;
-    1: sw_loadstack_BR_Mk1_BSO_BR_Maroon_REV; }
+    1: sw_livery_BR_Mk1_BSO;
+    1: sw_livery_BR_Mk1_BSO_REV; }
 
 // position switch
 switch(FEAT_TRAINS, SELF, sw_check_position_BR_Mk1_BSO_BR_Maroon, position_in_consist) {
-    1..7: sw_loadstack_BR_Mk1_BSO_BR_Maroon;
+    1..7: sw_livery_BR_Mk1_BSO;
         return random_choose_reverse_BR_Mk1_BSO_BR_Maroon; }
 
 // reverse switch
 switch(FEAT_TRAINS, SELF, sw_check_reverse_BR_Mk1_BSO_BR_Maroon, num_vehs_in_consist >= 6 ? position_in_consist_from_end : -1) {
-    1: sw_loadstack_BR_Mk1_BSO_BR_Maroon_REV;
+    1: sw_livery_BR_Mk1_BSO_REV;
         return sw_check_position_BR_Mk1_BSO_BR_Maroon; }
-
-// livery switch
-switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk1_BSO, cargo_subtype) {
-    0: sw_check_position_BR_Mk1_BSO_BR_Maroon;
-}
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk1_BSO_cargo_subtype_text, cargo_subtype) {
@@ -101,15 +103,8 @@ switch(FEAT_TRAINS, SELF, sw_BR_Mk1_BSO_cargo_subtype_text, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk1_BSO, position_in_articulated_veh % 3) {
-    0: spriteset_empty;
-    1: return sw_livery_BR_Mk1_BSO;
-    2: spriteset_empty;
-}
-
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR_Mk1_BSO, position_in_articulated_veh % 3) {
-    0..2: 4;
-}
+    1: return sw_check_reverse_BR_Mk1_BSO_BR_Maroon;
+        spriteset_empty; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk1_BSO, position_in_articulated_veh % 3) {
@@ -158,9 +153,7 @@ item (FEAT_TRAINS, item_BR_Mk1_BSO, 12006) { // Diagram 183, 184 BR Mk1 BSO
         track_type:                     RAIL;
         weight:                         34 ton;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {
