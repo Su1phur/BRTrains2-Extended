@@ -68,7 +68,7 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ]; then
             TAG="weekly.$(date +'%Y-%m-%d')"
             NAME="Weekly Build $(date +'%Y-%m-%d')"
-            PRERELEASE=false
+            PRERELEASE=true
           elif [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
             TAG="v${{ github.event.inputs.version }}"
             NAME="Pre-release v${{ github.event.inputs.version }}"
