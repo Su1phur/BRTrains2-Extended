@@ -37,7 +37,7 @@ jobs:
             echo "found_commits=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Stop if no commits found (for scheduled runs)
+      - name: Stop scheduled runs if no commits found 
         if: github.event_name == 'schedule' && steps.commits.outputs.found_commits == 'false'
         run: echo "No commits this week — skipping." && exit 0
 
