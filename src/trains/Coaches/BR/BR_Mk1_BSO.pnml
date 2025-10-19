@@ -162,7 +162,6 @@ item (FEAT_TRAINS, item_BR_Mk1_BSO, 12006) { // Diagram 183, 184 BR Mk1 BSO
         purchase:                       spriteset_BR_Mk1_BSO_purchase;
         
         // internal code
-        length:                         sw_length_BR_Mk1_BSO;
         articulated_part:               sw_articulated_BR_Mk1_BSO;
         purchase_cargo_capacity:        return (19 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk1_BSO;
