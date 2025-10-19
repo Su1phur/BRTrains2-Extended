@@ -205,11 +205,6 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR47, position_in_articulated_veh % 3) {
 	1: return sw_livery_BR47;
 	    spriteset_empty; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR47, position_in_articulated_veh % 3) {
-	4; }
-
-
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR47, extra_callback_info1) {
 	1..2: return item_BR47;
@@ -252,7 +247,7 @@ item (FEAT_TRAINS, item_BR47, 4700) {
         dual_headed:                    0;
         air_drag_coefficient:           0.08;
         tractive_effort_coefficient:    0.22;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {
@@ -263,7 +258,6 @@ item (FEAT_TRAINS, item_BR47, 4700) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR47;
         articulated_part:               sw_articulated_BR47;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;

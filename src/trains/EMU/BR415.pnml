@@ -338,11 +338,6 @@ switch(FEAT_TRAINS, SELF, sw_BR415_cargo_subtype_text, cargo_subtype){
     4:  return string(str_NSE);
        return CB_RESULT_NO_TEXT; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR415, position_in_articulated_veh % 12) {
-	4; }
-
-
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR415, position_in_vehid_chain % 12) {
     0: 375 * param_pax; // all the capacity - (vehid chain number)
@@ -392,7 +387,7 @@ item (FEAT_TRAINS, item_BR415, 4150) {
         dual_headed:                    0;
         air_drag_coefficient:           0.11;
         tractive_effort_coefficient:    0.09;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {
@@ -404,7 +399,6 @@ item (FEAT_TRAINS, item_BR415, 4150) {
         // sound_effect:                   ;
 
         // internal code
-        length:                         sw_length_BR415;
         articulated_part:               sw_articulated_BR415; 
         purchase_cargo_capacity:        return ( 32 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR415;
