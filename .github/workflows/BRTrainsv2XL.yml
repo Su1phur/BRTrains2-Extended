@@ -54,7 +54,7 @@ jobs:
           pip3 install nml
 
       - name: Build
-        run: python3 build.py BRTrainsv2XL
+        run: python3 build.py BRTrainsv2XL --compile
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
