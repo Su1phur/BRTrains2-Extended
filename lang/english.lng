@@ -1334,6 +1334,10 @@ str_BR_Conflat_P_liveries       :BR Bauxite
 STR_NAME_BR_Oxfit               :BR 'Oxfit' 12t Cattle Wagon
 str_BR_Oxfit_liveries           :BR Bauxite
 
+STR_NAME_BR_BAA                 :BR BAA Steel Wagon
+STR_NAME_BR_BAA_75              :BR BAA Steel Wagon (75t)
+str_BR_BAA_liveries             :BR Bauxite, Railfreight, EWS
+
 STR_NAME_BR_FEA                 :BR FEA Container Flat Wagon
 str_BR_FEA_liveries             :Random, Black, Blue, Green, Yellow
 
