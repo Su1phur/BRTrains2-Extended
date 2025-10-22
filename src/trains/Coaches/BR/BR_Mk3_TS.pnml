@@ -50,6 +50,40 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_BR_Blue_125, [ STORE_TEMP((getb
     1: spritegroup_BR_Mk3_TS_BR_Blue_Loading; }
 
 // basic sprites
+spriteset(spriteset_BR_Mk3_TS_BR_ScotRail, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_BR_ScotRail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_BR_ScotRail, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_BR_ScotRail, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+spriteset(spriteset_BR_Mk3_TS_BR_ScotRail_Loading, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_BR_ScotRail_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_BR_ScotRail_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_BR_ScotRail_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_BR_ScotRail_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_TS_BR_ScotRail_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_TS_BR_ScotRail_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3a_TSO_BR_ScotRail, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_BR_ScotRail;
+    1: spritegroup_BR_Mk3_TS_BR_ScotRail_Loading; }
+
+// basic sprites
 spriteset(spriteset_BR_Mk3_TS_GNER, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GNER_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
@@ -61,8 +95,6 @@ spriteset(spriteset_BR_Mk3_TS_GNER, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GNER_1x_8bp
 
     alternative_sprites(spriteset_BR_Mk3_TS_GNER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GNER_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GNER_4x_mask.png")
     { template_148trains_4x(0,0) }
-
-
 
 switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_GNER, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
     0: spriteset_BR_Mk3_TS_GNER;
@@ -128,7 +160,6 @@ spriteset(spriteset_BR_Mk3_TS_GWT_Loading, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GWT_
     alternative_sprites(spriteset_BR_Mk3_TS_GWT_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GWT_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GWT_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
-
 // loading sprite
 spritegroup spritegroup_BR_Mk3_TS_GWT_Loading {  
     loaded: [spriteset_empty];
@@ -189,7 +220,6 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Intercity_Swallow, [ STORE_TEMP
     0: spriteset_BR_Mk3_TS_Intercity_Swallow;
     1: spritegroup_BR_Mk3_TS_BR_Intercity_Loading; }
 
-
 // basic sprites
 spriteset(spriteset_BR_Mk3_TS_Midland_Mainline, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_Midland_Mainline_1x_8bpp.png")
     { template_148trains_1x(0,0) }
@@ -208,6 +238,23 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Midland_Mainline, [ STORE_TEMP(
     1: spritegroup_BR_Mk3_Midland_Mainline_Loading; }
 
 // basic sprite
+spriteset(spriteset_BR_Mk3_TS_RCS, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_RCS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_RCS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_RCS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_RCS_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_RCS, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_RCS;
+    1: spritegroup_BR_Mk3_RCS_Loading; }
+
+// basic sprite
 spriteset(spriteset_BR_Mk3_TS_Scotrail, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_Scotrail_1x_8bpp.png")
     { template_148trains_1x(0,0) }
 
@@ -224,40 +271,113 @@ switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Scotrail, [ STORE_TEMP((getbits
     0: spriteset_BR_Mk3_TS_Scotrail;
     1: spritegroup_BR_Mk3_TS_Sliding_Door_Loading; }
 
+// basic sprite
+spriteset(spriteset_BR_Mk3_TS_Virgin, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Virgin, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_Virgin;
+    1: spritegroup_BR_Mk3_Virgin_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TS_Virgin_Pretendolino, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin_Pretendolino, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin_Pretendolino, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin_Pretendolino, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+spriteset(spriteset_BR_Mk3_TS_Virgin_Pretendolino_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin_Pretendolino_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin_Pretendolino_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Virgin_Pretendolino_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Pretendolino_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_TS_Virgin_Pretendolino_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_TS_Virgin_Pretendolino_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Virgin_Pretendolino, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_Virgin_Pretendolino;
+    1: spritegroup_BR_Mk3_TS_Virgin_Pretendolino_Loading; }
+
+// basic sprite
+spriteset(spriteset_BR_Mk3_TS_Wrexham_And_Shropshire, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Wrexham_And_Shropshire, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Wrexham_And_Shropshire, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_TS_Wrexham_And_Shropshire, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk3_TS_Wrexham_And_Shropshire, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk3_TS_Wrexham_And_Shropshire;
+    1: spritegroup_BR_Mk3_Wrexham_And_Shropshire_Loading; }
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk3_TS, cargo_subtype) {
-    0: sw_loadstack_BR_Mk3_TS_BR_Blue;
-    1: sw_loadstack_BR_Mk3_TS_Intercity_Executive;
-    2: sw_loadstack_BR_Mk3_TS_Intercity_Swallow;
-    3: sw_loadstack_BR_Mk3_TS_GNER;
-    4: sw_loadstack_BR_Mk3_TS_Midland_Mainline;
-    5: sw_loadstack_BR_Mk3_TS_GWT; 
-    6: sw_loadstack_BR_Mk3_TS_GWR;
-    7: sw_loadstack_BR_Mk3_TS_Scotrail; }
+    0:  sw_loadstack_BR_Mk3_TS_BR_Blue;
+    1:  sw_loadstack_BR_Mk3_TS_BR_Blue_125;
+    2:  sw_loadstack_BR_Mk3_TS_Intercity_Executive;
+    3:  sw_loadstack_BR_Mk3_TS_Intercity_Swallow;
+    4:  sw_loadstack_BR_Mk3a_TSO_BR_ScotRail;
+    5:  sw_loadstack_BR_Mk3_TS_GWT;
+    6:  sw_loadstack_BR_Mk3_TS_GNER;
+    7:  sw_loadstack_BR_Mk3_TS_Midland_Mainline;
+    8:  sw_loadstack_BR_Mk3_TS_Virgin;
+    9:  sw_loadstack_BR_Mk3_TS_Virgin_Pretendolino;
+    10: sw_loadstack_BR_Mk3_TS_Wrexham_And_Shropshire;
+    11: sw_loadstack_BR_Mk3_TS_GWR;
+    12: sw_loadstack_BR_Mk3_TS_Scotrail;
+    13: sw_loadstack_BR_Mk3_TS_RCS; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Mk3_TS_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlueGrey);
-    1:  return string(str_BRInterCityExecutive);
-    2:  return string(str_BRInterCitySwallow);
-    3:  return string(str_GNER);
-    4:  return string(str_MMLTealTang);
+    1:  return string(str_BRBlue125);
+    2:  return string(str_BRInterCityExecutive);
+    3:  return string(str_BRInterCitySwallow);
+    4:  return string(str_BRScotRail);
     5:  return string(str_GWT);
-    6:  return string(str_GWR);
-    7:  return string(str_ScotRail_I7C);
+    6:  return string(str_GNER);
+    7:  return string(str_MMLTealTang);
+    8:  return string(str_Virgin);
+    9:  return string(str_VirginPretendolino);
+    10: return string(str_Wrexham);
+    11: return string(str_GWR);
+    12: return string(str_ScotRail_I7C);
+    13: return string(str_RCS);
        return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk3_TS, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR_Mk3_TS;
-	2: spriteset_empty; }
-
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR_Mk3_TS, position_in_articulated_veh % 3) {
-	0: 4;
-	1: 6;
-	2: 4; }
+	    spriteset_empty; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3_TS, position_in_vehid_chain % 3) {
@@ -268,8 +388,7 @@ switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3_TS, position_in_vehid_chain % 3) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk3_TS, extra_callback_info1) {
-	1: return item_BR_Mk3_TS;
-	2: return item_BR_Mk3_TS;
+	1..2: return item_BR_Mk3_TS;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 // unit definition
@@ -311,7 +430,7 @@ item (FEAT_TRAINS, item_BR_Mk3_TS, 12129) {
         purchase:                       sw_BR_Mk3_TS_purchase_sprite;
         
         // internal code
-        length:                         sw_length_BR_Mk3_TS;
+        length:                         sw_length_BR_Mk3;
         articulated_part:               sw_articulated_BR_Mk3_TS;
         speed:                          sw_speed_BR_Mk3() * 1609 / 1000;
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
@@ -325,5 +444,78 @@ item (FEAT_TRAINS, item_BR_Mk3_TS, 12129) {
         additional_text:                return( string(str_purchase_coach,
                                                     string(str_coach_TS),
                                                     string(str_BR_Mk3_liveries)));
+    }
+}
+
+// purchase year switch
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk3a_TSO_purchase_sprite, current_year) {
+    1965..1982: spriteset_BR_Mk3_TS_BR_Blue_purchase;
+    1983..1993: spriteset_BR_Mk3_TS_Intercity_Swallow_purchase;
+        spriteset_BR_Mk3_TS_Intercity_Swallow_purchase; }
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk3a_TSO, position_in_vehid_chain % 3) {
+    0: 69 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total 72
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk3a_TSO, extra_callback_info1) {
+	1..2: return item_BR_Mk3a_TSO;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Mk3a_TSO, 12142) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk3a_TSO);
+        variant_group:                  item_BR_Mk3a_Header; // unit ID or item
+		extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1975,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        cargo_allow_refit:               [PASS, TOUR];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					15;
+        cost_factor: 					108;			
+        running_cost_base:				RUNNING_COST_STEAM;				
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          125 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         33 ton;
+        dual_headed:                    0;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Mk3_TS;
+        purchase:                       sw_BR_Mk3a_TSO_purchase_sprite;
+        
+        // internal code
+        length:                         sw_length_BR_Mk3;
+        articulated_part:               sw_articulated_BR_Mk3a_TSO;
+        purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR_Mk3a_TSO;
+        cost_factor:                    3000;
+        running_cost_factor:            2055;
+        cargo_subtype_text:             sw_BR_Mk3_TS_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TSO),
+                                                    string(str_BR_Mk3a_liveries)));
     }
 }

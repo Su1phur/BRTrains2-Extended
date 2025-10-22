@@ -62,24 +62,17 @@ item(FEAT_TRAINS, item_BR_Mk3_Header, 12120) {
 	}
 }
 
-// basic sprites
-spriteset(spriteset_BR_Mk3a_Buffers, "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_1x_8bpp.png")
-    { template_148trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3a_Buffers, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_1x_32bpp.png", "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_1x_mask.png")
-    { template_148trains_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3a_Buffers, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_2x_32bpp.png", "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_2x_mask.png")
-    { template_148trains_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3a_Buffers, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_4x_32bpp.png", "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_4x_mask.png")
-    { template_148trains_4x(0,0) }
-
-spriteset(spriteset_BR_Mk3a_Buffers_purchase, "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_1x_8bpp.png")
-    { template_purchase(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk3a_Buffers_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_1x_32bpp.png", "gfx/Coaches/BR_Mk3a_Buffers/BR_Mk3a_Buffers_1x_mask.png")
-    { template_purchase(0,0) }
+item(FEAT_TRAINS, item_BR_Mk3a_Header, 12135) {
+    property {
+        name:                           string(STR_NAME_BR_Mk3a_Header);
+		climates_available: 			NO_CLIMATE;					
+		sprite_id:						SPRITE_ID_NEW_TRAIN;
+	}
+	graphics {	
+		purchase:						sw_BR_Mk3_TS_purchase_sprite;	
+        colour_mapping:                 return PALETTE_CC_FIRST;
+	}
+}
 
 spriteset(spriteset_BR_Mk3_GNER_Loading, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GNER_Loading_1x_8bpp.png")
     { template_148trains_1x(0,0) }
@@ -110,7 +103,6 @@ spriteset(spriteset_BR_Mk3_Midland_Mainline_Loading, "gfx/Coaches/BR_Mk3_TS/BR_M
     alternative_sprites(spriteset_BR_Mk3_Midland_Mainline_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_Midland_Mainline_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_Midland_Mainline_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
-
 // loading sprite
 spritegroup spritegroup_BR_Mk3_Midland_Mainline_Loading {  
     loaded: [spriteset_empty];
@@ -128,11 +120,61 @@ spriteset(spriteset_BR_Mk3_GWT_Loading, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GWT_Loa
     alternative_sprites(spriteset_BR_Mk3_GWT_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GWT_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk3_TS/BR_Mk3_TS_GWT_Loading_4x_mask.png")
     { template_148trains_4x(0,0) }
 
-
 // loading sprite
 spritegroup spritegroup_BR_Mk3_GWT_Loading {  
     loaded: [spriteset_empty];
     loading: [spriteset_BR_Mk3_GWT_Loading]; }
+
+spriteset(spriteset_BR_Mk3_RCS_Loading, "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_RCS_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_RCS_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_RCS_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TF\BR_Mk3_TF_RCS_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_RCS_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_RCS_Loading]; }
+
+spriteset(spriteset_BR_Mk3_Virgin_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_Virgin_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_Virgin_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_Virgin_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Virgin_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_Virgin_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_Virgin_Loading]; }
+
+spriteset(spriteset_BR_Mk3_Wrexham_And_Shropshire_Loading, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_1x_8bpp.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_Wrexham_And_Shropshire_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_1x_mask.png")
+    { template_148trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_Wrexham_And_Shropshire_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_2x_mask.png")
+    { template_148trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk3_Wrexham_And_Shropshire_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk3_TS\BR_Mk3_TS_Wrexham_And_Shropshire_Loading_4x_mask.png")
+    { template_148trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk3_Wrexham_And_Shropshire_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk3_Wrexham_And_Shropshire_Loading]; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR_Mk3, position_in_articulated_veh % 3) {

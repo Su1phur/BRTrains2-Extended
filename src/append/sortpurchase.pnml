@@ -150,7 +150,7 @@ sort(FEAT_TRAINS, [
         item_BR_Mk3_TRUK,
         item_BR_Mk3_TS,
         item_BR_Mk3_TSD,
-    // item_BR_Mk3a_Header,
+    item_BR_Mk3a_Header,
         // item_BR_Mk3a_FO,
         item_BR_Mk3a_TSO,
     item_BR_Mk4_Header,

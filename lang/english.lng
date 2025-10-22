@@ -1236,6 +1236,7 @@ STR_NAME_BR_Mk3_TS				:BR Mark 3 Coach (TS)
 STR_NAME_BR_Mk3_TSD             :BR Mark 3 Coach (TSD)
 STR_NAME_BR_Mk3_DMB				:BR Mark 3 Driving Motor Brake
 
+STR_NAME_BR_Mk3a_FO             :BR Mark 3a/b Coach (FO)
 STR_NAME_BR_Mk3a_TSO            :BR Mark 3a Coach (TSO)
 
 STR_NAME_BR_Mk3Sleeper			:BR Mark 3 Sleeper Coach
@@ -1729,6 +1730,7 @@ str_RegionalGreen				: (Regional Railways - Green)
 str_RegionalGrey				: (Regional Railways - Grey)
 str_RegionalMersey				: (Regional Railways - Merseyrail)
 str_RegionalNSE					: (Regional Railways - Ex-NSE)
+str_RCS                         : (Rail Charter Services)
 str_REX                         : (Rail Express Systems)
 str_RFCoal						: (Railfreight - Coal)
 str_RFConstruction				: (Railfreight - Construction)
