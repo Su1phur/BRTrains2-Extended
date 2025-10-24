@@ -1309,6 +1309,9 @@ str_GWR_Mink_G_liveries         :GWR Grey, BR Bauxite
 STR_NAME_GWR_SiphonG_O11        :GWR Siphon G Milk Van
 str_GWR_SiphonG_O11_liveries    :GWR Brown, GWR Grey, BR Maroon, BR Blue
 
+STR_NAME_GWR_Brake_Van_Toad     :GWR 20t Brake Van "Toad"
+str_GWR_Brake_Van_Toad_liveries :GWR Grey, BR Grey, BR Bauxite, Virgin Trains
+
 # SR Wagons
 STR_NAME_Milk_Tank              :6-wheeled Milk Tank
 str_Milk_Tank_liveries          :White, Grey, Cream, Private Owners

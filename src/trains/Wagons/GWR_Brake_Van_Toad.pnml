@@ -1,0 +1,134 @@
+
+// basic sprite
+spriteset(spriteset_GWR_Toad_AA15_BR_Bauxite, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Toad_AA15_BR_Grey, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Toad_AA15_GWR_Grey, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_GWR_Toad_AA15_GWR_Grey_purchase, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Toad_AA15_Virgin, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_GWR_Brake_Van_Toad, cargo_subtype) {
+    0: spriteset_GWR_Toad_AA15_GWR_Grey;
+    1: spriteset_GWR_Toad_AA15_BR_Grey;
+    2: spriteset_GWR_Toad_AA15_BR_Bauxite;
+    3: spriteset_GWR_Toad_AA15_Virgin; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_GWR_Brake_Van_Toad_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY, string(str_abbr_GWR), string(str_col_Grey));
+    1:  return string(str_BRGrey);
+    2:  return string(str_BRBauxite);
+    3:  return string(str_Virgin);
+       return CB_RESULT_NO_TEXT; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_GWR_Brake_Van_Toad, param_max_speed) {
+    0: 50; // operational speed
+    1: 75; // design speed
+}
+
+// unit definition
+item (FEAT_TRAINS, item_GWR_Brake_Van_Toad, 11408) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_GWR_Brake_Van_Toad);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1918,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:       bitmask(CC_EXPRESS, CC_PIECE_GOODS, CC_REFRIGERATED, CC_COVERED, CC_NON_POURABLE);
+        non_refittable_cargo_classes:   bitmask(CC_HAZARDOUS, CC_POTABLE);
+        cargo_allow_refit:              [MAIL, GOOD, VALU];
+        cargo_disallow_refit:           [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 20 * param_freight;
+        loading_speed:				    5; // All freight / Locomotive
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          50 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         20 ton;
+        dual_headed:                    0;
+        length:                         5;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_GWR_Brake_Van_Toad;
+        purchase:                       spriteset_GWR_Toad_AA15_GWR_Grey_purchase;
+        
+        // internal code
+        speed:                          sw_speed_GWR_Brake_Van_Toad() * 1609 / 1000;
+        cost_factor:                    429;
+        running_cost_factor:            687;
+        cargo_subtype_text:             sw_GWR_Brake_Van_Toad_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_wagon,
+                                                    string(str_GWR_Brake_Van_Toad_liveries)));
+    }
+}
+
