@@ -45,6 +45,7 @@ sort(FEAT_TRAINS, [
     // BR Steam Locomotives
     item_BR_Standard_6,
     item_BR_Standard_7,
+    item_BR_Standard_8,
     // BR Diesel Locomotives
     item_BR08,
         item_BR09,
@@ -171,6 +172,7 @@ sort(FEAT_TRAINS, [
         item_RCH_1907_Van,
     // GWR Wagons
     item_GWR_SiphonG_O11,
+    item_GWR_Brake_Van_Toad,
     // SR Wagons
     item_Milk_Tank,
     // LNER Pre-Grouping Wagons
