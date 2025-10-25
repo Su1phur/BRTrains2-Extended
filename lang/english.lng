@@ -810,6 +810,10 @@ str_BR257_liveries              :ScotRail Inter7City
 STR_NAME_BR302					:BR Class 302 "AM2" (4-car)
 str_BR302_liveries				:BR Green, BR Blue, BR Blue Grey, Network SouthEast
 
+STR_NAME_BR303                  :BR Class 303 "AM3/Blue Train"
+STR_NAME_BR303_RB               :BR Class 303 "AM3/Blue Train" (Refurbished)
+str_BR303_liveries              :BR Caledonian Blue, BR Blue, BR Blue Grey, SPTE
+
 STR_NAME_BR305_1				:BR Class 305/1 "AM5" (3-car)
 str_BR305_1_liveries			:BR Green, BR Blue, BR Blue Grey, NSE, Regional Railways - Ex-NSE, Regional Railways, GMPTE
 
@@ -1468,6 +1472,7 @@ str_BRBlueFront				    : (BR - Blue, Yellow Front)
 str_BRBluePanel                 : (BR - Blue, Yellow Panel)
 str_BRBlue125                   : (BR - InterCity 125 Blue and Grey)
 str_BRCarmCream					: (BR - Carmine and Cream)
+str_BRCaledonianBlue            : (BR - Caledonian Blue)
 str_BRChocCream					: (BR - Chocolate and Cream)
 str_BRDesertSand                : (BR - Desert Sands)
 str_BRExpressBlue               : (BR - Express Passenger Blue)
