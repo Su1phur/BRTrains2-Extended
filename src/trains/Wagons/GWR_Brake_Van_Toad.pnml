@@ -1,61 +1,61 @@
 
 // basic sprite
-spriteset(spriteset_GWR_Toad_AA15_BR_Bauxite, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_1x_8bpp.png")
+spriteset(spriteset_GWR_Toad_AA15_BR_Bauxite, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_1x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_1x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_2x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_2x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Bauxite_4x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Bauxite, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_4x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Bauxite_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_Toad_AA15_BR_Grey, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_1x_8bpp.png")
+spriteset(spriteset_GWR_Toad_AA15_BR_Grey, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_1x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_1x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_2x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_2x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_BR_Grey_4x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_4x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_BR_Grey_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_Toad_AA15_GWR_Grey, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_8bpp.png")
+spriteset(spriteset_GWR_Toad_AA15_GWR_Grey, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_1x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_2x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_2x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_4x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_4x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // purchase sprite
-spriteset(spriteset_GWR_Toad_AA15_GWR_Grey_purchase, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_8bpp.png")
+spriteset(spriteset_GWR_Toad_AA15_GWR_Grey_purchase, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_GWR_Grey_1x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_GWR_Grey_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_1x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_GWR_Grey_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_Toad_AA15_Virgin, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_1x_8bpp.png")
+spriteset(spriteset_GWR_Toad_AA15_Virgin, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_1x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_1x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_1x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_2x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_2x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_2x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_4x_32bpp.png", "gfx\Wagons\GWR_Brake_Van_Toad\GWR_Toad_AA15_Virgin_4x_mask.png")
+    alternative_sprites(spriteset_GWR_Toad_AA15_Virgin, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_4x_32bpp.png", "gfx/Wagons/GWR_Brake_Van_Toad/GWR_Toad_AA15_Virgin_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // livery switch

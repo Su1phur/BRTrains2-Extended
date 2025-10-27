@@ -1,8 +1,8 @@
 // purchase sprite
-spriteset(spriteset_BR_Mk1_TSO_BR_Blue_purchase, "gfx\Coaches\BR_Mk1_TSO\BR_Mk1_TSO_BR_Blue_1x_8bpp.png")
+spriteset(spriteset_BR_Mk1_TSO_BR_Blue_purchase, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Blue_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_BR_Mk1_TSO_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk1_TSO\BR_Mk1_TSO_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk1_TSO\BR_Mk1_TSO_BR_Blue_1x_mask.png")
+    alternative_sprites(spriteset_BR_Mk1_TSO_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Blue_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TSO/BR_Mk1_TSO_BR_Blue_1x_mask.png")
     { template_purchase(0,0) }
 
 // purchase sprite switch
