@@ -28,36 +28,6 @@ spritegroup spritegroup_BR_Mk1_TK_BR_Maroon_Loading
 	{ 	loaded: [spriteset_empty];
 		loading: [spriteset_BR_Mk1_TK_BR_Maroon_Loading]; }
 
-spriteset(spriteset_BR_Mk1_TK_BR_Maroon_REV, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_8bpp.png")
-    { template_128trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk1_TK_BR_Maroon_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_1x_mask.png")
-    { template_128trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk1_TK_BR_Maroon_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_2x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_2x_mask.png")
-    { template_128trains_REV_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk1_TK_BR_Maroon_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_4x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_4x_mask.png")
-    { template_128trains_REV_4x(0,0) }
-
-spriteset(spriteset_BR_Mk1_TK_BR_Maroon_Loading_REV, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_1x_8bpp.png")
-    { template_128trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk1_TK_BR_Maroon_Loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_1x_mask.png")
-    { template_128trains_REV_1x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk1_TK_BR_Maroon_Loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_2x_mask.png")
-    { template_128trains_REV_2x(0,0) }
-
-    alternative_sprites(spriteset_BR_Mk1_TK_BR_Maroon_Loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_Maroon_Loading_4x_mask.png")
-    { template_128trains_REV_4x(0,0) }
-
-// loading sprite
-spritegroup spritegroup_BR_Mk1_TK_BR_Maroon_Loading_REV {  
-    loaded: [spriteset_empty];
-    loading: [spriteset_BR_Mk1_TK_BR_Maroon_Loading_REV];
-}
-
 // basic sprites
 spriteset(spriteset_BR_Mk1_TK_BR_BnC, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_BR_BnC_1x_8bpp.png")
     { template_128trains_1x(0,0) }
@@ -86,7 +56,7 @@ spriteset(spriteset_BR_Mk1_TK_BR_BnC_Loading, "gfx/Coaches/BR_Mk1_TK/BR_Mk1_TK_B
 // cargo spritegroup
 spritegroup spritegroup_BR_Mk1_TK_BR_BnC_Loading {
     loaded: [spriteset_empty, ];
-    loading: [spriteset_BR_Mk1_TK_BR_BnC, ];
+    loading: [spriteset_BR_Mk1_TK_BR_BnC];
 }
 
 // basic sprites

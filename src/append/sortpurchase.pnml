@@ -133,6 +133,7 @@ sort(FEAT_TRAINS, [
     item_LNER_BT_T,
     // BR Coaches
     item_BR_Mk1_Header,
+        item_BR_Mk1_BG,
         item_BR_Mk1_BSO,
         // item_BR_Mk1_SK,
         item_BR_Mk1_SO,
@@ -154,7 +155,7 @@ sort(FEAT_TRAINS, [
         item_BR_Mk3_TS,
         item_BR_Mk3_TSD,
     item_BR_Mk3a_Header,
-        // item_BR_Mk3a_FO,
+        item_BR_Mk3a_FO,
         item_BR_Mk3a_TSO,
     item_BR_Mk4_Header,
         item_BR_Mk4_DVT,
