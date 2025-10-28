@@ -1,0 +1,128 @@
+
+// basic sprite
+spriteset(spriteset_BR_Mk2_Late_TSO_BR_Blue, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_2x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_4x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk2_Late_TSO_BR_Blue_purchase, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+spriteset(spriteset_BR_Mk2_Late_TSO_BR_Blue_Loading, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_1x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_2x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_BR_Blue_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_4x_32bpp.png", "gfx\Coaches\BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_TSO_BR_Blue_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_TSO_BR_Blue_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_BR_Mk2_Late_TSO_BR_Blue, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Mk2_Late_TSO_BR_Blue;
+    1: spritegroup_BR_Mk2_Late_TSO_BR_Blue_Loading; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk2L_TSO, cargo_subtype) {
+    0: sw_loadstack_BR_Mk2_Late_TSO_BR_Blue; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Mk2L_TSO_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_BRBlueGrey);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Mk2L_TSO, position_in_articulated_veh % 3) {
+	1: return sw_livery_BR_Mk2L_TSO;
+	    spriteset_empty; }
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_Mk2L_TSO, position_in_vehid_chain % 3) {
+    0: 60 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax;
+    // total 62
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk2L_TSO, extra_callback_info1) {
+	1..2: return item_BR_Mk2L_TSO;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Mk2L_TSO, 12106) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Mk2L_TSO);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1971,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:              [PASS, TOUR];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					15; // Standard Class
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          100 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         34 ton;
+        dual_headed:                    0;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Mk2L_TSO;
+        purchase:                       spriteset_BR_Mk2_Late_TSO_BR_Blue_purchase;
+        // sound_effect:                   ;
+
+        // internal code
+        articulated_part:               sw_articulated_BR_Mk2L_TSO;
+        purchase_cargo_capacity:        return (20 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR_Mk2L_TSO;
+        cost_factor:                    1252;
+        running_cost_factor:            1657;
+        cargo_subtype_text:             sw_BR_Mk2L_TSO_cargo_subtype_text; 
+        // power:                          sw_power_BR_Mk2L_TSO;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_TSO),
+                                                    string(str_BR_Mk2_Late_liveries)));
+    }
+}
+
