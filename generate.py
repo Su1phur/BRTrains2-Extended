@@ -39,7 +39,7 @@ def generate_pnml(vox_files):
     pnml_file = output_dir / f"{unit_base_name}.pnml"
 
     groups = classify_vox_files(vox_files)
-    gfx_path = f"gfx\\{rel_path.as_posix().replace('/', '\\')}"
+    gfx_path = f"gfx/{rel_path.as_posix()}"
 
     with open(pnml_file, "w", encoding="utf-8") as p:
         for f_default in groups['default']:

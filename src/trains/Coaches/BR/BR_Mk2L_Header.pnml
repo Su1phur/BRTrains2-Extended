@@ -1,0 +1,194 @@
+// purchase sprite
+spriteset(spriteset_BR_Mk2_Late_Anglia_Railways_purchase, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Anglia_Railways_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_1x_mask.png")
+    { template_purchase(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk2_Late_BR_Blue_purchase, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Blue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_1x_mask.png")
+    { template_purchase(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk2_Late_BR_Intercity_purchase, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Intercity_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_1x_mask.png")
+    { template_purchase(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk2_Late_Virgin_purchase, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Virgin_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, PARENT, sw_BR_Mk2_TSO_purchase_sprite, current_year) {
+    1965..1982: spriteset_BR_Mk2_Late_BR_Blue_purchase;
+    1983..1996: spriteset_BR_Mk2_Late_BR_Intercity_purchase;
+    1997..2003: spriteset_BR_Mk2_Late_Virgin_purchase;
+    2004..2006: spriteset_BR_Mk2_Late_Anglia_Railways_purchase;
+    spriteset_BR_Mk2_Late_BR_Blue_purchase; }
+
+
+item(FEAT_TRAINS, item_BR_Mk2L_Header, 12100) {
+    property {
+        name:                           string(STR_NAME_BR_Mk2L_Header);
+		climates_available: 			NO_CLIMATE;					
+		sprite_id:						SPRITE_ID_NEW_TRAIN;
+	}
+	graphics {	
+		purchase:						sw_BR_Mk2_TSO_purchase_sprite;	
+        colour_mapping:                 return PALETTE_CC_FIRST;
+	}
+}
+
+spriteset(spriteset_BR_Mk2_Late_Anglia_Railways_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Anglia_Railways_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Anglia_Railways_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Anglia_Railways_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Anglia_Railways_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_Anglia_Railways_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_Anglia_Railways_Loading]; }
+
+
+spriteset(spriteset_BR_Mk2_Late_BR_Blue_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Blue_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Blue_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Blue_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Blue_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_BR_Blue_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_BR_Blue_Loading]; }
+
+
+spriteset(spriteset_BR_Mk2_Late_BR_Intercity_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Intercity_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Intercity_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Intercity_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Intercity_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_BR_Intercity_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_BR_Intercity_Loading]; }
+
+
+spriteset(spriteset_BR_Mk2_Late_BR_Scotrail_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Scotrail_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Scotrail_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_BR_Scotrail_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_BR_Scotrail_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_BR_Scotrail_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_BR_Scotrail_Loading]; }
+
+spriteset(spriteset_BR_Mk2_Late_FGW_Fag_Packet_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_FGW_Fag_Packet_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_FGW_Fag_Packet_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_FGW_Fag_Packet_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_FGW_Fag_Packet_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_FGW_Fag_Packet_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_FGW_Fag_Packet_Loading]; }
+
+// purchase sprite
+spriteset(spriteset_BR_Mk2_Late_ScotRail_Saltire_purchase, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_ScotRail_Saltire_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_1x_mask.png")
+    { template_purchase(0,0) }
+
+
+spriteset(spriteset_BR_Mk2_Late_TSO_ScotRail_Saltire_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_ScotRail_Saltire_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_ScotRail_Saltire_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_TSO_ScotRail_Saltire_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_ScotRail_Saltire_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_ScotRail_Saltire_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_TSO_ScotRail_Saltire_Loading]; }
+
+spriteset(spriteset_BR_Mk2_Late_Virgin_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Virgin_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Virgin_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_Virgin_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_Virgin_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_Virgin_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_Virgin_Loading]; }
+    
+spriteset(spriteset_BR_Mk2_Late_NetworkRail_Loading, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_1x_8bpp.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_NetworkRail_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_1x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_1x_mask.png")
+    { template_128trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_NetworkRail_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_2x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_2x_mask.png")
+    { template_128trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Mk2_Late_NetworkRail_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_4x_32bpp.png", "gfx/Coaches/BR_Mk2L_TSO/BR_Mk2_Late_TSO_NetworkRail_Loading_4x_mask.png")
+    { template_128trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_BR_Mk2_Late_NetworkRail_Loading {  
+    loaded: [spriteset_empty];
+    loading: [spriteset_BR_Mk2_Late_NetworkRail_Loading]; }
