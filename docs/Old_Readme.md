@@ -69,6 +69,5 @@ Detailed BROS credits available at https://docs.google.com/spreadsheets/d/1XVF7V
 If you want to add to the pack, just pull request it and it might make it in, or join us on Discord (invite link below) and post any sprites you'd like to contribute
 
 ### Discord and Forums
-- Suggestions, bugs, feedback etc is always welcome on our Discord: https://discord.gg/xWrUDReJdV
 - Request and bug reports can also be directed to [our development thread on TT-Forums](https://www.tt-forums.net/viewtopic.php?t=74766)
 - Release information (dates, version numbers etc) can be found on [this forum thread](https://www.tt-forums.net/viewtopic.php?t=90160&start=20)
