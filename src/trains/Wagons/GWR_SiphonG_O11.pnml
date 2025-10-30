@@ -103,15 +103,18 @@ switch(FEAT_TRAINS, SELF, sw_speed_GWR_SiphonG_O11, param_max_speed) {
 }
 
 // cargo capacity switch
-switch(FEAT_TRAINS, SELF, sw_cargo_capacity_GWR_SiphonG_O11, cargo_type_in_veh) {
-    MAIL: 15 * param_freight;
-        5 * param_freight; }
+switch(FEAT_TRAINS, SELF, sw_MAIL_capacity_GWR_SiphonG_O11, hasbit(cargo_classes, CC_MAIL)) {
+    1: 15 * param_freight;
+        return 5 * param_freight; }
+
+switch(FEAT_TRAINS, SELF, sw_cargo_capacity_GWR_SiphonG_O11, hasbit(cargo_classes, CC_ARMOURED)) {
+    1: 15 * param_freight;
+        return sw_MAIL_capacity_GWR_SiphonG_O11; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_GWR_SiphonG_O11, extra_callback_info1) {
 	1..2: return item_GWR_SiphonG_O11;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
-
 
 // unit definition
 item (FEAT_TRAINS, item_GWR_SiphonG_O11, 11407) {
