@@ -128,8 +128,8 @@ sort(FEAT_TRAINS, [
     item_GCR_CL_4L5,
     // LNER Coaches
     item_LNER_Gresley_FS_Header,
-        item_LNER_Gresley_CK_D259,
         item_LNER_Gresley_BTK_D261,
+        item_LNER_Gresley_CK_D259,
     item_LNER_BT_T,
     // BR Coaches
     item_BR_Mk1_Header,
