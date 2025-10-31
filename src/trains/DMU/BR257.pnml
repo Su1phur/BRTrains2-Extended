@@ -93,7 +93,7 @@ item (FEAT_TRAINS, item_BR257_4, 2570) {
         default:                        sw_livery_BR257_4;
         visual_effect_and_powered:      sw_FX_BR257_4_Diesel;
         purchase:                       spriteset_BR43_ScotRail_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_hst_vp185;
 
         // internal code
         length:                         sw_length_BR257_4;
@@ -204,7 +204,7 @@ item (FEAT_TRAINS, item_BR257_5, 2571) {
         default:                        sw_livery_BR257_5;
         visual_effect_and_powered:      sw_FX_BR257_5_Diesel;
         purchase:                       spriteset_BR43_ScotRail_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_hst_vp185;
 
         // internal code
         length:                         sw_length_BR257_5;

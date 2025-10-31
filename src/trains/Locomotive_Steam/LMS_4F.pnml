@@ -224,7 +224,7 @@ item (FEAT_TRAINS, item_LMS_4F, 4401) {
         // default:                        sw_livery_LMS_4F;
         visual_effect_and_powered:      sw_FX_LMS_4F_Steam;
         purchase:                       sw_spritestack_LMS_4F_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LMS_4F;

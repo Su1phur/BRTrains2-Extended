@@ -171,22 +171,18 @@ switch(FEAT_TRAINS, SELF, sw_BR73_0_cargo_subtype_text, cargo_subtype){
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR73_0, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR73_0;
-	2: spriteset_empty; }
+	    spriteset_empty; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR73, position_in_articulated_veh % 3) {
-	0: 4;
 	1: 2;
-	2: 4; }
+	    4; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR73_0, extra_callback_info1) {
-	1: return item_BR73_0;
-	2: return item_BR73_0;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+	1..2: return item_BR73_0;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
 // unit definition
@@ -233,7 +229,7 @@ item (FEAT_TRAINS, item_BR73_0, 7300) {
         default:                        sw_graphics_BR73_0;
         purchase:                       sw_BR73_0_purchase_sprite;
         visual_effect_and_powered:      sw_FX_BR73;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_hybrid_73;
 
         // internal code
         length:                         sw_length_BR73;
@@ -376,8 +372,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR73_1, cargo_subtype) {
     1: spriteset_BR73_1_BRBlue_SmallYellow;
     2: spriteset_BR73_1_BRBlue_LargeLogo;
     3: spriteset_BR73_1_BR_Intercity;
-    4: spriteset_BR73_1_NSE;
-}
+    4: spriteset_BR73_1_NSE; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR73_1_cargo_subtype_text, cargo_subtype){
@@ -386,26 +381,17 @@ switch(FEAT_TRAINS, SELF, sw_BR73_1_cargo_subtype_text, cargo_subtype){
     2:  return string(str_BRLLogo);
     3:  return string(str_BRInterCity);
     4:  return string(str_NSE);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR73_1, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR73_1;
-	2: spriteset_empty;
-}
+	    spriteset_empty; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR73_1, position_in_articulated_veh % 3) {
-	0: 4;
-	1: 2;
-	2: 4; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR73_1, extra_callback_info1) {
-	1: return item_BR73_1;
-	2: return item_BR73_1;
+	1..2: return item_BR73_1;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
@@ -454,9 +440,10 @@ item (FEAT_TRAINS, item_BR73_1, 7310) {
         default:                        sw_graphics_BR73_1;
         purchase:                       sw_BR73_1_purchase_sprite;
         visual_effect_and_powered:      sw_FX_BR73;
+        sound_effect:                   sw_sound_hybrid_73;
 
         // internal code
-        length:                         sw_length_BR73_1;
+        length:                         sw_length_BR73;
         articulated_part:               sw_articulated_BR73_1;
         purchase_cargo_capacity:        0;
         cargo_capacity:                 return 0;

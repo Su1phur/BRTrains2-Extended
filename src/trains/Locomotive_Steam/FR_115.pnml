@@ -231,7 +231,7 @@ item (FEAT_TRAINS, item_FR_115, 5110) {
         // graphics
         default:                        sw_spritestack_FR_115;
         purchase:                       sw_spritestack_FR_115_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         purchase_cargo_capacity:        0;

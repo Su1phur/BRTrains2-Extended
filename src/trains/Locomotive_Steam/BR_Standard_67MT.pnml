@@ -220,7 +220,7 @@ item (FEAT_TRAINS, item_BR_Standard_6, 7201) {
         default:                        sw_graphics_BR_Standard_67;
         visual_effect_and_powered:      sw_FX_BR_Standard_67_Steam;
         purchase:                       sw_spritestack_BR_Standard_67MT_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_BR_Standard_67;
@@ -287,7 +287,7 @@ item (FEAT_TRAINS, item_BR_Standard_7, 7002) {
         default:                        sw_graphics_BR_Standard_67;
         visual_effect_and_powered:      sw_FX_BR_Standard_67_Steam;
         purchase:                       sw_spritestack_BR_Standard_67MT_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_BR_Standard_67;

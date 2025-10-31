@@ -395,8 +395,7 @@ item (FEAT_TRAINS, item_BR415, 4150) {
         default:                        sw_livery_BR415;
         visual_effect_and_powered:      sw_FX_BR415_Electric;
         purchase:                       sw_BR415_purchase_sprite;
-        // purchase:                       sw_spritestack_BR415_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         articulated_part:               sw_articulated_BR415; 

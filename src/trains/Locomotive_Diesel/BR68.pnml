@@ -38,17 +38,17 @@ spriteset(spriteset_BR68_TPE, "gfx/Locomotive_Diesel/BR68/BR68_TPE_1x_8bpp.png")
     { template_138trains_4x(0,0) }
 
 // basic sprites
-// spriteset(spriteset_BR68_DRS_Compass, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_1x_8bpp.png")
-//     { template_138trains_1x(0,0) }
+spriteset(spriteset_BR68_DRS_Compass, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_1x_8bpp.png")
+    { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_BR68_DRS_Compass, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_1x_32bpp.png", "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_1x_mask.png")
-//     { template_138trains_1x(0,0) }
+    alternative_sprites(spriteset_BR68_DRS_Compass, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_1x_32bpp.png", "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_1x_mask.png")
+    { template_138trains_1x(0,0) }
 
-//     alternative_sprites(spriteset_BR68_DRS_Compass, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_2x_32bpp.png", "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_2x_mask.png")
-//     { template_138trains_2x(0,0) }
+    alternative_sprites(spriteset_BR68_DRS_Compass, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_2x_32bpp.png", "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_2x_mask.png")
+    { template_138trains_2x(0,0) }
 
-//     alternative_sprites(spriteset_BR68_DRS_Compass, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_4x_32bpp.png", "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_4x_mask.png")
-//     { template_138trains_4x(0,0) }
+    alternative_sprites(spriteset_BR68_DRS_Compass, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_4x_32bpp.png", "gfx/Locomotive_Diesel/BR68/BR68_DRS_Compass_4x_mask.png")
+    { template_138trains_4x(0,0) }
 
 // basic sprites
 spriteset(spriteset_BR68_Chiltern, "gfx/Locomotive_Diesel/BR68/BR68_Chiltern_1x_8bpp.png")
@@ -87,46 +87,39 @@ spriteset(spriteset_BR68_DRS_Plain_purchase, "gfx/Locomotive_Diesel/BR68/BR68_DR
 
 switch(FEAT_TRAINS, SELF, sw_FX_BR68_Diesel, position_in_vehid_chain % 3) {
     1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
-        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
+        return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR68, cargo_subtype) {
     0: spriteset_BR68_DRS_Plain;
-    1: spriteset_BR68_ScotRail;
-    2: spriteset_BR68_TPE;
-    3: spriteset_BR68_Chiltern;
-}
+    1: spriteset_BR68_DRS_Compass;
+    2: spriteset_BR68_ScotRail;
+    3: spriteset_BR68_TPE;
+    4: spriteset_BR68_Chiltern; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR68_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_DRS);
-    1:  return string(str_ScotRailSaltire);
-    2:  return string(str_TPE);
-    3:  return string(str_Chiltern);
-       return CB_RESULT_NO_TEXT;
-}
+    1:  return string(str_DRSCompass);
+    2:  return string(str_ScotRailSaltire);
+    3:  return string(str_TPE);
+    4:  return string(str_Chiltern);
+       return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR68, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR68;
-	2: spriteset_empty;
-}
+	    spriteset_empty; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR68, position_in_articulated_veh % 3) {
-	0: 4;
 	1: 5;
-	2: 4;
-}
+	    4; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR68, extra_callback_info1) {
-	1: return item_BR68;
-	2: return item_BR68;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+	1..2: return item_BR68;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
 // unit definition
@@ -146,10 +139,8 @@ item (FEAT_TRAINS, item_BR68, 6800) {
 		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
         // non_refittable_cargo_classes:    bitmask();
         cargo_allow_refit:               [PASS, GOOD];
-        misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
-        // misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        // cargo_capacity:                 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;				
         running_cost_base:				RUNNING_COST_STEAM;				
@@ -174,7 +165,7 @@ item (FEAT_TRAINS, item_BR68, 6800) {
         default:                        sw_graphics_BR68;
         visual_effect_and_powered:      sw_FX_BR68_Diesel;
         purchase:                       spriteset_BR68_DRS_Plain_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_68;
 
         // internal code
         length:                         sw_length_BR68;

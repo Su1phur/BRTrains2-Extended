@@ -155,7 +155,7 @@ item (FEAT_TRAINS, item_BR88, 8800) {
         default:                        sw_graphics_BR88;
         visual_effect_and_powered:      sw_FX_BR88_Electric;
         purchase:                       sw_spritestack_BR88_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_hybrid_88;
 
         // internal code
         length:                         sw_length_BR88;

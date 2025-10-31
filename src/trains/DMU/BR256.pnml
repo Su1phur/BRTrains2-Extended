@@ -93,7 +93,7 @@ item (FEAT_TRAINS, item_BR256, 2560) {
         default:                        sw_livery_BR256;
         visual_effect_and_powered:      sw_FX_BR256_Diesel;
         purchase:                       spriteset_BR43_GWR_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_hst_vp185;
 
         // internal code
         length:                         sw_length_BR256;

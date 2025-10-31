@@ -366,7 +366,7 @@ item (FEAT_TRAINS, item_BR401, 4010) {
         default:                        sw_SR_Green_BR401;
         visual_effect_and_powered:      sw_FX_BR401_Electric;
         purchase:                       sw_BR401_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         name:                           sw_name_BR401;

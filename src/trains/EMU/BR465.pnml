@@ -916,7 +916,7 @@ item (FEAT_TRAINS, item_BR465, 4650) {
         default:                        sw_livery_BR465;
         // visual_effect_and_powered:      sw_FX_BR465_Electric;
         purchase:                       sw_BR465_purchase_sprite;
-        sound_effect:                   sw_networker_sound;
+        sound_effect:                   sw_sound_electric_465;
 
         // internal code
         length:                         sw_length_BR465;
@@ -993,7 +993,7 @@ item (FEAT_TRAINS, item_BR465_9, 4659) {
         default:                        sw_livery_BR465_9;
         // visual_effect_and_powered:      sw_FX_BR465_Electric;
         purchase:                       sw_BR465_9_purchase_sprite;
-        sound_effect:                   sw_networker_sound;
+        sound_effect:                   sw_sound_electric_465;
 
         // internal code
         length:                         sw_length_BR465;

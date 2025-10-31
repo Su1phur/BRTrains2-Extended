@@ -492,7 +492,7 @@ item (FEAT_TRAINS, item_BR37, 3700) {
         default:                        sw_graphics_BR37;
         visual_effect_and_powered:      sw_FX_BR37_Diesel;
         purchase:                       sw_BR37_purchase_sprite;
-        sound_effect:                   sw_ee_sound;
+        sound_effect:                   sw_sound_diesel_37;
         
         // internal code
         articulated_part:               sw_articulated_BR37;

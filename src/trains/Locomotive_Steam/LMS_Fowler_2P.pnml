@@ -342,7 +342,7 @@ item (FEAT_TRAINS, item_LMS_Fowler_2P, 4056) {
         default:                        sw_graphics_LMS_Fowler_2P;
         visual_effect_and_powered:      sw_FX_LMS_Fowler_2P_Steam;
         purchase:                       sw_spritestack_LMS_Fowler_2P_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LMS_Fowler_2P;
@@ -484,7 +484,7 @@ item (FEAT_TRAINS, item_MR_483, 4048) {
         default:                        sw_graphics_MR_483;
         visual_effect_and_powered:      sw_FX_LMS_Fowler_2P_Steam;
         purchase:                       sw_spritestack_MR_483_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LMS_Fowler_2P;
@@ -554,7 +554,7 @@ item (FEAT_TRAINS, item_MR_483_RB, 4049) {
         default:                        sw_graphics_MR_483;
         visual_effect_and_powered:      sw_FX_LMS_Fowler_2P_Steam;
         purchase:                       sw_spritestack_MR_483_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LMS_Fowler_2P;

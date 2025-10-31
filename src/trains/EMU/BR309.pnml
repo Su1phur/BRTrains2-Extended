@@ -412,6 +412,7 @@ item (FEAT_TRAINS, item_BR309, 3090) {
         default:                        sw_livery_BR309;
         visual_effect_and_powered:      sw_FX_BR309_Electric;
         purchase:                       spriteset_BR309_purchase;
+        sound_effect:                   sw_sound_electric_GEC;
         
         // internal code
         length:                         sw_length_BR309;
@@ -523,6 +524,7 @@ item (FEAT_TRAINS, item_BR309_1, 3091) {
         default:                        sw_livery_BR309_1;
         visual_effect_and_powered:      sw_FX_BR309_1_Electric;
         purchase:                       spriteset_BR309_purchase;
+        sound_effect:                   sw_sound_electric_GEC;
         
         // internal code
         length:                         sw_length_BR309_1;
@@ -643,6 +645,7 @@ item (FEAT_TRAINS, item_BR309_2, 3092) {
         default:                        sw_livery_BR309_2;
         visual_effect_and_powered:      sw_FX_BR309_2_3_Electric;
         purchase:                       spriteset_BR309_purchase;
+        sound_effect:                   sw_sound_electric_GEC;
         
         // internal code
         length:                         sw_length_BR309_2_3;
@@ -740,6 +743,7 @@ item (FEAT_TRAINS, item_BR309_3, 3093) {
         default:                        sw_livery_BR309_3;
         visual_effect_and_powered:      sw_FX_BR309_2_3_Electric;
         purchase:                       spriteset_BR309_purchase;
+        sound_effect:                   sw_sound_electric_GEC;
         
         // internal code
         length:                         sw_length_BR309_2_3;

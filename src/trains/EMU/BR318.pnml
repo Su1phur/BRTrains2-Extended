@@ -659,8 +659,7 @@ item (FEAT_TRAINS, item_BR318, 3180) {
         default:                        sw_livery_BR318;
         visual_effect_and_powered:      sw_FX_BR318_Electric;
         purchase:                       sw_BR318_purchase_sprite;
-        // purchase:                       sw_spritestack_BR318_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         articulated_part:               sw_articulated_BR318;
@@ -728,8 +727,7 @@ item (FEAT_TRAINS, item_BR318_RF, 3181) {
         default:                        sw_livery_BR318_RF;
         visual_effect_and_powered:      sw_FX_BR318_Electric;
         purchase:                       sw_BR318_RF_purchase_sprite;
-        // purchase:                       sw_spritestack_BR318_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         articulated_part:               sw_articulated_BR318_RF;

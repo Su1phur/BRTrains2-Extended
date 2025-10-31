@@ -366,7 +366,7 @@ item (FEAT_TRAINS, item_GCR_8K, 6350) {
         default:                        sw_graphics_GCR_8K;
         visual_effect_and_powered:      sw_FX_GCR_8K_Steam;
         purchase:                       sw_GCR_8K_purchase_sprite;
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         name:                           sw_GCR_8K_name;
@@ -471,7 +471,7 @@ item (FEAT_TRAINS, item_GWR_3000, 301) {
         default:                        sw_graphics_GWR_3000;
         visual_effect_and_powered:      sw_FX_GCR_8K_Steam;
         purchase:                       sw_spritestack_GWR_3000_GWR_Green_purchase;
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_GCR_8K;
@@ -577,7 +577,7 @@ item (FEAT_TRAINS, item_LNER_O4_8, 6351) {
         default:                        sw_graphics_LNER_O4_8;
         visual_effect_and_powered:      sw_FX_GCR_8K_Steam;
         purchase:                       sw_spritestack_LNER_O4_8_purchase;
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_GCR_8K;

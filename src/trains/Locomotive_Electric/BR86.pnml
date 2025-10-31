@@ -11,7 +11,6 @@ spriteset(spriteset_BR86_BR_Intercity_Executive, "gfx/Locomotive_Electric/BR86/B
     alternative_sprites(spriteset_BR86_BR_Intercity_Executive, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR86/BR86_BR_Intercity_Executive_4x_32bpp.png", "gfx/Locomotive_Electric/BR86/BR86_BR_Intercity_Executive_4x_mask.png")
         { template_118trains_4x(0,0) }
 
-
 // basic sprite
 spriteset(spriteset_BR86_BR_Intercity_Mainline, "gfx/Locomotive_Electric/BR86/BR86_BR_Intercity_Mainline_1x_8bpp.png")
     { template_118trains_1x(0,0) }
@@ -32,7 +31,6 @@ spriteset(spriteset_BR86_BR_Intercity_Mainline_purchase, "gfx/Locomotive_Electri
     alternative_sprites(spriteset_BR86_BR_Intercity_Mainline_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR86/BR86_BR_Intercity_Mainline_1x_32bpp.png", "gfx/Locomotive_Electric/BR86/BR86_BR_Intercity_Mainline_1x_mask.png")
     { template_purchase(0,0) }
 
-
 // basic sprite
 spriteset(spriteset_BR86_BR_IntercitySwallow, "gfx/Locomotive_Electric/BR86/BR86_BR_IntercitySwallow_1x_8bpp.png")
     { template_118trains_1x(0,0) }
@@ -46,7 +44,6 @@ spriteset(spriteset_BR86_BR_IntercitySwallow, "gfx/Locomotive_Electric/BR86/BR86
     alternative_sprites(spriteset_BR86_BR_IntercitySwallow, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR86/BR86_BR_IntercitySwallow_4x_32bpp.png", "gfx/Locomotive_Electric/BR86/BR86_BR_IntercitySwallow_4x_mask.png")
         { template_118trains_4x(0,0) }
 
-
 // basic sprite
 spriteset(spriteset_BR86_BRBlue, "gfx/Locomotive_Electric/BR86/BR86_BRBlue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
@@ -59,7 +56,6 @@ spriteset(spriteset_BR86_BRBlue, "gfx/Locomotive_Electric/BR86/BR86_BRBlue_1x_8b
 
     alternative_sprites(spriteset_BR86_BRBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR86/BR86_BRBlue_4x_32bpp.png", "gfx/Locomotive_Electric/BR86/BR86_BRBlue_4x_mask.png")
         { template_118trains_4x(0,0) }
-
 
 // basic sprite
 spriteset(spriteset_BR86_BRBlue_YellowFront, "gfx/Locomotive_Electric/BR86/BR86_BRBlue_YellowFront_1x_8bpp.png")
@@ -81,7 +77,6 @@ spriteset(spriteset_BR86_BRBlue_YellowFront_purchase, "gfx/Locomotive_Electric/B
     alternative_sprites(spriteset_BR86_BRBlue_YellowFront_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR86/BR86_BRBlue_YellowFront_1x_32bpp.png", "gfx/Locomotive_Electric/BR86/BR86_BRBlue_YellowFront_1x_mask.png")
     { template_purchase(0,0) }
 
-
 // basic sprite
 spriteset(spriteset_BR86_BRElectricBlue, "gfx/Locomotive_Electric/BR86/BR86_BRElectricBlue_1x_8bpp.png")
     { template_118trains_1x(0,0) }
@@ -101,7 +96,6 @@ spriteset(spriteset_BR86_BRElectricBlue_purchase, "gfx/Locomotive_Electric/BR86/
 
     alternative_sprites(spriteset_BR86_BRElectricBlue_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Electric/BR86/BR86_BRElectricBlue_1x_32bpp.png", "gfx/Locomotive_Electric/BR86/BR86_BRElectricBlue_1x_mask.png")
     { template_purchase(0,0) }
-
 
 // basic sprite
 spriteset(spriteset_BR86_Freightliner, "gfx/Locomotive_Electric/BR86/BR86_Freightliner_1x_8bpp.png")
@@ -154,14 +148,12 @@ switch(FEAT_TRAINS, SELF, sw_BR86_cargo_subtype_text, cargo_subtype){
     4:  return string(str_BRInterCityExecutive);
     5:  return string(str_BRInterCitySwallow);
     6:  return string(str_FreightlinerGreen);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR86, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR86;
-	2: spriteset_empty; }
+	    spriteset_empty; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR86, position_in_articulated_veh % 3) {
@@ -224,7 +216,7 @@ item (FEAT_TRAINS, item_BR86_0, 8600) {
         default:                        sw_graphics_BR86;
         visual_effect_and_powered:      sw_FX_BR86_Electric;
         purchase:                       sw_BR86_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_86;
 
         // internal code
         length:                         sw_length_BR86;
@@ -301,7 +293,7 @@ item (FEAT_TRAINS, item_BR86_1, 8601) {
         default:                        sw_graphics_BR86;
         visual_effect_and_powered:      sw_FX_BR86_Electric;
         purchase:                       sw_BR86_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_86;
 
         // internal code
         length:                         sw_length_BR86;
@@ -378,7 +370,7 @@ item (FEAT_TRAINS, item_BR86_2, 8602) {
         default:                        sw_graphics_BR86;
         visual_effect_and_powered:      sw_FX_BR86_Electric;
         purchase:                       sw_BR86_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_86;
 
         // internal code
         length:                         sw_length_BR86;
@@ -449,7 +441,7 @@ item (FEAT_TRAINS, item_BR86_6, 8606) {
         default:                        sw_graphics_BR86;
         visual_effect_and_powered:      sw_FX_BR86_Electric;
         purchase:                       sw_BR86_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_86;
 
         // internal code
         length:                         sw_length_BR86;

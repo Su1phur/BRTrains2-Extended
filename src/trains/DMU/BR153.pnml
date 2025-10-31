@@ -125,30 +125,24 @@ switch(FEAT_TRAINS, SELF, sw_FX_BR153_Diesel, position_in_vehid_chain % 3) {
 switch(FEAT_TRAINS, SELF, sw_livery_BR153, cargo_subtype) {
     0: sw_loadstack_BR153_BR_Regional_Railways;
     1: sw_loadstack_BR153_Arriva_Trains_Wales;
-    2: sw_loadstack_BR153_TfW;
-}
+    2: sw_loadstack_BR153_TfW; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR153_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_Regional);
     1:  return string(str_ArrivaWales);
     2:  return string(str_TfW);
-       return CB_RESULT_NO_TEXT;
-}
+       return CB_RESULT_NO_TEXT; }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR153, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR153;
-	2: spriteset_empty;
-}
+	    spriteset_empty; }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR153, position_in_articulated_veh % 3) {
-	0: 4;
 	1: 6;
-	2: 4;
-}
+	    4; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR153, position_in_vehid_chain % 3) {
@@ -159,10 +153,8 @@ switch(FEAT_TRAINS, SELF, sw_capacity_BR153, position_in_vehid_chain % 3) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR153, extra_callback_info1) {
-	1: return item_BR153;
-	2: return item_BR153;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+	1..2: return item_BR153;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
 // unit definition
@@ -205,10 +197,9 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
     graphics {
         // graphics
         default:                        sw_graphics_BR153;
-        // default:                        sw_livery_BR153;
         visual_effect_and_powered:      sw_FX_BR153_Diesel;
         purchase:                       spriteset_BR153_purchase;
-        // purchase:                       sw_spritestack_BR153_purchase; // For dual mode units
+        sound_effect:                       sw_sound_diesel_dmu_gen2; // For dual mode units
 
         // internal code
         length:                         sw_length_BR153;

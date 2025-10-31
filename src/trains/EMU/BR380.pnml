@@ -310,6 +310,7 @@ item (FEAT_TRAINS, item_BR380_0, 3800) {
         default:                        sw_livery_BR380_0;
         visual_effect_and_powered:      sw_FX_BR380_0;
         purchase:                       spriteset_BR380_purchase;
+        sound_effect:                   sw_sound_electric_350;
 
         // internal code
         length:                         sw_length_BR380_0;
@@ -369,6 +370,7 @@ item (FEAT_TRAINS, item_BR380_1, 3801) {
         default:                        sw_livery_BR380_1;
         visual_effect_and_powered:      sw_FX_BR380_1;
         purchase:                       spriteset_BR380_purchase;
+        sound_effect:                   sw_sound_electric_350;
 
         // internal code
         length:                         sw_length_BR380_1;

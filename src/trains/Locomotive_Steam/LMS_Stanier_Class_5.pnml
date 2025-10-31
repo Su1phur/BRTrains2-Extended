@@ -626,7 +626,7 @@ item (FEAT_TRAINS, item_LMS_Black_5_Named, 4464) { // BR Number range 44658-4549
         default:                        sw_graphics_LMS_Black_5_Named;
         visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
         purchase:                       sw_spritestack_LMS_Black_5_purchase_Named;
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
         
         // internal code
         length:                         sw_length_LMS_Black_5;

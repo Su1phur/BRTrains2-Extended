@@ -209,7 +209,7 @@ item (FEAT_TRAINS, item_LNER_O1, 6357) {
         // default:                        sw_livery_LNER_O1;
         visual_effect_and_powered:      sw_FX_LNER_O1_Steam;
         purchase:                       sw_spritestack_LNER_O1_purchase; // For dual mode units
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LNER_O1;

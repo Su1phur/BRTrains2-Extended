@@ -162,7 +162,7 @@ item (FEAT_TRAINS, item_BR55, 5500) {
         default:                        sw_graphics_BR55;
         visual_effect_and_powered:      sw_FX_BR55_Diesel;
         purchase:                       sw_BR55_purchase_year;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_55;
 
         // internal code
         length:                         sw_length_BR55;

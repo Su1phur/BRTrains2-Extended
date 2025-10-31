@@ -149,7 +149,7 @@ item (FEAT_TRAINS, item_BR254, 2540) {
         default:                        sw_livery_BR254;
         visual_effect_and_powered:      sw_FX_BR254_Diesel;
         purchase:                       sw_BR43_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_hst_vp185;
 
         // internal code
         length:                         sw_length_BR254;

@@ -166,7 +166,7 @@ item (FEAT_TRAINS, item_BR91_IC225, 9101) {
         default:                        sw_livery_BR91_IC225;
         visual_effect_and_powered:      sw_FX_BR91_IC225_Electric;
         purchase:                       sw_BR91_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR91_IC225;
@@ -330,7 +330,7 @@ item (FEAT_TRAINS, item_BR91_IC225_P, 9102) {
         default:                        sw_livery_BR91_IC225_P;
         visual_effect_and_powered:      sw_FX_BR91_IC225_Electric;
         purchase:                       sw_BR91_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR91_IC225_P;

@@ -239,7 +239,7 @@ item (FEAT_TRAINS, item_LNER_A3, 6002) {
         default:                        sw_graphics_LNER_A3;
         visual_effect_and_powered:      sw_FX_LNER_A1_Steam;
         purchase:                       sw_spritestack_LNER_A3_purchase; // For dual mode units
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LNER_A1_A3;
@@ -367,7 +367,7 @@ item (FEAT_TRAINS, item_LNER_A3_PD, 6003) {
         default:                        sw_graphics_LNER_A3_PD;
         visual_effect_and_powered:      sw_FX_LNER_A1_Steam;
         purchase:                       sw_spritestack_LNER_A3_PD_purchase; // For dual mode units
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LNER_A1_A3;
@@ -495,7 +495,7 @@ item (FEAT_TRAINS, item_LNER_A3_WD, 6006) {
         default:                        sw_graphics_LNER_A3_WD;
         visual_effect_and_powered:      sw_FX_LNER_A1_Steam;
         purchase:                       sw_spritestack_LNER_A3_WD_purchase; // For dual mode units
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LNER_A1_A3;

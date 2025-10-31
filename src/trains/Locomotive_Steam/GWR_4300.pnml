@@ -244,9 +244,9 @@ item (FEAT_TRAINS, item_GWR_4300, 430) {
     graphics {
         // graphics
         default:                        sw_graphics_GWR_4300;
-        // default:                        sw_livery_GWR_4300;
         visual_effect_and_powered:      sw_FX_GWR_4300_Steam;
         purchase:                       sw_spritestack_GWR_4300_purchase; // For dual mode units
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_GWR_4300;

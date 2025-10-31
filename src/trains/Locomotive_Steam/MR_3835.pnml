@@ -94,7 +94,7 @@ item (FEAT_TRAINS, item_MR_3835, 4383) {
         default:                        sw_graphics_MR_3835;
         visual_effect_and_powered:      sw_FX_LMS_4F_Steam;
         purchase:                       sw_spritestack_LMS_4F_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LMS_4F;

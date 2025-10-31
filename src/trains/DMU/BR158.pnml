@@ -1849,7 +1849,7 @@ item (FEAT_TRAINS, item_BR158, 1580) {
         default:                        sw_livery_BR158;
         visual_effect_and_powered:      sw_FX_BR158_Diesel;
         purchase:                       sw_BR158_purchase_sprite;
-        // sound_effect:                   ;
+        // sound_effect:                   sw_sound_diesel_dmu_gen2;
 
         // internal code
         length:                         sw_length_BR158;
@@ -2062,7 +2062,7 @@ item (FEAT_TRAINS, item_BR158_3, 1581) {
         default:                        sw_livery_BR158_3;
         visual_effect_and_powered:      sw_FX_BR158_3_Diesel;
         purchase:                       sw_BR158_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_dmu_gen2;
 
         // internal code
         length:                         sw_length_BR158_3;
@@ -2184,7 +2184,7 @@ item (FEAT_TRAINS, item_BR159, 1590) {
         default:                        sw_livery_BR159;
         visual_effect_and_powered:      sw_FX_BR158_3_Diesel;
         purchase:                       sw_BR159_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_dmu_gen2;
 
         // internal code
         length:                         sw_length_BR158_3;

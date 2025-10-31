@@ -102,7 +102,7 @@ item (FEAT_TRAINS, item_BR466, 4660) {
         // graphics
         default:                        sw_livery_BR466;
         purchase:                       sw_BR466_purchase_sprite;
-        sound_effect:                   sw_networker_sound;
+        sound_effect:                   sw_sound_electric_465;
 
         // internal code
         length:                         sw_length_BR466;

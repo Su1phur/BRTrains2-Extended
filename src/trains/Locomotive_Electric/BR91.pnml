@@ -263,6 +263,7 @@ item (FEAT_TRAINS, item_BR91, 9100) {
         default:                        sw_rear_BR91;
         visual_effect_and_powered:      sw_FX_BR91_Electric;
         purchase:                       sw_BR91_purchase_sprite;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR91;

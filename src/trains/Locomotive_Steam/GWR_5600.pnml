@@ -249,6 +249,7 @@ item (FEAT_TRAINS, item_GWR_5600, 560) {
         default:                        sw_spritestack_GWR_5600;
         visual_effect_and_powered:      sw_FX_GWR_5600_Steam;
         purchase:                       sw_spritestack_GWR_5600_purchase;
+        sound_effect:                   sw_sound_steam_generic;
         
         // internal code
         purchase_cargo_capacity:        0;

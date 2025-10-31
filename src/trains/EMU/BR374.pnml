@@ -1023,7 +1023,7 @@ item (FEAT_TRAINS, item_BR374, 3740) {
         default:                        sw_livery_BR374;
         visual_effect_and_powered:      sw_FX_BR374_Electric;
         purchase:                       spriteset_BR374_DMF_Eurostar_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR374;
@@ -1099,7 +1099,7 @@ item (FEAT_TRAINS, item_BR374_1, 3741) {
         default:                        sw_livery_BR374_1;
         visual_effect_and_powered:      sw_FX_BR374_1_Electric;
         purchase:                       spriteset_BR374_DMF_DB_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR374;

@@ -365,7 +365,7 @@ item (FEAT_TRAINS, item_BR710_1_2, 7100) {
         default:                        sw_livery_BR710_1_2;
         visual_effect_and_powered:      sw_FX_BR710_1_2_Electric;
         purchase:                       spriteset_BR710_DMSO_LO_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR710_1_2;
@@ -437,7 +437,7 @@ item (FEAT_TRAINS, item_BR710_3, 7103) {
         default:                        sw_livery_BR710_3;
         visual_effect_and_powered:      sw_FX_BR710_3_Electric;
         purchase:                       spriteset_BR710_DMSO_LO_purchase;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR710_3;

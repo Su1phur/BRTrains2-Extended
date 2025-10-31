@@ -443,7 +443,7 @@ item (FEAT_TRAINS, item_BR142, 1420) {
         default:                        sw_graphics_BR142;
         visual_effect_and_powered:      sw_FX_BR142_Diesel;
         purchase:                       sw_BR142_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_25;
 
         // internal code
         length:                         sw_length_BR142;
@@ -520,7 +520,7 @@ item (FEAT_TRAINS, item_BR142_1, 1421) {
         default:                        sw_graphics_BR142;
         visual_effect_and_powered:      sw_FX_BR142_Diesel;
         purchase:                       sw_BR142_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_25;
 
         // internal code
         length:                         sw_length_BR142;

@@ -405,7 +405,7 @@ item (FEAT_TRAINS, item_LNER_A4, 6004) {
         default:                        sw_graphics_LNER_A4;
         visual_effect_and_powered:      sw_FX_LNER_A4_Steam;
         purchase:                       sw_LNER_A4_purchase_sprite;
-        sound_effect:                   sw_steam_sound;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_LNER_A4;

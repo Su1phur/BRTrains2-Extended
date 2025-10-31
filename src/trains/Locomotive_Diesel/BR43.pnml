@@ -324,11 +324,10 @@ item (FEAT_TRAINS, item_BR43_HST, 4301) {
 
     graphics {
         // graphics
-        // default:                        sw_graphics_BR43;
         default:                        sw_rear_BR43;
         visual_effect_and_powered:      sw_FX_BR43_Diesel;
         purchase:                       sw_BR43_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_diesel_hst_vp185;
 
         // internal code
         length:                         sw_length_BR43;

@@ -214,6 +214,7 @@ item (FEAT_TRAINS, item_LMS_Jubilee, 4552) { // BR Number range 45552-45742
         default:                        sw_graphics_LMS_Jubilee;
         visual_effect_and_powered:      sw_FX_LMS_Black_5_Steam;
         purchase:                       sw_spritestack_LMS_Jubilee_purchase;
+        sound_effect:                   sw_sound_steam_generic;
         
         // internal code
         length:                         sw_length_LMS_Jubilee;

@@ -1215,8 +1215,7 @@ item (FEAT_TRAINS, item_BR365, 3650) {
         default:                        sw_livery_BR365;
         // visual_effect_and_powered:      sw_FX_BR365_Electric;
         purchase:                       sw_BR365_purchase_sprite;
-        // purchase:                       sw_spritestack_BR365_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         length:                         sw_length_BR365;

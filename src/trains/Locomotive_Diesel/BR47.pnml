@@ -339,6 +339,7 @@ item (FEAT_TRAINS, item_BR48, 4800) {
         default:                        sw_graphics_BR48;
         visual_effect_and_powered:      sw_FX_BR47_Diesel;
         purchase:                       sw_BR47_purchase_sprite;
+        sound_effect:                          sw_sound_diesel_40;
 
         // internal code
         articulated_part:               sw_articulated_BR48;

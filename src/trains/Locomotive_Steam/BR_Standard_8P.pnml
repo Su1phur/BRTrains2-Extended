@@ -311,7 +311,7 @@ item (FEAT_TRAINS, item_BR_Standard_8, 7102) {
         default:                        sw_graphics_BR_Standard_8;
         visual_effect_and_powered:      sw_FX_BR_Standard_8_Steam;
         purchase:                       sw_spritestack_BR_Standard_8P_purchase; // For dual mode units
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_steam_generic;
 
         // internal code
         length:                         sw_length_BR_Standard_8;

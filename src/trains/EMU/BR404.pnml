@@ -1005,7 +1005,7 @@ item (FEAT_TRAINS, item_BR404, 4040) {
         default:                        sw_livery_BR404_COR;
         visual_effect_and_powered:      sw_FX_BR404_Electric;
         purchase:                       sw_BR404_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         name:                           sw_name_BR404;
@@ -1076,7 +1076,7 @@ item (FEAT_TRAINS, item_BR404_RES, 4041) {
         default:                        sw_livery_BR404_RES;
         visual_effect_and_powered:      sw_FX_BR404_Electric;
         purchase:                       sw_BR404_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         name:                           sw_name_BR404_RES;
@@ -1148,7 +1148,7 @@ item (FEAT_TRAINS, item_BR404_BUF, 4042) {
         default:                        sw_livery_BR404_BUF;
         visual_effect_and_powered:      sw_FX_BR404_Electric;
         purchase:                       sw_BR404_purchase_sprite;
-        // sound_effect:                   ;
+        sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
         name:                           sw_name_BR404_BUF;

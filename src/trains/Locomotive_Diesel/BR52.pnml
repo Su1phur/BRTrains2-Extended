@@ -273,7 +273,7 @@ item (FEAT_TRAINS, item_BR52, 5200) { // TOPS Number range 52000 - even though t
         default:                        sw_graphics_BR52;
         visual_effect_and_powered:      sw_FX_BR52_Diesel;
         purchase:                       sw_BR52_purchase;
-		sound_effect:					sw_deltic_sound;
+		sound_effect:					sw_sound_diesel_50;
 
         // internal code
         length:                         sw_length_BR52;

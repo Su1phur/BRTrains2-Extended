@@ -224,7 +224,7 @@ item (FEAT_TRAINS, item_BR20, 2000) {
         default:                        sw_graphics_BR20;
         visual_effect_and_powered:      sw_FX_BR20_Diesel;
         purchase:                       sw_BR20_purchase_sprite;
-        sound_effect:                   sw_20_sound;
+        sound_effect:                   sw_sound_diesel_thumper;
 
         // internal code
         length:                         sw_length_BR20;

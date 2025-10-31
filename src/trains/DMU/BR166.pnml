@@ -669,7 +669,7 @@ item (FEAT_TRAINS, item_BR166, 1660) {
         default:                        sw_livery_BR166;
         visual_effect_and_powered:      sw_FX_BR166_Diesel;
         purchase:                       sw_BR166_purchase_sprite;
-        sound_effect:                   sw_dmu_sound;
+        sound_effect:                   sw_sound_diesel_dmu_gen2;
 
         // internal code
         length:                         sw_length_BR166;
