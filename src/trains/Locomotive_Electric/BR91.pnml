@@ -203,10 +203,6 @@ switch(FEAT_TRAINS, SELF, sw_rear_BR91, num_vehs_in_consist > 3 ? position_in_co
     1: sw_graphics_BR91_REV;
         sw_graphics_BR91; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR91, position_in_articulated_veh % 3) {
-	    4; }
-
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_BR91, num_vehs_in_consist > 3 ? param_max_speed : -1) {
     0: 110; // operational speed
@@ -255,7 +251,7 @@ item (FEAT_TRAINS, item_BR91, 9100) {
         dual_headed:                    0;
         air_drag_coefficient:           0.11;
         tractive_effort_coefficient:    0.23;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {
@@ -266,7 +262,6 @@ item (FEAT_TRAINS, item_BR91, 9100) {
         sound_effect:                   sw_sound_electric_GEC;
 
         // internal code
-        length:                         sw_length_BR91;
         articulated_part:               sw_articulated_BR91;
         speed:                          sw_speed_BR91() * 1609 / 1000;  
         purchase_cargo_capacity:        0;

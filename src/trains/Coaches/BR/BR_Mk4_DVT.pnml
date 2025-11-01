@@ -175,10 +175,6 @@ switch(FEAT_TRAINS, SELF, sw_rear_BR_Mk4_DVT, num_vehs_in_consist > 3 ? position
     1: sw_graphics_BR_Mk4_DVT_REV;
         sw_graphics_BR_Mk4_DVT; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR_Mk4_DVT, position_in_articulated_veh % 3) {
-        4; }
-
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_BR_Mk4_DVT, param_max_speed) {
     0: 125; // operational speed
@@ -187,10 +183,8 @@ switch(FEAT_TRAINS, SELF, sw_speed_BR_Mk4_DVT, param_max_speed) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_Mk4_DVT, extra_callback_info1) {
-	1: return item_BR_Mk4_DVT;
-	2: return item_BR_Mk4_DVT;
-		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}
+	1..2: return item_BR_Mk4_DVT;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
 // unit definition
@@ -230,7 +224,7 @@ item (FEAT_TRAINS, item_BR_Mk4_DVT, 12161) {
         dual_headed:                    0;
         air_drag_coefficient:           0.07;
         tractive_effort_coefficient:    0.03;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {
@@ -240,7 +234,6 @@ item (FEAT_TRAINS, item_BR_Mk4_DVT, 12161) {
         purchase:                       sw_BR_Mk4_DVT_purchase_sprite;
         
         // internal code
-        length:                         sw_length_BR_Mk4_DVT;
         articulated_part:               sw_articulated_BR_Mk4_DVT;
         speed:                          sw_speed_BR_Mk4_DVT() * 1609 / 1000;  
         cost_factor:                    94;
