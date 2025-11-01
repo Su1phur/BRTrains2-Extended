@@ -8,6 +8,9 @@ sort(FEAT_TRAINS, [
         item_GWR_Collett_3100,
         item_GWR_8100,
     item_GWR_5600,
+    item_GWR_5700,
+    item_GWR_6400,
+        item_GWR_7400,
     // SR Pre-Grouping Steam Locomotives
     item_LSWR_N15,
     // SR Steam Locomotives

@@ -369,10 +369,11 @@ str_GWRHall_liveries			    :GWR Green, Hogwarts Express
 STR_NAME_GWR_5600                   :GWR 5600 Class "Welsh Tank"
 str_GWR_5600_liveries               :GWR Green, GWR Black, BR Green, BR Black
 
-STR_NAME_GWR_5700   				:GWR Collett 5700 Class 
-STR_NAME_GWR_6700   				:GWR Collett 6700 Class
-STR_NAME_GWR_8750   				:GWR Collett 8750 Class
-str_GWR_67008750_liveries		    :GWR Green
+STR_NAME_GWR_5700   				:GWR 5700/6700/8750 Class "Pannier Tank"
+STR_NAME_GWR_6400                   :GWR 6400 Class "Auto-Pannier"
+STR_NAME_GWR_7400                   :GWR 7400 Class "Pannier Tank"
+str_GWR_5700_liveries               :GWR Green, GWR Black, BR Green, BR Black, NCB, Private Owners, NWR, The Railway Children
+str_GWR_6400_liveries               :GWR Green, GWR Black, BR Green, BR Black
 
 # SR Pre-grouping Steam Locomotives
 
@@ -1659,6 +1660,7 @@ str_LO					        : (London Overground)
 str_LO_Aventra			        : (London Overground - Fake Aventra)
 str_LO_5_Celeb					: (London Overground - 5-Car Celebration)
 str_LO_Pride       				: (London Overground - Pride)
+str_LT                          : (London Transport)
 str_LU_TfL						: (London Underground)
 str_LU_Prefurb                  : (London Underground - Pre-Refurb)
 str_LULPoppies					: (London Underground - Poppies)
@@ -1683,6 +1685,7 @@ str_MMLBlue						: (Midland Mainline - Blue)
 str_MMLTealTang					: (Midland Mainline - Teal & Tangerine)
 str_Mobil                       : (Mobil)
 str_Murco                       : (Murco)
+str_NCB                         : (National Coal Board)
 str_NatEx						: (National Express)
 str_NatExScotRail				: (ScotRail - National Express)
 str_NationalPower				: (National Power)
@@ -1698,6 +1701,9 @@ str_NorthernRail				: (Northern Rail)
 str_NorthernRailMetro			: (Northern Rail - Metro)
 str_NorthernSpirit				: (Northern Spirit)
 str_NorthWesternTrains          : (North Western Trains)
+str_NWR                         : (North Western Railway)
+str_NWR_RWS                     : (North Western Railway - Railway Series)
+str_NWR_TTTE                    : (North Western Railway - Thomas the Tank Engine)
 str_NRBlue						: (Network Rail - Blue)
 str_NROrange					: (Network Rail - Orange)
 str_NRTest						: (Network Rail - Test Train)
@@ -1731,6 +1737,7 @@ str_Railfreight3Grey			: (Railfreight - 3 Tone Grey)
 str_Railfreight3GreyCoal		: (Railfreight - 3 Tone Grey - Coal)
 str_RailfreightMainlineGrey		: (Railfreight - Mainline Grey)
 str_RailfreightMainlineBlue		: (Railfreight - Mainline Blue)
+str_RailwayChildren             : (The Railway Children)
 str_Regional					: (Regional Railways)
 str_RegionalCnC                 : (Regional Railways - Chocolate and Cream)
 str_RegionalExpress				: (Regional Railways Express)
