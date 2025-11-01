@@ -21,11 +21,13 @@ https://docs.google.com/spreadsheets/d/1RACfDDpuTNXPyaUC5tNg7-STm_maQqCuw_r31gAB
 
 ### Developers
 - Su1phur
+- TheAbsoluteMadlad
 
 ### With special thanks to:
 - Timberwolf, for creating and providing the Voxel-to-Sprite Toolchain.
 - GarlicBread42 and the GETS Team, for their assistance, knowledge and models.
 - Audigex and the BRTrainsV2 Team, for without their inspiration and support this set would not have started.
+- UnholyPhish for his revamped sound files and documentation used for this and the BRTrainsV2 project.
 
 ### To Build
 Building from the source should be mostly automated using the `build.py` script, but it has a few requirements:
