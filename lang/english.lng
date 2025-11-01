@@ -646,7 +646,7 @@ STR_NAME_BR86_6                 :BR Class 86/6 "AL6"
 str_BR86_liveries				:BR Blue, InterCity Executive, Rail Express, EWS, Railfraight Distribution, Rail Express Systems
 
 STR_NAME_BR87					:BR Class 87
-str_BR87_liveries				:BR Blue, InterCity Swallow, Virgin
+str_BR87_liveries				:BR Blue, InterCity Swallow, Railfreight Distribution, Virgin
 
 STR_NAME_BR88					:BR Class 88 (Bi-Mode)
 str_BR88_liveries				:DRS
