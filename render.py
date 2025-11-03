@@ -25,7 +25,7 @@ class GoRenderNotFoundError(FileNotFoundError):
         super().__init__(message)
 
 def validate_needed_files(find_file):
-    if not find_file.exists():
+    if not Path(find_file).exists():
         raise FileNotFoundError(f"{find_file} does not exist")
 
 def display_progress(rendered, total):

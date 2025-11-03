@@ -244,6 +244,7 @@ switch(FEAT_TRAINS, SELF, sw_FX_UNIT_Steam, position_in_vehid_chain % 3) {
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_UNIT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
     0: spriteset_UNIT;
+    1: return sw_animation_UNIT;
     1: return sw_pick_animation_UNIT;
 }
 

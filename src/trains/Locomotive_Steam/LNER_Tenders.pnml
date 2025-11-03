@@ -77,6 +77,124 @@ spriteset(spriteset_GNR_5000gal_BR_Green_Late_Crest, "gfx/Tender/GNR_5000gal/GNR
     alternative_sprites(spriteset_GNR_5000gal_BR_Green_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GNR_5000gal/GNR_5000gal_BR_Green_Late_Crest_4x_32bpp.png", "gfx/Tender/GNR_5000gal/GNR_5000gal_BR_Green_Late_Crest_4x_mask.png")
     { template_58trains_4x(0,0) }
 
+// LNER 4200 Gal Tender
+// basic sprite
+spriteset(spriteset_LNER_4200gal_BR_Apple_Green, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Apple_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_BR_Black_EarlyEmblem, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Black_EarlyEmblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Black_EarlyEmblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Black_EarlyEmblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_EarlyEmblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_BR_Black_LateCrest, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Black_LateCrest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Black_LateCrest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Black_LateCrest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Black_LateCrest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_BR_LinedBlack_EarlyEmblem, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_LinedBlack_EarlyEmblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_LinedBlack_EarlyEmblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_LinedBlack_EarlyEmblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_EarlyEmblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_BR_LinedBlack_LateCrest, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_LinedBlack_LateCrest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_LinedBlack_LateCrest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_LinedBlack_LateCrest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_LinedBlack_LateCrest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_BR_Transitional_Black, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Transitional_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Transitional_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_BR_Transitional_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_BR_Transitional_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_LNER_Apple_Green, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Apple_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Apple_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Apple_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Apple_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_LNER_Black, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_LNER_4200gal_LNER_Wartime_Black, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Wartime_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_1x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Wartime_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_2x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_LNER_4200gal_LNER_Wartime_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_4x_32bpp.png", "gfx/Tender/LNER_4200gal/LNER_4200gal_LNER_Wartime_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
 // LNER Gresley 5000 Gal Tender
 // basic sprites
 spriteset(spriteset_LNER_5000gal_LNER_Apple_Green, "gfx/Tender/LNER_5000gal/LNER_5000gal_LNER_Apple_Green_1x_8bpp.png")

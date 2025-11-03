@@ -468,10 +468,14 @@ STR_NAME_LNER_A1                    :LNER Gresley Class A1
 STR_NAME_LNER_A3					:LNER Gresley Class A3
 STR_NAME_LNER_A3_PD                 :LNER Gresley Class A3 (Peppercorn-style Smoke Deflectors)
 STR_NAME_LNER_A3_WD                 :LNER Gresley Class A3 (Wagner-style Smoke Deflectors)
-str_LNER_A1_A3_liveries				:LNER Green, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Brunswick Green
+str_LNER_A1_A3_liveries				:LNER Green, LNER Wartime Black, BR Apple Green, BR Express Passenger Blue, BR Green
 
 STR_NAME_LNER_A4                    :LNER Gresley Class A4
-str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Blue, BR Brunswick Green
+str_LNER_A4_liveries                :LNER Green, LNER Silver, LNER Garter Blue, LNER Wartime Black, BR Apple Green, BR Express Blue, BR Green
+
+STR_NAME_LNER_B1                    :LNER Thompson Class B1
+STR_NAME_LNER_B1_Named              :LNER Thompson Class B1 (Named)
+str_LNER_B1_liveries                :LNER Black, LNER Wartime Black, LNER Green, BR Apple Green, BR Black
 
 STR_NAME_LNER_O1                    :LNER Thompson Class O1
 str_LNER_O1_liveries                :LNER Black, BR Black
@@ -494,7 +498,7 @@ STR_NAME_BR_Standard_8              :BR Standard Class 8P "Duke"
 str_BR_Big_Standards_liveries       :BR Green, BR Black, BR Express Blue
 
 STR_NAME_Standard9F				    :BR Standard Class 9F
-str_Standard9F_liveries			    :BR Black, BR Brunswick Green
+str_Standard9F_liveries			    :BR Black, BR Green
 
 # BR Diesel Locomotives
 STR_NAME_BR08					:BR Class 08 "Gronk"

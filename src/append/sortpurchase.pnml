@@ -44,6 +44,8 @@ sort(FEAT_TRAINS, [
         item_LNER_A3_PD,
         item_LNER_A3_WD,
     item_LNER_A4,
+    item_LNER_B1,
+        item_LNER_B1_Named,
     item_LNER_O1,
     // BR Steam Locomotives
     item_BR_Standard_6,
