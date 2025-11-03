@@ -206,8 +206,9 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_B1, cargo_subtype) {
     3: spriteset_LNER_B1_BR_Transitional_Green;
     4: spriteset_LNER_B1_BR_LinedBlack;
     5: spriteset_LNER_B1_BR_LinedBlack;
-    6: spriteset_LNER_B1_BR_Black;
-    7: spriteset_LNER_B1_BR_Black; }
+    6: spriteset_LNER_B1_BR_LinedBlack;
+    7: spriteset_LNER_B1_BR_Black;
+    8: spriteset_LNER_B1_BR_Black; }
 
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_B1_Tender, cargo_subtype) {
@@ -215,10 +216,11 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_B1_Tender, cargo_subtype) {
     1: spriteset_LNER_4200gal_LNER_Wartime_Black;
     2: spriteset_LNER_4200gal_LNER_Apple_Green;
     3: spriteset_LNER_4200gal_BR_Apple_Green; 
-    4: spriteset_LNER_4200gal_BR_LinedBlack_EarlyEmblem;
-    5: spriteset_LNER_4200gal_BR_LinedBlack_LateCrest;
-    6: spriteset_LNER_4200gal_BR_Black_EarlyEmblem;
-    7: spriteset_LNER_4200gal_BR_Black_LateCrest; }
+    4: spriteset_LNER_4200gal_BR_Transitional_Black;
+    5: spriteset_LNER_4200gal_BR_LinedBlack_EarlyEmblem;
+    6: spriteset_LNER_4200gal_BR_LinedBlack_LateCrest;
+    7: spriteset_LNER_4200gal_BR_Black_EarlyEmblem;
+    8: spriteset_LNER_4200gal_BR_Black_LateCrest; }
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_LNER_B1_cargo_subtype_text, cargo_subtype){
@@ -226,10 +228,11 @@ switch(FEAT_TRAINS, SELF, sw_LNER_B1_cargo_subtype_text, cargo_subtype){
     1:  return string(str_LNERWartimeBlack);
 	2:	return string(str_LNERAppleGreen);
     3:  return string(str_BRAppleGreen);
-    4:  return string(str_BRLinedBlack_Early);
-    5:  return string(str_BRLinedBlack_Late);
-    6:  return string(str_BRPlainBlack_Early);
-    7:  return string(str_BRPlainBlack_Late);
+    4:  return string(str_BRTransitionalBlack);
+    5:  return string(str_BRLinedBlack_Early);
+    6:  return string(str_BRLinedBlack_Late);
+    7:  return string(str_BRPlainBlack_Early);
+    8:  return string(str_BRPlainBlack_Late);
         return CB_RESULT_NO_TEXT; }
 
 // Animation sprite stacking
