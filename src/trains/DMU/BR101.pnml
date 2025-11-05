@@ -922,13 +922,9 @@ switch(FEAT_TRAINS, SELF, sw_BR101_cargo_subtype_text, cargo_subtype){
        return CB_RESULT_NO_TEXT; }
 
 // length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR101_2car, position_in_vehid_chain % 6) {
-    0: 4;
+switch(FEAT_TRAINS, SELF, sw_length_BR101, position_in_vehid_chain % 3) {
     1: 3;
-    2: 4;
-    3: 4;
-    4: 3;
-    5: 4; }
+        4; }
 
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR101_2car, position_in_vehid_chain % 6) {
@@ -991,9 +987,9 @@ item (FEAT_TRAINS, item_BR101, 1010) {
         sound_effect:                   sw_sound_diesel_25;
 
         // internal code
-        length:                         sw_length_BR101_2car;
+        length:                         sw_length_BR101;
         articulated_part:               sw_articulated_BR101_2car;
-        purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return ( 19 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_2car;
         cost_factor:                    152;
         running_cost_factor:            3735;
@@ -1093,18 +1089,6 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR101_3car, cargo_subtype) {
     4: sw_graphics_BR101_3car_SPT;
     5: sw_graphics_BR101_3car_NSE; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR101_3car, position_in_vehid_chain % 9) {
-    0: 4;
-    1: 3;
-    2: 4;
-    3: 4;
-    4: 3;
-    5: 4;
-    6: 4;
-    7: 3;
-    8: 4; }
-
 // capacity switch
 switch(FEAT_TRAINS, SELF, sw_capacity_BR101_3car, position_in_vehid_chain % 9) {
     0: 187 * param_pax;
@@ -1164,9 +1148,9 @@ item (FEAT_TRAINS, item_BR101_3, 1013) {
         sound_effect:                   sw_sound_diesel_25;
 
         // internal code
-        length:                         sw_length_BR101_3car;
+        length:                         sw_length_BR101;
         articulated_part:               sw_articulated_BR101_3car;
-        purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return ( 21 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_3car;
         cost_factor:                    202;
         running_cost_factor:            3798;
@@ -1321,21 +1305,6 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR101_4car, cargo_subtype) {
     4: sw_graphics_BR101_4car_SPT;
     5: sw_graphics_BR101_4car_NSE; }
 
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR101_4car, position_in_vehid_chain % 12) {
-    0: 4;
-    1: 3;
-    2: 4;
-    3: 4;
-    4: 3;
-    5: 4;
-    6: 4;
-    7: 3;
-    8: 4;
-    9: 4;
-    10: 3;
-    11: 4; }
-
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR101_4car, extra_callback_info1) {
     1..11:   return item_BR101_4;
@@ -1389,9 +1358,9 @@ item (FEAT_TRAINS, item_BR101_4, 1014) {
         sound_effect:                   sw_sound_diesel_25;
 
         // internal code
-        length:                         sw_length_BR101_4car;
+        length:                         sw_length_BR101;
         articulated_part:               sw_articulated_BR101_4car;
-        purchase_cargo_capacity:        return ( 22 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return ( 20 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_4car;
         cost_factor:                    239;
         running_cost_factor:            3844;
@@ -1461,9 +1430,9 @@ item (FEAT_TRAINS, item_BR102, 1020) {
         sound_effect:                   sw_sound_diesel_25;
 
         // internal code
-        length:                         sw_length_BR101_2car;
+        length:                         sw_length_BR101;
         articulated_part:               sw_articulated_BR102;
-        purchase_cargo_capacity:        return ( 23 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return ( 19 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR101_2car;
         cost_factor:                    145;
         running_cost_factor:            3296;
