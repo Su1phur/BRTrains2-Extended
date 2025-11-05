@@ -202,7 +202,7 @@ item (FEAT_TRAINS, item_BR_Mk2L_TSO, 12106) {
 
         //specific properties
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        speed:                          100 mph;
+        speed:                          110 mph;
         refit_cost:                     0;
         track_type:                     RAIL;
         weight:                         34 ton;
@@ -219,8 +219,8 @@ item (FEAT_TRAINS, item_BR_Mk2L_TSO, 12106) {
         articulated_part:               sw_articulated_BR_Mk2L_TSO;
         purchase_cargo_capacity:        return (20 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR_Mk2L_TSO;
-        cost_factor:                    1252;
-        running_cost_factor:            1657;
+        cost_factor:                    1303;
+        running_cost_factor:            1804;
         cargo_subtype_text:             sw_BR_Mk2L_TSO_cargo_subtype_text; 
         // power:                          sw_power_BR_Mk2L_TSO;
         colour_mapping:                 return PALETTE_CC_FIRST;
