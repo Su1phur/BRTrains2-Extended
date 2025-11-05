@@ -354,6 +354,7 @@ item (FEAT_TRAINS, item_UNIT, ) {
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
         // cargo_capacity:                 * param_freight;
+        // for MUs, loading speed is multiplied by number of carriages * 0.75
         // loading_speed:				   5; // All freight / Locomotive
         // loading_speed:				   10; // First Class / Restaurant
         // loading_speed:                  12; // Composite, Compartment Stock

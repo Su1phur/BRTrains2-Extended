@@ -286,7 +286,7 @@ item (FEAT_TRAINS, item_BR380_0, 3800) {
         cargo_allow_refit:              [PASS, TOUR];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					15;
+        loading_speed:					34;
         cost_factor: 					108;				
         running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
@@ -346,7 +346,7 @@ item (FEAT_TRAINS, item_BR380_1, 3801) {
         cargo_allow_refit:              [PASS, TOUR];
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					15;
+        loading_speed:					45;
         cost_factor: 					108;				
         running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;

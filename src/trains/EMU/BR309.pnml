@@ -388,7 +388,7 @@ item (FEAT_TRAINS, item_BR309, 3090) {
 		refittable_cargo_classes:       bitmask(CC_PASSENGERS);
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					12;
+        loading_speed:					09;
         cost_factor: 					108;					
         running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
@@ -500,7 +500,7 @@ item (FEAT_TRAINS, item_BR309_1, 3091) {
 		refittable_cargo_classes:       bitmask(CC_PASSENGERS);
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					12;
+        loading_speed:					18;
         cost_factor: 					108;					
         running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
@@ -621,7 +621,7 @@ item (FEAT_TRAINS, item_BR309_2, 3092) {
 		refittable_cargo_classes:       bitmask(CC_PASSENGERS);
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					12;
+        loading_speed:					36;
         cost_factor: 					108;					
         running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;
@@ -719,7 +719,7 @@ item (FEAT_TRAINS, item_BR309_3, 3093) {
 		refittable_cargo_classes:       bitmask(CC_PASSENGERS);
         misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					12;
+        loading_speed:					36;
         cost_factor: 					108;					
         running_cost_base:				RUNNING_COST_STEAM;				
         running_cost_factor: 			90;

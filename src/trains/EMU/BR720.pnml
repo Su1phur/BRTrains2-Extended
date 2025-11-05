@@ -638,7 +638,7 @@ item (FEAT_TRAINS, item_BR720_1, 7200) {
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					15; // Standard Class
+        loading_speed:					57; // Standard Class
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;					
         running_cost_factor: 			90;
@@ -707,7 +707,7 @@ item (FEAT_TRAINS, item_BR720_1_10, 7202) {
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					15; // Standard Class
+        loading_speed:					113; // Standard Class
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;					
         running_cost_factor: 			90;
@@ -776,7 +776,7 @@ item (FEAT_TRAINS, item_BR720_6, 7206) {
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					15; // Standard Class
+        loading_speed:					57; // Standard Class
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;					
         running_cost_factor: 			90;
@@ -845,7 +845,7 @@ item (FEAT_TRAINS, item_BR720_6_10, 7205) {
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 1;
-        loading_speed:					15; // Standard Class
+        loading_speed:					113; // Standard Class
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;					
         running_cost_factor: 			90;
