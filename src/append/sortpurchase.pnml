@@ -151,6 +151,7 @@ sort(FEAT_TRAINS, [
         item_BR_Mk2_TSO,
     item_BR_Mk2L_Header,
         item_BR_Mk2L_BSO,
+        item_BR_Mk2L_DBSO,
         item_BR_Mk2L_TSO,
     item_BR_Mk3_Header,
         item_BR_Mk3_TF,
