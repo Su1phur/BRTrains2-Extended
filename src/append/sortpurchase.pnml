@@ -193,6 +193,7 @@ sort(FEAT_TRAINS, [
     // LNER Wagons
     item_LNER_21t_Hopper,
     // BR Wagons
+    item_WD_10t_Chemical_Tank,
     item_WD_50t_Warflat,
     item_BR_Conflat_A,
     item_BR_Conflat_P,

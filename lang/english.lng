@@ -1335,6 +1335,9 @@ STR_NAME_LNER_21t_Hopper_Late   :BR HTO/HTV Hopper
 str_LNER_21t_Hopper_liveries    :LNER Grey, BR Grey, BR Bauxite, NCB Grey, Private Owners
 
 # BR Wagons
+STR_NAME_WD_10t_Chemical_Tank   :WD 10t Chemical Tank
+str_WD_10t_Chemical_Tank_liveries   :WD Grey, LMR, Private Owners
+
 STR_NAME_WD_50t_Warflat         :WD 50t Flat Wagon 'Warflat'
 str_WD_50t_Warflat_liveries     :WD Olive Green
 
@@ -1644,6 +1647,7 @@ str_Kestrel                     : (Kestrel Prototype - Yellow and Black)
 str_LaPoste					    : (La Poste)
 str_LMSBlack                    : (LMS - Black)
 str_LMSRed                      : (LMS - Crimson)
+str_LMR                         : (Longmoor Military Railway)
 str_LNERAppleGreen		        : (LNER - Apple Green)
 str_LNERBlack					: (LNER - Black)
 str_LNERCoronationSilver        : (LNER - Coronation Silver)

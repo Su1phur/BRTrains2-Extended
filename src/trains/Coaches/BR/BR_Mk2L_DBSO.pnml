@@ -462,7 +462,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk2L_DBSO, cargo_subtype) {
     0: sw_loadstack_BR_Mk2_Late_DBSO_BR_Blue;
     1: sw_loadstack_BR_Mk2_Late_DBSO_BR_Intercity;
     2: sw_loadstack_BR_Mk2_Late_DBSO_BR_ScotRail;
-    3: sw_loadstack_BR_Mk2_Late_DBSO_DRS_REV;
+    3: sw_loadstack_BR_Mk2_Late_DBSO_DRS;
     4: sw_loadstack_BR_Mk2_Late_DBSO_Virgin;
     5: sw_loadstack_BR_Mk2_Late_DBSO_ONE;
     6: sw_loadstack_BR_Mk2_Late_DBSO_Anglia_Railways;

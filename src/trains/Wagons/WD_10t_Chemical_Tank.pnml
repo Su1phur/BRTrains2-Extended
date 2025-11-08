@@ -1,0 +1,190 @@
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_LMR, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_LMR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_LMR, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_LMR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_LMR_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_Private_Black, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Black_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_Private_Brown, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Brown, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Brown_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_Private_Green, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Green_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_Private_Grey, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_Private_Olive, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Olive, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Olive, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Olive, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Olive_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_Private_Red, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_Private_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_Private_Red_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_WD_Grey, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_1x_8bpp.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_WD_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_1x_mask.png")
+    { template_48trains_1x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_WD_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_2x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_2x_mask.png")
+    { template_48trains_2x(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_WD_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_4x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_4x_mask.png")
+    { template_48trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_WD_10t_Chemical_Tank_WD_Grey_purchase, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_WD_10t_Chemical_Tank_WD_Grey_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_1x_32bpp.png", "gfx/Wagons/WD_10t_Chemical_Tank/WD_10t_Chemical_Tank_WD_Grey_1x_mask.png")
+    { template_purchase(0,0) }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_WD_10t_Chemical_Tank, cargo_subtype) {
+    0: spriteset_WD_10t_Chemical_Tank_WD_Grey;
+    1: spriteset_WD_10t_Chemical_Tank_LMR;
+    2: spriteset_WD_10t_Chemical_Tank_Private_Black;
+    3: spriteset_WD_10t_Chemical_Tank_Private_Brown;
+    4: spriteset_WD_10t_Chemical_Tank_Private_Green;
+    5: spriteset_WD_10t_Chemical_Tank_Private_Grey;
+    6: spriteset_WD_10t_Chemical_Tank_Private_Olive;
+    7: spriteset_WD_10t_Chemical_Tank_Private_Red;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_WD_10t_Chemical_Tank_cargo_subtype_text, cargo_subtype){
+	0:	return string(str_WDGrey);
+    1:  return string(str_LMR);
+    2:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Black));
+    3:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Brown));
+    4:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Green));
+    5:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Grey));
+    6:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Olive));
+    7:  return string(STR_LIVERY, string(str_comp_gen_priv_owner), string(str_col_Red));
+       return CB_RESULT_NO_TEXT;
+}
+
+// unit definition
+item (FEAT_TRAINS, item_WD_10t_Chemical_Tank, 11409) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_WD_10t_Chemical_Tank);
+        // variant_group:                  ; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1916,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+        refittable_cargo_classes:        bitmask(CC_LIQUID, CC_HAZARDOUS, CC_POWDERIZED, CC_NON_POTABLE);	
+        non_refittable_cargo_classes:    bitmask(CC_POTABLE);
+        // cargo_allow_refit:               [MAIL, GOOD, VALU];
+        cargo_disallow_refit:           [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 10 * param_freight;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          40 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         8 ton;
+        dual_headed:                    0;
+        length:                         4;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_livery_WD_10t_Chemical_Tank;
+        purchase:                       spriteset_WD_10t_Chemical_Tank_WD_Grey_purchase;
+        // purchase:                       sw_spritestack_WD_10t_Chemical_Tank_purchase; // For dual mode units
+        // sound_effect:                   ;
+
+        // internal code
+        cost_factor:                    216;
+        running_cost_factor:            365;
+        cargo_subtype_text:             sw_WD_10t_Chemical_Tank_cargo_subtype_text; 
+        // power:                          sw_power_WD_10t_Chemical_Tank;
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_wagon,
+                                                    string(str_WD_10t_Chemical_Tank_liveries)));
+    }
+}
