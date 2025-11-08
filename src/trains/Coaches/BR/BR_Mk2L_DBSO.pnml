@@ -462,24 +462,26 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk2L_DBSO, cargo_subtype) {
     0: sw_loadstack_BR_Mk2_Late_DBSO_BR_Blue;
     1: sw_loadstack_BR_Mk2_Late_DBSO_BR_Intercity;
     2: sw_loadstack_BR_Mk2_Late_DBSO_BR_ScotRail;
-    3: sw_loadstack_BR_Mk2_Late_DBSO_Virgin;
-    4: sw_loadstack_BR_Mk2_Late_DBSO_ONE;
-    5: sw_loadstack_BR_Mk2_Late_DBSO_Anglia_Railways;
-    6: sw_loadstack_BR_Mk2_Late_DBSO_FGW_Fag_Packet;
-    7: sw_loadstack_BR_Mk2_Late_DBSO_NetworkRail;
-    8: sw_loadstack_BR_Mk2_Late_DBSO_ScotRail_Saltire;
+    3: sw_loadstack_BR_Mk2_Late_DBSO_DRS_REV;
+    4: sw_loadstack_BR_Mk2_Late_DBSO_Virgin;
+    5: sw_loadstack_BR_Mk2_Late_DBSO_ONE;
+    6: sw_loadstack_BR_Mk2_Late_DBSO_Anglia_Railways;
+    7: sw_loadstack_BR_Mk2_Late_DBSO_FGW_Fag_Packet;
+    8: sw_loadstack_BR_Mk2_Late_DBSO_NetworkRail;
+    9: sw_loadstack_BR_Mk2_Late_DBSO_ScotRail_Saltire;
 }
 
 switch(FEAT_TRAINS, SELF, sw_livery_BR_Mk2L_DBSO_REV, cargo_subtype) {
     0: sw_loadstack_BR_Mk2_Late_DBSO_BR_Blue_REV;
     1: sw_loadstack_BR_Mk2_Late_DBSO_BR_Intercity_REV;
     2: sw_loadstack_BR_Mk2_Late_DBSO_BR_ScotRail_REV;
-    3: sw_loadstack_BR_Mk2_Late_DBSO_Virgin_REV;
-    4: sw_loadstack_BR_Mk2_Late_DBSO_ONE_REV;
-    5: sw_loadstack_BR_Mk2_Late_DBSO_Anglia_Railways_REV;
-    6: sw_loadstack_BR_Mk2_Late_DBSO_FGW_Fag_Packet_REV;
-    7: sw_loadstack_BR_Mk2_Late_DBSO_NetworkRail_REV;
-    8: sw_loadstack_BR_Mk2_Late_DBSO_ScotRail_Saltire_REV;
+    3: sw_loadstack_BR_Mk2_Late_DBSO_DRS_REV;
+    4: sw_loadstack_BR_Mk2_Late_DBSO_Virgin_REV;
+    5: sw_loadstack_BR_Mk2_Late_DBSO_ONE_REV;
+    6: sw_loadstack_BR_Mk2_Late_DBSO_Anglia_Railways_REV;
+    7: sw_loadstack_BR_Mk2_Late_DBSO_FGW_Fag_Packet_REV;
+    8: sw_loadstack_BR_Mk2_Late_DBSO_NetworkRail_REV;
+    9: sw_loadstack_BR_Mk2_Late_DBSO_ScotRail_Saltire_REV;
 }
 
 // livery name refit switch
@@ -487,12 +489,13 @@ switch(FEAT_TRAINS, SELF, sw_BR_Mk2L_DBSO_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlueGrey);
     1:  return string(str_BRInterCity);
     2:  return string(str_BRScotRail);
-    3:  return string(str_Virgin);
-    4:  return string(str_ONE);
-    5:  return string(str_Anglia);
-    6:  return string(str_FGWFag);
-    7:  return string(str_NetworkRail);
-    8:  return string(str_ScotRailSaltire);
+    3:  return string(str_DRS);
+    4:  return string(str_Virgin);
+    5:  return string(str_ONE);
+    6:  return string(str_Anglia);
+    7:  return string(str_FGWFag);
+    8:  return string(str_NetworkRail);
+    9:  return string(str_ScotRailSaltire);
        return CB_RESULT_NO_TEXT;
 }
 
