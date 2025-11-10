@@ -98,5 +98,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: build/BRTrainsv2XL.grf
-          asset_name: brtrainsv2.grf
+          asset_name: brtrainsv2XL.grf
           asset_content_type: application/grf
