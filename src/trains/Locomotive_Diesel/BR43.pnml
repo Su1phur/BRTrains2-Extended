@@ -692,8 +692,8 @@ switch(FEAT_TRAINS, SELF, sw_FX_BR43_Diesel, position_in_vehid_chain % 3) {
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_BR43, cargo_subtype) {
     0:  spriteset_BR43_BRBlue;
-    1:  spriteset_BR43_BR_Intercity_Swallow;
-    2:  spriteset_BR43_BR_Intercity_Executive;
+    1:  spriteset_BR43_BR_Intercity_Executive;
+    2:  spriteset_BR43_BR_Intercity_Swallow;
     3:  spriteset_BR43_GWT;
     4:  spriteset_BR43_MML;
     5:  spriteset_BR43_MML_Revised;
@@ -720,8 +720,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR43, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_livery_BR43_REV, cargo_subtype) {
     0: spriteset_BR43_BRBlue_REV;
-    1: spriteset_BR43_BR_Intercity_Swallow_REV;
-    2: spriteset_BR43_BR_Intercity_Executive_REV;
+    1: spriteset_BR43_BR_Intercity_Executive_REV;
+    2: spriteset_BR43_BR_Intercity_Swallow_REV;
     3: spriteset_BR43_GWT_REV;
     4: spriteset_BR43_MML_REV;
     5: spriteset_BR43_MML_Revised_REV;
@@ -749,8 +749,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR43_REV, cargo_subtype) {
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR43_cargo_subtype_text, cargo_subtype){
 	0:	return string(str_BRBlue);
-    1:  return string(str_BRInterCitySwallow);
-    2:  return string(str_BRInterCityExecutive);
+    1:  return string(str_BRInterCityExecutive);
+    2:  return string(str_BRInterCitySwallow);
     3:  return string(str_GWT);
     4:  return string(str_MMLTealTang);
     5:  return string(str_MMLBlue);
