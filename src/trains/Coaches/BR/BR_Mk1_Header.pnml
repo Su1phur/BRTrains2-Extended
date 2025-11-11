@@ -25,5 +25,6 @@ item(FEAT_TRAINS, item_BR_Mk1_Header, 12000) {
 	}
 	graphics {	
 		purchase:						sw_BR_Mk1_TSO_purchase_sprite;	
+        colour_mapping:                 return PALETTE_CC_FIRST;
 	}
 }

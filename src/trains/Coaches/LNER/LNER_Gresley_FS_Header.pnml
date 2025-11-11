@@ -5,6 +5,7 @@ item(FEAT_TRAINS, item_LNER_Gresley_FS_Header, 11508) {
 		sprite_id:						SPRITE_ID_NEW_TRAIN;
 	}
 	graphics {	
-		purchase:						sw_LNER_Gresley_CK_D259_purchase_sprite;	
+		purchase:						sw_LNER_Gresley_CK_D259_purchase_sprite;
+		colour_mapping:                 return PALETTE_CC_FIRST;	
 	}
 }

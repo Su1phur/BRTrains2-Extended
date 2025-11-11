@@ -41,7 +41,7 @@ switch(FEAT_TRAINS, PARENT, sw_BR_Mk3_TS_purchase_sprite, current_year) {
     1996..2007: spriteset_BR_Mk3_TS_GNER_purchase;
     // 2008..2015: spriteset_BR_Mk3_TS_FGW_Dynamic_Lines;
     2016..2019: spriteset_BR_Mk3_TS_GWR_purchase;
-    2020..2029: spriteset_BR_Mk3_TS_Scotrail_purchase;
+    2020..2028: spriteset_BR_Mk3_TS_Scotrail_purchase;
         spriteset_BR_Mk3_TS_Intercity_Swallow_purchase; }
 
 // speed switch
