@@ -805,7 +805,7 @@ item (FEAT_TRAINS, item_BR720_6, 7206) {
         // internal code
         length:                         sw_length_BR720_5_car;
         articulated_part:               sw_articulated_BR720_6;
-        purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return (29 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR720_6;
         cost_factor:                    313;
         running_cost_factor:            8270;
@@ -874,7 +874,7 @@ item (FEAT_TRAINS, item_BR720_6_10, 7205) {
         // internal code
         length:                         sw_length_BR720_10_car;
         articulated_part:               sw_articulated_BR720_6_10;
-        purchase_cargo_capacity:        return (32 * param_pax); // divide by number of articulated parts and floor
+        purchase_cargo_capacity:        return (29 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR720_6_10;
         cost_factor:                    571;
         running_cost_factor:            12643;
