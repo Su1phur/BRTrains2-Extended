@@ -368,8 +368,8 @@ spriteset(spriteset_BR47_BR_CivilEngineers_Dutch, "gfx/Locomotive_Diesel/BR47/BR
     { template_128trains_4x(0,0) }
 
 switch(FEAT_TRAINS, PARENT, sw_BR47_purchase_sprite, current_year) {
-    1948..1968: spriteset_BR47_BRGreen_YellowPanel_purchase;
-    1969..1982: spriteset_BR47_BRBlue_purchase;
+    1948..1965: spriteset_BR47_BRGreen_YellowPanel_purchase;
+    1966..1982: spriteset_BR47_BRBlue_purchase;
     1983..1996: spriteset_BR47_Intercity_Executive_purchase;
     1997..2007: spriteset_BR47_Virgin_purchase;
         spriteset_BR47_BRBlue_purchase; }

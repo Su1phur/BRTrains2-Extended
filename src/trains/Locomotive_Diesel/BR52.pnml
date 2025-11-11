@@ -195,15 +195,8 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_BR52_BRBlue_purchase, [STORE_TEMP((getb
 
 // purchase year sprite switch
 switch(FEAT_TRAINS, SELF, sw_BR52_purchase, current_year) {
-	1961 .. 1968: sw_spritestack_BR52_BRGreen_purchase;
+	1961..1965: sw_spritestack_BR52_BRGreen_purchase;
 		sw_spritestack_BR52_BRBlue_purchase;
-}
-
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR52, position_in_vehid_chain % 3) {
-	0: 4;
-	1: 4;
-	2: 4;
 }
 
 switch(FEAT_TRAINS, SELF, random_choose_BR52, switch_alternative_var_random_bits(1, 1)) {
@@ -220,15 +213,12 @@ switch(FEAT_TRAINS, SELF, sw_speed_BR52, param_max_speed) {
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR52, position_in_vehid_chain % 3) {
-	0: spriteset_empty;
 	1: return random_choose_BR52;
-	2: spriteset_empty;
-}
+	    spriteset_empty; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR52, extra_callback_info1) {
-	1: return item_BR52;
-	2: return item_BR52;
+	1..2: return item_BR52;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
@@ -265,7 +255,7 @@ item (FEAT_TRAINS, item_BR52, 5200) { // TOPS Number range 52000 - even though t
         dual_headed:                    0;
         air_drag_coefficient:           0.06;
         tractive_effort_coefficient:    0.27;
-        length:                         8;
+        length:                         4;
     }
 
     graphics {

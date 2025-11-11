@@ -125,8 +125,8 @@ spriteset(spriteset_BR73_0_BRGreen_SmallYellow_purchase, "gfx/Locomotive_Electri
 
 
 switch(FEAT_TRAINS, PARENT, sw_BR73_0_purchase_sprite, current_year) {
-    1948..1968: spriteset_BR73_0_BRGreen_purchase;
-    1969..1998: spriteset_BR73_0_BRBlue_YellowFront_purchase;
+    1948..1965: spriteset_BR73_0_BRGreen_purchase;
+    1966..1998: spriteset_BR73_0_BRBlue_YellowFront_purchase;
         spriteset_BR73_0_BRBlue_YellowFront_purchase; }
 
 // FX effects

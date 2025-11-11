@@ -97,22 +97,19 @@ switch(FEAT_TRAINS, SELF, sw_BR55_cargo_subtype_text, cargo_subtype){
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR55, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR55;
-	2: spriteset_empty;
+	    spriteset_empty;
 }
 
 // length switch
 switch(FEAT_TRAINS, SELF, sw_length_BR55, position_in_articulated_veh % 3) {
-	0: 4;
 	1: 5;
-	2: 4;
+	    4;
 }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR55, extra_callback_info1) {
-	1: return item_BR55;
-	2: return item_BR55;
+	1..2: return item_BR55;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 

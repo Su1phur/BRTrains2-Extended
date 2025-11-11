@@ -32,10 +32,10 @@ spriteset(spriteset_LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green, "gfx/Locomotive
     { template_98trains_4x(0,0) }
 
 // purchase sprites
-spriteset(spriteset_LNER_Gresley_A3_Banjo_Dome_Purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_1x_8bpp.png")
+spriteset(spriteset_LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_1x_8bpp.png")
     { template_purchase(0,0) }
 
-    alternative_sprites(spriteset_LNER_Gresley_A3_Banjo_Dome_Purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_1x_mask.png")
+    alternative_sprites(spriteset_LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_1x_mask.png")
     { template_purchase(0,0) }
 
 // basic sprites
@@ -77,6 +77,12 @@ spriteset(spriteset_LNER_Gresley_A3_Banjo_Dome_BR_Green, "gfx/Locomotive_Steam/L
     alternative_sprites(spriteset_LNER_Gresley_A3_Banjo_Dome_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_BR_Green_4x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_BR_Green_4x_mask.png")
     { template_98trains_4x(0,0) }
 
+spriteset(spriteset_LNER_Gresley_A3_Banjo_Dome_BR_Green_purchase, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_BR_Green_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_LNER_Gresley_A3_Banjo_Dome_BR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A3_Banjo_Dome_BR_Green_1x_mask.png")
+    { template_purchase(0,0) }
+
 // basic sprites
 spriteset(spriteset_LNER_Gresley_A1_A3_Wagner, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Wagner_1x_8bpp.png")
     { template_98trains_1x(0,0) }
@@ -117,11 +123,29 @@ spriteset(spriteset_LNER_Gresley_A3_Peppercorn_Deflectors_purchase, "gfx/Locomot
     alternative_sprites(spriteset_LNER_Gresley_A3_Peppercorn_Deflectors_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Peppercorn_Deflectors_1x_32bpp.png", "gfx/Locomotive_Steam/LNER_Gresley_A1_A3/LNER_Gresley_A1_A3_Peppercorn_Deflectors_1x_mask.png")
     { template_purchase(0,0) }
 
+switch(FEAT_TRAINS, SELF, sw_LNER_A3_Body_purchase_sprite, current_year) {
+    1934..1948: spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green_purchase;
+    1949..1968: spriteset_LNER_Gresley_A1_A3_BR_Green_purchase;
+        spriteset_LNER_Gresley_A1_A3_LNER_Apple_Green_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_LNER_A3_Dome_purchase_sprite, current_year) {
+    1934..1948: spriteset_LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_purchase;
+    1949..1968: spriteset_LNER_Gresley_A3_Banjo_Dome_BR_Green_purchase;
+        spriteset_LNER_Gresley_A3_Banjo_Dome_LNER_Apple_Green_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_LNER_A3_Chimney_purchase_sprite, current_year) {
+    1928..1956: spriteset_LNER_Gresley_A1_A3_Single_Chimney_purchase;
+    1957..1968: spriteset_LNER_Gresley_A1_A3_Double_Kylchap_purchase;
+        spriteset_LNER_Gresley_A1_A3_Double_Kylchap_purchase;
+}
+
 switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_LNER_Gresley_A1_purchase;
+    0: sw_LNER_A3_Body_purchase_sprite;
     1: spriteset_LNER_Gresley_A1_A3_Anim_Purchase;
-    2: spriteset_LNER_Gresley_A3_Banjo_Dome_Purchase;
-    3: spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase;
+    2: sw_LNER_A3_Dome_purchase_sprite;
+    3: sw_LNER_A3_Chimney_purchase_sprite;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_LNER_A3_Chimney, current_year) {
@@ -261,10 +285,10 @@ item (FEAT_TRAINS, item_LNER_A3, 6002) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_PD_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_LNER_Gresley_A1_purchase;
+    0: sw_LNER_A3_Body_purchase_sprite;
     1: spriteset_LNER_Gresley_A1_A3_Anim_Purchase;
-    2: spriteset_LNER_Gresley_A3_Banjo_Dome_Purchase;
-    3: spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase;
+    2: sw_LNER_A3_Dome_purchase_sprite;
+    3: sw_LNER_A3_Chimney_purchase_sprite;
     4: spriteset_LNER_Gresley_A3_Peppercorn_Deflectors_purchase;
 }
 
@@ -389,10 +413,10 @@ item (FEAT_TRAINS, item_LNER_A3_PD, 6003) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_WD_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 4 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
-    0: spriteset_LNER_Gresley_A1_purchase;
+    0: sw_LNER_A3_Body_purchase_sprite;
     1: spriteset_LNER_Gresley_A1_A3_Anim_Purchase;
-    2: spriteset_LNER_Gresley_A3_Banjo_Dome_Purchase;
-    3: spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase;
+    2: sw_LNER_A3_Dome_purchase_sprite;
+    3: sw_LNER_A3_Chimney_purchase_sprite;
     4: spriteset_LNER_Gresley_A3_Wagner_purchase;
 }
 
