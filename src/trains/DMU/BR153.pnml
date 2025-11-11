@@ -164,7 +164,7 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
         name:                           string(STR_NAME_BR153);
         // variant_group:                  ; // unit ID or item
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1987,01,01); 
+        introduction_date:              date(1991,01,01); 
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life: 					40;
         retire_early: 					-10;							
@@ -207,7 +207,7 @@ item (FEAT_TRAINS, item_BR153, 1530) { // TOPS number range 153000
         purchase_cargo_capacity:        return (24 * param_pax); // divide by number of articulated parts and floor
         cargo_capacity:                 sw_capacity_BR153;
         cost_factor:                    90;
-        running_cost_factor:            3464;
+        running_cost_factor:            3462;
         cargo_subtype_text:             sw_BR153_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
