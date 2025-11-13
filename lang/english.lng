@@ -1103,6 +1103,10 @@ str_BR720_6_liveries            :c2c, Greater Anglia
 STR_NAME_BR717					:BR Class 717 "Desiro City"
 str_BR717_liveries				:Govia Great Northern
 
+STR_NAME_BR755_3                :BR Class 755/3 "FLIRT" (3-car)
+STR_NAME_BR755_4                :BR Class 755/4 "FLIRT" (4-car)
+str_BR755_liveries              :Greater Anglia
+
 STR_NAME_BR800					:BR Class 800/1 "IET"
 str_BR800_liveries				:Hitachi, GWR
 
@@ -1589,8 +1593,10 @@ str_FreightlinerSH				: (Freightliner/Shanks)
 str_FreightlinerPH				: (Freightliner - Powerhaul)
 str_FreightlinerOrange          : (Freightliner - Orange)
 str_FurnessRed                  : (Furness Railway - Red)
-str_GA_White					: (Greater Anglia - White)
+str_GA                          : (Greater Anglia)
 str_GA_Blue                     : (Greater Anglia - Blue)
+str_GA_Pride                    : (Greater Anglia - Pride)
+str_GA_White					: (Greater Anglia - White)
 str_GatEx						: (Gatwick Express)
 str_GatExUn						: (Gatwick Express - Unbranded)
 str_GBRf						: (GBRf)
