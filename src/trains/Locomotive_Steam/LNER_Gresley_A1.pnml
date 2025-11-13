@@ -362,7 +362,7 @@ item (FEAT_TRAINS, item_LNER_A1, 6001) {
         // graphics
         default:                        sw_graphics_LNER_A1;
         visual_effect_and_powered:      sw_FX_LNER_A1_Steam;
-        purchase:                       sw_spritestack_LNER_A1_purchase; // For dual mode units
+        purchase:                       sw_LNER_A1_purchase_sprite; // For dual mode units
         sound_effect:                   sw_sound_steam_generic;
 
         // internal code

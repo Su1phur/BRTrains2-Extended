@@ -266,7 +266,6 @@ item (FEAT_TRAINS, item_BR52, 5200) { // TOPS Number range 52000 - even though t
 		sound_effect:					sw_sound_diesel_50;
 
         // internal code
-        length:                         sw_length_BR52;
         articulated_part:               sw_articulated_BR52;
         speed:                          sw_speed_BR52() * 1609 / 1000;
         purchase_cargo_capacity:        0;

@@ -136,7 +136,7 @@ switch(FEAT_TRAINS, SELF, sw_LNER_A3_Dome_purchase_sprite, current_year) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_LNER_A3_Chimney_purchase_sprite, current_year) {
-    1928..1956: spriteset_LNER_Gresley_A1_A3_Single_Chimney_purchase;
+    1928..1956: spriteset_LNER_Gresley_A1_A3_Single_Chimney_Purchase;
     1957..1968: spriteset_LNER_Gresley_A1_A3_Double_Kylchap_purchase;
         spriteset_LNER_Gresley_A1_A3_Double_Kylchap_purchase;
 }
