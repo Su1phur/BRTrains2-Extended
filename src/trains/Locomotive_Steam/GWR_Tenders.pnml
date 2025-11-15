@@ -1,69 +1,4 @@
-// basic sprites
-spriteset(spriteset_GWR_3500gal_GWR_Lined_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_mask.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_2x_mask.png")
-    { template_58trains_2x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_4x_mask.png")
-    { template_58trains_4x(0,0) }
-
-// basic sprites
-spriteset(spriteset_GWR_3500gal_GWR_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_mask.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_2x_mask.png")
-    { template_58trains_2x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_4x_mask.png")
-    { template_58trains_4x(0,0) }
-
-// basic sprites
-spriteset(spriteset_GWR_3500gal_GWR_Black, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_1x_mask.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_2x_mask.png")
-    { template_58trains_2x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_4x_mask.png")
-    { template_58trains_4x(0,0) }
-
-// basic sprites
-spriteset(spriteset_GWR_3500gal_BRGreen_Early_Emblem, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_1x_mask.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_2x_mask.png")
-    { template_58trains_2x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_4x_mask.png")
-    { template_58trains_4x(0,0) }
-
-// basic sprites
-spriteset(spriteset_GWR_3500gal_BRGreen_Late_Crest, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_1x_8bpp.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_1x_mask.png")
-    { template_58trains_1x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_2x_mask.png")
-    { template_58trains_2x(0,0) }
-
-    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_4x_mask.png")
-    { template_58trains_4x(0,0) }
-
-// basic sprites
+// basic sprite
 spriteset(spriteset_GWR_3500gal_BRBlack_Early_Emblem, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRBlack_Early_Emblem_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
@@ -76,7 +11,7 @@ spriteset(spriteset_GWR_3500gal_BRBlack_Early_Emblem, "gfx/Tender/GWR_3500gal/GW
     alternative_sprites(spriteset_GWR_3500gal_BRBlack_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRBlack_Early_Emblem_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRBlack_Early_Emblem_4x_mask.png")
     { template_58trains_4x(0,0) }
 
-// basic sprites
+// basic sprite
 spriteset(spriteset_GWR_3500gal_BRBlack_Late_Crest, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRBlack_Late_Crest_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
@@ -89,7 +24,98 @@ spriteset(spriteset_GWR_3500gal_BRBlack_Late_Crest, "gfx/Tender/GWR_3500gal/GWR_
     alternative_sprites(spriteset_GWR_3500gal_BRBlack_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRBlack_Late_Crest_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRBlack_Late_Crest_4x_mask.png")
     { template_58trains_4x(0,0) }
 
-// basic sprites
+// basic sprite
+spriteset(spriteset_GWR_3500gal_BRGreen_Early_Emblem, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Early_Emblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_BRGreen_Late_Crest, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_BRGreen_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_BRGreen_Late_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Black, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Lined_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_No_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
 spriteset(spriteset_GWR_3500gal_ROD_Khaki, "gfx/Tender/GWR_3500gal/GWR_3500gal_ROD_Khaki_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
