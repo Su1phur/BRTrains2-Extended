@@ -89,3 +89,94 @@ spriteset(spriteset_BR_1_BR_PlainBlack_Late_Crest, "gfx/Tender/BR_1/BR_1_BR_Plai
     alternative_sprites(spriteset_BR_1_BR_PlainBlack_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1/BR_1_BR_PlainBlack_Late_Crest_4x_32bpp.png", "gfx/Tender/BR_1/BR_1_BR_PlainBlack_Late_Crest_4x_mask.png")
         { template_58trains_4x(0,0) }
 
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Express_Blue, "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Express_Blue_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Green_Early, "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Green_Early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Green_Early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Green_Early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Green_Early_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Green_Late, "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Green_Late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Green_Late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Green_Late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Green_Late_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Lined_Black_Early, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Lined_Black_Early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Lined_Black_Early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Lined_Black_Early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Early_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Lined_Black_Late, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Lined_Black_Late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Lined_Black_Late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Lined_Black_Late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Lined_Black_Late_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Plain_Black_Early, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Plain_Black_Early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Plain_Black_Early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Plain_Black_Early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Early_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_1F_BR_Plain_Black_Late, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Plain_Black_Late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_1x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Plain_Black_Late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_2x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_1F_BR_Plain_Black_Late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_4x_32bpp.png", "gfx/Tender/BR_1F/BR_1F_BR_Plain_Black_Late_4x_mask.png")
+    { template_58trains_4x(0,0) }
+

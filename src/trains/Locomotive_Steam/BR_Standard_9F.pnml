@@ -1,0 +1,516 @@
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_BR_Express_Blue, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Express_Blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Express_Blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Express_Blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Express_Blue_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_BR_Green, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Standard_9F_BR_Green_purchase, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Green_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Green_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_BR_Lined_Black, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Lined_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Lined_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Lined_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Lined_Black_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_BR_Plain_Black, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Plain_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Plain_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Plain_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Standard_9F_BR_Plain_Black_purchase, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_BR_Plain_Black_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_BR_Plain_Black_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_Double_Chimney, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Double_Chimney, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Double_Chimney, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Double_Chimney, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Standard_9F_Double_Chimney_purchase, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Double_Chimney_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Double_Chimney_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_Nameplate, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Nameplate, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Nameplate, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Nameplate, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Standard_9F_Nameplate_purchase, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Nameplate_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Nameplate_1x_mask.png")
+    { template_purchase(0,0) }
+
+// basic sprite
+spriteset(spriteset_BR_Standard_9F_Single_Chimney, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Single_Chimney, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Single_Chimney, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Single_Chimney, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// purchase sprite
+spriteset(spriteset_BR_Standard_9F_Single_Chimney_purchase, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Single_Chimney_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Single_Chimney_1x_mask.png")
+    { template_purchase(0,0) }
+
+// Animsprites
+spriteset(spriteset_BR_Standard_9F_Anim1, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_BR_Standard_9F_Anim2, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim2_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_BR_Standard_9F_Anim3, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim3_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_BR_Standard_9F_Anim4, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_2x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_4x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim4_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_BR_Standard_9F_Anim_purchase, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_1x_8bpp.png")
+    { template_purchase(0,0) }
+
+    alternative_sprites(spriteset_BR_Standard_9F_Anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_1x_32bpp.png", "gfx/Locomotive_Steam/BR_Standard_9F/BR_Standard_9F_Anim1_1x_mask.png")
+    { template_purchase(0,0) }
+
+switch(FEAT_TRAINS, SELF, sw_animation_BR_Standard_9F, motion_counter % 4) {
+    0: spriteset_BR_Standard_9F_Anim1;
+    1: spriteset_BR_Standard_9F_Anim2;
+    2: spriteset_BR_Standard_9F_Anim3;
+    3: spriteset_BR_Standard_9F_Anim4; }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Standard_9F_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Standard_9F_BR_Plain_Black_purchase;
+    1: spriteset_BR_Standard_9F_Single_Chimney_purchase;
+    2: spriteset_BR_Standard_9F_Anim_purchase; }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Standard_9F_DC_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Standard_9F_BR_Plain_Black_purchase;
+    1: spriteset_BR_Standard_9F_Double_Chimney_purchase;
+    2: spriteset_BR_Standard_9F_Anim_purchase; }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Standard_9F_Named_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_BR_Standard_9F_BR_Green_purchase;
+    1: spriteset_BR_Standard_9F_Double_Chimney_purchase;
+    2: spriteset_BR_Standard_9F_Anim_purchase;
+    3: spriteset_BR_Standard_9F_Nameplate_purchase; }
+
+
+switch(FEAT_TRAINS, SELF, sw_FX_BR_Standard_9F_Steam, position_in_vehid_chain % 4) {
+    0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+    return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Standard_9F, cargo_subtype) {
+    0: spriteset_BR_Standard_9F_BR_Plain_Black;
+    1: spriteset_BR_Standard_9F_BR_Plain_Black;
+    2: spriteset_BR_Standard_9F_BR_Lined_Black;
+    3: spriteset_BR_Standard_9F_BR_Lined_Black;
+    4: spriteset_BR_Standard_9F_BR_Green;
+    5: spriteset_BR_Standard_9F_BR_Green;
+    6: spriteset_BR_Standard_9F_BR_Express_Blue;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Standard_9F, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_BR_Standard_9F;
+    1: spriteset_BR_Standard_9F_Single_Chimney;
+    2: return sw_animation_BR_Standard_9F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Standard_9F_DC, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_BR_Standard_9F;
+    1: spriteset_BR_Standard_9F_Double_Chimney;
+    2: return sw_animation_BR_Standard_9F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_BR_Standard_9F_Named, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_livery_BR_Standard_9F;
+    1: spriteset_BR_Standard_9F_Double_Chimney;
+    2: spriteset_BR_Standard_9F_Nameplate;
+    3: return sw_animation_BR_Standard_9F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Standard_9F_tender, cargo_subtype) {
+    0: spriteset_BR_1F_BR_Plain_Black_Early;
+    1: spriteset_BR_1F_BR_Plain_Black_Late;
+    2: spriteset_BR_1F_BR_Lined_Black_Early;
+    3: spriteset_BR_1F_BR_Lined_Black_Late;
+    4: spriteset_BR_1F_BR_Green_Early;
+    5: spriteset_BR_1F_BR_Green_Late;
+    6: spriteset_BR_1F_BR_Express_Blue;
+}
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_BR_Standard_9F_cargo_subtype_text, cargo_subtype){
+    0: return string(str_BRPlainBlack_Early);
+    1: return string(str_BRPlainBlack_Late);
+    2: return string(str_BRLinedBlack_Early);
+    3: return string(str_BRLinedBlack_Late);
+	4: return string(str_BRGreen_Early);
+    5: return string(str_BRGreen_Late);
+    6: return string(str_BRExpressBlue);
+       return CB_RESULT_NO_TEXT;
+}
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Standard_9F, position_in_articulated_veh % 4) {
+	1: sw_spritestack_BR_Standard_9F;
+    3: sw_livery_BR_Standard_9F_tender;
+        spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Standard_9F_DC, position_in_articulated_veh % 4) {
+	1: sw_spritestack_BR_Standard_9F_DC;
+    3: sw_livery_BR_Standard_9F_tender;
+        spriteset_empty;
+}
+
+switch(FEAT_TRAINS, SELF, sw_livery_BR_Standard_9F_Named_Tender, cargo_subtype) {
+    0: spriteset_BR_1_BR_PlainBlack_Early_Emblem;
+    1: spriteset_BR_1_BR_PlainBlack_Late_Crest;
+    2: spriteset_BR_1_BR_LinedBlack_Early_Emblem;
+    3: spriteset_BR_1_BR_LinedBlack_Late_Crest;
+    4: spriteset_BR_1_BR_Green_Early_Emblem;
+    5: spriteset_BR_1_BR_Green_Late_Crest;
+    6: spriteset_BR_1_BR_ExpressBlue; }
+
+switch(FEAT_TRAINS, SELF, sw_graphics_BR_Standard_9F_Named, position_in_articulated_veh % 4) {
+	1: sw_spritestack_BR_Standard_9F_Named;
+    3: sw_livery_BR_Standard_9F_Named_Tender;
+        spriteset_empty;
+}
+
+// length switch
+switch(FEAT_TRAINS, SELF, sw_length_BR_Standard_9F, position_in_articulated_veh % 4) {
+	0..2: 3;
+    3: 5; }
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR_Standard_9F, param_max_speed) {
+    0: 60; // operational speed
+    1: 90; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Standard_9F, extra_callback_info1) {
+	1..3: return item_BR_Standard_9F;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Standard_9F, 9202) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Standard_9F);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1954,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2570 hp;
+        weight:                         148 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.14;
+        tractive_effort_coefficient:    0.12;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Standard_9F;
+        visual_effect_and_powered:      sw_FX_BR_Standard_9F_Steam;
+        purchase:                       sw_spritestack_BR_Standard_9F_purchase; // For dual mode units
+        sound_effect:                   sw_sound_steam_generic;
+
+        // internal code
+        length:                         sw_length_BR_Standard_9F;
+        articulated_part:               sw_articulated_BR_Standard_9F;
+        speed:                          sw_speed_BR_Standard_9F() * 1609 / 1000;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    94;
+        running_cost_factor:            6139;
+        cargo_subtype_text:             sw_BR_Standard_9F_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_BR_Big_Standards_liveries)));
+    }
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Standard_9F_DC, extra_callback_info1) {
+	1..3: return item_BR_Standard_9F_DC;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Standard_9F_DC, 9203) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Standard_9F_DC);
+        variant_group:                  item_BR_Standard_9F;
+        extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1957,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          60 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2585 hp;
+        weight:                         148 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.14;
+        tractive_effort_coefficient:    0.12;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Standard_9F_DC;
+        visual_effect_and_powered:      sw_FX_BR_Standard_9F_Steam;
+        purchase:                       sw_spritestack_BR_Standard_9F_DC_purchase; // For dual mode units
+        sound_effect:                   sw_sound_steam_generic;
+
+        // internal code
+        length:                         sw_length_BR_Standard_9F;
+        articulated_part:               sw_articulated_BR_Standard_9F_DC;
+        speed:                          sw_speed_BR_Standard_9F() * 1609 / 1000;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    95;
+        running_cost_factor:            6163;
+        cargo_subtype_text:             sw_BR_Standard_9F_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_BR_Big_Standards_liveries)));
+    }
+}
+
+
+// speed switch
+switch(FEAT_TRAINS, SELF, sw_speed_BR_Standard_9F_Named, param_max_speed) {
+    0: 90; // operational speed
+    1: 100; // design speed
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_BR_Standard_9F_Named, extra_callback_info1) {
+	1..3: return item_BR_Standard_9F_Named;
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_BR_Standard_9F_Named, 9204) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_BR_Standard_9F_Named);
+        variant_group:                  item_BR_Standard_9F;
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1960,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		// refittable_cargo_classes:        bitmask(CC_PASSENGERS);
+        // non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:               [PASS, GOOD];
+        // cargo_disallow_refit:            [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:					5;
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          90 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        power:                          2585 hp;
+        weight:                         148 ton;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        dual_headed:                    0;
+        air_drag_coefficient:           0.09;
+        tractive_effort_coefficient:    0.12;
+        length:                         8;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_BR_Standard_9F_Named;
+        visual_effect_and_powered:      sw_FX_BR_Standard_9F_Steam;
+        purchase:                       sw_spritestack_BR_Standard_9F_Named_purchase; // For dual mode units
+        sound_effect:                   sw_sound_steam_generic;
+
+        // internal code
+        length:                         sw_length_BR_Standard_9F;
+        articulated_part:               sw_articulated_BR_Standard_9F_Named;
+        speed:                          sw_speed_BR_Standard_9F_Named() * 1609 / 1000;
+        purchase_cargo_capacity:        0;
+        cargo_capacity:                 return 0;
+        cost_factor:                    107;
+        running_cost_factor:            7041;
+        cargo_subtype_text:             sw_BR_Standard_9F_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+        // colour_mapping:                 switch_generic_recolour;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_loco_with_liveries,
+                                                    string(str_purchase_type_steam),
+                                                    string(str_usage_mixed_traffic),
+                                                    string(str_BR_Big_Standards_liveries)));
+    }
+}

@@ -501,8 +501,9 @@ STR_NAME_BR_Standard_7              :BR Standard Class 7MT "Britannia"
 STR_NAME_BR_Standard_8              :BR Standard Class 8P "Duke"
 str_BR_Big_Standards_liveries       :BR Green, BR Black, BR Express Blue
 
-STR_NAME_Standard9F				    :BR Standard Class 9F
-str_Standard9F_liveries			    :BR Black, BR Green
+STR_NAME_BR_Standard_9F				:BR Standard Class 9F
+STR_NAME_BR_Standard_9F_DC          :BR Standard Class 9F (Double Chimney)
+STR_NAME_BR_Standard_9F_Named       :BR Standard Class 9F (Named)
 
 # BR Diesel Locomotives
 STR_NAME_BR08					:BR Class 08 "Gronk"
