@@ -1398,6 +1398,9 @@ STR_NAME_BRT_CovHop             :BRT PAA Covered Hopper
 STR_NAME_BRT_Whisky_CovHop      :BRT PAV Covered Hopper "Whisky CovHop"
 str_BRT_CovHop_liveries         :Grainflow, BR Grey, BR Brown, Private Owner Blue, Private Owner Blue with Advertising, Private Owner Yellow
 
+STR_NAME_BR_PTA                 :BR PTA/JTA/JUA Tippler Gondola
+str_BR_PTA_liveries             :British Steel, Foster Yeoman, ARC, VTG
+
 STR_NAME_BR_OTA                 :BR OTA Timber Wagon
 str_BR_OTA_liveries             :Railfreight, EWS, Private Owners
 
@@ -1537,6 +1540,7 @@ str_BRTest						: (BR - Track Test Train)
 str_BRWartime					: (BR - Wartime Black)
 str_BristolElectricProto        : (Bristol Electric - Prototype)
 str_BSS							: (British Steel)
+str_BSS_Blue                    : (British Steel - Blue)
 str_C2C							: (C2C)
 str_C2CBlue						: (C2C - Blue)
 str_Caledonian					: (Caledonian Sleeper)
@@ -1596,6 +1600,7 @@ str_FNW							: (First North Western)
 str_FirstDynamic                : (First Transpennine - Dynamic Lines)
 str_FNWBarbie					: (First North Western - Barbie)
 str_FNWArriva					: (FNW/Arriva Hybrid)
+str_FosterYeoman                : (Foster Yeoman)
 str_Fragonset					: (Fragonset)
 str_Freightliner				: (Freightliner)
 str_FreightlinerGrey            : (Freightliner - Grey)
