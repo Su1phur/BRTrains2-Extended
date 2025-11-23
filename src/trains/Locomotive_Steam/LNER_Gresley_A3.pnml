@@ -189,6 +189,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3, cargo_subtype) {
     3: sw_spritestack_LNER_A3_BR_Express_Blue;
     4: sw_spritestack_LNER_A3_BR_Green;
     5: sw_spritestack_LNER_A3_BR_Green;
+    6: sw_spritestack_LNER_A1_NWR_RWS;
+    7: sw_spritestack_LNER_A1_NWR_TTTE;
 }
 
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_Tender, cargo_subtype) {
@@ -198,6 +200,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_Tender, cargo_subtype) {
     3: spriteset_LNER_5000gal_BR_Express_Blue;
     4: spriteset_LNER_5000gal_BR_Green_Early_Emblem;
     5: spriteset_LNER_5000gal_BR_Green_Late_Crest;
+    6: spriteset_Fowler_3500gal_NWR_RWS_4;
+    7: spriteset_Fowler_3500gal_NWR_TTTE_4;
 }
 
 // speed switch
@@ -208,17 +212,14 @@ switch(FEAT_TRAINS, SELF, sw_speed_LNER_A3, param_max_speed) {
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_A3, position_in_articulated_veh % 4) {
-	0: spriteset_empty;
 	1: return sw_livery_LNER_A3;
-	2: spriteset_empty;
     3: return sw_livery_LNER_A3_Tender;
+        spriteset_empty;
 }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_LNER_A3, extra_callback_info1) {
-	1: return item_LNER_A3;
-	2: return item_LNER_A3;
-    3: return item_LNER_A3;
+	1..3: return item_LNER_A3;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
@@ -324,6 +325,18 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_PD_BR_Express_Blue, [STORE_TEMP
     4: spriteset_LNER_Gresley_A1_A3_Peppercorn_Deflectors;
 }
 
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_PD_NWR_RWS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LNER_Gresley_A1_A3_NWR_RWS;
+    1: sw_Animation_LNER_Gresley_A1_A3;
+    2: spriteset_LNER_Gresley_A1_A3_Peppercorn_Deflectors;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_PD_NWR_TTTE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LNER_Gresley_A1_A3_NWR_TTTE;
+    1: sw_Animation_LNER_Gresley_A1_A3;
+    2: spriteset_LNER_Gresley_A1_A3_Peppercorn_Deflectors;
+}
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_PD, cargo_subtype) {
     0: sw_spritestack_LNER_A3_PD_LNER_Apple_Green;
@@ -332,21 +345,20 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_PD, cargo_subtype) {
     3: sw_spritestack_LNER_A3_PD_BR_Express_Blue;
     4: sw_spritestack_LNER_A3_PD_BR_Green;
     5: sw_spritestack_LNER_A3_PD_BR_Green;
+    6: sw_spritestack_LNER_A3_PD_NWR_RWS;
+    7: sw_spritestack_LNER_A3_PD_NWR_TTTE;
 }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_A3_PD, position_in_articulated_veh % 4) {
-	0: spriteset_empty;
 	1: return sw_livery_LNER_A3_PD;
-	2: spriteset_empty;
     3: return sw_livery_LNER_A3_Tender;
+        spriteset_empty;
 }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_LNER_A3_PD, extra_callback_info1) {
-	1: return item_LNER_A3_PD;
-	2: return item_LNER_A3_PD;
-    3: return item_LNER_A3_PD;
+	1..3: return item_LNER_A3_PD;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
@@ -452,6 +464,18 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_WD_BR_Express_Blue, [STORE_TEMP
     4: spriteset_LNER_Gresley_A1_A3_Wagner;
 }
 
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_WD_NWR_RWS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LNER_Gresley_A1_A3_NWR_RWS;
+    1: sw_Animation_LNER_Gresley_A1_A3;
+    2: spriteset_LNER_Gresley_A1_A3_Wagner;
+}
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_LNER_A3_WD_NWR_TTTE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: spriteset_LNER_Gresley_A1_A3_NWR_TTTE;
+    1: sw_Animation_LNER_Gresley_A1_A3;
+    2: spriteset_LNER_Gresley_A1_A3_Wagner;
+}
+
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_WD, cargo_subtype) {
     0: sw_spritestack_LNER_A3_WD_LNER_Apple_Green;
@@ -460,21 +484,20 @@ switch(FEAT_TRAINS, SELF, sw_livery_LNER_A3_WD, cargo_subtype) {
     3: sw_spritestack_LNER_A3_WD_BR_Express_Blue;
     4: sw_spritestack_LNER_A3_WD_BR_Green;
     5: sw_spritestack_LNER_A3_WD_BR_Green;
+    6: sw_spritestack_LNER_A3_WD_NWR_RWS;
+    7: sw_spritestack_LNER_A3_WD_NWR_TTTE;
 }
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_LNER_A3_WD, position_in_articulated_veh % 4) {
-	0: spriteset_empty;
 	1: return sw_livery_LNER_A3_WD;
-	2: spriteset_empty;
     3: return sw_livery_LNER_A3_Tender;
+        spriteset_empty;
 }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_LNER_A3_WD, extra_callback_info1) {
-	1: return item_LNER_A3_WD;
-	2: return item_LNER_A3_WD;
-    3: return item_LNER_A3_WD;
+	1..3: return item_LNER_A3_WD;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
