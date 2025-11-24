@@ -175,8 +175,8 @@ item (FEAT_TRAINS, item_BR_VAA, 12256) {
 
         // internal code
         speed:                          sw_speed_BR_VAA() * 1609 / 1000;  
-        cost_factor:                    1307;
-        running_cost_factor:            1058;
+        cost_factor:                    653;
+        running_cost_factor:            965;
         cargo_subtype_text:             sw_BR_VAA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

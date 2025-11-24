@@ -229,7 +229,7 @@ item (FEAT_TRAINS, item_BR_TEA, 12204) {
         // cargo_allow_refit:               [MAIL, GOOD, VALU];
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 34 * param_freight;
+        cargo_capacity:                 31 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;				
         running_cost_base:				RUNNING_COST_STEAM;				
@@ -254,8 +254,8 @@ item (FEAT_TRAINS, item_BR_TEA, 12204) {
         length:                         sw_length_BR_TEA;
         articulated_part:               sw_articulated_BR_TEA; 
         speed:                          sw_speed_BR_TEA() * 1609 / 1000;
-        cost_factor:                    3051;
-        running_cost_factor:            1199;
+        cost_factor:                    1418;
+        running_cost_factor:            1170;
         cargo_subtype_text:             sw_BR_TEA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

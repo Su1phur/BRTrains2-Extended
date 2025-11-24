@@ -265,8 +265,8 @@ item (FEAT_TRAINS, item_BR_MCV, 12250) {
         
         // internal code
         speed:                          sw_speed_BR_MCV() * 1609 / 1000;
-        cost_factor:                    546;
-        running_cost_factor:            334;
+        cost_factor:                    273;
+        running_cost_factor:            331;
         cargo_subtype_text:             sw_BR_MCV_cargo_subtype_text;
         // colour_mapping:                 switch_bulk_recolour;
         colour_mapping:                 switch_generic_recolour;

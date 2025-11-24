@@ -75,20 +75,12 @@ switch(FEAT_TRAINS, SELF, sw_BR_VGA_cargo_subtype_text, cargo_subtype){
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_VGA, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_livery_BR_VGA;
-	2: spriteset_empty; }
-
-// length switch
-switch(FEAT_TRAINS, SELF, sw_length_BR_VGA, position_in_articulated_veh % 3) {
-	0: 3;
-	1: 3;
-	2: 3; }
+	    spriteset_empty; }
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_VGA, extra_callback_info1) {
-	1: return item_BR_VGA;
-	2: return item_BR_VGA;
+	1..2: return item_BR_VGA;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
@@ -124,7 +116,7 @@ item (FEAT_TRAINS, item_BR_VGA, 12252) {
         track_type:                     RAIL;
         weight:                         18 ton;
         dual_headed:                    0;
-        length:                         8;
+        length:                         3;
     }
 
     graphics {
@@ -133,11 +125,10 @@ item (FEAT_TRAINS, item_BR_VGA, 12252) {
         purchase:                       spriteset_BR_VGA_Railfreight_purchase;
 
         // internal code
-        length:                         sw_length_BR_VGA;
         articulated_part:               sw_articulated_BR_VGA;
         purchase_cargo_capacity:        return (13 * param_freight); // divide by number of articulated parts and floor
-        cost_factor:                    1460;
-        running_cost_factor:            1298;
+        cost_factor:                    849;
+        running_cost_factor:            1219;
         cargo_subtype_text:             sw_BR_VGA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

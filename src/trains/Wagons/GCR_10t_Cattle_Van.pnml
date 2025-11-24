@@ -77,8 +77,6 @@ item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 11406) {
         track_type:                     RAIL;
         weight:                         10 ton;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
         length:                         4;
     }
 
@@ -88,7 +86,7 @@ item (FEAT_TRAINS, item_GCR_10t_Cattle_Van, 11406) {
         purchase:                       spriteset_GCR_10t_Cattle_Van_purchase;
         
         // internal code
-        cost_factor:                    404;
+        cost_factor:                    201;
         running_cost_factor:            385;
         cargo_subtype_text:             sw_GCR_10t_Cattle_Van_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;

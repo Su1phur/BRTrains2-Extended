@@ -188,7 +188,7 @@ item (FEAT_TRAINS, item_BR_TTA, 12203) {
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 45 * param_freight;
+        cargo_capacity:                 39 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;					
         running_cost_base:				RUNNING_COST_STEAM;				
@@ -210,8 +210,8 @@ item (FEAT_TRAINS, item_BR_TTA, 12203) {
         purchase:                       spriteset_BR_TTA_purchase;
 
         // internal code
-        cost_factor:                    1547;
-        running_cost_factor:            863;
+        cost_factor:                    704;
+        running_cost_factor:            843;
         cargo_subtype_text:             sw_BR_TTA_cargo_subtype_text; 
         // power:                          sw_power_BR_TTA;
         colour_mapping:                 return PALETTE_CC_FIRST;

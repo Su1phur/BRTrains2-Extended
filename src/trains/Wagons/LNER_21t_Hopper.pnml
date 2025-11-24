@@ -238,7 +238,7 @@ item (FEAT_TRAINS, item_LNER_21t_Hopper, 11801) {
         // cargo_allow_refit:               [PASS, TOUR];
         // cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 21 * param_freight;
+        cargo_capacity:                 11 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;						
@@ -260,10 +260,9 @@ item (FEAT_TRAINS, item_LNER_21t_Hopper, 11801) {
         purchase:                       spriteset_LNER_21t_Hopper_Grey_purchase;
         
         // internal code
-        cost_factor:                    788;
-        running_cost_factor:            543;
+        cost_factor:                    286;
+        running_cost_factor:            516;
         cargo_subtype_text:             sw_LNER_21t_Hopper_cargo_subtype_text; 
-        // colour_mapping:                 return PALETTE_CC_FIRST;
         colour_mapping:                 switch_generic_recolour;
         name:                           sw_name_LNER_21t_Hopper;
 

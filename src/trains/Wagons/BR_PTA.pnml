@@ -302,8 +302,8 @@ item (FEAT_TRAINS, item_BR_PTA, 12266) {
         purchase:                       sw_spritestack_BR_PTA_purchase;
         
         // internal code
-        cost_factor:                    2170;
-        running_cost_factor:            1370;
+        cost_factor:                    1239;
+        running_cost_factor:            1121;
         cargo_subtype_text:             sw_BR_PTA_cargo_subtype_text; 
         colour_mapping:                 switch_generic_recolour;
 

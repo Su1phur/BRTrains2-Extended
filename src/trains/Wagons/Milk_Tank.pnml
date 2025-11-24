@@ -174,8 +174,8 @@ item (FEAT_TRAINS, item_Milk_Tank, 11800) {
         purchase:                       spriteset_6_Wheeled_Milk_Tank_Purchase;
 
         // internal code
-        cost_factor:                    622;
-        running_cost_factor:            611;
+        cost_factor:                    310;
+        running_cost_factor:            609;
         cargo_subtype_text:             sw_Milk_Tank_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

@@ -185,7 +185,7 @@ item (FEAT_TRAINS, item_WD_50t_Warflat, 11802) {
         cargo_allow_refit:              [VBOD, VENG, VPTS ];
         cargo_disallow_refit:           [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 50 * param_freight;
+        cargo_capacity:                 32 * param_freight;
         loading_speed:					5;
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;						
@@ -207,8 +207,8 @@ item (FEAT_TRAINS, item_WD_50t_Warflat, 11802) {
         // purchase:                       sw_spritestack_WD_50t_Warflat_purchase; // For dual mode units
 
         // internal code
-        cost_factor:                    1408;
-        running_cost_factor:            621;
+        cost_factor:                    512;
+        running_cost_factor:            570;
         cargo_subtype_text:             sw_WD_50t_Warflat_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

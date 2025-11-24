@@ -346,9 +346,8 @@ switch(FEAT_TRAINS, SELF, sw_length_BR_MBA, position_in_articulated_veh % 3) {
 
 // graphics switch
 switch(FEAT_TRAINS, SELF, sw_graphics_BR_MBA, position_in_articulated_veh % 3) {
-	0: spriteset_empty;
 	1: return sw_BR_MBA_cargo_type;
-	2: spriteset_empty; }
+	    spriteset_empty; }
 
 // speed switch
 switch(FEAT_TRAINS, SELF, sw_speed_BR_MBA, param_max_speed) {
@@ -358,8 +357,7 @@ switch(FEAT_TRAINS, SELF, sw_speed_BR_MBA, param_max_speed) {
 
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_MBA, extra_callback_info1) {
-	1: return item_BR_MBA;
-	2: return item_BR_MBA;
+	1..2: return item_BR_MBA;
 		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
 
 
@@ -408,10 +406,9 @@ item (FEAT_TRAINS, item_BR_MBA, 12802) {
         length:                         sw_length_BR_MBA;
         articulated_part:               sw_articulated_BR_MBA;
         speed:                          sw_speed_BR_MBA() * 1609 / 1000;  
-        cost_factor:                    2549;
-        running_cost_factor:            1466;
+        cost_factor:                    1274;
+        running_cost_factor:            1340;
         cargo_subtype_text:             sw_BR_MBA_cargo_subtype_text; 
-        // power:                          sw_power_BR_MBA;
         colour_mapping:                 switch_generic_recolour;
 
         // purchase menu text

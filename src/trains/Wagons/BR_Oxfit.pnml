@@ -24,7 +24,7 @@ switch(FEAT_TRAINS, SELF, sw_livery_BR_Oxfit, cargo_subtype) {
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_BR_Oxfit_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_col_Bauxite);
+	0:	return string(STR_LIVERY_SHORT, string(str_col_Bauxite));
        return CB_RESULT_NO_TEXT; }
 
 // speed switch
@@ -46,10 +46,11 @@ item (FEAT_TRAINS, item_BR_Oxfit, 12255) {
         retire_early: 					-10;							
         reliability_decay: 				20;
         
-		// refittable_cargo_classes:        bitmask(CC_BULK, CC_PIECE_GOODS, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_COVERED, CC_OVERSIZED, CC_POWDERIZED, CC_NON_POURABLE, CC_NEO_BULK, CC_POTABLE, CC_NON_POTABLE);	
-        // non_refittable_cargo_classes:    bitmask();
+		refittable_cargo_classes:       bitmask(CC_LIQUID, CC_POTABLE);	
+        non_refittable_cargo_classes:   bitmask(CC_REFRIGERATED);
         cargo_allow_refit:              [LVST];
         // cargo_disallow_refit:            [LVST];
+        default_cargo_type:             LVST;
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         cargo_capacity:                 12 * param_freight;
         loading_speed:					5;
@@ -64,8 +65,6 @@ item (FEAT_TRAINS, item_BR_Oxfit, 12255) {
         track_type:                     RAIL;
         weight:                         8 ton;
         dual_headed:                    0;
-        air_drag_coefficient:           0.05;
-        tractive_effort_coefficient:    0.3;
         length:                         4;
     }
 
@@ -76,8 +75,8 @@ item (FEAT_TRAINS, item_BR_Oxfit, 12255) {
 
         // internal code
         speed:                          sw_speed_BR_Oxfit() * 1609 / 1000;  
-        cost_factor:                    703;
-        running_cost_factor:            704;
+        cost_factor:                    351;
+        running_cost_factor:            643;
         cargo_subtype_text:             sw_BR_Oxfit_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 

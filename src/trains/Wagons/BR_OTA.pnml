@@ -348,8 +348,8 @@ item (FEAT_TRAINS, item_BR_OTA, 12257) {
 
         // internal code
         speed:                          sw_speed_BR_OTA() * 1609 / 1000;  
-        cost_factor:                    1211;
-        running_cost_factor:            1045;
+        cost_factor:                    605;
+        running_cost_factor:            955;
         cargo_subtype_text:             sw_BR_OTA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
         // colour_mapping:                 switch_generic_recolour;

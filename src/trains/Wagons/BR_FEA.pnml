@@ -194,8 +194,8 @@ item (FEAT_TRAINS, item_BR_FEA, 12800) {
         // internal code
         length:                         sw_length_BR_FEA;
         articulated_part:               sw_articulated_BR_FEA;
-        cost_factor:                    2771;
-        running_cost_factor:            1372;
+        cost_factor:                    1385;
+        running_cost_factor:            1370;
         cargo_subtype_text:             sw_BR_FEA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
