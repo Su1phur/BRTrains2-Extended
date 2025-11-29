@@ -1023,8 +1023,8 @@ str_BR423_liveries				:BR Blue, BR Blue - Yellow Front, BR Blue Grey, NSE, SWT, 
 STR_NAME_BR423_9				:BR Class 423/9 "4-VOP"
 str_BR423_9_liveries			:Connex
 
-STR_NAME_BR432					:BR Class 432 "4-REP"
-str_BR432_liveries				:BR Blue Grey, Network SouthEast
+STR_NAME_BR432					:BR Class 432/430/441 "4-REP"
+str_BR432_liveries				:BR Blue, BR Blue Grey, Network SouthEast
 
 STR_NAME_BR438_3				:BR Class 438 "3-TC"
 str_BR438_3_liveries			:BR Blue Grey, Network SouthEast

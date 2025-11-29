@@ -122,6 +122,7 @@ sort(FEAT_TRAINS, [
         item_BR404_RES,
         item_BR404_BUF,
     item_BR415,
+    item_BR432,
     item_BR465,
         item_BR465_9,
     item_BR466,
