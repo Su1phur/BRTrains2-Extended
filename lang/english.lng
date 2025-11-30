@@ -1413,6 +1413,10 @@ str_BR_TTA_liveries             :Black, Blue, Green, Grey, Private Owners
 STR_NAME_BR_VAA                 :BR VAA/VBA/VCA Sliding Door Van
 str_BR_VAA_liveries             :BR Bauxite, BR Research Department, Railfreight, EWS, Private Owners
 
+STR_NAME_BR_VWV                 :BR VEV/VMV/VWV "Vanwide" Van
+STR_NAME_BR_VEA                 :BR VEA/VFA/ZSA "Vanwide" Van
+str_BR_VEA_liveries             :BR Bauxite, BR Olive, Railfreight, MoD
+
 STR_NAME_BR_VGA					:BR VGA/VKA Van
 str_BR_VGA_liveries				:Railfreight, EWS, DB Cargo
 
@@ -1721,6 +1725,7 @@ str_MRCrimson                   : (MR - Crimson)
 str_MMLBlue						: (Midland Mainline - Blue)
 str_MMLTealTang					: (Midland Mainline - Teal & Tangerine)
 str_Mobil                       : (Mobil)
+str_MoD                         : (Ministry of Defence)
 str_Murco                       : (Murco)
 str_NCB                         : (National Coal Board)
 str_NatEx						: (National Express)

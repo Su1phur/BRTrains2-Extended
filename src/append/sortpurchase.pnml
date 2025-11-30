@@ -223,5 +223,7 @@ sort(FEAT_TRAINS, [
     item_BR_TEA,
     item_BR_TTA,
     item_BR_VAA,
-    item_BR_VGA
+    item_BR_VEA,
+    item_BR_VGA,
+    item_BR_VWV
 ]);

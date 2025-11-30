@@ -78,6 +78,13 @@ switch(FEAT_TRAINS, SELF, sw_graphics_BR_VGA, position_in_articulated_veh % 3) {
 	1: return sw_livery_BR_VGA;
 	    spriteset_empty; }
 
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_BR_VGA, position_in_vehid_chain % 3) {
+    0: 26 * param_freight; // all the capacity - (vehid chain number)
+    1..2: 1 * param_freight;
+    // total 28
+}
+
 // articulation switch
 switch(FEAT_TRAINS, SELF, sw_articulated_BR_VGA, extra_callback_info1) {
 	1..2: return item_BR_VGA;
@@ -103,7 +110,7 @@ item (FEAT_TRAINS, item_BR_VGA, 12252) {
         // cargo_allow_refit:               [PASS, TOUR];
         cargo_disallow_refit:            [LVST];
         misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
-        cargo_capacity:                 13 * param_freight;
+        cargo_capacity:                 1;
         loading_speed:					5;
         cost_factor: 					108;
         running_cost_base:			    RUNNING_COST_STEAM;					
@@ -126,9 +133,10 @@ item (FEAT_TRAINS, item_BR_VGA, 12252) {
 
         // internal code
         articulated_part:               sw_articulated_BR_VGA;
-        purchase_cargo_capacity:        return (13 * param_freight); // divide by number of articulated parts and floor
-        cost_factor:                    849;
-        running_cost_factor:            1219;
+        purchase_cargo_capacity:        return (9 * param_freight); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_BR_VGA;
+        cost_factor:                    718;
+        running_cost_factor:            1184;
         cargo_subtype_text:             sw_BR_VGA_cargo_subtype_text; 
         colour_mapping:                 return PALETTE_CC_FIRST;
 
