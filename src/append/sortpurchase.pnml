@@ -112,6 +112,7 @@ sort(FEAT_TRAINS, [
     item_BR325,
     item_BR365,
         item_BR365_RB,
+    item_BR370,
     item_BR374,
         item_BR374_1,
     item_BR380_0,

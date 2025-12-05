@@ -885,7 +885,7 @@ str_BR365_liveries              :NSE, Connex, South East Trains, West Anglia Gre
 STR_NAME_APTE					:BR "APT-E" Prototype (4-car)
 str_APTE_liveries				:InterCity
 
-STR_NAME_BR370					:BR Class 370 "APT-P" Prototype (14-car)
+STR_NAME_BR370					:BR Class 370 "APT-P"
 str_BR370_liveries				:InterCity
 
 STR_NAME_370_TF					:BR Class 370 Trailing First
