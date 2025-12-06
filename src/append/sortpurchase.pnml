@@ -4,6 +4,8 @@ sort(FEAT_TRAINS, [
         item_GWR_2900_Straight,
     item_GWR_3100,
         item_GWR_3150,
+    item_GWR_4000_Early,
+        item_GWR_4000_Late,
     item_GWR_4300,
     item_GWR_5101,
         item_GWR_6100,

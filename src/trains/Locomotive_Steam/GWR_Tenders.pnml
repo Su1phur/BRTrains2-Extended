@@ -64,29 +64,42 @@ spriteset(spriteset_GWR_3500gal_GWR_Black, "gfx/Tender/GWR_3500gal/GWR_3500gal_G
     { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_3500gal_GWR_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_8bpp.png")
+spriteset(spriteset_GWR_3500gal_GWR_Black_COA, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_1x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Black_COA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_2x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Black_COA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Green_4x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Black_COA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Black_COA_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_3500gal_GWR_Lined_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_8bpp.png")
+spriteset(spriteset_GWR_3500gal_GWR_Lined_Green_COA, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_1x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_COA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_2x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_COA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_4x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_COA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_COA_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Lined_Green_Crest, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Crest_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprite
@@ -103,16 +116,68 @@ spriteset(spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest, "gfx/Tender/GWR_3500ga
     { template_58trains_4x(0,0) }
 
 // basic sprite
-spriteset(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_1x_8bpp.png")
+spriteset(spriteset_GWR_3500gal_GWR_Lined_Green_Shirtbutton, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_1x_8bpp.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_1x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_Shirtbutton, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_1x_mask.png")
     { template_58trains_1x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_2x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_Shirtbutton, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_2x_mask.png")
     { template_58trains_2x(0,0) }
 
-    alternative_sprites(spriteset_GWR_3500gal_GWR_Shirtbutton_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Shirtbutton_Green_4x_mask.png")
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Lined_Green_Shirtbutton, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Lined_Green_Shirtbutton_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Unlined_Green, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Unlined_Green_COA, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_COA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_COA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_COA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_COA_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Unlined_Green_No_Crest, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_No_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_No_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_No_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_No_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_3500gal_GWR_Unlined_Green_Shirtbutton, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_Shirtbutton, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_1x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_Shirtbutton, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_2x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_3500gal_GWR_Unlined_Green_Shirtbutton, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_GWR_Unlined_Green_Shirtbutton_4x_mask.png")
     { template_58trains_4x(0,0) }
 
 // basic sprite
@@ -126,4 +191,264 @@ spriteset(spriteset_GWR_3500gal_ROD_Khaki, "gfx/Tender/GWR_3500gal/GWR_3500gal_R
     { template_58trains_2x(0,0) }
 
     alternative_sprites(spriteset_GWR_3500gal_ROD_Khaki, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_3500gal/GWR_3500gal_ROD_Khaki_4x_32bpp.png", "gfx/Tender/GWR_3500gal/GWR_3500gal_ROD_Khaki_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BR_ExperimentalGreen, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_ExperimentalGreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_ExperimentalGreen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_ExperimentalGreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExperimentalGreen_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BR_ExpressBlue, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_ExpressBlue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_ExpressBlue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_ExpressBlue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_ExpressBlue_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BR_Transitional_Green, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_Transitional_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_Transitional_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BR_Transitional_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BR_Transitional_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BRBlack_Early_Emblem, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRBlack_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRBlack_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRBlack_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Early_Emblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BRBlack_Late_Crest, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRBlack_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRBlack_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRBlack_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRBlack_Late_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BRGreen_Early_Emblem, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRGreen_Early_Emblem, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRGreen_Early_Emblem, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRGreen_Early_Emblem, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Early_Emblem_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_BRGreen_Late_Crest, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRGreen_Late_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRGreen_Late_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_BRGreen_Late_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_BRGreen_Late_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+    
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Black, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Black_COA, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black_COA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black_COA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black_COA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_COA_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Black_Shirtbutton, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black_Shirtbutton, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black_Shirtbutton, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Black_Shirtbutton, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Black_Shirtbutton_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Lined_Green, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_COA, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_COA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_COA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_COA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_COA_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Crest, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_No_Crest, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_No_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_No_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_No_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_No_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Lined_Green_Shirtbutton_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_COA, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_COA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_COA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_COA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_COA_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_No_Crest_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_GWR_Unlined_Green_Shirtbutton_4x_mask.png")
+    { template_58trains_4x(0,0) }
+
+// basic sprite
+spriteset(spriteset_GWR_Collett_4000gal_Hogwarts_Red, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_1x_8bpp.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_Hogwarts_Red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_1x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_1x_mask.png")
+    { template_58trains_1x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_Hogwarts_Red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_2x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_2x_mask.png")
+    { template_58trains_2x(0,0) }
+
+    alternative_sprites(spriteset_GWR_Collett_4000gal_Hogwarts_Red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_4x_32bpp.png", "gfx/Tender/GWR_Collett_4000gal/GWR_Collett_4000gal_Hogwarts_Red_4x_mask.png")
     { template_58trains_4x(0,0) }

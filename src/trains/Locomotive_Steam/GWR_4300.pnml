@@ -134,24 +134,28 @@ switch(FEAT_TRAINS, SELF, sw_FX_GWR_4300_Steam, position_in_vehid_chain % 3) {
 // livery switch
 switch(FEAT_TRAINS, SELF, sw_livery_GWR_4300, cargo_subtype) {
     0: spriteset_GWR_4300_GWR_Chrome_Green;
-    1: spriteset_GWR_4300_GWR_Green;
-    2: spriteset_GWR_4300_GWR_Black;
-    3: spriteset_GWR_4300_BR_Lined_Black;
-    4: spriteset_GWR_4300_BR_Lined_Black;
-    5: spriteset_GWR_4300_GWR_Green;
-    6: spriteset_GWR_4300_GWR_Green;
-    7: spriteset_GWR_4300_ROD_Khaki;
+    1: spriteset_GWR_4300_GWR_Chrome_Green;
+    2: spriteset_GWR_4300_GWR_Green;
+    3: spriteset_GWR_4300_GWR_Green;
+    4: spriteset_GWR_4300_GWR_Black;
+    5: spriteset_GWR_4300_BR_Lined_Black;
+    6: spriteset_GWR_4300_BR_Lined_Black;
+    7: spriteset_GWR_4300_GWR_Green;
+    8: spriteset_GWR_4300_GWR_Green;
+    9: spriteset_GWR_4300_ROD_Khaki;
 }
 
 switch(FEAT_TRAINS, SELF, sw_livery_GWR_3500gal_4300, cargo_subtype) {
-    0: spriteset_GWR_3500gal_GWR_Lined_Green;
-    1: spriteset_GWR_3500gal_GWR_Green;
-    2: spriteset_GWR_3500gal_GWR_Black;
-    3: spriteset_GWR_3500gal_BRBlack_Early_Emblem;
-    4: spriteset_GWR_3500gal_BRBlack_Late_Crest;
-    5: spriteset_GWR_3500gal_BRGreen_Early_Emblem;
-    6: spriteset_GWR_3500gal_BRGreen_Late_Crest;
-    7: spriteset_GWR_3500gal_ROD_Khaki;
+    0: spriteset_GWR_3500gal_GWR_Lined_Green_Crest;
+    1: spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest;
+    2: spriteset_GWR_3500gal_GWR_Unlined_Green_Shirtbutton;
+    3: spriteset_GWR_3500gal_GWR_Unlined_Green;
+    4: spriteset_GWR_3500gal_GWR_Black;
+    5: spriteset_GWR_3500gal_BRBlack_Early_Emblem;
+    6: spriteset_GWR_3500gal_BRBlack_Late_Crest;
+    7: spriteset_GWR_3500gal_BRGreen_Early_Emblem;
+    8: spriteset_GWR_3500gal_BRGreen_Late_Crest;
+    9: spriteset_GWR_3500gal_ROD_Khaki;
 }
 
 // Animation sprite stacking
@@ -181,14 +185,16 @@ switch(FEAT_TRAINS, SELF, sw_graphics_GWR_4300, position_in_articulated_veh % 2)
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_4300_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_GWRGreenChrome);
-    1:  return string(str_GWRGreen);
-    2:  return string(str_GWRBlack);
-    3:  return string(str_BRPlainBlack_Early);
-    4:  return string(str_BRPlainBlack_Late);
-    5:  return string(str_BRGreen_Early);
-    6:  return string(str_BRGreen_Late);
-    7:  return string(str_ROD);
+	0:	return string(str_GWRGreen_LinedGC);
+    1:  return string(str_GWRGreen_LinedFull);
+    2:  return string(str_GWRGreen_LinedShirtbutton);
+    3:  return string(str_GWRGreen_Unlined);
+    4:  return string(str_GWRBlack);
+    5:  return string(str_BRPlainBlack_Early);
+    6:  return string(str_BRPlainBlack_Late);
+    7:  return string(str_BRGreen_Early);
+    8:  return string(str_BRGreen_Late);
+    9:  return string(str_ROD);
        return CB_RESULT_NO_TEXT;
 }
 

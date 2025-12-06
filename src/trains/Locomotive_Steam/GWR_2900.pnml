@@ -203,7 +203,7 @@ switch(FEAT_TRAINS, SELF, sw_animation_GWR_2900, motion_counter % 4) {
     2: spriteset_GWR_2900_Anim3;
     3: spriteset_GWR_2900_Anim4; }
 
-switch(FEAT_TRAINS, SELF, sw_FX_GWR_2900_Steam, position_in_vehid_chain % 3) {
+switch(FEAT_TRAINS, SELF, sw_FX_GWR_2900_Steam, position_in_vehid_chain % 2) {
     0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
     return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
@@ -234,10 +234,10 @@ switch(FEAT_TRAINS, SELF, sw_livery_GWR_2900_Straight, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_livery_GWR_3500gal_2900, cargo_subtype) {
-    0:  spriteset_GWR_3500gal_GWR_Lined_Green;
+    0:  spriteset_GWR_3500gal_GWR_Lined_Green_Crest;
     1:  spriteset_GWR_3500gal_GWR_Lined_Green_No_Crest;
-    2:  spriteset_GWR_3500gal_GWR_Shirtbutton_Green;
-    3:  spriteset_GWR_3500gal_GWR_Green;
+    2:  spriteset_GWR_3500gal_GWR_Lined_Green_Shirtbutton;
+    3:  spriteset_GWR_3500gal_GWR_Unlined_Green;
     4:  spriteset_GWR_3500gal_GWR_Black;
     5:  spriteset_GWR_3500gal_BRBlack_Early_Emblem;
     6:  spriteset_GWR_3500gal_BRBlack_Late_Crest;
@@ -280,10 +280,10 @@ switch(FEAT_TRAINS, SELF, sw_graphics_GWR_2900_Straight, position_in_articulated
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_2900_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_GWRGreen_GCLettering);
-    1:  return string(str_GWRGreen_Lined);
-    2:  return string(str_GWRGreen_Shirtbutton);
-    3:  return string(str_GWRGreen);
+	0:	return string(str_GWRGreen_LinedGC);
+    1:  return string(str_GWRGreen_LinedFull);
+    2:  return string(str_GWRGreen_LinedShirtbutton);
+    3:  return string(str_GWRGreen_Unlined);
     4:  return string(str_GWRBlack);
     5:  return string(str_BRPlainBlack_Early);
     6:  return string(str_BRPlainBlack_Late);

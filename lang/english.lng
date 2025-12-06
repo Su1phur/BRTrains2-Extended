@@ -364,6 +364,10 @@ STR_NAME_GWR_6100                   :GWR 6100 Class "Large Prairies"
 STR_NAME_GWR_8100                   :GWR 8100 Class "Large Prairies"
 str_GWR_Large_Prairie_liveries      :GWR Green, BR Green, BR Black
 
+STR_NAME_GWR_4000_Early             :GWR 4000 Class "Star" (Early)
+STR_NAME_GWR_4000_Late              :GWR 4000 Class "Star" (Late)
+str_GWR_4000_liveries               :GWR Green, GWR Black, BR Green, BR Black
+
 STR_NAME_GWR_4300                   :GWR 4300 Class
 str_GWR_4300_liveries               :GWR Green, GWR Black, BR Green, BR Black, ROD Khaki
 
@@ -1539,6 +1543,7 @@ str_BRProvincial                : (BR - Provincial)
 str_BRResearch                  : (BR - Research Department)
 str_BRRefurb                    : (BR - Refurbished)
 str_BRTransitionalBlack         : (BR - Transitional Black)
+str_BRTransitionalGreen         : (BR - Transitional Green)
 str_BRTransitionalRed           : (BR - Transitional Red)
 str_BRTest						: (BR - Track Test Train)
 str_BRWartime					: (BR - Wartime Black)
@@ -1658,11 +1663,20 @@ str_GNRGreen					: (GNR - Green)
 str_GNRTeak                     : (GNR - Teak)
 str_GWR                         : (GWR)
 str_GWRBlack                    : (GWR - Black)
+str_GWRBlack_COA                : (GWR - Black, Coat of Arms)
+str_GWRBlack_Shirtbutton        : (GWR - Black, Shirtbutton)
 str_GWRGreen                    : (GWR - Green)
 str_GWRGreenChrome				: (GWR - Chrome Green)
-str_GWRGreen_GCLettering        : (GWR - Green with Garter Crest)
 str_GWRGreen_Lined              : (GWR - Lined Green)
-str_GWRGreen_Shirtbutton        : (GWR - Green with Shirtbutton)
+str_GWRGreen_LinedCOA           : (GWR - Lined Green, Coat of Arms)
+str_GWRGreen_LinedGC            : (GWR - Lined Green, Garter Crest)
+str_GWRGreen_LinedFull          : (GWR - Lined Green, full lettering)
+str_GWRGreen_LinedShirtbutton   : (GWR - Lined Green, Shirtbutton)
+str_GWRGreen_Unlined            : (GWR - Unlined Green)
+str_GWRGreen_UnlinedCOA         : (GWR - Unlined Green, Coat of Arms)
+str_GWRGreen_UnlinedGC          : (GWR - Unlined Green, Garter Crest)
+str_GWRGreen_UnlinedFull        : (GWR - Unlined Green, full lettering)
+str_GWRGreen_UnlinedShirtbutton : (GWR - Unlined Green, Shirtbutton)
 str_GWRPride                    : (GWR - Pride)
 str_GWRGreenUn					: (GWR - Green Unbranded)
 str_GWT                         : (Great Western Trains)

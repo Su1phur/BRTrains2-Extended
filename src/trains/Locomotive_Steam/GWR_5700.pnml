@@ -278,8 +278,8 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_5700, [STORE_TEMP((getbits(extra_ca
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_5700_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_GWRGreenChrome);
-    1:  return string(str_GWRGreen);
+	0:	return string(str_GWRGreen_Unlined);
+    1:  return string(str_GWRGreen_UnlinedFull);
     2:  return string(str_GWRBlack);
     3:  return string(str_BRGreen_Early);
     4:  return string(str_BRGreen_Late);
@@ -372,8 +372,8 @@ switch(FEAT_TRAINS, SELF, sw_spritestack_GWR_6400, [STORE_TEMP((getbits(extra_ca
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_6400_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_GWRGreenChrome);
-    1:  return string(str_GWRGreen);
+	0:	return string(str_GWRGreen_Unlined);
+    1:  return string(str_GWRGreen_UnlinedFull);
     2:  return string(str_GWRBlack);
     3:  return string(str_BRGreen_Early);
     4:  return string(str_BRGreen_Late);

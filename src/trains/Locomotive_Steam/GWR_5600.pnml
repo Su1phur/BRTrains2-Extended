@@ -171,8 +171,8 @@ switch(FEAT_TRAINS, SELF, sw_livery_GWR_5600, cargo_subtype) {
 
 // livery name refit switch
 switch(FEAT_TRAINS, SELF, sw_GWR_5600_cargo_subtype_text, cargo_subtype){
-	0:	return string(str_GWRGreenChrome);
-    1:  return string(str_GWRGreen);
+	0:	return string(str_GWRGreen_Unlined);
+    1:  return string(str_GWRGreen_UnlinedFull);
     2:  return string(str_GWRBlack);
     3:  return string(str_BRGreen_Early);
     4:  return string(str_BRGreen_Late);
