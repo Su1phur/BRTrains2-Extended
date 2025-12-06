@@ -141,7 +141,9 @@ sort(FEAT_TRAINS, [
     item_BR756_0,
         item_BR756_1,
     // Generic Coaches
-    item_Evol_Clerestory_T,
+    item_Evol_Header,
+        item_Evol_Arc_T,
+        item_Evol_Clerestory_T,
     // GWR Coaches
     item_GWR_TK_C24,
     // LNER Pre-Grouping Coaches

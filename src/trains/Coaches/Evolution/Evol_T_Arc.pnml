@@ -1,0 +1,341 @@
+switch(FEAT_TRAINS, PARENT, sw_Evol_T_purchase_sprite, current_year) {
+    1800..1924: spriteset_Evol_T_Mahogany_Loaded_purchase;
+    1924..1948: spriteset_Evol_T_Teak_Loaded_purchase;
+    1948..1968: spriteset_Evol_T_Maroon_Loaded_purchase;
+        spriteset_Evol_T_Teak_Loaded_purchase; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_BnC_Loaded, "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_BnC_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_BnC_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_BnC_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_BnC_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_BnC_Loading, "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_BnC_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_BnC_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_BnC_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_BnC_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_BnC_Loading {  
+    loaded: [spriteset_Evol_T_BnC_Loaded];
+    loading: [spriteset_Evol_T_BnC_Loading]; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_Cream_Loaded, "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Cream_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Cream_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Cream_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Cream_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_Cream_Loading, "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Cream_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Cream_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Cream_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Cream_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_Cream_Loading {  
+    loaded: [spriteset_Evol_T_Cream_Loaded];
+    loading: [spriteset_Evol_T_Cream_Loading]; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_Mahogany_Loaded, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Mahogany_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Mahogany_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Mahogany_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_Mahogany_Loading, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Mahogany_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Mahogany_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Mahogany_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Mahogany_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_Mahogany_Loading {  
+    loaded: [spriteset_Evol_T_Mahogany_Loaded];
+    loading: [spriteset_Evol_T_Mahogany_Loading]; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_Maroon_Loaded, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Maroon_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Maroon_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Maroon_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Maroon_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_Maroon_Loading, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Maroon_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Maroon_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Maroon_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Maroon_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_Maroon_Loading {  
+    loaded: [spriteset_Evol_T_Maroon_Loaded];
+    loading: [spriteset_Evol_T_Maroon_Loading]; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_Olive_Loaded, "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Olive_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Olive_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Olive_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Olive_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_Olive_Loading, "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Olive_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Olive_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Olive_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Olive_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_Olive_Loading {  
+    loaded: [spriteset_Evol_T_Olive_Loaded];
+    loading: [spriteset_Evol_T_Olive_Loading]; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_Sage_Loaded, "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Sage_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Sage_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Sage_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Sage_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_Sage_Loading, "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Sage_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Sage_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Sage_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Sage_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_Sage_Loading {  
+    loaded: [spriteset_Evol_T_Sage_Loaded];
+    loading: [spriteset_Evol_T_Sage_Loading]; }
+
+// basic sprite
+spriteset(spriteset_Evol_T_Teak_Loaded, "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Teak_Loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Teak_Loaded, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Teak_Loaded, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Teak_Loaded_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+spriteset(spriteset_Evol_T_Teak_Loading, "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_1x_8bpp.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Teak_Loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_1x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_1x_mask.png")
+    { template_98trains_1x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Teak_Loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_2x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_2x_mask.png")
+    { template_98trains_2x(0,0) }
+
+    alternative_sprites(spriteset_Evol_T_Teak_Loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_4x_32bpp.png", "gfx/Coaches/Evol_T/Evol_T_Teak_Loading_4x_mask.png")
+    { template_98trains_4x(0,0) }
+
+// loading sprite
+spritegroup spritegroup_Evol_T_Teak_Loading {  
+    loaded: [spriteset_Evol_T_Teak_Loaded];
+    loading: [spriteset_Evol_T_Teak_Loading]; }
+
+switch(FEAT_TRAINS, SELF, sw_spritestack_Evol_Arc_T_purchase, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: sw_Evol_Base_Arc_purchase_sprite;
+    1: sw_Evol_T_purchase_sprite; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_BnC, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_BnC_Base;
+    1: spritegroup_Evol_T_BnC_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_Cream, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_Cream_Base;
+    1: spritegroup_Evol_T_Cream_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_Mahogany, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_Mahogany_Base;
+    1: spritegroup_Evol_T_Mahogany_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_Maroon, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_Maroon_Base;
+    1: spritegroup_Evol_T_Maroon_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_Olive, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_Olive_Base;
+    1: spritegroup_Evol_T_Olive_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_Sage, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_Sage_Base;
+    1: spritegroup_Evol_T_Sage_Loading; }
+
+switch(FEAT_TRAINS, SELF, sw_loadstack_Evol_Arc_T_Teak, [ STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8) ] ) {
+    0: spriteset_Evol_Arc_Teak_Base;
+    1: spritegroup_Evol_T_Teak_Loading; }
+
+// livery switch
+switch(FEAT_TRAINS, SELF, sw_livery_Evol_Arc_T, cargo_subtype) {
+    0: sw_loadstack_Evol_Arc_T_Mahogany;
+    1: sw_loadstack_Evol_Arc_T_Teak;
+    2: sw_loadstack_Evol_Arc_T_Cream;
+    3: sw_loadstack_Evol_Arc_T_Maroon;
+    4: sw_loadstack_Evol_Arc_T_Olive;
+    5: sw_loadstack_Evol_Arc_T_Sage;
+    6: sw_loadstack_Evol_Arc_T_BnC; }
+
+// livery name refit switch
+switch(FEAT_TRAINS, SELF, sw_Evol_Arc_T_cargo_subtype_text, cargo_subtype){
+	0:	return string(STR_LIVERY_SHORT, string(str_col_Mahogany));
+    1: 	return string(STR_LIVERY_SHORT, string(str_col_Teak));
+    2: 	return string(STR_LIVERY_SHORT, string(str_col_Cream));
+    3: 	return string(STR_LIVERY_SHORT, string(str_col_Maroon));
+    4: 	return string(STR_LIVERY_SHORT, string(str_col_Olive));
+    5: 	return string(STR_LIVERY_SHORT, string(str_col_Sage));
+    6:  return string(str_BRCarmCream);
+       return CB_RESULT_NO_TEXT; }
+
+// graphics switch
+switch(FEAT_TRAINS, SELF, sw_graphics_Evol_Arc_T, position_in_articulated_veh % 3) {
+	1: return sw_livery_Evol_Arc_T;
+	    spriteset_empty; }
+
+// capacity switch
+switch(FEAT_TRAINS, SELF, sw_capacity_Evol_Arc_T, position_in_vehid_chain % 3) {
+    0: 54 * param_pax; // all the capacity - (vehid chain number)
+    1..2: 1 * param_pax; 
+    // total 56
+}
+
+// articulation switch
+switch(FEAT_TRAINS, SELF, sw_articulated_Evol_Arc_T, extra_callback_info1) {
+	1..2: return item_Evol_Arc_T; 
+		return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }
+
+// unit definition
+item (FEAT_TRAINS, item_Evol_Arc_T, 11207) {
+    property {
+        // common properties
+        name:                           string(STR_NAME_Evol_Arc_T);
+        variant_group:                  item_Evol_Header; // unit ID or item
+		// extra_flags:                    bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1880,01,01); 
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 					40;
+        retire_early: 					-10;							
+        reliability_decay: 				20;
+        
+		refittable_cargo_classes:       bitmask(CC_PASSENGERS);// non_refittable_cargo_classes:    bitmask();
+        cargo_allow_refit:              [PASS, TOUR];
+        // cargo_disallow_refit:        [LVST];
+        misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+        cargo_capacity:                 1;
+        loading_speed:                  12; // Composite, Compartment Stock
+        cost_factor: 					108;
+        running_cost_base:			    RUNNING_COST_STEAM;					
+        running_cost_factor: 			90;
+
+        //specific properties
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        speed:                          80 mph;
+        refit_cost:                     0;
+        track_type:                     RAIL;
+        weight:                         20 ton;
+        dual_headed:                    0;
+        length:                         3;
+    }
+
+    graphics {
+        // graphics
+        default:                        sw_graphics_Evol_Arc_T;
+        purchase:                       sw_Evol_Header_purchase_sprite;
+
+        // internal code
+        articulated_part:               sw_articulated_Evol_Arc_T;
+        purchase_cargo_capacity:        return (18 * param_pax); // divide by number of articulated parts and floor
+        cargo_capacity:                 sw_capacity_Evol_Arc_T;
+        cost_factor:                    619;
+        running_cost_factor:            692;
+        cargo_subtype_text:             sw_Evol_Arc_T_cargo_subtype_text; 
+        colour_mapping:                 return PALETTE_CC_FIRST;
+
+        // purchase menu text
+        additional_text:                return( string(str_purchase_coach,
+                                                    string(str_coach_T),
+                                                    string(str_Evolution_liveries)));
+    }
+}
+

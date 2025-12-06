@@ -1134,6 +1134,9 @@ str_BR800_liveries				:Hitachi, GWR
 str_Evolution_liveries          :Mahogany, Teak, Chocolate and Cream, Maroon, Olive, Sage, Carmine and Cream
 
 STR_NAME_Evol_Header			:Generic 48' Coaches
+
+STR_NAME_Evol_Arc_T             :Generic 48' Arc Coach T 
+
 STR_NAME_Evol_Clerestory_T      :Generic 48' Clerestory Coach T
 
 
