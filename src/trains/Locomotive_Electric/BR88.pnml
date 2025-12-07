@@ -140,7 +140,7 @@ item (FEAT_TRAINS, item_BR88, 8800) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          100 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, ELRL];
         power:                          940 hp;
         weight:                         86 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

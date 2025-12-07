@@ -350,7 +350,7 @@ item (FEAT_TRAINS, item_BR710_1_2, 7100) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          75 mph;
         refit_cost:                     0;
-        track_type:                     BR_3RDC; // custom track type defined
+        track_type:                     [ELRL, BR_3RDR]; // custom track type defined
         power:                          2480 hp;
         weight:                         151 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -422,7 +422,7 @@ item (FEAT_TRAINS, item_BR710_3, 7103) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          75 mph;
         refit_cost:                     0;
-        track_type:                     BR_3RDC; // custom track type defined
+        track_type:                     [ELRL, BR_3RDR]; // custom track type defined
         power:                          3100 hp;
         weight:                         182 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

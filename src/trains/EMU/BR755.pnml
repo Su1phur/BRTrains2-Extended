@@ -755,7 +755,7 @@ item (FEAT_TRAINS, item_BR755_3, 7550) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          100 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, ELRL];
         power:                          1290 hp;
         weight:                         98 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -900,7 +900,7 @@ item (FEAT_TRAINS, item_BR755_4, 7551) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          100 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, ELRL];
         power:                          2570 hp;
         weight:                         114 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -997,7 +997,7 @@ item (FEAT_TRAINS, item_BR756_0, 7560) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          75 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, ELRL];
         power:                          640 hp;
         weight:                         98 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -1082,7 +1082,7 @@ item (FEAT_TRAINS, item_BR756_1, 7561) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          75 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, ELRL];
         power:                          640 hp;
         weight:                         114 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

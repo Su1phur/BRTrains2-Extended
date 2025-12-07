@@ -3,6 +3,5 @@ railtypetable {
 	ELRL: [SAAA, SAAE, ELRL],	// 25kV AC OH
 	BR_15OH: [SAAd, SAAD, SAAA, SAAE, ELRL], //1.5kV DC OH
 	BR_3RDR: [SAA3, "3RDR", ELRL], // 3rd Rail
-	BR_3RDC: [SAAZ, "3RDC", SAA3, "3RDR", SAAA, SAAE, ELRL], // 3rd Rail and/or Catenary
 	BR_4RDR: [SAA4, SAA3, MTRO, ELRL], // 4th rail
 }

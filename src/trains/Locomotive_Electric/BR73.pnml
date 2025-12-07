@@ -214,7 +214,7 @@ item (FEAT_TRAINS, item_BR73_0, 7300) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          80 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, BR_3RDR];
         power:                          600 hp;
         weight:                         78 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -425,7 +425,7 @@ item (FEAT_TRAINS, item_BR73_1, 7310) {
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         speed:                          90 mph;
         refit_cost:                     0;
-        track_type:                     RAIL;
+        track_type:                     [RAIL, BR_3RDR];
         power:                          600 hp;
         weight:                         78 ton;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
